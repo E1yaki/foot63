@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40728_38101_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "G",
+ "poule_label": "Poule G",
+ "start": "2026-09-19T14:00",
+ "lieu": "ENNEZAT - STADE PAUL MOSNIER",
+ "organisateur": "ENNEZAT U.S.",
+ "equipes": [
+  "F.C. CHATEL GUYON 2",
+  "VAL DE SIOULE FOOT 2",
+  "FOOTBALL CLUB GERZAT 1",
+  "U.S. ENNEZAT 2"
+ ],
+ "logos": {
+  "F.C. CHATEL GUYON 2": "logos/BC520289.jpg",
+  "VAL DE SIOULE FOOT 2": "logos/BC582409.jpg",
+  "FOOTBALL CLUB GERZAT 1": "logos/BC564880.jpg",
+  "U.S. ENNEZAT 2": "logos/BC506501.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. CHATEL GUYON 2",
+   "away": "FOOTBALL CLUB GERZAT 1",
+   "hs": 2,
+   "as": 5
+  },
+  {
+   "home": "F.C. CHATEL GUYON 2",
+   "away": "U.S. ENNEZAT 2",
+   "hs": 3,
+   "as": 2
+  },
+  {
+   "home": "FOOTBALL CLUB GERZAT 1",
+   "away": "VAL DE SIOULE FOOT 2",
+   "hs": 7,
+   "as": 0
+  },
+  {
+   "home": "U.S. ENNEZAT 2",
+   "away": "VAL DE SIOULE FOOT 2",
+   "hs": 2,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T07:02:04Z",
+ "last_change": "2026-09-21T07:02:04Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ENNEZAT - STADE PAUL MOSNIER",
+   "matchs": [
+    {
+     "home": "FOOTBALL CLUB GERZAT 1",
+     "away": "VAL DE SIOULE FOOT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "U.S. ENNEZAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "FOOTBALL CLUB GERZAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ENNEZAT 2",
+     "away": "VAL DE SIOULE FOOT 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T07:02:04Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ENNEZAT - STADE PAUL MOSNIER",
+   "matchs": [
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "FOOTBALL CLUB GERZAT 1",
+     "hs": 2,
+     "as": 5
+    },
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "U.S. ENNEZAT 2",
+     "hs": 3,
+     "as": 2
+    },
+    {
+     "home": "FOOTBALL CLUB GERZAT 1",
+     "away": "VAL DE SIOULE FOOT 2",
+     "hs": 7,
+     "as": 0
+    },
+    {
+     "home": "U.S. ENNEZAT 2",
+     "away": "VAL DE SIOULE FOOT 2",
+     "hs": 2,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

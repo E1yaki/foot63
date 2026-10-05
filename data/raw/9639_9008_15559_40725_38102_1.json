@@ -1,0 +1,90 @@
+{
+ "id": "9639_9008_15559_40725_38102_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "D",
+ "poule_label": "Poule D",
+ "start": "2026-10-03T14:00",
+ "lieu": "BLOT L EGLISE - STADE MUNICIPAL",
+ "organisateur": "ENTENTE CHARBLOT",
+ "equipes": [
+  "ENTENTE CHARBLOT 1",
+  "CLERMONT ACADEMY 1",
+  "CLERMONT FOOT 63 5",
+  "GJ SCB FOOT 2"
+ ],
+ "logos": {
+  "ENTENTE CHARBLOT 1": "logos/BC582290.jpg",
+  "CLERMONT ACADEMY 1": "logos/BC565247.jpg",
+  "CLERMONT FOOT 63 5": "logos/BC535789.jpg",
+  "GJ SCB FOOT 2": "logos/BC560516.jpg"
+ },
+ "matchs": [
+  {
+   "home": "CLERMONT ACADEMY 1",
+   "away": "CLERMONT FOOT 63 5",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "CLERMONT ACADEMY 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "GJ SCB FOOT 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "GJ SCB FOOT 2",
+   "away": "CLERMONT FOOT 63 5",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "BLOT L EGLISE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "CLERMONT ACADEMY 1",
+     "away": "CLERMONT FOOT 63 5",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "CLERMONT ACADEMY 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "GJ SCB FOOT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GJ SCB FOOT 2",
+     "away": "CLERMONT FOOT 63 5",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

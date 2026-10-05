@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40730_34064_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "I",
+ "poule_label": "Poule I",
+ "start": "2026-09-12T11:00",
+ "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+ "organisateur": "VIC LE COMTE U.S.",
+ "equipes": [
+  "S.A. THIERNOIS 2",
+  "F.C. PLAUZAT-CHAMPEIX 2",
+  "F.C. PLAUZAT-CHAMPEIX 1",
+  "U.S. VIC LE COMTE 3"
+ ],
+ "logos": {
+  "S.A. THIERNOIS 2": "logos/BC508776.jpg",
+  "F.C. PLAUZAT-CHAMPEIX 2": "logos/BC529886.jpg",
+  "F.C. PLAUZAT-CHAMPEIX 1": "logos/BC529886.jpg",
+  "U.S. VIC LE COMTE 3": "logos/BC506559.jpg"
+ },
+ "matchs": [
+  {
+   "home": "S.A. THIERNOIS 2",
+   "away": "U.S. VIC LE COMTE 3",
+   "hs": 10,
+   "as": 0
+  },
+  {
+   "home": "F.C. PLAUZAT-CHAMPEIX 1",
+   "away": "S.A. THIERNOIS 2",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "F.C. PLAUZAT-CHAMPEIX 1",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": 2,
+   "as": 0
+  },
+  {
+   "home": "F.C. PLAUZAT-CHAMPEIX 2",
+   "away": "U.S. VIC LE COMTE 3",
+   "hs": 5,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T11:00",
+   "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+   "matchs": [
+    {
+     "home": "S.A. THIERNOIS 2",
+     "away": "U.S. VIC LE COMTE 3",
+     "hs": 10,
+     "as": 0
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 1",
+     "away": "S.A. THIERNOIS 2",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": 2,
+     "as": 0
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 2",
+     "away": "U.S. VIC LE COMTE 3",
+     "hs": 5,
+     "as": 1
+    }
+   ]
+  }
+ ]
+}

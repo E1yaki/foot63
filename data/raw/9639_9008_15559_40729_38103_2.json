@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40729_38103_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "H",
+ "poule_label": "Poule H",
+ "start": "2026-10-10T14:00",
+ "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+ "organisateur": "CEBAZAT SP.",
+ "equipes": [
+  "FOOTBALL CLUB GERZAT 2",
+  "CEBAZAT SP. 2",
+  "GROUPEMENT FORMATEUR LIMAGNE 2",
+  "U.S. ENNEZAT 1"
+ ],
+ "logos": {
+  "FOOTBALL CLUB GERZAT 2": "logos/BC564880.jpg",
+  "CEBAZAT SP. 2": "logos/BC510828.jpg",
+  "GROUPEMENT FORMATEUR LIMAGNE 2": "logos/BC554404.jpg",
+  "U.S. ENNEZAT 1": "logos/BC506501.jpg"
+ },
+ "matchs": [
+  {
+   "home": "CEBAZAT SP. 2",
+   "away": "FOOTBALL CLUB GERZAT 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. ENNEZAT 1",
+   "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "CEBAZAT SP. 2",
+   "away": "U.S. ENNEZAT 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "FOOTBALL CLUB GERZAT 2",
+   "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+   "matchs": [
+    {
+     "home": "CEBAZAT SP. 2",
+     "away": "FOOTBALL CLUB GERZAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ENNEZAT 1",
+     "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CEBAZAT SP. 2",
+     "away": "U.S. ENNEZAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB GERZAT 2",
+     "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

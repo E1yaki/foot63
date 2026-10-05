@@ -1,0 +1,133 @@
+{
+ "id": "cup459205_1_11_1",
+ "cat": "u13-festival",
+ "cat_label": null,
+ "phase": 1,
+ "phase_label": "1ER TOUR",
+ "poule": "11",
+ "poule_label": "POULE 11",
+ "start": "2026-09-26T00:00",
+ "heure_connue": false,
+ "lieu": "",
+ "organisateur": "",
+ "equipes": [
+  "F.C. BLANZAT 1",
+  "F.C. NORD COMBRAILLE 2",
+  "U.S. MOZAC 1"
+ ],
+ "logos": {
+  "NORD COMBRAILLE": "https://cdn-transverse.azureedge.net/phlogos/BC547675.jpg",
+  "F.C. BLANZAT": "https://cdn-transverse.azureedge.net/phlogos/BC533382.jpg",
+  "MOZAC US": "https://cdn-transverse.azureedge.net/phlogos/BC521724.jpg",
+  "NORD COMBRAILLE 2": "https://cdn-transverse.azureedge.net/phlogos/BC547675.jpg",
+  "BLANZAT F.C.": "https://cdn-transverse.azureedge.net/phlogos/BC533382.jpg",
+  "MOZAC U.S.": "https://cdn-transverse.azureedge.net/phlogos/BC521724.jpg",
+  "F.C. NORD COMBRAILLE 2": "https://cdn-transverse.azureedge.net/phlogos/BC547675.jpg",
+  "F.C. BLANZAT 1": "https://cdn-transverse.azureedge.net/phlogos/BC533382.jpg",
+  "U.S. MOZAC 1": "https://cdn-transverse.azureedge.net/phlogos/BC521724.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. NORD COMBRAILLE 2",
+   "away": "F.C. BLANZAT 1",
+   "hs": 1,
+   "as": 1
+  },
+  {
+   "home": "F.C. NORD COMBRAILLE 2",
+   "away": "U.S. MOZAC 1",
+   "hs": 0,
+   "as": 2
+  },
+  {
+   "home": "F.C. BLANZAT 1",
+   "away": "U.S. MOZAC 1",
+   "hs": 1,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "glyph_fps": [],
+ "mini": {},
+ "first_seen": "2026-09-27T11:44:39Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-10-04T09:10:44Z",
+ "history": [
+  {
+   "ts": "2026-09-27T11:44:39Z",
+   "start": "2026-09-26T00:00",
+   "lieu": "",
+   "matchs": [
+    {
+     "home": "NORD COMBRAILLE",
+     "away": "F.C. BLANZAT",
+     "hs": 1,
+     "as": 1
+    },
+    {
+     "home": "NORD COMBRAILLE",
+     "away": "MOZAC US",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "F.C. BLANZAT",
+     "away": "MOZAC US",
+     "hs": 1,
+     "as": 1
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-28T08:42:51Z",
+   "start": "2026-09-26T00:00",
+   "lieu": "",
+   "matchs": [
+    {
+     "home": "NORD COMBRAILLE 2",
+     "away": "BLANZAT F.C.",
+     "hs": 1,
+     "as": 1
+    },
+    {
+     "home": "NORD COMBRAILLE 2",
+     "away": "MOZAC U.S.",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "BLANZAT F.C.",
+     "away": "MOZAC U.S.",
+     "hs": 1,
+     "as": 1
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:10:44Z",
+   "start": "2026-09-26T00:00",
+   "lieu": "",
+   "matchs": [
+    {
+     "home": "F.C. NORD COMBRAILLE 2",
+     "away": "F.C. BLANZAT 1",
+     "hs": 1,
+     "as": 1
+    },
+    {
+     "home": "F.C. NORD COMBRAILLE 2",
+     "away": "U.S. MOZAC 1",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "F.C. BLANZAT 1",
+     "away": "U.S. MOZAC 1",
+     "hs": 1,
+     "as": 1
+    }
+   ]
+  }
+ ]
+}

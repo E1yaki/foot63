@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40728_38101_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "G",
+ "poule_label": "Poule G",
+ "start": "2026-09-19T14:00",
+ "lieu": "LEMPDES - PLAINE DE JEUX DU MARAIS 1",
+ "organisateur": "LEMPDES SP.",
+ "equipes": [
+  "F.C. RIOMOIS 3",
+  "CLERMONT FOOT 63 4",
+  "A. OUVOIMOJA 1",
+  "LEMPDES SP. 2"
+ ],
+ "logos": {
+  "F.C. RIOMOIS 3": "logos/BC508772.jpg",
+  "CLERMONT FOOT 63 4": "logos/BC535789.jpg",
+  "A. OUVOIMOJA 1": "logos/BC551537.jpg",
+  "LEMPDES SP. 2": "logos/BC518527.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. RIOMOIS 3",
+   "away": "LEMPDES SP. 2",
+   "hs": 4,
+   "as": 0
+  },
+  {
+   "home": "CLERMONT FOOT 63 4",
+   "away": "F.C. RIOMOIS 3",
+   "hs": 2,
+   "as": 3
+  },
+  {
+   "home": "CLERMONT FOOT 63 4",
+   "away": "A. OUVOIMOJA 1",
+   "hs": 2,
+   "as": 1
+  },
+  {
+   "home": "A. OUVOIMOJA 1",
+   "away": "LEMPDES SP. 2",
+   "hs": 6,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T13:22:17Z",
+ "last_change": "2026-09-21T13:22:17Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "LEMPDES - PLAINE DE JEUX DU MARAIS 1",
+   "matchs": [
+    {
+     "home": "F.C. RIOMOIS 3",
+     "away": "LEMPDES SP. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. OUVOIMOJA 1",
+     "away": "LEMPDES SP. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLERMONT FOOT 63 4",
+     "away": "A. OUVOIMOJA 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLERMONT FOOT 63 4",
+     "away": "F.C. RIOMOIS 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T13:22:17Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "LEMPDES - PLAINE DE JEUX DU MARAIS 1",
+   "matchs": [
+    {
+     "home": "F.C. RIOMOIS 3",
+     "away": "LEMPDES SP. 2",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "CLERMONT FOOT 63 4",
+     "away": "F.C. RIOMOIS 3",
+     "hs": 2,
+     "as": 3
+    },
+    {
+     "home": "CLERMONT FOOT 63 4",
+     "away": "A. OUVOIMOJA 1",
+     "hs": 2,
+     "as": 1
+    },
+    {
+     "home": "A. OUVOIMOJA 1",
+     "away": "LEMPDES SP. 2",
+     "hs": 6,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

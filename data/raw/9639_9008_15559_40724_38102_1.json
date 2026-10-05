@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40724_38102_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-10-03T14:00",
+ "lieu": "LIMONS - STADE GINETTE TIXIER",
+ "organisateur": "GROUPEMENT DORE ALLI",
+ "equipes": [
+  "GROUPEMENT DORE ALLIER FOOTBALL 1",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+  "FOOTBALL CLUB PUY DE MUR 1",
+  "PERIGNAT F.C. 1"
+ ],
+ "logos": {
+  "GROUPEMENT DORE ALLIER FOOTBALL 1": "logos/BC564204.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3": "logos/BC564515.jpg",
+  "FOOTBALL CLUB PUY DE MUR 1": "logos/BC564682.jpg",
+  "PERIGNAT F.C. 1": "logos/BC546837.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+   "away": "FOOTBALL CLUB PUY DE MUR 1",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+   "away": "PERIGNAT F.C. 1",
+   "hs": 5,
+   "as": 0
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 1",
+   "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "hs": 4,
+   "as": 0
+  },
+  {
+   "home": "PERIGNAT F.C. 1",
+   "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "hs": 3,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T16:40:42Z",
+ "last_change": "2026-10-04T16:40:42Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "LIMONS - STADE GINETTE TIXIER",
+   "matchs": [
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 1",
+     "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+     "away": "PERIGNAT F.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "PERIGNAT F.C. 1",
+     "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T16:40:42Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "LIMONS - STADE GINETTE TIXIER",
+   "matchs": [
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+     "away": "PERIGNAT F.C. 1",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 1",
+     "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "PERIGNAT F.C. 1",
+     "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "hs": 3,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

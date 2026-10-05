@@ -1,0 +1,119 @@
+{
+ "id": "9639_9008_15559_40731_34064_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "J",
+ "poule_label": "Poule J",
+ "start": "2026-09-12T14:00",
+ "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+ "organisateur": "THIERS SA",
+ "equipes": [
+  "FOOTBALL CLUB PUY DE MUR 2",
+  "S.A. THIERNOIS 3",
+  "U.S. MARINGUOISE 1",
+  "R. S. LUZILLAT CHARNAT VINZELLES 1"
+ ],
+ "logos": {
+  "FOOTBALL CLUB PUY DE MUR 2": "logos/BC564682.jpg",
+  "S.A. THIERNOIS 3": "logos/BC508776.jpg",
+  "U.S. MARINGUOISE 1": "logos/BC506518.jpg",
+  "R. S. LUZILLAT CHARNAT VINZELLES 1": "logos/BC582673.jpg"
+ },
+ "matchs": [
+  {
+   "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+   "away": "FOOTBALL CLUB PUY DE MUR 2",
+   "hs": 0,
+   "as": 8
+  },
+  {
+   "home": "U.S. MARINGUOISE 1",
+   "away": "S.A. THIERNOIS 3",
+   "hs": 4,
+   "as": 7
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 2",
+   "away": "S.A. THIERNOIS 3",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+   "away": "U.S. MARINGUOISE 1",
+   "hs": 0,
+   "as": 4
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:18:59Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+   "matchs": [
+    {
+     "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 2",
+     "hs": 0,
+     "as": null
+    },
+    {
+     "home": "U.S. MARINGUOISE 1",
+     "away": "S.A. THIERNOIS 3",
+     "hs": 4,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "S.A. THIERNOIS 3",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "away": "U.S. MARINGUOISE 1",
+     "hs": 0,
+     "as": 4
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:18:59Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+   "matchs": [
+    {
+     "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 2",
+     "hs": 0,
+     "as": 8
+    },
+    {
+     "home": "U.S. MARINGUOISE 1",
+     "away": "S.A. THIERNOIS 3",
+     "hs": 4,
+     "as": 7
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "S.A. THIERNOIS 3",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "away": "U.S. MARINGUOISE 1",
+     "hs": 0,
+     "as": 4
+    }
+   ]
+  }
+ ]
+}

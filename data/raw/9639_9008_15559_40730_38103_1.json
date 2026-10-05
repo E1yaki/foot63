@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40730_38103_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "I",
+ "poule_label": "Poule I",
+ "start": "2026-10-10T14:00",
+ "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+ "organisateur": "THIERS SA",
+ "equipes": [
+  "S.A. THIERNOIS 2",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+  "F.C. COURNON D AUVERGNE 2",
+  "U.S. VIC LE COMTE 3"
+ ],
+ "logos": {
+  "S.A. THIERNOIS 2": "logos/BC508776.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2": "logos/BC564515.jpg",
+  "F.C. COURNON D AUVERGNE 2": "logos/BC547699.jpg",
+  "U.S. VIC LE COMTE 3": "logos/BC506559.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "S.A. THIERNOIS 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. VIC LE COMTE 3",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "S.A. THIERNOIS 2",
+   "away": "U.S. VIC LE COMTE 3",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+   "matchs": [
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "S.A. THIERNOIS 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. VIC LE COMTE 3",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.A. THIERNOIS 2",
+     "away": "U.S. VIC LE COMTE 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

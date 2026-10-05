@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40729_38102_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "H",
+ "poule_label": "Poule H",
+ "start": "2026-10-03T14:00",
+ "lieu": "ENNEZAT - STADE PAUL MOSNIER",
+ "organisateur": "ENNEZAT U.S.",
+ "equipes": [
+  "FOOTBALL CLUB GERZAT 2",
+  "A.S. MONTFERRANDAISE 4",
+  "U.S. MOZAC 1",
+  "U.S. ENNEZAT 1"
+ ],
+ "logos": {
+  "FOOTBALL CLUB GERZAT 2": "logos/BC564880.jpg",
+  "A.S. MONTFERRANDAISE 4": "logos/BC508763.jpg",
+  "U.S. MOZAC 1": "logos/BC521724.jpg",
+  "U.S. ENNEZAT 1": "logos/BC506501.jpg"
+ },
+ "matchs": [
+  {
+   "home": "A.S. MONTFERRANDAISE 4",
+   "away": "FOOTBALL CLUB GERZAT 2",
+   "hs": 6,
+   "as": 0
+  },
+  {
+   "home": "U.S. ENNEZAT 1",
+   "away": "FOOTBALL CLUB GERZAT 2",
+   "hs": 7,
+   "as": 0
+  },
+  {
+   "home": "U.S. ENNEZAT 1",
+   "away": "U.S. MOZAC 1",
+   "hs": 1,
+   "as": 0
+  },
+  {
+   "home": "A.S. MONTFERRANDAISE 4",
+   "away": "U.S. MOZAC 1",
+   "hs": 6,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T09:12:03Z",
+ "last_change": "2026-10-04T09:12:03Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ENNEZAT - STADE PAUL MOSNIER",
+   "matchs": [
+    {
+     "home": "U.S. ENNEZAT 1",
+     "away": "FOOTBALL CLUB GERZAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 4",
+     "away": "FOOTBALL CLUB GERZAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ENNEZAT 1",
+     "away": "U.S. MOZAC 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 4",
+     "away": "U.S. MOZAC 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:12:03Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ENNEZAT - STADE PAUL MOSNIER",
+   "matchs": [
+    {
+     "home": "A.S. MONTFERRANDAISE 4",
+     "away": "FOOTBALL CLUB GERZAT 2",
+     "hs": 6,
+     "as": 0
+    },
+    {
+     "home": "U.S. ENNEZAT 1",
+     "away": "FOOTBALL CLUB GERZAT 2",
+     "hs": 7,
+     "as": 0
+    },
+    {
+     "home": "U.S. ENNEZAT 1",
+     "away": "U.S. MOZAC 1",
+     "hs": 1,
+     "as": 0
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 4",
+     "away": "U.S. MOZAC 1",
+     "hs": 6,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

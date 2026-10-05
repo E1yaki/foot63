@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40729_34064_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "H",
+ "poule_label": "Poule H",
+ "start": "2026-09-12T12:30",
+ "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+ "organisateur": "MONTFERRAND A.S.",
+ "equipes": [
+  "CEBAZAT SP. 2",
+  "U.S. ENNEZAT 1",
+  "AULNAT SP. 2",
+  "A.S. MONTFERRANDAISE 4"
+ ],
+ "logos": {
+  "CEBAZAT SP. 2": "logos/BC510828.jpg",
+  "U.S. ENNEZAT 1": "logos/BC506501.jpg",
+  "AULNAT SP. 2": "logos/BC521920.jpg",
+  "A.S. MONTFERRANDAISE 4": "logos/BC508763.jpg"
+ },
+ "matchs": [
+  {
+   "home": "A.S. MONTFERRANDAISE 4",
+   "away": "U.S. ENNEZAT 1",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "CEBAZAT SP. 2",
+   "away": "U.S. ENNEZAT 1",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "AULNAT SP. 2",
+   "away": "A.S. MONTFERRANDAISE 4",
+   "hs": 1,
+   "as": 5
+  },
+  {
+   "home": "AULNAT SP. 2",
+   "away": "CEBAZAT SP. 2",
+   "hs": 2,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T12:30",
+   "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+   "matchs": [
+    {
+     "home": "A.S. MONTFERRANDAISE 4",
+     "away": "U.S. ENNEZAT 1",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "CEBAZAT SP. 2",
+     "away": "U.S. ENNEZAT 1",
+     "hs": 2,
+     "as": 2
+    },
+    {
+     "home": "AULNAT SP. 2",
+     "away": "A.S. MONTFERRANDAISE 4",
+     "hs": 1,
+     "as": 5
+    },
+    {
+     "home": "AULNAT SP. 2",
+     "away": "CEBAZAT SP. 2",
+     "hs": 2,
+     "as": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40727_38103_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "F",
+ "poule_label": "Poule F",
+ "start": "2026-10-10T14:00",
+ "lieu": "VOLVIC - STADE MICHEL CHAMPLEBOUX 1",
+ "organisateur": "VOLVIC CS",
+ "equipes": [
+  "F.C. CHAMALIERES 3",
+  "U.S. MENETROL 1",
+  "GJ SCB FOOT 3",
+  "C.S. DE VOLVIC 1"
+ ],
+ "logos": {
+  "F.C. CHAMALIERES 3": "logos/BC520923.jpg",
+  "U.S. MENETROL 1": "logos/BC537754.jpg",
+  "GJ SCB FOOT 3": "logos/BC560516.jpg",
+  "C.S. DE VOLVIC 1": "logos/BC506562.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. CHAMALIERES 3",
+   "away": "U.S. MENETROL 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "C.S. DE VOLVIC 1",
+   "away": "U.S. MENETROL 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. CHAMALIERES 3",
+   "away": "GJ SCB FOOT 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "GJ SCB FOOT 3",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "VOLVIC - STADE MICHEL CHAMPLEBOUX 1",
+   "matchs": [
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "U.S. MENETROL 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. DE VOLVIC 1",
+     "away": "U.S. MENETROL 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "GJ SCB FOOT 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GJ SCB FOOT 3",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

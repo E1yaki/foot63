@@ -1,0 +1,132 @@
+{
+ "id": "cup459205_1_33_1",
+ "cat": "u13-festival",
+ "cat_label": null,
+ "phase": 1,
+ "phase_label": "1ER TOUR",
+ "poule": "33",
+ "poule_label": "POULE 33",
+ "start": "2026-09-26T13:30",
+ "heure_connue": true,
+ "lieu": "PARC DES SPORTS DU CEREY 1, PLACE DE L'EUROPE, RIOM",
+ "organisateur": "",
+ "equipes": [
+  "A. S. CLERMONT SAINT JACQUES FOOT 1",
+  "F.C. RIOMOIS 3",
+  "U. J. CLERMONTOISE 2"
+ ],
+ "logos": {
+  "RIOM F.C": "https://cdn-transverse.azureedge.net/phlogos/BC508772.jpg",
+  "U.J. CLERMONTOISE": "https://cdn-transverse.azureedge.net/phlogos/BC590198.jpg",
+  "CLT ST JACQUES": "https://cdn-transverse.azureedge.net/phlogos/BC525985.jpg",
+  "RIOM F.C. 3": "https://cdn-transverse.azureedge.net/phlogos/BC508772.jpg",
+  "U.J. CLERMONTOISE 2": "https://cdn-transverse.azureedge.net/phlogos/BC590198.jpg",
+  "F.C. RIOMOIS 3": "https://cdn-transverse.azureedge.net/phlogos/BC508772.jpg",
+  "U. J. CLERMONTOISE 2": "https://cdn-transverse.azureedge.net/phlogos/BC590198.jpg",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1": "https://cdn-transverse.azureedge.net/phlogos/BC525985.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. RIOMOIS 3",
+   "away": "U. J. CLERMONTOISE 2",
+   "hs": 9,
+   "as": 1
+  },
+  {
+   "home": "F.C. RIOMOIS 3",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "hs": 1,
+   "as": 2
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "U. J. CLERMONTOISE 2",
+   "hs": 7,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "glyph_fps": [],
+ "mini": {},
+ "first_seen": "2026-09-27T11:44:39Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-10-04T09:10:44Z",
+ "history": [
+  {
+   "ts": "2026-09-27T11:44:39Z",
+   "start": "2026-09-26T13H30",
+   "lieu": "PARC DES SPORTS DU CEREY 1, PLACE DE L'EUROPE, RIOM",
+   "matchs": [
+    {
+     "home": "RIOM F.C",
+     "away": "U.J. CLERMONTOISE",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "RIOM F.C",
+     "away": "CLT ST JACQUES",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLT ST JACQUES",
+     "away": "U.J. CLERMONTOISE",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-29T18:12:51Z",
+   "start": "2026-09-26T13H30",
+   "lieu": "PARC DES SPORTS DU CEREY 1, PLACE DE L'EUROPE, RIOM",
+   "matchs": [
+    {
+     "home": "RIOM F.C. 3",
+     "away": "U.J. CLERMONTOISE 2",
+     "hs": 9,
+     "as": 1
+    },
+    {
+     "home": "RIOM F.C. 3",
+     "away": "CLT ST JACQUES",
+     "hs": 1,
+     "as": 2
+    },
+    {
+     "home": "CLT ST JACQUES",
+     "away": "U.J. CLERMONTOISE 2",
+     "hs": 7,
+     "as": 2
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:10:44Z",
+   "start": "2026-09-26T13:30",
+   "lieu": "PARC DES SPORTS DU CEREY 1, PLACE DE L'EUROPE, RIOM",
+   "matchs": [
+    {
+     "home": "F.C. RIOMOIS 3",
+     "away": "U. J. CLERMONTOISE 2",
+     "hs": 9,
+     "as": 1
+    },
+    {
+     "home": "F.C. RIOMOIS 3",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": 1,
+     "as": 2
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "away": "U. J. CLERMONTOISE 2",
+     "hs": 7,
+     "as": 2
+    }
+   ]
+  }
+ ]
+}

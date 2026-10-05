@@ -1,0 +1,97 @@
+{
+ "id": "9639_9008_15559_40731_38102_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "J",
+ "poule_label": "Poule J",
+ "start": "2026-10-03T14:00",
+ "lieu": "LUZILLAT - STADE MUNICIPAL",
+ "organisateur": "RSLCV",
+ "equipes": [
+  "FOOTBALL CLUB PUY DE MUR 2",
+  "R. S. LUZILLAT CHARNAT VINZELLES 1",
+  "S.C. BILLOMOIS 1",
+  "GROUPEMENT DORE ALLIER FOOTBALL 2"
+ ],
+ "logos": {
+  "FOOTBALL CLUB PUY DE MUR 2": "logos/BC564682.jpg",
+  "R. S. LUZILLAT CHARNAT VINZELLES 1": "logos/BC582673.jpg",
+  "S.C. BILLOMOIS 1": "logos/BC506469.jpg",
+  "GROUPEMENT DORE ALLIER FOOTBALL 2": "logos/BC564204.jpg"
+ },
+ "matchs": [
+  {
+   "home": "S.C. BILLOMOIS 1",
+   "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+   "hs": 2,
+   "as": 0
+  },
+  {
+   "home": "S.C. BILLOMOIS 1",
+   "away": "FOOTBALL CLUB PUY DE MUR 2",
+   "hs": 0,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T06:32:42Z",
+ "last_change": "2026-10-05T06:32:42Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "LUZILLAT - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "S.C. BILLOMOIS 1",
+     "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+     "away": "FOOTBALL CLUB PUY DE MUR 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+     "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.C. BILLOMOIS 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T06:32:42Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "LUZILLAT - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "S.C. BILLOMOIS 1",
+     "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "hs": 2,
+     "as": 0
+    },
+    {
+     "home": "S.C. BILLOMOIS 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 2",
+     "hs": 0,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

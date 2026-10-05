@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40725_38101_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "D",
+ "poule_label": "Poule D",
+ "start": "2026-09-19T14:00",
+ "lieu": "BLOT L EGLISE - STADE MUNICIPAL",
+ "organisateur": "ENTENTE CHARBLOT",
+ "equipes": [
+  "F.C. NORD COMBRAILLE 2",
+  "C.S. DE VOLVIC 2",
+  "ENTENTE CHARBLOT 1",
+  "CLERMONT ACADEMY 1"
+ ],
+ "logos": {
+  "F.C. NORD COMBRAILLE 2": "logos/BC547675.jpg",
+  "C.S. DE VOLVIC 2": "logos/BC506562.jpg",
+  "ENTENTE CHARBLOT 1": "logos/BC582290.jpg",
+  "CLERMONT ACADEMY 1": "logos/BC565247.jpg"
+ },
+ "matchs": [
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "F.C. NORD COMBRAILLE 2",
+   "hs": 8,
+   "as": 1
+  },
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": 1,
+   "as": 2
+  },
+  {
+   "home": "F.C. NORD COMBRAILLE 2",
+   "away": "CLERMONT ACADEMY 1",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "C.S. DE VOLVIC 2",
+   "away": "CLERMONT ACADEMY 1",
+   "hs": 3,
+   "as": 4
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-24T06:46:37Z",
+ "last_change": "2026-09-24T06:46:37Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "BLOT L EGLISE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "F.C. NORD COMBRAILLE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. DE VOLVIC 2",
+     "away": "CLERMONT ACADEMY 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. NORD COMBRAILLE 2",
+     "away": "CLERMONT ACADEMY 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-24T06:46:37Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "BLOT L EGLISE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "F.C. NORD COMBRAILLE 2",
+     "hs": 8,
+     "as": 1
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": 1,
+     "as": 2
+    },
+    {
+     "home": "F.C. NORD COMBRAILLE 2",
+     "away": "CLERMONT ACADEMY 1",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "C.S. DE VOLVIC 2",
+     "away": "CLERMONT ACADEMY 1",
+     "hs": 3,
+     "as": 4
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

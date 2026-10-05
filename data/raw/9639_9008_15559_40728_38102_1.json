@@ -1,0 +1,90 @@
+{
+ "id": "9639_9008_15559_40728_38102_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "G",
+ "poule_label": "Poule G",
+ "start": "2026-10-03T14:00",
+ "lieu": "ST OURS - STADE MUNICIPAL",
+ "organisateur": "VAL DE SIOULE FOOT",
+ "equipes": [
+  "LEMPDES SP. 2",
+  "CLERMONT FOOT 63 4",
+  "VAL DE SIOULE FOOT 2",
+  "F.C. CHATEL GUYON 2"
+ ],
+ "logos": {
+  "LEMPDES SP. 2": "logos/BC518527.jpg",
+  "CLERMONT FOOT 63 4": "logos/BC535789.jpg",
+  "VAL DE SIOULE FOOT 2": "logos/BC582409.jpg",
+  "F.C. CHATEL GUYON 2": "logos/BC520289.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. CHATEL GUYON 2",
+   "away": "VAL DE SIOULE FOOT 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "VAL DE SIOULE FOOT 2",
+   "away": "CLERMONT FOOT 63 4",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. CHATEL GUYON 2",
+   "away": "LEMPDES SP. 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "LEMPDES SP. 2",
+   "away": "CLERMONT FOOT 63 4",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ST OURS - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "VAL DE SIOULE FOOT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "VAL DE SIOULE FOOT 2",
+     "away": "CLERMONT FOOT 63 4",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "LEMPDES SP. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 2",
+     "away": "CLERMONT FOOT 63 4",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

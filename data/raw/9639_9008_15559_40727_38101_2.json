@@ -1,0 +1,64 @@
+{
+ "id": "9639_9008_15559_40727_38101_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "F",
+ "poule_label": "Poule F",
+ "start": "2026-09-19T14:00",
+ "lieu": "MONTAIGUT EN COMBRAILLE - STADE SERGE LANCELOT",
+ "organisateur": "F.C. NORD COMBRAILLE",
+ "equipes": [
+  "DOMES SANCY FOOT 2",
+  "U.S. MENETROL 1",
+  "F.C. NORD COMBRAILLE 1",
+  "GJ SCB FOOT 3"
+ ],
+ "logos": {
+  "DOMES SANCY FOOT 2": "logos/BC563697.jpg",
+  "U.S. MENETROL 1": "logos/BC537754.jpg",
+  "F.C. NORD COMBRAILLE 1": "logos/BC547675.jpg",
+  "GJ SCB FOOT 3": "logos/BC560516.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GJ SCB FOOT 3",
+   "away": "F.C. NORD COMBRAILLE 1",
+   "hs": 0,
+   "as": 2
+  },
+  {
+   "home": "DOMES SANCY FOOT 2",
+   "away": "GJ SCB FOOT 3",
+   "hs": 1,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "MONTAIGUT EN COMBRAILLE - STADE SERGE LANCELOT",
+   "matchs": [
+    {
+     "home": "GJ SCB FOOT 3",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "DOMES SANCY FOOT 2",
+     "away": "GJ SCB FOOT 3",
+     "hs": 1,
+     "as": 1
+    }
+   ]
+  }
+ ]
+}

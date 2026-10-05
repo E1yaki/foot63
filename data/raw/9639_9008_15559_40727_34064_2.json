@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40727_34064_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "F",
+ "poule_label": "Poule F",
+ "start": "2026-09-12T15:30",
+ "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
+ "organisateur": "GJ SCB FOOT",
+ "equipes": [
+  "C.S. DE VOLVIC 1",
+  "GJ SCB FOOT 3",
+  "F.C. NORD COMBRAILLE 1",
+  "U.S. MOZAC 2"
+ ],
+ "logos": {
+  "C.S. DE VOLVIC 1": "logos/BC506562.jpg",
+  "GJ SCB FOOT 3": "logos/BC560516.jpg",
+  "F.C. NORD COMBRAILLE 1": "logos/BC547675.jpg",
+  "U.S. MOZAC 2": "logos/BC521724.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GJ SCB FOOT 3",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "U.S. MOZAC 2",
+   "away": "GJ SCB FOOT 3",
+   "hs": 1,
+   "as": 4
+  },
+  {
+   "home": "U.S. MOZAC 2",
+   "away": "F.C. NORD COMBRAILLE 1",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "F.C. NORD COMBRAILLE 1",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 0,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T15:30",
+   "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
+   "matchs": [
+    {
+     "home": "GJ SCB FOOT 3",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "U.S. MOZAC 2",
+     "away": "GJ SCB FOOT 3",
+     "hs": 1,
+     "as": 4
+    },
+    {
+     "home": "U.S. MOZAC 2",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "F.C. NORD COMBRAILLE 1",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": 0,
+     "as": 2
+    }
+   ]
+  }
+ ]
+}

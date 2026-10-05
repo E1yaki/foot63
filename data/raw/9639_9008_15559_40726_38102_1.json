@@ -1,0 +1,101 @@
+{
+ "id": "9639_9008_15559_40726_38102_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "E",
+ "poule_label": "Poule E",
+ "start": "2026-10-03T14:00",
+ "lieu": "LE CENDRE - STADE JEAN JAURÈS 1",
+ "organisateur": "GRPT DE L'AUZON",
+ "equipes": [
+  "GROUPEMENT DE L'AUZON 2",
+  "ENT.F.C. ST AMANT ET TALLENDE 3",
+  "F.C. AUBIEROIS 2"
+ ],
+ "logos": {
+  "GROUPEMENT DE L'AUZON 2": "logos/BC581946.jpg",
+  "ENT.F.C. ST AMANT ET TALLENDE 3": "logos/BC546413.jpg",
+  "F.C. AUBIEROIS 2": "logos/BC533145.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GROUPEMENT DE L'AUZON 2",
+   "away": "F.C. AUBIEROIS 2",
+   "hs": 5,
+   "as": 0
+  },
+  {
+   "home": "F.C. AUBIEROIS 2",
+   "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
+   "hs": 0,
+   "as": 2
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
+   "away": "GROUPEMENT DE L'AUZON 2",
+   "hs": 3,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T09:12:03Z",
+ "last_change": "2026-10-04T09:12:03Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "LE CENDRE - STADE JEAN JAURÈS 1",
+   "matchs": [
+    {
+     "home": "GROUPEMENT DE L'AUZON 2",
+     "away": "F.C. AUBIEROIS 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. AUBIEROIS 2",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
+     "away": "GROUPEMENT DE L'AUZON 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:12:03Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "LE CENDRE - STADE JEAN JAURÈS 1",
+   "matchs": [
+    {
+     "home": "GROUPEMENT DE L'AUZON 2",
+     "away": "F.C. AUBIEROIS 2",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "F.C. AUBIEROIS 2",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
+     "away": "GROUPEMENT DE L'AUZON 2",
+     "hs": 3,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,76 @@
+{
+ "id": "9639_9008_15559_40726_34064_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "E",
+ "poule_label": "Poule E",
+ "start": "2026-09-12T16:00",
+ "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+ "organisateur": "ST AMANT TAL.",
+ "equipes": [
+  "ENT.F.C. ST AMANT ET TALLENDE 3",
+  "U.S. LES MARTRES DE VEYRE 2",
+  "F.C. COURNON D AUVERGNE 3"
+ ],
+ "logos": {
+  "ENT.F.C. ST AMANT ET TALLENDE 3": "logos/BC546413.jpg",
+  "U.S. LES MARTRES DE VEYRE 2": "logos/BC506520.jpg",
+  "F.C. COURNON D AUVERGNE 3": "logos/BC547699.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. COURNON D AUVERGNE 3",
+   "away": "U.S. LES MARTRES DE VEYRE 2",
+   "hs": 2,
+   "as": 3
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 2",
+   "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
+   "hs": 0,
+   "as": 0
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
+   "away": "F.C. COURNON D AUVERGNE 3",
+   "hs": 3,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T16:00",
+   "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+   "matchs": [
+    {
+     "home": "F.C. COURNON D AUVERGNE 3",
+     "away": "U.S. LES MARTRES DE VEYRE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 2",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
+     "away": "F.C. COURNON D AUVERGNE 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,90 @@
+{
+ "id": "9639_9008_15559_40724_34064_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-09-12T14:00",
+ "lieu": "VERTAIZON - STADE MUNICIPAL",
+ "organisateur": "FOOTBALL CLUB PUY DE",
+ "equipes": [
+  "PERIGNAT F.C. 1",
+  "FOOTBALL CLUB PUY DE MUR 1",
+  "C.S. PONT DE DORE 1",
+  "F.C. LEZOUX 2"
+ ],
+ "logos": {
+  "PERIGNAT F.C. 1": "logos/BC546837.jpg",
+  "FOOTBALL CLUB PUY DE MUR 1": "logos/BC564682.jpg",
+  "C.S. PONT DE DORE 1": "logos/BC526934.jpg",
+  "F.C. LEZOUX 2": "logos/BC517723.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. LEZOUX 2",
+   "away": "PERIGNAT F.C. 1",
+   "hs": 2,
+   "as": 0
+  },
+  {
+   "home": "F.C. LEZOUX 2",
+   "away": "C.S. PONT DE DORE 1",
+   "hs": 3,
+   "as": 4
+  },
+  {
+   "home": "PERIGNAT F.C. 1",
+   "away": "FOOTBALL CLUB PUY DE MUR 1",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "C.S. PONT DE DORE 1",
+   "away": "FOOTBALL CLUB PUY DE MUR 1",
+   "hs": 1,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "VERTAIZON - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "F.C. LEZOUX 2",
+     "away": "PERIGNAT F.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. LEZOUX 2",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "PERIGNAT F.C. 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. PONT DE DORE 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

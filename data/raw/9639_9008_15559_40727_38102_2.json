@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40727_38102_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "F",
+ "poule_label": "Poule F",
+ "start": "2026-10-03T14:00",
+ "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
+ "organisateur": "GJ SCB FOOT",
+ "equipes": [
+  "U.S. MOZAC 2",
+  "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+  "U.S. MENETROL 1",
+  "GJ SCB FOOT 3"
+ ],
+ "logos": {
+  "U.S. MOZAC 2": "logos/BC521724.jpg",
+  "REV.AM.S. BEAUREGARD L'EVEQUE 1": "logos/BC517316.jpg",
+  "GJ SCB FOOT 3": "logos/BC560516.jpg",
+  "U.S. MENETROL 1": "logos/BC537754.jpg"
+ },
+ "matchs": [
+  {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "U.S. MOZAC 2",
+   "hs": 0,
+   "as": 7
+  },
+  {
+   "home": "U.S. MENETROL 1",
+   "away": "GJ SCB FOOT 3",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "GJ SCB FOOT 3",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "U.S. MENETROL 1",
+   "away": "U.S. MOZAC 2",
+   "hs": 1,
+   "as": 4
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-10-05T15:30:36Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
+   "matchs": [
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "away": "U.S. MOZAC 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. MENETROL 1",
+     "away": "U.S. MOZAC 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. MENETROL 1",
+     "away": "GJ SCB FOOT 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "away": "GJ SCB FOOT 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T15:30:36Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
+   "matchs": [
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "away": "U.S. MOZAC 2",
+     "hs": 0,
+     "as": 7
+    },
+    {
+     "home": "U.S. MENETROL 1",
+     "away": "GJ SCB FOOT 3",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "away": "GJ SCB FOOT 3",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "U.S. MENETROL 1",
+     "away": "U.S. MOZAC 2",
+     "hs": 1,
+     "as": 4
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

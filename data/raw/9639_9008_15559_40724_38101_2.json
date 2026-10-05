@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40724_38101_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-09-19T14:00",
+ "lieu": "PESCHADOIRES - STADE GUSTAVE LIGNE",
+ "organisateur": "C.S. PONT DE DORE",
+ "equipes": [
+  "DUROLLE FOOT 1",
+  "C.S. PONT DE DORE 1",
+  "PERIGNAT F.C. 1",
+  "GROUPEMENT DORE ALLIER FOOTBALL 1"
+ ],
+ "logos": {
+  "PERIGNAT F.C. 1": "logos/BC546837.jpg",
+  "DUROLLE FOOT 1": "logos/BC580467.jpg",
+  "C.S. PONT DE DORE 1": "logos/BC526934.jpg",
+  "GROUPEMENT DORE ALLIER FOOTBALL 1": "logos/BC564204.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "away": "C.S. PONT DE DORE 1",
+   "hs": 0,
+   "as": 3
+  },
+  {
+   "home": "DUROLLE FOOT 1",
+   "away": "PERIGNAT F.C. 1",
+   "hs": 0,
+   "as": 3
+  },
+  {
+   "home": "C.S. PONT DE DORE 1",
+   "away": "PERIGNAT F.C. 1",
+   "hs": 6,
+   "as": 1
+  },
+  {
+   "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "away": "DUROLLE FOOT 1",
+   "hs": 3,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T09:26:59Z",
+ "last_change": "2026-09-21T09:26:59Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "PESCHADOIRES - STADE GUSTAVE LIGNE",
+   "matchs": [
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "away": "DUROLLE FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. PONT DE DORE 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T09:26:59Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "PESCHADOIRES - STADE GUSTAVE LIGNE",
+   "matchs": [
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": 0,
+     "as": 3
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": 0,
+     "as": 3
+    },
+    {
+     "home": "C.S. PONT DE DORE 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": 6,
+     "as": 1
+    },
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "away": "DUROLLE FOOT 1",
+     "hs": 3,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

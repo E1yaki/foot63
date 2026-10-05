@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40727_38103_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "F",
+ "poule_label": "Poule F",
+ "start": "2026-10-10T14:00",
+ "lieu": "ROCHEFORT MONTAGNE - STADE MUNICIPAL 1",
+ "organisateur": "DOMES SANCY FOOT",
+ "equipes": [
+  "DOMES SANCY FOOT 2",
+  "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+  "F.C. NORD COMBRAILLE 1",
+  "U.S. MOZAC 2"
+ ],
+ "logos": {
+  "DOMES SANCY FOOT 2": "logos/BC563697.jpg",
+  "REV.AM.S. BEAUREGARD L'EVEQUE 1": "logos/BC517316.jpg",
+  "F.C. NORD COMBRAILLE 1": "logos/BC547675.jpg",
+  "U.S. MOZAC 2": "logos/BC521724.jpg"
+ },
+ "matchs": [
+  {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "F.C. NORD COMBRAILLE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. MOZAC 2",
+   "away": "F.C. NORD COMBRAILLE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "DOMES SANCY FOOT 2",
+   "away": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "DOMES SANCY FOOT 2",
+   "away": "U.S. MOZAC 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "ROCHEFORT MONTAGNE - STADE MUNICIPAL 1",
+   "matchs": [
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. MOZAC 2",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DOMES SANCY FOOT 2",
+     "away": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DOMES SANCY FOOT 2",
+     "away": "U.S. MOZAC 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

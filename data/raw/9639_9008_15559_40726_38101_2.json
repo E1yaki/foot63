@@ -1,0 +1,50 @@
+{
+ "id": "9639_9008_15559_40726_38101_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "E",
+ "poule_label": "Poule E",
+ "start": "2026-09-19T14:00",
+ "lieu": "ORCET - STADE MAURICE FOURNIER 1",
+ "organisateur": "GRPT DE L'AUZON",
+ "equipes": [
+  "U.S. LES MARTRES DE VEYRE 2",
+  "F.C. AYDAT 1",
+  "GROUPEMENT DE L'AUZON 2"
+ ],
+ "logos": {
+  "U.S. LES MARTRES DE VEYRE 2": "logos/BC506520.jpg",
+  "F.C. AYDAT 1": "logos/BC524678.jpg",
+  "GROUPEMENT DE L'AUZON 2": "logos/BC581946.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GROUPEMENT DE L'AUZON 2",
+   "away": "U.S. LES MARTRES DE VEYRE 2",
+   "hs": 1,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ORCET - STADE MAURICE FOURNIER 1",
+   "matchs": [
+    {
+     "home": "GROUPEMENT DE L'AUZON 2",
+     "away": "U.S. LES MARTRES DE VEYRE 2",
+     "hs": 1,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

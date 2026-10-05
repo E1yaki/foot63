@@ -1,0 +1,131 @@
+{
+ "id": "cup459205_1_30_1",
+ "cat": "u13-festival",
+ "cat_label": null,
+ "phase": 1,
+ "phase_label": "1ER TOUR",
+ "poule": "30",
+ "poule_label": "POULE 30",
+ "start": "2026-09-26T14:30",
+ "heure_connue": true,
+ "lieu": "STADE HENRI LONGCHAMBON, Rue du Muscadet, CHAPDES BEAUFORT",
+ "organisateur": "",
+ "equipes": [
+  "A.S. MONTFERRANDAISE 2",
+  "C.S. DE VOLVIC 1",
+  "VAL DE SIOULE FOOT 2"
+ ],
+ "logos": {
+  "VAL DE SIOULE FOOT": "https://cdn-transverse.azureedge.net/phlogos/BC582409.jpg",
+  "MONTFERRAND A.S.": "https://cdn-transverse.azureedge.net/phlogos/BC508763.jpg",
+  "VOLVIC CS": "https://cdn-transverse.azureedge.net/phlogos/BC506562.jpg",
+  "VAL DE SIOULE FOOT 2": "https://cdn-transverse.azureedge.net/phlogos/BC582409.jpg",
+  "CLT A.S.M. 2": "https://cdn-transverse.azureedge.net/phlogos/BC508763.jpg",
+  "A.S. MONTFERRANDAISE 2": "https://cdn-transverse.azureedge.net/phlogos/BC508763.jpg",
+  "C.S. DE VOLVIC 1": "https://cdn-transverse.azureedge.net/phlogos/BC506562.jpg"
+ },
+ "matchs": [
+  {
+   "home": "VAL DE SIOULE FOOT 2",
+   "away": "A.S. MONTFERRANDAISE 2",
+   "hs": 0,
+   "as": 7
+  },
+  {
+   "home": "VAL DE SIOULE FOOT 2",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 0,
+   "as": 7
+  },
+  {
+   "home": "A.S. MONTFERRANDAISE 2",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 4,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "glyph_fps": [],
+ "mini": {},
+ "first_seen": "2026-09-27T11:44:39Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-10-04T09:10:44Z",
+ "history": [
+  {
+   "ts": "2026-09-27T11:44:39Z",
+   "start": "2026-09-26T14H30",
+   "lieu": "STADE HENRI LONGCHAMBON, Rue du Muscadet, CHAPDES BEAUFORT",
+   "matchs": [
+    {
+     "home": "VAL DE SIOULE FOOT",
+     "away": "MONTFERRAND A.S.",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "VAL DE SIOULE FOOT",
+     "away": "VOLVIC CS",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "MONTFERRAND A.S.",
+     "away": "VOLVIC CS",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-28T18:36:41Z",
+   "start": "2026-09-26T14H30",
+   "lieu": "STADE HENRI LONGCHAMBON, Rue du Muscadet, CHAPDES BEAUFORT",
+   "matchs": [
+    {
+     "home": "VAL DE SIOULE FOOT 2",
+     "away": "CLT A.S.M. 2",
+     "hs": 0,
+     "as": 7
+    },
+    {
+     "home": "VAL DE SIOULE FOOT 2",
+     "away": "VOLVIC CS",
+     "hs": 0,
+     "as": 7
+    },
+    {
+     "home": "CLT A.S.M. 2",
+     "away": "VOLVIC CS",
+     "hs": 4,
+     "as": 1
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:10:44Z",
+   "start": "2026-09-26T14:30",
+   "lieu": "STADE HENRI LONGCHAMBON, Rue du Muscadet, CHAPDES BEAUFORT",
+   "matchs": [
+    {
+     "home": "VAL DE SIOULE FOOT 2",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": 0,
+     "as": 7
+    },
+    {
+     "home": "VAL DE SIOULE FOOT 2",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": 0,
+     "as": 7
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 2",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": 4,
+     "as": 1
+    }
+   ]
+  }
+ ]
+}

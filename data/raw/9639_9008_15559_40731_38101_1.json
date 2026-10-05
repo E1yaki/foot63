@@ -1,0 +1,97 @@
+{
+ "id": "9639_9008_15559_40731_38101_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "J",
+ "poule_label": "Poule J",
+ "start": "2026-09-19T13:30",
+ "lieu": "ARLANC - STADE JEAN PAUL CRONIE",
+ "organisateur": "AMBERT LIVRADOIS SUD",
+ "equipes": [
+  "S.A. THIERNOIS 3",
+  "GROUPEMENT DORE ALLIER FOOTBALL 2",
+  "R. S. LUZILLAT CHARNAT VINZELLES 1",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4"
+ ],
+ "logos": {
+  "S.A. THIERNOIS 3": "logos/BC508776.jpg",
+  "GROUPEMENT DORE ALLIER FOOTBALL 2": "logos/BC564204.jpg",
+  "R. S. LUZILLAT CHARNAT VINZELLES 1": "logos/BC582673.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4": "logos/BC564515.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+   "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+   "hs": 1,
+   "as": 0
+  },
+  {
+   "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+   "away": "S.A. THIERNOIS 3",
+   "hs": 1,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T07:02:04Z",
+ "last_change": "2026-09-21T07:02:04Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T13:30",
+   "lieu": "ARLANC - STADE JEAN PAUL CRONIE",
+   "matchs": [
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+     "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+     "away": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "away": "S.A. THIERNOIS 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+     "away": "S.A. THIERNOIS 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T07:02:04Z",
+   "start": "2026-09-19T13:30",
+   "lieu": "ARLANC - STADE JEAN PAUL CRONIE",
+   "matchs": [
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+     "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "hs": 1,
+     "as": 0
+    },
+    {
+     "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "away": "S.A. THIERNOIS 3",
+     "hs": 1,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40725_34064_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "D",
+ "poule_label": "Poule D",
+ "start": "2026-09-12T14:00",
+ "lieu": "VOLVIC - STADE MICHEL CHAMPLEBOUX 1",
+ "organisateur": "VOLVIC CS",
+ "equipes": [
+  "ENTENTE CHARBLOT 1",
+  "U. J. CLERMONTOISE 2",
+  "CLERMONT FOOT 63 5",
+  "C.S. DE VOLVIC 2"
+ ],
+ "logos": {
+  "ENTENTE CHARBLOT 1": "logos/BC582290.jpg",
+  "U. J. CLERMONTOISE 2": "logos/BC590198.jpg",
+  "CLERMONT FOOT 63 5": "logos/BC535789.jpg",
+  "C.S. DE VOLVIC 2": "logos/BC506562.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U. J. CLERMONTOISE 2",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "U. J. CLERMONTOISE 2",
+   "hs": 2,
+   "as": 6
+  },
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "CLERMONT FOOT 63 5",
+   "hs": 0,
+   "as": 3
+  },
+  {
+   "home": "CLERMONT FOOT 63 5",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": 7,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:18:59Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "VOLVIC - STADE MICHEL CHAMPLEBOUX 1",
+   "matchs": [
+    {
+     "home": "U. J. CLERMONTOISE 2",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": 2,
+     "as": 2
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "U. J. CLERMONTOISE 2",
+     "hs": 2,
+     "as": 5
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "CLERMONT FOOT 63 5",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "CLERMONT FOOT 63 5",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": null,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:18:59Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "VOLVIC - STADE MICHEL CHAMPLEBOUX 1",
+   "matchs": [
+    {
+     "home": "U. J. CLERMONTOISE 2",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": 2,
+     "as": 2
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "U. J. CLERMONTOISE 2",
+     "hs": 2,
+     "as": null
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "CLERMONT FOOT 63 5",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "CLERMONT FOOT 63 5",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": 7,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

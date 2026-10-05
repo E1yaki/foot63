@@ -1,0 +1,90 @@
+{
+ "id": "9639_9008_15559_40725_38101_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "D",
+ "poule_label": "Poule D",
+ "start": "2026-09-19T14:00",
+ "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
+ "organisateur": "GJ SCB FOOT",
+ "equipes": [
+  "GJ SCB FOOT 2",
+  "F.C. NORD LIMAGNE 1",
+  "U. J. CLERMONTOISE 2",
+  "CLERMONT FOOT 63 5"
+ ],
+ "logos": {
+  "GJ SCB FOOT 2": "logos/BC560516.jpg",
+  "F.C. NORD LIMAGNE 1": "logos/BC563628.jpg",
+  "U. J. CLERMONTOISE 2": "logos/BC590198.jpg",
+  "CLERMONT FOOT 63 5": "logos/BC535789.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U. J. CLERMONTOISE 2",
+   "away": "GJ SCB FOOT 2",
+   "hs": 1,
+   "as": 8
+  },
+  {
+   "home": "CLERMONT FOOT 63 5",
+   "away": "U. J. CLERMONTOISE 2",
+   "hs": 8,
+   "as": 0
+  },
+  {
+   "home": "CLERMONT FOOT 63 5",
+   "away": "F.C. NORD LIMAGNE 1",
+   "hs": 3,
+   "as": 2
+  },
+  {
+   "home": "F.C. NORD LIMAGNE 1",
+   "away": "GJ SCB FOOT 2",
+   "hs": 0,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
+   "matchs": [
+    {
+     "home": "U. J. CLERMONTOISE 2",
+     "away": "GJ SCB FOOT 2",
+     "hs": 1,
+     "as": null
+    },
+    {
+     "home": "CLERMONT FOOT 63 5",
+     "away": "U. J. CLERMONTOISE 2",
+     "hs": null,
+     "as": 0
+    },
+    {
+     "home": "CLERMONT FOOT 63 5",
+     "away": "F.C. NORD LIMAGNE 1",
+     "hs": 5,
+     "as": 2
+    },
+    {
+     "home": "F.C. NORD LIMAGNE 1",
+     "away": "GJ SCB FOOT 2",
+     "hs": 0,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

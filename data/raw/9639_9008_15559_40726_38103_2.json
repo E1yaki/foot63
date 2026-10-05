@@ -1,0 +1,74 @@
+{
+ "id": "9639_9008_15559_40726_38103_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "E",
+ "poule_label": "Poule E",
+ "start": "2026-10-10T14:00",
+ "lieu": "COURNON D AUVERGNE - PLAINE DE JEUX 2",
+ "organisateur": "COURNON FC",
+ "equipes": [
+  "GROUPEMENT DE L'AUZON 2",
+  "F.C. COURNON D AUVERGNE 3",
+  "U.S. BEAUMONTOISE 1"
+ ],
+ "logos": {
+  "GROUPEMENT DE L'AUZON 2": "logos/BC581946.jpg",
+  "F.C. COURNON D AUVERGNE 3": "logos/BC547699.jpg",
+  "U.S. BEAUMONTOISE 1": "logos/BC508949.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GROUPEMENT DE L'AUZON 2",
+   "away": "F.C. COURNON D AUVERGNE 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. BEAUMONTOISE 1",
+   "away": "F.C. COURNON D AUVERGNE 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "GROUPEMENT DE L'AUZON 2",
+   "away": "U.S. BEAUMONTOISE 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "COURNON D AUVERGNE - PLAINE DE JEUX 2",
+   "matchs": [
+    {
+     "home": "GROUPEMENT DE L'AUZON 2",
+     "away": "F.C. COURNON D AUVERGNE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 1",
+     "away": "F.C. COURNON D AUVERGNE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT DE L'AUZON 2",
+     "away": "U.S. BEAUMONTOISE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

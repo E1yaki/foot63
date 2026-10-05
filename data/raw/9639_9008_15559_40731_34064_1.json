@@ -1,0 +1,83 @@
+{
+ "id": "9639_9008_15559_40731_34064_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "J",
+ "poule_label": "Poule J",
+ "start": "2026-09-12T14:00",
+ "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+ "organisateur": "AULNAT SP",
+ "equipes": [
+  "GROUPEMENT DORE ALLIER FOOTBALL 2",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+  "AULNAT SP. 3",
+  "S.C. BILLOMOIS 1"
+ ],
+ "logos": {
+  "GROUPEMENT DORE ALLIER FOOTBALL 2": "logos/BC564204.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4": "logos/BC564515.jpg",
+  "AULNAT SP. 3": "logos/BC521920.jpg",
+  "S.C. BILLOMOIS 1": "logos/BC506469.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+   "away": "AULNAT SP. 3",
+   "hs": 2,
+   "as": 5
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+   "away": "S.C. BILLOMOIS 1",
+   "hs": 0,
+   "as": 7
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:18:59Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+   "matchs": [
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+     "away": "AULNAT SP. 3",
+     "hs": 2,
+     "as": 5
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+     "away": "S.C. BILLOMOIS 1",
+     "hs": 0,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:18:59Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+   "matchs": [
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+     "away": "AULNAT SP. 3",
+     "hs": 2,
+     "as": 5
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+     "away": "S.C. BILLOMOIS 1",
+     "hs": 0,
+     "as": 7
+    }
+   ]
+  }
+ ]
+}

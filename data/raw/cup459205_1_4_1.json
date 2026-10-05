@@ -1,0 +1,158 @@
+{
+ "id": "cup459205_1_4_1",
+ "cat": "u13-festival",
+ "cat_label": null,
+ "phase": 1,
+ "phase_label": "1ER TOUR",
+ "poule": "4",
+ "poule_label": "POULE 4",
+ "start": "2026-09-26T00:00",
+ "heure_connue": false,
+ "lieu": "",
+ "organisateur": "",
+ "equipes": [
+  "ESP. CEYRATOISE 2",
+  "U.S. LES MARTRES DE VEYRE 2",
+  "U.S. VIC LE COMTE 2"
+ ],
+ "logos": {
+  "CEYRAT ESP.": "https://cdn-transverse.azureedge.net/phlogos/BC529030.jpg",
+  "VIC LE COMTE U.S.": "https://cdn-transverse.azureedge.net/phlogos/BC506559.jpg",
+  "MARTRES DE VEYRE": "https://cdn-transverse.azureedge.net/phlogos/BC506520.jpg",
+  "CEYRAT 2": "https://cdn-transverse.azureedge.net/phlogos/BC529030.jpg",
+  "VIC LE COMTE U.S. 2": "https://cdn-transverse.azureedge.net/phlogos/BC506559.jpg",
+  "MARTRES DE VEYRE 2": "https://cdn-transverse.azureedge.net/phlogos/BC506520.jpg",
+  "ESP. CEYRATOISE 2": "https://cdn-transverse.azureedge.net/phlogos/BC529030.jpg",
+  "U.S. VIC LE COMTE 2": "https://cdn-transverse.azureedge.net/phlogos/BC506559.jpg",
+  "U.S. LES MARTRES DE VEYRE 2": "https://cdn-transverse.azureedge.net/phlogos/BC506520.jpg"
+ },
+ "matchs": [
+  {
+   "home": "ESP. CEYRATOISE 2",
+   "away": "U.S. VIC LE COMTE 2",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "ESP. CEYRATOISE 2",
+   "away": "U.S. LES MARTRES DE VEYRE 2",
+   "hs": 4,
+   "as": 6
+  },
+  {
+   "home": "U.S. VIC LE COMTE 2",
+   "away": "U.S. LES MARTRES DE VEYRE 2",
+   "hs": 5,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "glyph_fps": [],
+ "mini": {},
+ "first_seen": "2026-09-27T11:44:39Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-10-04T09:10:44Z",
+ "history": [
+  {
+   "ts": "2026-09-27T11:44:39Z",
+   "start": "2026-09-26T00:00",
+   "lieu": "",
+   "matchs": [
+    {
+     "home": "CEYRAT ESP.",
+     "away": "VIC LE COMTE U.S.",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CEYRAT ESP.",
+     "away": "MARTRES DE VEYRE",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "VIC LE COMTE U.S.",
+     "away": "MARTRES DE VEYRE",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-27T18:30:41Z",
+   "start": "2026-09-26T00:00",
+   "lieu": "",
+   "matchs": [
+    {
+     "home": "CEYRAT ESP.",
+     "away": "VIC LE COMTE U.S.",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "CEYRAT ESP.",
+     "away": "MARTRES DE VEYRE",
+     "hs": 4,
+     "as": 6
+    },
+    {
+     "home": "VIC LE COMTE U.S.",
+     "away": "MARTRES DE VEYRE",
+     "hs": 5,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-28T08:42:51Z",
+   "start": "2026-09-26T00:00",
+   "lieu": "",
+   "matchs": [
+    {
+     "home": "CEYRAT 2",
+     "away": "VIC LE COMTE U.S. 2",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "CEYRAT 2",
+     "away": "MARTRES DE VEYRE 2",
+     "hs": 4,
+     "as": 6
+    },
+    {
+     "home": "VIC LE COMTE U.S. 2",
+     "away": "MARTRES DE VEYRE 2",
+     "hs": 5,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:10:44Z",
+   "start": "2026-09-26T00:00",
+   "lieu": "",
+   "matchs": [
+    {
+     "home": "ESP. CEYRATOISE 2",
+     "away": "U.S. VIC LE COMTE 2",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "ESP. CEYRATOISE 2",
+     "away": "U.S. LES MARTRES DE VEYRE 2",
+     "hs": 4,
+     "as": 6
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "U.S. LES MARTRES DE VEYRE 2",
+     "hs": 5,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

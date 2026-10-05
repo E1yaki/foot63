@@ -1,0 +1,97 @@
+{
+ "id": "9639_9008_15559_40725_38102_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "D",
+ "poule_label": "Poule D",
+ "start": "2026-10-03T14:30",
+ "lieu": "AIGUEPERSE - STADE GÉRARD BOCHE 1",
+ "organisateur": "NORD LIMAGNE F.C.",
+ "equipes": [
+  "C.S. DE VOLVIC 2",
+  "F.C. NORD COMBRAILLE 2",
+  "U. J. CLERMONTOISE 2",
+  "F.C. NORD LIMAGNE 1"
+ ],
+ "logos": {
+  "C.S. DE VOLVIC 2": "logos/BC506562.jpg",
+  "F.C. NORD COMBRAILLE 2": "logos/BC547675.jpg",
+  "U. J. CLERMONTOISE 2": "logos/BC590198.jpg",
+  "F.C. NORD LIMAGNE 1": "logos/BC563628.jpg"
+ },
+ "matchs": [
+  {
+   "home": "C.S. DE VOLVIC 2",
+   "away": "F.C. NORD LIMAGNE 1",
+   "hs": 0,
+   "as": 3
+  },
+  {
+   "home": "U. J. CLERMONTOISE 2",
+   "away": "F.C. NORD LIMAGNE 1",
+   "hs": 1,
+   "as": 4
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T09:12:03Z",
+ "last_change": "2026-10-04T09:12:03Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:30",
+   "lieu": "AIGUEPERSE - STADE GÉRARD BOCHE 1",
+   "matchs": [
+    {
+     "home": "C.S. DE VOLVIC 2",
+     "away": "F.C. NORD LIMAGNE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U. J. CLERMONTOISE 2",
+     "away": "F.C. NORD COMBRAILLE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. DE VOLVIC 2",
+     "away": "F.C. NORD COMBRAILLE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U. J. CLERMONTOISE 2",
+     "away": "F.C. NORD LIMAGNE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:12:03Z",
+   "start": "2026-10-03T14:30",
+   "lieu": "AIGUEPERSE - STADE GÉRARD BOCHE 1",
+   "matchs": [
+    {
+     "home": "C.S. DE VOLVIC 2",
+     "away": "F.C. NORD LIMAGNE 1",
+     "hs": 0,
+     "as": 3
+    },
+    {
+     "home": "U. J. CLERMONTOISE 2",
+     "away": "F.C. NORD LIMAGNE 1",
+     "hs": 1,
+     "as": 4
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

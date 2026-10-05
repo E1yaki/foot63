@@ -1,0 +1,158 @@
+{
+ "id": "cup459205_1_36_1",
+ "cat": "u13-festival",
+ "cat_label": null,
+ "phase": 1,
+ "phase_label": "1ER TOUR",
+ "poule": "36",
+ "poule_label": "POULE 36",
+ "start": "2026-09-26T13:30",
+ "heure_connue": true,
+ "lieu": "STADE MUNICIPAL, LE BOURG, ST GENES CHAMPANELLE",
+ "organisateur": "",
+ "equipes": [
+  "A.S. MONTFERRANDAISE 5",
+  "ECUREUILS FRANC ROSIER 1",
+  "F.C. CHAMALIERES 3"
+ ],
+ "logos": {
+  "CHAMALIERES F.C.": "https://cdn-transverse.azureedge.net/phlogos/BC520923.jpg",
+  "CLT A.S.M. F": "https://cdn-transverse.azureedge.net/phlogos/BC508763.jpg",
+  "CLERM FRANC R": "https://cdn-transverse.azureedge.net/phlogos/BC526932.jpg",
+  "CHAMALIERES F.C. 3": "https://cdn-transverse.azureedge.net/phlogos/BC520923.jpg",
+  "CLT A.S.M. F 5": "https://cdn-transverse.azureedge.net/phlogos/BC508763.jpg",
+  "CLT FRANC ROSIER": "https://cdn-transverse.azureedge.net/phlogos/BC526932.jpg",
+  "F.C. CHAMALIERES 3": "https://cdn-transverse.azureedge.net/phlogos/BC520923.jpg",
+  "A.S. MONTFERRANDAISE 5": "https://cdn-transverse.azureedge.net/phlogos/BC508763.jpg",
+  "ECUREUILS FRANC ROSIER 1": "https://cdn-transverse.azureedge.net/phlogos/BC526932.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. CHAMALIERES 3",
+   "away": "A.S. MONTFERRANDAISE 5",
+   "hs": 1,
+   "as": 5
+  },
+  {
+   "home": "ECUREUILS FRANC ROSIER 1",
+   "away": "A.S. MONTFERRANDAISE 5",
+   "hs": 4,
+   "as": 0
+  },
+  {
+   "home": "F.C. CHAMALIERES 3",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 0,
+   "as": 8
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "glyph_fps": [],
+ "mini": {},
+ "first_seen": "2026-09-27T11:45:16Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-10-04T09:10:44Z",
+ "history": [
+  {
+   "ts": "2026-09-27T11:45:16Z",
+   "start": "2026-09-26T13H30",
+   "lieu": "STADE MUNICIPAL, LE BOURG, ST GENES CHAMPANELLE",
+   "matchs": [
+    {
+     "home": "CHAMALIERES F.C.",
+     "away": "CLT A.S.M. F",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLERM FRANC R",
+     "away": "CLT A.S.M. F",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CHAMALIERES F.C.",
+     "away": "CLERM FRANC R",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-27T18:30:41Z",
+   "start": "2026-09-26T13H30",
+   "lieu": "STADE MUNICIPAL, LE BOURG, ST GENES CHAMPANELLE",
+   "matchs": [
+    {
+     "home": "CHAMALIERES F.C.",
+     "away": "CLT A.S.M. F",
+     "hs": 1,
+     "as": 5
+    },
+    {
+     "home": "CLERM FRANC R",
+     "away": "CLT A.S.M. F",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "CHAMALIERES F.C.",
+     "away": "CLERM FRANC R",
+     "hs": 0,
+     "as": 8
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-28T08:42:51Z",
+   "start": "2026-09-26T13H30",
+   "lieu": "STADE MUNICIPAL, LE BOURG, ST GENES CHAMPANELLE",
+   "matchs": [
+    {
+     "home": "CHAMALIERES F.C. 3",
+     "away": "CLT A.S.M. F 5",
+     "hs": 1,
+     "as": 5
+    },
+    {
+     "home": "CLT FRANC ROSIER",
+     "away": "CLT A.S.M. F 5",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "CHAMALIERES F.C. 3",
+     "away": "CLT FRANC ROSIER",
+     "hs": 0,
+     "as": 8
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:10:44Z",
+   "start": "2026-09-26T13:30",
+   "lieu": "STADE MUNICIPAL, LE BOURG, ST GENES CHAMPANELLE",
+   "matchs": [
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "A.S. MONTFERRANDAISE 5",
+     "hs": 1,
+     "as": 5
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 1",
+     "away": "A.S. MONTFERRANDAISE 5",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": 0,
+     "as": 8
+    }
+   ]
+  }
+ ]
+}

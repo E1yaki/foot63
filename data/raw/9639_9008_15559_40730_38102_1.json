@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40730_38102_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "I",
+ "poule_label": "Poule I",
+ "start": "2026-10-03T14:00",
+ "lieu": "ORCET - STADE MAURICE FOURNIER 1",
+ "organisateur": "GRPT DE L'AUZON",
+ "equipes": [
+  "GROUPEMENT DE L'AUZON 3",
+  "U.S. VIC LE COMTE 3",
+  "F.C. PLAUZAT-CHAMPEIX 2",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2"
+ ],
+ "logos": {
+  "GROUPEMENT DE L'AUZON 3": "logos/BC581946.jpg",
+  "U.S. VIC LE COMTE 3": "logos/BC506559.jpg",
+  "F.C. PLAUZAT-CHAMPEIX 2": "logos/BC529886.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2": "logos/BC564515.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. PLAUZAT-CHAMPEIX 2",
+   "away": "GROUPEMENT DE L'AUZON 3",
+   "hs": 3,
+   "as": 1
+  },
+  {
+   "home": "U.S. VIC LE COMTE 3",
+   "away": "GROUPEMENT DE L'AUZON 3",
+   "hs": 2,
+   "as": 4
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "U.S. VIC LE COMTE 3",
+   "hs": 7,
+   "as": 1
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": 4,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T09:12:03Z",
+ "last_change": "2026-10-04T09:12:03Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ORCET - STADE MAURICE FOURNIER 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 3",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 2",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "U.S. VIC LE COMTE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:12:03Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ORCET - STADE MAURICE FOURNIER 1",
+   "matchs": [
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 2",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": 3,
+     "as": 1
+    },
+    {
+     "home": "U.S. VIC LE COMTE 3",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": 2,
+     "as": 4
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "U.S. VIC LE COMTE 3",
+     "hs": 7,
+     "as": 1
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": 4,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

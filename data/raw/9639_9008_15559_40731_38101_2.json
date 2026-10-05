@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40731_38101_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "J",
+ "poule_label": "Poule J",
+ "start": "2026-09-19T14:00",
+ "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+ "organisateur": "AULNAT SP",
+ "equipes": [
+  "FOOTBALL CLUB PUY DE MUR 2",
+  "U.S. MARINGUOISE 1",
+  "AULNAT SP. 3",
+  "S.C. BILLOMOIS 1"
+ ],
+ "logos": {
+  "U.S. MARINGUOISE 1": "logos/BC506518.jpg",
+  "FOOTBALL CLUB PUY DE MUR 2": "logos/BC564682.jpg",
+  "AULNAT SP. 3": "logos/BC521920.jpg",
+  "S.C. BILLOMOIS 1": "logos/BC506469.jpg"
+ },
+ "matchs": [
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 2",
+   "away": "U.S. MARINGUOISE 1",
+   "hs": 1,
+   "as": 2
+  },
+  {
+   "home": "S.C. BILLOMOIS 1",
+   "away": "U.S. MARINGUOISE 1",
+   "hs": 1,
+   "as": 0
+  },
+  {
+   "home": "AULNAT SP. 3",
+   "away": "S.C. BILLOMOIS 1",
+   "hs": 0,
+   "as": 7
+  },
+  {
+   "home": "AULNAT SP. 3",
+   "away": "FOOTBALL CLUB PUY DE MUR 2",
+   "hs": 0,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T19:06:41Z",
+ "last_change": "2026-09-20T19:06:41Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+   "matchs": [
+    {
+     "home": "S.C. BILLOMOIS 1",
+     "away": "U.S. MARINGUOISE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AULNAT SP. 3",
+     "away": "S.C. BILLOMOIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "U.S. MARINGUOISE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AULNAT SP. 3",
+     "away": "FOOTBALL CLUB PUY DE MUR 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T19:06:41Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+   "matchs": [
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "U.S. MARINGUOISE 1",
+     "hs": 1,
+     "as": 2
+    },
+    {
+     "home": "S.C. BILLOMOIS 1",
+     "away": "U.S. MARINGUOISE 1",
+     "hs": 1,
+     "as": 0
+    },
+    {
+     "home": "AULNAT SP. 3",
+     "away": "S.C. BILLOMOIS 1",
+     "hs": 0,
+     "as": 7
+    },
+    {
+     "home": "AULNAT SP. 3",
+     "away": "FOOTBALL CLUB PUY DE MUR 2",
+     "hs": 0,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

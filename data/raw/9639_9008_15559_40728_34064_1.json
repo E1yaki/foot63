@@ -1,0 +1,150 @@
+{
+ "id": "9639_9008_15559_40728_34064_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "G",
+ "poule_label": "Poule G",
+ "start": "2026-09-12T14:00",
+ "lieu": "CLERMONT FERRAND - STADE DE TRÉMONTEIX",
+ "organisateur": "A. OUVOIMOIJA",
+ "equipes": [
+  "U.S. ENNEZAT 2",
+  "F.C. CHATEL GUYON 2",
+  "A. OUVOIMOJA 1",
+  "CLERMONT FOOT 63 4"
+ ],
+ "logos": {
+  "U.S. ENNEZAT 2": "logos/BC506501.jpg",
+  "F.C. CHATEL GUYON 2": "logos/BC520289.jpg",
+  "A. OUVOIMOJA 1": "logos/BC551537.jpg",
+  "CLERMONT FOOT 63 4": "logos/BC535789.jpg"
+ },
+ "matchs": [
+  {
+   "home": "CLERMONT FOOT 63 4",
+   "away": "U.S. ENNEZAT 2",
+   "hs": 6,
+   "as": 0
+  },
+  {
+   "home": "A. OUVOIMOJA 1",
+   "away": "U.S. ENNEZAT 2",
+   "hs": 2,
+   "as": 4
+  },
+  {
+   "home": "F.C. CHATEL GUYON 2",
+   "away": "A. OUVOIMOJA 1",
+   "hs": 0,
+   "as": 0
+  },
+  {
+   "home": "F.C. CHATEL GUYON 2",
+   "away": "CLERMONT FOOT 63 4",
+   "hs": 1,
+   "as": 6
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:38:24Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "CLERMONT FERRAND - STADE DE TRÉMONTEIX",
+   "matchs": [
+    {
+     "home": "CLERMONT FOOT 63 4",
+     "away": "U.S. ENNEZAT 2",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "A. OUVOIMOJA 1",
+     "away": "U.S. ENNEZAT 2",
+     "hs": 2,
+     "as": 4
+    },
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "A. OUVOIMOJA 1",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "CLERMONT FOOT 63 4",
+     "hs": 1,
+     "as": 5
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:18:59Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "CLERMONT FERRAND - STADE DE TRÉMONTEIX",
+   "matchs": [
+    {
+     "home": "CLERMONT FOOT 63 4",
+     "away": "U.S. ENNEZAT 2",
+     "hs": null,
+     "as": 0
+    },
+    {
+     "home": "A. OUVOIMOJA 1",
+     "away": "U.S. ENNEZAT 2",
+     "hs": 2,
+     "as": 4
+    },
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "A. OUVOIMOJA 1",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "CLERMONT FOOT 63 4",
+     "hs": 1,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:38:24Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "CLERMONT FERRAND - STADE DE TRÉMONTEIX",
+   "matchs": [
+    {
+     "home": "CLERMONT FOOT 63 4",
+     "away": "U.S. ENNEZAT 2",
+     "hs": 6,
+     "as": 0
+    },
+    {
+     "home": "A. OUVOIMOJA 1",
+     "away": "U.S. ENNEZAT 2",
+     "hs": 2,
+     "as": 4
+    },
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "A. OUVOIMOJA 1",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "CLERMONT FOOT 63 4",
+     "hs": 1,
+     "as": 6
+    }
+   ]
+  }
+ ]
+}

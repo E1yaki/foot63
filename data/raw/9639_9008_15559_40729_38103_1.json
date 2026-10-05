@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40729_38103_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "H",
+ "poule_label": "Poule H",
+ "start": "2026-10-10T14:00",
+ "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+ "organisateur": "AULNAT SP",
+ "equipes": [
+  "A.S. MONTFERRANDAISE 4",
+  "AULNAT SP. 2",
+  "C.S. PONT DU CHATEAU 3",
+  "U.S. MOZAC 1"
+ ],
+ "logos": {
+  "A.S. MONTFERRANDAISE 4": "logos/BC508763.jpg",
+  "AULNAT SP. 2": "logos/BC521920.jpg",
+  "C.S. PONT DU CHATEAU 3": "logos/BC520152.jpg",
+  "U.S. MOZAC 1": "logos/BC521724.jpg"
+ },
+ "matchs": [
+  {
+   "home": "C.S. PONT DU CHATEAU 3",
+   "away": "A.S. MONTFERRANDAISE 4",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AULNAT SP. 2",
+   "away": "U.S. MOZAC 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. MOZAC 1",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AULNAT SP. 2",
+   "away": "A.S. MONTFERRANDAISE 4",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+   "matchs": [
+    {
+     "home": "C.S. PONT DU CHATEAU 3",
+     "away": "A.S. MONTFERRANDAISE 4",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AULNAT SP. 2",
+     "away": "U.S. MOZAC 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. MOZAC 1",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AULNAT SP. 2",
+     "away": "A.S. MONTFERRANDAISE 4",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

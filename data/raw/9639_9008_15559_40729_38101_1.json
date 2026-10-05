@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40729_38101_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "H",
+ "poule_label": "Poule H",
+ "start": "2026-09-19T14:00",
+ "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+ "organisateur": "AULNAT SP",
+ "equipes": [
+  "C.S. PONT DU CHATEAU 3",
+  "AULNAT SP. 2",
+  "U.S. ENNEZAT 1",
+  "FOOTBALL CLUB GERZAT 2"
+ ],
+ "logos": {
+  "C.S. PONT DU CHATEAU 3": "logos/BC520152.jpg",
+  "AULNAT SP. 2": "logos/BC521920.jpg",
+  "U.S. ENNEZAT 1": "logos/BC506501.jpg",
+  "FOOTBALL CLUB GERZAT 2": "logos/BC564880.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AULNAT SP. 2",
+   "away": "U.S. ENNEZAT 1",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "FOOTBALL CLUB GERZAT 2",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": 1,
+   "as": 8
+  },
+  {
+   "home": "AULNAT SP. 2",
+   "away": "FOOTBALL CLUB GERZAT 2",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "U.S. ENNEZAT 1",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": 1,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T07:02:04Z",
+ "last_change": "2026-09-21T07:02:04Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+   "matchs": [
+    {
+     "home": "AULNAT SP. 2",
+     "away": "FOOTBALL CLUB GERZAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AULNAT SP. 2",
+     "away": "U.S. ENNEZAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB GERZAT 2",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ENNEZAT 1",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T07:02:04Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+   "matchs": [
+    {
+     "home": "AULNAT SP. 2",
+     "away": "U.S. ENNEZAT 1",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "FOOTBALL CLUB GERZAT 2",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": 1,
+     "as": 8
+    },
+    {
+     "home": "AULNAT SP. 2",
+     "away": "FOOTBALL CLUB GERZAT 2",
+     "hs": 3,
+     "as": 0
+    },
+    {
+     "home": "U.S. ENNEZAT 1",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": 1,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

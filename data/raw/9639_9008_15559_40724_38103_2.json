@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40724_38103_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-10-10T14:00",
+ "lieu": "JOB - STADE ROGER MOURLEVAT",
+ "organisateur": "JOB AS",
+ "equipes": [
+  "A.S. JOB 1",
+  "F.C. LEZOUX 2",
+  "PERIGNAT F.C. 1",
+  "GROUPEMENT DORE ALLIER FOOTBALL 1"
+ ],
+ "logos": {
+  "A.S. JOB 1": "logos/BC534731.jpg",
+  "F.C. LEZOUX 2": "logos/BC517723.jpg",
+  "PERIGNAT F.C. 1": "logos/BC546837.jpg",
+  "GROUPEMENT DORE ALLIER FOOTBALL 1": "logos/BC564204.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. LEZOUX 2",
+   "away": "PERIGNAT F.C. 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "away": "A.S. JOB 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "away": "F.C. LEZOUX 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "A.S. JOB 1",
+   "away": "PERIGNAT F.C. 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "JOB - STADE ROGER MOURLEVAT",
+   "matchs": [
+    {
+     "home": "F.C. LEZOUX 2",
+     "away": "PERIGNAT F.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "away": "A.S. JOB 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "away": "F.C. LEZOUX 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. JOB 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

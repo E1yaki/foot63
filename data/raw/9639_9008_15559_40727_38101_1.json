@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40727_38101_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "F",
+ "poule_label": "Poule F",
+ "start": "2026-09-19T14:00",
+ "lieu": "ORCINES - STADE MUNICIPAL",
+ "organisateur": "F.C. CHAMALIERES",
+ "equipes": [
+  "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+  "F.C. CHAMALIERES 3",
+  "C.S. DE VOLVIC 1",
+  "U.S. MOZAC 2"
+ ],
+ "logos": {
+  "REV.AM.S. BEAUREGARD L'EVEQUE 1": "logos/BC517316.jpg",
+  "F.C. CHAMALIERES 3": "logos/BC520923.jpg",
+  "C.S. DE VOLVIC 1": "logos/BC506562.jpg",
+  "U.S. MOZAC 2": "logos/BC521724.jpg"
+ },
+ "matchs": [
+  {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 0,
+   "as": 12
+  },
+  {
+   "home": "F.C. CHAMALIERES 3",
+   "away": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "hs": 1,
+   "as": 4
+  },
+  {
+   "home": "U.S. MOZAC 2",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 0,
+   "as": 6
+  },
+  {
+   "home": "F.C. CHAMALIERES 3",
+   "away": "U.S. MOZAC 2",
+   "hs": 2,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T07:02:04Z",
+ "last_change": "2026-09-21T07:02:04Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ORCINES - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "U.S. MOZAC 2",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "U.S. MOZAC 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T07:02:04Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ORCINES - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": 0,
+     "as": 12
+    },
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "hs": 1,
+     "as": 4
+    },
+    {
+     "home": "U.S. MOZAC 2",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": 0,
+     "as": 6
+    },
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "U.S. MOZAC 2",
+     "hs": 2,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

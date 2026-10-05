@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40726_38103_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "E",
+ "poule_label": "Poule E",
+ "start": "2026-10-10T14:00",
+ "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+ "organisateur": "ST AMANT TAL.",
+ "equipes": [
+  "F.C. AUBIEROIS 2",
+  "ENT.F.C. ST AMANT ET TALLENDE 3",
+  "U.S. LES MARTRES DE VEYRE 2",
+  "F.C. AYDAT 1"
+ ],
+ "logos": {
+  "F.C. AUBIEROIS 2": "logos/BC533145.jpg",
+  "ENT.F.C. ST AMANT ET TALLENDE 3": "logos/BC546413.jpg",
+  "U.S. LES MARTRES DE VEYRE 2": "logos/BC506520.jpg",
+  "F.C. AYDAT 1": "logos/BC524678.jpg"
+ },
+ "matchs": [
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
+   "away": "F.C. AYDAT 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. AUBIEROIS 2",
+   "away": "U.S. LES MARTRES DE VEYRE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 2",
+   "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. AUBIEROIS 2",
+   "away": "F.C. AYDAT 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+   "matchs": [
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
+     "away": "F.C. AYDAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. AUBIEROIS 2",
+     "away": "U.S. LES MARTRES DE VEYRE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 2",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. AUBIEROIS 2",
+     "away": "F.C. AYDAT 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

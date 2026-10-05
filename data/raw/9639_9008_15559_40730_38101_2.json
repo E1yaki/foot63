@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40730_38101_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "I",
+ "poule_label": "Poule I",
+ "start": "2026-09-19T14:00",
+ "lieu": "COURNON D AUVERGNE - PLAINE DE JEUX 2",
+ "organisateur": "COURNON FC",
+ "equipes": [
+  "F.C. COURNON D AUVERGNE 2",
+  "F.C. PLAUZAT-CHAMPEIX 2",
+  "S.A. THIERNOIS 2",
+  "GROUPEMENT DE L'AUZON 3"
+ ],
+ "logos": {
+  "F.C. COURNON D AUVERGNE 2": "logos/BC547699.jpg",
+  "F.C. PLAUZAT-CHAMPEIX 2": "logos/BC529886.jpg",
+  "GROUPEMENT DE L'AUZON 3": "logos/BC581946.jpg",
+  "S.A. THIERNOIS 2": "logos/BC508776.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GROUPEMENT DE L'AUZON 3",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "F.C. COURNON D AUVERGNE 2",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": 7,
+   "as": 1
+  },
+  {
+   "home": "S.A. THIERNOIS 2",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": 8,
+   "as": 0
+  },
+  {
+   "home": "GROUPEMENT DE L'AUZON 3",
+   "away": "S.A. THIERNOIS 2",
+   "hs": 0,
+   "as": 5
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-23T11:03:20Z",
+ "last_change": "2026-09-23T11:03:20Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "COURNON D AUVERGNE - PLAINE DE JEUX 2",
+   "matchs": [
+    {
+     "home": "GROUPEMENT DE L'AUZON 3",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 2",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.A. THIERNOIS 2",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT DE L'AUZON 3",
+     "away": "S.A. THIERNOIS 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-23T11:03:20Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "COURNON D AUVERGNE - PLAINE DE JEUX 2",
+   "matchs": [
+    {
+     "home": "GROUPEMENT DE L'AUZON 3",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 2",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": 7,
+     "as": 1
+    },
+    {
+     "home": "S.A. THIERNOIS 2",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": 8,
+     "as": 0
+    },
+    {
+     "home": "GROUPEMENT DE L'AUZON 3",
+     "away": "S.A. THIERNOIS 2",
+     "hs": 0,
+     "as": 5
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

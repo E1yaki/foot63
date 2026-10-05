@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40731_38103_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "J",
+ "poule_label": "Poule J",
+ "start": "2026-10-10T14:00",
+ "lieu": "LIMONS - STADE GINETTE TIXIER",
+ "organisateur": "RSLCV",
+ "equipes": [
+  "AULNAT SP. 3",
+  "GROUPEMENT DORE ALLIER FOOTBALL 2",
+  "U.S. MARINGUOISE 1",
+  "R. S. LUZILLAT CHARNAT VINZELLES 1"
+ ],
+ "logos": {
+  "AULNAT SP. 3": "logos/BC521920.jpg",
+  "GROUPEMENT DORE ALLIER FOOTBALL 2": "logos/BC564204.jpg",
+  "U.S. MARINGUOISE 1": "logos/BC506518.jpg",
+  "R. S. LUZILLAT CHARNAT VINZELLES 1": "logos/BC582673.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AULNAT SP. 3",
+   "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+   "away": "U.S. MARINGUOISE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AULNAT SP. 3",
+   "away": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+   "away": "U.S. MARINGUOISE 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "LIMONS - STADE GINETTE TIXIER",
+   "matchs": [
+    {
+     "home": "AULNAT SP. 3",
+     "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+     "away": "U.S. MARINGUOISE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AULNAT SP. 3",
+     "away": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+     "away": "U.S. MARINGUOISE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

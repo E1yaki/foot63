@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40724_38102_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-10-03T14:00",
+ "lieu": "LEZOUX - STADE DU VERNADEL",
+ "organisateur": "LEZOUX F.C.",
+ "equipes": [
+  "F.C. LEZOUX 2",
+  "DUROLLE FOOT 1",
+  "C.S. PONT DE DORE 1",
+  "A.S. JOB 1"
+ ],
+ "logos": {
+  "F.C. LEZOUX 2": "logos/BC517723.jpg",
+  "DUROLLE FOOT 1": "logos/BC580467.jpg",
+  "C.S. PONT DE DORE 1": "logos/BC526934.jpg",
+  "A.S. JOB 1": "logos/BC534731.jpg"
+ },
+ "matchs": [
+  {
+   "home": "A.S. JOB 1",
+   "away": "F.C. LEZOUX 2",
+   "hs": 0,
+   "as": 2
+  },
+  {
+   "home": "A.S. JOB 1",
+   "away": "C.S. PONT DE DORE 1",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "DUROLLE FOOT 1",
+   "away": "C.S. PONT DE DORE 1",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "DUROLLE FOOT 1",
+   "away": "F.C. LEZOUX 2",
+   "hs": 0,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T12:24:56Z",
+ "last_change": "2026-10-05T12:24:56Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "LEZOUX - STADE DU VERNADEL",
+   "matchs": [
+    {
+     "home": "A.S. JOB 1",
+     "away": "F.C. LEZOUX 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. JOB 1",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "F.C. LEZOUX 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T12:24:56Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "LEZOUX - STADE DU VERNADEL",
+   "matchs": [
+    {
+     "home": "A.S. JOB 1",
+     "away": "F.C. LEZOUX 2",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "A.S. JOB 1",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "F.C. LEZOUX 2",
+     "hs": 0,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

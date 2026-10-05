@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40725_38103_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "D",
+ "poule_label": "Poule D",
+ "start": "2026-10-10T14:00",
+ "lieu": "AIGUEPERSE - STADE GÉRARD BOCHE 1",
+ "organisateur": "NORD LIMAGNE F.C.",
+ "equipes": [
+  "ENTENTE CHARBLOT 1",
+  "U. J. CLERMONTOISE 2",
+  "F.C. NORD LIMAGNE 1",
+  "CLERMONT ACADEMY 1"
+ ],
+ "logos": {
+  "ENTENTE CHARBLOT 1": "logos/BC582290.jpg",
+  "U. J. CLERMONTOISE 2": "logos/BC590198.jpg",
+  "F.C. NORD LIMAGNE 1": "logos/BC563628.jpg",
+  "CLERMONT ACADEMY 1": "logos/BC565247.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. NORD LIMAGNE 1",
+   "away": "CLERMONT ACADEMY 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "U. J. CLERMONTOISE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "F.C. NORD LIMAGNE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "CLERMONT ACADEMY 1",
+   "away": "U. J. CLERMONTOISE 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "AIGUEPERSE - STADE GÉRARD BOCHE 1",
+   "matchs": [
+    {
+     "home": "F.C. NORD LIMAGNE 1",
+     "away": "CLERMONT ACADEMY 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "U. J. CLERMONTOISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "F.C. NORD LIMAGNE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLERMONT ACADEMY 1",
+     "away": "U. J. CLERMONTOISE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

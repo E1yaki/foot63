@@ -1,0 +1,54 @@
+{
+ "id": "9639_9008_15559_40727_34064_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "F",
+ "poule_label": "Poule F",
+ "start": "2026-09-12T14:00",
+ "lieu": "MOISSAT - STADE COMMUNAL",
+ "organisateur": "BEAUREGARD L EVEQUE",
+ "equipes": [
+  "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+  "U.S. MENETROL 1",
+  "DOMES SANCY FOOT 2",
+  "F.C. CHAMALIERES 3"
+ ],
+ "logos": {
+  "REV.AM.S. BEAUREGARD L'EVEQUE 1": "logos/BC517316.jpg",
+  "U.S. MENETROL 1": "logos/BC537754.jpg",
+  "DOMES SANCY FOOT 2": "logos/BC563697.jpg",
+  "F.C. CHAMALIERES 3": "logos/BC520923.jpg"
+ },
+ "matchs": [
+  {
+   "home": "DOMES SANCY FOOT 2",
+   "away": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "hs": 3,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "MOISSAT - STADE COMMUNAL",
+   "matchs": [
+    {
+     "home": "DOMES SANCY FOOT 2",
+     "away": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,90 @@
+{
+ "id": "9639_9008_15559_40726_38102_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "E",
+ "poule_label": "Poule E",
+ "start": "2026-10-03T14:00",
+ "lieu": "LES MARTRES DE VEYRE - STADE ÉMILE RIVE 2",
+ "organisateur": "MARTRES DE VEYRE",
+ "equipes": [
+  "F.C. AYDAT 1",
+  "U.S. BEAUMONTOISE 1",
+  "U.S. LES MARTRES DE VEYRE 2",
+  "F.C. COURNON D AUVERGNE 3"
+ ],
+ "logos": {
+  "F.C. AYDAT 1": "logos/BC524678.jpg",
+  "U.S. BEAUMONTOISE 1": "logos/BC508949.jpg",
+  "U.S. LES MARTRES DE VEYRE 2": "logos/BC506520.jpg",
+  "F.C. COURNON D AUVERGNE 3": "logos/BC547699.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. BEAUMONTOISE 1",
+   "away": "F.C. COURNON D AUVERGNE 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. AYDAT 1",
+   "away": "F.C. COURNON D AUVERGNE 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. BEAUMONTOISE 1",
+   "away": "U.S. LES MARTRES DE VEYRE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. AYDAT 1",
+   "away": "U.S. LES MARTRES DE VEYRE 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "LES MARTRES DE VEYRE - STADE ÉMILE RIVE 2",
+   "matchs": [
+    {
+     "home": "U.S. BEAUMONTOISE 1",
+     "away": "F.C. COURNON D AUVERGNE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. AYDAT 1",
+     "away": "F.C. COURNON D AUVERGNE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 1",
+     "away": "U.S. LES MARTRES DE VEYRE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. AYDAT 1",
+     "away": "U.S. LES MARTRES DE VEYRE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

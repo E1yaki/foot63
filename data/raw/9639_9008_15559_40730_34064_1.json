@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40730_34064_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "I",
+ "poule_label": "Poule I",
+ "start": "2026-09-12T16:00",
+ "lieu": "COURPIERE - STADE ETIENNE BONHOMME",
+ "organisateur": "COURPIERE U.S.",
+ "equipes": [
+  "U.S. COURPIEROISE 2",
+  "F.C. COURNON D AUVERGNE 2",
+  "GROUPEMENT DE L'AUZON 3",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2"
+ ],
+ "logos": {
+  "U.S. COURPIEROISE 2": "logos/BC506497.jpg",
+  "F.C. COURNON D AUVERGNE 2": "logos/BC547699.jpg",
+  "GROUPEMENT DE L'AUZON 3": "logos/BC581946.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2": "logos/BC564515.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "GROUPEMENT DE L'AUZON 3",
+   "hs": 5,
+   "as": 1
+  },
+  {
+   "home": "GROUPEMENT DE L'AUZON 3",
+   "away": "U.S. COURPIEROISE 2",
+   "hs": 2,
+   "as": 5
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": 2,
+   "as": 1
+  },
+  {
+   "home": "F.C. COURNON D AUVERGNE 2",
+   "away": "U.S. COURPIEROISE 2",
+   "hs": 12,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T16:00",
+   "lieu": "COURPIERE - STADE ETIENNE BONHOMME",
+   "matchs": [
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": 5,
+     "as": 1
+    },
+    {
+     "home": "GROUPEMENT DE L'AUZON 3",
+     "away": "U.S. COURPIEROISE 2",
+     "hs": 2,
+     "as": 5
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": 2,
+     "as": 1
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 2",
+     "away": "U.S. COURPIEROISE 2",
+     "hs": 12,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

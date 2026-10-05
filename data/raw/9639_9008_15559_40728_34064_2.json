@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40728_34064_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "G",
+ "poule_label": "Poule G",
+ "start": "2026-09-12T11:00",
+ "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+ "organisateur": "RIOM FC",
+ "equipes": [
+  "VAL DE SIOULE FOOT 2",
+  "F.C. RIOMOIS 3",
+  "LEMPDES SP. 2",
+  "FOOTBALL CLUB GERZAT 1"
+ ],
+ "logos": {
+  "VAL DE SIOULE FOOT 2": "logos/BC582409.jpg",
+  "F.C. RIOMOIS 3": "logos/BC508772.jpg",
+  "LEMPDES SP. 2": "logos/BC518527.jpg",
+  "FOOTBALL CLUB GERZAT 1": "logos/BC564880.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. RIOMOIS 3",
+   "away": "VAL DE SIOULE FOOT 2",
+   "hs": 15,
+   "as": 0
+  },
+  {
+   "home": "LEMPDES SP. 2",
+   "away": "VAL DE SIOULE FOOT 2",
+   "hs": 4,
+   "as": 1
+  },
+  {
+   "home": "FOOTBALL CLUB GERZAT 1",
+   "away": "LEMPDES SP. 2",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "FOOTBALL CLUB GERZAT 1",
+   "away": "F.C. RIOMOIS 3",
+   "hs": 4,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T11:00",
+   "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+   "matchs": [
+    {
+     "home": "F.C. RIOMOIS 3",
+     "away": "VAL DE SIOULE FOOT 2",
+     "hs": 15,
+     "as": 0
+    },
+    {
+     "home": "LEMPDES SP. 2",
+     "away": "VAL DE SIOULE FOOT 2",
+     "hs": 4,
+     "as": 1
+    },
+    {
+     "home": "FOOTBALL CLUB GERZAT 1",
+     "away": "LEMPDES SP. 2",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "FOOTBALL CLUB GERZAT 1",
+     "away": "F.C. RIOMOIS 3",
+     "hs": 4,
+     "as": 2
+    }
+   ]
+  }
+ ]
+}

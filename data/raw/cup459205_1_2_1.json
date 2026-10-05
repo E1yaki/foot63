@@ -1,0 +1,133 @@
+{
+ "id": "cup459205_1_2_1",
+ "cat": "u13-festival",
+ "cat_label": null,
+ "phase": 1,
+ "phase_label": "1ER TOUR",
+ "poule": "2",
+ "poule_label": "POULE 2",
+ "start": "2026-09-26T14:00",
+ "heure_connue": true,
+ "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
+ "organisateur": "",
+ "equipes": [
+  "C.S. PONT DU CHATEAU 2",
+  "FOOTBALL CLUB PUY DE MUR 2",
+  "GJ SCB FOOT 3"
+ ],
+ "logos": {
+  "SCB FOOT GR.": "https://cdn-transverse.azureedge.net/phlogos/BC560516.jpg",
+  "PONT DU CHATEAU CS": "https://cdn-transverse.azureedge.net/phlogos/BC520152.jpg",
+  "FOOTBALL CLUB PUY DE": "https://cdn-transverse.azureedge.net/phlogos/BC564682.jpg",
+  "SCB FOOT GR. 3": "https://cdn-transverse.azureedge.net/phlogos/BC560516.jpg",
+  "PONT DU CHATEAU 2": "https://cdn-transverse.azureedge.net/phlogos/BC520152.jpg",
+  "FOOTBALL CLUB PUY DE 2": "https://cdn-transverse.azureedge.net/phlogos/BC564682.jpg",
+  "GJ SCB FOOT 3": "https://cdn-transverse.azureedge.net/phlogos/BC560516.jpg",
+  "C.S. PONT DU CHATEAU 2": "https://cdn-transverse.azureedge.net/phlogos/BC520152.jpg",
+  "FOOTBALL CLUB PUY DE MUR 2": "https://cdn-transverse.azureedge.net/phlogos/BC564682.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GJ SCB FOOT 3",
+   "away": "C.S. PONT DU CHATEAU 2",
+   "hs": 1,
+   "as": 8
+  },
+  {
+   "home": "GJ SCB FOOT 3",
+   "away": "FOOTBALL CLUB PUY DE MUR 2",
+   "hs": 0,
+   "as": 2
+  },
+  {
+   "home": "C.S. PONT DU CHATEAU 2",
+   "away": "FOOTBALL CLUB PUY DE MUR 2",
+   "hs": 3,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "glyph_fps": [],
+ "mini": {},
+ "first_seen": "2026-09-27T11:44:39Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-10-04T09:10:44Z",
+ "history": [
+  {
+   "ts": "2026-09-27T11:44:39Z",
+   "start": "2026-09-26T14H00",
+   "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
+   "matchs": [
+    {
+     "home": "SCB FOOT GR.",
+     "away": "PONT DU CHATEAU CS",
+     "hs": 1,
+     "as": 8
+    },
+    {
+     "home": "SCB FOOT GR.",
+     "away": "FOOTBALL CLUB PUY DE",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "PONT DU CHATEAU CS",
+     "away": "FOOTBALL CLUB PUY DE",
+     "hs": 3,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-28T08:42:51Z",
+   "start": "2026-09-26T14H00",
+   "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
+   "matchs": [
+    {
+     "home": "SCB FOOT GR. 3",
+     "away": "PONT DU CHATEAU 2",
+     "hs": 1,
+     "as": 8
+    },
+    {
+     "home": "SCB FOOT GR. 3",
+     "away": "FOOTBALL CLUB PUY DE 2",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "PONT DU CHATEAU 2",
+     "away": "FOOTBALL CLUB PUY DE 2",
+     "hs": 3,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:10:44Z",
+   "start": "2026-09-26T14:00",
+   "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
+   "matchs": [
+    {
+     "home": "GJ SCB FOOT 3",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": 1,
+     "as": 8
+    },
+    {
+     "home": "GJ SCB FOOT 3",
+     "away": "FOOTBALL CLUB PUY DE MUR 2",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "C.S. PONT DU CHATEAU 2",
+     "away": "FOOTBALL CLUB PUY DE MUR 2",
+     "hs": 3,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "id": "9639_9008_15559_40724_38101_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-09-19T14:00",
+ "lieu": "LEZOUX - STADE DU VERNADEL",
+ "organisateur": "LEZOUX F.C.",
+ "equipes": [
+  "F.C. LEZOUX 2",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+  "FOOTBALL CLUB PUY DE MUR 1",
+  "A.S. JOB 1"
+ ],
+ "logos": {
+  "F.C. LEZOUX 2": "logos/BC517723.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3": "logos/BC564515.jpg",
+  "FOOTBALL CLUB PUY DE MUR 1": "logos/BC564682.jpg",
+  "A.S. JOB 1": "logos/BC534731.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+   "away": "A.S. JOB 1",
+   "hs": 5,
+   "as": 0
+  },
+  {
+   "home": "A.S. JOB 1",
+   "away": "FOOTBALL CLUB PUY DE MUR 1",
+   "hs": 0,
+   "as": 2
+  },
+  {
+   "home": "F.C. LEZOUX 2",
+   "away": "FOOTBALL CLUB PUY DE MUR 1",
+   "hs": 0,
+   "as": 0
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+   "away": "F.C. LEZOUX 2",
+   "hs": 2,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:38:24Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "LEZOUX - STADE DU VERNADEL",
+   "matchs": [
+    {
+     "home": "A.S. JOB 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+     "away": "A.S. JOB 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+     "away": "F.C. LEZOUX 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. LEZOUX 2",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:38:24Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "LEZOUX - STADE DU VERNADEL",
+   "matchs": [
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+     "away": "A.S. JOB 1",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "A.S. JOB 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "F.C. LEZOUX 2",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+     "away": "F.C. LEZOUX 2",
+     "hs": 2,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

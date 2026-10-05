@@ -1,0 +1,133 @@
+{
+ "id": "cup459205_1_12_1",
+ "cat": "u13-festival",
+ "cat_label": null,
+ "phase": 1,
+ "phase_label": "1ER TOUR",
+ "poule": "12",
+ "poule_label": "POULE 12",
+ "start": "2026-09-26T00:00",
+ "heure_connue": false,
+ "lieu": "",
+ "organisateur": "",
+ "equipes": [
+  "ENTENTE CHARBLOT 1",
+  "F.C. NORD COMBRAILLE 1",
+  "F.C. RIOMOIS 2"
+ ],
+ "logos": {
+  "ENTENTE CHARBLOT": "https://cdn-transverse.azureedge.net/phlogos/BC582290.jpg",
+  "RIOM F.C": "https://cdn-transverse.azureedge.net/phlogos/BC508772.jpg",
+  "ND COMB/ST GERVAIS": "https://cdn-transverse.azureedge.net/phlogos/BC547675.jpg",
+  "CHARBLOT ENT.": "https://cdn-transverse.azureedge.net/phlogos/BC582290.jpg",
+  "RIOM F.C. 2": "https://cdn-transverse.azureedge.net/phlogos/BC508772.jpg",
+  "NORD COMBRAILLE": "https://cdn-transverse.azureedge.net/phlogos/BC547675.jpg",
+  "ENTENTE CHARBLOT 1": "https://cdn-transverse.azureedge.net/phlogos/BC582290.jpg",
+  "F.C. RIOMOIS 2": "https://cdn-transverse.azureedge.net/phlogos/BC508772.jpg",
+  "F.C. NORD COMBRAILLE 1": "https://cdn-transverse.azureedge.net/phlogos/BC547675.jpg"
+ },
+ "matchs": [
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "F.C. RIOMOIS 2",
+   "hs": 0,
+   "as": 10
+  },
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "F.C. NORD COMBRAILLE 1",
+   "hs": 3,
+   "as": 7
+  },
+  {
+   "home": "F.C. RIOMOIS 2",
+   "away": "F.C. NORD COMBRAILLE 1",
+   "hs": 5,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "glyph_fps": [],
+ "mini": {},
+ "first_seen": "2026-09-27T11:44:39Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-10-04T09:10:44Z",
+ "history": [
+  {
+   "ts": "2026-09-27T11:44:39Z",
+   "start": "2026-09-26T00:00",
+   "lieu": "",
+   "matchs": [
+    {
+     "home": "ENTENTE CHARBLOT",
+     "away": "RIOM F.C",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENTENTE CHARBLOT",
+     "away": "ND COMB/ST GERVAIS",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "RIOM F.C",
+     "away": "ND COMB/ST GERVAIS",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-30T12:00:46Z",
+   "start": "2026-09-26T00:00",
+   "lieu": "",
+   "matchs": [
+    {
+     "home": "CHARBLOT ENT.",
+     "away": "RIOM F.C. 2",
+     "hs": 0,
+     "as": 10
+    },
+    {
+     "home": "CHARBLOT ENT.",
+     "away": "NORD COMBRAILLE",
+     "hs": 3,
+     "as": 7
+    },
+    {
+     "home": "RIOM F.C. 2",
+     "away": "NORD COMBRAILLE",
+     "hs": 5,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:10:44Z",
+   "start": "2026-09-26T00:00",
+   "lieu": "",
+   "matchs": [
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "F.C. RIOMOIS 2",
+     "hs": 0,
+     "as": 10
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": 3,
+     "as": 7
+    },
+    {
+     "home": "F.C. RIOMOIS 2",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": 5,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "id": "9639_9008_15559_40729_38102_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "H",
+ "poule_label": "Poule H",
+ "start": "2026-10-03T14:00",
+ "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+ "organisateur": "C.S. PONT DU CHATEAU",
+ "equipes": [
+  "C.S. PONT DU CHATEAU 3",
+  "GROUPEMENT FORMATEUR LIMAGNE 2",
+  "CEBAZAT SP. 2",
+  "AULNAT SP. 2"
+ ],
+ "logos": {
+  "C.S. PONT DU CHATEAU 3": "logos/BC520152.jpg",
+  "GROUPEMENT FORMATEUR LIMAGNE 2": "logos/BC554404.jpg",
+  "CEBAZAT SP. 2": "logos/BC510828.jpg",
+  "AULNAT SP. 2": "logos/BC521920.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AULNAT SP. 2",
+   "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AULNAT SP. 2",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 2",
+   "away": "CEBAZAT SP. 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "C.S. PONT DU CHATEAU 3",
+   "away": "CEBAZAT SP. 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+   "matchs": [
+    {
+     "home": "AULNAT SP. 2",
+     "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AULNAT SP. 2",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT FORMATEUR LIMAGNE 2",
+     "away": "CEBAZAT SP. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. PONT DU CHATEAU 3",
+     "away": "CEBAZAT SP. 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

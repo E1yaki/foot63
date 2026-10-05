@@ -1,0 +1,121 @@
+{
+ "id": "9639_9008_15559_40727_38102_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "F",
+ "poule_label": "Poule F",
+ "start": "2026-10-03T14:00",
+ "lieu": "ROCHEFORT MONTAGNE - STADE MUNICIPAL 1",
+ "organisateur": "DOMES SANCY FOOT",
+ "equipes": [
+  "F.C. NORD COMBRAILLE 1",
+  "C.S. DE VOLVIC 1",
+  "DOMES SANCY FOOT 2",
+  "F.C. CHAMALIERES 3"
+ ],
+ "logos": {
+  "F.C. NORD COMBRAILLE 1": "logos/BC547675.jpg",
+  "C.S. DE VOLVIC 1": "logos/BC506562.jpg",
+  "DOMES SANCY FOOT 2": "logos/BC563697.jpg",
+  "F.C. CHAMALIERES 3": "logos/BC520923.jpg"
+ },
+ "matchs": [
+  {
+   "home": "C.S. DE VOLVIC 1",
+   "away": "DOMES SANCY FOOT 2",
+   "hs": 2,
+   "as": 1
+  },
+  {
+   "home": "F.C. CHAMALIERES 3",
+   "away": "F.C. NORD COMBRAILLE 1",
+   "hs": 1,
+   "as": 2
+  },
+  {
+   "home": "F.C. CHAMALIERES 3",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 0,
+   "as": 3
+  },
+  {
+   "home": "F.C. NORD COMBRAILLE 1",
+   "away": "DOMES SANCY FOOT 2",
+   "hs": 2,
+   "as": 3
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T20:45:01Z",
+ "last_change": "2026-10-04T20:45:01Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ROCHEFORT MONTAGNE - STADE MUNICIPAL 1",
+   "matchs": [
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. DE VOLVIC 1",
+     "away": "DOMES SANCY FOOT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. NORD COMBRAILLE 1",
+     "away": "DOMES SANCY FOOT 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T20:45:01Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ROCHEFORT MONTAGNE - STADE MUNICIPAL 1",
+   "matchs": [
+    {
+     "home": "C.S. DE VOLVIC 1",
+     "away": "DOMES SANCY FOOT 2",
+     "hs": 2,
+     "as": 1
+    },
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": 1,
+     "as": 2
+    },
+    {
+     "home": "F.C. CHAMALIERES 3",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": 0,
+     "as": 3
+    },
+    {
+     "home": "F.C. NORD COMBRAILLE 1",
+     "away": "DOMES SANCY FOOT 2",
+     "hs": 2,
+     "as": 3
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

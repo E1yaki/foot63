@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40724_38103_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-10-10T14:00",
+ "lieu": "MARSAC EN LIVRADOIS - STADE DE LA GRAVIÈRE",
+ "organisateur": "AMBERT LIVRADOIS SUD",
+ "equipes": [
+  "FOOTBALL CLUB PUY DE MUR 1",
+  "C.S. PONT DE DORE 1",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+  "DUROLLE FOOT 1"
+ ],
+ "logos": {
+  "FOOTBALL CLUB PUY DE MUR 1": "logos/BC564682.jpg",
+  "C.S. PONT DE DORE 1": "logos/BC526934.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3": "logos/BC564515.jpg",
+  "DUROLLE FOOT 1": "logos/BC580467.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+   "away": "DUROLLE FOOT 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+   "away": "C.S. PONT DE DORE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 1",
+   "away": "DUROLLE FOOT 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "C.S. PONT DE DORE 1",
+   "away": "FOOTBALL CLUB PUY DE MUR 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "MARSAC EN LIVRADOIS - STADE DE LA GRAVIÈRE",
+   "matchs": [
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+     "away": "DUROLLE FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 1",
+     "away": "DUROLLE FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. PONT DE DORE 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

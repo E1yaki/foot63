@@ -1,0 +1,88 @@
+{
+ "id": "9639_9008_15559_40731_38103_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "J",
+ "poule_label": "Poule J",
+ "start": "2026-10-10T14:00",
+ "lieu": "BILLOM - STADE DU CHAMP DE MARS 1",
+ "organisateur": "BILLOM S.C.",
+ "equipes": [
+  "S.A. THIERNOIS 3",
+  "S.C. BILLOMOIS 1",
+  "FOOTBALL CLUB PUY DE MUR 2",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4"
+ ],
+ "logos": {
+  "S.A. THIERNOIS 3": "logos/BC508776.jpg",
+  "S.C. BILLOMOIS 1": "logos/BC506469.jpg",
+  "FOOTBALL CLUB PUY DE MUR 2": "logos/BC564682.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4": "logos/BC564515.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+   "away": "S.C. BILLOMOIS 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "S.A. THIERNOIS 3",
+   "away": "S.C. BILLOMOIS 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 2",
+   "away": "S.A. THIERNOIS 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+   "away": "FOOTBALL CLUB PUY DE MUR 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "BILLOM - STADE DU CHAMP DE MARS 1",
+   "matchs": [
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+     "away": "S.C. BILLOMOIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.A. THIERNOIS 3",
+     "away": "S.C. BILLOMOIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "S.A. THIERNOIS 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+     "away": "FOOTBALL CLUB PUY DE MUR 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}
