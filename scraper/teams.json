@@ -1,0 +1,825 @@
+{
+ "9634": [
+  {
+   "name": "A. OUVOIMOJA",
+   "clNo": "113214",
+   "clCod": "551537"
+  },
+  {
+   "name": "A. S. CLERMONT SAINT JACQUES FOOT",
+   "clNo": "10554",
+   "clCod": "525985"
+  },
+  {
+   "name": "A.S. MONTFERRANDAISE",
+   "clNo": "3335",
+   "clCod": "508763"
+  },
+  {
+   "name": "A.S. JOB",
+   "clNo": "16365",
+   "clCod": "534731"
+  },
+  {
+   "name": "A.S. ORCINES",
+   "clNo": "7146",
+   "clCod": "520786"
+  },
+  {
+   "name": "A.S. ROMAGNAT",
+   "clNo": "5004",
+   "clCod": "516330"
+  },
+  {
+   "name": "A.S. ROYAT A.C.",
+   "clNo": "9287",
+   "clCod": "524117"
+  },
+  {
+   "name": "AM. LAIQ. S. DE BESSE EGLISENEUVE",
+   "clNo": "13196",
+   "clCod": "529900"
+  },
+  {
+   "name": "AMBERT LIVRADOIS SUD FOOTBALL CLUB",
+   "clNo": "202043",
+   "clCod": "564515"
+  },
+  {
+   "name": "AULNAT SP.",
+   "clNo": "7888",
+   "clCod": "521920"
+  },
+  {
+   "name": "C.O. VEYRE MONTON",
+   "clNo": "14742",
+   "clCod": "532169"
+  },
+  {
+   "name": "C.S. DE VOLVIC",
+   "clNo": "2880",
+   "clCod": "506562"
+  },
+  {
+   "name": "C.S. PONT DE DORE",
+   "clNo": "11164",
+   "clCod": "526934"
+  },
+  {
+   "name": "C.S. PONT DU CHATEAU",
+   "clNo": "6759",
+   "clCod": "520152"
+  },
+  {
+   "name": "CEBAZAT SP.",
+   "clNo": "3685",
+   "clCod": "510828"
+  },
+  {
+   "name": "CLERMONT ACADEMY",
+   "clNo": "205187",
+   "clCod": "565247"
+  },
+  {
+   "name": "CLERMONT FOOT 63",
+   "clNo": "17117",
+   "clCod": "535789"
+  },
+  {
+   "name": "DOMES SANCY FOOT",
+   "clNo": "172763",
+   "clCod": "563697"
+  },
+  {
+   "name": "DUROLLE FOOT",
+   "clNo": "176507",
+   "clCod": "580467"
+  },
+  {
+   "name": "E.S. ST GERMINOISE",
+   "clNo": "5135",
+   "clCod": "516806"
+  },
+  {
+   "name": "ECUREUILS FRANC ROSIER",
+   "clNo": "11162",
+   "clCod": "526932"
+  },
+  {
+   "name": "ENT.F.C. ST AMANT ET TALLENDE",
+   "clNo": "24042",
+   "clCod": "546413"
+  },
+  {
+   "name": "ENTENTE CHARBLOT",
+   "clNo": "189613",
+   "clCod": "582290"
+  },
+  {
+   "name": "ESP. CEYRATOISE",
+   "clNo": "12572",
+   "clCod": "529030"
+  },
+  {
+   "name": "F. C. CLERMONT METROPOLE",
+   "clNo": "192050",
+   "clCod": "582731"
+  },
+  {
+   "name": "F.C. AUBIEROIS",
+   "clNo": "15371",
+   "clCod": "533145"
+  },
+  {
+   "name": "F.C. BLANZAT",
+   "clNo": "15541",
+   "clCod": "533382"
+  },
+  {
+   "name": "F.C. CHAMALIERES",
+   "clNo": "7223",
+   "clCod": "520923"
+  },
+  {
+   "name": "F.C. CHATEL GUYON",
+   "clNo": "6839",
+   "clCod": "520289"
+  },
+  {
+   "name": "F.C. COURNON D AUVERGNE",
+   "clNo": "24983",
+   "clCod": "547699"
+  },
+  {
+   "name": "F.C. LEZOUX",
+   "clNo": "5521",
+   "clCod": "517723"
+  },
+  {
+   "name": "F.C. NORD COMBRAILLE",
+   "clNo": "24960",
+   "clCod": "547675"
+  },
+  {
+   "name": "F.C. NORD LIMAGNE",
+   "clNo": "172535",
+   "clCod": "563628"
+  },
+  {
+   "name": "F.C. PLAUZAT-CHAMPEIX",
+   "clNo": "13186",
+   "clCod": "529886"
+  },
+  {
+   "name": "F.C. RIOMOIS",
+   "clNo": "3340",
+   "clCod": "508772"
+  },
+  {
+   "name": "FOOTBALL CLUB GERZAT",
+   "clNo": "203851",
+   "clCod": "564880"
+  },
+  {
+   "name": "FOOTBALL CLUB PUY DE MUR",
+   "clNo": "206186",
+   "clCod": "564682"
+  },
+  {
+   "name": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT",
+   "clNo": "198966",
+   "clCod": "560797"
+  },
+  {
+   "name": "GJ SCB FOOT",
+   "clNo": "197253",
+   "clCod": "560516"
+  },
+  {
+   "name": "GROUPEMENT DE L'AUZON",
+   "clNo": "187161",
+   "clCod": "581946"
+  },
+  {
+   "name": "GROUPEMENT DORE ALLIER FOOTBALL",
+   "clNo": "194086",
+   "clCod": "564204"
+  },
+  {
+   "name": "GROUPEMENT FORMATEUR LIMAGNE",
+   "clNo": "153221",
+   "clCod": "554404"
+  },
+  {
+   "name": "HAUTE COMBRAILLE FOOT",
+   "clNo": "176519",
+   "clCod": "580473"
+  },
+  {
+   "name": "LEMPDES SP.",
+   "clNo": "5896",
+   "clCod": "518527"
+  },
+  {
+   "name": "PERIGNAT F.C.",
+   "clNo": "24319",
+   "clCod": "546837"
+  },
+  {
+   "name": "REV.AM.S. BEAUREGARD L'EVEQUE",
+   "clNo": "5332",
+   "clCod": "517316"
+  },
+  {
+   "name": "S.A. THIERNOIS",
+   "clNo": "3342",
+   "clCod": "508776"
+  },
+  {
+   "name": "S.C. BILLOMOIS",
+   "clNo": "2855",
+   "clCod": "506469"
+  },
+  {
+   "name": "SANCY CHAVANON FOOT",
+   "clNo": "200371",
+   "clCod": "561027"
+  },
+  {
+   "name": "U. J. CLERMONTOISE",
+   "clNo": "179785",
+   "clCod": "590198"
+  },
+  {
+   "name": "U.S. BEAUMONTOISE",
+   "clNo": "3369",
+   "clCod": "508949"
+  },
+  {
+   "name": "U.S. ENNEZAT",
+   "clNo": "2864",
+   "clCod": "506501"
+  },
+  {
+   "name": "U.S. ISSOIRE A. DU MAS",
+   "clNo": "2867",
+   "clCod": "506507"
+  },
+  {
+   "name": "U.S. LES MARTRES DE VEYRE",
+   "clNo": "2870",
+   "clCod": "506520"
+  },
+  {
+   "name": "U.S. MARINGUOISE",
+   "clNo": "2869",
+   "clCod": "506518"
+  },
+  {
+   "name": "U.S. MENETROL",
+   "clNo": "18538",
+   "clCod": "537754"
+  },
+  {
+   "name": "U.S. MOZAC",
+   "clNo": "7752",
+   "clCod": "521724"
+  },
+  {
+   "name": "U.S. ST GEORGES LES ANCIZES",
+   "clNo": "2876",
+   "clCod": "506545"
+  },
+  {
+   "name": "U.S. ST GERVAISIENNE",
+   "clNo": "4533",
+   "clCod": "514515"
+  },
+  {
+   "name": "U.S. ST SYLVESTRE PRAGOULIN",
+   "clNo": "6173",
+   "clCod": "519064"
+  },
+  {
+   "name": "U.S. VAL DE COUZE CHAMBON",
+   "clNo": "22237",
+   "clCod": "542828"
+  },
+  {
+   "name": "U.S. VIC LE COMTE",
+   "clNo": "2879",
+   "clCod": "506559"
+  },
+  {
+   "name": "UNION SPORTIVE BASSIN MINIER",
+   "clNo": "197083",
+   "clCod": "560477"
+  },
+  {
+   "name": "VAL DE SIOULE FOOT",
+   "clNo": "190025",
+   "clCod": "582409"
+  }
+ ],
+ "9639": [
+  {
+   "name": "A. OUVOIMOJA",
+   "clNo": "113214",
+   "clCod": "551537"
+  },
+  {
+   "name": "A.S. MONTFERRANDAISE",
+   "clNo": "3335",
+   "clCod": "508763"
+  },
+  {
+   "name": "A.S. JOB",
+   "clNo": "16365",
+   "clCod": "534731"
+  },
+  {
+   "name": "A.S. ROMAGNAT",
+   "clNo": "5004",
+   "clCod": "516330"
+  },
+  {
+   "name": "A.S. ROYAT A.C.",
+   "clNo": "9287",
+   "clCod": "524117"
+  },
+  {
+   "name": "AM. LAIQ. S. DE BESSE EGLISENEUVE",
+   "clNo": "13196",
+   "clCod": "529900"
+  },
+  {
+   "name": "AMBERT LIVRADOIS SUD FOOTBALL CLUB",
+   "clNo": "202043",
+   "clCod": "564515"
+  },
+  {
+   "name": "AULNAT SP.",
+   "clNo": "7888",
+   "clCod": "521920"
+  },
+  {
+   "name": "C.O. VEYRE MONTON",
+   "clNo": "14742",
+   "clCod": "532169"
+  },
+  {
+   "name": "C.S. DE VOLVIC",
+   "clNo": "2880",
+   "clCod": "506562"
+  },
+  {
+   "name": "C.S. PONT DE DORE",
+   "clNo": "11164",
+   "clCod": "526934"
+  },
+  {
+   "name": "C.S. PONT DU CHATEAU",
+   "clNo": "6759",
+   "clCod": "520152"
+  },
+  {
+   "name": "CEBAZAT SP.",
+   "clNo": "3685",
+   "clCod": "510828"
+  },
+  {
+   "name": "CLERMONT ACADEMY",
+   "clNo": "205187",
+   "clCod": "565247"
+  },
+  {
+   "name": "CLERMONT FOOT 63",
+   "clNo": "17117",
+   "clCod": "535789"
+  },
+  {
+   "name": "DOMES SANCY FOOT",
+   "clNo": "172763",
+   "clCod": "563697"
+  },
+  {
+   "name": "DUROLLE FOOT",
+   "clNo": "176507",
+   "clCod": "580467"
+  },
+  {
+   "name": "E.S. ST GERMINOISE",
+   "clNo": "5135",
+   "clCod": "516806"
+  },
+  {
+   "name": "ENT.F.C. ST AMANT ET TALLENDE",
+   "clNo": "24042",
+   "clCod": "546413"
+  },
+  {
+   "name": "ENTENTE CHARBLOT",
+   "clNo": "189613",
+   "clCod": "582290"
+  },
+  {
+   "name": "F.C. AUBIEROIS",
+   "clNo": "15371",
+   "clCod": "533145"
+  },
+  {
+   "name": "F.C. AYDAT",
+   "clNo": "9646",
+   "clCod": "524678"
+  },
+  {
+   "name": "F.C. BLANZAT",
+   "clNo": "15541",
+   "clCod": "533382"
+  },
+  {
+   "name": "F.C. CHAMALIERES",
+   "clNo": "7223",
+   "clCod": "520923"
+  },
+  {
+   "name": "F.C. CHATEL GUYON",
+   "clNo": "6839",
+   "clCod": "520289"
+  },
+  {
+   "name": "F.C. COURNON D AUVERGNE",
+   "clNo": "24983",
+   "clCod": "547699"
+  },
+  {
+   "name": "F.C. LEZOUX",
+   "clNo": "5521",
+   "clCod": "517723"
+  },
+  {
+   "name": "F.C. NORD COMBRAILLE",
+   "clNo": "24960",
+   "clCod": "547675"
+  },
+  {
+   "name": "F.C. NORD LIMAGNE",
+   "clNo": "172535",
+   "clCod": "563628"
+  },
+  {
+   "name": "F.C. PLAUZAT-CHAMPEIX",
+   "clNo": "13186",
+   "clCod": "529886"
+  },
+  {
+   "name": "F.C. RIOMOIS",
+   "clNo": "3340",
+   "clCod": "508772"
+  },
+  {
+   "name": "FOOTBALL CLUB GERZAT",
+   "clNo": "203851",
+   "clCod": "564880"
+  },
+  {
+   "name": "FOOTBALL CLUB PUY DE MUR",
+   "clNo": "206186",
+   "clCod": "564682"
+  },
+  {
+   "name": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT",
+   "clNo": "198966",
+   "clCod": "560797"
+  },
+  {
+   "name": "GJ SCB FOOT",
+   "clNo": "197253",
+   "clCod": "560516"
+  },
+  {
+   "name": "GROUPEMENT DE L'AUZON",
+   "clNo": "187161",
+   "clCod": "581946"
+  },
+  {
+   "name": "GROUPEMENT DORE ALLIER FOOTBALL",
+   "clNo": "194086",
+   "clCod": "564204"
+  },
+  {
+   "name": "GROUPEMENT FORMATEUR LIMAGNE",
+   "clNo": "153221",
+   "clCod": "554404"
+  },
+  {
+   "name": "LEMPDES SP.",
+   "clNo": "5896",
+   "clCod": "518527"
+  },
+  {
+   "name": "PERIGNAT F.C.",
+   "clNo": "24319",
+   "clCod": "546837"
+  },
+  {
+   "name": "R. S. LUZILLAT CHARNAT VINZELLES",
+   "clNo": "191971",
+   "clCod": "582673"
+  },
+  {
+   "name": "REV.AM.S. BEAUREGARD L'EVEQUE",
+   "clNo": "5332",
+   "clCod": "517316"
+  },
+  {
+   "name": "S.A. THIERNOIS",
+   "clNo": "3342",
+   "clCod": "508776"
+  },
+  {
+   "name": "S.C. BILLOMOIS",
+   "clNo": "2855",
+   "clCod": "506469"
+  },
+  {
+   "name": "SANCY CHAVANON FOOT",
+   "clNo": "200371",
+   "clCod": "561027"
+  },
+  {
+   "name": "U. J. CLERMONTOISE",
+   "clNo": "179785",
+   "clCod": "590198"
+  },
+  {
+   "name": "U.S. BEAUMONTOISE",
+   "clNo": "3369",
+   "clCod": "508949"
+  },
+  {
+   "name": "U.S. COURPIEROISE",
+   "clNo": "2863",
+   "clCod": "506497"
+  },
+  {
+   "name": "U.S. ENNEZAT",
+   "clNo": "2864",
+   "clCod": "506501"
+  },
+  {
+   "name": "U.S. ISSOIRE A. DU MAS",
+   "clNo": "2867",
+   "clCod": "506507"
+  },
+  {
+   "name": "U.S. LES MARTRES DE VEYRE",
+   "clNo": "2870",
+   "clCod": "506520"
+  },
+  {
+   "name": "U.S. MARINGUOISE",
+   "clNo": "2869",
+   "clCod": "506518"
+  },
+  {
+   "name": "U.S. MENETROL",
+   "clNo": "18538",
+   "clCod": "537754"
+  },
+  {
+   "name": "U.S. MOZAC",
+   "clNo": "7752",
+   "clCod": "521724"
+  },
+  {
+   "name": "U.S. VAL DE COUZE CHAMBON",
+   "clNo": "22237",
+   "clCod": "542828"
+  },
+  {
+   "name": "U.S. VIC LE COMTE",
+   "clNo": "2879",
+   "clCod": "506559"
+  },
+  {
+   "name": "UNION SPORTIVE BASSIN MINIER",
+   "clNo": "197083",
+   "clCod": "560477"
+  },
+  {
+   "name": "VAL DE SIOULE FOOT",
+   "clNo": "190025",
+   "clCod": "582409"
+  }
+ ],
+ "9638": [
+  {
+   "name": "A. S. CLERMONT SAINT JACQUES FOOT",
+   "clNo": "10554",
+   "clCod": "525985"
+  },
+  {
+   "name": "AULNAT SP.",
+   "clNo": "7888",
+   "clCod": "521920"
+  },
+  {
+   "name": "C.O. VEYRE MONTON",
+   "clNo": "14742",
+   "clCod": "532169"
+  },
+  {
+   "name": "C.S. PONT DU CHATEAU",
+   "clNo": "6759",
+   "clCod": "520152"
+  },
+  {
+   "name": "CLERMONT FOOT 63",
+   "clNo": "17117",
+   "clCod": "535789"
+  },
+  {
+   "name": "ECUREUILS FRANC ROSIER",
+   "clNo": "11162",
+   "clCod": "526932"
+  },
+  {
+   "name": "ENT.F.C. ST AMANT ET TALLENDE",
+   "clNo": "24042",
+   "clCod": "546413"
+  },
+  {
+   "name": "ESP. CEYRATOISE",
+   "clNo": "12572",
+   "clCod": "529030"
+  },
+  {
+   "name": "F. C. CLERMONT METROPOLE",
+   "clNo": "192050",
+   "clCod": "582731"
+  },
+  {
+   "name": "F.C. AUBIEROIS",
+   "clNo": "15371",
+   "clCod": "533145"
+  },
+  {
+   "name": "F.C. BLANZAT",
+   "clNo": "15541",
+   "clCod": "533382"
+  },
+  {
+   "name": "F.C. CHAMALIERES",
+   "clNo": "7223",
+   "clCod": "520923"
+  },
+  {
+   "name": "F.C. CHATEL GUYON",
+   "clNo": "6839",
+   "clCod": "520289"
+  },
+  {
+   "name": "F.C. LEZOUX",
+   "clNo": "5521",
+   "clCod": "517723"
+  },
+  {
+   "name": "F.C. RIOMOIS",
+   "clNo": "3340",
+   "clCod": "508772"
+  },
+  {
+   "name": "HAUTE COMBRAILLE FOOT",
+   "clNo": "176519",
+   "clCod": "580473"
+  },
+  {
+   "name": "LEMPDES SP.",
+   "clNo": "5896",
+   "clCod": "518527"
+  },
+  {
+   "name": "U.S. COURPIEROISE",
+   "clNo": "2863",
+   "clCod": "506497"
+  },
+  {
+   "name": "U.S. ISSOIRE A. DU MAS",
+   "clNo": "2867",
+   "clCod": "506507"
+  },
+  {
+   "name": "U.S. LES MARTRES DE VEYRE",
+   "clNo": "2870",
+   "clCod": "506520"
+  },
+  {
+   "name": "U.S. ST GERVAISIENNE",
+   "clNo": "4533",
+   "clCod": "514515"
+  },
+  {
+   "name": "U.S. VIC LE COMTE",
+   "clNo": "2879",
+   "clCod": "506559"
+  },
+  {
+   "name": "UNION SPORTIVE BASSIN MINIER",
+   "clNo": "197083",
+   "clCod": "560477"
+  },
+  {
+   "name": "VAL DE SIOULE FOOT",
+   "clNo": "190025",
+   "clCod": "582409"
+  }
+ ],
+ "9637": [
+  {
+   "name": "A. S. CLERMONT SAINT JACQUES FOOT",
+   "clNo": "10554",
+   "clCod": "525985"
+  },
+  {
+   "name": "A.S. MONTFERRANDAISE",
+   "clNo": "3335",
+   "clCod": "508763"
+  },
+  {
+   "name": "A.S. ROYAT A.C.",
+   "clNo": "9287",
+   "clCod": "524117"
+  },
+  {
+   "name": "AMBERT LIVRADOIS SUD FOOTBALL CLUB",
+   "clNo": "202043",
+   "clCod": "564515"
+  },
+  {
+   "name": "C.S. PONT DU CHATEAU",
+   "clNo": "6759",
+   "clCod": "520152"
+  },
+  {
+   "name": "CEBAZAT SP.",
+   "clNo": "3685",
+   "clCod": "510828"
+  },
+  {
+   "name": "CLERMONT FOOT 63",
+   "clNo": "17117",
+   "clCod": "535789"
+  },
+  {
+   "name": "ECUREUILS FRANC ROSIER",
+   "clNo": "11162",
+   "clCod": "526932"
+  },
+  {
+   "name": "ESP. CEYRATOISE",
+   "clNo": "12572",
+   "clCod": "529030"
+  },
+  {
+   "name": "F.C. COURNON D AUVERGNE",
+   "clNo": "24983",
+   "clCod": "547699"
+  },
+  {
+   "name": "F.C. RIOMOIS",
+   "clNo": "3340",
+   "clCod": "508772"
+  },
+  {
+   "name": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT",
+   "clNo": "198966",
+   "clCod": "560797"
+  },
+  {
+   "name": "GJ SCB FOOT",
+   "clNo": "197253",
+   "clCod": "560516"
+  },
+  {
+   "name": "GROUPEMENT DE L'AUZON",
+   "clNo": "187161",
+   "clCod": "581946"
+  },
+  {
+   "name": "GROUPEMENT FORMATEUR LIMAGNE",
+   "clNo": "153221",
+   "clCod": "554404"
+  },
+  {
+   "name": "S.A. THIERNOIS",
+   "clNo": "3342",
+   "clCod": "508776"
+  },
+  {
+   "name": "U.S. ISSOIRE A. DU MAS",
+   "clNo": "2867",
+   "clCod": "506507"
+  }
+ ]
+}

@@ -1,0 +1,203 @@
+--- fal_id 9634 : 64 équipe(s) trouvée(s) ---
+taille de la page : 450298 octets ; occurrences de « clNo » : 64 ; « site_id » : 0
+select id='club' name='club' : 65 options
+    '?fal_id=9634&type=fa' = 
+    '?fal_id=9634&type=fa&clNo=113214&clCod=551537' = A. OUVOIMOJA
+    '?fal_id=9634&type=fa&clNo=10554&clCod=525985' = A. S. CLERMONT SAINT JACQUES FOOT
+    '?fal_id=9634&type=fa&clNo=3335&clCod=508763' = A.S. MONTFERRANDAISE
+    '?fal_id=9634&type=fa&clNo=16365&clCod=534731' = A.S. JOB
+    '?fal_id=9634&type=fa&clNo=7146&clCod=520786' = A.S. ORCINES
+    '?fal_id=9634&type=fa&clNo=5004&clCod=516330' = A.S. ROMAGNAT
+    '?fal_id=9634&type=fa&clNo=9287&clCod=524117' = A.S. ROYAT A.C.
+    '?fal_id=9634&type=fa&clNo=13196&clCod=529900' = AM. LAIQ. S. DE BESSE EGLISENEUVE
+    '?fal_id=9634&type=fa&clNo=202043&clCod=564515' = AMBERT LIVRADOIS SUD FOOTBALL CLUB
+    '?fal_id=9634&type=fa&clNo=7888&clCod=521920' = AULNAT SP.
+    '?fal_id=9634&type=fa&clNo=14742&clCod=532169' = C.O. VEYRE MONTON
+    '?fal_id=9634&type=fa&clNo=2880&clCod=506562' = C.S. DE VOLVIC
+    '?fal_id=9634&type=fa&clNo=11164&clCod=526934' = C.S. PONT DE DORE
+    …
+select id='select-ch' name='' : 23 options
+    '0' = Sélectionnez un championnat
+    '450070' = Seniors Départemental 1
+    '450071' = Seniors Départemental 2
+    '455165' = U16 D1
+    '450072' = Seniors Départemental 3
+    '450073' = Seniors Départemental 4
+    '450074' = Seniors Départemental 5
+    '450076' = U18 D1
+    '450077' = U18 D2
+    '450075' = U18 Brassage
+    '450079' = U15 D1
+    '450081' = U15 D2
+    '453043' = U15 Brassage
+    '450132' = FÉMININES FOOT A 8 - PLATEAUX
+    …
+select id='select-ch-poule' name='' : 1 options
+    '' = Sélectionnez une poule
+select id='select-cp' name='' : 7 options
+    '0' = Sélectionnez une coupe
+    '450132' = FÉMININES FOOT A 8 - PLATEAUX
+    '450122' = Coupe Gérard FAURE
+    '450123' = Coupe Seniquette
+    '450124' = Coupe Mireille VALENTIN
+    '459205' = FESTIVAL U13
+    '459241' = U16 D1 FUTSAL
+select id='select-cp-poule' name='' : 1 options
+    '' = Sélectionnez une poule
+form action='https://foot63.fff.fr/resultats-de-recherche' method='get' champs=['terme', None]
+form action='https://foot63.fff.fr/resultats-de-recherche' method='get' champs=['terme', None]
+form action='' method=None champs=['select-ch', 'stage_number', 'select-ch-poule', None]
+form action='' method=None champs=['select-cp', 'stage_number', 'select-cp-poule', None]
+
+--- fal_id 9639 : 58 équipe(s) trouvée(s) ---
+taille de la page : 445381 octets ; occurrences de « clNo » : 58 ; « site_id » : 0
+select id='club' name='club' : 59 options
+    '?fal_id=9639&type=fa' = 
+    '?fal_id=9639&type=fa&clNo=113214&clCod=551537' = A. OUVOIMOJA
+    '?fal_id=9639&type=fa&clNo=3335&clCod=508763' = A.S. MONTFERRANDAISE
+    '?fal_id=9639&type=fa&clNo=16365&clCod=534731' = A.S. JOB
+    '?fal_id=9639&type=fa&clNo=5004&clCod=516330' = A.S. ROMAGNAT
+    '?fal_id=9639&type=fa&clNo=9287&clCod=524117' = A.S. ROYAT A.C.
+    '?fal_id=9639&type=fa&clNo=13196&clCod=529900' = AM. LAIQ. S. DE BESSE EGLISENEUVE
+    '?fal_id=9639&type=fa&clNo=202043&clCod=564515' = AMBERT LIVRADOIS SUD FOOTBALL CLUB
+    '?fal_id=9639&type=fa&clNo=7888&clCod=521920' = AULNAT SP.
+    '?fal_id=9639&type=fa&clNo=14742&clCod=532169' = C.O. VEYRE MONTON
+    '?fal_id=9639&type=fa&clNo=2880&clCod=506562' = C.S. DE VOLVIC
+    '?fal_id=9639&type=fa&clNo=11164&clCod=526934' = C.S. PONT DE DORE
+    '?fal_id=9639&type=fa&clNo=6759&clCod=520152' = C.S. PONT DU CHATEAU
+    '?fal_id=9639&type=fa&clNo=3685&clCod=510828' = CEBAZAT SP.
+    …
+select id='select-ch' name='' : 23 options
+    '0' = Sélectionnez un championnat
+    '450070' = Seniors Départemental 1
+    '450071' = Seniors Départemental 2
+    '455165' = U16 D1
+    '450072' = Seniors Départemental 3
+    '450073' = Seniors Départemental 4
+    '450074' = Seniors Départemental 5
+    '450076' = U18 D1
+    '450077' = U18 D2
+    '450075' = U18 Brassage
+    '450079' = U15 D1
+    '450081' = U15 D2
+    '453043' = U15 Brassage
+    '450132' = FÉMININES FOOT A 8 - PLATEAUX
+    …
+select id='select-ch-poule' name='' : 1 options
+    '' = Sélectionnez une poule
+select id='select-cp' name='' : 7 options
+    '0' = Sélectionnez une coupe
+    '450132' = FÉMININES FOOT A 8 - PLATEAUX
+    '450122' = Coupe Gérard FAURE
+    '450123' = Coupe Seniquette
+    '450124' = Coupe Mireille VALENTIN
+    '459205' = FESTIVAL U13
+    '459241' = U16 D1 FUTSAL
+select id='select-cp-poule' name='' : 1 options
+    '' = Sélectionnez une poule
+form action='https://foot63.fff.fr/resultats-de-recherche' method='get' champs=['terme', None]
+form action='https://foot63.fff.fr/resultats-de-recherche' method='get' champs=['terme', None]
+form action='' method=None champs=['select-ch', 'stage_number', 'select-ch-poule', None]
+form action='' method=None champs=['select-cp', 'stage_number', 'select-cp-poule', None]
+
+--- fal_id 9638 : 24 équipe(s) trouvée(s) ---
+taille de la page : 351619 octets ; occurrences de « clNo » : 24 ; « site_id » : 0
+select id='club' name='club' : 25 options
+    '?fal_id=9638&type=fa' = 
+    '?fal_id=9638&type=fa&clNo=10554&clCod=525985' = A. S. CLERMONT SAINT JACQUES FOOT
+    '?fal_id=9638&type=fa&clNo=7888&clCod=521920' = AULNAT SP.
+    '?fal_id=9638&type=fa&clNo=14742&clCod=532169' = C.O. VEYRE MONTON
+    '?fal_id=9638&type=fa&clNo=6759&clCod=520152' = C.S. PONT DU CHATEAU
+    '?fal_id=9638&type=fa&clNo=17117&clCod=535789' = CLERMONT FOOT 63
+    '?fal_id=9638&type=fa&clNo=11162&clCod=526932' = ECUREUILS FRANC ROSIER
+    '?fal_id=9638&type=fa&clNo=24042&clCod=546413' = ENT.F.C. ST AMANT ET TALLENDE
+    '?fal_id=9638&type=fa&clNo=12572&clCod=529030' = ESP. CEYRATOISE
+    '?fal_id=9638&type=fa&clNo=192050&clCod=582731' = F. C. CLERMONT METROPOLE
+    '?fal_id=9638&type=fa&clNo=15371&clCod=533145' = F.C. AUBIEROIS
+    '?fal_id=9638&type=fa&clNo=15541&clCod=533382' = F.C. BLANZAT
+    '?fal_id=9638&type=fa&clNo=7223&clCod=520923' = F.C. CHAMALIERES
+    '?fal_id=9638&type=fa&clNo=6839&clCod=520289' = F.C. CHATEL GUYON
+    …
+select id='select-ch' name='' : 23 options
+    '0' = Sélectionnez un championnat
+    '450070' = Seniors Départemental 1
+    '450071' = Seniors Départemental 2
+    '455165' = U16 D1
+    '450072' = Seniors Départemental 3
+    '450073' = Seniors Départemental 4
+    '450074' = Seniors Départemental 5
+    '450076' = U18 D1
+    '450077' = U18 D2
+    '450075' = U18 Brassage
+    '450079' = U15 D1
+    '450081' = U15 D2
+    '453043' = U15 Brassage
+    '450132' = FÉMININES FOOT A 8 - PLATEAUX
+    …
+select id='select-ch-poule' name='' : 1 options
+    '' = Sélectionnez une poule
+select id='select-cp' name='' : 7 options
+    '0' = Sélectionnez une coupe
+    '450132' = FÉMININES FOOT A 8 - PLATEAUX
+    '450122' = Coupe Gérard FAURE
+    '450123' = Coupe Seniquette
+    '450124' = Coupe Mireille VALENTIN
+    '459205' = FESTIVAL U13
+    '459241' = U16 D1 FUTSAL
+select id='select-cp-poule' name='' : 1 options
+    '' = Sélectionnez une poule
+form action='https://foot63.fff.fr/resultats-de-recherche' method='get' champs=['terme', None]
+form action='https://foot63.fff.fr/resultats-de-recherche' method='get' champs=['terme', None]
+form action='' method=None champs=['select-ch', 'stage_number', 'select-ch-poule', None]
+form action='' method=None champs=['select-cp', 'stage_number', 'select-cp-poule', None]
+
+--- fal_id 9637 : 17 équipe(s) trouvée(s) ---
+taille de la page : 350810 octets ; occurrences de « clNo » : 17 ; « site_id » : 0
+select id='club' name='club' : 18 options
+    '?fal_id=9637&type=fa' = 
+    '?fal_id=9637&type=fa&clNo=10554&clCod=525985' = A. S. CLERMONT SAINT JACQUES FOOT
+    '?fal_id=9637&type=fa&clNo=3335&clCod=508763' = A.S. MONTFERRANDAISE
+    '?fal_id=9637&type=fa&clNo=9287&clCod=524117' = A.S. ROYAT A.C.
+    '?fal_id=9637&type=fa&clNo=202043&clCod=564515' = AMBERT LIVRADOIS SUD FOOTBALL CLUB
+    '?fal_id=9637&type=fa&clNo=6759&clCod=520152' = C.S. PONT DU CHATEAU
+    '?fal_id=9637&type=fa&clNo=3685&clCod=510828' = CEBAZAT SP.
+    '?fal_id=9637&type=fa&clNo=17117&clCod=535789' = CLERMONT FOOT 63
+    '?fal_id=9637&type=fa&clNo=11162&clCod=526932' = ECUREUILS FRANC ROSIER
+    '?fal_id=9637&type=fa&clNo=12572&clCod=529030' = ESP. CEYRATOISE
+    '?fal_id=9637&type=fa&clNo=24983&clCod=547699' = F.C. COURNON D AUVERGNE
+    '?fal_id=9637&type=fa&clNo=3340&clCod=508772' = F.C. RIOMOIS
+    '?fal_id=9637&type=fa&clNo=198966&clCod=560797' = FOOTBALL CLUB SAUXILLANGES ST BABEL BREN
+    '?fal_id=9637&type=fa&clNo=197253&clCod=560516' = GJ SCB FOOT
+    …
+select id='select-ch' name='' : 23 options
+    '0' = Sélectionnez un championnat
+    '450070' = Seniors Départemental 1
+    '450071' = Seniors Départemental 2
+    '455165' = U16 D1
+    '450072' = Seniors Départemental 3
+    '450073' = Seniors Départemental 4
+    '450074' = Seniors Départemental 5
+    '450076' = U18 D1
+    '450077' = U18 D2
+    '450075' = U18 Brassage
+    '450079' = U15 D1
+    '450081' = U15 D2
+    '453043' = U15 Brassage
+    '450132' = FÉMININES FOOT A 8 - PLATEAUX
+    …
+select id='select-ch-poule' name='' : 1 options
+    '' = Sélectionnez une poule
+select id='select-cp' name='' : 7 options
+    '0' = Sélectionnez une coupe
+    '450132' = FÉMININES FOOT A 8 - PLATEAUX
+    '450122' = Coupe Gérard FAURE
+    '450123' = Coupe Seniquette
+    '450124' = Coupe Mireille VALENTIN
+    '459205' = FESTIVAL U13
+    '459241' = U16 D1 FUTSAL
+select id='select-cp-poule' name='' : 1 options
+    '' = Sélectionnez une poule
+form action='https://foot63.fff.fr/resultats-de-recherche' method='get' champs=['terme', None]
+form action='https://foot63.fff.fr/resultats-de-recherche' method='get' champs=['terme', None]
+form action='' method=None champs=['select-ch', 'stage_number', 'select-ch-poule', None]
+form action='' method=None champs=['select-cp', 'stage_number', 'select-cp-poule', None]

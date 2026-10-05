@@ -1,0 +1,7 @@
+# Un plateau par ligne : l'URL complète ou seulement le site_id.
+# Ces plateaux sont relus à chaque synchronisation, en plus de ceux déjà archivés dans data/raw/.
+# Les deux exemples servent aussi à apprendre les chiffres (commande « glyphs ») :
+#   ..._34063_3 (12 sept.) : scores à lire sur la page
+#   ..._38098_3 (19 sept.) : doit se lire  Bassin Minier 0-5 St Jacques | Veyre 4-0 Bassin Minier | St Jacques 4-2 Veyre
+https://foot63.fff.fr/football-animation-et-loisirs/?site_id=9638_9007_15130_39905_34063_3
+https://foot63.fff.fr/football-animation-et-loisirs/?site_id=9638_9007_15130_39905_38098_3

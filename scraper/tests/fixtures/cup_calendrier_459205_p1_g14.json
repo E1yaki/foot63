@@ -1,0 +1,486 @@
+{
+ "@context": "/api/contexts/MatchEntity",
+ "@id": "/api/match_entities",
+ "@type": "hydra:Collection",
+ "hydra:member": [
+  {
+   "ma_no": 79523629,
+   "competition": {
+    "cp_no": 459205,
+    "season": 2026,
+    "type": "AC",
+    "name": "FESTIVAL U13",
+    "level": "D",
+    "cdg": {
+     "cg_no": 21,
+     "name": "DISTRICT PUY DE DOME",
+     "external_updated_at": "2026-06-15T14:59:30+00:00"
+    },
+    "external_updated_at": "2026-09-09T11:56:24+00:00"
+   },
+   "phase": {
+    "number": 1,
+    "type": "AC",
+    "name": "1ER TOUR",
+    "external_updated_at": "2026-09-09T11:56:24+00:00"
+   },
+   "poule": {
+    "stage_number": 14,
+    "name": "POULE 14",
+    "external_updated_at": "2026-09-10T11:38:33+00:00",
+    "poule_unique": false,
+    "at_least_one_match_resultat": false
+   },
+   "poule_journee": {
+    "number": 1,
+    "external_updated_at": "2026-09-10T10:39:55+00:00",
+    "name": "1"
+   },
+   "home": {
+    "club": {
+     "cl_no": 9287,
+     "external_updated_at": "2026-09-04T21:42:04+00:00",
+     "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524117.jpg"
+    },
+    "category_code": "U13",
+    "number": 11,
+    "code": 2,
+    "short_name": "ROYAT A.S.",
+    "short_name_ligue": "A.S. ROYAT A.C.",
+    "short_name_federation": "A.S. ROYAT A.C.",
+    "type": "C",
+    "engagements": [
+     {
+      "competition": {
+       "cp_no": 459205,
+       "season": 2026,
+       "type": "AC",
+       "name": "FESTIVAL U13",
+       "level": "D",
+       "cdg": {
+        "cg_no": 21,
+        "name": "DISTRICT PUY DE DOME",
+        "external_updated_at": "2026-06-15T14:59:30+00:00"
+       },
+       "external_updated_at": "2026-09-09T11:56:24+00:00"
+      }
+     }
+    ],
+    "external_updated_at": "2026-09-09T15:29:23+00:00",
+    "category_label": "U13 - U12 Libre",
+    "category_gender": "M"
+   },
+   "away": {
+    "club": {
+     "cl_no": 10554,
+     "external_updated_at": "2026-08-24T14:37:42+00:00",
+     "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525985.jpg"
+    },
+    "category_code": "U13",
+    "number": 10,
+    "code": 2,
+    "short_name": "CLT ST JACQUES",
+    "short_name_ligue": "CLT ST JACQUES",
+    "short_name_federation": "CLT ST JACQUES",
+    "type": "C",
+    "engagements": [
+     {
+      "competition": {
+       "cp_no": 459205,
+       "season": 2026,
+       "type": "AC",
+       "name": "FESTIVAL U13",
+       "level": "D",
+       "cdg": {
+        "cg_no": 21,
+        "name": "DISTRICT PUY DE DOME",
+        "external_updated_at": "2026-06-15T14:59:30+00:00"
+       },
+       "external_updated_at": "2026-09-09T11:56:24+00:00"
+      }
+     }
+    ],
+    "external_updated_at": "2026-09-09T14:51:35+00:00",
+    "category_label": "U13 - U12 Libre",
+    "category_gender": "M"
+   },
+   "terrain": {
+    "te_no": 631131001,
+    "name": "STADE DE L' ESPÉRANCE ST JACQUES",
+    "zip_code": "63000",
+    "city": "CLERMONT FERRAND",
+    "libelle_surface": "Synthétique",
+    "external_updated_at": "2026-06-06T12:50:22+00:00",
+    "address": "AVENUE LEON BLUM"
+   },
+   "season": 2026,
+   "status": "A",
+   "ma_ar": "A",
+   "ma_inver": "N",
+   "ma_arret": "N",
+   "is_overtime": "N",
+   "date": "2026-09-26T00:00:00+00:00",
+   "time": "",
+   "initial_date": null,
+   "cr_eq_naff": null,
+   "home_resu": "",
+   "cr_nb_but": null,
+   "home_score": null,
+   "home_but_contre": null,
+   "home_nb_point": null,
+   "home_nb_tir_but": null,
+   "home_nb_point_pena": null,
+   "home_is_forfeit": "",
+   "cv_eq_naff": null,
+   "away_resu": "",
+   "away_nb_but": null,
+   "away_score": null,
+   "away_but_contre": null,
+   "away_nb_point": null,
+   "away_nb_tir_but": null,
+   "away_nb_point_pena": null,
+   "away_is_forfeit": "",
+   "seems_postponed": "N",
+   "match_membres": [],
+   "match_feuille": null,
+   "external_updated_at": "2026-09-17T11:18:21+00:00",
+   "status_label": "/"
+  },
+  {
+   "ma_no": 79523658,
+   "competition": {
+    "cp_no": 459205,
+    "season": 2026,
+    "type": "AC",
+    "name": "FESTIVAL U13",
+    "level": "D",
+    "cdg": {
+     "cg_no": 21,
+     "name": "DISTRICT PUY DE DOME",
+     "external_updated_at": "2026-06-15T14:59:30+00:00"
+    },
+    "external_updated_at": "2026-09-09T11:56:24+00:00"
+   },
+   "phase": {
+    "number": 1,
+    "type": "AC",
+    "name": "1ER TOUR",
+    "external_updated_at": "2026-09-09T11:56:24+00:00"
+   },
+   "poule": {
+    "stage_number": 14,
+    "name": "POULE 14",
+    "external_updated_at": "2026-09-10T11:38:33+00:00",
+    "poule_unique": false,
+    "at_least_one_match_resultat": false
+   },
+   "poule_journee": {
+    "number": 1,
+    "external_updated_at": "2026-09-10T10:39:55+00:00",
+    "name": "1"
+   },
+   "home": {
+    "club": {
+     "cl_no": 9287,
+     "external_updated_at": "2026-09-04T21:42:04+00:00",
+     "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524117.jpg"
+    },
+    "category_code": "U13",
+    "number": 11,
+    "code": 2,
+    "short_name": "ROYAT A.S.",
+    "short_name_ligue": "A.S. ROYAT A.C.",
+    "short_name_federation": "A.S. ROYAT A.C.",
+    "type": "C",
+    "engagements": [
+     {
+      "competition": {
+       "cp_no": 459205,
+       "season": 2026,
+       "type": "AC",
+       "name": "FESTIVAL U13",
+       "level": "D",
+       "cdg": {
+        "cg_no": 21,
+        "name": "DISTRICT PUY DE DOME",
+        "external_updated_at": "2026-06-15T14:59:30+00:00"
+       },
+       "external_updated_at": "2026-09-09T11:56:24+00:00"
+      }
+     }
+    ],
+    "external_updated_at": "2026-09-09T15:29:23+00:00",
+    "category_label": "U13 - U12 Libre",
+    "category_gender": "M"
+   },
+   "away": {
+    "club": {
+     "cl_no": 3369,
+     "external_updated_at": "2026-09-16T11:57:10+00:00",
+     "logo": "https://cdn-transverse.azureedge.net/phlogos/BC508949.jpg"
+    },
+    "category_code": "U13",
+    "number": 14,
+    "code": 1,
+    "short_name": "BEAUMONT U.S.",
+    "short_name_ligue": "BEAUMONT US",
+    "short_name_federation": "BEAUMONT US",
+    "type": "C",
+    "engagements": [
+     {
+      "competition": {
+       "cp_no": 459205,
+       "season": 2026,
+       "type": "AC",
+       "name": "FESTIVAL U13",
+       "level": "D",
+       "cdg": {
+        "cg_no": 21,
+        "name": "DISTRICT PUY DE DOME",
+        "external_updated_at": "2026-06-15T14:59:30+00:00"
+       },
+       "external_updated_at": "2026-09-09T11:56:24+00:00"
+      }
+     }
+    ],
+    "external_updated_at": "2026-09-09T16:17:09+00:00",
+    "category_label": "U13 - U12 Libre",
+    "category_gender": "M"
+   },
+   "terrain": {
+    "te_no": 631131001,
+    "name": "STADE DE L' ESPÉRANCE ST JACQUES",
+    "zip_code": "63000",
+    "city": "CLERMONT FERRAND",
+    "libelle_surface": "Synthétique",
+    "external_updated_at": "2026-06-06T12:50:22+00:00",
+    "address": "AVENUE LEON BLUM"
+   },
+   "season": 2026,
+   "status": "A",
+   "ma_ar": "A",
+   "ma_inver": "N",
+   "ma_arret": "N",
+   "is_overtime": "N",
+   "date": "2026-09-26T00:00:00+00:00",
+   "time": "",
+   "initial_date": null,
+   "cr_eq_naff": null,
+   "home_resu": "",
+   "cr_nb_but": null,
+   "home_score": null,
+   "home_but_contre": null,
+   "home_nb_point": null,
+   "home_nb_tir_but": null,
+   "home_nb_point_pena": null,
+   "home_is_forfeit": "",
+   "cv_eq_naff": null,
+   "away_resu": "",
+   "away_nb_but": null,
+   "away_score": null,
+   "away_but_contre": null,
+   "away_nb_point": null,
+   "away_nb_tir_but": null,
+   "away_nb_point_pena": null,
+   "away_is_forfeit": "",
+   "seems_postponed": "N",
+   "match_membres": [],
+   "match_feuille": null,
+   "external_updated_at": "2026-09-17T11:19:28+00:00",
+   "status_label": "/"
+  },
+  {
+   "ma_no": 79523687,
+   "competition": {
+    "cp_no": 459205,
+    "season": 2026,
+    "type": "AC",
+    "name": "FESTIVAL U13",
+    "level": "D",
+    "cdg": {
+     "cg_no": 21,
+     "name": "DISTRICT PUY DE DOME",
+     "external_updated_at": "2026-06-15T14:59:30+00:00"
+    },
+    "external_updated_at": "2026-09-09T11:56:24+00:00"
+   },
+   "phase": {
+    "number": 1,
+    "type": "AC",
+    "name": "1ER TOUR",
+    "external_updated_at": "2026-09-09T11:56:24+00:00"
+   },
+   "poule": {
+    "stage_number": 14,
+    "name": "POULE 14",
+    "external_updated_at": "2026-09-10T11:38:33+00:00",
+    "poule_unique": false,
+    "at_least_one_match_resultat": false
+   },
+   "poule_journee": {
+    "number": 1,
+    "external_updated_at": "2026-09-10T10:39:55+00:00",
+    "name": "1"
+   },
+   "home": {
+    "club": {
+     "cl_no": 10554,
+     "external_updated_at": "2026-08-24T14:37:42+00:00",
+     "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525985.jpg"
+    },
+    "category_code": "U13",
+    "number": 10,
+    "code": 2,
+    "short_name": "CLT ST JACQUES",
+    "short_name_ligue": "CLT ST JACQUES",
+    "short_name_federation": "CLT ST JACQUES",
+    "type": "C",
+    "engagements": [
+     {
+      "competition": {
+       "cp_no": 459205,
+       "season": 2026,
+       "type": "AC",
+       "name": "FESTIVAL U13",
+       "level": "D",
+       "cdg": {
+        "cg_no": 21,
+        "name": "DISTRICT PUY DE DOME",
+        "external_updated_at": "2026-06-15T14:59:30+00:00"
+       },
+       "external_updated_at": "2026-09-09T11:56:24+00:00"
+      }
+     }
+    ],
+    "external_updated_at": "2026-09-09T14:51:35+00:00",
+    "category_label": "U13 - U12 Libre",
+    "category_gender": "M"
+   },
+   "away": {
+    "club": {
+     "cl_no": 3369,
+     "external_updated_at": "2026-09-16T11:57:10+00:00",
+     "logo": "https://cdn-transverse.azureedge.net/phlogos/BC508949.jpg"
+    },
+    "category_code": "U13",
+    "number": 14,
+    "code": 1,
+    "short_name": "BEAUMONT U.S.",
+    "short_name_ligue": "BEAUMONT US",
+    "short_name_federation": "BEAUMONT US",
+    "type": "C",
+    "engagements": [
+     {
+      "competition": {
+       "cp_no": 459205,
+       "season": 2026,
+       "type": "AC",
+       "name": "FESTIVAL U13",
+       "level": "D",
+       "cdg": {
+        "cg_no": 21,
+        "name": "DISTRICT PUY DE DOME",
+        "external_updated_at": "2026-06-15T14:59:30+00:00"
+       },
+       "external_updated_at": "2026-09-09T11:56:24+00:00"
+      }
+     }
+    ],
+    "external_updated_at": "2026-09-09T16:17:09+00:00",
+    "category_label": "U13 - U12 Libre",
+    "category_gender": "M"
+   },
+   "terrain": {
+    "te_no": 631131001,
+    "name": "STADE DE L' ESPÉRANCE ST JACQUES",
+    "zip_code": "63000",
+    "city": "CLERMONT FERRAND",
+    "libelle_surface": "Synthétique",
+    "external_updated_at": "2026-06-06T12:50:22+00:00",
+    "address": "AVENUE LEON BLUM"
+   },
+   "season": 2026,
+   "status": "A",
+   "ma_ar": "A",
+   "ma_inver": "N",
+   "ma_arret": "N",
+   "is_overtime": "N",
+   "date": "2026-09-26T00:00:00+00:00",
+   "time": "",
+   "initial_date": null,
+   "cr_eq_naff": null,
+   "home_resu": "",
+   "cr_nb_but": null,
+   "home_score": null,
+   "home_but_contre": null,
+   "home_nb_point": null,
+   "home_nb_tir_but": null,
+   "home_nb_point_pena": null,
+   "home_is_forfeit": "",
+   "cv_eq_naff": null,
+   "away_resu": "",
+   "away_nb_but": null,
+   "away_score": null,
+   "away_but_contre": null,
+   "away_nb_point": null,
+   "away_nb_tir_but": null,
+   "away_nb_point_pena": null,
+   "away_is_forfeit": "",
+   "seems_postponed": "N",
+   "match_membres": [],
+   "match_feuille": null,
+   "external_updated_at": "2026-09-17T11:19:33+00:00",
+   "status_label": "/"
+  }
+ ],
+ "hydra:totalItems": 3,
+ "hydra:search": {
+  "@type": "hydra:IriTemplate",
+  "hydra:template": "/api/compets/459205/phases/1/poules/14/calendrier{?clNo,competition.cp_no,competition.cp_no[],ma_dat[before],ma_dat[strictly_before],ma_dat[after],ma_dat[strictly_after]}",
+  "hydra:variableRepresentation": "BasicRepresentation",
+  "hydra:mapping": [
+   {
+    "@type": "IriTemplateMapping",
+    "variable": "clNo",
+    "property": "clNo",
+    "required": false
+   },
+   {
+    "@type": "IriTemplateMapping",
+    "variable": "competition.cp_no",
+    "property": "competition.cp_no",
+    "required": false
+   },
+   {
+    "@type": "IriTemplateMapping",
+    "variable": "competition.cp_no[]",
+    "property": "competition.cp_no",
+    "required": false
+   },
+   {
+    "@type": "IriTemplateMapping",
+    "variable": "ma_dat[before]",
+    "property": "ma_dat",
+    "required": false
+   },
+   {
+    "@type": "IriTemplateMapping",
+    "variable": "ma_dat[strictly_before]",
+    "property": "ma_dat",
+    "required": false
+   },
+   {
+    "@type": "IriTemplateMapping",
+    "variable": "ma_dat[after]",
+    "property": "ma_dat",
+    "required": false
+   },
+   {
+    "@type": "IriTemplateMapping",
+    "variable": "ma_dat[strictly_after]",
+    "property": "ma_dat",
+    "required": false
+   }
+  ]
+ }
+}

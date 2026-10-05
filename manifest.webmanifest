@@ -1,0 +1,14 @@
+{
+  "name": "Foot animation 63",
+  "short_name": "Foot anim 63",
+  "description": "Résultats, classements et calendriers du football d'animation du Puy-de-Dôme.",
+  "lang": "fr",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F1F5F0",
+  "theme_color": "#0F6B49",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

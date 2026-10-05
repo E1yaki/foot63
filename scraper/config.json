@@ -1,0 +1,51 @@
+{
+  "season": "2026-2027",
+  "base_url": "https://foot63.fff.fr/football-animation-et-loisirs/",
+  "user_agent": "foot63-resultats/1.0 (suivi personnel des plateaux du foot animation ; contact : à renseigner)",
+  "delay_seconds": 1.0,
+  "categories": [
+    {
+      "id": "u10-u11",
+      "label": "U10-U11",
+      "group": "u10-u11",
+      "fal_id": 9634
+    },
+    {
+      "id": "u13-brassage",
+      "label": "U13 Brassage",
+      "group": "u13",
+      "fal_id": 9639
+    },
+    {
+      "id": "u13-d2",
+      "label": "U13 D2",
+      "group": "u13",
+      "fal_id": 9638
+    },
+    {
+      "id": "u13-d1",
+      "label": "U13 D1",
+      "group": "u13",
+      "fal_id": 9637
+    },
+    {
+      "id": "u13-festival",
+      "label": "Festival U13",
+      "group": "u13",
+      "kind": "cup",
+      "cp_no": 459205
+    }
+  ],
+  "ntfy": {
+    "server": "https://ntfy.sh",
+    "prefix": "foot63"
+  },
+  "fetch_mode": "browser",
+  "browser_headless": false,
+  "bootstrap_club": {
+    "clNo": 10554,
+    "clCod": 525985,
+    "_note": "A. S. CLERMONT SAINT JACQUES FOOT : couple relevé avec recon, sert d'entrée pour lire la liste des clubs"
+  },
+  "rescan_window_days": 14
+}

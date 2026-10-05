@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Foot animation 63 · Résultats et classements</title>
+<meta name="description" content="Résultats, classements et calendriers du football d'animation du Puy-de-Dôme (U10-U11, U13).">
+<meta name="theme-color" content="#0F6B49">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Instrument+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L12 16.9 6.8 19.7l1-5.9L3.5 9.7l5.9-.8L12 3.5z"/></symbol>
+    <symbol id="i-team" viewBox="0 0 24 24"><path d="M12 3l7 2.5v5.7c0 4.3-2.9 8-7 9.8-4.1-1.8-7-5.5-7-9.8V5.5L12 3z"/></symbol>
+    <symbol id="i-table" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M4 10h16M4 14.5h16M9.5 5v14"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16.5V11a6 6 0 1112 0v5.5l1.5 1.5h-15L6 16.5z"/><path d="M10 20.5a2 2 0 004 0"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s6.5-5.6 6.5-11a6.5 6.5 0 10-13 0c0 5.4 6.5 11 6.5 11z"/><circle cx="12" cy="10" r="2.2"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="M14.5 6l-6 6 6 6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="M9.5 6l6 6-6 6"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 3v2.2M12 18.8V21M21 12h-2.2M5.2 12H3M18.4 5.6l-1.6 1.6M7.2 16.8l-1.6 1.6M18.4 18.4l-1.6-1.6M7.2 7.2 5.6 5.6"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 019.5 4a8.5 8.5 0 1010.5 10.5z"/></symbol>
+  </defs>
+</svg>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#/" aria-label="Foot animation 63, accueil">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 5v22" stroke="currentColor" stroke-width="2.4"/><circle cx="16" cy="16" r="2.4" fill="currentColor"/></svg>
+      <span>Foot animation 63</span>
+    </a>
+    <div class="top-right">
+      <span class="meta" id="updated"></span>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Changer de thème">
+        <svg class="i i-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        <svg class="i i-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="demo-banner" id="demo-banner" hidden>
+  <div class="wrap">Démo : clubs réels, scores et horaires inventés.</div>
+</div>
+
+<main class="wrap" id="view" tabindex="-1" aria-live="polite"></main>
+
+<nav class="tabbar" aria-label="Navigation principale">
+  <a class="tab" data-tab="equipes" href="#/equipes"><svg class="i" aria-hidden="true"><use href="#i-star"/></svg><span>Mes équipes</span></a>
+  <a class="tab" data-tab="classement" href="#/classement"><svg class="i" aria-hidden="true"><use href="#i-table"/></svg><span>Classements</span></a>
+  <button class="tab" data-action="search" type="button"><svg class="i" aria-hidden="true"><use href="#i-search"/></svg><span>Chercher</span></button>
+  <a class="tab" data-tab="alertes" href="#/alertes"><svg class="i" aria-hidden="true"><use href="#i-bell"/></svg><span>Alertes</span><b class="badge" id="badge" hidden>0</b></a>
+</nav>
+
+<dialog id="sheet" aria-label="Fiche équipe"></dialog>
+<dialog id="search" aria-label="Recherche d'une équipe"></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="assets/demo.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,615 @@
+{
+ "cp_no": 459205,
+ "season": 2026,
+ "license_code": "U13",
+ "type": "AC",
+ "name": "FESTIVAL U13",
+ "shortname": "CPE U13",
+ "cp_niv": "04",
+ "level": "D",
+ "cdg": {
+  "cg_no": 21,
+  "type_label": "D",
+  "name": "DISTRICT PUY DE DOME",
+  "cp_cod": [
+   "063"
+  ]
+ },
+ "phases": [
+  {
+   "number": 1,
+   "type": "AC",
+   "name": "1ER TOUR",
+   "groups": [
+    {
+     "stage_number": 2,
+     "name": "POULE 2",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 1,
+     "name": "POULE 1",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 5,
+     "name": "POULE 5",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 3,
+     "name": "POULE 3",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 4,
+     "name": "POULE 4",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 6,
+     "name": "POULE 6",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 8,
+     "name": "POULE 8",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 9,
+     "name": "POULE 9",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 7,
+     "name": "POULE 7",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 11,
+     "name": "POULE 11",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 10,
+     "name": "POULE 10",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 13,
+     "name": "POULE 13",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 12,
+     "name": "POULE 12",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 17,
+     "name": "POULE 17",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 14,
+     "name": "POULE 14",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 16,
+     "name": "POULE 16",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 15,
+     "name": "POULE 15",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 18,
+     "name": "POULE 18",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 19,
+     "name": "POULE 19",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 20,
+     "name": "POULE 20",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 21,
+     "name": "POULE 21",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 22,
+     "name": "POULE 22",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 23,
+     "name": "POULE 23",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 24,
+     "name": "POULE 24",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 25,
+     "name": "POULE 25",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 26,
+     "name": "POULE 26",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 27,
+     "name": "POULE 27",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 31,
+     "name": "POULE 31",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 30,
+     "name": "POULE 30",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 28,
+     "name": "POULE 28",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 29,
+     "name": "POULE 29",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 32,
+     "name": "POULE 32",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 34,
+     "name": "POULE 34",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 33,
+     "name": "POULE 33",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 35,
+     "name": "POULE 35",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 37,
+     "name": "POULE 37",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 36,
+     "name": "POULE 36",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 38,
+     "name": "POULE 38",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 40,
+     "name": "POULE 40",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 39,
+     "name": "POULE 39",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 41,
+     "name": "POULE 41",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    },
+    {
+     "stage_number": 42,
+     "name": "POULE 42",
+     "cdg": {
+      "cg_no": 21,
+      "type_label": "D",
+      "name": "DISTRICT PUY DE DOME",
+      "cp_cod": [
+       "063"
+      ]
+     },
+     "diffusable": true,
+     "matchs": true
+    }
+   ]
+  }
+ ]
+}
