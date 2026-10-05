@@ -1,0 +1,74 @@
+{
+ "id": "9637_9006_15129_39903_38104_3",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-09-19T14:00",
+ "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+ "organisateur": "CEBAZAT SP.",
+ "equipes": [
+  "GROUPEMENT DE L'AUZON 1",
+  "CEBAZAT SP. 1",
+  "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1"
+ ],
+ "logos": {
+  "GROUPEMENT DE L'AUZON 1": "logos/BC581946.jpg",
+  "CEBAZAT SP. 1": "logos/BC510828.jpg",
+  "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1": "logos/BC560797.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GROUPEMENT DE L'AUZON 1",
+   "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "hs": 4,
+   "as": 1
+  },
+  {
+   "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "away": "CEBAZAT SP. 1",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "CEBAZAT SP. 1",
+   "away": "GROUPEMENT DE L'AUZON 1",
+   "hs": 0,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+   "matchs": [
+    {
+     "home": "GROUPEMENT DE L'AUZON 1",
+     "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+     "hs": 4,
+     "as": 1
+    },
+    {
+     "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+     "away": "CEBAZAT SP. 1",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "CEBAZAT SP. 1",
+     "away": "GROUPEMENT DE L'AUZON 1",
+     "hs": 0,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

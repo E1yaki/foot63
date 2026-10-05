@@ -1,0 +1,141 @@
+{
+ "id": "9634_9003_15563_41026_34055_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "3",
+ "poule_label": "Poule 3",
+ "start": "2026-10-03T09:30",
+ "lieu": "ST GEORGES DE MONS - STADE DE GRELIÈRE",
+ "organisateur": "ST GEORGES U.S.",
+ "equipes": [
+  "ENTENTE CHARBLOT 1",
+  "U.S. ST GERVAISIENNE 1",
+  "F.C. CHATEL GUYON 1",
+  "F.C. NORD COMBRAILLE 1",
+  "U.S. ST GEORGES LES ANCIZES 1"
+ ],
+ "logos": {
+  "ENTENTE CHARBLOT 1": "logos/BC582290.jpg",
+  "U.S. ST GERVAISIENNE 1": "logos/BC514515.jpg",
+  "F.C. CHATEL GUYON 1": "logos/BC520289.jpg",
+  "F.C. NORD COMBRAILLE 1": "logos/BC547675.jpg",
+  "U.S. ST GEORGES LES ANCIZES 1": "logos/BC506545.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. ST GEORGES LES ANCIZES 1",
+   "away": "F.C. CHATEL GUYON 1",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "U.S. ST GEORGES LES ANCIZES 1",
+   "hs": 3,
+   "as": 4
+  },
+  {
+   "home": "F.C. NORD COMBRAILLE 1",
+   "away": "U.S. ST GERVAISIENNE 1",
+   "hs": 8,
+   "as": 2
+  },
+  {
+   "home": "F.C. CHATEL GUYON 1",
+   "away": "ENTENTE CHARBLOT 1",
+   "hs": 3,
+   "as": 5
+  },
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "F.C. NORD COMBRAILLE 1",
+   "hs": 2,
+   "as": 5
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T12:24:56Z",
+ "last_change": "2026-10-05T12:24:56Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T09:30",
+   "lieu": "ST GEORGES DE MONS - STADE DE GRELIÈRE",
+   "matchs": [
+    {
+     "home": "F.C. NORD COMBRAILLE 1",
+     "away": "U.S. ST GERVAISIENNE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ST GEORGES LES ANCIZES 1",
+     "away": "F.C. CHATEL GUYON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "U.S. ST GEORGES LES ANCIZES 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHATEL GUYON 1",
+     "away": "ENTENTE CHARBLOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T12:24:56Z",
+   "start": "2026-10-03T09:30",
+   "lieu": "ST GEORGES DE MONS - STADE DE GRELIÈRE",
+   "matchs": [
+    {
+     "home": "U.S. ST GEORGES LES ANCIZES 1",
+     "away": "F.C. CHATEL GUYON 1",
+     "hs": 2,
+     "as": 2
+    },
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "U.S. ST GEORGES LES ANCIZES 1",
+     "hs": 3,
+     "as": 4
+    },
+    {
+     "home": "F.C. NORD COMBRAILLE 1",
+     "away": "U.S. ST GERVAISIENNE 1",
+     "hs": 8,
+     "as": 2
+    },
+    {
+     "home": "F.C. CHATEL GUYON 1",
+     "away": "ENTENTE CHARBLOT 1",
+     "hs": 3,
+     "as": 5
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": 2,
+     "as": 5
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

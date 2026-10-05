@@ -1,0 +1,74 @@
+{
+ "id": "9639_9008_15559_40723_38103_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-10-10T14:00",
+ "lieu": "BLANZAT - STADE CROIX SAINT GÉRAUD 1",
+ "organisateur": "F.C. BLANZAT",
+ "equipes": [
+  "F.C. BLANZAT 2",
+  "A.S. ROMAGNAT 1",
+  "DOMES SANCY FOOT 1"
+ ],
+ "logos": {
+  "F.C. BLANZAT 2": "logos/BC533382.jpg",
+  "A.S. ROMAGNAT 1": "logos/BC516330.jpg",
+  "DOMES SANCY FOOT 1": "logos/BC563697.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. BLANZAT 2",
+   "away": "DOMES SANCY FOOT 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "A.S. ROMAGNAT 1",
+   "away": "DOMES SANCY FOOT 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. BLANZAT 2",
+   "away": "A.S. ROMAGNAT 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "BLANZAT - STADE CROIX SAINT GÉRAUD 1",
+   "matchs": [
+    {
+     "home": "F.C. BLANZAT 2",
+     "away": "DOMES SANCY FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. ROMAGNAT 1",
+     "away": "DOMES SANCY FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. BLANZAT 2",
+     "away": "A.S. ROMAGNAT 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

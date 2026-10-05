@@ -1,0 +1,116 @@
+{
+ "id": "9634_9003_15563_41033_34056_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "10",
+ "poule_label": "Poule 10",
+ "start": "2026-10-10T10:00",
+ "lieu": "PERIGNAT LES SARLIEVE - STADE MUNICIPAL",
+ "organisateur": "PERIGNAT F.C.",
+ "equipes": [
+  "U.S. LES MARTRES DE VEYRE 3",
+  "U.S. LES MARTRES DE VEYRE 1",
+  "U.S. VIC LE COMTE 2",
+  "PERIGNAT F.C. 1",
+  "GROUPEMENT DE L'AUZON 3",
+  "GROUPEMENT DE L'AUZON 1"
+ ],
+ "logos": {
+  "U.S. LES MARTRES DE VEYRE 3": "logos/BC506520.jpg",
+  "U.S. LES MARTRES DE VEYRE 1": "logos/BC506520.jpg",
+  "U.S. VIC LE COMTE 2": "logos/BC506559.jpg",
+  "PERIGNAT F.C. 1": "logos/BC546837.jpg",
+  "GROUPEMENT DE L'AUZON 3": "logos/BC581946.jpg",
+  "GROUPEMENT DE L'AUZON 1": "logos/BC581946.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GROUPEMENT DE L'AUZON 1",
+   "away": "PERIGNAT F.C. 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. VIC LE COMTE 2",
+   "away": "U.S. LES MARTRES DE VEYRE 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. VIC LE COMTE 2",
+   "away": "GROUPEMENT DE L'AUZON 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 3",
+   "away": "GROUPEMENT DE L'AUZON 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 1",
+   "away": "PERIGNAT F.C. 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 1",
+   "away": "GROUPEMENT DE L'AUZON 3",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T10:00",
+   "lieu": "PERIGNAT LES SARLIEVE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "GROUPEMENT DE L'AUZON 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "U.S. LES MARTRES DE VEYRE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "GROUPEMENT DE L'AUZON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 3",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

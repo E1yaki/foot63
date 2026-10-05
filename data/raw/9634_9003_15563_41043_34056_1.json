@@ -1,0 +1,102 @@
+{
+ "id": "9634_9003_15563_41043_34056_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "20",
+ "poule_label": "Poule 20",
+ "start": "2026-10-10T10:00",
+ "lieu": "MOZAC - COMPLEXE SPORTIF EDMOND VACANT",
+ "organisateur": "MOZAC US",
+ "equipes": [
+  "CEBAZAT SP. 2",
+  "CEBAZAT SP. 3",
+  "U.S. MOZAC 1",
+  "U.S. MOZAC 2",
+  "F.C. RIOMOIS 2"
+ ],
+ "logos": {
+  "CEBAZAT SP. 2": "logos/BC510828.jpg",
+  "CEBAZAT SP. 3": "logos/BC510828.jpg",
+  "U.S. MOZAC 1": "logos/BC521724.jpg",
+  "U.S. MOZAC 2": "logos/BC521724.jpg",
+  "F.C. RIOMOIS 2": "logos/BC508772.jpg"
+ },
+ "matchs": [
+  {
+   "home": "CEBAZAT SP. 3",
+   "away": "U.S. MOZAC 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "CEBAZAT SP. 3",
+   "away": "U.S. MOZAC 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "CEBAZAT SP. 2",
+   "away": "U.S. MOZAC 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "CEBAZAT SP. 2",
+   "away": "F.C. RIOMOIS 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. MOZAC 2",
+   "away": "F.C. RIOMOIS 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T10:00",
+   "lieu": "MOZAC - COMPLEXE SPORTIF EDMOND VACANT",
+   "matchs": [
+    {
+     "home": "CEBAZAT SP. 3",
+     "away": "U.S. MOZAC 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CEBAZAT SP. 3",
+     "away": "U.S. MOZAC 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CEBAZAT SP. 2",
+     "away": "U.S. MOZAC 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CEBAZAT SP. 2",
+     "away": "F.C. RIOMOIS 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. MOZAC 2",
+     "away": "F.C. RIOMOIS 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

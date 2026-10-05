@@ -1,0 +1,204 @@
+{
+ "id": "9634_9003_15563_41034_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "11",
+ "poule_label": "Poule 11",
+ "start": "2026-09-26T10:00",
+ "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+ "organisateur": "C.S. PONT DU CHATEAU",
+ "equipes": [
+  "LEMPDES SP. 1",
+  "LEMPDES SP. 2",
+  "FOOTBALL CLUB PUY DE MUR 2",
+  "AULNAT SP. 2",
+  "AULNAT SP. 1",
+  "C.S. PONT DU CHATEAU 3"
+ ],
+ "logos": {
+  "LEMPDES SP. 1": "logos/BC518527.jpg",
+  "LEMPDES SP. 2": "logos/BC518527.jpg",
+  "FOOTBALL CLUB PUY DE MUR 2": "logos/BC564682.jpg",
+  "AULNAT SP. 2": "logos/BC521920.jpg",
+  "AULNAT SP. 1": "logos/BC521920.jpg",
+  "C.S. PONT DU CHATEAU 3": "logos/BC520152.jpg"
+ },
+ "matchs": [
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 2",
+   "away": "AULNAT SP. 1",
+   "hs": 1,
+   "as": 7
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 2",
+   "away": "AULNAT SP. 2",
+   "hs": 0,
+   "as": 0
+  },
+  {
+   "home": "LEMPDES SP. 2",
+   "away": "AULNAT SP. 2",
+   "hs": 0,
+   "as": 3
+  },
+  {
+   "home": "LEMPDES SP. 1",
+   "away": "AULNAT SP. 1",
+   "hs": 1,
+   "as": 2
+  },
+  {
+   "home": "LEMPDES SP. 1",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": 9,
+   "as": 0
+  },
+  {
+   "home": "LEMPDES SP. 2",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": 0,
+   "as": 4
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-03T15:37:01Z",
+ "last_change": "2026-10-03T15:37:01Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T09:15",
+   "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+   "matchs": [
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "AULNAT SP. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "AULNAT SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 2",
+     "away": "AULNAT SP. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 2",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "AULNAT SP. 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-26T17:17:14Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+   "matchs": [
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "AULNAT SP. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "AULNAT SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 2",
+     "away": "AULNAT SP. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 2",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "AULNAT SP. 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-03T15:37:01Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+   "matchs": [
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "AULNAT SP. 1",
+     "hs": 1,
+     "as": 7
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "AULNAT SP. 2",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "LEMPDES SP. 2",
+     "away": "AULNAT SP. 2",
+     "hs": 0,
+     "as": 3
+    },
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "AULNAT SP. 1",
+     "hs": 1,
+     "as": 2
+    },
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": 9,
+     "as": 0
+    },
+    {
+     "home": "LEMPDES SP. 2",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": 0,
+     "as": 4
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

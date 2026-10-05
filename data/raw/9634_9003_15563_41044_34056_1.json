@@ -1,0 +1,116 @@
+{
+ "id": "9634_9003_15563_41044_34056_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "21",
+ "poule_label": "Poule 21",
+ "start": "2026-10-10T10:00",
+ "lieu": "CLERMONT FERRAND - STADE CAMILLE LECLANCHÉ N°2",
+ "organisateur": "U.J. CLERMONTOISE",
+ "equipes": [
+  "C.S. DE VOLVIC 1",
+  "C.S. DE VOLVIC 2",
+  "U. J. CLERMONTOISE 1",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1",
+  "A. S. CLERMONT SAINT JACQUES FOOT 3",
+  "A. OUVOIMOJA 1"
+ ],
+ "logos": {
+  "C.S. DE VOLVIC 1": "logos/BC506562.jpg",
+  "C.S. DE VOLVIC 2": "logos/BC506562.jpg",
+  "U. J. CLERMONTOISE 1": "logos/BC590198.jpg",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1": "logos/BC525985.jpg",
+  "A. S. CLERMONT SAINT JACQUES FOOT 3": "logos/BC525985.jpg",
+  "A. OUVOIMOJA 1": "logos/BC551537.jpg"
+ },
+ "matchs": [
+  {
+   "home": "A. OUVOIMOJA 1",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U. J. CLERMONTOISE 1",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "A. OUVOIMOJA 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "U. J. CLERMONTOISE 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T10:00",
+   "lieu": "CLERMONT FERRAND - STADE CAMILLE LECLANCHÉ N°2",
+   "matchs": [
+    {
+     "home": "A. OUVOIMOJA 1",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U. J. CLERMONTOISE 1",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "away": "A. OUVOIMOJA 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "away": "U. J. CLERMONTOISE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

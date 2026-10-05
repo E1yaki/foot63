@@ -1,0 +1,104 @@
+{
+ "id": "9634_9003_15563_40735_34055_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "1",
+ "poule_label": "Poule 1",
+ "start": "2026-10-03T10:00",
+ "lieu": "BILLOM - STADE DU CHAMP DE MARS 1",
+ "organisateur": "BILLOM S.C.",
+ "equipes": [
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+  "A.S. JOB 1",
+  "A.S. JOB 2",
+  "S.C. BILLOMOIS 1"
+ ],
+ "logos": {
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2": "logos/BC564515.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1": "logos/BC564515.jpg",
+  "A.S. JOB 1": "logos/BC534731.jpg",
+  "A.S. JOB 2": "logos/BC534731.jpg",
+  "S.C. BILLOMOIS 1": "logos/BC506469.jpg"
+ },
+ "matchs": [
+  {
+   "home": "A.S. JOB 2",
+   "away": "S.C. BILLOMOIS 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "A.S. JOB 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "S.C. BILLOMOIS 1",
+   "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "A.S. JOB 1",
+   "away": "A.S. JOB 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "BILLOM - STADE DU CHAMP DE MARS 1",
+   "matchs": [
+    {
+     "home": "A.S. JOB 2",
+     "away": "S.C. BILLOMOIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "A.S. JOB 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.C. BILLOMOIS 1",
+     "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. JOB 1",
+     "away": "A.S. JOB 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

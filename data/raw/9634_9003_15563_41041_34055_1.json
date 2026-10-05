@@ -1,0 +1,118 @@
+{
+ "id": "9634_9003_15563_41041_34055_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "18",
+ "poule_label": "Poule 18",
+ "start": "2026-10-03T10:00",
+ "lieu": "CLERMONT FERRAND - STADE COLONEL BOUTET",
+ "organisateur": "CLERM FRANC R",
+ "equipes": [
+  "FOOTBALL CLUB GERZAT 1",
+  "FOOTBALL CLUB GERZAT 2",
+  "F.C. COURNON D AUVERGNE 1",
+  "F.C. COURNON D AUVERGNE 3",
+  "ECUREUILS FRANC ROSIER 1",
+  "CLERMONT FOOT 63 2"
+ ],
+ "logos": {
+  "FOOTBALL CLUB GERZAT 1": "logos/BC564880.jpg",
+  "FOOTBALL CLUB GERZAT 2": "logos/BC564880.jpg",
+  "F.C. COURNON D AUVERGNE 1": "logos/BC547699.jpg",
+  "F.C. COURNON D AUVERGNE 3": "logos/BC547699.jpg",
+  "ECUREUILS FRANC ROSIER 1": "logos/BC526932.jpg",
+  "CLERMONT FOOT 63 2": "logos/BC535789.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. COURNON D AUVERGNE 3",
+   "away": "CLERMONT FOOT 63 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "CLERMONT FOOT 63 2",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "F.C. COURNON D AUVERGNE 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "FOOTBALL CLUB GERZAT 1",
+   "away": "FOOTBALL CLUB GERZAT 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "FOOTBALL CLUB GERZAT 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "ECUREUILS FRANC ROSIER 1",
+   "away": "FOOTBALL CLUB GERZAT 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "CLERMONT FERRAND - STADE COLONEL BOUTET",
+   "matchs": [
+    {
+     "home": "F.C. COURNON D AUVERGNE 3",
+     "away": "CLERMONT FOOT 63 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLERMONT FOOT 63 2",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "F.C. COURNON D AUVERGNE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB GERZAT 1",
+     "away": "FOOTBALL CLUB GERZAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "FOOTBALL CLUB GERZAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 1",
+     "away": "FOOTBALL CLUB GERZAT 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,141 @@
+{
+ "id": "9634_9003_15563_41030_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "7",
+ "poule_label": "Poule 7",
+ "start": "2026-09-26T10:00",
+ "lieu": "VERTAIZON - STADE MUNICIPAL",
+ "organisateur": "FOOTBALL CLUB PUY DE",
+ "equipes": [
+  "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+  "FOOTBALL CLUB PUY DE MUR 3",
+  "FOOTBALL CLUB PUY DE MUR 1",
+  "F.C. COURNON D AUVERGNE 2",
+  "C.S. PONT DU CHATEAU 1"
+ ],
+ "logos": {
+  "FOOTBALL CLUB PUY DE MUR 3": "logos/BC564682.jpg",
+  "FOOTBALL CLUB PUY DE MUR 1": "logos/BC564682.jpg",
+  "REV.AM.S. BEAUREGARD L'EVEQUE 2": "logos/BC517316.jpg",
+  "F.C. COURNON D AUVERGNE 2": "logos/BC547699.jpg",
+  "C.S. PONT DU CHATEAU 1": "logos/BC520152.jpg"
+ },
+ "matchs": [
+  {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": 2,
+   "as": 4
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 3",
+   "away": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "hs": 2,
+   "as": 0
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 3",
+   "away": "C.S. PONT DU CHATEAU 1",
+   "hs": 1,
+   "as": 11
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 1",
+   "away": "C.S. PONT DU CHATEAU 1",
+   "hs": 3,
+   "as": 3
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 1",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": 3,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-27T08:36:21Z",
+ "last_change": "2026-09-27T08:36:21Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "VERTAIZON - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 3",
+     "away": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 3",
+     "away": "C.S. PONT DU CHATEAU 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 1",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 1",
+     "away": "C.S. PONT DU CHATEAU 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-27T08:36:21Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "VERTAIZON - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": 2,
+     "as": 4
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 3",
+     "away": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+     "hs": 2,
+     "as": 0
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 3",
+     "away": "C.S. PONT DU CHATEAU 1",
+     "hs": 1,
+     "as": 11
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 1",
+     "away": "C.S. PONT DU CHATEAU 1",
+     "hs": 3,
+     "as": 3
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 1",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": 3,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,102 @@
+{
+ "id": "9634_9003_15563_41026_34056_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "3",
+ "poule_label": "Poule 3",
+ "start": "2026-10-10T09:30",
+ "lieu": "MONTAIGUT EN COMBRAILLE - STADE SERGE LANCELOT",
+ "organisateur": "F.C. NORD COMBRAILLE",
+ "equipes": [
+  "U.S. ST GEORGES LES ANCIZES 1",
+  "ENTENTE CHARBLOT 1",
+  "F.C. CHATEL GUYON 1",
+  "F.C. NORD COMBRAILLE 1",
+  "U.S. ST GERVAISIENNE 1"
+ ],
+ "logos": {
+  "U.S. ST GEORGES LES ANCIZES 1": "logos/BC506545.jpg",
+  "ENTENTE CHARBLOT 1": "logos/BC582290.jpg",
+  "F.C. CHATEL GUYON 1": "logos/BC520289.jpg",
+  "F.C. NORD COMBRAILLE 1": "logos/BC547675.jpg",
+  "U.S. ST GERVAISIENNE 1": "logos/BC514515.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. NORD COMBRAILLE 1",
+   "away": "U.S. ST GEORGES LES ANCIZES 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "F.C. CHATEL GUYON 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "U.S. ST GEORGES LES ANCIZES 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. NORD COMBRAILLE 1",
+   "away": "F.C. CHATEL GUYON 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "ENTENTE CHARBLOT 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T09:30",
+   "lieu": "MONTAIGUT EN COMBRAILLE - STADE SERGE LANCELOT",
+   "matchs": [
+    {
+     "home": "F.C. NORD COMBRAILLE 1",
+     "away": "U.S. ST GEORGES LES ANCIZES 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "F.C. CHATEL GUYON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "U.S. ST GEORGES LES ANCIZES 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. NORD COMBRAILLE 1",
+     "away": "F.C. CHATEL GUYON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "ENTENTE CHARBLOT 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

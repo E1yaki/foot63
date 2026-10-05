@@ -1,0 +1,74 @@
+{
+ "id": "9639_9008_15559_40723_38103_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-10-10T14:00",
+ "lieu": "CLERMONT FERRAND - STADE CAMILLE LECLANCHÉ N°2",
+ "organisateur": "U.J. CLERMONTOISE",
+ "equipes": [
+  "U. J. CLERMONTOISE 1",
+  "U.S. BEAUMONTOISE 2",
+  "C.S. DE VOLVIC 3"
+ ],
+ "logos": {
+  "U. J. CLERMONTOISE 1": "logos/BC590198.jpg",
+  "U.S. BEAUMONTOISE 2": "logos/BC508949.jpg",
+  "C.S. DE VOLVIC 3": "logos/BC506562.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. BEAUMONTOISE 2",
+   "away": "U. J. CLERMONTOISE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "C.S. DE VOLVIC 3",
+   "away": "U.S. BEAUMONTOISE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "C.S. DE VOLVIC 3",
+   "away": "U. J. CLERMONTOISE 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "CLERMONT FERRAND - STADE CAMILLE LECLANCHÉ N°2",
+   "matchs": [
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "U. J. CLERMONTOISE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. DE VOLVIC 3",
+     "away": "U.S. BEAUMONTOISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. DE VOLVIC 3",
+     "away": "U. J. CLERMONTOISE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

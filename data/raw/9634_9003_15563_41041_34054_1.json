@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41041_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "18",
+ "poule_label": "Poule 18",
+ "start": "2026-09-26T10:00",
+ "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+ "organisateur": "CLERMONT FOOT 63",
+ "equipes": [
+  "CLERMONT FOOT 63 2",
+  "FOOTBALL CLUB GERZAT 2",
+  "FOOTBALL CLUB GERZAT 1",
+  "ECUREUILS FRANC ROSIER 1",
+  "F.C. COURNON D AUVERGNE 1",
+  "F.C. COURNON D AUVERGNE 3"
+ ],
+ "logos": {
+  "CLERMONT FOOT 63 2": "logos/BC535789.jpg",
+  "FOOTBALL CLUB GERZAT 2": "logos/BC564880.jpg",
+  "FOOTBALL CLUB GERZAT 1": "logos/BC564880.jpg",
+  "ECUREUILS FRANC ROSIER 1": "logos/BC526932.jpg",
+  "F.C. COURNON D AUVERGNE 1": "logos/BC547699.jpg",
+  "F.C. COURNON D AUVERGNE 3": "logos/BC547699.jpg"
+ },
+ "matchs": [
+  {
+   "home": "CLERMONT FOOT 63 2",
+   "away": "FOOTBALL CLUB GERZAT 1",
+   "hs": 0,
+   "as": 13
+  },
+  {
+   "home": "F.C. COURNON D AUVERGNE 3",
+   "away": "FOOTBALL CLUB GERZAT 1",
+   "hs": 0,
+   "as": 2
+  },
+  {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "FOOTBALL CLUB GERZAT 1",
+   "hs": 7,
+   "as": 1
+  },
+  {
+   "home": "F.C. COURNON D AUVERGNE 3",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 0,
+   "as": 10
+  },
+  {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 0,
+   "as": 6
+  },
+  {
+   "home": "CLERMONT FOOT 63 2",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 3,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-30T12:00:46Z",
+ "last_change": "2026-09-30T12:00:46Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+   "matchs": [
+    {
+     "home": "CLERMONT FOOT 63 2",
+     "away": "FOOTBALL CLUB GERZAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 3",
+     "away": "FOOTBALL CLUB GERZAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 3",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "FOOTBALL CLUB GERZAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLERMONT FOOT 63 2",
+     "away": "FOOTBALL CLUB GERZAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-30T12:00:46Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+   "matchs": [
+    {
+     "home": "CLERMONT FOOT 63 2",
+     "away": "FOOTBALL CLUB GERZAT 1",
+     "hs": 0,
+     "as": 13
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 3",
+     "away": "FOOTBALL CLUB GERZAT 1",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "FOOTBALL CLUB GERZAT 1",
+     "hs": 7,
+     "as": 1
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 3",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": 0,
+     "as": 10
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": 0,
+     "as": 6
+    },
+    {
+     "home": "CLERMONT FOOT 63 2",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": 3,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

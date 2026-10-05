@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41035_34053_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "12",
+ "poule_label": "Poule 12",
+ "start": "2026-09-19T10:00",
+ "lieu": "MARINGUES - STADE MUNICIPAL 2",
+ "organisateur": "MARINGUES U.S.",
+ "equipes": [
+  "F.C. NORD LIMAGNE 1",
+  "F.C. NORD LIMAGNE 2",
+  "GROUPEMENT DORE ALLIER FOOTBALL 1",
+  "U.S. ST SYLVESTRE PRAGOULIN 1",
+  "U.S. MARINGUOISE 1",
+  "U.S. MARINGUOISE 2"
+ ],
+ "logos": {
+  "F.C. NORD LIMAGNE 1": "logos/BC563628.jpg",
+  "F.C. NORD LIMAGNE 2": "logos/BC563628.jpg",
+  "GROUPEMENT DORE ALLIER FOOTBALL 1": "logos/BC564204.jpg",
+  "U.S. ST SYLVESTRE PRAGOULIN 1": "logos/BC519064.jpg",
+  "U.S. MARINGUOISE 1": "logos/BC506518.jpg",
+  "U.S. MARINGUOISE 2": "logos/BC506518.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
+   "away": "F.C. NORD LIMAGNE 2",
+   "hs": 1,
+   "as": 3
+  },
+  {
+   "home": "F.C. NORD LIMAGNE 2",
+   "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "hs": 10,
+   "as": 0
+  },
+  {
+   "home": "U.S. MARINGUOISE 1",
+   "away": "U.S. MARINGUOISE 2",
+   "hs": 4,
+   "as": 2
+  },
+  {
+   "home": "F.C. NORD LIMAGNE 1",
+   "away": "U.S. MARINGUOISE 1",
+   "hs": 3,
+   "as": 1
+  },
+  {
+   "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
+   "away": "F.C. NORD LIMAGNE 1",
+   "hs": 0,
+   "as": 3
+  },
+  {
+   "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "away": "U.S. MARINGUOISE 2",
+   "hs": 0,
+   "as": 8
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T07:02:04Z",
+ "last_change": "2026-09-21T07:02:04Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "MARINGUES - STADE MUNICIPAL 2",
+   "matchs": [
+    {
+     "home": "F.C. NORD LIMAGNE 2",
+     "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. MARINGUOISE 1",
+     "away": "U.S. MARINGUOISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
+     "away": "F.C. NORD LIMAGNE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. NORD LIMAGNE 1",
+     "away": "U.S. MARINGUOISE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "away": "U.S. MARINGUOISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
+     "away": "F.C. NORD LIMAGNE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T07:02:04Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "MARINGUES - STADE MUNICIPAL 2",
+   "matchs": [
+    {
+     "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
+     "away": "F.C. NORD LIMAGNE 2",
+     "hs": 1,
+     "as": 3
+    },
+    {
+     "home": "F.C. NORD LIMAGNE 2",
+     "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "hs": 10,
+     "as": 0
+    },
+    {
+     "home": "U.S. MARINGUOISE 1",
+     "away": "U.S. MARINGUOISE 2",
+     "hs": 4,
+     "as": 2
+    },
+    {
+     "home": "F.C. NORD LIMAGNE 1",
+     "away": "U.S. MARINGUOISE 1",
+     "hs": 3,
+     "as": 1
+    },
+    {
+     "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
+     "away": "F.C. NORD LIMAGNE 1",
+     "hs": 0,
+     "as": 3
+    },
+    {
+     "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+     "away": "U.S. MARINGUOISE 2",
+     "hs": 0,
+     "as": 8
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

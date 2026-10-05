@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41044_34053_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "21",
+ "poule_label": "Poule 21",
+ "start": "2026-09-19T10:00",
+ "lieu": "CLERMONT FERRAND - STADE DE L' ESPÉRANCE ST JACQUES",
+ "organisateur": "AS CLERMONT ST JACQU",
+ "equipes": [
+  "A. S. CLERMONT SAINT JACQUES FOOT 1",
+  "A. S. CLERMONT SAINT JACQUES FOOT 3",
+  "C.S. DE VOLVIC 1",
+  "C.S. DE VOLVIC 2",
+  "A. OUVOIMOJA 1",
+  "U. J. CLERMONTOISE 1"
+ ],
+ "logos": {
+  "A. S. CLERMONT SAINT JACQUES FOOT 1": "logos/BC525985.jpg",
+  "A. S. CLERMONT SAINT JACQUES FOOT 3": "logos/BC525985.jpg",
+  "C.S. DE VOLVIC 1": "logos/BC506562.jpg",
+  "C.S. DE VOLVIC 2": "logos/BC506562.jpg",
+  "A. OUVOIMOJA 1": "logos/BC551537.jpg",
+  "U. J. CLERMONTOISE 1": "logos/BC590198.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U. J. CLERMONTOISE 1",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+   "hs": 2,
+   "as": 0
+  },
+  {
+   "home": "A. OUVOIMOJA 1",
+   "away": "U. J. CLERMONTOISE 1",
+   "hs": 1,
+   "as": 3
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "A. OUVOIMOJA 1",
+   "hs": 5,
+   "as": 0
+  },
+  {
+   "home": "C.S. DE VOLVIC 1",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": 7,
+   "as": 1
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 2,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-22T11:35:04Z",
+ "last_change": "2026-09-22T11:35:04Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "CLERMONT FERRAND - STADE DE L' ESPÉRANCE ST JACQUES",
+   "matchs": [
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U. J. CLERMONTOISE 1",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. OUVOIMOJA 1",
+     "away": "U. J. CLERMONTOISE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. DE VOLVIC 1",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "away": "A. OUVOIMOJA 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-22T11:35:04Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "CLERMONT FERRAND - STADE DE L' ESPÉRANCE ST JACQUES",
+   "matchs": [
+    {
+     "home": "U. J. CLERMONTOISE 1",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": 3,
+     "as": 0
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+     "hs": 2,
+     "as": 0
+    },
+    {
+     "home": "A. OUVOIMOJA 1",
+     "away": "U. J. CLERMONTOISE 1",
+     "hs": 1,
+     "as": 3
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "away": "A. OUVOIMOJA 1",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "C.S. DE VOLVIC 1",
+     "away": "C.S. DE VOLVIC 2",
+     "hs": 7,
+     "as": 1
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+     "away": "C.S. DE VOLVIC 1",
+     "hs": 2,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

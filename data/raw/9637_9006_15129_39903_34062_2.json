@@ -1,0 +1,74 @@
+{
+ "id": "9637_9006_15129_39903_34062_2",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-09-12T14:00",
+ "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE VAURY",
+ "organisateur": "ISSOIRE US",
+ "equipes": [
+  "U.S. ISSOIRE A. DU MAS 1",
+  "GROUPEMENT DE L'AUZON 1",
+  "ESP. CEYRATOISE 1"
+ ],
+ "logos": {
+  "U.S. ISSOIRE A. DU MAS 1": "logos/BC506507.jpg",
+  "GROUPEMENT DE L'AUZON 1": "logos/BC581946.jpg",
+  "ESP. CEYRATOISE 1": "logos/BC529030.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. ISSOIRE A. DU MAS 1",
+   "away": "GROUPEMENT DE L'AUZON 1",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "ESP. CEYRATOISE 1",
+   "away": "GROUPEMENT DE L'AUZON 1",
+   "hs": 1,
+   "as": 1
+  },
+  {
+   "home": "ESP. CEYRATOISE 1",
+   "away": "U.S. ISSOIRE A. DU MAS 1",
+   "hs": 5,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE VAURY",
+   "matchs": [
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 1",
+     "away": "GROUPEMENT DE L'AUZON 1",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "ESP. CEYRATOISE 1",
+     "away": "GROUPEMENT DE L'AUZON 1",
+     "hs": 1,
+     "as": 1
+    },
+    {
+     "home": "ESP. CEYRATOISE 1",
+     "away": "U.S. ISSOIRE A. DU MAS 1",
+     "hs": 5,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

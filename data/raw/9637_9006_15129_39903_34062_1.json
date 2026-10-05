@@ -1,0 +1,76 @@
+{
+ "id": "9637_9006_15129_39903_34062_1",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-09-12T14:00",
+ "lieu": "ARLANC - STADE JEAN PAUL CRONIE",
+ "organisateur": "AMBERT LIVRADOIS SUD",
+ "equipes": [
+  "CEBAZAT SP. 1",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+  "ECUREUILS FRANC ROSIER 1"
+ ],
+ "logos": {
+  "CEBAZAT SP. 1": "logos/BC510828.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1": "logos/BC564515.jpg",
+  "ECUREUILS FRANC ROSIER 1": "logos/BC526932.jpg"
+ },
+ "matchs": [
+  {
+   "home": "CEBAZAT SP. 1",
+   "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "hs": 0,
+   "as": 9
+  },
+  {
+   "home": "ECUREUILS FRANC ROSIER 1",
+   "away": "CEBAZAT SP. 1",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 2,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "ARLANC - STADE JEAN PAUL CRONIE",
+   "matchs": [
+    {
+     "home": "CEBAZAT SP. 1",
+     "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "hs": 0,
+     "as": null
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 1",
+     "away": "CEBAZAT SP. 1",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": 2,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

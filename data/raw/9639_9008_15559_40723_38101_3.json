@@ -1,0 +1,76 @@
+{
+ "id": "9639_9008_15559_40723_38101_3",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-19T14:00",
+ "lieu": "ROCHEFORT MONTAGNE - STADE MUNICIPAL 1",
+ "organisateur": "DOMES SANCY FOOT",
+ "equipes": [
+  "DOMES SANCY FOOT 1",
+  "F.C. CHAMALIERES 2",
+  "C.S. DE VOLVIC 3"
+ ],
+ "logos": {
+  "DOMES SANCY FOOT 1": "logos/BC563697.jpg",
+  "F.C. CHAMALIERES 2": "logos/BC520923.jpg",
+  "C.S. DE VOLVIC 3": "logos/BC506562.jpg"
+ },
+ "matchs": [
+  {
+   "home": "C.S. DE VOLVIC 3",
+   "away": "F.C. CHAMALIERES 2",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "F.C. CHAMALIERES 2",
+   "away": "DOMES SANCY FOOT 1",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "DOMES SANCY FOOT 1",
+   "away": "C.S. DE VOLVIC 3",
+   "hs": 2,
+   "as": 3
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ROCHEFORT MONTAGNE - STADE MUNICIPAL 1",
+   "matchs": [
+    {
+     "home": "C.S. DE VOLVIC 3",
+     "away": "F.C. CHAMALIERES 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHAMALIERES 2",
+     "away": "DOMES SANCY FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DOMES SANCY FOOT 1",
+     "away": "C.S. DE VOLVIC 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

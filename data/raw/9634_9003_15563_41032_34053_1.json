@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41032_34053_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "9",
+ "poule_label": "Poule 9",
+ "start": "2026-09-19T10:00",
+ "lieu": "VEYRE MONTON - STADE MUNICIPAL 1",
+ "organisateur": "C.O. VEYRE MONTON",
+ "equipes": [
+  "GROUPEMENT DE L'AUZON 2",
+  "U.S. VIC LE COMTE 3",
+  "U.S. VIC LE COMTE 1",
+  "U.S. VAL DE COUZE CHAMBON 1",
+  "C.O. VEYRE MONTON 1",
+  "U.S. LES MARTRES DE VEYRE 2"
+ ],
+ "logos": {
+  "GROUPEMENT DE L'AUZON 2": "logos/BC581946.jpg",
+  "U.S. VIC LE COMTE 3": "logos/BC506559.jpg",
+  "U.S. VIC LE COMTE 1": "logos/BC506559.jpg",
+  "U.S. VAL DE COUZE CHAMBON 1": "logos/BC542828.jpg",
+  "U.S. LES MARTRES DE VEYRE 2": "logos/BC506520.jpg",
+  "C.O. VEYRE MONTON 1": "logos/BC532169.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. VAL DE COUZE CHAMBON 1",
+   "away": "U.S. VIC LE COMTE 1",
+   "hs": 0,
+   "as": 3
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 2",
+   "away": "GROUPEMENT DE L'AUZON 2",
+   "hs": 5,
+   "as": 1
+  },
+  {
+   "home": "U.S. VIC LE COMTE 1",
+   "away": "C.O. VEYRE MONTON 1",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "U.S. VIC LE COMTE 3",
+   "away": "U.S. LES MARTRES DE VEYRE 2",
+   "hs": 0,
+   "as": 3
+  },
+  {
+   "home": "C.O. VEYRE MONTON 1",
+   "away": "GROUPEMENT DE L'AUZON 2",
+   "hs": 7,
+   "as": 2
+  },
+  {
+   "home": "U.S. VAL DE COUZE CHAMBON 1",
+   "away": "U.S. VIC LE COMTE 3",
+   "hs": 3,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-22T07:11:01Z",
+ "last_change": "2026-09-22T07:11:01Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "VEYRE MONTON - STADE MUNICIPAL 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 1",
+     "away": "C.O. VEYRE MONTON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 2",
+     "away": "GROUPEMENT DE L'AUZON 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. VAL DE COUZE CHAMBON 1",
+     "away": "U.S. VIC LE COMTE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. VIC LE COMTE 3",
+     "away": "U.S. LES MARTRES DE VEYRE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. VAL DE COUZE CHAMBON 1",
+     "away": "U.S. VIC LE COMTE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.O. VEYRE MONTON 1",
+     "away": "GROUPEMENT DE L'AUZON 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-22T07:11:01Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "VEYRE MONTON - STADE MUNICIPAL 1",
+   "matchs": [
+    {
+     "home": "U.S. VAL DE COUZE CHAMBON 1",
+     "away": "U.S. VIC LE COMTE 1",
+     "hs": 0,
+     "as": 3
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 2",
+     "away": "GROUPEMENT DE L'AUZON 2",
+     "hs": 5,
+     "as": 1
+    },
+    {
+     "home": "U.S. VIC LE COMTE 1",
+     "away": "C.O. VEYRE MONTON 1",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "U.S. VIC LE COMTE 3",
+     "away": "U.S. LES MARTRES DE VEYRE 2",
+     "hs": 0,
+     "as": 3
+    },
+    {
+     "home": "C.O. VEYRE MONTON 1",
+     "away": "GROUPEMENT DE L'AUZON 2",
+     "hs": 7,
+     "as": 2
+    },
+    {
+     "home": "U.S. VAL DE COUZE CHAMBON 1",
+     "away": "U.S. VIC LE COMTE 3",
+     "hs": 3,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

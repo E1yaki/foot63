@@ -1,0 +1,141 @@
+{
+ "id": "9634_9003_15563_41026_34053_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "3",
+ "poule_label": "Poule 3",
+ "start": "2026-09-19T09:30",
+ "lieu": "BLOT L EGLISE - STADE MUNICIPAL",
+ "organisateur": "ENTENTE CHARBLOT",
+ "equipes": [
+  "F.C. CHATEL GUYON 1",
+  "U.S. ST GERVAISIENNE 1",
+  "U.S. ST GEORGES LES ANCIZES 1",
+  "ENTENTE CHARBLOT 1",
+  "F.C. NORD COMBRAILLE 1"
+ ],
+ "logos": {
+  "F.C. CHATEL GUYON 1": "logos/BC520289.jpg",
+  "U.S. ST GERVAISIENNE 1": "logos/BC514515.jpg",
+  "U.S. ST GEORGES LES ANCIZES 1": "logos/BC506545.jpg",
+  "ENTENTE CHARBLOT 1": "logos/BC582290.jpg",
+  "F.C. NORD COMBRAILLE 1": "logos/BC547675.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "U.S. ST GEORGES LES ANCIZES 1",
+   "hs": 5,
+   "as": 3
+  },
+  {
+   "home": "U.S. ST GEORGES LES ANCIZES 1",
+   "away": "F.C. CHATEL GUYON 1",
+   "hs": 3,
+   "as": 4
+  },
+  {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "F.C. NORD COMBRAILLE 1",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "F.C. NORD COMBRAILLE 1",
+   "away": "U.S. ST GERVAISIENNE 1",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "F.C. CHATEL GUYON 1",
+   "away": "ENTENTE CHARBLOT 1",
+   "hs": 15,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-24T06:46:37Z",
+ "last_change": "2026-09-24T06:46:37Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T09:30",
+   "lieu": "BLOT L EGLISE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "U.S. ST GEORGES LES ANCIZES 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ST GEORGES LES ANCIZES 1",
+     "away": "F.C. CHATEL GUYON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHATEL GUYON 1",
+     "away": "ENTENTE CHARBLOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. NORD COMBRAILLE 1",
+     "away": "U.S. ST GERVAISIENNE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-24T06:46:37Z",
+   "start": "2026-09-19T09:30",
+   "lieu": "BLOT L EGLISE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "U.S. ST GEORGES LES ANCIZES 1",
+     "hs": 5,
+     "as": 3
+    },
+    {
+     "home": "U.S. ST GEORGES LES ANCIZES 1",
+     "away": "F.C. CHATEL GUYON 1",
+     "hs": 3,
+     "as": 4
+    },
+    {
+     "home": "ENTENTE CHARBLOT 1",
+     "away": "F.C. NORD COMBRAILLE 1",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "F.C. NORD COMBRAILLE 1",
+     "away": "U.S. ST GERVAISIENNE 1",
+     "hs": 2,
+     "as": 2
+    },
+    {
+     "home": "F.C. CHATEL GUYON 1",
+     "away": "ENTENTE CHARBLOT 1",
+     "hs": 15,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

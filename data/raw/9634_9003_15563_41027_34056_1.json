@@ -1,0 +1,102 @@
+{
+ "id": "9634_9003_15563_41027_34056_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "4",
+ "poule_label": "Poule 4",
+ "start": "2026-10-10T10:00",
+ "lieu": "CONDAT EN COMBRAILLE - STADE MUNICIPAL",
+ "organisateur": "HTE COMBRAILLE FOOT",
+ "equipes": [
+  "VAL DE SIOULE FOOT 1",
+  "A.S. ORCINES 1",
+  "DOMES SANCY FOOT 1",
+  "DOMES SANCY FOOT 2",
+  "HAUTE COMBRAILLE FOOT 1"
+ ],
+ "logos": {
+  "VAL DE SIOULE FOOT 1": "logos/BC582409.jpg",
+  "A.S. ORCINES 1": "logos/BC520786.jpg",
+  "DOMES SANCY FOOT 1": "logos/BC563697.jpg",
+  "DOMES SANCY FOOT 2": "logos/BC563697.jpg",
+  "HAUTE COMBRAILLE FOOT 1": "logos/BC580473.jpg"
+ },
+ "matchs": [
+  {
+   "home": "HAUTE COMBRAILLE FOOT 1",
+   "away": "DOMES SANCY FOOT 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "DOMES SANCY FOOT 2",
+   "away": "A.S. ORCINES 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "VAL DE SIOULE FOOT 1",
+   "away": "DOMES SANCY FOOT 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "HAUTE COMBRAILLE FOOT 1",
+   "away": "A.S. ORCINES 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "VAL DE SIOULE FOOT 1",
+   "away": "DOMES SANCY FOOT 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T10:00",
+   "lieu": "CONDAT EN COMBRAILLE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "HAUTE COMBRAILLE FOOT 1",
+     "away": "DOMES SANCY FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DOMES SANCY FOOT 2",
+     "away": "A.S. ORCINES 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "VAL DE SIOULE FOOT 1",
+     "away": "DOMES SANCY FOOT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "HAUTE COMBRAILLE FOOT 1",
+     "away": "A.S. ORCINES 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "VAL DE SIOULE FOOT 1",
+     "away": "DOMES SANCY FOOT 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

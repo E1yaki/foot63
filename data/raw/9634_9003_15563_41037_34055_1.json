@@ -1,0 +1,118 @@
+{
+ "id": "9634_9003_15563_41037_34055_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "14",
+ "poule_label": "Poule 14",
+ "start": "2026-10-03T10:00",
+ "lieu": "ROMAGNAT - STADE MICHEL BRUN 2",
+ "organisateur": "ROMAGNAT A.S.",
+ "equipes": [
+  "ENT.F.C. ST AMANT ET TALLENDE 2",
+  "ENT.F.C. ST AMANT ET TALLENDE 1",
+  "A.S. ROMAGNAT 1",
+  "A.S. ROMAGNAT 2",
+  "ESP. CEYRATOISE 2",
+  "ESP. CEYRATOISE 1"
+ ],
+ "logos": {
+  "ENT.F.C. ST AMANT ET TALLENDE 2": "logos/BC546413.jpg",
+  "ENT.F.C. ST AMANT ET TALLENDE 1": "logos/BC546413.jpg",
+  "A.S. ROMAGNAT 1": "logos/BC516330.jpg",
+  "A.S. ROMAGNAT 2": "logos/BC516330.jpg",
+  "ESP. CEYRATOISE 2": "logos/BC529030.jpg",
+  "ESP. CEYRATOISE 1": "logos/BC529030.jpg"
+ },
+ "matchs": [
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "ESP. CEYRATOISE 1",
+   "away": "ESP. CEYRATOISE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "ESP. CEYRATOISE 2",
+   "away": "A.S. ROMAGNAT 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "away": "A.S. ROMAGNAT 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+   "away": "ESP. CEYRATOISE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "A.S. ROMAGNAT 1",
+   "away": "A.S. ROMAGNAT 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "ROMAGNAT - STADE MICHEL BRUN 2",
+   "matchs": [
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ESP. CEYRATOISE 1",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ESP. CEYRATOISE 2",
+     "away": "A.S. ROMAGNAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "A.S. ROMAGNAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "away": "ESP. CEYRATOISE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. ROMAGNAT 1",
+     "away": "A.S. ROMAGNAT 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

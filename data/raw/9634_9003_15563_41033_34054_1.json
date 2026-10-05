@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41033_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "10",
+ "poule_label": "Poule 10",
+ "start": "2026-09-26T10:00",
+ "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+ "organisateur": "VIC LE COMTE U.S.",
+ "equipes": [
+  "GROUPEMENT DE L'AUZON 1",
+  "GROUPEMENT DE L'AUZON 3",
+  "PERIGNAT F.C. 1",
+  "U.S. VIC LE COMTE 2",
+  "U.S. LES MARTRES DE VEYRE 1",
+  "U.S. LES MARTRES DE VEYRE 3"
+ ],
+ "logos": {
+  "PERIGNAT F.C. 1": "logos/BC546837.jpg",
+  "GROUPEMENT DE L'AUZON 1": "logos/BC581946.jpg",
+  "GROUPEMENT DE L'AUZON 3": "logos/BC581946.jpg",
+  "U.S. VIC LE COMTE 2": "logos/BC506559.jpg",
+  "U.S. LES MARTRES DE VEYRE 1": "logos/BC506520.jpg",
+  "U.S. LES MARTRES DE VEYRE 3": "logos/BC506520.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. VIC LE COMTE 2",
+   "away": "GROUPEMENT DE L'AUZON 1",
+   "hs": 1,
+   "as": 0
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 1",
+   "away": "GROUPEMENT DE L'AUZON 1",
+   "hs": 5,
+   "as": 0
+  },
+  {
+   "home": "U.S. VIC LE COMTE 2",
+   "away": "GROUPEMENT DE L'AUZON 3",
+   "hs": 4,
+   "as": 1
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 3",
+   "away": "GROUPEMENT DE L'AUZON 3",
+   "hs": 1,
+   "as": 4
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 3",
+   "away": "PERIGNAT F.C. 1",
+   "hs": 1,
+   "as": 0
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 1",
+   "away": "PERIGNAT F.C. 1",
+   "hs": 12,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-28T18:36:41Z",
+ "last_change": "2026-09-28T18:36:41Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "GROUPEMENT DE L'AUZON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "GROUPEMENT DE L'AUZON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 3",
+     "away": "PERIGNAT F.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 3",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-28T18:36:41Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "GROUPEMENT DE L'AUZON 1",
+     "hs": 1,
+     "as": 0
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "GROUPEMENT DE L'AUZON 1",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": 4,
+     "as": 1
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 3",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": 1,
+     "as": 4
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 3",
+     "away": "PERIGNAT F.C. 1",
+     "hs": 1,
+     "as": 0
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": 12,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

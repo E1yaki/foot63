@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41029_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "6",
+ "poule_label": "Poule 6",
+ "start": "2026-09-26T10:00",
+ "lieu": "BESSE ET ST ANASTAISE - STADE ALBERT VERNY",
+ "organisateur": "BESSE EGLISENEUVEALS",
+ "equipes": [
+  "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+  "F.C. PLAUZAT-CHAMPEIX 1",
+  "F.C. PLAUZAT-CHAMPEIX 2",
+  "SANCY CHAVANON FOOT 1",
+  "U.S. ISSOIRE A. DU MAS 1",
+  "U.S. ISSOIRE A. DU MAS 3"
+ ],
+ "logos": {
+  "F.C. PLAUZAT-CHAMPEIX 2": "logos/BC529886.jpg",
+  "F.C. PLAUZAT-CHAMPEIX 1": "logos/BC529886.jpg",
+  "SANCY CHAVANON FOOT 1": "logos/BC561027.jpg",
+  "U.S. ISSOIRE A. DU MAS 1": "logos/BC506507.jpg",
+  "U.S. ISSOIRE A. DU MAS 3": "logos/BC506507.jpg",
+  "AM. LAIQ. S. DE BESSE EGLISENEUVE 1": "logos/BC529900.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": 0,
+   "as": 6
+  },
+  {
+   "home": "SANCY CHAVANON FOOT 1",
+   "away": "U.S. ISSOIRE A. DU MAS 1",
+   "hs": 0,
+   "as": 10
+  },
+  {
+   "home": "SANCY CHAVANON FOOT 1",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": 0,
+   "as": 3
+  },
+  {
+   "home": "F.C. PLAUZAT-CHAMPEIX 1",
+   "away": "U.S. ISSOIRE A. DU MAS 1",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "F.C. PLAUZAT-CHAMPEIX 1",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": 2,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-28T18:36:41Z",
+ "last_change": "2026-09-28T18:36:41Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "BESSE ET ST ANASTAISE - STADE ALBERT VERNY",
+   "matchs": [
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "U.S. ISSOIRE A. DU MAS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 1",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 1",
+     "away": "U.S. ISSOIRE A. DU MAS 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-28T18:36:41Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "BESSE ET ST ANASTAISE - STADE ALBERT VERNY",
+   "matchs": [
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": 0,
+     "as": 6
+    },
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "U.S. ISSOIRE A. DU MAS 1",
+     "hs": 0,
+     "as": 10
+    },
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": 0,
+     "as": 3
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 1",
+     "away": "U.S. ISSOIRE A. DU MAS 1",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": 3,
+     "as": 0
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 1",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": 2,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

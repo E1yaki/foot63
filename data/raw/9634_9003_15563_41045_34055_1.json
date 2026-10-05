@@ -1,0 +1,141 @@
+{
+ "id": "9634_9003_15563_41045_34055_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "22",
+ "poule_label": "Poule 22",
+ "start": "2026-10-03T10:00",
+ "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+ "organisateur": "RIOM FC",
+ "equipes": [
+  "U.S. MENETROL 1",
+  "F.C. RIOMOIS 1",
+  "F.C. RIOMOIS 3",
+  "GJ SCB FOOT 1",
+  "GJ SCB FOOT 2"
+ ],
+ "logos": {
+  "U.S. MENETROL 1": "logos/BC537754.jpg",
+  "F.C. RIOMOIS 3": "logos/BC508772.jpg",
+  "F.C. RIOMOIS 1": "logos/BC508772.jpg",
+  "GJ SCB FOOT 2": "logos/BC560516.jpg",
+  "GJ SCB FOOT 1": "logos/BC560516.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GJ SCB FOOT 1",
+   "away": "GJ SCB FOOT 2",
+   "hs": 9,
+   "as": 0
+  },
+  {
+   "home": "F.C. RIOMOIS 3",
+   "away": "GJ SCB FOOT 1",
+   "hs": 1,
+   "as": 1
+  },
+  {
+   "home": "GJ SCB FOOT 2",
+   "away": "U.S. MENETROL 1",
+   "hs": 0,
+   "as": 9
+  },
+  {
+   "home": "F.C. RIOMOIS 1",
+   "away": "F.C. RIOMOIS 3",
+   "hs": 10,
+   "as": 0
+  },
+  {
+   "home": "U.S. MENETROL 1",
+   "away": "F.C. RIOMOIS 1",
+   "hs": 0,
+   "as": 9
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T12:24:56Z",
+ "last_change": "2026-10-05T12:24:56Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+   "matchs": [
+    {
+     "home": "GJ SCB FOOT 1",
+     "away": "GJ SCB FOOT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GJ SCB FOOT 2",
+     "away": "U.S. MENETROL 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. RIOMOIS 3",
+     "away": "GJ SCB FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. RIOMOIS 1",
+     "away": "F.C. RIOMOIS 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. MENETROL 1",
+     "away": "F.C. RIOMOIS 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T12:24:56Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+   "matchs": [
+    {
+     "home": "GJ SCB FOOT 1",
+     "away": "GJ SCB FOOT 2",
+     "hs": 9,
+     "as": 0
+    },
+    {
+     "home": "F.C. RIOMOIS 3",
+     "away": "GJ SCB FOOT 1",
+     "hs": 1,
+     "as": 1
+    },
+    {
+     "home": "GJ SCB FOOT 2",
+     "away": "U.S. MENETROL 1",
+     "hs": 0,
+     "as": 9
+    },
+    {
+     "home": "F.C. RIOMOIS 1",
+     "away": "F.C. RIOMOIS 3",
+     "hs": 10,
+     "as": 0
+    },
+    {
+     "home": "U.S. MENETROL 1",
+     "away": "F.C. RIOMOIS 1",
+     "hs": 0,
+     "as": 9
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

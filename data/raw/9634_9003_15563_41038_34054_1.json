@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41038_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "15",
+ "poule_label": "Poule 15",
+ "start": "2026-09-26T10:00",
+ "lieu": "ROYAT - STADE DU BREUIL",
+ "organisateur": "A.S. ROYAT A.C.",
+ "equipes": [
+  "F.C. CHAMALIERES 1",
+  "F.C. CHAMALIERES 2",
+  "U.S. BEAUMONTOISE 1",
+  "U.S. BEAUMONTOISE 2",
+  "A.S. ROYAT A.C. 1",
+  "A.S. ROYAT A.C. 2"
+ ],
+ "logos": {
+  "U.S. BEAUMONTOISE 1": "logos/BC508949.jpg",
+  "U.S. BEAUMONTOISE 2": "logos/BC508949.jpg",
+  "F.C. CHAMALIERES 1": "logos/BC520923.jpg",
+  "F.C. CHAMALIERES 2": "logos/BC520923.jpg",
+  "A.S. ROYAT A.C. 1": "logos/BC524117.jpg",
+  "A.S. ROYAT A.C. 2": "logos/BC524117.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. CHAMALIERES 1",
+   "away": "A.S. ROYAT A.C. 1",
+   "hs": 5,
+   "as": 0
+  },
+  {
+   "home": "U.S. BEAUMONTOISE 1",
+   "away": "A.S. ROYAT A.C. 1",
+   "hs": 4,
+   "as": 3
+  },
+  {
+   "home": "F.C. CHAMALIERES 1",
+   "away": "A.S. ROYAT A.C. 2",
+   "hs": 10,
+   "as": 0
+  },
+  {
+   "home": "U.S. BEAUMONTOISE 1",
+   "away": "F.C. CHAMALIERES 2",
+   "hs": 0,
+   "as": 6
+  },
+  {
+   "home": "U.S. BEAUMONTOISE 2",
+   "away": "F.C. CHAMALIERES 2",
+   "hs": 3,
+   "as": 6
+  },
+  {
+   "home": "U.S. BEAUMONTOISE 2",
+   "away": "A.S. ROYAT A.C. 2",
+   "hs": 2,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-01T06:42:25Z",
+ "last_change": "2026-10-01T06:42:25Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "ROYAT - STADE DU BREUIL",
+   "matchs": [
+    {
+     "home": "U.S. BEAUMONTOISE 1",
+     "away": "A.S. ROYAT A.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHAMALIERES 1",
+     "away": "A.S. ROYAT A.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHAMALIERES 1",
+     "away": "A.S. ROYAT A.C. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 1",
+     "away": "F.C. CHAMALIERES 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "A.S. ROYAT A.C. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "F.C. CHAMALIERES 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-01T06:42:25Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "ROYAT - STADE DU BREUIL",
+   "matchs": [
+    {
+     "home": "F.C. CHAMALIERES 1",
+     "away": "A.S. ROYAT A.C. 1",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 1",
+     "away": "A.S. ROYAT A.C. 1",
+     "hs": 4,
+     "as": 3
+    },
+    {
+     "home": "F.C. CHAMALIERES 1",
+     "away": "A.S. ROYAT A.C. 2",
+     "hs": 10,
+     "as": 0
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 1",
+     "away": "F.C. CHAMALIERES 2",
+     "hs": 0,
+     "as": 6
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "F.C. CHAMALIERES 2",
+     "hs": 3,
+     "as": 6
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "A.S. ROYAT A.C. 2",
+     "hs": 2,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

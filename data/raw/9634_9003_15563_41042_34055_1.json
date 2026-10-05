@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41042_34055_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "19",
+ "poule_label": "Poule 19",
+ "start": "2026-10-03T09:00",
+ "lieu": "BLANZAT - STADE CROIX SAINT GÉRAUD 1",
+ "organisateur": "F.C. BLANZAT",
+ "equipes": [
+  "CLERMONT ACADEMY 1",
+  "F.C. BLANZAT 1",
+  "F.C. BLANZAT 2",
+  "A. S. CLERMONT SAINT JACQUES FOOT 2",
+  "CLERMONT FOOT 63 3",
+  "CLERMONT FOOT 63 1"
+ ],
+ "logos": {
+  "CLERMONT ACADEMY 1": "logos/BC565247.jpg",
+  "F.C. BLANZAT 1": "logos/BC533382.jpg",
+  "F.C. BLANZAT 2": "logos/BC533382.jpg",
+  "A. S. CLERMONT SAINT JACQUES FOOT 2": "logos/BC525985.jpg",
+  "CLERMONT FOOT 63 3": "logos/BC535789.jpg",
+  "CLERMONT FOOT 63 1": "logos/BC535789.jpg"
+ },
+ "matchs": [
+  {
+   "home": "CLERMONT FOOT 63 1",
+   "away": "CLERMONT ACADEMY 1",
+   "hs": 6,
+   "as": 0
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "away": "CLERMONT ACADEMY 1",
+   "hs": 2,
+   "as": 3
+  },
+  {
+   "home": "CLERMONT FOOT 63 3",
+   "away": "F.C. BLANZAT 1",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "CLERMONT FOOT 63 1",
+   "away": "CLERMONT FOOT 63 3",
+   "hs": 14,
+   "as": 0
+  },
+  {
+   "home": "F.C. BLANZAT 1",
+   "away": "F.C. BLANZAT 2",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "F.C. BLANZAT 2",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "hs": 0,
+   "as": 3
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T20:45:01Z",
+ "last_change": "2026-10-04T20:45:01Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T09:00",
+   "lieu": "BLANZAT - STADE CROIX SAINT GÉRAUD 1",
+   "matchs": [
+    {
+     "home": "CLERMONT FOOT 63 1",
+     "away": "CLERMONT ACADEMY 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLERMONT FOOT 63 3",
+     "away": "F.C. BLANZAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLERMONT FOOT 63 1",
+     "away": "CLERMONT FOOT 63 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "away": "CLERMONT ACADEMY 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. BLANZAT 1",
+     "away": "F.C. BLANZAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. BLANZAT 2",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T20:45:01Z",
+   "start": "2026-10-03T09:00",
+   "lieu": "BLANZAT - STADE CROIX SAINT GÉRAUD 1",
+   "matchs": [
+    {
+     "home": "CLERMONT FOOT 63 1",
+     "away": "CLERMONT ACADEMY 1",
+     "hs": 6,
+     "as": 0
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "away": "CLERMONT ACADEMY 1",
+     "hs": 2,
+     "as": 3
+    },
+    {
+     "home": "CLERMONT FOOT 63 3",
+     "away": "F.C. BLANZAT 1",
+     "hs": 2,
+     "as": 2
+    },
+    {
+     "home": "CLERMONT FOOT 63 1",
+     "away": "CLERMONT FOOT 63 3",
+     "hs": 14,
+     "as": 0
+    },
+    {
+     "home": "F.C. BLANZAT 1",
+     "away": "F.C. BLANZAT 2",
+     "hs": 3,
+     "as": 0
+    },
+    {
+     "home": "F.C. BLANZAT 2",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "hs": 0,
+     "as": 3
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41031_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "8",
+ "poule_label": "Poule 8",
+ "start": "2026-09-26T10:00",
+ "lieu": "LEMPDES - PLAINE DE JEUX DU MARAIS 2",
+ "organisateur": "LEMPDES SP.",
+ "equipes": [
+  "LEMPDES SP. 2",
+  "F.C. LEZOUX 1",
+  "F.C. LEZOUX 2",
+  "C.S. PONT DU CHATEAU 2",
+  "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+  "REV.AM.S. BEAUREGARD L'EVEQUE 3"
+ ],
+ "logos": {
+  "F.C. LEZOUX 1": "logos/BC517723.jpg",
+  "F.C. LEZOUX 2": "logos/BC517723.jpg",
+  "C.S. PONT DU CHATEAU 2": "logos/BC520152.jpg",
+  "REV.AM.S. BEAUREGARD L'EVEQUE 1": "logos/BC517316.jpg",
+  "REV.AM.S. BEAUREGARD L'EVEQUE 3": "logos/BC517316.jpg",
+  "LEMPDES SP. 2": "logos/BC518527.jpg"
+ },
+ "matchs": [
+  {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+   "away": "LEMPDES SP. 2",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "C.S. PONT DU CHATEAU 2",
+   "hs": 1,
+   "as": 0
+  },
+  {
+   "home": "F.C. LEZOUX 1",
+   "away": "C.S. PONT DU CHATEAU 2",
+   "hs": 5,
+   "as": 1
+  },
+  {
+   "home": "F.C. LEZOUX 1",
+   "away": "LEMPDES SP. 2",
+   "hs": 2,
+   "as": 0
+  },
+  {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "C.S. PONT DU CHATEAU 2",
+   "hs": 5,
+   "as": 1
+  },
+  {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+   "away": "F.C. LEZOUX 2",
+   "hs": 0,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-28T18:36:41Z",
+ "last_change": "2026-09-28T18:36:41Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "LEMPDES - PLAINE DE JEUX DU MARAIS 2",
+   "matchs": [
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+     "away": "LEMPDES SP. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "away": "F.C. LEZOUX 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. LEZOUX 1",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+     "away": "F.C. LEZOUX 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. LEZOUX 1",
+     "away": "LEMPDES SP. 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-28T18:36:41Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "LEMPDES - PLAINE DE JEUX DU MARAIS 2",
+   "matchs": [
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+     "away": "LEMPDES SP. 2",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": 1,
+     "as": 0
+    },
+    {
+     "home": "F.C. LEZOUX 1",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": 5,
+     "as": 1
+    },
+    {
+     "home": "F.C. LEZOUX 1",
+     "away": "LEMPDES SP. 2",
+     "hs": 2,
+     "as": 0
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": 5,
+     "as": 1
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+     "away": "F.C. LEZOUX 2",
+     "hs": 0,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

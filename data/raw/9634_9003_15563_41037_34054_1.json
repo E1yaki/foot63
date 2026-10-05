@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41037_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "14",
+ "poule_label": "Poule 14",
+ "start": "2026-09-26T10:00",
+ "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+ "organisateur": "ST AMANT TAL.",
+ "equipes": [
+  "ENT.F.C. ST AMANT ET TALLENDE 1",
+  "ENT.F.C. ST AMANT ET TALLENDE 2",
+  "A.S. ROMAGNAT 2",
+  "A.S. ROMAGNAT 1",
+  "ESP. CEYRATOISE 2",
+  "ESP. CEYRATOISE 1"
+ ],
+ "logos": {
+  "ENT.F.C. ST AMANT ET TALLENDE 1": "logos/BC546413.jpg",
+  "ENT.F.C. ST AMANT ET TALLENDE 2": "logos/BC546413.jpg",
+  "A.S. ROMAGNAT 2": "logos/BC516330.jpg",
+  "A.S. ROMAGNAT 1": "logos/BC516330.jpg",
+  "ESP. CEYRATOISE 2": "logos/BC529030.jpg",
+  "ESP. CEYRATOISE 1": "logos/BC529030.jpg"
+ },
+ "matchs": [
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+   "away": "A.S. ROMAGNAT 2",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "away": "A.S. ROMAGNAT 1",
+   "hs": 9,
+   "as": 0
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "away": "ESP. CEYRATOISE 2",
+   "hs": 4,
+   "as": 0
+  },
+  {
+   "home": "ESP. CEYRATOISE 1",
+   "away": "A.S. ROMAGNAT 2",
+   "hs": 10,
+   "as": 0
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+   "away": "ESP. CEYRATOISE 2",
+   "hs": 2,
+   "as": 3
+  },
+  {
+   "home": "ESP. CEYRATOISE 1",
+   "away": "A.S. ROMAGNAT 1",
+   "hs": 12,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-27T18:30:41Z",
+ "last_change": "2026-09-27T18:30:41Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+   "matchs": [
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "A.S. ROMAGNAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ESP. CEYRATOISE 1",
+     "away": "A.S. ROMAGNAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "away": "A.S. ROMAGNAT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ESP. CEYRATOISE 1",
+     "away": "A.S. ROMAGNAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-27T18:30:41Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+   "matchs": [
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "away": "A.S. ROMAGNAT 2",
+     "hs": 3,
+     "as": 0
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "A.S. ROMAGNAT 1",
+     "hs": 9,
+     "as": 0
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "ESP. CEYRATOISE 1",
+     "away": "A.S. ROMAGNAT 2",
+     "hs": 10,
+     "as": 0
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": 2,
+     "as": 3
+    },
+    {
+     "home": "ESP. CEYRATOISE 1",
+     "away": "A.S. ROMAGNAT 1",
+     "hs": 12,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

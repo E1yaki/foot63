@@ -1,0 +1,202 @@
+{
+ "id": "9634_9003_15563_41033_34053_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "10",
+ "poule_label": "Poule 10",
+ "start": "2026-09-19T10:00",
+ "lieu": "ORCET - STADE MAURICE FOURNIER 1",
+ "organisateur": "GRPT DE L'AUZON",
+ "equipes": [
+  "U.S. LES MARTRES DE VEYRE 3",
+  "U.S. LES MARTRES DE VEYRE 1",
+  "PERIGNAT F.C. 1",
+  "U.S. VIC LE COMTE 2",
+  "GROUPEMENT DE L'AUZON 1",
+  "GROUPEMENT DE L'AUZON 3"
+ ],
+ "logos": {
+  "U.S. LES MARTRES DE VEYRE 3": "logos/BC506520.jpg",
+  "U.S. LES MARTRES DE VEYRE 1": "logos/BC506520.jpg",
+  "PERIGNAT F.C. 1": "logos/BC546837.jpg",
+  "U.S. VIC LE COMTE 2": "logos/BC506559.jpg",
+  "GROUPEMENT DE L'AUZON 1": "logos/BC581946.jpg",
+  "GROUPEMENT DE L'AUZON 3": "logos/BC581946.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. VIC LE COMTE 2",
+   "away": "U.S. LES MARTRES DE VEYRE 3",
+   "hs": 10,
+   "as": 0
+  },
+  {
+   "home": "U.S. VIC LE COMTE 2",
+   "away": "U.S. LES MARTRES DE VEYRE 1",
+   "hs": 0,
+   "as": 9
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 3",
+   "away": "GROUPEMENT DE L'AUZON 1",
+   "hs": 0,
+   "as": 2
+  },
+  {
+   "home": "GROUPEMENT DE L'AUZON 1",
+   "away": "PERIGNAT F.C. 1",
+   "hs": 4,
+   "as": 0
+  },
+  {
+   "home": "GROUPEMENT DE L'AUZON 3",
+   "away": "PERIGNAT F.C. 1",
+   "hs": 5,
+   "as": 0
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 1",
+   "away": "GROUPEMENT DE L'AUZON 3",
+   "hs": 16,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:38:24Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "ORCET - STADE MAURICE FOURNIER 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "U.S. LES MARTRES DE VEYRE 3",
+     "hs": 10,
+     "as": 0
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "U.S. LES MARTRES DE VEYRE 1",
+     "hs": 0,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 3",
+     "away": "GROUPEMENT DE L'AUZON 1",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "GROUPEMENT DE L'AUZON 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "GROUPEMENT DE L'AUZON 3",
+     "away": "PERIGNAT F.C. 1",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": 15,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:18:59Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "ORCET - STADE MAURICE FOURNIER 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "U.S. LES MARTRES DE VEYRE 3",
+     "hs": 10,
+     "as": 0
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "U.S. LES MARTRES DE VEYRE 1",
+     "hs": 0,
+     "as": 9
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 3",
+     "away": "GROUPEMENT DE L'AUZON 1",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "GROUPEMENT DE L'AUZON 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "GROUPEMENT DE L'AUZON 3",
+     "away": "PERIGNAT F.C. 1",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": null,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:38:24Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "ORCET - STADE MAURICE FOURNIER 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "U.S. LES MARTRES DE VEYRE 3",
+     "hs": 10,
+     "as": 0
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "U.S. LES MARTRES DE VEYRE 1",
+     "hs": 0,
+     "as": 9
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 3",
+     "away": "GROUPEMENT DE L'AUZON 1",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "GROUPEMENT DE L'AUZON 1",
+     "away": "PERIGNAT F.C. 1",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "GROUPEMENT DE L'AUZON 3",
+     "away": "PERIGNAT F.C. 1",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "GROUPEMENT DE L'AUZON 3",
+     "hs": 16,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

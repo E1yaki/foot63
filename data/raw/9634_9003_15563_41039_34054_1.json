@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41039_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "16",
+ "poule_label": "Poule 16",
+ "start": "2026-09-26T10:00",
+ "lieu": "AUBIERE - STADE LUCIEN BONHOMME",
+ "organisateur": "F.C. AUBIEROIS",
+ "equipes": [
+  "F. C. CLERMONT METROPOLE 2",
+  "F. C. CLERMONT METROPOLE 1",
+  "F.C. AUBIEROIS 1",
+  "F.C. AUBIEROIS 2",
+  "A.S. MONTFERRANDAISE 1",
+  "A.S. MONTFERRANDAISE 3"
+ ],
+ "logos": {
+  "F.C. AUBIEROIS 1": "logos/BC533145.jpg",
+  "F.C. AUBIEROIS 2": "logos/BC533145.jpg",
+  "F. C. CLERMONT METROPOLE 2": "logos/BC582731.jpg",
+  "F. C. CLERMONT METROPOLE 1": "logos/BC582731.jpg",
+  "A.S. MONTFERRANDAISE 1": "logos/BC508763.jpg",
+  "A.S. MONTFERRANDAISE 3": "logos/BC508763.jpg"
+ },
+ "matchs": [
+  {
+   "home": "A.S. MONTFERRANDAISE 1",
+   "away": "F.C. AUBIEROIS 2",
+   "hs": 14,
+   "as": 0
+  },
+  {
+   "home": "F. C. CLERMONT METROPOLE 2",
+   "away": "F.C. AUBIEROIS 2",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "F. C. CLERMONT METROPOLE 1",
+   "away": "F.C. AUBIEROIS 1",
+   "hs": 1,
+   "as": 2
+  },
+  {
+   "home": "A.S. MONTFERRANDAISE 1",
+   "away": "F.C. AUBIEROIS 1",
+   "hs": 1,
+   "as": 0
+  },
+  {
+   "home": "F. C. CLERMONT METROPOLE 2",
+   "away": "A.S. MONTFERRANDAISE 3",
+   "hs": 3,
+   "as": 6
+  },
+  {
+   "home": "F. C. CLERMONT METROPOLE 1",
+   "away": "A.S. MONTFERRANDAISE 3",
+   "hs": 0,
+   "as": 8
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-29T12:11:46Z",
+ "last_change": "2026-09-29T12:11:46Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "AUBIERE - STADE LUCIEN BONHOMME",
+   "matchs": [
+    {
+     "home": "A.S. MONTFERRANDAISE 1",
+     "away": "F.C. AUBIEROIS 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "F.C. AUBIEROIS 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 1",
+     "away": "F.C. AUBIEROIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "F.C. AUBIEROIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "A.S. MONTFERRANDAISE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "A.S. MONTFERRANDAISE 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-29T12:11:46Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "AUBIERE - STADE LUCIEN BONHOMME",
+   "matchs": [
+    {
+     "home": "A.S. MONTFERRANDAISE 1",
+     "away": "F.C. AUBIEROIS 2",
+     "hs": 14,
+     "as": 0
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "F.C. AUBIEROIS 2",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "F.C. AUBIEROIS 1",
+     "hs": 1,
+     "as": 2
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 1",
+     "away": "F.C. AUBIEROIS 1",
+     "hs": 1,
+     "as": 0
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "A.S. MONTFERRANDAISE 3",
+     "hs": 3,
+     "as": 6
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "A.S. MONTFERRANDAISE 3",
+     "hs": 0,
+     "as": 8
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

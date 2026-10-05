@@ -1,0 +1,116 @@
+{
+ "id": "9634_9003_15563_41029_34056_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "6",
+ "poule_label": "Poule 6",
+ "start": "2026-10-10T10:00",
+ "lieu": "LA TOUR D AUVERGNE - STADE DU LAC",
+ "organisateur": "SANCY CHAVANON FOOT",
+ "equipes": [
+  "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+  "F.C. PLAUZAT-CHAMPEIX 1",
+  "F.C. PLAUZAT-CHAMPEIX 2",
+  "U.S. ISSOIRE A. DU MAS 1",
+  "U.S. ISSOIRE A. DU MAS 3",
+  "SANCY CHAVANON FOOT 1"
+ ],
+ "logos": {
+  "AM. LAIQ. S. DE BESSE EGLISENEUVE 1": "logos/BC529900.jpg",
+  "F.C. PLAUZAT-CHAMPEIX 1": "logos/BC529886.jpg",
+  "F.C. PLAUZAT-CHAMPEIX 2": "logos/BC529886.jpg",
+  "U.S. ISSOIRE A. DU MAS 1": "logos/BC506507.jpg",
+  "U.S. ISSOIRE A. DU MAS 3": "logos/BC506507.jpg",
+  "SANCY CHAVANON FOOT 1": "logos/BC561027.jpg"
+ },
+ "matchs": [
+  {
+   "home": "SANCY CHAVANON FOOT 1",
+   "away": "F.C. PLAUZAT-CHAMPEIX 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "SANCY CHAVANON FOOT 1",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "away": "U.S. ISSOIRE A. DU MAS 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. PLAUZAT-CHAMPEIX 2",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. PLAUZAT-CHAMPEIX 1",
+   "away": "U.S. ISSOIRE A. DU MAS 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T10:00",
+   "lieu": "LA TOUR D AUVERGNE - STADE DU LAC",
+   "matchs": [
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "U.S. ISSOIRE A. DU MAS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 2",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 1",
+     "away": "U.S. ISSOIRE A. DU MAS 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "id": "9634_9003_15563_41040_34053_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "17",
+ "poule_label": "Poule 17",
+ "start": "2026-09-19T10:00",
+ "lieu": "CLERMONT FERRAND - STADE COLONEL BOUTET",
+ "organisateur": "CLERM FRANC R",
+ "equipes": [
+  "CEBAZAT SP. 1",
+  "F. C. CLERMONT METROPOLE 3",
+  "ECUREUILS FRANC ROSIER 3",
+  "ECUREUILS FRANC ROSIER 2",
+  "A.S. MONTFERRANDAISE 2"
+ ],
+ "logos": {
+  "CEBAZAT SP. 1": "logos/BC510828.jpg",
+  "F. C. CLERMONT METROPOLE 3": "logos/BC582731.jpg",
+  "ECUREUILS FRANC ROSIER 3": "logos/BC526932.jpg",
+  "ECUREUILS FRANC ROSIER 2": "logos/BC526932.jpg",
+  "A.S. MONTFERRANDAISE 2": "logos/BC508763.jpg"
+ },
+ "matchs": [
+  {
+   "home": "ECUREUILS FRANC ROSIER 2",
+   "away": "ECUREUILS FRANC ROSIER 3",
+   "hs": 5,
+   "as": 3
+  },
+  {
+   "home": "F. C. CLERMONT METROPOLE 3",
+   "away": "ECUREUILS FRANC ROSIER 2",
+   "hs": 0,
+   "as": 2
+  },
+  {
+   "home": "A.S. MONTFERRANDAISE 2",
+   "away": "CEBAZAT SP. 1",
+   "hs": 1,
+   "as": 1
+  },
+  {
+   "home": "CEBAZAT SP. 1",
+   "away": "F. C. CLERMONT METROPOLE 3",
+   "hs": 4,
+   "as": 0
+  },
+  {
+   "home": "ECUREUILS FRANC ROSIER 3",
+   "away": "A.S. MONTFERRANDAISE 2",
+   "hs": 1,
+   "as": 4
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-22T18:04:26Z",
+ "last_change": "2026-09-22T18:04:26Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "CLERMONT FERRAND - STADE COLONEL BOUTET",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 3",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 2",
+     "away": "CEBAZAT SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CEBAZAT SP. 1",
+     "away": "F. C. CLERMONT METROPOLE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 2",
+     "away": "ECUREUILS FRANC ROSIER 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 3",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-22T18:04:26Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "CLERMONT FERRAND - STADE COLONEL BOUTET",
+   "matchs": [
+    {
+     "home": "ECUREUILS FRANC ROSIER 2",
+     "away": "ECUREUILS FRANC ROSIER 3",
+     "hs": 5,
+     "as": 3
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 3",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 2",
+     "away": "CEBAZAT SP. 1",
+     "hs": 1,
+     "as": 1
+    },
+    {
+     "home": "CEBAZAT SP. 1",
+     "away": "F. C. CLERMONT METROPOLE 3",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 3",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": 1,
+     "as": 4
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

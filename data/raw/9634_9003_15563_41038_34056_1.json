@@ -1,0 +1,116 @@
+{
+ "id": "9634_9003_15563_41038_34056_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "15",
+ "poule_label": "Poule 15",
+ "start": "2026-10-10T10:00",
+ "lieu": "CHAMALIERES - COMPLEXE SPORTIF CLAUDE WOLFF",
+ "organisateur": "F.C. CHAMALIERES",
+ "equipes": [
+  "U.S. BEAUMONTOISE 1",
+  "U.S. BEAUMONTOISE 2",
+  "A.S. ROYAT A.C. 2",
+  "A.S. ROYAT A.C. 1",
+  "F.C. CHAMALIERES 1",
+  "F.C. CHAMALIERES 2"
+ ],
+ "logos": {
+  "U.S. BEAUMONTOISE 1": "logos/BC508949.jpg",
+  "U.S. BEAUMONTOISE 2": "logos/BC508949.jpg",
+  "A.S. ROYAT A.C. 2": "logos/BC524117.jpg",
+  "A.S. ROYAT A.C. 1": "logos/BC524117.jpg",
+  "F.C. CHAMALIERES 1": "logos/BC520923.jpg",
+  "F.C. CHAMALIERES 2": "logos/BC520923.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. CHAMALIERES 2",
+   "away": "A.S. ROYAT A.C. 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. BEAUMONTOISE 2",
+   "away": "A.S. ROYAT A.C. 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. BEAUMONTOISE 1",
+   "away": "F.C. CHAMALIERES 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. BEAUMONTOISE 2",
+   "away": "A.S. ROYAT A.C. 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. BEAUMONTOISE 1",
+   "away": "F.C. CHAMALIERES 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. CHAMALIERES 1",
+   "away": "A.S. ROYAT A.C. 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T10:00",
+   "lieu": "CHAMALIERES - COMPLEXE SPORTIF CLAUDE WOLFF",
+   "matchs": [
+    {
+     "home": "F.C. CHAMALIERES 2",
+     "away": "A.S. ROYAT A.C. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "A.S. ROYAT A.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 1",
+     "away": "F.C. CHAMALIERES 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "A.S. ROYAT A.C. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 1",
+     "away": "F.C. CHAMALIERES 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHAMALIERES 1",
+     "away": "A.S. ROYAT A.C. 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

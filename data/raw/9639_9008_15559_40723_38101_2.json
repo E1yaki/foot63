@@ -1,0 +1,76 @@
+{
+ "id": "9639_9008_15559_40723_38101_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-19T14:00",
+ "lieu": "CLERMONT FERRAND - STADE CAMILLE LECLANCHÉ N°2",
+ "organisateur": "U.J. CLERMONTOISE",
+ "equipes": [
+  "A.S. ROYAT A.C. 2",
+  "U. J. CLERMONTOISE 1",
+  "F.C. BLANZAT 2"
+ ],
+ "logos": {
+  "A.S. ROYAT A.C. 2": "logos/BC524117.jpg",
+  "U. J. CLERMONTOISE 1": "logos/BC590198.jpg",
+  "F.C. BLANZAT 2": "logos/BC533382.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U. J. CLERMONTOISE 1",
+   "away": "A.S. ROYAT A.C. 2",
+   "hs": 2,
+   "as": 3
+  },
+  {
+   "home": "F.C. BLANZAT 2",
+   "away": "U. J. CLERMONTOISE 1",
+   "hs": 1,
+   "as": 17
+  },
+  {
+   "home": "F.C. BLANZAT 2",
+   "away": "A.S. ROYAT A.C. 2",
+   "hs": 0,
+   "as": 12
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "CLERMONT FERRAND - STADE CAMILLE LECLANCHÉ N°2",
+   "matchs": [
+    {
+     "home": "U. J. CLERMONTOISE 1",
+     "away": "A.S. ROYAT A.C. 2",
+     "hs": 2,
+     "as": 5
+    },
+    {
+     "home": "F.C. BLANZAT 2",
+     "away": "U. J. CLERMONTOISE 1",
+     "hs": 1,
+     "as": null
+    },
+    {
+     "home": "F.C. BLANZAT 2",
+     "away": "A.S. ROYAT A.C. 2",
+     "hs": 0,
+     "as": 12
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,178 @@
+{
+ "id": "9634_9003_15563_41030_34055_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "7",
+ "poule_label": "Poule 7",
+ "start": "2026-10-03T10:00",
+ "lieu": "MOISSAT - STADE COMMUNAL",
+ "organisateur": "BEAUREGARD L EVEQUE",
+ "equipes": [
+  "F.C. COURNON D AUVERGNE 2",
+  "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+  "FOOTBALL CLUB PUY DE MUR 1",
+  "FOOTBALL CLUB PUY DE MUR 3",
+  "C.S. PONT DU CHATEAU 1"
+ ],
+ "logos": {
+  "F.C. COURNON D AUVERGNE 2": "logos/BC547699.jpg",
+  "REV.AM.S. BEAUREGARD L'EVEQUE 2": "logos/BC517316.jpg",
+  "FOOTBALL CLUB PUY DE MUR 1": "logos/BC564682.jpg",
+  "FOOTBALL CLUB PUY DE MUR 3": "logos/BC564682.jpg",
+  "C.S. PONT DU CHATEAU 1": "logos/BC520152.jpg"
+ },
+ "matchs": [
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 1",
+   "away": "FOOTBALL CLUB PUY DE MUR 3",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "F.C. COURNON D AUVERGNE 2",
+   "away": "C.S. PONT DU CHATEAU 1",
+   "hs": 1,
+   "as": 2
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 3",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": 0,
+   "as": 8
+  },
+  {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "away": "FOOTBALL CLUB PUY DE MUR 1",
+   "hs": 1,
+   "as": 4
+  },
+  {
+   "home": "C.S. PONT DU CHATEAU 1",
+   "away": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "hs": 6,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T09:12:03Z",
+ "last_change": "2026-10-04T09:12:03Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "BEAUREGARD L EVEQUE - STADE LE COUDERT",
+   "matchs": [
+    {
+     "home": "F.C. COURNON D AUVERGNE 2",
+     "away": "C.S. PONT DU CHATEAU 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 3",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. PONT DU CHATEAU 1",
+     "away": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-03T15:37:01Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "MOISSAT - STADE COMMUNAL",
+   "matchs": [
+    {
+     "home": "F.C. COURNON D AUVERGNE 2",
+     "away": "C.S. PONT DU CHATEAU 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 3",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. PONT DU CHATEAU 1",
+     "away": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:12:03Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "MOISSAT - STADE COMMUNAL",
+   "matchs": [
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 1",
+     "away": "FOOTBALL CLUB PUY DE MUR 3",
+     "hs": 3,
+     "as": 0
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 2",
+     "away": "C.S. PONT DU CHATEAU 1",
+     "hs": 1,
+     "as": 2
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 3",
+     "away": "F.C. COURNON D AUVERGNE 2",
+     "hs": 0,
+     "as": 8
+    },
+    {
+     "home": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+     "away": "FOOTBALL CLUB PUY DE MUR 1",
+     "hs": 1,
+     "as": 4
+    },
+    {
+     "home": "C.S. PONT DU CHATEAU 1",
+     "away": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+     "hs": 6,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

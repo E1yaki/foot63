@@ -1,0 +1,141 @@
+{
+ "id": "9634_9003_15563_41028_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "5",
+ "poule_label": "Poule 5",
+ "start": "2026-09-26T10:00",
+ "lieu": "PESCHADOIRES - STADE GUSTAVE LIGNE",
+ "organisateur": "C.S. PONT DE DORE",
+ "equipes": [
+  "C.S. PONT DE DORE 1",
+  "C.S. PONT DE DORE 2",
+  "S.A. THIERNOIS 1",
+  "DUROLLE FOOT 2",
+  "DUROLLE FOOT 1"
+ ],
+ "logos": {
+  "S.A. THIERNOIS 1": "logos/BC508776.jpg",
+  "C.S. PONT DE DORE 1": "logos/BC526934.jpg",
+  "C.S. PONT DE DORE 2": "logos/BC526934.jpg",
+  "DUROLLE FOOT 2": "logos/BC580467.jpg",
+  "DUROLLE FOOT 1": "logos/BC580467.jpg"
+ },
+ "matchs": [
+  {
+   "home": "DUROLLE FOOT 2",
+   "away": "C.S. PONT DE DORE 2",
+   "hs": 5,
+   "as": 0
+  },
+  {
+   "home": "DUROLLE FOOT 1",
+   "away": "C.S. PONT DE DORE 2",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "S.A. THIERNOIS 1",
+   "away": "C.S. PONT DE DORE 1",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "DUROLLE FOOT 1",
+   "away": "C.S. PONT DE DORE 1",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "DUROLLE FOOT 2",
+   "away": "S.A. THIERNOIS 1",
+   "hs": 3,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-27T08:36:21Z",
+ "last_change": "2026-09-27T08:36:21Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "PESCHADOIRES - STADE GUSTAVE LIGNE",
+   "matchs": [
+    {
+     "home": "DUROLLE FOOT 2",
+     "away": "C.S. PONT DE DORE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "C.S. PONT DE DORE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DUROLLE FOOT 2",
+     "away": "S.A. THIERNOIS 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-27T08:36:21Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "PESCHADOIRES - STADE GUSTAVE LIGNE",
+   "matchs": [
+    {
+     "home": "DUROLLE FOOT 2",
+     "away": "C.S. PONT DE DORE 2",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "C.S. PONT DE DORE 2",
+     "hs": 3,
+     "as": 0
+    },
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": 3,
+     "as": 0
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "DUROLLE FOOT 2",
+     "away": "S.A. THIERNOIS 1",
+     "hs": 3,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

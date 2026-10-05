@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_40736_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "2",
+ "poule_label": "Poule 2",
+ "start": "2026-09-26T10:00",
+ "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE ESCUIT",
+ "organisateur": "ISSOIRE US",
+ "equipes": [
+  "UNION SPORTIVE BASSIN MINIER 1",
+  "UNION SPORTIVE BASSIN MINIER 2",
+  "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+  "E.S. ST GERMINOISE 1",
+  "E.S. ST GERMINOISE 2",
+  "U.S. ISSOIRE A. DU MAS 2"
+ ],
+ "logos": {
+  "UNION SPORTIVE BASSIN MINIER 1": "logos/BC560477.jpg",
+  "UNION SPORTIVE BASSIN MINIER 2": "logos/BC560477.jpg",
+  "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1": "logos/BC560797.jpg",
+  "E.S. ST GERMINOISE 1": "logos/BC516806.jpg",
+  "E.S. ST GERMINOISE 2": "logos/BC516806.jpg",
+  "U.S. ISSOIRE A. DU MAS 2": "logos/BC506507.jpg"
+ },
+ "matchs": [
+  {
+   "home": "UNION SPORTIVE BASSIN MINIER 2",
+   "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "E.S. ST GERMINOISE 1",
+   "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "hs": 5,
+   "as": 0
+  },
+  {
+   "home": "UNION SPORTIVE BASSIN MINIER 1",
+   "away": "E.S. ST GERMINOISE 2",
+   "hs": 8,
+   "as": 0
+  },
+  {
+   "home": "UNION SPORTIVE BASSIN MINIER 2",
+   "away": "E.S. ST GERMINOISE 2",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "UNION SPORTIVE BASSIN MINIER 1",
+   "away": "U.S. ISSOIRE A. DU MAS 2",
+   "hs": 4,
+   "as": 0
+  },
+  {
+   "home": "E.S. ST GERMINOISE 1",
+   "away": "U.S. ISSOIRE A. DU MAS 2",
+   "hs": 4,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-27T11:46:16Z",
+ "last_change": "2026-09-27T11:46:16Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE ESCUIT",
+   "matchs": [
+    {
+     "home": "E.S. ST GERMINOISE 1",
+     "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 2",
+     "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "E.S. ST GERMINOISE 1",
+     "away": "U.S. ISSOIRE A. DU MAS 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 1",
+     "away": "U.S. ISSOIRE A. DU MAS 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 1",
+     "away": "E.S. ST GERMINOISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 2",
+     "away": "E.S. ST GERMINOISE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-27T11:46:16Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE ESCUIT",
+   "matchs": [
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 2",
+     "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "E.S. ST GERMINOISE 1",
+     "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 1",
+     "away": "E.S. ST GERMINOISE 2",
+     "hs": 8,
+     "as": 0
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 2",
+     "away": "E.S. ST GERMINOISE 2",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 1",
+     "away": "U.S. ISSOIRE A. DU MAS 2",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "E.S. ST GERMINOISE 1",
+     "away": "U.S. ISSOIRE A. DU MAS 2",
+     "hs": 4,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

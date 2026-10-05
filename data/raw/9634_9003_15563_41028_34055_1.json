@@ -1,0 +1,178 @@
+{
+ "id": "9634_9003_15563_41028_34055_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "5",
+ "poule_label": "Poule 5",
+ "start": "2026-10-03T09:00",
+ "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 1",
+ "organisateur": "THIERS SA",
+ "equipes": [
+  "S.A. THIERNOIS 1",
+  "C.S. PONT DE DORE 2",
+  "C.S. PONT DE DORE 1",
+  "DUROLLE FOOT 2",
+  "DUROLLE FOOT 1"
+ ],
+ "logos": {
+  "C.S. PONT DE DORE 2": "logos/BC526934.jpg",
+  "C.S. PONT DE DORE 1": "logos/BC526934.jpg",
+  "DUROLLE FOOT 2": "logos/BC580467.jpg",
+  "DUROLLE FOOT 1": "logos/BC580467.jpg",
+  "S.A. THIERNOIS 1": "logos/BC508776.jpg"
+ },
+ "matchs": [
+  {
+   "home": "C.S. PONT DE DORE 1",
+   "away": "C.S. PONT DE DORE 2",
+   "hs": 7,
+   "as": 0
+  },
+  {
+   "home": "DUROLLE FOOT 2",
+   "away": "C.S. PONT DE DORE 1",
+   "hs": 2,
+   "as": 6
+  },
+  {
+   "home": "S.A. THIERNOIS 1",
+   "away": "DUROLLE FOOT 1",
+   "hs": 4,
+   "as": 0
+  },
+  {
+   "home": "DUROLLE FOOT 1",
+   "away": "DUROLLE FOOT 2",
+   "hs": 1,
+   "as": 3
+  },
+  {
+   "home": "C.S. PONT DE DORE 2",
+   "away": "S.A. THIERNOIS 1",
+   "hs": 1,
+   "as": 17
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-10-05T15:30:36Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 1",
+   "matchs": [
+    {
+     "home": "C.S. PONT DE DORE 1",
+     "away": "C.S. PONT DE DORE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "DUROLLE FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "DUROLLE FOOT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. PONT DE DORE 2",
+     "away": "S.A. THIERNOIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DUROLLE FOOT 2",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-03T15:37:01Z",
+   "start": "2026-10-03T09:00",
+   "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 1",
+   "matchs": [
+    {
+     "home": "C.S. PONT DE DORE 1",
+     "away": "C.S. PONT DE DORE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "DUROLLE FOOT 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. PONT DE DORE 2",
+     "away": "S.A. THIERNOIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "DUROLLE FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "DUROLLE FOOT 2",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T15:30:36Z",
+   "start": "2026-10-03T09:00",
+   "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 1",
+   "matchs": [
+    {
+     "home": "C.S. PONT DE DORE 1",
+     "away": "C.S. PONT DE DORE 2",
+     "hs": 7,
+     "as": 0
+    },
+    {
+     "home": "DUROLLE FOOT 2",
+     "away": "C.S. PONT DE DORE 1",
+     "hs": 2,
+     "as": 6
+    },
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "DUROLLE FOOT 1",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "DUROLLE FOOT 1",
+     "away": "DUROLLE FOOT 2",
+     "hs": 1,
+     "as": 3
+    },
+    {
+     "home": "C.S. PONT DE DORE 2",
+     "away": "S.A. THIERNOIS 1",
+     "hs": 1,
+     "as": 17
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

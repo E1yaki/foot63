@@ -1,0 +1,104 @@
+{
+ "id": "9634_9003_15563_41036_34055_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "13",
+ "poule_label": "Poule 13",
+ "start": "2026-10-03T10:00",
+ "lieu": "ST BEAUZIRE - STADE EUGÈNE SENIQUETTE",
+ "organisateur": "GF LIMAGNE",
+ "equipes": [
+  "U.S. ENNEZAT 1",
+  "F.C. RIOMOIS 5",
+  "F.C. RIOMOIS 4",
+  "GROUPEMENT FORMATEUR LIMAGNE 1",
+  "GROUPEMENT FORMATEUR LIMAGNE 2"
+ ],
+ "logos": {
+  "U.S. ENNEZAT 1": "logos/BC506501.jpg",
+  "F.C. RIOMOIS 5": "logos/BC508772.jpg",
+  "F.C. RIOMOIS 4": "logos/BC508772.jpg",
+  "GROUPEMENT FORMATEUR LIMAGNE 1": "logos/BC554404.jpg",
+  "GROUPEMENT FORMATEUR LIMAGNE 2": "logos/BC554404.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. ENNEZAT 1",
+   "away": "F.C. RIOMOIS 4",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. RIOMOIS 5",
+   "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 2",
+   "away": "U.S. ENNEZAT 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. RIOMOIS 4",
+   "away": "F.C. RIOMOIS 5",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "ST BEAUZIRE - STADE EUGÈNE SENIQUETTE",
+   "matchs": [
+    {
+     "home": "U.S. ENNEZAT 1",
+     "away": "F.C. RIOMOIS 4",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. RIOMOIS 5",
+     "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT FORMATEUR LIMAGNE 2",
+     "away": "U.S. ENNEZAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. RIOMOIS 4",
+     "away": "F.C. RIOMOIS 5",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,141 @@
+{
+ "id": "9634_9003_15563_41040_34054_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "17",
+ "poule_label": "Poule 17",
+ "start": "2026-09-26T10:00",
+ "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+ "organisateur": "CEBAZAT SP.",
+ "equipes": [
+  "F. C. CLERMONT METROPOLE 3",
+  "ECUREUILS FRANC ROSIER 3",
+  "ECUREUILS FRANC ROSIER 2",
+  "CEBAZAT SP. 1",
+  "A.S. MONTFERRANDAISE 2"
+ ],
+ "logos": {
+  "F. C. CLERMONT METROPOLE 3": "logos/BC582731.jpg",
+  "ECUREUILS FRANC ROSIER 3": "logos/BC526932.jpg",
+  "ECUREUILS FRANC ROSIER 2": "logos/BC526932.jpg",
+  "CEBAZAT SP. 1": "logos/BC510828.jpg",
+  "A.S. MONTFERRANDAISE 2": "logos/BC508763.jpg"
+ },
+ "matchs": [
+  {
+   "home": "ECUREUILS FRANC ROSIER 2",
+   "away": "A.S. MONTFERRANDAISE 2",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "ECUREUILS FRANC ROSIER 3",
+   "away": "F. C. CLERMONT METROPOLE 3",
+   "hs": 0,
+   "as": 0
+  },
+  {
+   "home": "F. C. CLERMONT METROPOLE 3",
+   "away": "A.S. MONTFERRANDAISE 2",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "ECUREUILS FRANC ROSIER 3",
+   "away": "CEBAZAT SP. 1",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "ECUREUILS FRANC ROSIER 2",
+   "away": "CEBAZAT SP. 1",
+   "hs": 0,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-29T18:12:51Z",
+ "last_change": "2026-09-29T18:12:51Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+   "matchs": [
+    {
+     "home": "ECUREUILS FRANC ROSIER 2",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 3",
+     "away": "F. C. CLERMONT METROPOLE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 2",
+     "away": "CEBAZAT SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 3",
+     "away": "CEBAZAT SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 3",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-29T18:12:51Z",
+   "start": "2026-09-26T10:00",
+   "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+   "matchs": [
+    {
+     "home": "ECUREUILS FRANC ROSIER 2",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 3",
+     "away": "F. C. CLERMONT METROPOLE 3",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 3",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 3",
+     "away": "CEBAZAT SP. 1",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 2",
+     "away": "CEBAZAT SP. 1",
+     "hs": 0,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

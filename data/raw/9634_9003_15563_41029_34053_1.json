@@ -1,0 +1,161 @@
+{
+ "id": "9634_9003_15563_41029_34053_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "6",
+ "poule_label": "Poule 6",
+ "start": "2026-09-19T10:00",
+ "lieu": "PLAUZAT - STADE MUNICIPAL",
+ "organisateur": "PLAUZAT CHAMP",
+ "equipes": [
+  "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+  "SANCY CHAVANON FOOT 1",
+  "U.S. ISSOIRE A. DU MAS 3",
+  "U.S. ISSOIRE A. DU MAS 1",
+  "F.C. PLAUZAT-CHAMPEIX 1",
+  "F.C. PLAUZAT-CHAMPEIX 2"
+ ],
+ "logos": {
+  "AM. LAIQ. S. DE BESSE EGLISENEUVE 1": "logos/BC529900.jpg",
+  "SANCY CHAVANON FOOT 1": "logos/BC561027.jpg",
+  "U.S. ISSOIRE A. DU MAS 3": "logos/BC506507.jpg",
+  "U.S. ISSOIRE A. DU MAS 1": "logos/BC506507.jpg",
+  "F.C. PLAUZAT-CHAMPEIX 1": "logos/BC529886.jpg",
+  "F.C. PLAUZAT-CHAMPEIX 2": "logos/BC529886.jpg"
+ },
+ "matchs": [
+  {
+   "home": "SANCY CHAVANON FOOT 1",
+   "away": "F.C. PLAUZAT-CHAMPEIX 1",
+   "hs": 0,
+   "as": 9
+  },
+  {
+   "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "away": "U.S. ISSOIRE A. DU MAS 1",
+   "hs": 0,
+   "as": 10
+  },
+  {
+   "home": "F.C. PLAUZAT-CHAMPEIX 2",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": 1,
+   "as": 5
+  },
+  {
+   "home": "F.C. PLAUZAT-CHAMPEIX 1",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": 5,
+   "as": 1
+  },
+  {
+   "home": "SANCY CHAVANON FOOT 1",
+   "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "hs": 0,
+   "as": 3
+  },
+  {
+   "home": "U.S. ISSOIRE A. DU MAS 1",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": 8,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T21:24:51Z",
+ "last_change": "2026-09-21T21:24:51Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "PLAUZAT - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "U.S. ISSOIRE A. DU MAS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 2",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 1",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T21:24:51Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "PLAUZAT - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 1",
+     "hs": 0,
+     "as": 9
+    },
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "U.S. ISSOIRE A. DU MAS 1",
+     "hs": 0,
+     "as": 10
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 2",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": 1,
+     "as": 5
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": 5,
+     "as": 1
+    },
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "hs": 0,
+     "as": 3
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 1",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": 8,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

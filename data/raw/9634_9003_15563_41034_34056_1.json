@@ -1,0 +1,116 @@
+{
+ "id": "9634_9003_15563_41034_34056_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "11",
+ "poule_label": "Poule 11",
+ "start": "2026-10-10T09:15",
+ "lieu": "VERTAIZON - STADE MUNICIPAL",
+ "organisateur": "FOOTBALL CLUB PUY DE",
+ "equipes": [
+  "LEMPDES SP. 1",
+  "LEMPDES SP. 2",
+  "AULNAT SP. 1",
+  "AULNAT SP. 2",
+  "C.S. PONT DU CHATEAU 3",
+  "FOOTBALL CLUB PUY DE MUR 2"
+ ],
+ "logos": {
+  "LEMPDES SP. 1": "logos/BC518527.jpg",
+  "LEMPDES SP. 2": "logos/BC518527.jpg",
+  "AULNAT SP. 1": "logos/BC521920.jpg",
+  "AULNAT SP. 2": "logos/BC521920.jpg",
+  "C.S. PONT DU CHATEAU 3": "logos/BC520152.jpg",
+  "FOOTBALL CLUB PUY DE MUR 2": "logos/BC564682.jpg"
+ },
+ "matchs": [
+  {
+   "home": "LEMPDES SP. 1",
+   "away": "AULNAT SP. 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AULNAT SP. 1",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "LEMPDES SP. 2",
+   "away": "AULNAT SP. 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 2",
+   "away": "AULNAT SP. 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "LEMPDES SP. 1",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "FOOTBALL CLUB PUY DE MUR 2",
+   "away": "LEMPDES SP. 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T09:15",
+   "lieu": "VERTAIZON - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "AULNAT SP. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AULNAT SP. 1",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 2",
+     "away": "AULNAT SP. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "AULNAT SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "C.S. PONT DU CHATEAU 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB PUY DE MUR 2",
+     "away": "LEMPDES SP. 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}
