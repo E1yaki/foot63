@@ -1,0 +1,1248 @@
+{
+ "id": "u13-d2",
+ "label": "U13 D2",
+ "group": "u13",
+ "fal_id": 9638,
+ "kind": null,
+ "season": "2026-2027",
+ "logos": {
+  "A. S. CLERMONT SAINT JACQUES FOOT 2": "logos/BC525985.jpg",
+  "AULNAT SP. 1": "logos/BC521920.jpg",
+  "C.O. VEYRE MONTON 1": "logos/BC532169.jpg",
+  "C.S. PONT DU CHATEAU 2": "logos/BC520152.jpg",
+  "CLERMONT FOOT 63 3": "logos/BC535789.jpg",
+  "ECUREUILS FRANC ROSIER 2": "logos/BC526932.jpg",
+  "ENT.F.C. ST AMANT ET TALLENDE 1": "logos/BC546413.jpg",
+  "ESP. CEYRATOISE 2": "logos/BC529030.jpg",
+  "F. C. CLERMONT METROPOLE 1": "logos/BC582731.jpg",
+  "F. C. CLERMONT METROPOLE 2": "logos/BC582731.jpg",
+  "F. C. CLERMONT METROPOLE 3": "logos/BC582731.jpg",
+  "F.C. AUBIEROIS 1": "logos/BC533145.jpg",
+  "F.C. BLANZAT 1": "logos/BC533382.jpg",
+  "F.C. CHAMALIERES 3": "logos/BC520923.jpg",
+  "F.C. CHATEL GUYON 1": "logos/BC520289.jpg",
+  "F.C. LEZOUX 1": "logos/BC517723.jpg",
+  "F.C. RIOMOIS 2": "logos/BC508772.jpg",
+  "HAUTE COMBRAILLE FOOT 1": "logos/BC580473.jpg",
+  "LEMPDES SP. 1": "logos/BC518527.jpg",
+  "U.S. COURPIEROISE 1": "logos/BC506497.jpg",
+  "U.S. ISSOIRE A. DU MAS 2": "logos/BC506507.jpg",
+  "U.S. LES MARTRES DE VEYRE 1": "logos/BC506520.jpg",
+  "U.S. ST GERVAISIENNE 1": "logos/BC514515.jpg",
+  "U.S. VIC LE COMTE 1": "logos/BC506559.jpg",
+  "U.S. VIC LE COMTE 2": "logos/BC506559.jpg",
+  "UNION SPORTIVE BASSIN MINIER 1": "logos/BC560477.jpg",
+  "VAL DE SIOULE FOOT 1": "logos/BC582409.jpg"
+ },
+ "phases": [
+  {
+   "n": 1,
+   "label": "Phase 1",
+   "poules": [
+    {
+     "id": "A",
+     "label": "Poule A",
+     "teams": [
+      "A. S. CLERMONT SAINT JACQUES FOOT 2",
+      "C.O. VEYRE MONTON 1",
+      "ECUREUILS FRANC ROSIER 2",
+      "ENT.F.C. ST AMANT ET TALLENDE 1",
+      "F. C. CLERMONT METROPOLE 3",
+      "F.C. AUBIEROIS 1",
+      "U.S. ISSOIRE A. DU MAS 2",
+      "U.S. VIC LE COMTE 1",
+      "UNION SPORTIVE BASSIN MINIER 1"
+     ],
+     "plateaux": [
+      {
+       "id": "9638_9007_15130_39905_34063_1",
+       "start": "2026-09-12T14:00",
+       "lieu": "VEYRE MONTON - STADE MUNICIPAL 1",
+       "organisateur": "C.O. VEYRE MONTON",
+       "equipes": [
+        "C.O. VEYRE MONTON 1",
+        "U.S. VIC LE COMTE 1",
+        "F. C. CLERMONT METROPOLE 3"
+       ],
+       "matchs": [
+        {
+         "home": "C.O. VEYRE MONTON 1",
+         "away": "F. C. CLERMONT METROPOLE 3",
+         "hs": 1,
+         "as": 2
+        },
+        {
+         "home": "U.S. VIC LE COMTE 1",
+         "away": "C.O. VEYRE MONTON 1",
+         "hs": 1,
+         "as": 1
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 3",
+         "away": "U.S. VIC LE COMTE 1",
+         "hs": 0,
+         "as": 5
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39905_34063_2",
+       "start": "2026-09-12T14:00",
+       "lieu": "AUZAT LA COMBELLE - STADE DE BASSE COMBELLE 1",
+       "organisateur": "USBM",
+       "equipes": [
+        "UNION SPORTIVE BASSIN MINIER 1",
+        "U.S. ISSOIRE A. DU MAS 2",
+        "ENT.F.C. ST AMANT ET TALLENDE 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. ISSOIRE A. DU MAS 2",
+         "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+         "hs": 0,
+         "as": 5
+        },
+        {
+         "home": "U.S. ISSOIRE A. DU MAS 2",
+         "away": "UNION SPORTIVE BASSIN MINIER 1",
+         "hs": 4,
+         "as": 1
+        },
+        {
+         "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+         "away": "UNION SPORTIVE BASSIN MINIER 1",
+         "hs": 5,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39905_34063_3",
+       "start": "2026-09-12T14:00",
+       "lieu": "CLERMONT FERRAND - STADE COLONEL BOUTET",
+       "organisateur": "CLERM FRANC R",
+       "equipes": [
+        "A. S. CLERMONT SAINT JACQUES FOOT 2",
+        "ECUREUILS FRANC ROSIER 2",
+        "F.C. AUBIEROIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. AUBIEROIS 1",
+         "away": "ECUREUILS FRANC ROSIER 2",
+         "hs": 2,
+         "as": 2
+        },
+        {
+         "home": "F.C. AUBIEROIS 1",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+         "hs": 0,
+         "as": 10
+        },
+        {
+         "home": "ECUREUILS FRANC ROSIER 2",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+         "hs": 0,
+         "as": 5
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39905_38098_1",
+       "start": "2026-09-19T14:00",
+       "lieu": "AUBIERE - STADE LUCIEN BONHOMME",
+       "organisateur": "F.C. AUBIEROIS",
+       "equipes": [
+        "F.C. AUBIEROIS 1",
+        "U.S. ISSOIRE A. DU MAS 2",
+        "F. C. CLERMONT METROPOLE 3"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. ISSOIRE A. DU MAS 2",
+         "away": "F.C. AUBIEROIS 1",
+         "hs": 0,
+         "as": 0
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 3",
+         "away": "F.C. AUBIEROIS 1",
+         "hs": 3,
+         "as": 1
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 3",
+         "away": "U.S. ISSOIRE A. DU MAS 2",
+         "hs": 2,
+         "as": 1
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39905_38098_2",
+       "start": "2026-09-19T14:00",
+       "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+       "organisateur": "VIC LE COMTE U.S.",
+       "equipes": [
+        "ENT.F.C. ST AMANT ET TALLENDE 1",
+        "U.S. VIC LE COMTE 1",
+        "ECUREUILS FRANC ROSIER 2"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. VIC LE COMTE 1",
+         "away": "ECUREUILS FRANC ROSIER 2",
+         "hs": 6,
+         "as": 0
+        },
+        {
+         "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+         "away": "ECUREUILS FRANC ROSIER 2",
+         "hs": 7,
+         "as": 1
+        },
+        {
+         "home": "U.S. VIC LE COMTE 1",
+         "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+         "hs": 0,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39905_38098_3",
+       "start": "2026-09-19T14:00",
+       "lieu": "VEYRE MONTON - STADE MUNICIPAL 1",
+       "organisateur": "C.O. VEYRE MONTON",
+       "equipes": [
+        "A. S. CLERMONT SAINT JACQUES FOOT 2",
+        "UNION SPORTIVE BASSIN MINIER 1",
+        "C.O. VEYRE MONTON 1"
+       ],
+       "matchs": [
+        {
+         "home": "UNION SPORTIVE BASSIN MINIER 1",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+         "hs": 0,
+         "as": 5
+        },
+        {
+         "home": "C.O. VEYRE MONTON 1",
+         "away": "UNION SPORTIVE BASSIN MINIER 1",
+         "hs": 4,
+         "as": 0
+        },
+        {
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+         "away": "C.O. VEYRE MONTON 1",
+         "hs": 4,
+         "as": 2
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39905_38099_1",
+       "start": "2026-10-03T14:00",
+       "lieu": "CLERMONT FERRAND - STADE DANIEL PAPILLAUD",
+       "organisateur": "FC CLERMONT METROPOL",
+       "equipes": [
+        "F. C. CLERMONT METROPOLE 3",
+        "ECUREUILS FRANC ROSIER 2",
+        "UNION SPORTIVE BASSIN MINIER 1"
+       ],
+       "matchs": [
+        {
+         "home": "F. C. CLERMONT METROPOLE 3",
+         "away": "ECUREUILS FRANC ROSIER 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "UNION SPORTIVE BASSIN MINIER 1",
+         "away": "F. C. CLERMONT METROPOLE 3",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "UNION SPORTIVE BASSIN MINIER 1",
+         "away": "ECUREUILS FRANC ROSIER 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39905_38099_2",
+       "start": "2026-10-03T14:00",
+       "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE HONNEUR",
+       "organisateur": "ISSOIRE US",
+       "equipes": [
+        "U.S. VIC LE COMTE 1",
+        "A. S. CLERMONT SAINT JACQUES FOOT 2",
+        "U.S. ISSOIRE A. DU MAS 2"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. ISSOIRE A. DU MAS 2",
+         "away": "U.S. VIC LE COMTE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+         "away": "U.S. ISSOIRE A. DU MAS 2",
+         "hs": 3,
+         "as": 0
+        },
+        {
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+         "away": "U.S. VIC LE COMTE 1",
+         "hs": 0,
+         "as": 4
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39905_38099_3",
+       "start": "2026-10-03T16:00",
+       "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+       "organisateur": "ST AMANT TAL.",
+       "equipes": [
+        "ENT.F.C. ST AMANT ET TALLENDE 1",
+        "C.O. VEYRE MONTON 1",
+        "F.C. AUBIEROIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. AUBIEROIS 1",
+         "away": "C.O. VEYRE MONTON 1",
+         "hs": 2,
+         "as": 3
+        },
+        {
+         "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+         "away": "F.C. AUBIEROIS 1",
+         "hs": 1,
+         "as": 0
+        },
+        {
+         "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+         "away": "C.O. VEYRE MONTON 1",
+         "hs": 3,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39905_38100_1",
+       "start": "2026-10-10T14:00",
+       "lieu": "CLERMONT FERRAND - DANIEL PAPILLAUD-2",
+       "organisateur": "FC CLERMONT METROPOL",
+       "equipes": [
+        "ENT.F.C. ST AMANT ET TALLENDE 1",
+        "A. S. CLERMONT SAINT JACQUES FOOT 2",
+        "F. C. CLERMONT METROPOLE 3"
+       ],
+       "matchs": [
+        {
+         "home": "F. C. CLERMONT METROPOLE 3",
+         "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+         "away": "F. C. CLERMONT METROPOLE 3",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+         "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39905_38100_2",
+       "start": "2026-10-10T14:00",
+       "lieu": "AUZAT LA COMBELLE - STADE DE BASSE COMBELLE 1",
+       "organisateur": "USBM",
+       "equipes": [
+        "F.C. AUBIEROIS 1",
+        "UNION SPORTIVE BASSIN MINIER 1",
+        "U.S. VIC LE COMTE 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. VIC LE COMTE 1",
+         "away": "UNION SPORTIVE BASSIN MINIER 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "U.S. VIC LE COMTE 1",
+         "away": "F.C. AUBIEROIS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. AUBIEROIS 1",
+         "away": "UNION SPORTIVE BASSIN MINIER 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39905_38100_3",
+       "start": "2026-10-10T14:00",
+       "lieu": "CLERMONT FERRAND - STADE COLONEL BOUTET",
+       "organisateur": "CLERM FRANC R",
+       "equipes": [
+        "C.O. VEYRE MONTON 1",
+        "U.S. ISSOIRE A. DU MAS 2",
+        "ECUREUILS FRANC ROSIER 2"
+       ],
+       "matchs": [
+        {
+         "home": "C.O. VEYRE MONTON 1",
+         "away": "U.S. ISSOIRE A. DU MAS 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "ECUREUILS FRANC ROSIER 2",
+         "away": "C.O. VEYRE MONTON 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "ECUREUILS FRANC ROSIER 2",
+         "away": "U.S. ISSOIRE A. DU MAS 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "B",
+     "label": "Poule B",
+     "teams": [
+      "AULNAT SP. 1",
+      "C.S. PONT DU CHATEAU 2",
+      "CLERMONT FOOT 63 3",
+      "F. C. CLERMONT METROPOLE 1",
+      "F.C. CHAMALIERES 3",
+      "F.C. LEZOUX 1",
+      "U.S. COURPIEROISE 1",
+      "U.S. LES MARTRES DE VEYRE 1",
+      "U.S. VIC LE COMTE 2"
+     ],
+     "plateaux": [
+      {
+       "id": "9638_9007_15130_39906_34063_1",
+       "start": "2026-09-12T14:00",
+       "lieu": "COURPIERE - STADE ETIENNE BONHOMME",
+       "organisateur": "COURPIERE U.S.",
+       "equipes": [
+        "F. C. CLERMONT METROPOLE 1",
+        "U.S. COURPIEROISE 1",
+        "C.S. PONT DU CHATEAU 2"
+       ],
+       "matchs": [
+        {
+         "home": "C.S. PONT DU CHATEAU 2",
+         "away": "F. C. CLERMONT METROPOLE 1",
+         "hs": 2,
+         "as": 5
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 1",
+         "away": "U.S. COURPIEROISE 1",
+         "hs": 5,
+         "as": 0
+        },
+        {
+         "home": "U.S. COURPIEROISE 1",
+         "away": "C.S. PONT DU CHATEAU 2",
+         "hs": 1,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39906_34063_2",
+       "start": "2026-09-12T14:00",
+       "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+       "organisateur": "AULNAT SP",
+       "equipes": [
+        "U.S. LES MARTRES DE VEYRE 1",
+        "U.S. VIC LE COMTE 2",
+        "AULNAT SP. 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. LES MARTRES DE VEYRE 1",
+         "away": "U.S. VIC LE COMTE 2",
+         "hs": 2,
+         "as": 5
+        },
+        {
+         "home": "U.S. LES MARTRES DE VEYRE 1",
+         "away": "AULNAT SP. 1",
+         "hs": 1,
+         "as": 4
+        },
+        {
+         "home": "U.S. VIC LE COMTE 2",
+         "away": "AULNAT SP. 1",
+         "hs": 2,
+         "as": 2
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39906_34063_3",
+       "start": "2026-09-12T14:00",
+       "lieu": "LEZOUX - STADE DU VERNADEL",
+       "organisateur": "LEZOUX F.C.",
+       "equipes": [
+        "F.C. CHAMALIERES 3",
+        "CLERMONT FOOT 63 3",
+        "F.C. LEZOUX 1"
+       ],
+       "matchs": [
+        {
+         "home": "CLERMONT FOOT 63 3",
+         "away": "F.C. LEZOUX 1",
+         "hs": 2,
+         "as": 0
+        },
+        {
+         "home": "F.C. CHAMALIERES 3",
+         "away": "F.C. LEZOUX 1",
+         "hs": 2,
+         "as": 0
+        },
+        {
+         "home": "CLERMONT FOOT 63 3",
+         "away": "F.C. CHAMALIERES 3",
+         "hs": 1,
+         "as": 1
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39906_38098_2",
+       "start": "2026-09-19T14:00",
+       "lieu": "CHAMALIERES - COMPLEXE SPORTIF CLAUDE WOLFF",
+       "organisateur": "F.C. CHAMALIERES",
+       "equipes": [
+        "U.S. VIC LE COMTE 2",
+        "F.C. CHAMALIERES 3",
+        "U.S. COURPIEROISE 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. COURPIEROISE 1",
+         "away": "U.S. VIC LE COMTE 2",
+         "hs": 2,
+         "as": 0
+        },
+        {
+         "home": "U.S. COURPIEROISE 1",
+         "away": "F.C. CHAMALIERES 3",
+         "hs": 2,
+         "as": 2
+        },
+        {
+         "home": "U.S. VIC LE COMTE 2",
+         "away": "F.C. CHAMALIERES 3",
+         "hs": 1,
+         "as": 4
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39906_38098_3",
+       "start": "2026-09-19T14:00",
+       "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+       "organisateur": "C.S. PONT DU CHATEAU",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 2",
+        "F.C. LEZOUX 1",
+        "AULNAT SP. 1"
+       ],
+       "matchs": [
+        {
+         "home": "C.S. PONT DU CHATEAU 2",
+         "away": "AULNAT SP. 1",
+         "hs": 0,
+         "as": 1
+        },
+        {
+         "home": "AULNAT SP. 1",
+         "away": "F.C. LEZOUX 1",
+         "hs": 4,
+         "as": 1
+        },
+        {
+         "home": "F.C. LEZOUX 1",
+         "away": "C.S. PONT DU CHATEAU 2",
+         "hs": 6,
+         "as": 2
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39906_38098_1",
+       "start": "2026-09-19T15:00",
+       "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+       "organisateur": "CLERMONT FOOT 63",
+       "equipes": [
+        "U.S. LES MARTRES DE VEYRE 1",
+        "CLERMONT FOOT 63 3",
+        "F. C. CLERMONT METROPOLE 1"
+       ],
+       "matchs": [
+        {
+         "home": "F. C. CLERMONT METROPOLE 1",
+         "away": "CLERMONT FOOT 63 3",
+         "hs": 6,
+         "as": 0
+        },
+        {
+         "home": "U.S. LES MARTRES DE VEYRE 1",
+         "away": "CLERMONT FOOT 63 3",
+         "hs": 2,
+         "as": 2
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 1",
+         "away": "U.S. LES MARTRES DE VEYRE 1",
+         "hs": 5,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39906_38099_1",
+       "start": "2026-10-03T14:00",
+       "lieu": "CLERMONT FERRAND - STADE DU PARC DE LA FRATERNITÉ",
+       "organisateur": "FC CLERMONT METROPOL",
+       "equipes": [
+        "AULNAT SP. 1",
+        "F.C. CHAMALIERES 3",
+        "F. C. CLERMONT METROPOLE 1"
+       ],
+       "matchs": [
+        {
+         "home": "F. C. CLERMONT METROPOLE 1",
+         "away": "F.C. CHAMALIERES 3",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "AULNAT SP. 1",
+         "away": "F. C. CLERMONT METROPOLE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "AULNAT SP. 1",
+         "away": "F.C. CHAMALIERES 3",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39906_38099_2",
+       "start": "2026-10-03T14:00",
+       "lieu": "COURPIERE - STADE ETIENNE BONHOMME",
+       "organisateur": "COURPIERE U.S.",
+       "equipes": [
+        "U.S. COURPIEROISE 1",
+        "U.S. LES MARTRES DE VEYRE 1",
+        "F.C. LEZOUX 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. LEZOUX 1",
+         "away": "U.S. LES MARTRES DE VEYRE 1",
+         "hs": 2,
+         "as": 1
+        },
+        {
+         "home": "U.S. LES MARTRES DE VEYRE 1",
+         "away": "U.S. COURPIEROISE 1",
+         "hs": 0,
+         "as": 2
+        },
+        {
+         "home": "F.C. LEZOUX 1",
+         "away": "U.S. COURPIEROISE 1",
+         "hs": 1,
+         "as": 1
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39906_38099_3",
+       "start": "2026-10-03T14:00",
+       "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+       "organisateur": "VIC LE COMTE U.S.",
+       "equipes": [
+        "U.S. VIC LE COMTE 2",
+        "C.S. PONT DU CHATEAU 2",
+        "CLERMONT FOOT 63 3"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. VIC LE COMTE 2",
+         "away": "CLERMONT FOOT 63 3",
+         "hs": 0,
+         "as": 5
+        },
+        {
+         "home": "U.S. VIC LE COMTE 2",
+         "away": "C.S. PONT DU CHATEAU 2",
+         "hs": 2,
+         "as": 5
+        },
+        {
+         "home": "CLERMONT FOOT 63 3",
+         "away": "C.S. PONT DU CHATEAU 2",
+         "hs": 1,
+         "as": 2
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39906_38100_1",
+       "start": "2026-10-10T14:00",
+       "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+       "organisateur": "VIC LE COMTE U.S.",
+       "equipes": [
+        "F. C. CLERMONT METROPOLE 1",
+        "F.C. LEZOUX 1",
+        "U.S. VIC LE COMTE 2"
+       ],
+       "matchs": [
+        {
+         "home": "F. C. CLERMONT METROPOLE 1",
+         "away": "U.S. VIC LE COMTE 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. LEZOUX 1",
+         "away": "F. C. CLERMONT METROPOLE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. LEZOUX 1",
+         "away": "U.S. VIC LE COMTE 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39906_38100_2",
+       "start": "2026-10-10T14:00",
+       "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+       "organisateur": "AULNAT SP",
+       "equipes": [
+        "CLERMONT FOOT 63 3",
+        "U.S. COURPIEROISE 1",
+        "AULNAT SP. 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. COURPIEROISE 1",
+         "away": "CLERMONT FOOT 63 3",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "U.S. COURPIEROISE 1",
+         "away": "AULNAT SP. 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "CLERMONT FOOT 63 3",
+         "away": "AULNAT SP. 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39906_38100_3",
+       "start": "2026-10-10T14:00",
+       "lieu": "LES MARTRES DE VEYRE - STADE ÉMILE RIVE 3",
+       "organisateur": "MARTRES DE VEYRE",
+       "equipes": [
+        "F.C. CHAMALIERES 3",
+        "U.S. LES MARTRES DE VEYRE 1",
+        "C.S. PONT DU CHATEAU 2"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. CHAMALIERES 3",
+         "away": "U.S. LES MARTRES DE VEYRE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. CHAMALIERES 3",
+         "away": "C.S. PONT DU CHATEAU 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "C.S. PONT DU CHATEAU 2",
+         "away": "U.S. LES MARTRES DE VEYRE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "C",
+     "label": "Poule C",
+     "teams": [
+      "ESP. CEYRATOISE 2",
+      "F. C. CLERMONT METROPOLE 2",
+      "F.C. BLANZAT 1",
+      "F.C. CHATEL GUYON 1",
+      "F.C. RIOMOIS 2",
+      "HAUTE COMBRAILLE FOOT 1",
+      "LEMPDES SP. 1",
+      "U.S. ST GERVAISIENNE 1",
+      "VAL DE SIOULE FOOT 1"
+     ],
+     "plateaux": [
+      {
+       "id": "9638_9007_15130_39907_34063_1",
+       "start": "2026-09-12T14:00",
+       "lieu": "ST GERVAIS D AUVERGNE - STADE MUNICIPAL",
+       "organisateur": "ST GERVAIS U.S.",
+       "equipes": [
+        "F.C. BLANZAT 1",
+        "LEMPDES SP. 1",
+        "U.S. ST GERVAISIENNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. BLANZAT 1",
+         "away": "LEMPDES SP. 1",
+         "hs": 2,
+         "as": 5
+        },
+        {
+         "home": "LEMPDES SP. 1",
+         "away": "U.S. ST GERVAISIENNE 1",
+         "hs": 2,
+         "as": 0
+        },
+        {
+         "home": "U.S. ST GERVAISIENNE 1",
+         "away": "F.C. BLANZAT 1",
+         "hs": 5,
+         "as": 5
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39907_34063_2",
+       "start": "2026-09-12T14:00",
+       "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+       "organisateur": "RIOM FC",
+       "equipes": [
+        "VAL DE SIOULE FOOT 1",
+        "F. C. CLERMONT METROPOLE 2",
+        "F.C. RIOMOIS 2"
+       ],
+       "matchs": [
+        {
+         "home": "F. C. CLERMONT METROPOLE 2",
+         "away": "VAL DE SIOULE FOOT 1",
+         "hs": 5,
+         "as": 4
+        },
+        {
+         "home": "F.C. RIOMOIS 2",
+         "away": "VAL DE SIOULE FOOT 1",
+         "hs": 5,
+         "as": 2
+        },
+        {
+         "home": "F.C. RIOMOIS 2",
+         "away": "F. C. CLERMONT METROPOLE 2",
+         "hs": 6,
+         "as": 1
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39907_34063_3",
+       "start": "2026-09-12T14:00",
+       "lieu": "CEYRAT - STADE OLIVIER VERNADAL",
+       "organisateur": "CEYRAT",
+       "equipes": [
+        "HAUTE COMBRAILLE FOOT 1",
+        "F.C. CHATEL GUYON 1",
+        "ESP. CEYRATOISE 2"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. CHATEL GUYON 1",
+         "away": "ESP. CEYRATOISE 2",
+         "hs": 5,
+         "as": 2
+        },
+        {
+         "home": "F.C. CHATEL GUYON 1",
+         "away": "HAUTE COMBRAILLE FOOT 1",
+         "hs": 0,
+         "as": 1
+        },
+        {
+         "home": "ESP. CEYRATOISE 2",
+         "away": "HAUTE COMBRAILLE FOOT 1",
+         "hs": 1,
+         "as": 5
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39907_38098_1",
+       "start": "2026-09-19T10:00",
+       "lieu": "CHATEL GUYON - STADE DE LA VOUÉE 1",
+       "organisateur": "F.C. CHATEL GUYON",
+       "equipes": [
+        "LEMPDES SP. 1",
+        "F.C. RIOMOIS 2",
+        "F.C. CHATEL GUYON 1"
+       ],
+       "matchs": [
+        {
+         "home": "LEMPDES SP. 1",
+         "away": "F.C. CHATEL GUYON 1",
+         "hs": 4,
+         "as": 1
+        },
+        {
+         "home": "LEMPDES SP. 1",
+         "away": "F.C. RIOMOIS 2",
+         "hs": 0,
+         "as": 2
+        },
+        {
+         "home": "F.C. RIOMOIS 2",
+         "away": "F.C. CHATEL GUYON 1",
+         "hs": 1,
+         "as": 2
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39907_38098_2",
+       "start": "2026-09-19T14:00",
+       "lieu": "ST GERVAIS D AUVERGNE - STADE MUNICIPAL",
+       "organisateur": "ST GERVAIS U.S.",
+       "equipes": [
+        "ESP. CEYRATOISE 2",
+        "F. C. CLERMONT METROPOLE 2",
+        "U.S. ST GERVAISIENNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "F. C. CLERMONT METROPOLE 2",
+         "away": "ESP. CEYRATOISE 2",
+         "hs": 7,
+         "as": 0
+        },
+        {
+         "home": "U.S. ST GERVAISIENNE 1",
+         "away": "ESP. CEYRATOISE 2",
+         "hs": 0,
+         "as": 1
+        },
+        {
+         "home": "U.S. ST GERVAISIENNE 1",
+         "away": "F. C. CLERMONT METROPOLE 2",
+         "hs": 1,
+         "as": 5
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39907_38098_3",
+       "start": "2026-09-19T14:00",
+       "lieu": "ST OURS - STADE MUNICIPAL",
+       "organisateur": "VAL DE SIOULE FOOT",
+       "equipes": [
+        "VAL DE SIOULE FOOT 1",
+        "F.C. BLANZAT 1",
+        "HAUTE COMBRAILLE FOOT 1"
+       ],
+       "matchs": [
+        {
+         "home": "VAL DE SIOULE FOOT 1",
+         "away": "HAUTE COMBRAILLE FOOT 1",
+         "hs": 0,
+         "as": 0
+        },
+        {
+         "home": "HAUTE COMBRAILLE FOOT 1",
+         "away": "F.C. BLANZAT 1",
+         "hs": 1,
+         "as": 1
+        },
+        {
+         "home": "F.C. BLANZAT 1",
+         "away": "VAL DE SIOULE FOOT 1",
+         "hs": 1,
+         "as": 2
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39907_38099_1",
+       "start": "2026-10-03T14:00",
+       "lieu": "LEMPDES - PLAINE DE JEUX DU MARAIS 1",
+       "organisateur": "LEMPDES SP.",
+       "equipes": [
+        "LEMPDES SP. 1",
+        "VAL DE SIOULE FOOT 1",
+        "ESP. CEYRATOISE 2"
+       ],
+       "matchs": [
+        {
+         "home": "VAL DE SIOULE FOOT 1",
+         "away": "ESP. CEYRATOISE 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "VAL DE SIOULE FOOT 1",
+         "away": "LEMPDES SP. 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "LEMPDES SP. 1",
+         "away": "ESP. CEYRATOISE 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39907_38099_2",
+       "start": "2026-10-03T14:00",
+       "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+       "organisateur": "RIOM FC",
+       "equipes": [
+        "U.S. ST GERVAISIENNE 1",
+        "HAUTE COMBRAILLE FOOT 1",
+        "F.C. RIOMOIS 2"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. ST GERVAISIENNE 1",
+         "away": "F.C. RIOMOIS 2",
+         "hs": 0,
+         "as": 9
+        },
+        {
+         "home": "F.C. RIOMOIS 2",
+         "away": "HAUTE COMBRAILLE FOOT 1",
+         "hs": 1,
+         "as": 1
+        },
+        {
+         "home": "U.S. ST GERVAISIENNE 1",
+         "away": "HAUTE COMBRAILLE FOOT 1",
+         "hs": 1,
+         "as": 4
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39907_38099_3",
+       "start": "2026-10-03T14:00",
+       "lieu": "BLANZAT - STADE CROIX SAINT GÉRAUD 1",
+       "organisateur": "F.C. BLANZAT",
+       "equipes": [
+        "F.C. BLANZAT 1",
+        "F.C. CHATEL GUYON 1",
+        "F. C. CLERMONT METROPOLE 2"
+       ],
+       "matchs": [
+        {
+         "home": "F. C. CLERMONT METROPOLE 2",
+         "away": "F.C. BLANZAT 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 2",
+         "away": "F.C. CHATEL GUYON 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. CHATEL GUYON 1",
+         "away": "F.C. BLANZAT 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39907_38100_1",
+       "start": "2026-10-10T14:00",
+       "lieu": "CLERMONT FERRAND - STADE DU PARC DE LA FRATERNITÉ",
+       "organisateur": "FC CLERMONT METROPOL",
+       "equipes": [
+        "F. C. CLERMONT METROPOLE 2",
+        "HAUTE COMBRAILLE FOOT 1",
+        "LEMPDES SP. 1"
+       ],
+       "matchs": [
+        {
+         "home": "HAUTE COMBRAILLE FOOT 1",
+         "away": "LEMPDES SP. 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "LEMPDES SP. 1",
+         "away": "F. C. CLERMONT METROPOLE 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "HAUTE COMBRAILLE FOOT 1",
+         "away": "F. C. CLERMONT METROPOLE 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39907_38100_2",
+       "start": "2026-10-10T14:00",
+       "lieu": "CHAPDES BEAUFORT - STADE HENRI LONGCHAMBON",
+       "organisateur": "VAL DE SIOULE FOOT",
+       "equipes": [
+        "U.S. ST GERVAISIENNE 1",
+        "F.C. CHATEL GUYON 1",
+        "VAL DE SIOULE FOOT 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. ST GERVAISIENNE 1",
+         "away": "F.C. CHATEL GUYON 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "U.S. ST GERVAISIENNE 1",
+         "away": "VAL DE SIOULE FOOT 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. CHATEL GUYON 1",
+         "away": "VAL DE SIOULE FOOT 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9638_9007_15130_39907_38100_3",
+       "start": "2026-10-10T14:00",
+       "lieu": "CEYRAT - STADE OLIVIER VERNADAL",
+       "organisateur": "CEYRAT",
+       "equipes": [
+        "ESP. CEYRATOISE 2",
+        "F.C. RIOMOIS 2",
+        "F.C. BLANZAT 1"
+       ],
+       "matchs": [
+        {
+         "home": "ESP. CEYRATOISE 2",
+         "away": "F.C. BLANZAT 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "ESP. CEYRATOISE 2",
+         "away": "F.C. RIOMOIS 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. BLANZAT 1",
+         "away": "F.C. RIOMOIS 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

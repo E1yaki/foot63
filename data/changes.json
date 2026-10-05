@@ -1,0 +1,5375 @@
+[
+ {
+  "id": "2026-10-05T15:30:36Z-9634_9003_15563_41027_34055_1-0",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "DOMES SANCY FOOT 2",
+   "HAUTE COMBRAILLE FOOT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "4",
+  "match": {
+   "home": "DOMES SANCY FOOT 2",
+   "away": "HAUTE COMBRAILLE FOOT 1",
+   "hs": 5,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9634_9003_15563_41027_34055_1-1",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "VAL DE SIOULE FOOT 1",
+   "A.S. ORCINES 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "4",
+  "match": {
+   "home": "VAL DE SIOULE FOOT 1",
+   "away": "A.S. ORCINES 1",
+   "hs": 0,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9634_9003_15563_41027_34055_1-2",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "A.S. ORCINES 1",
+   "DOMES SANCY FOOT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "4",
+  "match": {
+   "home": "A.S. ORCINES 1",
+   "away": "DOMES SANCY FOOT 1",
+   "hs": 6,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9634_9003_15563_41027_34055_1-3",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "HAUTE COMBRAILLE FOOT 1",
+   "VAL DE SIOULE FOOT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "4",
+  "match": {
+   "home": "HAUTE COMBRAILLE FOOT 1",
+   "away": "VAL DE SIOULE FOOT 1",
+   "hs": 2,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9634_9003_15563_41027_34055_1-4",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "DOMES SANCY FOOT 1",
+   "DOMES SANCY FOOT 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "4",
+  "match": {
+   "home": "DOMES SANCY FOOT 1",
+   "away": "DOMES SANCY FOOT 2",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9634_9003_15563_41028_34055_1-5",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "C.S. PONT DE DORE 1",
+   "C.S. PONT DE DORE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "5",
+  "match": {
+   "home": "C.S. PONT DE DORE 1",
+   "away": "C.S. PONT DE DORE 2",
+   "hs": 7,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9634_9003_15563_41028_34055_1-6",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "DUROLLE FOOT 2",
+   "C.S. PONT DE DORE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "5",
+  "match": {
+   "home": "DUROLLE FOOT 2",
+   "away": "C.S. PONT DE DORE 1",
+   "hs": 2,
+   "as": 6
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9634_9003_15563_41028_34055_1-7",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "S.A. THIERNOIS 1",
+   "DUROLLE FOOT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "5",
+  "match": {
+   "home": "S.A. THIERNOIS 1",
+   "away": "DUROLLE FOOT 1",
+   "hs": 4,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9634_9003_15563_41028_34055_1-8",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "DUROLLE FOOT 1",
+   "DUROLLE FOOT 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "5",
+  "match": {
+   "home": "DUROLLE FOOT 1",
+   "away": "DUROLLE FOOT 2",
+   "hs": 1,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9634_9003_15563_41028_34055_1-9",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "C.S. PONT DE DORE 2",
+   "S.A. THIERNOIS 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "5",
+  "match": {
+   "home": "C.S. PONT DE DORE 2",
+   "away": "S.A. THIERNOIS 1",
+   "hs": 1,
+   "as": 17
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9637_9006_15129_39903_38105_1-10",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "GROUPEMENT DE L'AUZON 1",
+   "A.S. MONTFERRANDAISE 3"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "GROUPEMENT DE L'AUZON 1",
+   "away": "A.S. MONTFERRANDAISE 3",
+   "hs": 0,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9637_9006_15129_39903_38105_1-11",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "GROUPEMENT DE L'AUZON 1",
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "GROUPEMENT DE L'AUZON 1",
+   "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "hs": 0,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9637_9006_15129_39903_38105_1-12",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "A.S. MONTFERRANDAISE 3"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "away": "A.S. MONTFERRANDAISE 3",
+   "hs": 1,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9637_9006_15129_39904_38105_1-13",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "S.A. THIERNOIS 1",
+   "A. S. CLERMONT SAINT JACQUES FOOT 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "S.A. THIERNOIS 1",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "hs": 2,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9637_9006_15129_39904_38105_1-14",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 1",
+   "A. S. CLERMONT SAINT JACQUES FOOT 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "hs": 3,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9637_9006_15129_39904_38105_1-15",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 1",
+   "S.A. THIERNOIS 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "S.A. THIERNOIS 1",
+   "hs": 0,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9639_9008_15559_40722_38102_1-16",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "U.S. VAL DE COUZE CHAMBON 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "away": "U.S. VAL DE COUZE CHAMBON 1",
+   "hs": 1,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9639_9008_15559_40722_38102_1-17",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "E.S. ST GERMINOISE 1",
+   "U.S. VAL DE COUZE CHAMBON 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "E.S. ST GERMINOISE 1",
+   "away": "U.S. VAL DE COUZE CHAMBON 1",
+   "hs": 0,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9639_9008_15559_40722_38102_1-18",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "E.S. ST GERMINOISE 1",
+   "AM. LAIQ. S. DE BESSE EGLISENEUVE 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "E.S. ST GERMINOISE 1",
+   "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "hs": 8,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9639_9008_15559_40727_38102_2-19",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "U.S. MOZAC 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "F",
+  "match": {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "U.S. MOZAC 2",
+   "hs": 0,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9639_9008_15559_40727_38102_2-20",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "U.S. MENETROL 1",
+   "GJ SCB FOOT 3"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "F",
+  "match": {
+   "home": "U.S. MENETROL 1",
+   "away": "GJ SCB FOOT 3",
+   "hs": 0,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9639_9008_15559_40727_38102_2-21",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "GJ SCB FOOT 3"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "F",
+  "match": {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "GJ SCB FOOT 3",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-10-05T15:30:36Z-9639_9008_15559_40727_38102_2-22",
+  "ts": "2026-10-05T15:30:36Z",
+  "type": "score",
+  "teams": [
+   "U.S. MENETROL 1",
+   "U.S. MOZAC 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "F",
+  "match": {
+   "home": "U.S. MENETROL 1",
+   "away": "U.S. MOZAC 2",
+   "hs": 1,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-10-05T06:32:42Z-9639_9008_15559_40731_38102_2-0",
+  "ts": "2026-10-05T06:32:42Z",
+  "type": "score",
+  "teams": [
+   "S.C. BILLOMOIS 1",
+   "R. S. LUZILLAT CHARNAT VINZELLES 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "J",
+  "match": {
+   "home": "S.C. BILLOMOIS 1",
+   "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
+   "hs": 2,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-05T06:32:42Z-9639_9008_15559_40731_38102_2-1",
+  "ts": "2026-10-05T06:32:42Z",
+  "type": "score",
+  "teams": [
+   "S.C. BILLOMOIS 1",
+   "FOOTBALL CLUB PUY DE MUR 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "J",
+  "match": {
+   "home": "S.C. BILLOMOIS 1",
+   "away": "FOOTBALL CLUB PUY DE MUR 2",
+   "hs": 0,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9634_9003_15563_41042_34055_1-0",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "CLERMONT FOOT 63 1",
+   "CLERMONT ACADEMY 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "19",
+  "match": {
+   "home": "CLERMONT FOOT 63 1",
+   "away": "CLERMONT ACADEMY 1",
+   "hs": 6,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9634_9003_15563_41042_34055_1-1",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "CLERMONT ACADEMY 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "19",
+  "match": {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "away": "CLERMONT ACADEMY 1",
+   "hs": 2,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9634_9003_15563_41042_34055_1-2",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "CLERMONT FOOT 63 3",
+   "F.C. BLANZAT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "19",
+  "match": {
+   "home": "CLERMONT FOOT 63 3",
+   "away": "F.C. BLANZAT 1",
+   "hs": 2,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9634_9003_15563_41042_34055_1-3",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "CLERMONT FOOT 63 1",
+   "CLERMONT FOOT 63 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "19",
+  "match": {
+   "home": "CLERMONT FOOT 63 1",
+   "away": "CLERMONT FOOT 63 3",
+   "hs": 14,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9634_9003_15563_41042_34055_1-4",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "F.C. BLANZAT 1",
+   "F.C. BLANZAT 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "19",
+  "match": {
+   "home": "F.C. BLANZAT 1",
+   "away": "F.C. BLANZAT 2",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9634_9003_15563_41042_34055_1-5",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "F.C. BLANZAT 2",
+   "A. S. CLERMONT SAINT JACQUES FOOT 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "19",
+  "match": {
+   "home": "F.C. BLANZAT 2",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9639_9008_15559_40722_38102_2-6",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "C.O. VEYRE MONTON 2",
+   "SANCY CHAVANON FOOT 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "C.O. VEYRE MONTON 2",
+   "away": "SANCY CHAVANON FOOT 1",
+   "hs": 0,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9639_9008_15559_40722_38102_2-7",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "SANCY CHAVANON FOOT 1",
+   "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "SANCY CHAVANON FOOT 1",
+   "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
+   "hs": 2,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9639_9008_15559_40722_38102_2-8",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "C.O. VEYRE MONTON 2",
+   "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "C.O. VEYRE MONTON 2",
+   "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
+   "hs": 0,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9639_9008_15559_40723_38102_3-9",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "A.S. ROMAGNAT 1",
+   "F.C. CHAMALIERES 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "A.S. ROMAGNAT 1",
+   "away": "F.C. CHAMALIERES 2",
+   "hs": 0,
+   "as": 8
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9639_9008_15559_40723_38102_3-10",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "U. J. CLERMONTOISE 1",
+   "F.C. CHAMALIERES 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "U. J. CLERMONTOISE 1",
+   "away": "F.C. CHAMALIERES 2",
+   "hs": 6,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9639_9008_15559_40723_38102_3-11",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "U. J. CLERMONTOISE 1",
+   "A.S. ROMAGNAT 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "U. J. CLERMONTOISE 1",
+   "away": "A.S. ROMAGNAT 1",
+   "hs": 12,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9639_9008_15559_40727_38102_1-12",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "C.S. DE VOLVIC 1",
+   "DOMES SANCY FOOT 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "F",
+  "match": {
+   "home": "C.S. DE VOLVIC 1",
+   "away": "DOMES SANCY FOOT 2",
+   "hs": 2,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9639_9008_15559_40727_38102_1-13",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "F.C. CHAMALIERES 3",
+   "F.C. NORD COMBRAILLE 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "F",
+  "match": {
+   "home": "F.C. CHAMALIERES 3",
+   "away": "F.C. NORD COMBRAILLE 1",
+   "hs": 1,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9639_9008_15559_40727_38102_1-14",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "F.C. CHAMALIERES 3",
+   "C.S. DE VOLVIC 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "F",
+  "match": {
+   "home": "F.C. CHAMALIERES 3",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-04T20:45:01Z-9639_9008_15559_40727_38102_1-15",
+  "ts": "2026-10-04T20:45:01Z",
+  "type": "score",
+  "teams": [
+   "F.C. NORD COMBRAILLE 1",
+   "DOMES SANCY FOOT 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "F",
+  "match": {
+   "home": "F.C. NORD COMBRAILLE 1",
+   "away": "DOMES SANCY FOOT 2",
+   "hs": 2,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9637_9006_15129_39903_38105_2-0",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "ECUREUILS FRANC ROSIER 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 2,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9637_9006_15129_39903_38105_2-1",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "ESP. CEYRATOISE 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "away": "ESP. CEYRATOISE 1",
+   "hs": 0,
+   "as": 9
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9637_9006_15129_39903_38105_2-2",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "ESP. CEYRATOISE 1",
+   "ECUREUILS FRANC ROSIER 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "ESP. CEYRATOISE 1",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 2,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9637_9006_15129_39903_38105_3-3",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "C.S. PONT DU CHATEAU 1",
+   "CEBAZAT SP. 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "C.S. PONT DU CHATEAU 1",
+   "away": "CEBAZAT SP. 1",
+   "hs": 1,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9637_9006_15129_39903_38105_3-4",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "U.S. ISSOIRE A. DU MAS 1",
+   "CEBAZAT SP. 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "U.S. ISSOIRE A. DU MAS 1",
+   "away": "CEBAZAT SP. 1",
+   "hs": 2,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9637_9006_15129_39903_38105_3-5",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "U.S. ISSOIRE A. DU MAS 1",
+   "C.S. PONT DU CHATEAU 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "U.S. ISSOIRE A. DU MAS 1",
+   "away": "C.S. PONT DU CHATEAU 1",
+   "hs": 1,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9638_9007_15130_39905_38099_3-6",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "F.C. AUBIEROIS 1",
+   "C.O. VEYRE MONTON 1"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "F.C. AUBIEROIS 1",
+   "away": "C.O. VEYRE MONTON 1",
+   "hs": 2,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9638_9007_15130_39905_38099_3-7",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "F.C. AUBIEROIS 1"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "away": "F.C. AUBIEROIS 1",
+   "hs": 1,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9638_9007_15130_39905_38099_3-8",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "C.O. VEYRE MONTON 1"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "away": "C.O. VEYRE MONTON 1",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9639_9008_15559_40722_38102_3-9",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "ENT.F.C. ST AMANT ET TALLENDE 2",
+   "U.S. ISSOIRE A. DU MAS 3"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": 5,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9639_9008_15559_40724_38102_1-10",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+   "FOOTBALL CLUB PUY DE MUR 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "C",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+   "away": "FOOTBALL CLUB PUY DE MUR 1",
+   "hs": 0,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9639_9008_15559_40724_38102_1-11",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+   "PERIGNAT F.C. 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "C",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+   "away": "PERIGNAT F.C. 1",
+   "hs": 5,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9639_9008_15559_40724_38102_1-12",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 1",
+   "GROUPEMENT DORE ALLIER FOOTBALL 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "C",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 1",
+   "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "hs": 4,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9639_9008_15559_40724_38102_1-13",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "PERIGNAT F.C. 1",
+   "GROUPEMENT DORE ALLIER FOOTBALL 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "C",
+  "match": {
+   "home": "PERIGNAT F.C. 1",
+   "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "hs": 3,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9639_9008_15559_40730_38102_2-14",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 2",
+   "S.A. THIERNOIS 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 2",
+   "away": "S.A. THIERNOIS 2",
+   "hs": 1,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-04T16:40:42Z-9639_9008_15559_40730_38102_2-15",
+  "ts": "2026-10-04T16:40:42Z",
+  "type": "score",
+  "teams": [
+   "U.S. COURPIEROISE 2",
+   "S.A. THIERNOIS 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "U.S. COURPIEROISE 2",
+   "away": "S.A. THIERNOIS 2",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9634_9003_15563_41030_34055_1-0",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 1",
+   "FOOTBALL CLUB PUY DE MUR 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 1",
+   "away": "FOOTBALL CLUB PUY DE MUR 3",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9634_9003_15563_41030_34055_1-1",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 2",
+   "C.S. PONT DU CHATEAU 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 2",
+   "away": "C.S. PONT DU CHATEAU 1",
+   "hs": 1,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9634_9003_15563_41030_34055_1-2",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 3",
+   "F.C. COURNON D AUVERGNE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 3",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": 0,
+   "as": 8
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9634_9003_15563_41030_34055_1-3",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "FOOTBALL CLUB PUY DE MUR 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "away": "FOOTBALL CLUB PUY DE MUR 1",
+   "hs": 1,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9634_9003_15563_41030_34055_1-4",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "C.S. PONT DU CHATEAU 1",
+   "REV.AM.S. BEAUREGARD L'EVEQUE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "C.S. PONT DU CHATEAU 1",
+   "away": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "hs": 6,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9634_9003_15563_41031_34055_1-5",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "LEMPDES SP. 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "LEMPDES SP. 2",
+   "hs": 5,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9634_9003_15563_41031_34055_1-6",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "C.S. PONT DU CHATEAU 2",
+   "LEMPDES SP. 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "C.S. PONT DU CHATEAU 2",
+   "away": "LEMPDES SP. 2",
+   "hs": 2,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9634_9003_15563_41031_34055_1-7",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "F.C. LEZOUX 1",
+   "F.C. LEZOUX 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "F.C. LEZOUX 1",
+   "away": "F.C. LEZOUX 2",
+   "hs": 5,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9634_9003_15563_41031_34055_1-8",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "F.C. LEZOUX 2",
+   "C.S. PONT DU CHATEAU 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "F.C. LEZOUX 2",
+   "away": "C.S. PONT DU CHATEAU 2",
+   "hs": 0,
+   "as": 6
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9634_9003_15563_41031_34055_1-9",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+   "F.C. LEZOUX 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+   "away": "F.C. LEZOUX 1",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9634_9003_15563_41031_34055_1-10",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "REV.AM.S. BEAUREGARD L'EVEQUE 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+   "hs": 5,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9637_9006_15129_39904_38105_2-11",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "A.S. ROYAT A.C. 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "away": "A.S. ROYAT A.C. 1",
+   "hs": 2,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9637_9006_15129_39904_38105_2-12",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "F.C. RIOMOIS 1",
+   "A.S. ROYAT A.C. 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "F.C. RIOMOIS 1",
+   "away": "A.S. ROYAT A.C. 1",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9637_9006_15129_39904_38105_2-13",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "F.C. RIOMOIS 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "away": "F.C. RIOMOIS 1",
+   "hs": 0,
+   "as": 8
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40725_38102_2-14",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "C.S. DE VOLVIC 2",
+   "F.C. NORD LIMAGNE 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "D",
+  "match": {
+   "home": "C.S. DE VOLVIC 2",
+   "away": "F.C. NORD LIMAGNE 1",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40725_38102_2-15",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "U. J. CLERMONTOISE 2",
+   "F.C. NORD LIMAGNE 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "D",
+  "match": {
+   "home": "U. J. CLERMONTOISE 2",
+   "away": "F.C. NORD LIMAGNE 1",
+   "hs": 1,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40726_38102_1-16",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "GROUPEMENT DE L'AUZON 2",
+   "F.C. AUBIEROIS 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "E",
+  "match": {
+   "home": "GROUPEMENT DE L'AUZON 2",
+   "away": "F.C. AUBIEROIS 2",
+   "hs": 5,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40726_38102_1-17",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "F.C. AUBIEROIS 2",
+   "ENT.F.C. ST AMANT ET TALLENDE 3"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "E",
+  "match": {
+   "home": "F.C. AUBIEROIS 2",
+   "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
+   "hs": 0,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40726_38102_1-18",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "ENT.F.C. ST AMANT ET TALLENDE 3",
+   "GROUPEMENT DE L'AUZON 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "E",
+  "match": {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
+   "away": "GROUPEMENT DE L'AUZON 2",
+   "hs": 3,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40729_38102_2-19",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "A.S. MONTFERRANDAISE 4",
+   "FOOTBALL CLUB GERZAT 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "H",
+  "match": {
+   "home": "A.S. MONTFERRANDAISE 4",
+   "away": "FOOTBALL CLUB GERZAT 2",
+   "hs": 6,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40729_38102_2-20",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "U.S. ENNEZAT 1",
+   "FOOTBALL CLUB GERZAT 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "H",
+  "match": {
+   "home": "U.S. ENNEZAT 1",
+   "away": "FOOTBALL CLUB GERZAT 2",
+   "hs": 7,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40729_38102_2-21",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "U.S. ENNEZAT 1",
+   "U.S. MOZAC 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "H",
+  "match": {
+   "home": "U.S. ENNEZAT 1",
+   "away": "U.S. MOZAC 1",
+   "hs": 1,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40729_38102_2-22",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "A.S. MONTFERRANDAISE 4",
+   "U.S. MOZAC 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "H",
+  "match": {
+   "home": "A.S. MONTFERRANDAISE 4",
+   "away": "U.S. MOZAC 1",
+   "hs": 6,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40730_38102_1-23",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "F.C. PLAUZAT-CHAMPEIX 2",
+   "GROUPEMENT DE L'AUZON 3"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "F.C. PLAUZAT-CHAMPEIX 2",
+   "away": "GROUPEMENT DE L'AUZON 3",
+   "hs": 3,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40730_38102_1-24",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "U.S. VIC LE COMTE 3",
+   "GROUPEMENT DE L'AUZON 3"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "U.S. VIC LE COMTE 3",
+   "away": "GROUPEMENT DE L'AUZON 3",
+   "hs": 2,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40730_38102_1-25",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "U.S. VIC LE COMTE 3"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "U.S. VIC LE COMTE 3",
+   "hs": 7,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-04T09:12:03Z-9639_9008_15559_40730_38102_1-26",
+  "ts": "2026-10-04T09:12:03Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "F.C. PLAUZAT-CHAMPEIX 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": 4,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-03T18:53:57Z-9638_9007_15130_39906_38099_2-0",
+  "ts": "2026-10-03T18:53:57Z",
+  "type": "score",
+  "teams": [
+   "F.C. LEZOUX 1",
+   "U.S. LES MARTRES DE VEYRE 1"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "F.C. LEZOUX 1",
+   "away": "U.S. LES MARTRES DE VEYRE 1",
+   "hs": 2,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-03T18:53:57Z-9638_9007_15130_39906_38099_2-1",
+  "ts": "2026-10-03T18:53:57Z",
+  "type": "score",
+  "teams": [
+   "U.S. LES MARTRES DE VEYRE 1",
+   "U.S. COURPIEROISE 1"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "U.S. LES MARTRES DE VEYRE 1",
+   "away": "U.S. COURPIEROISE 1",
+   "hs": 0,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-03T18:53:57Z-9638_9007_15130_39906_38099_2-2",
+  "ts": "2026-10-03T18:53:57Z",
+  "type": "score",
+  "teams": [
+   "F.C. LEZOUX 1",
+   "U.S. COURPIEROISE 1"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "F.C. LEZOUX 1",
+   "away": "U.S. COURPIEROISE 1",
+   "hs": 1,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-03T18:53:57Z-9638_9007_15130_39907_38099_2-3",
+  "ts": "2026-10-03T18:53:57Z",
+  "type": "score",
+  "teams": [
+   "U.S. ST GERVAISIENNE 1",
+   "F.C. RIOMOIS 2"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "C",
+  "match": {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "F.C. RIOMOIS 2",
+   "hs": 0,
+   "as": 9
+  }
+ },
+ {
+  "id": "2026-10-03T18:53:57Z-9638_9007_15130_39907_38099_2-4",
+  "ts": "2026-10-03T18:53:57Z",
+  "type": "score",
+  "teams": [
+   "F.C. RIOMOIS 2",
+   "HAUTE COMBRAILLE FOOT 1"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "C",
+  "match": {
+   "home": "F.C. RIOMOIS 2",
+   "away": "HAUTE COMBRAILLE FOOT 1",
+   "hs": 1,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-10-03T18:53:57Z-9638_9007_15130_39907_38099_2-5",
+  "ts": "2026-10-03T18:53:57Z",
+  "type": "score",
+  "teams": [
+   "U.S. ST GERVAISIENNE 1",
+   "HAUTE COMBRAILLE FOOT 1"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "C",
+  "match": {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "HAUTE COMBRAILLE FOOT 1",
+   "hs": 1,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41028_34055_1-0",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "report",
+  "teams": [
+   "S.A. THIERNOIS 1",
+   "C.S. PONT DE DORE 2",
+   "C.S. PONT DE DORE 1",
+   "DUROLLE FOOT 2",
+   "DUROLLE FOOT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "5",
+  "text": "Plateau modifié : 2026-10-03 à 09:00"
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41029_34055_1-1",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "report",
+  "teams": [
+   "F.C. PLAUZAT-CHAMPEIX 2",
+   "F.C. PLAUZAT-CHAMPEIX 1",
+   "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "U.S. ISSOIRE A. DU MAS 1",
+   "U.S. ISSOIRE A. DU MAS 3",
+   "SANCY CHAVANON FOOT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "6",
+  "text": "Plateau modifié : 2026-10-03 à 10:00"
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41030_34055_1-2",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "report",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 2",
+   "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "FOOTBALL CLUB PUY DE MUR 1",
+   "FOOTBALL CLUB PUY DE MUR 3",
+   "C.S. PONT DU CHATEAU 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "text": "Plateau modifié : 2026-10-03 à 10:00"
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41034_34054_1-3",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 2",
+   "AULNAT SP. 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 2",
+   "away": "AULNAT SP. 1",
+   "hs": 1,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41034_34054_1-4",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 2",
+   "AULNAT SP. 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 2",
+   "away": "AULNAT SP. 2",
+   "hs": 0,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41034_34054_1-5",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "score",
+  "teams": [
+   "LEMPDES SP. 2",
+   "AULNAT SP. 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "LEMPDES SP. 2",
+   "away": "AULNAT SP. 2",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41034_34054_1-6",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "score",
+  "teams": [
+   "LEMPDES SP. 1",
+   "AULNAT SP. 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "LEMPDES SP. 1",
+   "away": "AULNAT SP. 1",
+   "hs": 1,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41034_34054_1-7",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "score",
+  "teams": [
+   "LEMPDES SP. 1",
+   "C.S. PONT DU CHATEAU 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "LEMPDES SP. 1",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": 9,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41034_34054_1-8",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "score",
+  "teams": [
+   "LEMPDES SP. 2",
+   "C.S. PONT DU CHATEAU 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "LEMPDES SP. 2",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": 0,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41034_34055_1-9",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "report",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 2",
+   "AULNAT SP. 2",
+   "AULNAT SP. 1",
+   "C.S. PONT DU CHATEAU 3",
+   "LEMPDES SP. 2",
+   "LEMPDES SP. 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "text": "Plateau modifié : 2026-10-03 à 10:00"
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41035_34055_1-10",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "report",
+  "teams": [
+   "U.S. MARINGUOISE 1",
+   "U.S. MARINGUOISE 2",
+   "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "F.C. NORD LIMAGNE 1",
+   "F.C. NORD LIMAGNE 2",
+   "U.S. ST SYLVESTRE PRAGOULIN 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "12",
+  "text": "Plateau modifié : 2026-10-03 à 10:00"
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9634_9003_15563_41039_34055_1-11",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "report",
+  "teams": [
+   "F.C. AUBIEROIS 1",
+   "F.C. AUBIEROIS 2",
+   "A.S. MONTFERRANDAISE 1",
+   "A.S. MONTFERRANDAISE 3",
+   "F. C. CLERMONT METROPOLE 1",
+   "F. C. CLERMONT METROPOLE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "16",
+  "text": "Plateau modifié : 2026-10-03 à 10:00"
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9637_9006_15129_39904_38105_1-12",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "report",
+  "teams": [
+   "S.A. THIERNOIS 1",
+   "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "F.C. COURNON D AUVERGNE 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "B",
+  "text": "Plateau modifié : 2026-10-03 à 13:30"
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9638_9007_15130_39905_38099_2-13",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "report",
+  "teams": [
+   "U.S. VIC LE COMTE 1",
+   "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "U.S. ISSOIRE A. DU MAS 2"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "A",
+  "text": "Plateau modifié : 2026-10-03 à 14:00"
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9638_9007_15130_39905_38099_3-14",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "report",
+  "teams": [
+   "F.C. AUBIEROIS 1",
+   "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "C.O. VEYRE MONTON 1"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "A",
+  "text": "Plateau modifié : 2026-10-03 à 16:00"
+ },
+ {
+  "id": "2026-10-03T15:37:01Z-9639_9008_15559_40730_38102_2-15",
+  "ts": "2026-10-03T15:37:01Z",
+  "type": "report",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 2",
+   "U.S. COURPIEROISE 2",
+   "S.A. THIERNOIS 2",
+   "F.C. PLAUZAT-CHAMPEIX 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "text": "Plateau modifié : 2026-10-03 à 10:00"
+ },
+ {
+  "id": "2026-10-02T08:56:59Z-cup459205_1_31_1-0",
+  "ts": "2026-10-02T08:56:59Z",
+  "type": "score",
+  "teams": [
+   "PERIGNAT SARLIEVE",
+   "COURNON F.C."
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "31",
+  "match": {
+   "home": "PERIGNAT SARLIEVE",
+   "away": "COURNON F.C.",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-02T08:56:59Z-cup459205_1_31_1-1",
+  "ts": "2026-10-02T08:56:59Z",
+  "type": "score",
+  "teams": [
+   "PERIGNAT SARLIEVE",
+   "PLAUZAT CHAMPEIX"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "31",
+  "match": {
+   "home": "PERIGNAT SARLIEVE",
+   "away": "PLAUZAT CHAMPEIX",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-02T06:30:03Z-cup459205_1_3_1-0",
+  "ts": "2026-10-02T06:30:03Z",
+  "type": "score",
+  "teams": [
+   "SAUX/ST BABEL/BRENAT 2",
+   "MARTRES DE VEYRE"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "3",
+  "match": {
+   "home": "SAUX/ST BABEL/BRENAT 2",
+   "away": "MARTRES DE VEYRE",
+   "hs": 0,
+   "as": 9
+  }
+ },
+ {
+  "id": "2026-10-01T06:42:25Z-9634_9003_15563_41038_34054_1-0",
+  "ts": "2026-10-01T06:42:25Z",
+  "type": "score",
+  "teams": [
+   "F.C. CHAMALIERES 1",
+   "A.S. ROYAT A.C. 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "15",
+  "match": {
+   "home": "F.C. CHAMALIERES 1",
+   "away": "A.S. ROYAT A.C. 1",
+   "hs": 5,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-01T06:42:25Z-9634_9003_15563_41038_34054_1-1",
+  "ts": "2026-10-01T06:42:25Z",
+  "type": "score",
+  "teams": [
+   "U.S. BEAUMONTOISE 1",
+   "A.S. ROYAT A.C. 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "15",
+  "match": {
+   "home": "U.S. BEAUMONTOISE 1",
+   "away": "A.S. ROYAT A.C. 1",
+   "hs": 4,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-10-01T06:42:25Z-9634_9003_15563_41038_34054_1-2",
+  "ts": "2026-10-01T06:42:25Z",
+  "type": "score",
+  "teams": [
+   "F.C. CHAMALIERES 1",
+   "A.S. ROYAT A.C. 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "15",
+  "match": {
+   "home": "F.C. CHAMALIERES 1",
+   "away": "A.S. ROYAT A.C. 2",
+   "hs": 10,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-10-01T06:42:25Z-9634_9003_15563_41038_34054_1-3",
+  "ts": "2026-10-01T06:42:25Z",
+  "type": "score",
+  "teams": [
+   "U.S. BEAUMONTOISE 1",
+   "F.C. CHAMALIERES 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "15",
+  "match": {
+   "home": "U.S. BEAUMONTOISE 1",
+   "away": "F.C. CHAMALIERES 2",
+   "hs": 0,
+   "as": 6
+  }
+ },
+ {
+  "id": "2026-10-01T06:42:25Z-9634_9003_15563_41038_34054_1-4",
+  "ts": "2026-10-01T06:42:25Z",
+  "type": "score",
+  "teams": [
+   "U.S. BEAUMONTOISE 2",
+   "F.C. CHAMALIERES 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "15",
+  "match": {
+   "home": "U.S. BEAUMONTOISE 2",
+   "away": "F.C. CHAMALIERES 2",
+   "hs": 3,
+   "as": 6
+  }
+ },
+ {
+  "id": "2026-10-01T06:42:25Z-9634_9003_15563_41038_34054_1-5",
+  "ts": "2026-10-01T06:42:25Z",
+  "type": "score",
+  "teams": [
+   "U.S. BEAUMONTOISE 2",
+   "A.S. ROYAT A.C. 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "15",
+  "match": {
+   "home": "U.S. BEAUMONTOISE 2",
+   "away": "A.S. ROYAT A.C. 2",
+   "hs": 2,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-cup459205_1_12_1-0",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "CHARBLOT ENT.",
+   "RIOM F.C. 2"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "12",
+  "match": {
+   "home": "CHARBLOT ENT.",
+   "away": "RIOM F.C. 2",
+   "hs": 0,
+   "as": 10
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-cup459205_1_12_1-1",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "CHARBLOT ENT.",
+   "NORD COMBRAILLE"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "12",
+  "match": {
+   "home": "CHARBLOT ENT.",
+   "away": "NORD COMBRAILLE",
+   "hs": 3,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-cup459205_1_12_1-2",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "RIOM F.C. 2",
+   "NORD COMBRAILLE"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "12",
+  "match": {
+   "home": "RIOM F.C. 2",
+   "away": "NORD COMBRAILLE",
+   "hs": 5,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-cup459205_1_28_1-3",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "CHATEL GUYON",
+   "CLT FOOT 63 2"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "28",
+  "match": {
+   "home": "CHATEL GUYON",
+   "away": "CLT FOOT 63 2",
+   "hs": 0,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-cup459205_1_28_1-4",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "CHATEL GUYON",
+   "PONT DU CHATEAU 3"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "28",
+  "match": {
+   "home": "CHATEL GUYON",
+   "away": "PONT DU CHATEAU 3",
+   "hs": 3,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-cup459205_1_38_1-5",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "ENT. USBM ESL 2",
+   "CEYRAT"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "38",
+  "match": {
+   "home": "ENT. USBM ESL 2",
+   "away": "CEYRAT",
+   "hs": 0,
+   "as": 14
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-cup459205_1_38_1-6",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "ENT. USBM ESL 2",
+   "AUZON GR. 2"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "38",
+  "match": {
+   "home": "ENT. USBM ESL 2",
+   "away": "AUZON GR. 2",
+   "hs": 1,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41041_34054_1-7",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "CLERMONT FOOT 63 2",
+   "FOOTBALL CLUB GERZAT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "CLERMONT FOOT 63 2",
+   "away": "FOOTBALL CLUB GERZAT 1",
+   "hs": 0,
+   "as": 13
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41041_34054_1-8",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 3",
+   "FOOTBALL CLUB GERZAT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 3",
+   "away": "FOOTBALL CLUB GERZAT 1",
+   "hs": 0,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41041_34054_1-9",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 1",
+   "FOOTBALL CLUB GERZAT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "FOOTBALL CLUB GERZAT 1",
+   "hs": 7,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41041_34054_1-10",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 3",
+   "ECUREUILS FRANC ROSIER 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 3",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 0,
+   "as": 10
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41041_34054_1-11",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 1",
+   "ECUREUILS FRANC ROSIER 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 0,
+   "as": 6
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41041_34054_1-12",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "CLERMONT FOOT 63 2",
+   "ECUREUILS FRANC ROSIER 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "CLERMONT FOOT 63 2",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 3,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41044_34054_1-13",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "A. OUVOIMOJA 1",
+   "C.S. DE VOLVIC 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "A. OUVOIMOJA 1",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41044_34054_1-14",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "U. J. CLERMONTOISE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "U. J. CLERMONTOISE 1",
+   "hs": 7,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41044_34054_1-15",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "A. S. CLERMONT SAINT JACQUES FOOT 3",
+   "C.S. DE VOLVIC 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": 7,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41044_34054_1-16",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "A. OUVOIMOJA 1",
+   "C.S. DE VOLVIC 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "A. OUVOIMOJA 1",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": 5,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41044_34054_1-17",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "A. S. CLERMONT SAINT JACQUES FOOT 3",
+   "U. J. CLERMONTOISE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+   "away": "U. J. CLERMONTOISE 1",
+   "hs": 1,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-30T12:00:46Z-9634_9003_15563_41044_34054_1-18",
+  "ts": "2026-09-30T12:00:46Z",
+  "type": "score",
+  "teams": [
+   "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "C.S. DE VOLVIC 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 4,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-cup459205_1_33_1-0",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "RIOM F.C. 3",
+   "U.J. CLERMONTOISE 2"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "33",
+  "match": {
+   "home": "RIOM F.C. 3",
+   "away": "U.J. CLERMONTOISE 2",
+   "hs": 9,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-cup459205_1_33_1-1",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "RIOM F.C. 3",
+   "CLT ST JACQUES"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "33",
+  "match": {
+   "home": "RIOM F.C. 3",
+   "away": "CLT ST JACQUES",
+   "hs": 1,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-cup459205_1_33_1-2",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "CLT ST JACQUES",
+   "U.J. CLERMONTOISE 2"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "33",
+  "match": {
+   "home": "CLT ST JACQUES",
+   "away": "U.J. CLERMONTOISE 2",
+   "hs": 7,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-9634_9003_15563_41040_34054_1-3",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "ECUREUILS FRANC ROSIER 2",
+   "A.S. MONTFERRANDAISE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "17",
+  "match": {
+   "home": "ECUREUILS FRANC ROSIER 2",
+   "away": "A.S. MONTFERRANDAISE 2",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-9634_9003_15563_41040_34054_1-4",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "ECUREUILS FRANC ROSIER 3",
+   "F. C. CLERMONT METROPOLE 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "17",
+  "match": {
+   "home": "ECUREUILS FRANC ROSIER 3",
+   "away": "F. C. CLERMONT METROPOLE 3",
+   "hs": 0,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-9634_9003_15563_41040_34054_1-5",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "F. C. CLERMONT METROPOLE 3",
+   "A.S. MONTFERRANDAISE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "17",
+  "match": {
+   "home": "F. C. CLERMONT METROPOLE 3",
+   "away": "A.S. MONTFERRANDAISE 2",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-9634_9003_15563_41040_34054_1-6",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "ECUREUILS FRANC ROSIER 3",
+   "CEBAZAT SP. 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "17",
+  "match": {
+   "home": "ECUREUILS FRANC ROSIER 3",
+   "away": "CEBAZAT SP. 1",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-9634_9003_15563_41040_34054_1-7",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "ECUREUILS FRANC ROSIER 2",
+   "CEBAZAT SP. 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "17",
+  "match": {
+   "home": "ECUREUILS FRANC ROSIER 2",
+   "away": "CEBAZAT SP. 1",
+   "hs": 0,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-9634_9003_15563_41043_34054_1-8",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "CEBAZAT SP. 2",
+   "U.S. MOZAC 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "CEBAZAT SP. 2",
+   "away": "U.S. MOZAC 1",
+   "hs": 1,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-9634_9003_15563_41043_34054_1-9",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "CEBAZAT SP. 3",
+   "U.S. MOZAC 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "CEBAZAT SP. 3",
+   "away": "U.S. MOZAC 2",
+   "hs": 0,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-9634_9003_15563_41043_34054_1-10",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "U.S. MOZAC 2",
+   "F.C. RIOMOIS 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "U.S. MOZAC 2",
+   "away": "F.C. RIOMOIS 2",
+   "hs": 1,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-9634_9003_15563_41043_34054_1-11",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "CEBAZAT SP. 2",
+   "F.C. RIOMOIS 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "CEBAZAT SP. 2",
+   "away": "F.C. RIOMOIS 2",
+   "hs": 1,
+   "as": 6
+  }
+ },
+ {
+  "id": "2026-09-29T18:12:51Z-9634_9003_15563_41043_34054_1-12",
+  "ts": "2026-09-29T18:12:51Z",
+  "type": "score",
+  "teams": [
+   "CEBAZAT SP. 3",
+   "U.S. MOZAC 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "CEBAZAT SP. 3",
+   "away": "U.S. MOZAC 1",
+   "hs": 0,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-09-29T06:27:38Z-9634_9003_15563_40735_34054_1-0",
+  "ts": "2026-09-29T06:27:38Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "A.S. JOB 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "1",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "A.S. JOB 2",
+   "hs": 8,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-29T06:27:38Z-9634_9003_15563_40735_34054_1-1",
+  "ts": "2026-09-29T06:27:38Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "S.C. BILLOMOIS 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "1",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "S.C. BILLOMOIS 1",
+   "hs": 1,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-29T06:27:38Z-9634_9003_15563_40735_34054_1-2",
+  "ts": "2026-09-29T06:27:38Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "A.S. JOB 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "1",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "away": "A.S. JOB 2",
+   "hs": 12,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-29T06:27:38Z-9634_9003_15563_40735_34054_1-3",
+  "ts": "2026-09-29T06:27:38Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "A.S. JOB 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "1",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "away": "A.S. JOB 1",
+   "hs": 3,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-29T06:27:38Z-9634_9003_15563_40735_34054_1-4",
+  "ts": "2026-09-29T06:27:38Z",
+  "type": "score",
+  "teams": [
+   "S.C. BILLOMOIS 1",
+   "A.S. JOB 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "1",
+  "match": {
+   "home": "S.C. BILLOMOIS 1",
+   "away": "A.S. JOB 1",
+   "hs": 6,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_6_1-0",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "SANCY CHAVANON",
+   "CLT FOOT 63"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "6",
+  "match": {
+   "home": "SANCY CHAVANON",
+   "away": "CLT FOOT 63",
+   "hs": 0,
+   "as": 6
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_6_1-1",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "SANCY CHAVANON",
+   "DOMES SANCY FOOT"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "6",
+  "match": {
+   "home": "SANCY CHAVANON",
+   "away": "DOMES SANCY FOOT",
+   "hs": 2,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_6_1-2",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "CLT FOOT 63",
+   "DOMES SANCY FOOT"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "6",
+  "match": {
+   "home": "CLT FOOT 63",
+   "away": "DOMES SANCY FOOT",
+   "hs": 11,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_7_1-3",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "CHAMALIERE.FC",
+   "CLT A.S.M."
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "CHAMALIERE.FC",
+   "away": "CLT A.S.M.",
+   "hs": 0,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_19_1-4",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "VAL DE COUZE",
+   "ISSOIRE US"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "19",
+  "match": {
+   "home": "VAL DE COUZE",
+   "away": "ISSOIRE US",
+   "hs": 1,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_19_1-5",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "VAL DE COUZE",
+   "VIC LE COMTE U.S."
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "19",
+  "match": {
+   "home": "VAL DE COUZE",
+   "away": "VIC LE COMTE U.S.",
+   "hs": 1,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_19_1-6",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "ISSOIRE US",
+   "VIC LE COMTE U.S."
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "19",
+  "match": {
+   "home": "ISSOIRE US",
+   "away": "VIC LE COMTE U.S.",
+   "hs": 5,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_20_1-7",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "ST AMANT&TALLENDE",
+   "C.O. VEYRE MONTON"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "ST AMANT&TALLENDE",
+   "away": "C.O. VEYRE MONTON",
+   "hs": 2,
+   "as": 6
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_20_1-8",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "ST AMANT&TALLENDE",
+   "DORE ALLIER GR."
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "ST AMANT&TALLENDE",
+   "away": "DORE ALLIER GR.",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_20_1-9",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "C.O. VEYRE MONTON",
+   "DORE ALLIER GR."
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "C.O. VEYRE MONTON",
+   "away": "DORE ALLIER GR.",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_21_1-10",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "PLAUZAT CHAMPEIX",
+   "VIC LE COMTE U.S."
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "PLAUZAT CHAMPEIX",
+   "away": "VIC LE COMTE U.S.",
+   "hs": 0,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_21_1-11",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "PLAUZAT CHAMPEIX",
+   "THIERS SA"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "PLAUZAT CHAMPEIX",
+   "away": "THIERS SA",
+   "hs": 2,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_21_1-12",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "VIC LE COMTE U.S.",
+   "THIERS SA"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "VIC LE COMTE U.S.",
+   "away": "THIERS SA",
+   "hs": 9,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_23_1-13",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "DUROLLE FOOT",
+   "GR FORMATEUR LIMAGNE"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "23",
+  "match": {
+   "home": "DUROLLE FOOT",
+   "away": "GR FORMATEUR LIMAGNE",
+   "hs": 0,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_23_1-14",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "DUROLLE FOOT",
+   "FOOTBALL CLUB GERZAT"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "23",
+  "match": {
+   "home": "DUROLLE FOOT",
+   "away": "FOOTBALL CLUB GERZAT",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_23_1-15",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "GR FORMATEUR LIMAGNE",
+   "FOOTBALL CLUB GERZAT"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "23",
+  "match": {
+   "home": "GR FORMATEUR LIMAGNE",
+   "away": "FOOTBALL CLUB GERZAT",
+   "hs": 2,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_35_1-16",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "COURNON F.C",
+   "AMBERT LIVRADOIS SUD"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "35",
+  "match": {
+   "home": "COURNON F.C",
+   "away": "AMBERT LIVRADOIS SUD",
+   "hs": 0,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_35_1-17",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "COURNON F.C",
+   "ENT. BEAU/MOI/BOU"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "35",
+  "match": {
+   "home": "COURNON F.C",
+   "away": "ENT. BEAU/MOI/BOU",
+   "hs": 4,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-28T08:02:29Z-cup459205_1_35_1-18",
+  "ts": "2026-09-28T08:02:29Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD",
+   "ENT. BEAU/MOI/BOU"
+  ],
+  "cat": "u13-festival",
+  "phase": 1,
+  "poule": "35",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD",
+   "away": "ENT. BEAU/MOI/BOU",
+   "hs": 13,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-27T11:46:16Z-9634_9003_15563_40736_34054_1-0",
+  "ts": "2026-09-27T11:46:16Z",
+  "type": "score",
+  "teams": [
+   "UNION SPORTIVE BASSIN MINIER 2",
+   "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "2",
+  "match": {
+   "home": "UNION SPORTIVE BASSIN MINIER 2",
+   "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-27T11:46:16Z-9634_9003_15563_40736_34054_1-1",
+  "ts": "2026-09-27T11:46:16Z",
+  "type": "score",
+  "teams": [
+   "E.S. ST GERMINOISE 1",
+   "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "2",
+  "match": {
+   "home": "E.S. ST GERMINOISE 1",
+   "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "hs": 5,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-27T11:46:16Z-9634_9003_15563_40736_34054_1-2",
+  "ts": "2026-09-27T11:46:16Z",
+  "type": "score",
+  "teams": [
+   "UNION SPORTIVE BASSIN MINIER 1",
+   "E.S. ST GERMINOISE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "2",
+  "match": {
+   "home": "UNION SPORTIVE BASSIN MINIER 1",
+   "away": "E.S. ST GERMINOISE 2",
+   "hs": 8,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-27T11:46:16Z-9634_9003_15563_40736_34054_1-3",
+  "ts": "2026-09-27T11:46:16Z",
+  "type": "score",
+  "teams": [
+   "UNION SPORTIVE BASSIN MINIER 2",
+   "E.S. ST GERMINOISE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "2",
+  "match": {
+   "home": "UNION SPORTIVE BASSIN MINIER 2",
+   "away": "E.S. ST GERMINOISE 2",
+   "hs": 0,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-27T11:46:16Z-9634_9003_15563_40736_34054_1-4",
+  "ts": "2026-09-27T11:46:16Z",
+  "type": "score",
+  "teams": [
+   "UNION SPORTIVE BASSIN MINIER 1",
+   "U.S. ISSOIRE A. DU MAS 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "2",
+  "match": {
+   "home": "UNION SPORTIVE BASSIN MINIER 1",
+   "away": "U.S. ISSOIRE A. DU MAS 2",
+   "hs": 4,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-27T11:46:16Z-9634_9003_15563_40736_34054_1-5",
+  "ts": "2026-09-27T11:46:16Z",
+  "type": "score",
+  "teams": [
+   "E.S. ST GERMINOISE 1",
+   "U.S. ISSOIRE A. DU MAS 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "2",
+  "match": {
+   "home": "E.S. ST GERMINOISE 1",
+   "away": "U.S. ISSOIRE A. DU MAS 2",
+   "hs": 4,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-27T11:46:16Z-9634_9003_15563_41045_34054_1-6",
+  "ts": "2026-09-27T11:46:16Z",
+  "type": "score",
+  "teams": [
+   "GJ SCB FOOT 2",
+   "F.C. RIOMOIS 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "22",
+  "match": {
+   "home": "GJ SCB FOOT 2",
+   "away": "F.C. RIOMOIS 1",
+   "hs": 0,
+   "as": 20
+  }
+ },
+ {
+  "id": "2026-09-27T11:46:16Z-9634_9003_15563_41045_34054_1-7",
+  "ts": "2026-09-27T11:46:16Z",
+  "type": "score",
+  "teams": [
+   "GJ SCB FOOT 1",
+   "U.S. MENETROL 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "22",
+  "match": {
+   "home": "GJ SCB FOOT 1",
+   "away": "U.S. MENETROL 1",
+   "hs": 1,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-27T11:46:16Z-9634_9003_15563_41045_34054_1-8",
+  "ts": "2026-09-27T11:46:16Z",
+  "type": "score",
+  "teams": [
+   "GJ SCB FOOT 2",
+   "F.C. RIOMOIS 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "22",
+  "match": {
+   "home": "GJ SCB FOOT 2",
+   "away": "F.C. RIOMOIS 3",
+   "hs": 0,
+   "as": 8
+  }
+ },
+ {
+  "id": "2026-09-27T11:46:16Z-9634_9003_15563_41045_34054_1-9",
+  "ts": "2026-09-27T11:46:16Z",
+  "type": "score",
+  "teams": [
+   "GJ SCB FOOT 1",
+   "F.C. RIOMOIS 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "22",
+  "match": {
+   "home": "GJ SCB FOOT 1",
+   "away": "F.C. RIOMOIS 1",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-27T11:46:16Z-9634_9003_15563_41045_34054_1-10",
+  "ts": "2026-09-27T11:46:16Z",
+  "type": "score",
+  "teams": [
+   "U.S. MENETROL 1",
+   "F.C. RIOMOIS 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "22",
+  "match": {
+   "home": "U.S. MENETROL 1",
+   "away": "F.C. RIOMOIS 3",
+   "hs": 3,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41026_34054_1-0",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "ENTENTE CHARBLOT 1",
+   "U.S. ST GEORGES LES ANCIZES 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "3",
+  "match": {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "U.S. ST GEORGES LES ANCIZES 1",
+   "hs": 1,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41026_34054_1-1",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "U.S. ST GERVAISIENNE 1",
+   "ENTENTE CHARBLOT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "3",
+  "match": {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "ENTENTE CHARBLOT 1",
+   "hs": 3,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41026_34054_1-2",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "U.S. ST GERVAISIENNE 1",
+   "F.C. CHATEL GUYON 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "3",
+  "match": {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "F.C. CHATEL GUYON 1",
+   "hs": 2,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41026_34054_1-3",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "F.C. NORD COMBRAILLE 1",
+   "U.S. ST GEORGES LES ANCIZES 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "3",
+  "match": {
+   "home": "F.C. NORD COMBRAILLE 1",
+   "away": "U.S. ST GEORGES LES ANCIZES 1",
+   "hs": 5,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41026_34054_1-4",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "F.C. NORD COMBRAILLE 1",
+   "F.C. CHATEL GUYON 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "3",
+  "match": {
+   "home": "F.C. NORD COMBRAILLE 1",
+   "away": "F.C. CHATEL GUYON 1",
+   "hs": 5,
+   "as": 6
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41028_34054_1-5",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "DUROLLE FOOT 2",
+   "C.S. PONT DE DORE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "5",
+  "match": {
+   "home": "DUROLLE FOOT 2",
+   "away": "C.S. PONT DE DORE 2",
+   "hs": 5,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41028_34054_1-6",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "DUROLLE FOOT 1",
+   "C.S. PONT DE DORE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "5",
+  "match": {
+   "home": "DUROLLE FOOT 1",
+   "away": "C.S. PONT DE DORE 2",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41028_34054_1-7",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "S.A. THIERNOIS 1",
+   "C.S. PONT DE DORE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "5",
+  "match": {
+   "home": "S.A. THIERNOIS 1",
+   "away": "C.S. PONT DE DORE 1",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41028_34054_1-8",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "DUROLLE FOOT 1",
+   "C.S. PONT DE DORE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "5",
+  "match": {
+   "home": "DUROLLE FOOT 1",
+   "away": "C.S. PONT DE DORE 1",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41028_34054_1-9",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "DUROLLE FOOT 2",
+   "S.A. THIERNOIS 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "5",
+  "match": {
+   "home": "DUROLLE FOOT 2",
+   "away": "S.A. THIERNOIS 1",
+   "hs": 3,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41030_34054_1-10",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "F.C. COURNON D AUVERGNE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": 2,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41030_34054_1-11",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 3",
+   "REV.AM.S. BEAUREGARD L'EVEQUE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 3",
+   "away": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "hs": 2,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41030_34054_1-12",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 3",
+   "C.S. PONT DU CHATEAU 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 3",
+   "away": "C.S. PONT DU CHATEAU 1",
+   "hs": 1,
+   "as": 11
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41030_34054_1-13",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 1",
+   "C.S. PONT DU CHATEAU 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 1",
+   "away": "C.S. PONT DU CHATEAU 1",
+   "hs": 3,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-27T08:36:21Z-9634_9003_15563_41030_34054_1-14",
+  "ts": "2026-09-27T08:36:21Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 1",
+   "F.C. COURNON D AUVERGNE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 1",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": 3,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-26T17:17:14Z-9634_9003_15563_41034_34054_1-0",
+  "ts": "2026-09-26T17:17:14Z",
+  "type": "report",
+  "teams": [
+   "LEMPDES SP. 1",
+   "LEMPDES SP. 2",
+   "FOOTBALL CLUB PUY DE MUR 2",
+   "AULNAT SP. 2",
+   "AULNAT SP. 1",
+   "C.S. PONT DU CHATEAU 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "text": "Plateau modifié : 2026-09-26 à 10:00"
+ },
+ {
+  "id": "2026-09-26T17:17:14Z-9634_9003_15563_41035_34054_1-1",
+  "ts": "2026-09-26T17:17:14Z",
+  "type": "report",
+  "teams": [
+   "F.C. NORD LIMAGNE 2",
+   "F.C. NORD LIMAGNE 1",
+   "U.S. MARINGUOISE 1",
+   "U.S. MARINGUOISE 2",
+   "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "U.S. ST SYLVESTRE PRAGOULIN 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "12",
+  "text": "Plateau modifié : 2026-09-26 à 10:00"
+ },
+ {
+  "id": "2026-09-26T17:17:14Z-9634_9003_15563_41035_34054_1-2",
+  "ts": "2026-09-26T17:17:14Z",
+  "type": "score",
+  "teams": [
+   "U.S. ST SYLVESTRE PRAGOULIN 1",
+   "GROUPEMENT DORE ALLIER FOOTBALL 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "12",
+  "match": {
+   "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
+   "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "hs": 4,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-26T17:17:14Z-9634_9003_15563_41035_34054_1-3",
+  "ts": "2026-09-26T17:17:14Z",
+  "type": "score",
+  "teams": [
+   "U.S. ST SYLVESTRE PRAGOULIN 1",
+   "U.S. MARINGUOISE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "12",
+  "match": {
+   "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
+   "away": "U.S. MARINGUOISE 1",
+   "hs": 0,
+   "as": 9
+  }
+ },
+ {
+  "id": "2026-09-26T17:17:14Z-9634_9003_15563_41035_34054_1-4",
+  "ts": "2026-09-26T17:17:14Z",
+  "type": "score",
+  "teams": [
+   "F.C. NORD LIMAGNE 2",
+   "U.S. MARINGUOISE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "12",
+  "match": {
+   "home": "F.C. NORD LIMAGNE 2",
+   "away": "U.S. MARINGUOISE 2",
+   "hs": 0,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-26T17:17:14Z-9634_9003_15563_41035_34054_1-5",
+  "ts": "2026-09-26T17:17:14Z",
+  "type": "score",
+  "teams": [
+   "F.C. NORD LIMAGNE 2",
+   "U.S. MARINGUOISE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "12",
+  "match": {
+   "home": "F.C. NORD LIMAGNE 2",
+   "away": "U.S. MARINGUOISE 1",
+   "hs": 0,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-09-26T17:17:14Z-9634_9003_15563_41035_34054_1-6",
+  "ts": "2026-09-26T17:17:14Z",
+  "type": "score",
+  "teams": [
+   "F.C. NORD LIMAGNE 1",
+   "GROUPEMENT DORE ALLIER FOOTBALL 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "12",
+  "match": {
+   "home": "F.C. NORD LIMAGNE 1",
+   "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+   "hs": 15,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-26T17:17:14Z-9634_9003_15563_41035_34054_1-7",
+  "ts": "2026-09-26T17:17:14Z",
+  "type": "score",
+  "teams": [
+   "F.C. NORD LIMAGNE 1",
+   "U.S. MARINGUOISE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "12",
+  "match": {
+   "home": "F.C. NORD LIMAGNE 1",
+   "away": "U.S. MARINGUOISE 2",
+   "hs": 2,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-26T17:17:14Z-9634_9003_15563_41045_34054_1-8",
+  "ts": "2026-09-26T17:17:14Z",
+  "type": "report",
+  "teams": [
+   "U.S. MENETROL 1",
+   "F.C. RIOMOIS 3",
+   "F.C. RIOMOIS 1",
+   "GJ SCB FOOT 2",
+   "GJ SCB FOOT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "22",
+  "text": "Plateau modifié : 2026-09-26 à 10:00"
+ },
+ {
+  "id": "2026-09-24T06:46:37Z-9634_9003_15563_41026_34053_1-0",
+  "ts": "2026-09-24T06:46:37Z",
+  "type": "score",
+  "teams": [
+   "U.S. ST GERVAISIENNE 1",
+   "U.S. ST GEORGES LES ANCIZES 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "3",
+  "match": {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "U.S. ST GEORGES LES ANCIZES 1",
+   "hs": 5,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-24T06:46:37Z-9634_9003_15563_41026_34053_1-1",
+  "ts": "2026-09-24T06:46:37Z",
+  "type": "score",
+  "teams": [
+   "U.S. ST GEORGES LES ANCIZES 1",
+   "F.C. CHATEL GUYON 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "3",
+  "match": {
+   "home": "U.S. ST GEORGES LES ANCIZES 1",
+   "away": "F.C. CHATEL GUYON 1",
+   "hs": 3,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-09-24T06:46:37Z-9634_9003_15563_41026_34053_1-2",
+  "ts": "2026-09-24T06:46:37Z",
+  "type": "score",
+  "teams": [
+   "ENTENTE CHARBLOT 1",
+   "F.C. NORD COMBRAILLE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "3",
+  "match": {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "F.C. NORD COMBRAILLE 1",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-24T06:46:37Z-9634_9003_15563_41026_34053_1-3",
+  "ts": "2026-09-24T06:46:37Z",
+  "type": "score",
+  "teams": [
+   "F.C. NORD COMBRAILLE 1",
+   "U.S. ST GERVAISIENNE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "3",
+  "match": {
+   "home": "F.C. NORD COMBRAILLE 1",
+   "away": "U.S. ST GERVAISIENNE 1",
+   "hs": 2,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-24T06:46:37Z-9634_9003_15563_41026_34053_1-4",
+  "ts": "2026-09-24T06:46:37Z",
+  "type": "score",
+  "teams": [
+   "F.C. CHATEL GUYON 1",
+   "ENTENTE CHARBLOT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "3",
+  "match": {
+   "home": "F.C. CHATEL GUYON 1",
+   "away": "ENTENTE CHARBLOT 1",
+   "hs": 15,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-24T06:46:37Z-9639_9008_15559_40725_38101_1-5",
+  "ts": "2026-09-24T06:46:37Z",
+  "type": "score",
+  "teams": [
+   "ENTENTE CHARBLOT 1",
+   "F.C. NORD COMBRAILLE 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "D",
+  "match": {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "F.C. NORD COMBRAILLE 2",
+   "hs": 8,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-24T06:46:37Z-9639_9008_15559_40725_38101_1-6",
+  "ts": "2026-09-24T06:46:37Z",
+  "type": "score",
+  "teams": [
+   "ENTENTE CHARBLOT 1",
+   "C.S. DE VOLVIC 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "D",
+  "match": {
+   "home": "ENTENTE CHARBLOT 1",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": 1,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-24T06:46:37Z-9639_9008_15559_40725_38101_1-7",
+  "ts": "2026-09-24T06:46:37Z",
+  "type": "score",
+  "teams": [
+   "F.C. NORD COMBRAILLE 2",
+   "CLERMONT ACADEMY 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "D",
+  "match": {
+   "home": "F.C. NORD COMBRAILLE 2",
+   "away": "CLERMONT ACADEMY 1",
+   "hs": 0,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-09-24T06:46:37Z-9639_9008_15559_40725_38101_1-8",
+  "ts": "2026-09-24T06:46:37Z",
+  "type": "score",
+  "teams": [
+   "C.S. DE VOLVIC 2",
+   "CLERMONT ACADEMY 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "D",
+  "match": {
+   "home": "C.S. DE VOLVIC 2",
+   "away": "CLERMONT ACADEMY 1",
+   "hs": 3,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41034_34053_1-0",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "LEMPDES SP. 2",
+   "AULNAT SP. 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "LEMPDES SP. 2",
+   "away": "AULNAT SP. 1",
+   "hs": 0,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41034_34053_1-1",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 2",
+   "LEMPDES SP. 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 2",
+   "away": "LEMPDES SP. 2",
+   "hs": 1,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41034_34053_1-2",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 2",
+   "LEMPDES SP. 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 2",
+   "away": "LEMPDES SP. 1",
+   "hs": 1,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41034_34053_1-3",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "AULNAT SP. 2",
+   "C.S. PONT DU CHATEAU 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "AULNAT SP. 2",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": 3,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41034_34053_1-4",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "AULNAT SP. 1",
+   "C.S. PONT DU CHATEAU 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "AULNAT SP. 1",
+   "away": "C.S. PONT DU CHATEAU 3",
+   "hs": 9,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41034_34053_1-5",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "LEMPDES SP. 1",
+   "AULNAT SP. 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "11",
+  "match": {
+   "home": "LEMPDES SP. 1",
+   "away": "AULNAT SP. 2",
+   "hs": 6,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41039_34053_1-6",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "F. C. CLERMONT METROPOLE 1",
+   "A.S. MONTFERRANDAISE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "16",
+  "match": {
+   "home": "F. C. CLERMONT METROPOLE 1",
+   "away": "A.S. MONTFERRANDAISE 1",
+   "hs": 2,
+   "as": 8
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41039_34053_1-7",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "A.S. MONTFERRANDAISE 1",
+   "A.S. MONTFERRANDAISE 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "16",
+  "match": {
+   "home": "A.S. MONTFERRANDAISE 1",
+   "away": "A.S. MONTFERRANDAISE 3",
+   "hs": 4,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41039_34053_1-8",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "F. C. CLERMONT METROPOLE 1",
+   "F. C. CLERMONT METROPOLE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "16",
+  "match": {
+   "home": "F. C. CLERMONT METROPOLE 1",
+   "away": "F. C. CLERMONT METROPOLE 2",
+   "hs": 6,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41039_34053_1-9",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "F.C. AUBIEROIS 1",
+   "F.C. AUBIEROIS 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "16",
+  "match": {
+   "home": "F.C. AUBIEROIS 1",
+   "away": "F.C. AUBIEROIS 2",
+   "hs": 2,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41039_34053_1-10",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "A.S. MONTFERRANDAISE 3",
+   "F.C. AUBIEROIS 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "16",
+  "match": {
+   "home": "A.S. MONTFERRANDAISE 3",
+   "away": "F.C. AUBIEROIS 2",
+   "hs": 6,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41039_34053_1-11",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "F. C. CLERMONT METROPOLE 2",
+   "F.C. AUBIEROIS 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "16",
+  "match": {
+   "home": "F. C. CLERMONT METROPOLE 2",
+   "away": "F.C. AUBIEROIS 1",
+   "hs": 0,
+   "as": 7
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41041_34053_1-12",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 3",
+   "FOOTBALL CLUB GERZAT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 3",
+   "away": "FOOTBALL CLUB GERZAT 1",
+   "hs": 1,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41041_34053_1-13",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 1",
+   "CLERMONT FOOT 63 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "CLERMONT FOOT 63 2",
+   "hs": 1,
+   "as": 8
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41041_34053_1-14",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "ECUREUILS FRANC ROSIER 1",
+   "FOOTBALL CLUB GERZAT 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "ECUREUILS FRANC ROSIER 1",
+   "away": "FOOTBALL CLUB GERZAT 2",
+   "hs": 10,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41041_34053_1-15",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 1",
+   "F.C. COURNON D AUVERGNE 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "F.C. COURNON D AUVERGNE 3",
+   "hs": 12,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41041_34053_1-16",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB GERZAT 1",
+   "FOOTBALL CLUB GERZAT 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "FOOTBALL CLUB GERZAT 1",
+   "away": "FOOTBALL CLUB GERZAT 2",
+   "hs": 2,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9634_9003_15563_41041_34053_1-17",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "CLERMONT FOOT 63 2",
+   "ECUREUILS FRANC ROSIER 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "18",
+  "match": {
+   "home": "CLERMONT FOOT 63 2",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 2,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9637_9006_15129_39904_38104_3-18",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 1",
+   "GROUPEMENT FORMATEUR LIMAGNE 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "hs": 4,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9637_9006_15129_39904_38104_3-19",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "CLERMONT FOOT 63 2"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "away": "CLERMONT FOOT 63 2",
+   "hs": 4,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9637_9006_15129_39904_38104_3-20",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "CLERMONT FOOT 63 2",
+   "F.C. COURNON D AUVERGNE 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "CLERMONT FOOT 63 2",
+   "away": "F.C. COURNON D AUVERGNE 1",
+   "hs": 4,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9639_9008_15559_40730_38101_2-21",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "GROUPEMENT DE L'AUZON 3",
+   "F.C. COURNON D AUVERGNE 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "GROUPEMENT DE L'AUZON 3",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9639_9008_15559_40730_38101_2-22",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 2",
+   "F.C. PLAUZAT-CHAMPEIX 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 2",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": 7,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9639_9008_15559_40730_38101_2-23",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "S.A. THIERNOIS 2",
+   "F.C. PLAUZAT-CHAMPEIX 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "S.A. THIERNOIS 2",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": 8,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-23T11:03:20Z-9639_9008_15559_40730_38101_2-24",
+  "ts": "2026-09-23T11:03:20Z",
+  "type": "score",
+  "teams": [
+   "GROUPEMENT DE L'AUZON 3",
+   "S.A. THIERNOIS 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "GROUPEMENT DE L'AUZON 3",
+   "away": "S.A. THIERNOIS 2",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-22T21:16:40Z-9634_9003_15563_41031_34053_1-0",
+  "ts": "2026-09-22T21:16:40Z",
+  "type": "score",
+  "teams": [
+   "C.S. PONT DU CHATEAU 2",
+   "LEMPDES SP. 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "C.S. PONT DU CHATEAU 2",
+   "away": "LEMPDES SP. 2",
+   "hs": 2,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-22T21:16:40Z-9634_9003_15563_41031_34053_1-1",
+  "ts": "2026-09-22T21:16:40Z",
+  "type": "score",
+  "teams": [
+   "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "REV.AM.S. BEAUREGARD L'EVEQUE 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+   "hs": 9,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-22T21:16:40Z-9634_9003_15563_41031_34053_1-2",
+  "ts": "2026-09-22T21:16:40Z",
+  "type": "score",
+  "teams": [
+   "F.C. LEZOUX 1",
+   "F.C. LEZOUX 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "F.C. LEZOUX 1",
+   "away": "F.C. LEZOUX 2",
+   "hs": 1,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-22T21:16:40Z-9634_9003_15563_41031_34053_1-3",
+  "ts": "2026-09-22T21:16:40Z",
+  "type": "score",
+  "teams": [
+   "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "F.C. LEZOUX 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
+   "away": "F.C. LEZOUX 1",
+   "hs": 0,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-22T21:16:40Z-9634_9003_15563_41031_34053_1-4",
+  "ts": "2026-09-22T21:16:40Z",
+  "type": "score",
+  "teams": [
+   "F.C. LEZOUX 2",
+   "LEMPDES SP. 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "F.C. LEZOUX 2",
+   "away": "LEMPDES SP. 2",
+   "hs": 2,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-22T21:16:40Z-9634_9003_15563_41031_34053_1-5",
+  "ts": "2026-09-22T21:16:40Z",
+  "type": "score",
+  "teams": [
+   "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+   "C.S. PONT DU CHATEAU 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "8",
+  "match": {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+   "away": "C.S. PONT DU CHATEAU 2",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-22T18:04:26Z-9634_9003_15563_41040_34053_1-0",
+  "ts": "2026-09-22T18:04:26Z",
+  "type": "score",
+  "teams": [
+   "ECUREUILS FRANC ROSIER 2",
+   "ECUREUILS FRANC ROSIER 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "17",
+  "match": {
+   "home": "ECUREUILS FRANC ROSIER 2",
+   "away": "ECUREUILS FRANC ROSIER 3",
+   "hs": 5,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-22T18:04:26Z-9634_9003_15563_41040_34053_1-1",
+  "ts": "2026-09-22T18:04:26Z",
+  "type": "score",
+  "teams": [
+   "F. C. CLERMONT METROPOLE 3",
+   "ECUREUILS FRANC ROSIER 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "17",
+  "match": {
+   "home": "F. C. CLERMONT METROPOLE 3",
+   "away": "ECUREUILS FRANC ROSIER 2",
+   "hs": 0,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-22T18:04:26Z-9634_9003_15563_41040_34053_1-2",
+  "ts": "2026-09-22T18:04:26Z",
+  "type": "score",
+  "teams": [
+   "A.S. MONTFERRANDAISE 2",
+   "CEBAZAT SP. 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "17",
+  "match": {
+   "home": "A.S. MONTFERRANDAISE 2",
+   "away": "CEBAZAT SP. 1",
+   "hs": 1,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-22T18:04:26Z-9634_9003_15563_41040_34053_1-3",
+  "ts": "2026-09-22T18:04:26Z",
+  "type": "score",
+  "teams": [
+   "CEBAZAT SP. 1",
+   "F. C. CLERMONT METROPOLE 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "17",
+  "match": {
+   "home": "CEBAZAT SP. 1",
+   "away": "F. C. CLERMONT METROPOLE 3",
+   "hs": 4,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-22T18:04:26Z-9634_9003_15563_41040_34053_1-4",
+  "ts": "2026-09-22T18:04:26Z",
+  "type": "score",
+  "teams": [
+   "ECUREUILS FRANC ROSIER 3",
+   "A.S. MONTFERRANDAISE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "17",
+  "match": {
+   "home": "ECUREUILS FRANC ROSIER 3",
+   "away": "A.S. MONTFERRANDAISE 2",
+   "hs": 1,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-09-22T18:04:26Z-9637_9006_15129_39903_38104_2-5",
+  "ts": "2026-09-22T18:04:26Z",
+  "type": "score",
+  "teams": [
+   "ECUREUILS FRANC ROSIER 1",
+   "U.S. ISSOIRE A. DU MAS 1"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "ECUREUILS FRANC ROSIER 1",
+   "away": "U.S. ISSOIRE A. DU MAS 1",
+   "hs": 4,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-22T18:04:26Z-9637_9006_15129_39903_38104_2-6",
+  "ts": "2026-09-22T18:04:26Z",
+  "type": "score",
+  "teams": [
+   "U.S. ISSOIRE A. DU MAS 1",
+   "A.S. MONTFERRANDAISE 3"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "U.S. ISSOIRE A. DU MAS 1",
+   "away": "A.S. MONTFERRANDAISE 3",
+   "hs": 0,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-22T18:04:26Z-9637_9006_15129_39903_38104_2-7",
+  "ts": "2026-09-22T18:04:26Z",
+  "type": "score",
+  "teams": [
+   "ECUREUILS FRANC ROSIER 1",
+   "A.S. MONTFERRANDAISE 3"
+  ],
+  "cat": "u13-d1",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "ECUREUILS FRANC ROSIER 1",
+   "away": "A.S. MONTFERRANDAISE 3",
+   "hs": 1,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-22T12:40:39Z-9634_9003_15563_41043_34053_1-0",
+  "ts": "2026-09-22T12:40:39Z",
+  "type": "score",
+  "teams": [
+   "CEBAZAT SP. 2",
+   "CEBAZAT SP. 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "CEBAZAT SP. 2",
+   "away": "CEBAZAT SP. 3",
+   "hs": 2,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-22T12:40:39Z-9634_9003_15563_41043_34053_1-1",
+  "ts": "2026-09-22T12:40:39Z",
+  "type": "score",
+  "teams": [
+   "U.S. MOZAC 2",
+   "CEBAZAT SP. 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "U.S. MOZAC 2",
+   "away": "CEBAZAT SP. 2",
+   "hs": 1,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-22T12:40:39Z-9634_9003_15563_41043_34053_1-2",
+  "ts": "2026-09-22T12:40:39Z",
+  "type": "score",
+  "teams": [
+   "U.S. MOZAC 1",
+   "U.S. MOZAC 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "U.S. MOZAC 1",
+   "away": "U.S. MOZAC 2",
+   "hs": 7,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-22T12:40:39Z-9634_9003_15563_41043_34053_1-3",
+  "ts": "2026-09-22T12:40:39Z",
+  "type": "score",
+  "teams": [
+   "F.C. RIOMOIS 2",
+   "U.S. MOZAC 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "F.C. RIOMOIS 2",
+   "away": "U.S. MOZAC 1",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-22T12:40:39Z-9634_9003_15563_41043_34053_1-4",
+  "ts": "2026-09-22T12:40:39Z",
+  "type": "score",
+  "teams": [
+   "CEBAZAT SP. 3",
+   "F.C. RIOMOIS 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "20",
+  "match": {
+   "home": "CEBAZAT SP. 3",
+   "away": "F.C. RIOMOIS 2",
+   "hs": 0,
+   "as": 8
+  }
+ },
+ {
+  "id": "2026-09-22T11:35:04Z-9634_9003_15563_41044_34053_1-0",
+  "ts": "2026-09-22T11:35:04Z",
+  "type": "score",
+  "teams": [
+   "U. J. CLERMONTOISE 1",
+   "C.S. DE VOLVIC 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "U. J. CLERMONTOISE 1",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-22T11:35:04Z-9634_9003_15563_41044_34053_1-1",
+  "ts": "2026-09-22T11:35:04Z",
+  "type": "score",
+  "teams": [
+   "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "A. S. CLERMONT SAINT JACQUES FOOT 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+   "hs": 2,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-22T11:35:04Z-9634_9003_15563_41044_34053_1-2",
+  "ts": "2026-09-22T11:35:04Z",
+  "type": "score",
+  "teams": [
+   "A. OUVOIMOJA 1",
+   "U. J. CLERMONTOISE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "A. OUVOIMOJA 1",
+   "away": "U. J. CLERMONTOISE 1",
+   "hs": 1,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-22T11:35:04Z-9634_9003_15563_41044_34053_1-3",
+  "ts": "2026-09-22T11:35:04Z",
+  "type": "score",
+  "teams": [
+   "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "A. OUVOIMOJA 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "A. OUVOIMOJA 1",
+   "hs": 5,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-22T11:35:04Z-9634_9003_15563_41044_34053_1-4",
+  "ts": "2026-09-22T11:35:04Z",
+  "type": "score",
+  "teams": [
+   "C.S. DE VOLVIC 1",
+   "C.S. DE VOLVIC 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "C.S. DE VOLVIC 1",
+   "away": "C.S. DE VOLVIC 2",
+   "hs": 7,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-22T11:35:04Z-9634_9003_15563_41044_34053_1-5",
+  "ts": "2026-09-22T11:35:04Z",
+  "type": "score",
+  "teams": [
+   "A. S. CLERMONT SAINT JACQUES FOOT 3",
+   "C.S. DE VOLVIC 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "21",
+  "match": {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+   "away": "C.S. DE VOLVIC 1",
+   "hs": 2,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9634_9003_15563_41030_34053_1-0",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 1",
+   "FOOTBALL CLUB PUY DE MUR 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 1",
+   "away": "FOOTBALL CLUB PUY DE MUR 3",
+   "hs": 10,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9634_9003_15563_41030_34053_1-1",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "C.S. PONT DU CHATEAU 1",
+   "REV.AM.S. BEAUREGARD L'EVEQUE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "C.S. PONT DU CHATEAU 1",
+   "away": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "hs": 10,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9634_9003_15563_41030_34053_1-2",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "FOOTBALL CLUB PUY DE MUR 3",
+   "F.C. COURNON D AUVERGNE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "FOOTBALL CLUB PUY DE MUR 3",
+   "away": "F.C. COURNON D AUVERGNE 2",
+   "hs": 6,
+   "as": 14
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9634_9003_15563_41030_34053_1-3",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "F.C. COURNON D AUVERGNE 2",
+   "C.S. PONT DU CHATEAU 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "F.C. COURNON D AUVERGNE 2",
+   "away": "C.S. PONT DU CHATEAU 1",
+   "hs": 3,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9634_9003_15563_41030_34053_1-4",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "FOOTBALL CLUB PUY DE MUR 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "7",
+  "match": {
+   "home": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
+   "away": "FOOTBALL CLUB PUY DE MUR 1",
+   "hs": 0,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9634_9003_15563_41032_34053_1-5",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "U.S. VAL DE COUZE CHAMBON 1",
+   "U.S. VIC LE COMTE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "9",
+  "match": {
+   "home": "U.S. VAL DE COUZE CHAMBON 1",
+   "away": "U.S. VIC LE COMTE 1",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9634_9003_15563_41032_34053_1-6",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "U.S. LES MARTRES DE VEYRE 2",
+   "GROUPEMENT DE L'AUZON 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "9",
+  "match": {
+   "home": "U.S. LES MARTRES DE VEYRE 2",
+   "away": "GROUPEMENT DE L'AUZON 2",
+   "hs": 5,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9634_9003_15563_41032_34053_1-7",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "U.S. VIC LE COMTE 1",
+   "C.O. VEYRE MONTON 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "9",
+  "match": {
+   "home": "U.S. VIC LE COMTE 1",
+   "away": "C.O. VEYRE MONTON 1",
+   "hs": 0,
+   "as": 4
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9634_9003_15563_41032_34053_1-8",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "U.S. VIC LE COMTE 3",
+   "U.S. LES MARTRES DE VEYRE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "9",
+  "match": {
+   "home": "U.S. VIC LE COMTE 3",
+   "away": "U.S. LES MARTRES DE VEYRE 2",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9634_9003_15563_41032_34053_1-9",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "C.O. VEYRE MONTON 1",
+   "GROUPEMENT DE L'AUZON 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "9",
+  "match": {
+   "home": "C.O. VEYRE MONTON 1",
+   "away": "GROUPEMENT DE L'AUZON 2",
+   "hs": 7,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9634_9003_15563_41032_34053_1-10",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "U.S. VAL DE COUZE CHAMBON 1",
+   "U.S. VIC LE COMTE 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "9",
+  "match": {
+   "home": "U.S. VAL DE COUZE CHAMBON 1",
+   "away": "U.S. VIC LE COMTE 3",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9638_9007_15130_39906_38098_3-11",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "C.S. PONT DU CHATEAU 2",
+   "AULNAT SP. 1"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "C.S. PONT DU CHATEAU 2",
+   "away": "AULNAT SP. 1",
+   "hs": 0,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9638_9007_15130_39906_38098_3-12",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "AULNAT SP. 1",
+   "F.C. LEZOUX 1"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "AULNAT SP. 1",
+   "away": "F.C. LEZOUX 1",
+   "hs": 4,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-22T07:11:01Z-9638_9007_15130_39906_38098_3-13",
+  "ts": "2026-09-22T07:11:01Z",
+  "type": "score",
+  "teams": [
+   "F.C. LEZOUX 1",
+   "C.S. PONT DU CHATEAU 2"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "B",
+  "match": {
+   "home": "F.C. LEZOUX 1",
+   "away": "C.S. PONT DU CHATEAU 2",
+   "hs": 6,
+   "as": 2
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9634_9003_15563_41029_34053_1-0",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "SANCY CHAVANON FOOT 1",
+   "F.C. PLAUZAT-CHAMPEIX 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "6",
+  "match": {
+   "home": "SANCY CHAVANON FOOT 1",
+   "away": "F.C. PLAUZAT-CHAMPEIX 1",
+   "hs": 0,
+   "as": 9
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9634_9003_15563_41029_34053_1-1",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "U.S. ISSOIRE A. DU MAS 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "6",
+  "match": {
+   "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "away": "U.S. ISSOIRE A. DU MAS 1",
+   "hs": 0,
+   "as": 10
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9634_9003_15563_41029_34053_1-2",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "F.C. PLAUZAT-CHAMPEIX 2",
+   "U.S. ISSOIRE A. DU MAS 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "6",
+  "match": {
+   "home": "F.C. PLAUZAT-CHAMPEIX 2",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": 1,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9634_9003_15563_41029_34053_1-3",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "F.C. PLAUZAT-CHAMPEIX 1",
+   "F.C. PLAUZAT-CHAMPEIX 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "6",
+  "match": {
+   "home": "F.C. PLAUZAT-CHAMPEIX 1",
+   "away": "F.C. PLAUZAT-CHAMPEIX 2",
+   "hs": 5,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9634_9003_15563_41029_34053_1-4",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "SANCY CHAVANON FOOT 1",
+   "AM. LAIQ. S. DE BESSE EGLISENEUVE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "6",
+  "match": {
+   "home": "SANCY CHAVANON FOOT 1",
+   "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9634_9003_15563_41029_34053_1-5",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "U.S. ISSOIRE A. DU MAS 1",
+   "U.S. ISSOIRE A. DU MAS 3"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "6",
+  "match": {
+   "home": "U.S. ISSOIRE A. DU MAS 1",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": 8,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9634_9003_15563_41036_34053_1-6",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "GROUPEMENT FORMATEUR LIMAGNE 2"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "13",
+  "match": {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
+   "hs": 10,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9634_9003_15563_41036_34053_1-7",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "GROUPEMENT FORMATEUR LIMAGNE 2",
+   "U.S. ENNEZAT 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "13",
+  "match": {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 2",
+   "away": "U.S. ENNEZAT 1",
+   "hs": 1,
+   "as": 8
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9634_9003_15563_41036_34053_1-8",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "U.S. ENNEZAT 1",
+   "F.C. RIOMOIS 4"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "13",
+  "match": {
+   "home": "U.S. ENNEZAT 1",
+   "away": "F.C. RIOMOIS 4",
+   "hs": 1,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9634_9003_15563_41036_34053_1-9",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "F.C. RIOMOIS 5",
+   "GROUPEMENT FORMATEUR LIMAGNE 1"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "13",
+  "match": {
+   "home": "F.C. RIOMOIS 5",
+   "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "hs": 1,
+   "as": 8
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9634_9003_15563_41036_34053_1-10",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "F.C. RIOMOIS 4",
+   "F.C. RIOMOIS 5"
+  ],
+  "cat": "u10-u11",
+  "phase": 1,
+  "poule": "13",
+  "match": {
+   "home": "F.C. RIOMOIS 4",
+   "away": "F.C. RIOMOIS 5",
+   "hs": 3,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9638_9007_15130_39907_38098_2-11",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "F. C. CLERMONT METROPOLE 2",
+   "ESP. CEYRATOISE 2"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "C",
+  "match": {
+   "home": "F. C. CLERMONT METROPOLE 2",
+   "away": "ESP. CEYRATOISE 2",
+   "hs": 7,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9638_9007_15130_39907_38098_2-12",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "U.S. ST GERVAISIENNE 1",
+   "ESP. CEYRATOISE 2"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "C",
+  "match": {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "ESP. CEYRATOISE 2",
+   "hs": 0,
+   "as": 1
+  }
+ },
+ {
+  "id": "2026-09-21T21:24:51Z-9638_9007_15130_39907_38098_2-13",
+  "ts": "2026-09-21T21:24:51Z",
+  "type": "score",
+  "teams": [
+   "U.S. ST GERVAISIENNE 1",
+   "F. C. CLERMONT METROPOLE 2"
+  ],
+  "cat": "u13-d2",
+  "phase": 1,
+  "poule": "C",
+  "match": {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "F. C. CLERMONT METROPOLE 2",
+   "hs": 1,
+   "as": 5
+  }
+ },
+ {
+  "id": "2026-09-21T18:31:24Z-9639_9008_15559_40730_38101_1-0",
+  "ts": "2026-09-21T18:31:24Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "U.S. COURPIEROISE 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "U.S. COURPIEROISE 2",
+   "hs": 3,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-21T18:31:24Z-9639_9008_15559_40730_38101_1-1",
+  "ts": "2026-09-21T18:31:24Z",
+  "type": "score",
+  "teams": [
+   "F.C. PLAUZAT-CHAMPEIX 1",
+   "U.S. VIC LE COMTE 3"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "F.C. PLAUZAT-CHAMPEIX 1",
+   "away": "U.S. VIC LE COMTE 3",
+   "hs": 6,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-21T18:31:24Z-9639_9008_15559_40730_38101_1-2",
+  "ts": "2026-09-21T18:31:24Z",
+  "type": "score",
+  "teams": [
+   "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "F.C. PLAUZAT-CHAMPEIX 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "F.C. PLAUZAT-CHAMPEIX 1",
+   "hs": 0,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-21T18:31:24Z-9639_9008_15559_40730_38101_1-3",
+  "ts": "2026-09-21T18:31:24Z",
+  "type": "score",
+  "teams": [
+   "U.S. COURPIEROISE 2",
+   "U.S. VIC LE COMTE 3"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "I",
+  "match": {
+   "home": "U.S. COURPIEROISE 2",
+   "away": "U.S. VIC LE COMTE 3",
+   "hs": 0,
+   "as": 3
+  }
+ },
+ {
+  "id": "2026-09-21T17:26:38Z-9639_9008_15559_40722_38101_3-0",
+  "ts": "2026-09-21T17:26:38Z",
+  "type": "score",
+  "teams": [
+   "E.S. ST GERMINOISE 1",
+   "C.O. VEYRE MONTON 2"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "E.S. ST GERMINOISE 1",
+   "away": "C.O. VEYRE MONTON 2",
+   "hs": 1,
+   "as": 0
+  }
+ },
+ {
+  "id": "2026-09-21T17:26:38Z-9639_9008_15559_40722_38101_3-1",
+  "ts": "2026-09-21T17:26:38Z",
+  "type": "score",
+  "teams": [
+   "U.S. ISSOIRE A. DU MAS 3",
+   "E.S. ST GERMINOISE 1"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "U.S. ISSOIRE A. DU MAS 3",
+   "away": "E.S. ST GERMINOISE 1",
+   "hs": 0,
+   "as": 6
+  }
+ },
+ {
+  "id": "2026-09-21T17:26:38Z-9639_9008_15559_40722_38101_3-2",
+  "ts": "2026-09-21T17:26:38Z",
+  "type": "score",
+  "teams": [
+   "C.O. VEYRE MONTON 2",
+   "U.S. ISSOIRE A. DU MAS 3"
+  ],
+  "cat": "u13-brassage",
+  "phase": 1,
+  "poule": "A",
+  "match": {
+   "home": "C.O. VEYRE MONTON 2",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": 1,
+   "as": 5
+  }
+ }
+]

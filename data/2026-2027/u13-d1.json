@@ -1,0 +1,838 @@
+{
+ "id": "u13-d1",
+ "label": "U13 D1",
+ "group": "u13",
+ "fal_id": 9637,
+ "kind": null,
+ "season": "2026-2027",
+ "logos": {
+  "A. S. CLERMONT SAINT JACQUES FOOT 1": "logos/BC525985.jpg",
+  "A.S. MONTFERRANDAISE 2": "logos/BC508763.jpg",
+  "A.S. MONTFERRANDAISE 3": "logos/BC508763.jpg",
+  "A.S. ROYAT A.C. 1": "logos/BC524117.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1": "logos/BC564515.jpg",
+  "C.S. PONT DU CHATEAU 1": "logos/BC520152.jpg",
+  "CEBAZAT SP. 1": "logos/BC510828.jpg",
+  "CLERMONT FOOT 63 2": "logos/BC535789.jpg",
+  "ECUREUILS FRANC ROSIER 1": "logos/BC526932.jpg",
+  "ESP. CEYRATOISE 1": "logos/BC529030.jpg",
+  "F.C. COURNON D AUVERGNE 1": "logos/BC547699.jpg",
+  "F.C. RIOMOIS 1": "logos/BC508772.jpg",
+  "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1": "logos/BC560797.jpg",
+  "GJ SCB FOOT 1": "logos/BC560516.jpg",
+  "GROUPEMENT DE L'AUZON 1": "logos/BC581946.jpg",
+  "GROUPEMENT FORMATEUR LIMAGNE 1": "logos/BC554404.jpg",
+  "S.A. THIERNOIS 1": "logos/BC508776.jpg",
+  "U.S. ISSOIRE A. DU MAS 1": "logos/BC506507.jpg"
+ },
+ "phases": [
+  {
+   "n": 1,
+   "label": "Phase 1",
+   "poules": [
+    {
+     "id": "A",
+     "label": "Poule A",
+     "teams": [
+      "A.S. MONTFERRANDAISE 3",
+      "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+      "C.S. PONT DU CHATEAU 1",
+      "CEBAZAT SP. 1",
+      "ECUREUILS FRANC ROSIER 1",
+      "ESP. CEYRATOISE 1",
+      "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+      "GROUPEMENT DE L'AUZON 1",
+      "U.S. ISSOIRE A. DU MAS 1"
+     ],
+     "plateaux": [
+      {
+       "id": "9637_9006_15129_39903_34062_1",
+       "start": "2026-09-12T14:00",
+       "lieu": "ARLANC - STADE JEAN PAUL CRONIE",
+       "organisateur": "AMBERT LIVRADOIS SUD",
+       "equipes": [
+        "CEBAZAT SP. 1",
+        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+        "ECUREUILS FRANC ROSIER 1"
+       ],
+       "matchs": [
+        {
+         "home": "CEBAZAT SP. 1",
+         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+         "hs": 0,
+         "as": 9
+        },
+        {
+         "home": "ECUREUILS FRANC ROSIER 1",
+         "away": "CEBAZAT SP. 1",
+         "hs": 3,
+         "as": 0
+        },
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+         "away": "ECUREUILS FRANC ROSIER 1",
+         "hs": 2,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39903_34062_2",
+       "start": "2026-09-12T14:00",
+       "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE VAURY",
+       "organisateur": "ISSOIRE US",
+       "equipes": [
+        "U.S. ISSOIRE A. DU MAS 1",
+        "GROUPEMENT DE L'AUZON 1",
+        "ESP. CEYRATOISE 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. ISSOIRE A. DU MAS 1",
+         "away": "GROUPEMENT DE L'AUZON 1",
+         "hs": 0,
+         "as": 1
+        },
+        {
+         "home": "ESP. CEYRATOISE 1",
+         "away": "GROUPEMENT DE L'AUZON 1",
+         "hs": 1,
+         "as": 1
+        },
+        {
+         "home": "ESP. CEYRATOISE 1",
+         "away": "U.S. ISSOIRE A. DU MAS 1",
+         "hs": 5,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39903_34062_3",
+       "start": "2026-09-12T14:00",
+       "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+       "organisateur": "C.S. PONT DU CHATEAU",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 1",
+        "A.S. MONTFERRANDAISE 3",
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1"
+       ],
+       "matchs": [
+        {
+         "home": "C.S. PONT DU CHATEAU 1",
+         "away": "A.S. MONTFERRANDAISE 3",
+         "hs": 0,
+         "as": 2
+        },
+        {
+         "home": "C.S. PONT DU CHATEAU 1",
+         "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+         "hs": 4,
+         "as": 0
+        },
+        {
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+         "hs": 9,
+         "as": 1
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39903_38104_1",
+       "start": "2026-09-19T13:30",
+       "lieu": "CEYRAT - STADE OLIVIER VERNADAL",
+       "organisateur": "CEYRAT",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 1",
+        "ESP. CEYRATOISE 1",
+        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1"
+       ],
+       "matchs": [
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+         "away": "ESP. CEYRATOISE 1",
+         "hs": 0,
+         "as": 1
+        },
+        {
+         "home": "ESP. CEYRATOISE 1",
+         "away": "C.S. PONT DU CHATEAU 1",
+         "hs": 0,
+         "as": 0
+        },
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+         "away": "C.S. PONT DU CHATEAU 1",
+         "hs": 2,
+         "as": 1
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39903_38104_2",
+       "start": "2026-09-19T14:00",
+       "lieu": "CLERMONT FERRAND - STADE COLONEL BOUTET",
+       "organisateur": "CLERM FRANC R",
+       "equipes": [
+        "ECUREUILS FRANC ROSIER 1",
+        "A.S. MONTFERRANDAISE 3",
+        "U.S. ISSOIRE A. DU MAS 1"
+       ],
+       "matchs": [
+        {
+         "home": "ECUREUILS FRANC ROSIER 1",
+         "away": "U.S. ISSOIRE A. DU MAS 1",
+         "hs": 4,
+         "as": 2
+        },
+        {
+         "home": "U.S. ISSOIRE A. DU MAS 1",
+         "away": "A.S. MONTFERRANDAISE 3",
+         "hs": 0,
+         "as": 1
+        },
+        {
+         "home": "ECUREUILS FRANC ROSIER 1",
+         "away": "A.S. MONTFERRANDAISE 3",
+         "hs": 1,
+         "as": 1
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39903_38104_3",
+       "start": "2026-09-19T14:00",
+       "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+       "organisateur": "CEBAZAT SP.",
+       "equipes": [
+        "GROUPEMENT DE L'AUZON 1",
+        "CEBAZAT SP. 1",
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1"
+       ],
+       "matchs": [
+        {
+         "home": "GROUPEMENT DE L'AUZON 1",
+         "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+         "hs": 4,
+         "as": 1
+        },
+        {
+         "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+         "away": "CEBAZAT SP. 1",
+         "hs": 0,
+         "as": 4
+        },
+        {
+         "home": "CEBAZAT SP. 1",
+         "away": "GROUPEMENT DE L'AUZON 1",
+         "hs": 0,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39903_38105_1",
+       "start": "2026-10-03T14:00",
+       "lieu": "LE CENDRE - STADE JEAN JAURÈS 1",
+       "organisateur": "GRPT DE L'AUZON",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 3",
+        "GROUPEMENT DE L'AUZON 1",
+        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1"
+       ],
+       "matchs": [
+        {
+         "home": "GROUPEMENT DE L'AUZON 1",
+         "away": "A.S. MONTFERRANDAISE 3",
+         "hs": 0,
+         "as": 7
+        },
+        {
+         "home": "GROUPEMENT DE L'AUZON 1",
+         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+         "hs": 0,
+         "as": 1
+        },
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+         "away": "A.S. MONTFERRANDAISE 3",
+         "hs": 1,
+         "as": 2
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39903_38105_2",
+       "start": "2026-10-03T14:00",
+       "lieu": "ST BABEL - COMPLEXE SPORTIF DES MOULINS",
+       "organisateur": "FC2SBB",
+       "equipes": [
+        "ESP. CEYRATOISE 1",
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+        "ECUREUILS FRANC ROSIER 1"
+       ],
+       "matchs": [
+        {
+         "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+         "away": "ECUREUILS FRANC ROSIER 1",
+         "hs": 2,
+         "as": 7
+        },
+        {
+         "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+         "away": "ESP. CEYRATOISE 1",
+         "hs": 0,
+         "as": 9
+        },
+        {
+         "home": "ESP. CEYRATOISE 1",
+         "away": "ECUREUILS FRANC ROSIER 1",
+         "hs": 2,
+         "as": 3
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39903_38105_3",
+       "start": "2026-10-03T15:30",
+       "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+       "organisateur": "CEBAZAT SP.",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 1",
+        "CEBAZAT SP. 1",
+        "U.S. ISSOIRE A. DU MAS 1"
+       ],
+       "matchs": [
+        {
+         "home": "C.S. PONT DU CHATEAU 1",
+         "away": "CEBAZAT SP. 1",
+         "hs": 1,
+         "as": 0
+        },
+        {
+         "home": "U.S. ISSOIRE A. DU MAS 1",
+         "away": "CEBAZAT SP. 1",
+         "hs": 2,
+         "as": 1
+        },
+        {
+         "home": "U.S. ISSOIRE A. DU MAS 1",
+         "away": "C.S. PONT DU CHATEAU 1",
+         "hs": 1,
+         "as": 1
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39903_38106_1",
+       "start": "2026-10-10T14:00",
+       "lieu": "AMBERT - STADE MUNICIPAL 2",
+       "organisateur": "AMBERT LIVRADOIS SUD",
+       "equipes": [
+        "U.S. ISSOIRE A. DU MAS 1",
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1"
+       ],
+       "matchs": [
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+         "away": "U.S. ISSOIRE A. DU MAS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+         "away": "U.S. ISSOIRE A. DU MAS 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39903_38106_2",
+       "start": "2026-10-10T14:00",
+       "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+       "organisateur": "C.S. PONT DU CHATEAU",
+       "equipes": [
+        "ECUREUILS FRANC ROSIER 1",
+        "C.S. PONT DU CHATEAU 1",
+        "GROUPEMENT DE L'AUZON 1"
+       ],
+       "matchs": [
+        {
+         "home": "ECUREUILS FRANC ROSIER 1",
+         "away": "GROUPEMENT DE L'AUZON 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "ECUREUILS FRANC ROSIER 1",
+         "away": "C.S. PONT DU CHATEAU 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "C.S. PONT DU CHATEAU 1",
+         "away": "GROUPEMENT DE L'AUZON 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39903_38106_3",
+       "start": "2026-10-10T14:00",
+       "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+       "organisateur": "MONTFERRAND A.S.",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 3",
+        "ESP. CEYRATOISE 1",
+        "CEBAZAT SP. 1"
+       ],
+       "matchs": [
+        {
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "ESP. CEYRATOISE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "CEBAZAT SP. 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "CEBAZAT SP. 1",
+         "away": "ESP. CEYRATOISE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "B",
+     "label": "Poule B",
+     "teams": [
+      "A. S. CLERMONT SAINT JACQUES FOOT 1",
+      "A.S. MONTFERRANDAISE 2",
+      "A.S. ROYAT A.C. 1",
+      "CLERMONT FOOT 63 2",
+      "F.C. COURNON D AUVERGNE 1",
+      "F.C. RIOMOIS 1",
+      "GJ SCB FOOT 1",
+      "GROUPEMENT FORMATEUR LIMAGNE 1",
+      "S.A. THIERNOIS 1"
+     ],
+     "plateaux": [
+      {
+       "id": "9637_9006_15129_39904_34062_2",
+       "start": "2026-09-12T14:00",
+       "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+       "organisateur": "MONTFERRAND A.S.",
+       "equipes": [
+        "F.C. RIOMOIS 1",
+        "A.S. MONTFERRANDAISE 2",
+        "F.C. COURNON D AUVERGNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. RIOMOIS 1",
+         "away": "A.S. MONTFERRANDAISE 2",
+         "hs": 0,
+         "as": 5
+        },
+        {
+         "home": "A.S. MONTFERRANDAISE 2",
+         "away": "F.C. COURNON D AUVERGNE 1",
+         "hs": 6,
+         "as": 0
+        },
+        {
+         "home": "F.C. RIOMOIS 1",
+         "away": "F.C. COURNON D AUVERGNE 1",
+         "hs": 1,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39904_34062_3",
+       "start": "2026-09-12T14:00",
+       "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
+       "organisateur": "GJ SCB FOOT",
+       "equipes": [
+        "GJ SCB FOOT 1",
+        "A. S. CLERMONT SAINT JACQUES FOOT 1",
+        "GROUPEMENT FORMATEUR LIMAGNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "GJ SCB FOOT 1",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "hs": 2,
+         "as": 0
+        },
+        {
+         "home": "GJ SCB FOOT 1",
+         "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "hs": 7,
+         "as": 0
+        },
+        {
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "hs": 4,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39904_34062_1",
+       "start": "2026-09-12T14:30",
+       "lieu": "CLERMONT FERRAND - STADE CAMILLE LECLANCHE N°3",
+       "organisateur": "CLERMONT FOOT 63",
+       "equipes": [
+        "CLERMONT FOOT 63 2",
+        "S.A. THIERNOIS 1",
+        "A.S. ROYAT A.C. 1"
+       ],
+       "matchs": [
+        {
+         "home": "S.A. THIERNOIS 1",
+         "away": "A.S. ROYAT A.C. 1",
+         "hs": 5,
+         "as": 2
+        },
+        {
+         "home": "CLERMONT FOOT 63 2",
+         "away": "S.A. THIERNOIS 1",
+         "hs": 2,
+         "as": 1
+        },
+        {
+         "home": "A.S. ROYAT A.C. 1",
+         "away": "CLERMONT FOOT 63 2",
+         "hs": 0,
+         "as": 5
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39904_38104_2",
+       "start": "2026-09-19T13:30",
+       "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+       "organisateur": "MONTFERRAND A.S.",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 2",
+        "A. S. CLERMONT SAINT JACQUES FOOT 1",
+        "A.S. ROYAT A.C. 1"
+       ],
+       "matchs": [
+        {
+         "home": "A.S. ROYAT A.C. 1",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A.S. ROYAT A.C. 1",
+         "away": "A.S. MONTFERRANDAISE 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A.S. MONTFERRANDAISE 2",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39904_38104_1",
+       "start": "2026-09-19T14:00",
+       "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+       "organisateur": "THIERS SA",
+       "equipes": [
+        "S.A. THIERNOIS 1",
+        "GJ SCB FOOT 1",
+        "F.C. RIOMOIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "S.A. THIERNOIS 1",
+         "away": "GJ SCB FOOT 1",
+         "hs": 6,
+         "as": 0
+        },
+        {
+         "home": "F.C. RIOMOIS 1",
+         "away": "GJ SCB FOOT 1",
+         "hs": 0,
+         "as": 0
+        },
+        {
+         "home": "S.A. THIERNOIS 1",
+         "away": "F.C. RIOMOIS 1",
+         "hs": 3,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39904_38104_3",
+       "start": "2026-09-19T14:00",
+       "lieu": "COURNON D AUVERGNE - PLAINE DE JEUX 2",
+       "organisateur": "COURNON FC",
+       "equipes": [
+        "GROUPEMENT FORMATEUR LIMAGNE 1",
+        "CLERMONT FOOT 63 2",
+        "F.C. COURNON D AUVERGNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. COURNON D AUVERGNE 1",
+         "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "hs": 4,
+         "as": 1
+        },
+        {
+         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "away": "CLERMONT FOOT 63 2",
+         "hs": 4,
+         "as": 0
+        },
+        {
+         "home": "CLERMONT FOOT 63 2",
+         "away": "F.C. COURNON D AUVERGNE 1",
+         "hs": 4,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39904_38105_1",
+       "start": "2026-10-03T13:30",
+       "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+       "organisateur": "THIERS SA",
+       "equipes": [
+        "S.A. THIERNOIS 1",
+        "A. S. CLERMONT SAINT JACQUES FOOT 1",
+        "F.C. COURNON D AUVERGNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "S.A. THIERNOIS 1",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "hs": 2,
+         "as": 0
+        },
+        {
+         "home": "F.C. COURNON D AUVERGNE 1",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "hs": 3,
+         "as": 3
+        },
+        {
+         "home": "F.C. COURNON D AUVERGNE 1",
+         "away": "S.A. THIERNOIS 1",
+         "hs": 0,
+         "as": 4
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39904_38105_2",
+       "start": "2026-10-03T14:00",
+       "lieu": "ROYAT - STADE DU BREUIL",
+       "organisateur": "A.S. ROYAT A.C.",
+       "equipes": [
+        "A.S. ROYAT A.C. 1",
+        "F.C. RIOMOIS 1",
+        "GROUPEMENT FORMATEUR LIMAGNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "away": "A.S. ROYAT A.C. 1",
+         "hs": 2,
+         "as": 2
+        },
+        {
+         "home": "F.C. RIOMOIS 1",
+         "away": "A.S. ROYAT A.C. 1",
+         "hs": 3,
+         "as": 0
+        },
+        {
+         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "away": "F.C. RIOMOIS 1",
+         "hs": 0,
+         "as": 8
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39904_38105_3",
+       "start": "2026-10-03T14:00",
+       "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+       "organisateur": "CLERMONT FOOT 63",
+       "equipes": [
+        "GJ SCB FOOT 1",
+        "CLERMONT FOOT 63 2",
+        "A.S. MONTFERRANDAISE 2"
+       ],
+       "matchs": [
+        {
+         "home": "GJ SCB FOOT 1",
+         "away": "CLERMONT FOOT 63 2",
+         "hs": 0,
+         "as": 7
+        },
+        {
+         "home": "A.S. MONTFERRANDAISE 2",
+         "away": "CLERMONT FOOT 63 2",
+         "hs": 1,
+         "as": 2
+        },
+        {
+         "home": "A.S. MONTFERRANDAISE 2",
+         "away": "GJ SCB FOOT 1",
+         "hs": 2,
+         "as": 0
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39904_38106_1",
+       "start": "2026-10-10T14:00",
+       "lieu": "CHAPPES - STADE LES POINTILLOUX 1",
+       "organisateur": "GF LIMAGNE",
+       "equipes": [
+        "GROUPEMENT FORMATEUR LIMAGNE 1",
+        "A.S. MONTFERRANDAISE 2",
+        "S.A. THIERNOIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "away": "A.S. MONTFERRANDAISE 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "away": "S.A. THIERNOIS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "S.A. THIERNOIS 1",
+         "away": "A.S. MONTFERRANDAISE 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39904_38106_2",
+       "start": "2026-10-10T14:00",
+       "lieu": "COURNON D AUVERGNE - PLAINE DE JEUX 2",
+       "organisateur": "COURNON FC",
+       "equipes": [
+        "A.S. ROYAT A.C. 1",
+        "GJ SCB FOOT 1",
+        "F.C. COURNON D AUVERGNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "A.S. ROYAT A.C. 1",
+         "away": "GJ SCB FOOT 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A.S. ROYAT A.C. 1",
+         "away": "F.C. COURNON D AUVERGNE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "GJ SCB FOOT 1",
+         "away": "F.C. COURNON D AUVERGNE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "9637_9006_15129_39904_38106_3",
+       "start": "2026-10-10T14:00",
+       "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+       "organisateur": "RIOM FC",
+       "equipes": [
+        "F.C. RIOMOIS 1",
+        "A. S. CLERMONT SAINT JACQUES FOOT 1",
+        "CLERMONT FOOT 63 2"
+       ],
+       "matchs": [
+        {
+         "home": "CLERMONT FOOT 63 2",
+         "away": "F.C. RIOMOIS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "away": "F.C. RIOMOIS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "away": "CLERMONT FOOT 63 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "season": "2026-2027",
+ "checked_at": "2026-10-05T15:32:31Z",
+ "updated_at": "2026-10-05T15:32:31Z",
+ "ntfy": {
+  "server": "https://ntfy.sh",
+  "prefix": "foot63"
+ },
+ "categories": [
+  {
+   "id": "u10-u11",
+   "label": "U10-U11",
+   "group": "u10-u11",
+   "file": "2026-2027/u10-u11.json"
+  },
+  {
+   "id": "u13-brassage",
+   "label": "U13 Brassage",
+   "group": "u13",
+   "file": "2026-2027/u13-brassage.json"
+  },
+  {
+   "id": "u13-d2",
+   "label": "U13 D2",
+   "group": "u13",
+   "file": "2026-2027/u13-d2.json"
+  },
+  {
+   "id": "u13-d1",
+   "label": "U13 D1",
+   "group": "u13",
+   "file": "2026-2027/u13-d1.json"
+  },
+  {
+   "id": "u13-festival",
+   "label": "Festival U13",
+   "group": "u13",
+   "file": "2026-2027/u13-festival.json"
+  }
+ ]
+}
