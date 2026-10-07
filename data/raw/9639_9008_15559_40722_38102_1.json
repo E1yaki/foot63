@@ -1,0 +1,101 @@
+{
+ "id": "9639_9008_15559_40722_38102_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-10-03T14:00",
+ "lieu": "ST GERMAIN LEMBRON - STADE JEAN COUSTÈS 1",
+ "organisateur": "ST GERMAIN LEMBRON",
+ "equipes": [
+  "E.S. ST GERMINOISE 1",
+  "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+  "U.S. VAL DE COUZE CHAMBON 1"
+ ],
+ "logos": {
+  "E.S. ST GERMINOISE 1": "logos/BC516806.jpg",
+  "AM. LAIQ. S. DE BESSE EGLISENEUVE 1": "logos/BC529900.jpg",
+  "U.S. VAL DE COUZE CHAMBON 1": "logos/BC542828.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "away": "U.S. VAL DE COUZE CHAMBON 1",
+   "hs": 1,
+   "as": 2
+  },
+  {
+   "home": "E.S. ST GERMINOISE 1",
+   "away": "U.S. VAL DE COUZE CHAMBON 1",
+   "hs": 0,
+   "as": 0
+  },
+  {
+   "home": "E.S. ST GERMINOISE 1",
+   "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "hs": 8,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-10-05T15:30:36Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ST GERMAIN LEMBRON - STADE JEAN COUSTÈS 1",
+   "matchs": [
+    {
+     "home": "E.S. ST GERMINOISE 1",
+     "away": "U.S. VAL DE COUZE CHAMBON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "E.S. ST GERMINOISE 1",
+     "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "U.S. VAL DE COUZE CHAMBON 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T15:30:36Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ST GERMAIN LEMBRON - STADE JEAN COUSTÈS 1",
+   "matchs": [
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "U.S. VAL DE COUZE CHAMBON 1",
+     "hs": 1,
+     "as": 2
+    },
+    {
+     "home": "E.S. ST GERMINOISE 1",
+     "away": "U.S. VAL DE COUZE CHAMBON 1",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "E.S. ST GERMINOISE 1",
+     "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "hs": 8,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

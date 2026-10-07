@@ -1,0 +1,74 @@
+{
+ "id": "9637_9006_15129_39904_38106_1",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-10-10T14:00",
+ "lieu": "CHAPPES - STADE LES POINTILLOUX 1",
+ "organisateur": "GF LIMAGNE",
+ "equipes": [
+  "GROUPEMENT FORMATEUR LIMAGNE 1",
+  "A.S. MONTFERRANDAISE 2",
+  "S.A. THIERNOIS 1"
+ ],
+ "logos": {
+  "GROUPEMENT FORMATEUR LIMAGNE 1": "logos/BC554404.jpg",
+  "A.S. MONTFERRANDAISE 2": "logos/BC508763.jpg",
+  "S.A. THIERNOIS 1": "logos/BC508776.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "away": "A.S. MONTFERRANDAISE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "away": "S.A. THIERNOIS 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "S.A. THIERNOIS 1",
+   "away": "A.S. MONTFERRANDAISE 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "CHAPPES - STADE LES POINTILLOUX 1",
+   "matchs": [
+    {
+     "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "away": "S.A. THIERNOIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

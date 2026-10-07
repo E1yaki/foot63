@@ -1,0 +1,74 @@
+{
+ "id": "9638_9007_15130_39905_34063_3",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-09-12T14:00",
+ "lieu": "CLERMONT FERRAND - STADE COLONEL BOUTET",
+ "organisateur": "CLERM FRANC R",
+ "equipes": [
+  "A. S. CLERMONT SAINT JACQUES FOOT 2",
+  "ECUREUILS FRANC ROSIER 2",
+  "F.C. AUBIEROIS 1"
+ ],
+ "logos": {
+  "A. S. CLERMONT SAINT JACQUES FOOT 2": "logos/BC525985.jpg",
+  "ECUREUILS FRANC ROSIER 2": "logos/BC526932.jpg",
+  "F.C. AUBIEROIS 1": "logos/BC533145.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. AUBIEROIS 1",
+   "away": "ECUREUILS FRANC ROSIER 2",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "F.C. AUBIEROIS 1",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "hs": 0,
+   "as": 10
+  },
+  {
+   "home": "ECUREUILS FRANC ROSIER 2",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "hs": 0,
+   "as": 5
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "CLERMONT FERRAND - STADE COLONEL BOUTET",
+   "matchs": [
+    {
+     "home": "F.C. AUBIEROIS 1",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": 2,
+     "as": 2
+    },
+    {
+     "home": "F.C. AUBIEROIS 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "hs": 0,
+     "as": 10
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 2",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "hs": 0,
+     "as": 5
+    }
+   ]
+  }
+ ]
+}

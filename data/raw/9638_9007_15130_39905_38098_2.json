@@ -1,0 +1,124 @@
+{
+ "id": "9638_9007_15130_39905_38098_2",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-09-19T14:00",
+ "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+ "organisateur": "VIC LE COMTE U.S.",
+ "equipes": [
+  "ENT.F.C. ST AMANT ET TALLENDE 1",
+  "U.S. VIC LE COMTE 1",
+  "ECUREUILS FRANC ROSIER 2"
+ ],
+ "logos": {
+  "ENT.F.C. ST AMANT ET TALLENDE 1": "logos/BC546413.jpg",
+  "U.S. VIC LE COMTE 1": "logos/BC506559.jpg",
+  "ECUREUILS FRANC ROSIER 2": "logos/BC526932.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. VIC LE COMTE 1",
+   "away": "ECUREUILS FRANC ROSIER 2",
+   "hs": 6,
+   "as": 0
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "away": "ECUREUILS FRANC ROSIER 2",
+   "hs": 7,
+   "as": 1
+  },
+  {
+   "home": "U.S. VIC LE COMTE 1",
+   "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "hs": 0,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:38:24Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 1",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": null,
+     "as": 1
+    },
+    {
+     "home": "U.S. VIC LE COMTE 1",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "hs": 0,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:18:59Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 1",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": null,
+     "as": 0
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": 7,
+     "as": 1
+    },
+    {
+     "home": "U.S. VIC LE COMTE 1",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "hs": 0,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:38:24Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 1",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": 6,
+     "as": 0
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": 7,
+     "as": 1
+    },
+    {
+     "home": "U.S. VIC LE COMTE 1",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "hs": 0,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

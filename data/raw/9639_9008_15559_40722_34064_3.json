@@ -1,0 +1,99 @@
+{
+ "id": "9639_9008_15559_40722_34064_3",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-09-12T14:00",
+ "lieu": "COUDES - STADE ROGER FOURNIER",
+ "organisateur": "VAL DE COUZE",
+ "equipes": [
+  "U.S. VAL DE COUZE CHAMBON 1",
+  "UNION SPORTIVE BASSIN MINIER 2",
+  "C.O. VEYRE MONTON 2"
+ ],
+ "logos": {
+  "U.S. VAL DE COUZE CHAMBON 1": "logos/BC542828.jpg",
+  "UNION SPORTIVE BASSIN MINIER 2": "logos/BC560477.jpg",
+  "C.O. VEYRE MONTON 2": "logos/BC532169.jpg"
+ },
+ "matchs": [
+  {
+   "home": "UNION SPORTIVE BASSIN MINIER 2",
+   "away": "C.O. VEYRE MONTON 2",
+   "hs": 0,
+   "as": 7
+  },
+  {
+   "home": "UNION SPORTIVE BASSIN MINIER 2",
+   "away": "U.S. VAL DE COUZE CHAMBON 1",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "U.S. VAL DE COUZE CHAMBON 1",
+   "away": "C.O. VEYRE MONTON 2",
+   "hs": 1,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:18:59Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "COUDES - STADE ROGER FOURNIER",
+   "matchs": [
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 2",
+     "away": "C.O. VEYRE MONTON 2",
+     "hs": 0,
+     "as": null
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 2",
+     "away": "U.S. VAL DE COUZE CHAMBON 1",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "U.S. VAL DE COUZE CHAMBON 1",
+     "away": "C.O. VEYRE MONTON 2",
+     "hs": 1,
+     "as": 1
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:18:59Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "COUDES - STADE ROGER FOURNIER",
+   "matchs": [
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 2",
+     "away": "C.O. VEYRE MONTON 2",
+     "hs": 0,
+     "as": 7
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 2",
+     "away": "U.S. VAL DE COUZE CHAMBON 1",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "U.S. VAL DE COUZE CHAMBON 1",
+     "away": "C.O. VEYRE MONTON 2",
+     "hs": 1,
+     "as": 1
+    }
+   ]
+  }
+ ]
+}

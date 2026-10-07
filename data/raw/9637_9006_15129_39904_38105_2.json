@@ -1,0 +1,101 @@
+{
+ "id": "9637_9006_15129_39904_38105_2",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-10-03T14:00",
+ "lieu": "ROYAT - STADE DU BREUIL",
+ "organisateur": "A.S. ROYAT A.C.",
+ "equipes": [
+  "A.S. ROYAT A.C. 1",
+  "F.C. RIOMOIS 1",
+  "GROUPEMENT FORMATEUR LIMAGNE 1"
+ ],
+ "logos": {
+  "F.C. RIOMOIS 1": "logos/BC508772.jpg",
+  "A.S. ROYAT A.C. 1": "logos/BC524117.jpg",
+  "GROUPEMENT FORMATEUR LIMAGNE 1": "logos/BC554404.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "away": "A.S. ROYAT A.C. 1",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "F.C. RIOMOIS 1",
+   "away": "A.S. ROYAT A.C. 1",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "away": "F.C. RIOMOIS 1",
+   "hs": 0,
+   "as": 8
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T09:12:03Z",
+ "last_change": "2026-10-04T09:12:03Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ROYAT - STADE DU BREUIL",
+   "matchs": [
+    {
+     "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "away": "A.S. ROYAT A.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. RIOMOIS 1",
+     "away": "A.S. ROYAT A.C. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "away": "F.C. RIOMOIS 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T09:12:03Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ROYAT - STADE DU BREUIL",
+   "matchs": [
+    {
+     "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "away": "A.S. ROYAT A.C. 1",
+     "hs": 2,
+     "as": 2
+    },
+    {
+     "home": "F.C. RIOMOIS 1",
+     "away": "A.S. ROYAT A.C. 1",
+     "hs": 3,
+     "as": 0
+    },
+    {
+     "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "away": "F.C. RIOMOIS 1",
+     "hs": 0,
+     "as": 8
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

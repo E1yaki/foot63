@@ -1,0 +1,101 @@
+{
+ "id": "9638_9007_15130_39907_38098_2",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-09-19T14:00",
+ "lieu": "ST GERVAIS D AUVERGNE - STADE MUNICIPAL",
+ "organisateur": "ST GERVAIS U.S.",
+ "equipes": [
+  "ESP. CEYRATOISE 2",
+  "F. C. CLERMONT METROPOLE 2",
+  "U.S. ST GERVAISIENNE 1"
+ ],
+ "logos": {
+  "ESP. CEYRATOISE 2": "logos/BC529030.jpg",
+  "F. C. CLERMONT METROPOLE 2": "logos/BC582731.jpg",
+  "U.S. ST GERVAISIENNE 1": "logos/BC514515.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F. C. CLERMONT METROPOLE 2",
+   "away": "ESP. CEYRATOISE 2",
+   "hs": 7,
+   "as": 0
+  },
+  {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "ESP. CEYRATOISE 2",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "F. C. CLERMONT METROPOLE 2",
+   "hs": 1,
+   "as": 5
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T21:24:51Z",
+ "last_change": "2026-09-21T21:24:51Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ST GERVAIS D AUVERGNE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "F. C. CLERMONT METROPOLE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T21:24:51Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ST GERVAIS D AUVERGNE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": 7,
+     "as": 0
+    },
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "F. C. CLERMONT METROPOLE 2",
+     "hs": 1,
+     "as": 5
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

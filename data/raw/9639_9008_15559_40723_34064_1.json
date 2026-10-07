@@ -1,0 +1,101 @@
+{
+ "id": "9639_9008_15559_40723_34064_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-12T14:00",
+ "lieu": "ST GENES CHAMPANELLE - STADE MUNICIPAL",
+ "organisateur": "F.C. CHAMALIERES",
+ "equipes": [
+  "F.C. CHAMALIERES 2",
+  "U.S. BEAUMONTOISE 2",
+  "F.C. BLANZAT 2"
+ ],
+ "logos": {
+  "F.C. CHAMALIERES 2": "logos/BC520923.jpg",
+  "U.S. BEAUMONTOISE 2": "logos/BC508949.jpg",
+  "F.C. BLANZAT 2": "logos/BC533382.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. BLANZAT 2",
+   "away": "F.C. CHAMALIERES 2",
+   "hs": 0,
+   "as": 6
+  },
+  {
+   "home": "F.C. CHAMALIERES 2",
+   "away": "U.S. BEAUMONTOISE 2",
+   "hs": 3,
+   "as": 2
+  },
+  {
+   "home": "U.S. BEAUMONTOISE 2",
+   "away": "F.C. BLANZAT 2",
+   "hs": 9,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:18:59Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "ST GENES CHAMPANELLE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "F.C. BLANZAT 2",
+     "away": "F.C. CHAMALIERES 2",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "F.C. CHAMALIERES 2",
+     "away": "U.S. BEAUMONTOISE 2",
+     "hs": 5,
+     "as": 2
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "F.C. BLANZAT 2",
+     "hs": null,
+     "as": 1
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:18:59Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "ST GENES CHAMPANELLE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "F.C. BLANZAT 2",
+     "away": "F.C. CHAMALIERES 2",
+     "hs": 0,
+     "as": null
+    },
+    {
+     "home": "F.C. CHAMALIERES 2",
+     "away": "U.S. BEAUMONTOISE 2",
+     "hs": 5,
+     "as": 2
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "F.C. BLANZAT 2",
+     "hs": 9,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

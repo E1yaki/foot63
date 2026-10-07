@@ -1,0 +1,101 @@
+{
+ "id": "9638_9007_15130_39906_38098_1",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-19T15:00",
+ "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+ "organisateur": "CLERMONT FOOT 63",
+ "equipes": [
+  "U.S. LES MARTRES DE VEYRE 1",
+  "CLERMONT FOOT 63 3",
+  "F. C. CLERMONT METROPOLE 1"
+ ],
+ "logos": {
+  "U.S. LES MARTRES DE VEYRE 1": "logos/BC506520.jpg",
+  "CLERMONT FOOT 63 3": "logos/BC535789.jpg",
+  "F. C. CLERMONT METROPOLE 1": "logos/BC582731.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F. C. CLERMONT METROPOLE 1",
+   "away": "CLERMONT FOOT 63 3",
+   "hs": 6,
+   "as": 0
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 1",
+   "away": "CLERMONT FOOT 63 3",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "F. C. CLERMONT METROPOLE 1",
+   "away": "U.S. LES MARTRES DE VEYRE 1",
+   "hs": 5,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T09:26:59Z",
+ "last_change": "2026-09-21T09:26:59Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T15:00",
+   "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "CLERMONT FOOT 63 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "CLERMONT FOOT 63 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "U.S. LES MARTRES DE VEYRE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T09:26:59Z",
+   "start": "2026-09-19T15:00",
+   "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "CLERMONT FOOT 63 3",
+     "hs": 6,
+     "as": 0
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "CLERMONT FOOT 63 3",
+     "hs": 2,
+     "as": 2
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "U.S. LES MARTRES DE VEYRE 1",
+     "hs": 5,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,101 @@
+{
+ "id": "9637_9006_15129_39903_38105_3",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-10-03T15:30",
+ "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+ "organisateur": "CEBAZAT SP.",
+ "equipes": [
+  "C.S. PONT DU CHATEAU 1",
+  "CEBAZAT SP. 1",
+  "U.S. ISSOIRE A. DU MAS 1"
+ ],
+ "logos": {
+  "C.S. PONT DU CHATEAU 1": "logos/BC520152.jpg",
+  "CEBAZAT SP. 1": "logos/BC510828.jpg",
+  "U.S. ISSOIRE A. DU MAS 1": "logos/BC506507.jpg"
+ },
+ "matchs": [
+  {
+   "home": "C.S. PONT DU CHATEAU 1",
+   "away": "CEBAZAT SP. 1",
+   "hs": 1,
+   "as": 0
+  },
+  {
+   "home": "U.S. ISSOIRE A. DU MAS 1",
+   "away": "CEBAZAT SP. 1",
+   "hs": 2,
+   "as": 1
+  },
+  {
+   "home": "U.S. ISSOIRE A. DU MAS 1",
+   "away": "C.S. PONT DU CHATEAU 1",
+   "hs": 1,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T16:40:42Z",
+ "last_change": "2026-10-04T16:40:42Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T15:30",
+   "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+   "matchs": [
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 1",
+     "away": "CEBAZAT SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. PONT DU CHATEAU 1",
+     "away": "CEBAZAT SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 1",
+     "away": "C.S. PONT DU CHATEAU 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T16:40:42Z",
+   "start": "2026-10-03T15:30",
+   "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+   "matchs": [
+    {
+     "home": "C.S. PONT DU CHATEAU 1",
+     "away": "CEBAZAT SP. 1",
+     "hs": 1,
+     "as": 0
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 1",
+     "away": "CEBAZAT SP. 1",
+     "hs": 2,
+     "as": 1
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 1",
+     "away": "C.S. PONT DU CHATEAU 1",
+     "hs": 1,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,126 @@
+{
+ "id": "9638_9007_15130_39905_38099_2",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-10-03T14:00",
+ "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE HONNEUR",
+ "organisateur": "ISSOIRE US",
+ "equipes": [
+  "U.S. VIC LE COMTE 1",
+  "A. S. CLERMONT SAINT JACQUES FOOT 2",
+  "U.S. ISSOIRE A. DU MAS 2"
+ ],
+ "logos": {
+  "U.S. VIC LE COMTE 1": "logos/BC506559.jpg",
+  "A. S. CLERMONT SAINT JACQUES FOOT 2": "logos/BC525985.jpg",
+  "U.S. ISSOIRE A. DU MAS 2": "logos/BC506507.jpg"
+ },
+ "matchs": [
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "away": "U.S. VIC LE COMTE 1",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "away": "U.S. ISSOIRE A. DU MAS 2",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "U.S. ISSOIRE A. DU MAS 2",
+   "away": "U.S. VIC LE COMTE 1",
+   "hs": 0,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-06T11:38:55Z",
+ "last_change": "2026-10-06T11:38:55Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ISSOIRE - STADE ALBERT BUISSON",
+   "matchs": [
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "away": "U.S. ISSOIRE A. DU MAS 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "away": "U.S. VIC LE COMTE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 2",
+     "away": "U.S. VIC LE COMTE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-03T15:37:01Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE HONNEUR",
+   "matchs": [
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 2",
+     "away": "U.S. VIC LE COMTE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "away": "U.S. ISSOIRE A. DU MAS 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "away": "U.S. VIC LE COMTE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-06T11:38:55Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE HONNEUR",
+   "matchs": [
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "away": "U.S. VIC LE COMTE 1",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "away": "U.S. ISSOIRE A. DU MAS 2",
+     "hs": 3,
+     "as": 0
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 2",
+     "away": "U.S. VIC LE COMTE 1",
+     "hs": 0,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

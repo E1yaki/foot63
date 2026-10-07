@@ -1,0 +1,74 @@
+{
+ "id": "9639_9008_15559_40722_38103_3",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-10-10T14:00",
+ "lieu": "ST SAUVES D AUVERGNE - STADE MUNICIPAL",
+ "organisateur": "SANCY CHAVANON FOOT",
+ "equipes": [
+  "U.S. VAL DE COUZE CHAMBON 1",
+  "SANCY CHAVANON FOOT 1",
+  "U.S. ISSOIRE A. DU MAS 3"
+ ],
+ "logos": {
+  "U.S. VAL DE COUZE CHAMBON 1": "logos/BC542828.jpg",
+  "SANCY CHAVANON FOOT 1": "logos/BC561027.jpg",
+  "U.S. ISSOIRE A. DU MAS 3": "logos/BC506507.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. VAL DE COUZE CHAMBON 1",
+   "away": "SANCY CHAVANON FOOT 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. ISSOIRE A. DU MAS 3",
+   "away": "SANCY CHAVANON FOOT 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. VAL DE COUZE CHAMBON 1",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "ST SAUVES D AUVERGNE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "U.S. VAL DE COUZE CHAMBON 1",
+     "away": "SANCY CHAVANON FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 3",
+     "away": "SANCY CHAVANON FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. VAL DE COUZE CHAMBON 1",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

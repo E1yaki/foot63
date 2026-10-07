@@ -1,0 +1,74 @@
+{
+ "id": "9638_9007_15130_39907_38098_1",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-09-19T10:00",
+ "lieu": "CHATEL GUYON - STADE DE LA VOUÉE 1",
+ "organisateur": "F.C. CHATEL GUYON",
+ "equipes": [
+  "LEMPDES SP. 1",
+  "F.C. RIOMOIS 2",
+  "F.C. CHATEL GUYON 1"
+ ],
+ "logos": {
+  "LEMPDES SP. 1": "logos/BC518527.jpg",
+  "F.C. RIOMOIS 2": "logos/BC508772.jpg",
+  "F.C. CHATEL GUYON 1": "logos/BC520289.jpg"
+ },
+ "matchs": [
+  {
+   "home": "LEMPDES SP. 1",
+   "away": "F.C. CHATEL GUYON 1",
+   "hs": 4,
+   "as": 1
+  },
+  {
+   "home": "LEMPDES SP. 1",
+   "away": "F.C. RIOMOIS 2",
+   "hs": 0,
+   "as": 2
+  },
+  {
+   "home": "F.C. RIOMOIS 2",
+   "away": "F.C. CHATEL GUYON 1",
+   "hs": 1,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "CHATEL GUYON - STADE DE LA VOUÉE 1",
+   "matchs": [
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "F.C. CHATEL GUYON 1",
+     "hs": 4,
+     "as": 1
+    },
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "F.C. RIOMOIS 2",
+     "hs": 0,
+     "as": 2
+    },
+    {
+     "home": "F.C. RIOMOIS 2",
+     "away": "F.C. CHATEL GUYON 1",
+     "hs": 1,
+     "as": 2
+    }
+   ]
+  }
+ ]
+}

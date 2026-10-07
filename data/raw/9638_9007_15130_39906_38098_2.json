@@ -1,0 +1,74 @@
+{
+ "id": "9638_9007_15130_39906_38098_2",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-19T14:00",
+ "lieu": "CHAMALIERES - COMPLEXE SPORTIF CLAUDE WOLFF",
+ "organisateur": "F.C. CHAMALIERES",
+ "equipes": [
+  "U.S. VIC LE COMTE 2",
+  "F.C. CHAMALIERES 3",
+  "U.S. COURPIEROISE 1"
+ ],
+ "logos": {
+  "U.S. VIC LE COMTE 2": "logos/BC506559.jpg",
+  "F.C. CHAMALIERES 3": "logos/BC520923.jpg",
+  "U.S. COURPIEROISE 1": "logos/BC506497.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. COURPIEROISE 1",
+   "away": "U.S. VIC LE COMTE 2",
+   "hs": 2,
+   "as": 0
+  },
+  {
+   "home": "U.S. COURPIEROISE 1",
+   "away": "F.C. CHAMALIERES 3",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "U.S. VIC LE COMTE 2",
+   "away": "F.C. CHAMALIERES 3",
+   "hs": 1,
+   "as": 4
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "CHAMALIERES - COMPLEXE SPORTIF CLAUDE WOLFF",
+   "matchs": [
+    {
+     "home": "U.S. COURPIEROISE 1",
+     "away": "U.S. VIC LE COMTE 2",
+     "hs": 2,
+     "as": 0
+    },
+    {
+     "home": "U.S. COURPIEROISE 1",
+     "away": "F.C. CHAMALIERES 3",
+     "hs": 2,
+     "as": 2
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "F.C. CHAMALIERES 3",
+     "hs": 1,
+     "as": 4
+    }
+   ]
+  }
+ ]
+}

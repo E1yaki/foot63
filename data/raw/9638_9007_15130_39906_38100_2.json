@@ -1,0 +1,74 @@
+{
+ "id": "9638_9007_15130_39906_38100_2",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-10-10T14:00",
+ "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+ "organisateur": "AULNAT SP",
+ "equipes": [
+  "CLERMONT FOOT 63 3",
+  "U.S. COURPIEROISE 1",
+  "AULNAT SP. 1"
+ ],
+ "logos": {
+  "CLERMONT FOOT 63 3": "logos/BC535789.jpg",
+  "U.S. COURPIEROISE 1": "logos/BC506497.jpg",
+  "AULNAT SP. 1": "logos/BC521920.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. COURPIEROISE 1",
+   "away": "CLERMONT FOOT 63 3",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. COURPIEROISE 1",
+   "away": "AULNAT SP. 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "CLERMONT FOOT 63 3",
+   "away": "AULNAT SP. 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+   "matchs": [
+    {
+     "home": "U.S. COURPIEROISE 1",
+     "away": "CLERMONT FOOT 63 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. COURPIEROISE 1",
+     "away": "AULNAT SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLERMONT FOOT 63 3",
+     "away": "AULNAT SP. 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

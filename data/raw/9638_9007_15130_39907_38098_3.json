@@ -1,0 +1,101 @@
+{
+ "id": "9638_9007_15130_39907_38098_3",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-09-19T14:00",
+ "lieu": "ST OURS - STADE MUNICIPAL",
+ "organisateur": "VAL DE SIOULE FOOT",
+ "equipes": [
+  "VAL DE SIOULE FOOT 1",
+  "F.C. BLANZAT 1",
+  "HAUTE COMBRAILLE FOOT 1"
+ ],
+ "logos": {
+  "HAUTE COMBRAILLE FOOT 1": "logos/BC580473.jpg",
+  "F.C. BLANZAT 1": "logos/BC533382.jpg",
+  "VAL DE SIOULE FOOT 1": "logos/BC582409.jpg"
+ },
+ "matchs": [
+  {
+   "home": "VAL DE SIOULE FOOT 1",
+   "away": "HAUTE COMBRAILLE FOOT 1",
+   "hs": 0,
+   "as": 0
+  },
+  {
+   "home": "HAUTE COMBRAILLE FOOT 1",
+   "away": "F.C. BLANZAT 1",
+   "hs": 1,
+   "as": 1
+  },
+  {
+   "home": "F.C. BLANZAT 1",
+   "away": "VAL DE SIOULE FOOT 1",
+   "hs": 1,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T09:26:59Z",
+ "last_change": "2026-09-21T09:26:59Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ST OURS - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "HAUTE COMBRAILLE FOOT 1",
+     "away": "F.C. BLANZAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "VAL DE SIOULE FOOT 1",
+     "away": "HAUTE COMBRAILLE FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. BLANZAT 1",
+     "away": "VAL DE SIOULE FOOT 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T09:26:59Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ST OURS - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "VAL DE SIOULE FOOT 1",
+     "away": "HAUTE COMBRAILLE FOOT 1",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "HAUTE COMBRAILLE FOOT 1",
+     "away": "F.C. BLANZAT 1",
+     "hs": 1,
+     "as": 1
+    },
+    {
+     "home": "F.C. BLANZAT 1",
+     "away": "VAL DE SIOULE FOOT 1",
+     "hs": 1,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

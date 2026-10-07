@@ -1,0 +1,74 @@
+{
+ "id": "9639_9008_15559_40722_38103_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-10-10T14:00",
+ "lieu": "VEYRE MONTON - STADE MUNICIPAL 1",
+ "organisateur": "C.O. VEYRE MONTON",
+ "equipes": [
+  "C.O. VEYRE MONTON 2",
+  "ENT.F.C. ST AMANT ET TALLENDE 2",
+  "AM. LAIQ. S. DE BESSE EGLISENEUVE 1"
+ ],
+ "logos": {
+  "C.O. VEYRE MONTON 2": "logos/BC532169.jpg",
+  "ENT.F.C. ST AMANT ET TALLENDE 2": "logos/BC546413.jpg",
+  "AM. LAIQ. S. DE BESSE EGLISENEUVE 1": "logos/BC529900.jpg"
+ },
+ "matchs": [
+  {
+   "home": "C.O. VEYRE MONTON 2",
+   "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "C.O. VEYRE MONTON 2",
+   "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "VEYRE MONTON - STADE MUNICIPAL 1",
+   "matchs": [
+    {
+     "home": "C.O. VEYRE MONTON 2",
+     "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.O. VEYRE MONTON 2",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

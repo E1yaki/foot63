@@ -1,0 +1,99 @@
+{
+ "id": "9638_9007_15130_39907_34063_2",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-09-12T14:00",
+ "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+ "organisateur": "RIOM FC",
+ "equipes": [
+  "VAL DE SIOULE FOOT 1",
+  "F. C. CLERMONT METROPOLE 2",
+  "F.C. RIOMOIS 2"
+ ],
+ "logos": {
+  "VAL DE SIOULE FOOT 1": "logos/BC582409.jpg",
+  "F. C. CLERMONT METROPOLE 2": "logos/BC582731.jpg",
+  "F.C. RIOMOIS 2": "logos/BC508772.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F. C. CLERMONT METROPOLE 2",
+   "away": "VAL DE SIOULE FOOT 1",
+   "hs": 5,
+   "as": 4
+  },
+  {
+   "home": "F.C. RIOMOIS 2",
+   "away": "VAL DE SIOULE FOOT 1",
+   "hs": 5,
+   "as": 2
+  },
+  {
+   "home": "F.C. RIOMOIS 2",
+   "away": "F. C. CLERMONT METROPOLE 2",
+   "hs": 6,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:38:24Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "VAL DE SIOULE FOOT 1",
+     "hs": 5,
+     "as": 4
+    },
+    {
+     "home": "F.C. RIOMOIS 2",
+     "away": "VAL DE SIOULE FOOT 1",
+     "hs": 5,
+     "as": 2
+    },
+    {
+     "home": "F.C. RIOMOIS 2",
+     "away": "F. C. CLERMONT METROPOLE 2",
+     "hs": 5,
+     "as": 1
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:38:24Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "VAL DE SIOULE FOOT 1",
+     "hs": 5,
+     "as": 4
+    },
+    {
+     "home": "F.C. RIOMOIS 2",
+     "away": "VAL DE SIOULE FOOT 1",
+     "hs": 5,
+     "as": 2
+    },
+    {
+     "home": "F.C. RIOMOIS 2",
+     "away": "F. C. CLERMONT METROPOLE 2",
+     "hs": 6,
+     "as": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "id": "9638_9007_15130_39906_38098_3",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-19T14:00",
+ "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+ "organisateur": "C.S. PONT DU CHATEAU",
+ "equipes": [
+  "C.S. PONT DU CHATEAU 2",
+  "F.C. LEZOUX 1",
+  "AULNAT SP. 1"
+ ],
+ "logos": {
+  "C.S. PONT DU CHATEAU 2": "logos/BC520152.jpg",
+  "F.C. LEZOUX 1": "logos/BC517723.jpg",
+  "AULNAT SP. 1": "logos/BC521920.jpg"
+ },
+ "matchs": [
+  {
+   "home": "C.S. PONT DU CHATEAU 2",
+   "away": "AULNAT SP. 1",
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "AULNAT SP. 1",
+   "away": "F.C. LEZOUX 1",
+   "hs": 4,
+   "as": 1
+  },
+  {
+   "home": "F.C. LEZOUX 1",
+   "away": "C.S. PONT DU CHATEAU 2",
+   "hs": 6,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-22T07:11:01Z",
+ "last_change": "2026-09-22T07:11:01Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+   "matchs": [
+    {
+     "home": "F.C. LEZOUX 1",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.S. PONT DU CHATEAU 2",
+     "away": "AULNAT SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AULNAT SP. 1",
+     "away": "F.C. LEZOUX 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-22T07:11:01Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "PONT DU CHATEAU - STADE LÉON BAGET",
+   "matchs": [
+    {
+     "home": "C.S. PONT DU CHATEAU 2",
+     "away": "AULNAT SP. 1",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "AULNAT SP. 1",
+     "away": "F.C. LEZOUX 1",
+     "hs": 4,
+     "as": 1
+    },
+    {
+     "home": "F.C. LEZOUX 1",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": 6,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

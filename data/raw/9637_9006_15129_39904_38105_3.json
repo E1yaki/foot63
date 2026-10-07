@@ -1,0 +1,101 @@
+{
+ "id": "9637_9006_15129_39904_38105_3",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-10-03T14:00",
+ "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+ "organisateur": "CLERMONT FOOT 63",
+ "equipes": [
+  "GJ SCB FOOT 1",
+  "CLERMONT FOOT 63 2",
+  "A.S. MONTFERRANDAISE 2"
+ ],
+ "logos": {
+  "GJ SCB FOOT 1": "logos/BC560516.jpg",
+  "CLERMONT FOOT 63 2": "logos/BC535789.jpg",
+  "A.S. MONTFERRANDAISE 2": "logos/BC508763.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GJ SCB FOOT 1",
+   "away": "CLERMONT FOOT 63 2",
+   "hs": 0,
+   "as": 7
+  },
+  {
+   "home": "A.S. MONTFERRANDAISE 2",
+   "away": "CLERMONT FOOT 63 2",
+   "hs": 1,
+   "as": 2
+  },
+  {
+   "home": "A.S. MONTFERRANDAISE 2",
+   "away": "GJ SCB FOOT 1",
+   "hs": 2,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T12:24:56Z",
+ "last_change": "2026-10-05T12:24:56Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+   "matchs": [
+    {
+     "home": "GJ SCB FOOT 1",
+     "away": "CLERMONT FOOT 63 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 2",
+     "away": "CLERMONT FOOT 63 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 2",
+     "away": "GJ SCB FOOT 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T12:24:56Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+   "matchs": [
+    {
+     "home": "GJ SCB FOOT 1",
+     "away": "CLERMONT FOOT 63 2",
+     "hs": 0,
+     "as": 7
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 2",
+     "away": "CLERMONT FOOT 63 2",
+     "hs": 1,
+     "as": 2
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 2",
+     "away": "GJ SCB FOOT 1",
+     "hs": 2,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

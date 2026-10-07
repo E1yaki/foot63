@@ -1,0 +1,101 @@
+{
+ "id": "9638_9007_15130_39906_38099_3",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-10-03T14:00",
+ "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+ "organisateur": "VIC LE COMTE U.S.",
+ "equipes": [
+  "U.S. VIC LE COMTE 2",
+  "C.S. PONT DU CHATEAU 2",
+  "CLERMONT FOOT 63 3"
+ ],
+ "logos": {
+  "CLERMONT FOOT 63 3": "logos/BC535789.jpg",
+  "U.S. VIC LE COMTE 2": "logos/BC506559.jpg",
+  "C.S. PONT DU CHATEAU 2": "logos/BC520152.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. VIC LE COMTE 2",
+   "away": "CLERMONT FOOT 63 3",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "U.S. VIC LE COMTE 2",
+   "away": "C.S. PONT DU CHATEAU 2",
+   "hs": 2,
+   "as": 5
+  },
+  {
+   "home": "CLERMONT FOOT 63 3",
+   "away": "C.S. PONT DU CHATEAU 2",
+   "hs": 1,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T12:24:56Z",
+ "last_change": "2026-10-05T12:24:56Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "CLERMONT FOOT 63 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLERMONT FOOT 63 3",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T12:24:56Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "CLERMONT FOOT 63 3",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": 2,
+     "as": 5
+    },
+    {
+     "home": "CLERMONT FOOT 63 3",
+     "away": "C.S. PONT DU CHATEAU 2",
+     "hs": 1,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

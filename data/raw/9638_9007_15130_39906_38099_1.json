@@ -1,0 +1,101 @@
+{
+ "id": "9638_9007_15130_39906_38099_1",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-10-03T14:00",
+ "lieu": "CLERMONT FERRAND - STADE DU PARC DE LA FRATERNITÉ",
+ "organisateur": "FC CLERMONT METROPOL",
+ "equipes": [
+  "AULNAT SP. 1",
+  "F.C. CHAMALIERES 3",
+  "F. C. CLERMONT METROPOLE 1"
+ ],
+ "logos": {
+  "AULNAT SP. 1": "logos/BC521920.jpg",
+  "F.C. CHAMALIERES 3": "logos/BC520923.jpg",
+  "F. C. CLERMONT METROPOLE 1": "logos/BC582731.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AULNAT SP. 1",
+   "away": "F.C. CHAMALIERES 3",
+   "hs": 2,
+   "as": 1
+  },
+  {
+   "home": "F. C. CLERMONT METROPOLE 1",
+   "away": "F.C. CHAMALIERES 3",
+   "hs": 1,
+   "as": 0
+  },
+  {
+   "home": "AULNAT SP. 1",
+   "away": "F. C. CLERMONT METROPOLE 1",
+   "hs": 0,
+   "as": 3
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T17:31:38Z",
+ "last_change": "2026-10-05T17:31:38Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "CLERMONT FERRAND - STADE DU PARC DE LA FRATERNITÉ",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "F.C. CHAMALIERES 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AULNAT SP. 1",
+     "away": "F. C. CLERMONT METROPOLE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "AULNAT SP. 1",
+     "away": "F.C. CHAMALIERES 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T17:31:38Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "CLERMONT FERRAND - STADE DU PARC DE LA FRATERNITÉ",
+   "matchs": [
+    {
+     "home": "AULNAT SP. 1",
+     "away": "F.C. CHAMALIERES 3",
+     "hs": 2,
+     "as": 1
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "F.C. CHAMALIERES 3",
+     "hs": 1,
+     "as": 0
+    },
+    {
+     "home": "AULNAT SP. 1",
+     "away": "F. C. CLERMONT METROPOLE 1",
+     "hs": 0,
+     "as": 3
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

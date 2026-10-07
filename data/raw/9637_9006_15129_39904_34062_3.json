@@ -1,0 +1,99 @@
+{
+ "id": "9637_9006_15129_39904_34062_3",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-12T14:00",
+ "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
+ "organisateur": "GJ SCB FOOT",
+ "equipes": [
+  "GJ SCB FOOT 1",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1",
+  "GROUPEMENT FORMATEUR LIMAGNE 1"
+ ],
+ "logos": {
+  "GJ SCB FOOT 1": "logos/BC560516.jpg",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1": "logos/BC525985.jpg",
+  "GROUPEMENT FORMATEUR LIMAGNE 1": "logos/BC554404.jpg"
+ },
+ "matchs": [
+  {
+   "home": "GJ SCB FOOT 1",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "hs": 2,
+   "as": 0
+  },
+  {
+   "home": "GJ SCB FOOT 1",
+   "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "hs": 7,
+   "as": 0
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "hs": 4,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:18:59Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
+   "matchs": [
+    {
+     "home": "GJ SCB FOOT 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": 2,
+     "as": 0
+    },
+    {
+     "home": "GJ SCB FOOT 1",
+     "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "hs": null,
+     "as": 0
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "hs": 4,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:18:59Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
+   "matchs": [
+    {
+     "home": "GJ SCB FOOT 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": 2,
+     "as": 0
+    },
+    {
+     "home": "GJ SCB FOOT 1",
+     "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "hs": 7,
+     "as": 0
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "hs": 4,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

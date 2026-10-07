@@ -1,0 +1,74 @@
+{
+ "id": "9638_9007_15130_39905_38100_2",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-10-10T14:00",
+ "lieu": "AUZAT LA COMBELLE - STADE DE BASSE COMBELLE 1",
+ "organisateur": "USBM",
+ "equipes": [
+  "F.C. AUBIEROIS 1",
+  "UNION SPORTIVE BASSIN MINIER 1",
+  "U.S. VIC LE COMTE 1"
+ ],
+ "logos": {
+  "F.C. AUBIEROIS 1": "logos/BC533145.jpg",
+  "UNION SPORTIVE BASSIN MINIER 1": "logos/BC560477.jpg",
+  "U.S. VIC LE COMTE 1": "logos/BC506559.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. VIC LE COMTE 1",
+   "away": "UNION SPORTIVE BASSIN MINIER 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "U.S. VIC LE COMTE 1",
+   "away": "F.C. AUBIEROIS 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. AUBIEROIS 1",
+   "away": "UNION SPORTIVE BASSIN MINIER 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "AUZAT LA COMBELLE - STADE DE BASSE COMBELLE 1",
+   "matchs": [
+    {
+     "home": "U.S. VIC LE COMTE 1",
+     "away": "UNION SPORTIVE BASSIN MINIER 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. VIC LE COMTE 1",
+     "away": "F.C. AUBIEROIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. AUBIEROIS 1",
+     "away": "UNION SPORTIVE BASSIN MINIER 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

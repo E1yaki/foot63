@@ -1,0 +1,74 @@
+{
+ "id": "9638_9007_15130_39905_34063_2",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-09-12T14:00",
+ "lieu": "AUZAT LA COMBELLE - STADE DE BASSE COMBELLE 1",
+ "organisateur": "USBM",
+ "equipes": [
+  "UNION SPORTIVE BASSIN MINIER 1",
+  "U.S. ISSOIRE A. DU MAS 2",
+  "ENT.F.C. ST AMANT ET TALLENDE 1"
+ ],
+ "logos": {
+  "UNION SPORTIVE BASSIN MINIER 1": "logos/BC560477.jpg",
+  "U.S. ISSOIRE A. DU MAS 2": "logos/BC506507.jpg",
+  "ENT.F.C. ST AMANT ET TALLENDE 1": "logos/BC546413.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. ISSOIRE A. DU MAS 2",
+   "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "U.S. ISSOIRE A. DU MAS 2",
+   "away": "UNION SPORTIVE BASSIN MINIER 1",
+   "hs": 4,
+   "as": 1
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "away": "UNION SPORTIVE BASSIN MINIER 1",
+   "hs": 5,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "AUZAT LA COMBELLE - STADE DE BASSE COMBELLE 1",
+   "matchs": [
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 2",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 2",
+     "away": "UNION SPORTIVE BASSIN MINIER 1",
+     "hs": 4,
+     "as": 1
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "UNION SPORTIVE BASSIN MINIER 1",
+     "hs": 5,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

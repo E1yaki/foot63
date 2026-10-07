@@ -1,0 +1,76 @@
+{
+ "id": "9639_9008_15559_40722_38101_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-09-19T14:00",
+ "lieu": "COUDES - STADE ROGER FOURNIER",
+ "organisateur": "VAL DE COUZE",
+ "equipes": [
+  "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
+  "U.S. VAL DE COUZE CHAMBON 1",
+  "ENT.F.C. ST AMANT ET TALLENDE 2"
+ ],
+ "logos": {
+  "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2": "logos/BC560797.jpg",
+  "U.S. VAL DE COUZE CHAMBON 1": "logos/BC542828.jpg",
+  "ENT.F.C. ST AMANT ET TALLENDE 2": "logos/BC546413.jpg"
+ },
+ "matchs": [
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+   "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
+   "hs": 6,
+   "as": 0
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+   "away": "U.S. VAL DE COUZE CHAMBON 1",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
+   "away": "U.S. VAL DE COUZE CHAMBON 1",
+   "hs": 0,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "COUDES - STADE ROGER FOURNIER",
+   "matchs": [
+    {
+     "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
+     "away": "U.S. VAL DE COUZE CHAMBON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
+     "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "away": "U.S. VAL DE COUZE CHAMBON 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

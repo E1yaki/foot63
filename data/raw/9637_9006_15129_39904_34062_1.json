@@ -1,0 +1,74 @@
+{
+ "id": "9637_9006_15129_39904_34062_1",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-12T14:30",
+ "lieu": "CLERMONT FERRAND - STADE CAMILLE LECLANCHE N°3",
+ "organisateur": "CLERMONT FOOT 63",
+ "equipes": [
+  "CLERMONT FOOT 63 2",
+  "S.A. THIERNOIS 1",
+  "A.S. ROYAT A.C. 1"
+ ],
+ "logos": {
+  "CLERMONT FOOT 63 2": "logos/BC535789.jpg",
+  "S.A. THIERNOIS 1": "logos/BC508776.jpg",
+  "A.S. ROYAT A.C. 1": "logos/BC524117.jpg"
+ },
+ "matchs": [
+  {
+   "home": "S.A. THIERNOIS 1",
+   "away": "A.S. ROYAT A.C. 1",
+   "hs": 5,
+   "as": 2
+  },
+  {
+   "home": "CLERMONT FOOT 63 2",
+   "away": "S.A. THIERNOIS 1",
+   "hs": 2,
+   "as": 1
+  },
+  {
+   "home": "A.S. ROYAT A.C. 1",
+   "away": "CLERMONT FOOT 63 2",
+   "hs": 0,
+   "as": 5
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:30",
+   "lieu": "CLERMONT FERRAND - STADE CAMILLE LECLANCHE N°3",
+   "matchs": [
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "A.S. ROYAT A.C. 1",
+     "hs": 5,
+     "as": 2
+    },
+    {
+     "home": "CLERMONT FOOT 63 2",
+     "away": "S.A. THIERNOIS 1",
+     "hs": 2,
+     "as": 1
+    },
+    {
+     "home": "A.S. ROYAT A.C. 1",
+     "away": "CLERMONT FOOT 63 2",
+     "hs": 0,
+     "as": 5
+    }
+   ]
+  }
+ ]
+}

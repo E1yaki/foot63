@@ -1,0 +1,74 @@
+{
+ "id": "9637_9006_15129_39904_38106_3",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-10-10T14:00",
+ "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+ "organisateur": "RIOM FC",
+ "equipes": [
+  "F.C. RIOMOIS 1",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1",
+  "CLERMONT FOOT 63 2"
+ ],
+ "logos": {
+  "F.C. RIOMOIS 1": "logos/BC508772.jpg",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1": "logos/BC525985.jpg",
+  "CLERMONT FOOT 63 2": "logos/BC535789.jpg"
+ },
+ "matchs": [
+  {
+   "home": "CLERMONT FOOT 63 2",
+   "away": "F.C. RIOMOIS 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "F.C. RIOMOIS 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "away": "CLERMONT FOOT 63 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+   "matchs": [
+    {
+     "home": "CLERMONT FOOT 63 2",
+     "away": "F.C. RIOMOIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "away": "F.C. RIOMOIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "away": "CLERMONT FOOT 63 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

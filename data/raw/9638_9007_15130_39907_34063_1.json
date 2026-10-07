@@ -1,0 +1,74 @@
+{
+ "id": "9638_9007_15130_39907_34063_1",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-09-12T14:00",
+ "lieu": "ST GERVAIS D AUVERGNE - STADE MUNICIPAL",
+ "organisateur": "ST GERVAIS U.S.",
+ "equipes": [
+  "F.C. BLANZAT 1",
+  "LEMPDES SP. 1",
+  "U.S. ST GERVAISIENNE 1"
+ ],
+ "logos": {
+  "F.C. BLANZAT 1": "logos/BC533382.jpg",
+  "LEMPDES SP. 1": "logos/BC518527.jpg",
+  "U.S. ST GERVAISIENNE 1": "logos/BC514515.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. BLANZAT 1",
+   "away": "LEMPDES SP. 1",
+   "hs": 2,
+   "as": 5
+  },
+  {
+   "home": "LEMPDES SP. 1",
+   "away": "U.S. ST GERVAISIENNE 1",
+   "hs": 2,
+   "as": 0
+  },
+  {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "F.C. BLANZAT 1",
+   "hs": 5,
+   "as": 5
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "ST GERVAIS D AUVERGNE - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "F.C. BLANZAT 1",
+     "away": "LEMPDES SP. 1",
+     "hs": 2,
+     "as": 5
+    },
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "U.S. ST GERVAISIENNE 1",
+     "hs": 2,
+     "as": 0
+    },
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "F.C. BLANZAT 1",
+     "hs": 5,
+     "as": 5
+    }
+   ]
+  }
+ ]
+}

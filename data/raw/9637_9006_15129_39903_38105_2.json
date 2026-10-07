@@ -1,0 +1,101 @@
+{
+ "id": "9637_9006_15129_39903_38105_2",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-10-03T14:00",
+ "lieu": "ST BABEL - COMPLEXE SPORTIF DES MOULINS",
+ "organisateur": "FC2SBB",
+ "equipes": [
+  "ESP. CEYRATOISE 1",
+  "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+  "ECUREUILS FRANC ROSIER 1"
+ ],
+ "logos": {
+  "ESP. CEYRATOISE 1": "logos/BC529030.jpg",
+  "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1": "logos/BC560797.jpg",
+  "ECUREUILS FRANC ROSIER 1": "logos/BC526932.jpg"
+ },
+ "matchs": [
+  {
+   "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 2,
+   "as": 7
+  },
+  {
+   "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+   "away": "ESP. CEYRATOISE 1",
+   "hs": 0,
+   "as": 9
+  },
+  {
+   "home": "ESP. CEYRATOISE 1",
+   "away": "ECUREUILS FRANC ROSIER 1",
+   "hs": 2,
+   "as": 3
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T16:40:42Z",
+ "last_change": "2026-10-04T16:40:42Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ST BABEL - COMPLEXE SPORTIF DES MOULINS",
+   "matchs": [
+    {
+     "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+     "away": "ESP. CEYRATOISE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ESP. CEYRATOISE 1",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T16:40:42Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ST BABEL - COMPLEXE SPORTIF DES MOULINS",
+   "matchs": [
+    {
+     "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": 2,
+     "as": 7
+    },
+    {
+     "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+     "away": "ESP. CEYRATOISE 1",
+     "hs": 0,
+     "as": 9
+    },
+    {
+     "home": "ESP. CEYRATOISE 1",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": 2,
+     "as": 3
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

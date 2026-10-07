@@ -1,0 +1,76 @@
+{
+ "id": "9638_9007_15130_39905_38098_1",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-09-19T14:00",
+ "lieu": "AUBIERE - STADE LUCIEN BONHOMME",
+ "organisateur": "F.C. AUBIEROIS",
+ "equipes": [
+  "F.C. AUBIEROIS 1",
+  "U.S. ISSOIRE A. DU MAS 2",
+  "F. C. CLERMONT METROPOLE 3"
+ ],
+ "logos": {
+  "F.C. AUBIEROIS 1": "logos/BC533145.jpg",
+  "U.S. ISSOIRE A. DU MAS 2": "logos/BC506507.jpg",
+  "F. C. CLERMONT METROPOLE 3": "logos/BC582731.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. ISSOIRE A. DU MAS 2",
+   "away": "F.C. AUBIEROIS 1",
+   "hs": 0,
+   "as": 0
+  },
+  {
+   "home": "F. C. CLERMONT METROPOLE 3",
+   "away": "F.C. AUBIEROIS 1",
+   "hs": 3,
+   "as": 1
+  },
+  {
+   "home": "F. C. CLERMONT METROPOLE 3",
+   "away": "U.S. ISSOIRE A. DU MAS 2",
+   "hs": 2,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "AUBIERE - STADE LUCIEN BONHOMME",
+   "matchs": [
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 2",
+     "away": "F.C. AUBIEROIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 3",
+     "away": "F.C. AUBIEROIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 3",
+     "away": "U.S. ISSOIRE A. DU MAS 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,77 @@
+{
+ "id": "9639_9008_15559_40722_38102_3",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-10-03T14:00",
+ "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+ "organisateur": "ST AMANT TAL.",
+ "equipes": [
+  "ENT.F.C. ST AMANT ET TALLENDE 2",
+  "U.S. ISSOIRE A. DU MAS 3",
+  "UNION SPORTIVE BASSIN MINIER 2"
+ ],
+ "logos": {
+  "ENT.F.C. ST AMANT ET TALLENDE 2": "logos/BC546413.jpg",
+  "U.S. ISSOIRE A. DU MAS 3": "logos/BC506507.jpg",
+  "UNION SPORTIVE BASSIN MINIER 2": "logos/BC560477.jpg"
+ },
+ "matchs": [
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": 5,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T16:40:42Z",
+ "last_change": "2026-10-04T16:40:42Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+   "matchs": [
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "away": "UNION SPORTIVE BASSIN MINIER 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 2",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T16:40:42Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+   "matchs": [
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": 5,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

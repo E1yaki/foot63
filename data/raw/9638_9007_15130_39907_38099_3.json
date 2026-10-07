@@ -1,0 +1,101 @@
+{
+ "id": "9638_9007_15130_39907_38099_3",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-10-03T14:00",
+ "lieu": "BLANZAT - STADE CROIX SAINT GÉRAUD 1",
+ "organisateur": "F.C. BLANZAT",
+ "equipes": [
+  "F.C. BLANZAT 1",
+  "F.C. CHATEL GUYON 1",
+  "F. C. CLERMONT METROPOLE 2"
+ ],
+ "logos": {
+  "F.C. BLANZAT 1": "logos/BC533382.jpg",
+  "F.C. CHATEL GUYON 1": "logos/BC520289.jpg",
+  "F. C. CLERMONT METROPOLE 2": "logos/BC582731.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F. C. CLERMONT METROPOLE 2",
+   "away": "F.C. CHATEL GUYON 1",
+   "hs": 2,
+   "as": 1
+  },
+  {
+   "home": "F.C. CHATEL GUYON 1",
+   "away": "F.C. BLANZAT 1",
+   "hs": 1,
+   "as": 3
+  },
+  {
+   "home": "F. C. CLERMONT METROPOLE 2",
+   "away": "F.C. BLANZAT 1",
+   "hs": 7,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-06T13:42:58Z",
+ "last_change": "2026-10-06T13:42:58Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "BLANZAT - STADE CROIX SAINT GÉRAUD 1",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "F.C. BLANZAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "F.C. CHATEL GUYON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. CHATEL GUYON 1",
+     "away": "F.C. BLANZAT 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-06T13:42:58Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "BLANZAT - STADE CROIX SAINT GÉRAUD 1",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "F.C. CHATEL GUYON 1",
+     "hs": 2,
+     "as": 1
+    },
+    {
+     "home": "F.C. CHATEL GUYON 1",
+     "away": "F.C. BLANZAT 1",
+     "hs": 1,
+     "as": 3
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "F.C. BLANZAT 1",
+     "hs": 7,
+     "as": 2
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

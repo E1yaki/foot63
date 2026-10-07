@@ -1,0 +1,101 @@
+{
+ "id": "9638_9007_15130_39907_38099_2",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-10-03T14:00",
+ "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+ "organisateur": "RIOM FC",
+ "equipes": [
+  "U.S. ST GERVAISIENNE 1",
+  "HAUTE COMBRAILLE FOOT 1",
+  "F.C. RIOMOIS 2"
+ ],
+ "logos": {
+  "U.S. ST GERVAISIENNE 1": "logos/BC514515.jpg",
+  "HAUTE COMBRAILLE FOOT 1": "logos/BC580473.jpg",
+  "F.C. RIOMOIS 2": "logos/BC508772.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "F.C. RIOMOIS 2",
+   "hs": 0,
+   "as": 9
+  },
+  {
+   "home": "F.C. RIOMOIS 2",
+   "away": "HAUTE COMBRAILLE FOOT 1",
+   "hs": 1,
+   "as": 1
+  },
+  {
+   "home": "U.S. ST GERVAISIENNE 1",
+   "away": "HAUTE COMBRAILLE FOOT 1",
+   "hs": 1,
+   "as": 4
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-03T18:53:57Z",
+ "last_change": "2026-10-03T18:53:57Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+   "matchs": [
+    {
+     "home": "HAUTE COMBRAILLE FOOT 1",
+     "away": "F.C. RIOMOIS 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. RIOMOIS 2",
+     "away": "U.S. ST GERVAISIENNE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "HAUTE COMBRAILLE FOOT 1",
+     "away": "U.S. ST GERVAISIENNE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-03T18:53:57Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+   "matchs": [
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "F.C. RIOMOIS 2",
+     "hs": 0,
+     "as": 9
+    },
+    {
+     "home": "F.C. RIOMOIS 2",
+     "away": "HAUTE COMBRAILLE FOOT 1",
+     "hs": 1,
+     "as": 1
+    },
+    {
+     "home": "U.S. ST GERVAISIENNE 1",
+     "away": "HAUTE COMBRAILLE FOOT 1",
+     "hs": 1,
+     "as": 4
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

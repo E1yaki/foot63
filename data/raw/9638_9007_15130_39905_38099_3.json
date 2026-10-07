@@ -1,0 +1,126 @@
+{
+ "id": "9638_9007_15130_39905_38099_3",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-10-03T16:00",
+ "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+ "organisateur": "ST AMANT TAL.",
+ "equipes": [
+  "ENT.F.C. ST AMANT ET TALLENDE 1",
+  "C.O. VEYRE MONTON 1",
+  "F.C. AUBIEROIS 1"
+ ],
+ "logos": {
+  "ENT.F.C. ST AMANT ET TALLENDE 1": "logos/BC546413.jpg",
+  "C.O. VEYRE MONTON 1": "logos/BC532169.jpg",
+  "F.C. AUBIEROIS 1": "logos/BC533145.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. AUBIEROIS 1",
+   "away": "C.O. VEYRE MONTON 1",
+   "hs": 2,
+   "as": 3
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "away": "F.C. AUBIEROIS 1",
+   "hs": 1,
+   "as": 0
+  },
+  {
+   "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+   "away": "C.O. VEYRE MONTON 1",
+   "hs": 3,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T16:40:42Z",
+ "last_change": "2026-10-04T16:40:42Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+   "matchs": [
+    {
+     "home": "F.C. AUBIEROIS 1",
+     "away": "C.O. VEYRE MONTON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "F.C. AUBIEROIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "C.O. VEYRE MONTON 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-03T15:37:01Z",
+   "start": "2026-10-03T16:00",
+   "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+   "matchs": [
+    {
+     "home": "F.C. AUBIEROIS 1",
+     "away": "C.O. VEYRE MONTON 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "F.C. AUBIEROIS 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "C.O. VEYRE MONTON 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-04T16:40:42Z",
+   "start": "2026-10-03T16:00",
+   "lieu": "ST SATURNIN - STADE LOUIS JOUHET",
+   "matchs": [
+    {
+     "home": "F.C. AUBIEROIS 1",
+     "away": "C.O. VEYRE MONTON 1",
+     "hs": 2,
+     "as": 3
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "F.C. AUBIEROIS 1",
+     "hs": 1,
+     "as": 0
+    },
+    {
+     "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+     "away": "C.O. VEYRE MONTON 1",
+     "hs": 3,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

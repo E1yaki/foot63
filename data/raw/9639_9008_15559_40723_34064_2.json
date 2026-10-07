@@ -1,0 +1,76 @@
+{
+ "id": "9639_9008_15559_40723_34064_2",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-12T14:00",
+ "lieu": "ROCHEFORT MONTAGNE - STADE MUNICIPAL 1",
+ "organisateur": "DOMES SANCY FOOT",
+ "equipes": [
+  "DOMES SANCY FOOT 1",
+  "U. J. CLERMONTOISE 1",
+  "A.S. MONTFERRANDAISE 1"
+ ],
+ "logos": {
+  "DOMES SANCY FOOT 1": "logos/BC563697.jpg",
+  "U. J. CLERMONTOISE 1": "logos/BC590198.jpg",
+  "A.S. MONTFERRANDAISE 1": "logos/BC508763.jpg"
+ },
+ "matchs": [
+  {
+   "home": "A.S. MONTFERRANDAISE 1",
+   "away": "U. J. CLERMONTOISE 1",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "U. J. CLERMONTOISE 1",
+   "away": "DOMES SANCY FOOT 1",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "A.S. MONTFERRANDAISE 1",
+   "away": "DOMES SANCY FOOT 1",
+   "hs": 0,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "ROCHEFORT MONTAGNE - STADE MUNICIPAL 1",
+   "matchs": [
+    {
+     "home": "A.S. MONTFERRANDAISE 1",
+     "away": "U. J. CLERMONTOISE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U. J. CLERMONTOISE 1",
+     "away": "DOMES SANCY FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 1",
+     "away": "DOMES SANCY FOOT 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

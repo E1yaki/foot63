@@ -1,0 +1,101 @@
+{
+ "id": "9637_9006_15129_39904_38104_2",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-19T13:30",
+ "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+ "organisateur": "MONTFERRAND A.S.",
+ "equipes": [
+  "A.S. MONTFERRANDAISE 2",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1",
+  "A.S. ROYAT A.C. 1"
+ ],
+ "logos": {
+  "A.S. MONTFERRANDAISE 2": "logos/BC508763.jpg",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1": "logos/BC525985.jpg",
+  "A.S. ROYAT A.C. 1": "logos/BC524117.jpg"
+ },
+ "matchs": [
+  {
+   "home": "A.S. ROYAT A.C. 1",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "hs": 1,
+   "as": 4
+  },
+  {
+   "home": "A.S. ROYAT A.C. 1",
+   "away": "A.S. MONTFERRANDAISE 2",
+   "hs": 0,
+   "as": 4
+  },
+  {
+   "home": "A.S. MONTFERRANDAISE 2",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "hs": 4,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-04T09:15:51Z",
+ "last_change": "2026-09-28T18:36:41Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T13:30",
+   "lieu": "CLERMONT FERRAND - STADE DE L' ESPÉRANCE ST JACQUES",
+   "matchs": [
+    {
+     "home": "A.S. ROYAT A.C. 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": 1,
+     "as": 4
+    },
+    {
+     "home": "A.S. ROYAT A.C. 1",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": 0,
+     "as": 4
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 2",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": 4,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-28T18:36:41Z",
+   "start": "2026-09-19T13:30",
+   "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+   "matchs": [
+    {
+     "home": "A.S. ROYAT A.C. 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. ROYAT A.C. 1",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 2",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

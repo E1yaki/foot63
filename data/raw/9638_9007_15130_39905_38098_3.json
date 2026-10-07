@@ -1,0 +1,74 @@
+{
+ "id": "9638_9007_15130_39905_38098_3",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-09-19T14:00",
+ "lieu": "VEYRE MONTON - STADE MUNICIPAL 1",
+ "organisateur": "C.O. VEYRE MONTON",
+ "equipes": [
+  "A. S. CLERMONT SAINT JACQUES FOOT 2",
+  "UNION SPORTIVE BASSIN MINIER 1",
+  "C.O. VEYRE MONTON 1"
+ ],
+ "logos": {
+  "A. S. CLERMONT SAINT JACQUES FOOT 2": "logos/BC525985.jpg",
+  "UNION SPORTIVE BASSIN MINIER 1": "logos/BC560477.jpg",
+  "C.O. VEYRE MONTON 1": "logos/BC532169.jpg"
+ },
+ "matchs": [
+  {
+   "home": "UNION SPORTIVE BASSIN MINIER 1",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "C.O. VEYRE MONTON 1",
+   "away": "UNION SPORTIVE BASSIN MINIER 1",
+   "hs": 4,
+   "as": 0
+  },
+  {
+   "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+   "away": "C.O. VEYRE MONTON 1",
+   "hs": 4,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "VEYRE MONTON - STADE MUNICIPAL 1",
+   "matchs": [
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "C.O. VEYRE MONTON 1",
+     "away": "UNION SPORTIVE BASSIN MINIER 1",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+     "away": "C.O. VEYRE MONTON 1",
+     "hs": 4,
+     "as": 2
+    }
+   ]
+  }
+ ]
+}

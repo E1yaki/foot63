@@ -1,0 +1,77 @@
+{
+ "id": "9639_9008_15559_40723_38101_1",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-19T14:00",
+ "lieu": "CLERMONT FERRAND - STADE DE LA GAUTHIÈRE",
+ "organisateur": "MONTFERRAND A.S.",
+ "equipes": [
+  "U.S. BEAUMONTOISE 2",
+  "A.S. ROMAGNAT 1",
+  "A.S. MONTFERRANDAISE 1"
+ ],
+ "logos": {
+  "U.S. BEAUMONTOISE 2": "logos/BC508949.jpg",
+  "A.S. ROMAGNAT 1": "logos/BC516330.jpg",
+  "A.S. MONTFERRANDAISE 1": "logos/BC508763.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. BEAUMONTOISE 2",
+   "away": "A.S. MONTFERRANDAISE 1",
+   "hs": 2,
+   "as": 1
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T14:31:19Z",
+ "last_change": "2026-09-21T14:31:19Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "CLERMONT FERRAND - STADE DE LA GAUTHIÈRE",
+   "matchs": [
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "A.S. ROMAGNAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 1",
+     "away": "A.S. ROMAGNAT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "A.S. MONTFERRANDAISE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T14:31:19Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "CLERMONT FERRAND - STADE DE LA GAUTHIÈRE",
+   "matchs": [
+    {
+     "home": "U.S. BEAUMONTOISE 2",
+     "away": "A.S. MONTFERRANDAISE 1",
+     "hs": 2,
+     "as": 1
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,101 @@
+{
+ "id": "9637_9006_15129_39904_38104_1",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-19T14:00",
+ "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+ "organisateur": "THIERS SA",
+ "equipes": [
+  "S.A. THIERNOIS 1",
+  "GJ SCB FOOT 1",
+  "F.C. RIOMOIS 1"
+ ],
+ "logos": {
+  "S.A. THIERNOIS 1": "logos/BC508776.jpg",
+  "GJ SCB FOOT 1": "logos/BC560516.jpg",
+  "F.C. RIOMOIS 1": "logos/BC508772.jpg"
+ },
+ "matchs": [
+  {
+   "home": "S.A. THIERNOIS 1",
+   "away": "GJ SCB FOOT 1",
+   "hs": 6,
+   "as": 0
+  },
+  {
+   "home": "F.C. RIOMOIS 1",
+   "away": "GJ SCB FOOT 1",
+   "hs": 0,
+   "as": 0
+  },
+  {
+   "home": "S.A. THIERNOIS 1",
+   "away": "F.C. RIOMOIS 1",
+   "hs": 3,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T13:22:17Z",
+ "last_change": "2026-09-21T13:22:17Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+   "matchs": [
+    {
+     "home": "F.C. RIOMOIS 1",
+     "away": "GJ SCB FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "GJ SCB FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "F.C. RIOMOIS 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T13:22:17Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+   "matchs": [
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "GJ SCB FOOT 1",
+     "hs": 6,
+     "as": 0
+    },
+    {
+     "home": "F.C. RIOMOIS 1",
+     "away": "GJ SCB FOOT 1",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "F.C. RIOMOIS 1",
+     "hs": 3,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

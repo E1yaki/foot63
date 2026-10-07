@@ -1,0 +1,99 @@
+{
+ "id": "9637_9006_15129_39904_34062_2",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-12T14:00",
+ "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+ "organisateur": "MONTFERRAND A.S.",
+ "equipes": [
+  "F.C. RIOMOIS 1",
+  "A.S. MONTFERRANDAISE 2",
+  "F.C. COURNON D AUVERGNE 1"
+ ],
+ "logos": {
+  "F.C. RIOMOIS 1": "logos/BC508772.jpg",
+  "A.S. MONTFERRANDAISE 2": "logos/BC508763.jpg",
+  "F.C. COURNON D AUVERGNE 1": "logos/BC547699.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. RIOMOIS 1",
+   "away": "A.S. MONTFERRANDAISE 2",
+   "hs": 0,
+   "as": 5
+  },
+  {
+   "home": "A.S. MONTFERRANDAISE 2",
+   "away": "F.C. COURNON D AUVERGNE 1",
+   "hs": 6,
+   "as": 0
+  },
+  {
+   "home": "F.C. RIOMOIS 1",
+   "away": "F.C. COURNON D AUVERGNE 1",
+   "hs": 1,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:38:24Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+   "matchs": [
+    {
+     "home": "F.C. RIOMOIS 1",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 2",
+     "away": "F.C. COURNON D AUVERGNE 1",
+     "hs": 5,
+     "as": 0
+    },
+    {
+     "home": "F.C. RIOMOIS 1",
+     "away": "F.C. COURNON D AUVERGNE 1",
+     "hs": 1,
+     "as": 0
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:38:24Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+   "matchs": [
+    {
+     "home": "F.C. RIOMOIS 1",
+     "away": "A.S. MONTFERRANDAISE 2",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 2",
+     "away": "F.C. COURNON D AUVERGNE 1",
+     "hs": 6,
+     "as": 0
+    },
+    {
+     "home": "F.C. RIOMOIS 1",
+     "away": "F.C. COURNON D AUVERGNE 1",
+     "hs": 1,
+     "as": 0
+    }
+   ]
+  }
+ ]
+}

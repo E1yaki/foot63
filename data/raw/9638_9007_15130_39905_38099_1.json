@@ -1,0 +1,101 @@
+{
+ "id": "9638_9007_15130_39905_38099_1",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-10-03T14:00",
+ "lieu": "CLERMONT FERRAND - STADE DANIEL PAPILLAUD",
+ "organisateur": "FC CLERMONT METROPOL",
+ "equipes": [
+  "F. C. CLERMONT METROPOLE 3",
+  "ECUREUILS FRANC ROSIER 2",
+  "UNION SPORTIVE BASSIN MINIER 1"
+ ],
+ "logos": {
+  "F. C. CLERMONT METROPOLE 3": "logos/BC582731.jpg",
+  "ECUREUILS FRANC ROSIER 2": "logos/BC526932.jpg",
+  "UNION SPORTIVE BASSIN MINIER 1": "logos/BC560477.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F. C. CLERMONT METROPOLE 3",
+   "away": "ECUREUILS FRANC ROSIER 2",
+   "hs": 2,
+   "as": 2
+  },
+  {
+   "home": "UNION SPORTIVE BASSIN MINIER 1",
+   "away": "F. C. CLERMONT METROPOLE 3",
+   "hs": 0,
+   "as": 0
+  },
+  {
+   "home": "UNION SPORTIVE BASSIN MINIER 1",
+   "away": "ECUREUILS FRANC ROSIER 2",
+   "hs": 0,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-06T06:45:17Z",
+ "last_change": "2026-10-06T06:45:17Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "CLERMONT FERRAND - STADE DANIEL PAPILLAUD",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 3",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 1",
+     "away": "F. C. CLERMONT METROPOLE 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 1",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-06T06:45:17Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "CLERMONT FERRAND - STADE DANIEL PAPILLAUD",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 3",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": 2,
+     "as": 2
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 1",
+     "away": "F. C. CLERMONT METROPOLE 3",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "UNION SPORTIVE BASSIN MINIER 1",
+     "away": "ECUREUILS FRANC ROSIER 2",
+     "hs": 0,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

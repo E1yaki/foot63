@@ -1,0 +1,74 @@
+{
+ "id": "9637_9006_15129_39903_38106_3",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-10-10T14:00",
+ "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+ "organisateur": "MONTFERRAND A.S.",
+ "equipes": [
+  "A.S. MONTFERRANDAISE 3",
+  "ESP. CEYRATOISE 1",
+  "CEBAZAT SP. 1"
+ ],
+ "logos": {
+  "A.S. MONTFERRANDAISE 3": "logos/BC508763.jpg",
+  "ESP. CEYRATOISE 1": "logos/BC529030.jpg",
+  "CEBAZAT SP. 1": "logos/BC510828.jpg"
+ },
+ "matchs": [
+  {
+   "home": "A.S. MONTFERRANDAISE 3",
+   "away": "ESP. CEYRATOISE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "A.S. MONTFERRANDAISE 3",
+   "away": "CEBAZAT SP. 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "CEBAZAT SP. 1",
+   "away": "ESP. CEYRATOISE 1",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "CLERMONT FERRAND - COMPLEXE SPORTIF GRAVANCHES N°1",
+   "matchs": [
+    {
+     "home": "A.S. MONTFERRANDAISE 3",
+     "away": "ESP. CEYRATOISE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 3",
+     "away": "CEBAZAT SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CEBAZAT SP. 1",
+     "away": "ESP. CEYRATOISE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

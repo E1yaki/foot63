@@ -1,0 +1,101 @@
+{
+ "id": "9639_9008_15559_40722_38101_3",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "A",
+ "poule_label": "Poule A",
+ "start": "2026-09-19T14:00",
+ "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE ESCUIT",
+ "organisateur": "ISSOIRE US",
+ "equipes": [
+  "E.S. ST GERMINOISE 1",
+  "C.O. VEYRE MONTON 2",
+  "U.S. ISSOIRE A. DU MAS 3"
+ ],
+ "logos": {
+  "C.O. VEYRE MONTON 2": "logos/BC532169.jpg",
+  "E.S. ST GERMINOISE 1": "logos/BC516806.jpg",
+  "U.S. ISSOIRE A. DU MAS 3": "logos/BC506507.jpg"
+ },
+ "matchs": [
+  {
+   "home": "E.S. ST GERMINOISE 1",
+   "away": "C.O. VEYRE MONTON 2",
+   "hs": 1,
+   "as": 0
+  },
+  {
+   "home": "U.S. ISSOIRE A. DU MAS 3",
+   "away": "E.S. ST GERMINOISE 1",
+   "hs": 0,
+   "as": 6
+  },
+  {
+   "home": "C.O. VEYRE MONTON 2",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": 1,
+   "as": 5
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-21T17:26:38Z",
+ "last_change": "2026-09-21T17:26:38Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE ESCUIT",
+   "matchs": [
+    {
+     "home": "E.S. ST GERMINOISE 1",
+     "away": "C.O. VEYRE MONTON 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 3",
+     "away": "E.S. ST GERMINOISE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "C.O. VEYRE MONTON 2",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-21T17:26:38Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE ESCUIT",
+   "matchs": [
+    {
+     "home": "E.S. ST GERMINOISE 1",
+     "away": "C.O. VEYRE MONTON 2",
+     "hs": 1,
+     "as": 0
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 3",
+     "away": "E.S. ST GERMINOISE 1",
+     "hs": 0,
+     "as": 6
+    },
+    {
+     "home": "C.O. VEYRE MONTON 2",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": 1,
+     "as": 5
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

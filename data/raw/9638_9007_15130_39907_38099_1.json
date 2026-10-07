@@ -1,0 +1,101 @@
+{
+ "id": "9638_9007_15130_39907_38099_1",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "C",
+ "poule_label": "Poule C",
+ "start": "2026-10-03T14:00",
+ "lieu": "LEMPDES - PLAINE DE JEUX DU MARAIS 1",
+ "organisateur": "LEMPDES SP.",
+ "equipes": [
+  "LEMPDES SP. 1",
+  "VAL DE SIOULE FOOT 1",
+  "ESP. CEYRATOISE 2"
+ ],
+ "logos": {
+  "LEMPDES SP. 1": "logos/BC518527.jpg",
+  "VAL DE SIOULE FOOT 1": "logos/BC582409.jpg",
+  "ESP. CEYRATOISE 2": "logos/BC529030.jpg"
+ },
+ "matchs": [
+  {
+   "home": "VAL DE SIOULE FOOT 1",
+   "away": "LEMPDES SP. 1",
+   "hs": 3,
+   "as": 6
+  },
+  {
+   "home": "VAL DE SIOULE FOOT 1",
+   "away": "ESP. CEYRATOISE 2",
+   "hs": 3,
+   "as": 2
+  },
+  {
+   "home": "LEMPDES SP. 1",
+   "away": "ESP. CEYRATOISE 2",
+   "hs": 7,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-06T13:42:58Z",
+ "last_change": "2026-10-06T13:42:58Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "LEMPDES - PLAINE DE JEUX DU MARAIS 1",
+   "matchs": [
+    {
+     "home": "VAL DE SIOULE FOOT 1",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "VAL DE SIOULE FOOT 1",
+     "away": "LEMPDES SP. 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-06T13:42:58Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "LEMPDES - PLAINE DE JEUX DU MARAIS 1",
+   "matchs": [
+    {
+     "home": "VAL DE SIOULE FOOT 1",
+     "away": "LEMPDES SP. 1",
+     "hs": 3,
+     "as": 6
+    },
+    {
+     "home": "VAL DE SIOULE FOOT 1",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": 3,
+     "as": 2
+    },
+    {
+     "home": "LEMPDES SP. 1",
+     "away": "ESP. CEYRATOISE 2",
+     "hs": 7,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

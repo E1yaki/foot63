@@ -1,0 +1,74 @@
+{
+ "id": "9638_9007_15130_39906_38100_1",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-10-10T14:00",
+ "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+ "organisateur": "VIC LE COMTE U.S.",
+ "equipes": [
+  "F. C. CLERMONT METROPOLE 1",
+  "F.C. LEZOUX 1",
+  "U.S. VIC LE COMTE 2"
+ ],
+ "logos": {
+  "F. C. CLERMONT METROPOLE 1": "logos/BC582731.jpg",
+  "F.C. LEZOUX 1": "logos/BC517723.jpg",
+  "U.S. VIC LE COMTE 2": "logos/BC506559.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F. C. CLERMONT METROPOLE 1",
+   "away": "U.S. VIC LE COMTE 2",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. LEZOUX 1",
+   "away": "F. C. CLERMONT METROPOLE 1",
+   "hs": null,
+   "as": null
+  },
+  {
+   "home": "F.C. LEZOUX 1",
+   "away": "U.S. VIC LE COMTE 2",
+   "hs": null,
+   "as": null
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:38:24Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-10T14:00",
+   "lieu": "VIC LE COMTE - STADE ANDRÉ BOSTE 1",
+   "matchs": [
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "U.S. VIC LE COMTE 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. LEZOUX 1",
+     "away": "F. C. CLERMONT METROPOLE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. LEZOUX 1",
+     "away": "U.S. VIC LE COMTE 2",
+     "hs": null,
+     "as": null
+    }
+   ]
+  }
+ ]
+}

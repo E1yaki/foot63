@@ -1,0 +1,126 @@
+{
+ "id": "9637_9006_15129_39904_38105_1",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-10-03T13:30",
+ "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+ "organisateur": "THIERS SA",
+ "equipes": [
+  "S.A. THIERNOIS 1",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1",
+  "F.C. COURNON D AUVERGNE 1"
+ ],
+ "logos": {
+  "S.A. THIERNOIS 1": "logos/BC508776.jpg",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1": "logos/BC525985.jpg",
+  "F.C. COURNON D AUVERGNE 1": "logos/BC547699.jpg"
+ },
+ "matchs": [
+  {
+   "home": "S.A. THIERNOIS 1",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "hs": 2,
+   "as": 0
+  },
+  {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+   "hs": 3,
+   "as": 3
+  },
+  {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "S.A. THIERNOIS 1",
+   "hs": 0,
+   "as": 4
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-05T15:30:36Z",
+ "last_change": "2026-10-05T15:30:36Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+   "matchs": [
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "S.A. THIERNOIS 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-03T15:37:01Z",
+   "start": "2026-10-03T13:30",
+   "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+   "matchs": [
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "S.A. THIERNOIS 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T15:30:36Z",
+   "start": "2026-10-03T13:30",
+   "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
+   "matchs": [
+    {
+     "home": "S.A. THIERNOIS 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": 2,
+     "as": 0
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+     "hs": 3,
+     "as": 3
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "S.A. THIERNOIS 1",
+     "hs": 0,
+     "as": 4
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

@@ -1,0 +1,126 @@
+{
+ "id": "9639_9008_15559_40723_34064_3",
+ "cat": "u13-brassage",
+ "cat_label": "U13 Brassage",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-12T10:00",
+ "lieu": "ROYAT - STADE DU BREUIL",
+ "organisateur": "A.S. ROYAT A.C.",
+ "equipes": [
+  "A.S. ROMAGNAT 1",
+  "A.S. ROYAT A.C. 2",
+  "C.S. DE VOLVIC 3"
+ ],
+ "logos": {
+  "A.S. ROMAGNAT 1": "logos/BC516330.jpg",
+  "A.S. ROYAT A.C. 2": "logos/BC524117.jpg",
+  "C.S. DE VOLVIC 3": "logos/BC506562.jpg"
+ },
+ "matchs": [
+  {
+   "home": "A.S. ROMAGNAT 1",
+   "away": "A.S. ROYAT A.C. 2",
+   "hs": 1,
+   "as": 16
+  },
+  {
+   "home": "A.S. ROYAT A.C. 2",
+   "away": "C.S. DE VOLVIC 3",
+   "hs": 0,
+   "as": 0
+  },
+  {
+   "home": "A.S. ROMAGNAT 1",
+   "away": "C.S. DE VOLVIC 3",
+   "hs": 0,
+   "as": 15
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:51:53Z",
+ "last_change": "2026-09-20T18:51:53Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T10:00",
+   "lieu": "ROYAT - STADE DU BREUIL",
+   "matchs": [
+    {
+     "home": "A.S. ROMAGNAT 1",
+     "away": "A.S. ROYAT A.C. 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. ROYAT A.C. 2",
+     "away": "C.S. DE VOLVIC 3",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "A.S. ROMAGNAT 1",
+     "away": "C.S. DE VOLVIC 3",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:18:59Z",
+   "start": "2026-09-12T10:00",
+   "lieu": "ROYAT - STADE DU BREUIL",
+   "matchs": [
+    {
+     "home": "A.S. ROMAGNAT 1",
+     "away": "A.S. ROYAT A.C. 2",
+     "hs": 1,
+     "as": null
+    },
+    {
+     "home": "A.S. ROYAT A.C. 2",
+     "away": "C.S. DE VOLVIC 3",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "A.S. ROMAGNAT 1",
+     "away": "C.S. DE VOLVIC 3",
+     "hs": 0,
+     "as": 15
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-20T18:51:53Z",
+   "start": "2026-09-12T10:00",
+   "lieu": "ROYAT - STADE DU BREUIL",
+   "matchs": [
+    {
+     "home": "A.S. ROMAGNAT 1",
+     "away": "A.S. ROYAT A.C. 2",
+     "hs": 1,
+     "as": 16
+    },
+    {
+     "home": "A.S. ROYAT A.C. 2",
+     "away": "C.S. DE VOLVIC 3",
+     "hs": 0,
+     "as": 0
+    },
+    {
+     "home": "A.S. ROMAGNAT 1",
+     "away": "C.S. DE VOLVIC 3",
+     "hs": 0,
+     "as": 15
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

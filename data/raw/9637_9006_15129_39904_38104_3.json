@@ -1,0 +1,101 @@
+{
+ "id": "9637_9006_15129_39904_38104_3",
+ "cat": "u13-d1",
+ "cat_label": "U13 D1",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-19T14:00",
+ "lieu": "COURNON D AUVERGNE - PLAINE DE JEUX 2",
+ "organisateur": "COURNON FC",
+ "equipes": [
+  "GROUPEMENT FORMATEUR LIMAGNE 1",
+  "CLERMONT FOOT 63 2",
+  "F.C. COURNON D AUVERGNE 1"
+ ],
+ "logos": {
+  "GROUPEMENT FORMATEUR LIMAGNE 1": "logos/BC554404.jpg",
+  "CLERMONT FOOT 63 2": "logos/BC535789.jpg",
+  "F.C. COURNON D AUVERGNE 1": "logos/BC547699.jpg"
+ },
+ "matchs": [
+  {
+   "home": "F.C. COURNON D AUVERGNE 1",
+   "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "hs": 4,
+   "as": 1
+  },
+  {
+   "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+   "away": "CLERMONT FOOT 63 2",
+   "hs": 4,
+   "as": 0
+  },
+  {
+   "home": "CLERMONT FOOT 63 2",
+   "away": "F.C. COURNON D AUVERGNE 1",
+   "hs": 4,
+   "as": 0
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-23T11:03:20Z",
+ "last_change": "2026-09-23T11:03:20Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "COURNON D AUVERGNE - PLAINE DE JEUX 2",
+   "matchs": [
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "away": "CLERMONT FOOT 63 2",
+     "hs": null,
+     "as": null
+    },
+    {
+     "home": "CLERMONT FOOT 63 2",
+     "away": "F.C. COURNON D AUVERGNE 1",
+     "hs": null,
+     "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-09-23T11:03:20Z",
+   "start": "2026-09-19T14:00",
+   "lieu": "COURNON D AUVERGNE - PLAINE DE JEUX 2",
+   "matchs": [
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "hs": 4,
+     "as": 1
+    },
+    {
+     "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+     "away": "CLERMONT FOOT 63 2",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "CLERMONT FOOT 63 2",
+     "away": "F.C. COURNON D AUVERGNE 1",
+     "hs": 4,
+     "as": 0
+    }
+   ]
+  }
+ ],
+ "glyph_fps": [],
+ "mini": {}
+}

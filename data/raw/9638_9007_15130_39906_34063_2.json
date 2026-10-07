@@ -1,0 +1,74 @@
+{
+ "id": "9638_9007_15130_39906_34063_2",
+ "cat": "u13-d2",
+ "cat_label": "U13 D2",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "B",
+ "poule_label": "Poule B",
+ "start": "2026-09-12T14:00",
+ "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+ "organisateur": "AULNAT SP",
+ "equipes": [
+  "U.S. LES MARTRES DE VEYRE 1",
+  "U.S. VIC LE COMTE 2",
+  "AULNAT SP. 1"
+ ],
+ "logos": {
+  "U.S. LES MARTRES DE VEYRE 1": "logos/BC506520.jpg",
+  "U.S. VIC LE COMTE 2": "logos/BC506559.jpg",
+  "AULNAT SP. 1": "logos/BC521920.jpg"
+ },
+ "matchs": [
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 1",
+   "away": "U.S. VIC LE COMTE 2",
+   "hs": 2,
+   "as": 5
+  },
+  {
+   "home": "U.S. LES MARTRES DE VEYRE 1",
+   "away": "AULNAT SP. 1",
+   "hs": 1,
+   "as": 4
+  },
+  {
+   "home": "U.S. VIC LE COMTE 2",
+   "away": "AULNAT SP. 1",
+   "hs": 2,
+   "as": 2
+  }
+ ],
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T18:18:59Z",
+ "last_change": "2026-09-20T18:03:12Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-12T14:00",
+   "lieu": "AULNAT - STADE PIERRE DUCOURTIAL 1",
+   "matchs": [
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "U.S. VIC LE COMTE 2",
+     "hs": 2,
+     "as": 5
+    },
+    {
+     "home": "U.S. LES MARTRES DE VEYRE 1",
+     "away": "AULNAT SP. 1",
+     "hs": 1,
+     "as": 4
+    },
+    {
+     "home": "U.S. VIC LE COMTE 2",
+     "away": "AULNAT SP. 1",
+     "hs": 2,
+     "as": 2
+    }
+   ]
+  }
+ ]
+}
