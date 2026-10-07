@@ -27,47 +27,47 @@
  },
  "matchs": [
   {
-   "home": "F. C. CLERMONT METROPOLE 1",
-   "away": "F. C. CLERMONT METROPOLE 2",
-   "hs": null,
-   "as": null
+   "home": "A.S. MONTFERRANDAISE 3",
+   "away": "F.C. AUBIEROIS 1",
+   "hs": 1,
+   "as": 1
   },
   {
    "home": "F. C. CLERMONT METROPOLE 1",
    "away": "F.C. AUBIEROIS 2",
-   "hs": null,
-   "as": null
-  },
-  {
-   "home": "A.S. MONTFERRANDAISE 3",
-   "away": "F.C. AUBIEROIS 1",
-   "hs": null,
-   "as": null
+   "hs": 4,
+   "as": 1
   },
   {
    "home": "F. C. CLERMONT METROPOLE 2",
    "away": "A.S. MONTFERRANDAISE 1",
-   "hs": null,
-   "as": null
+   "hs": 0,
+   "as": 14
   },
   {
-   "home": "F.C. AUBIEROIS 1",
-   "away": "F.C. AUBIEROIS 2",
-   "hs": null,
-   "as": null
+   "home": "F. C. CLERMONT METROPOLE 1",
+   "away": "F. C. CLERMONT METROPOLE 2",
+   "hs": 3,
+   "as": 1
   },
   {
    "home": "A.S. MONTFERRANDAISE 1",
    "away": "A.S. MONTFERRANDAISE 3",
-   "hs": null,
-   "as": null
+   "hs": 5,
+   "as": 1
+  },
+  {
+   "home": "F.C. AUBIEROIS 1",
+   "away": "F.C. AUBIEROIS 2",
+   "hs": 2,
+   "as": 0
   }
  ],
  "score_illisible": false,
  "score_incoherent": false,
  "first_seen": "2026-09-20T18:03:12Z",
- "last_seen": "2026-10-05T15:30:36Z",
- "last_change": "2026-10-03T15:37:01Z",
+ "last_seen": "2026-10-06T06:45:17Z",
+ "last_change": "2026-10-06T06:45:17Z",
  "history": [
   {
    "ts": "2026-09-20T18:03:12Z",
@@ -152,6 +152,49 @@
      "away": "A.S. MONTFERRANDAISE 3",
      "hs": null,
      "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-06T06:45:17Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "CLERMONT FERRAND - STADE DU PARC DE LA FRATERNITÉ",
+   "matchs": [
+    {
+     "home": "A.S. MONTFERRANDAISE 3",
+     "away": "F.C. AUBIEROIS 1",
+     "hs": 1,
+     "as": 1
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "F.C. AUBIEROIS 2",
+     "hs": 4,
+     "as": 1
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 2",
+     "away": "A.S. MONTFERRANDAISE 1",
+     "hs": 0,
+     "as": 14
+    },
+    {
+     "home": "F. C. CLERMONT METROPOLE 1",
+     "away": "F. C. CLERMONT METROPOLE 2",
+     "hs": 3,
+     "as": 1
+    },
+    {
+     "home": "A.S. MONTFERRANDAISE 1",
+     "away": "A.S. MONTFERRANDAISE 3",
+     "hs": 5,
+     "as": 1
+    },
+    {
+     "home": "F.C. AUBIEROIS 1",
+     "away": "F.C. AUBIEROIS 2",
+     "hs": 2,
+     "as": 0
     }
    ]
   }

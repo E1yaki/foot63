@@ -1,438 +1,178 @@
 {
- "_comment": "Règles U13 saisies d'après le district (les équipes qui ne montent ni ne descendent se maintiennent). 'tiers' = zones du CLASSEMENT DE LA DIVISION toutes poules confondues (les 1ers de chaque poule, puis les 2es…). 'last' = les N dernières. 'dest' sert seulement à scraper/check_rules.py. Une catégorie sans règle s'affiche sans zones. Corrigé le 20/09/2026 après vérification de cohérence : Brassage 10/14/24/34, P2-D1 7 descendent, P2-D2 7 descendent. U10-U11 phase 1 ajoutée le 22/09/2026 (portée poule : 1er/2e -> Élite, reste -> Géo).",
- "points": {
-  "win": 3,
-  "draw": 1,
-  "loss": 0
- },
- "tiebreak": [
-  "pts",
-  "diff",
-  "bp"
+ "id": "9634_9003_15563_40735_34053_1",
+ "cat": "u10-u11",
+ "cat_label": "U10 U11 (2016-2017)",
+ "phase": 1,
+ "phase_label": "Phase 1",
+ "poule": "1",
+ "poule_label": "Poule 1",
+ "start": "2026-09-19T10:00",
+ "lieu": "VERTOLAYE - STADE MARCEL BLONDELLE 1",
+ "organisateur": "AMBERT LIVRADOIS SUD",
+ "equipes": [
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+  "A.S. JOB 2",
+  "A.S. JOB 1",
+  "S.C. BILLOMOIS 1"
  ],
- "cross": [
-  "pos",
-  "ppm",
-  "diff",
-  "bp"
+ "logos": {
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1": "logos/BC564515.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2": "logos/BC564515.jpg",
+  "A.S. JOB 2": "logos/BC534731.jpg",
+  "A.S. JOB 1": "logos/BC534731.jpg",
+  "S.C. BILLOMOIS 1": "logos/BC506469.jpg"
+ },
+ "matchs": [
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "hs": 3,
+   "as": 0
+  },
+  {
+   "home": "S.C. BILLOMOIS 1",
+   "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "hs": 1,
+   "as": 3
+  },
+  {
+   "home": "A.S. JOB 2",
+   "away": "S.C. BILLOMOIS 1",
+   "hs": 0,
+   "as": 8
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "away": "A.S. JOB 1",
+   "hs": 4,
+   "as": 0
+  },
+  {
+   "home": "A.S. JOB 1",
+   "away": "A.S. JOB 2",
+   "hs": 4,
+   "as": 0
+  }
  ],
- "u13-d1": {
-  "1": {
-   "composition": {
-    "poules": 2,
-    "size": 9,
-    "teams": 18
-   },
-   "tiers": [
+ "score_illisible": false,
+ "score_incoherent": false,
+ "first_seen": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-09-20T19:04:58Z",
+ "last_change": "2026-09-20T19:04:58Z",
+ "history": [
+  {
+   "ts": "2026-09-20T18:03:12Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "VERTOLAYE - STADE MARCEL BLONDELLE 1",
+   "matchs": [
     {
-     "kind": "up",
-     "label": "Monte en P2 Critérium interdistrict",
-     "dest": "u13-criterium",
-     "from": 1,
-     "to": 3
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "hs": 5,
+     "as": 0
     },
     {
-     "kind": "down",
-     "label": "Descend en P2 D2",
-     "dest": "u13-d2",
-     "last": 4
-    }
-   ],
-   "note": "Critérium : les premiers des deux poules et le meilleur deuxième (points, puis goal-average général, puis meilleure attaque)."
-  },
-  "2": {
-   "composition": {
-    "poules": 3,
-    "size": 6,
-    "teams": 18
-   },
-   "tiers": [
-    {
-     "kind": "up",
-     "label": "Monte en P3 Critérium interdistrict",
-     "dest": "u13-criterium",
-     "from": 1,
-     "to": 3
+     "home": "S.C. BILLOMOIS 1",
+     "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "hs": 1,
+     "as": 5
     },
     {
-     "kind": "down",
-     "label": "Descend en P3 D2",
-     "dest": "u13-d2",
-     "last": 7
+     "home": "A.S. JOB 2",
+     "away": "S.C. BILLOMOIS 1",
+     "hs": 0,
+     "as": null
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "A.S. JOB 1",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "A.S. JOB 1",
+     "away": "A.S. JOB 2",
+     "hs": 4,
+     "as": 0
     }
    ]
   },
-  "3": {
-   "composition": {
-    "poules": 2,
-    "size": 6,
-    "teams": 12
-   }
-  }
- },
- "u13-d2": {
-  "1": {
-   "composition": {
-    "poules": 3,
-    "size": 9,
-    "teams": 27
-   },
-   "tiers": [
+  {
+   "ts": "2026-09-20T18:18:59Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "VERTOLAYE - STADE MARCEL BLONDELLE 1",
+   "matchs": [
     {
-     "kind": "up",
-     "label": "Monte en P2 D1",
-     "dest": "u13-d1",
-     "from": 1,
-     "to": 7
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "hs": 5,
+     "as": 0
     },
     {
-     "kind": "down",
-     "label": "Descend en P2 D3",
-     "dest": "u13-d3",
-     "last": 10
+     "home": "S.C. BILLOMOIS 1",
+     "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "hs": 1,
+     "as": 5
+    },
+    {
+     "home": "A.S. JOB 2",
+     "away": "S.C. BILLOMOIS 1",
+     "hs": 0,
+     "as": 8
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "A.S. JOB 1",
+     "hs": 4,
+     "as": 0
+    },
+    {
+     "home": "A.S. JOB 1",
+     "away": "A.S. JOB 2",
+     "hs": 4,
+     "as": 0
     }
    ]
   },
-  "2": {
-   "composition": {
-    "poules": 4,
-    "size": 6,
-    "teams": 24
-   },
-   "tiers": [
+  {
+   "ts": "2026-09-20T19:04:58Z",
+   "start": "2026-09-19T10:00",
+   "lieu": "VERTOLAYE - STADE MARCEL BLONDELLE 1",
+   "matchs": [
     {
-     "kind": "up",
-     "label": "Monte en P3 D1",
-     "dest": "u13-d1",
-     "from": 1,
-     "to": 4
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "hs": 3,
+     "as": 0
     },
     {
-     "kind": "down",
-     "label": "Descend en P3 D3",
-     "dest": "u13-d3",
-     "last": 7
-    }
-   ]
-  },
-  "3": {
-   "composition": {
-    "poules": 4,
-    "size": 6,
-    "teams": 24
-   }
-  }
- },
- "u13-brassage": {
-  "1": {
-   "composition": {
-    "poules": 10,
-    "size": 9,
-    "min_size": 8,
-    "teams": 82
-   },
-   "tiers": [
-    {
-     "kind": "t1",
-     "label": "Va en P2 D2",
-     "dest": "u13-d2",
-     "from": 1,
-     "to": 10
+     "home": "S.C. BILLOMOIS 1",
+     "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "hs": 1,
+     "as": 3
     },
     {
-     "kind": "t2",
-     "label": "Va en P2 D3",
-     "dest": "u13-d3",
-     "from": 11,
-     "to": 24
+     "home": "A.S. JOB 2",
+     "away": "S.C. BILLOMOIS 1",
+     "hs": 0,
+     "as": 8
     },
     {
-     "kind": "t3",
-     "label": "Va en P2 D4",
-     "dest": "u13-d4",
-     "from": 25,
-     "to": 48
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "A.S. JOB 1",
+     "hs": 4,
+     "as": 0
     },
     {
-     "kind": "t4",
-     "label": "Va en P2 D5",
-     "dest": "u13-d5",
-     "from": 49,
-     "to": 82
+     "home": "A.S. JOB 1",
+     "away": "A.S. JOB 2",
+     "hs": 4,
+     "as": 0
     }
    ]
   }
- },
- "u13-d3": {
-  "2": {
-   "composition": {
-    "poules": 4,
-    "size": 6,
-    "teams": 24
-   },
-   "tiers": [
-    {
-     "kind": "up",
-     "label": "Monte en P3 D2",
-     "dest": "u13-d2",
-     "from": 1,
-     "to": 4
-    },
-    {
-     "kind": "down",
-     "label": "Descend en P3 D4",
-     "dest": "u13-d4",
-     "last": 4
-    }
-   ]
-  },
-  "3": {
-   "composition": {
-    "poules": 3,
-    "size": 10,
-    "teams": 30
-   }
-  }
- },
- "u13-d4": {
-  "2": {
-   "composition": {
-    "poules": 4,
-    "size": 6,
-    "teams": 24
-   },
-   "tiers": [
-    {
-     "kind": "up",
-     "label": "Monte en P3 D3",
-     "dest": "u13-d3",
-     "from": 1,
-     "to": 7
-    },
-    {
-     "kind": "down",
-     "label": "Descend en P3 D5",
-     "dest": "u13-d5",
-     "last": 4
-    }
-   ]
-  },
-  "3": {
-   "composition": {
-    "poules": 3,
-    "size": 10,
-    "teams": 30
-   }
-  }
- },
- "u13-d5": {
-  "2": {
-   "composition": {
-    "poules": 6,
-    "size": 6,
-    "min_size": 5,
-    "teams": 34
-   },
-   "tiers": [
-    {
-     "kind": "up",
-     "label": "Monte en P3 D4",
-     "dest": "u13-d4",
-     "from": 1,
-     "to": 13
-    }
-   ]
-  }
- },
- "u13-criterium": {
-  "2": {
-   "composition": {
-    "teams": 8,
-    "teams_63": 3
-   },
-   "flows": [
-    {
-     "dest": "ligue-c-foot10",
-     "n": 1
-    },
-    {
-     "dest": "ligue-c-foot8",
-     "n": 1
-    }
-   ],
-   "note": "Parmi les 3 équipes du 63 : 1 monte en P3 Ligue niveau C (foot à 10), 1 monte en P3 Ligue niveau C (foot à 8), 1 se maintient."
-  },
-  "3": {
-   "composition": {
-    "teams": 8,
-    "teams_63": 4
-   }
-  }
- },
- "u10-u11": {
-  "1": {
-   "scope": "poule",
-   "tiers": [
-    {
-     "kind": "up",
-     "label": "Monte en Phase 2 Élite",
-     "from": 1,
-     "to": 2
-    },
-    {
-     "kind": "t2",
-     "label": "Va en Phase 2 Géographique",
-     "from": 3,
-     "to": "end"
-    }
-   ],
-   "note": "Les 2 premiers de chaque poule de brassage montent en Phase 2 Élite ; les autres vont en Phase 2 Géographique."
-  },
-  "_a_verifier_phase_2_3": {
-   "_comment": "Règle donnée par l'utilisateur le 22/09/2026, à activer une fois la Phase 2 commencée et les libellés de poules du site vérifiés (le mécanisme 'groups' ci-dessous suppose que le site distingue les poules Élite/Géographique dans leur libellé, par ex. 'Poule Élite A' / 'Poule Géo B' -- à confirmer et ajuster le 'match' regex en conséquence).",
-   "2_a_activer": {
-    "groups": [
-     {
-      "match": "elite|élite",
-      "scope": "division",
-      "composition": {},
-      "cross": [
-       "pos",
-       "ppm",
-       "diff",
-       "bp"
-      ],
-      "tiers": [
-       {
-        "kind": "t1",
-        "label": "Va en Phase 3 Élite Niveau 1",
-        "from_pct": 0,
-        "to_pct": 25
-       },
-       {
-        "kind": "t2",
-        "label": "Va en Phase 3 Élite Niveau 2",
-        "from_pct": 25,
-        "to_pct": 50
-       },
-       {
-        "kind": "t3",
-        "label": "Va en Phase 3 Élite Niveau 3",
-        "from_pct": 50,
-        "to_pct": 100
-       }
-      ]
-     },
-     {
-      "match": "g[eé]o",
-      "scope": "poule",
-      "tiers": [
-       {
-        "kind": "t1",
-        "label": "Va en Phase 3 Géographique Niveau 1",
-        "from": 1,
-        "to": 3
-       },
-       {
-        "kind": "t2",
-        "label": "Va en Phase 3 Géographique Niveau 2",
-        "from": 4,
-        "to": "end"
-       }
-      ]
-     }
-    ]
-   }
-  }
- },
- "u13-festival": {
-  "_comment": "Règlement Festival U13 Pitch 2026-2027 (REGLEMENT-COUPE-U13_2026-2027.pdf). 4 tours ; le tour 4 est la finale départementale (pas de qualification au-delà, donc pas de zones).",
-  "1": {
-   "scope": "poule",
-   "points": {
-    "win": 3,
-    "draw": 1,
-    "loss": 0,
-    "forfeit": -1
-   },
-   "tiers": [
-    {
-     "kind": "up",
-     "label": "Qualifié pour le tour 2",
-     "from": 1,
-     "to": 2
-    },
-    {
-     "kind": "down",
-     "label": "Éliminé",
-     "from": 3,
-     "to": "end"
-    }
-   ],
-   "note": "1er tour : 42 poules de 3 ; les deux premiers de chaque poule sont qualifiés pour le tour 2.",
-   "next_date": "2026-10-17",
-   "next_label": "Tour 2"
-  },
-  "2": {
-   "scope": "poule",
-   "points": {
-    "win": 3,
-    "draw": 1,
-    "loss": 0,
-    "forfeit": -1
-   },
-   "tiers": [
-    {
-     "kind": "up",
-     "label": "Qualifié pour le tour 3",
-     "from": 1,
-     "to": 1
-    },
-    {
-     "kind": "down",
-     "label": "Éliminé",
-     "from": 2,
-     "to": "end"
-    }
-   ],
-   "note": "2e tour : 28 poules de 3 ; seul le premier de chaque poule est qualifié pour le tour 3.",
-   "next_date": "2027-01-16",
-   "next_label": "Tour 3"
-  },
-  "3": {
-   "scope": "poule",
-   "points": {
-    "win": 3,
-    "draw": 1,
-    "loss": 0,
-    "forfeit": -1
-   },
-   "tiers": [
-    {
-     "kind": "up",
-     "label": "Qualifié pour la finale départementale",
-     "from": 1,
-     "to": 2
-    },
-    {
-     "kind": "down",
-     "label": "Éliminé",
-     "from": 3,
-     "to": "end"
-    }
-   ],
-   "note": "3e tour : 7 poules de 4 ; les deux premiers de chaque poule sont qualifiés pour la finale départementale.",
-   "next_date": "2027-03-20",
-   "next_label": "Finale départementale"
-  },
-  "4": {
-   "points": {
-    "win": 3,
-    "draw": 1,
-    "loss": 0,
-    "forfeit": -1
-   },
-   "note": "Finale départementale (4e tour) : pas de tour suivant, donc pas de zone de qualification."
-  }
- }
+ ],
+ "glyph_fps": [],
+ "mini": {}
 }

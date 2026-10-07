@@ -27,47 +27,47 @@
  },
  "matchs": [
   {
-   "home": "SANCY CHAVANON FOOT 1",
-   "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
-   "hs": null,
-   "as": null
-  },
-  {
    "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
    "away": "F.C. PLAUZAT-CHAMPEIX 1",
-   "hs": null,
-   "as": null
-  },
-  {
-   "home": "SANCY CHAVANON FOOT 1",
-   "away": "U.S. ISSOIRE A. DU MAS 3",
-   "hs": null,
-   "as": null
+   "hs": 0,
+   "as": 5
   },
   {
    "home": "U.S. ISSOIRE A. DU MAS 1",
    "away": "U.S. ISSOIRE A. DU MAS 3",
-   "hs": null,
-   "as": null
+   "hs": 6,
+   "as": 0
+  },
+  {
+   "home": "SANCY CHAVANON FOOT 1",
+   "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+   "hs": 0,
+   "as": 15
+  },
+  {
+   "home": "SANCY CHAVANON FOOT 1",
+   "away": "U.S. ISSOIRE A. DU MAS 3",
+   "hs": 0,
+   "as": 12
   },
   {
    "home": "F.C. PLAUZAT-CHAMPEIX 2",
    "away": "U.S. ISSOIRE A. DU MAS 1",
-   "hs": null,
-   "as": null
+   "hs": 1,
+   "as": 8
   },
   {
    "home": "F.C. PLAUZAT-CHAMPEIX 1",
    "away": "F.C. PLAUZAT-CHAMPEIX 2",
-   "hs": null,
-   "as": null
+   "hs": 6,
+   "as": 0
   }
  ],
  "score_illisible": false,
  "score_incoherent": false,
  "first_seen": "2026-09-20T18:03:12Z",
- "last_seen": "2026-10-05T15:30:36Z",
- "last_change": "2026-10-03T15:37:01Z",
+ "last_seen": "2026-10-05T17:31:38Z",
+ "last_change": "2026-10-05T17:31:38Z",
  "history": [
   {
    "ts": "2026-09-20T18:03:12Z",
@@ -152,6 +152,49 @@
      "away": "F.C. PLAUZAT-CHAMPEIX 2",
      "hs": null,
      "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-05T17:31:38Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "ISSOIRE - COMPLEXE SPORTIF LAVEDRINE STADE ESCUIT",
+   "matchs": [
+    {
+     "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 1",
+     "hs": 0,
+     "as": 5
+    },
+    {
+     "home": "U.S. ISSOIRE A. DU MAS 1",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": 6,
+     "as": 0
+    },
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+     "hs": 0,
+     "as": 15
+    },
+    {
+     "home": "SANCY CHAVANON FOOT 1",
+     "away": "U.S. ISSOIRE A. DU MAS 3",
+     "hs": 0,
+     "as": 12
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 2",
+     "away": "U.S. ISSOIRE A. DU MAS 1",
+     "hs": 1,
+     "as": 8
+    },
+    {
+     "home": "F.C. PLAUZAT-CHAMPEIX 1",
+     "away": "F.C. PLAUZAT-CHAMPEIX 2",
+     "hs": 6,
+     "as": 0
     }
    ]
   }

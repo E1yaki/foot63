@@ -29,45 +29,33 @@
   {
    "home": "F.C. COURNON D AUVERGNE 3",
    "away": "CLERMONT FOOT 63 2",
-   "hs": null,
-   "as": null
+   "hs": 0,
+   "as": 9
   },
   {
    "home": "CLERMONT FOOT 63 2",
    "away": "ECUREUILS FRANC ROSIER 1",
-   "hs": null,
-   "as": null
+   "hs": 0,
+   "as": 1
   },
   {
    "home": "F.C. COURNON D AUVERGNE 1",
    "away": "F.C. COURNON D AUVERGNE 3",
-   "hs": null,
-   "as": null
-  },
-  {
-   "home": "FOOTBALL CLUB GERZAT 1",
-   "away": "FOOTBALL CLUB GERZAT 2",
-   "hs": null,
-   "as": null
-  },
-  {
-   "home": "F.C. COURNON D AUVERGNE 1",
-   "away": "FOOTBALL CLUB GERZAT 2",
-   "hs": null,
-   "as": null
+   "hs": 9,
+   "as": 0
   },
   {
    "home": "ECUREUILS FRANC ROSIER 1",
    "away": "FOOTBALL CLUB GERZAT 1",
-   "hs": null,
-   "as": null
+   "hs": 6,
+   "as": 0
   }
  ],
  "score_illisible": false,
  "score_incoherent": false,
  "first_seen": "2026-09-20T18:03:12Z",
- "last_seen": "2026-10-05T15:30:36Z",
- "last_change": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-06T18:26:03Z",
+ "last_change": "2026-10-06T18:26:03Z",
  "history": [
   {
    "ts": "2026-09-20T18:03:12Z",
@@ -109,6 +97,37 @@
      "away": "FOOTBALL CLUB GERZAT 1",
      "hs": null,
      "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-06T18:26:03Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "CLERMONT FERRAND - STADE COLONEL BOUTET",
+   "matchs": [
+    {
+     "home": "F.C. COURNON D AUVERGNE 3",
+     "away": "CLERMONT FOOT 63 2",
+     "hs": 0,
+     "as": 9
+    },
+    {
+     "home": "CLERMONT FOOT 63 2",
+     "away": "ECUREUILS FRANC ROSIER 1",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "F.C. COURNON D AUVERGNE 1",
+     "away": "F.C. COURNON D AUVERGNE 3",
+     "hs": 9,
+     "as": 0
+    },
+    {
+     "home": "ECUREUILS FRANC ROSIER 1",
+     "away": "FOOTBALL CLUB GERZAT 1",
+     "hs": 6,
+     "as": 0
     }
    ]
   }
