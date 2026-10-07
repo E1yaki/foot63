@@ -556,20 +556,20 @@
         {
          "home": "A.S. ROYAT A.C. 1",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 4
         },
         {
          "home": "A.S. ROYAT A.C. 1",
          "away": "A.S. MONTFERRANDAISE 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
         },
         {
          "home": "A.S. MONTFERRANDAISE 2",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 0
         }
        ],
        "heure_connue": true

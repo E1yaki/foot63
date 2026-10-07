@@ -1281,40 +1281,40 @@
        ],
        "matchs": [
         {
-         "home": "SANCY CHAVANON FOOT 1",
-         "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
          "away": "F.C. PLAUZAT-CHAMPEIX 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "SANCY CHAVANON FOOT 1",
-         "away": "U.S. ISSOIRE A. DU MAS 3",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 5
         },
         {
          "home": "U.S. ISSOIRE A. DU MAS 1",
          "away": "U.S. ISSOIRE A. DU MAS 3",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 0
+        },
+        {
+         "home": "SANCY CHAVANON FOOT 1",
+         "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+         "hs": 0,
+         "as": 15
+        },
+        {
+         "home": "SANCY CHAVANON FOOT 1",
+         "away": "U.S. ISSOIRE A. DU MAS 3",
+         "hs": 0,
+         "as": 12
         },
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 2",
          "away": "U.S. ISSOIRE A. DU MAS 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 8
         },
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 1",
          "away": "F.C. PLAUZAT-CHAMPEIX 2",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -2156,40 +2156,40 @@
        ],
        "matchs": [
         {
-         "home": "U.S. VIC LE COMTE 2",
-         "away": "PERIGNAT F.C. 1",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "GROUPEMENT DE L'AUZON 1",
          "away": "GROUPEMENT DE L'AUZON 3",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 0
+        },
+        {
+         "home": "U.S. VIC LE COMTE 2",
+         "away": "PERIGNAT F.C. 1",
+         "hs": 5,
+         "as": 1
         },
         {
          "home": "U.S. LES MARTRES DE VEYRE 1",
          "away": "U.S. LES MARTRES DE VEYRE 3",
-         "hs": null,
-         "as": null
+         "hs": 17,
+         "as": 0
         },
         {
          "home": "U.S. VIC LE COMTE 2",
          "away": "U.S. LES MARTRES DE VEYRE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 8
         },
         {
          "home": "GROUPEMENT DE L'AUZON 3",
          "away": "PERIGNAT F.C. 1",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 1
         },
         {
          "home": "U.S. LES MARTRES DE VEYRE 3",
          "away": "GROUPEMENT DE L'AUZON 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 4
         }
        ],
        "heure_connue": true
@@ -2810,9 +2810,9 @@
        "lieu": "ST BEAUZIRE - STADE EUGÈNE SENIQUETTE",
        "organisateur": "GF LIMAGNE",
        "equipes": [
-        "U.S. ENNEZAT 1",
-        "F.C. RIOMOIS 5",
         "F.C. RIOMOIS 4",
+        "F.C. RIOMOIS 5",
+        "U.S. ENNEZAT 1",
         "GROUPEMENT FORMATEUR LIMAGNE 1",
         "GROUPEMENT FORMATEUR LIMAGNE 2"
        ],
@@ -2820,32 +2820,32 @@
         {
          "home": "U.S. ENNEZAT 1",
          "away": "F.C. RIOMOIS 4",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 5
         },
         {
          "home": "F.C. RIOMOIS 5",
          "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 5
         },
         {
          "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
          "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "GROUPEMENT FORMATEUR LIMAGNE 2",
-         "away": "U.S. ENNEZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 2
         },
         {
          "home": "F.C. RIOMOIS 4",
          "away": "F.C. RIOMOIS 5",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 2
+        },
+        {
+         "home": "GROUPEMENT FORMATEUR LIMAGNE 2",
+         "away": "U.S. ENNEZAT 1",
+         "hs": 0,
+         "as": 6
         }
        ],
        "heure_connue": true
@@ -3248,8 +3248,8 @@
        "lieu": "ROYAT - STADE DU BREUIL",
        "organisateur": "A.S. ROYAT A.C.",
        "equipes": [
-        "F.C. CHAMALIERES 2",
         "F.C. CHAMALIERES 1",
+        "F.C. CHAMALIERES 2",
         "A.S. ROYAT A.C. 2",
         "A.S. ROYAT A.C. 1",
         "U.S. BEAUMONTOISE 1",
@@ -3257,40 +3257,40 @@
        ],
        "matchs": [
         {
-         "home": "F.C. CHAMALIERES 2",
-         "away": "A.S. ROYAT A.C. 1",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "U.S. BEAUMONTOISE 2",
          "away": "F.C. CHAMALIERES 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
         },
         {
-         "home": "U.S. BEAUMONTOISE 1",
-         "away": "U.S. BEAUMONTOISE 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. CHAMALIERES 1",
-         "away": "F.C. CHAMALIERES 2",
-         "hs": null,
-         "as": null
+         "home": "F.C. CHAMALIERES 2",
+         "away": "A.S. ROYAT A.C. 1",
+         "hs": 4,
+         "as": 2
         },
         {
          "home": "U.S. BEAUMONTOISE 1",
          "away": "A.S. ROYAT A.C. 2",
-         "hs": null,
-         "as": null
+         "hs": 10,
+         "as": 1
         },
         {
          "home": "A.S. ROYAT A.C. 1",
          "away": "A.S. ROYAT A.C. 2",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 2
+        },
+        {
+         "home": "F.C. CHAMALIERES 1",
+         "away": "F.C. CHAMALIERES 2",
+         "hs": 5,
+         "as": 1
+        },
+        {
+         "home": "U.S. BEAUMONTOISE 1",
+         "away": "U.S. BEAUMONTOISE 2",
+         "hs": 1,
+         "as": 3
         }
        ],
        "heure_connue": true
@@ -3483,40 +3483,40 @@
        ],
        "matchs": [
         {
-         "home": "F. C. CLERMONT METROPOLE 1",
-         "away": "F. C. CLERMONT METROPOLE 2",
-         "hs": null,
-         "as": null
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "F.C. AUBIEROIS 1",
+         "hs": 1,
+         "as": 1
         },
         {
          "home": "F. C. CLERMONT METROPOLE 1",
          "away": "F.C. AUBIEROIS 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "A.S. MONTFERRANDAISE 3",
-         "away": "F.C. AUBIEROIS 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 1
         },
         {
          "home": "F. C. CLERMONT METROPOLE 2",
          "away": "A.S. MONTFERRANDAISE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 14
         },
         {
-         "home": "F.C. AUBIEROIS 1",
-         "away": "F.C. AUBIEROIS 2",
-         "hs": null,
-         "as": null
+         "home": "F. C. CLERMONT METROPOLE 1",
+         "away": "F. C. CLERMONT METROPOLE 2",
+         "hs": 3,
+         "as": 1
         },
         {
          "home": "A.S. MONTFERRANDAISE 1",
          "away": "A.S. MONTFERRANDAISE 3",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
+        },
+        {
+         "home": "F.C. AUBIEROIS 1",
+         "away": "F.C. AUBIEROIS 2",
+         "hs": 2,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -3908,38 +3908,26 @@
         {
          "home": "F.C. COURNON D AUVERGNE 3",
          "away": "CLERMONT FOOT 63 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 9
         },
         {
          "home": "CLERMONT FOOT 63 2",
          "away": "ECUREUILS FRANC ROSIER 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
         },
         {
          "home": "F.C. COURNON D AUVERGNE 1",
          "away": "F.C. COURNON D AUVERGNE 3",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "FOOTBALL CLUB GERZAT 1",
-         "away": "FOOTBALL CLUB GERZAT 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. COURNON D AUVERGNE 1",
-         "away": "FOOTBALL CLUB GERZAT 2",
-         "hs": null,
-         "as": null
+         "hs": 9,
+         "as": 0
         },
         {
          "home": "ECUREUILS FRANC ROSIER 1",
          "away": "FOOTBALL CLUB GERZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -4334,42 +4322,42 @@
        "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
        "organisateur": "RIOM FC",
        "equipes": [
-        "CEBAZAT SP. 3",
-        "CEBAZAT SP. 2",
         "U.S. MOZAC 2",
         "U.S. MOZAC 1",
+        "CEBAZAT SP. 3",
+        "CEBAZAT SP. 2",
         "F.C. RIOMOIS 2"
        ],
        "matchs": [
         {
-         "home": "CEBAZAT SP. 3",
-         "away": "F.C. RIOMOIS 2",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "CEBAZAT SP. 2",
          "away": "CEBAZAT SP. 3",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 3
+        },
+        {
+         "home": "CEBAZAT SP. 3",
+         "away": "F.C. RIOMOIS 2",
+         "hs": 0,
+         "as": 16
         },
         {
          "home": "U.S. MOZAC 2",
          "away": "CEBAZAT SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 1
         },
         {
          "home": "F.C. RIOMOIS 2",
          "away": "U.S. MOZAC 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
         },
         {
          "home": "U.S. MOZAC 1",
          "away": "U.S. MOZAC 2",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 1
         }
        ],
        "heure_connue": true

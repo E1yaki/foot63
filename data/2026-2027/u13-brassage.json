@@ -1679,34 +1679,34 @@
        "organisateur": "MARTRES DE VEYRE",
        "equipes": [
         "F.C. AYDAT 1",
+        "F.C. COURNON D AUVERGNE 3",
         "U.S. BEAUMONTOISE 1",
-        "U.S. LES MARTRES DE VEYRE 2",
-        "F.C. COURNON D AUVERGNE 3"
+        "U.S. LES MARTRES DE VEYRE 2"
        ],
        "matchs": [
         {
-         "home": "U.S. BEAUMONTOISE 1",
-         "away": "F.C. COURNON D AUVERGNE 3",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "F.C. AYDAT 1",
          "away": "F.C. COURNON D AUVERGNE 3",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 9
+        },
+        {
+         "home": "U.S. BEAUMONTOISE 1",
+         "away": "F.C. COURNON D AUVERGNE 3",
+         "hs": 2,
+         "as": 1
         },
         {
          "home": "U.S. BEAUMONTOISE 1",
          "away": "U.S. LES MARTRES DE VEYRE 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
         },
         {
          "home": "F.C. AYDAT 1",
          "away": "U.S. LES MARTRES DE VEYRE 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 5
         }
        ],
        "heure_connue": true
@@ -2594,27 +2594,27 @@
        "matchs": [
         {
          "home": "AULNAT SP. 2",
-         "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
-         "hs": null,
-         "as": null
+         "away": "C.S. PONT DU CHATEAU 3",
+         "hs": 1,
+         "as": 4
         },
         {
          "home": "AULNAT SP. 2",
-         "away": "C.S. PONT DU CHATEAU 3",
-         "hs": null,
-         "as": null
+         "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
+         "hs": 4,
+         "as": 2
         },
         {
          "home": "GROUPEMENT FORMATEUR LIMAGNE 2",
          "away": "CEBAZAT SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 1
         },
         {
          "home": "C.S. PONT DU CHATEAU 3",
          "away": "CEBAZAT SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -3215,26 +3215,26 @@
         {
          "home": "S.A. THIERNOIS 3",
          "away": "AULNAT SP. 3",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
-         "away": "U.S. MARINGUOISE 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
-         "away": "S.A. THIERNOIS 3",
-         "hs": null,
-         "as": null
+         "hs": 11,
+         "as": 0
         },
         {
          "home": "U.S. MARINGUOISE 1",
          "away": "AULNAT SP. 3",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 0
+        },
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+         "away": "S.A. THIERNOIS 3",
+         "hs": 0,
+         "as": 4
+        },
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
+         "away": "U.S. MARINGUOISE 1",
+         "hs": 0,
+         "as": 11
         }
        ],
        "heure_connue": true

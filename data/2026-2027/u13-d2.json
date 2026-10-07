@@ -260,20 +260,20 @@
         {
          "home": "F. C. CLERMONT METROPOLE 3",
          "away": "ECUREUILS FRANC ROSIER 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 2
         },
         {
          "home": "UNION SPORTIVE BASSIN MINIER 1",
          "away": "F. C. CLERMONT METROPOLE 3",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 0
         },
         {
          "home": "UNION SPORTIVE BASSIN MINIER 1",
          "away": "ECUREUILS FRANC ROSIER 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -290,10 +290,10 @@
        ],
        "matchs": [
         {
-         "home": "U.S. ISSOIRE A. DU MAS 2",
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
          "away": "U.S. VIC LE COMTE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
         },
         {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
@@ -302,10 +302,10 @@
          "as": 0
         },
         {
-         "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+         "home": "U.S. ISSOIRE A. DU MAS 2",
          "away": "U.S. VIC LE COMTE 1",
          "hs": 0,
-         "as": 4
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -659,22 +659,22 @@
        ],
        "matchs": [
         {
+         "home": "AULNAT SP. 1",
+         "away": "F.C. CHAMALIERES 3",
+         "hs": 2,
+         "as": 1
+        },
+        {
          "home": "F. C. CLERMONT METROPOLE 1",
          "away": "F.C. CHAMALIERES 3",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 0
         },
         {
          "home": "AULNAT SP. 1",
          "away": "F. C. CLERMONT METROPOLE 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "AULNAT SP. 1",
-         "away": "F.C. CHAMALIERES 3",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
         }
        ],
        "heure_connue": true
@@ -1061,21 +1061,21 @@
        "matchs": [
         {
          "home": "VAL DE SIOULE FOOT 1",
-         "away": "ESP. CEYRATOISE 2",
-         "hs": null,
-         "as": null
+         "away": "LEMPDES SP. 1",
+         "hs": 3,
+         "as": 6
         },
         {
          "home": "VAL DE SIOULE FOOT 1",
-         "away": "LEMPDES SP. 1",
-         "hs": null,
-         "as": null
+         "away": "ESP. CEYRATOISE 2",
+         "hs": 3,
+         "as": 2
         },
         {
          "home": "LEMPDES SP. 1",
          "away": "ESP. CEYRATOISE 2",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -1125,21 +1125,21 @@
        "matchs": [
         {
          "home": "F. C. CLERMONT METROPOLE 2",
-         "away": "F.C. BLANZAT 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F. C. CLERMONT METROPOLE 2",
          "away": "F.C. CHATEL GUYON 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 1
         },
         {
          "home": "F.C. CHATEL GUYON 1",
          "away": "F.C. BLANZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 3
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 2",
+         "away": "F.C. BLANZAT 1",
+         "hs": 7,
+         "as": 2
         }
        ],
        "heure_connue": true
