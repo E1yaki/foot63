@@ -68,6 +68,14 @@
 
   const groupOf = catId => (D.byCat.get(catId) && D.byCat.get(catId).group) || catId;
   const fkey = (catId, name) => `${groupOf(catId)}|${name}`;
+  // Une même équipe peut apparaître dans plusieurs compétitions qui partagent le même « group » (ex. une
+  // division du championnat ET le Festival U13) : en cliquant sur elle depuis une poule précise, on veut
+  // systématiquement tomber sur CETTE apparition-là, jamais sur une autre choisie par défaut.
+  function apIndexFor(key, cat, ph, po) {
+    const apps = D.appear.get(key) || [];
+    const idx = apps.findIndex(a => a.cat.id === cat.id && a.ph.n === ph.n && a.po.id === po.id);
+    return idx >= 0 ? idx : 0;
+  }
   const nameOfKey = k => k.slice(k.indexOf('|') + 1);
   const ruleFor = (catId, n) => (D.rules && D.rules[catId] && D.rules[catId][String(n)]) || null;
 
@@ -118,12 +126,16 @@
     const arr = [...T.values()];
     arr.forEach(t => { t.diff = t.bp - t.bc; });
     arr.sort((a, b) => {
+      // Une équipe qui n'a encore joué aucun match se classe toujours après celles qui ont déjà joué,
+      // même si leurs points/différence de buts sont pour l'instant identiques (0 partout).
+      if ((a.j === 0) !== (b.j === 0)) return a.j === 0 ? 1 : -1;
       for (const k of tb) if (b[k] !== a[k]) return b[k] - a[k];
       return a.name.localeCompare(b.name, 'fr');
     });
     arr.forEach((t, i) => {
       const prev = arr[i - 1];
-      t.pos = prev && tb.every(k => prev[k] === t[k]) ? prev.pos : i + 1;
+      const sameGroup = prev && (prev.j === 0) === (t.j === 0);
+      t.pos = prev && sameGroup && tb.every(k => prev[k] === t[k]) ? prev.pos : i + 1;
     });
     return arr;
   }
@@ -518,9 +530,10 @@
     const showMJ = minJ != null && t.j === minJ;   // seulement les équipes les moins avancées
     const multi = po._ph.poules.length > 1;
     const sub = division ? `<span class="sub">Poule ${esc(po.id)} · ${t.pos}${ord(t.pos)}</span>` : '';
+    const ai = apIndexFor(t.key, po._cat, po._ph, po);
     return `<tr class="${S.favs.has(t.key) ? 'is-fav' : ''}" data-team="${esc(t.name)}" data-cat="${esc(po._cat.id)}" data-ph="${po._ph.n}" data-poule="${esc(po.id)}"${zt ? ` title="${esc(zt)}"` : ''}>
       <td class="pos" ${zoneStyle(t)}>${division ? t.rank : t.pos}${zt ? `<span class="sr">${esc(zt)}</span>` : ''}</td>
-      <td class="tm"><button class="team-btn" type="button" data-open="${esc(t.key)}">${avatar(t.name)}<span class="tw"><span class="tn">${esc(pretty(t.name))}</span>${sub}</span></button></td>
+      <td class="tm"><button class="team-btn" type="button" data-open="${esc(t.key)}" data-i="${ai}">${avatar(t.name)}<span class="tw"><span class="tn">${esc(pretty(t.name))}</span>${sub}</span></button></td>
       <td class="wide">${dots(t.form)}</td>
       <td class="wide">${t.j}</td>
       ${division ? `<td class="wide">${t.j ? t.ppm.toFixed(2).replace('.', ',') : '–'}</td>` : `<td class="wide">${t.g}</td><td class="wide">${t.n}</td><td class="wide">${t.p}</td>`}
@@ -606,9 +619,9 @@
       };
       body = `<table class="xt"><colgroup><col class="c0">${teams.map(() => '<col>').join('')}</colgroup>
         <thead><tr><td></td>${teams.map(t => `<th scope="col" title="${esc(pretty(t))}">${avatar(t, 'sm')}</th>`).join('')}</tr></thead>
-        <tbody>${teams.map(r => `<tr><th scope="row" class="rt"><button class="team-btn" type="button" data-open="${esc(fkey(cat.id, r))}">${avatar(r, 'sm')}<span class="tn">${esc(pretty(r))}</span></button></th>${teams.map(c => cell(r, c)).join('')}</tr>`).join('')}</tbody></table>`;
+        <tbody>${teams.map(r => `<tr><th scope="row" class="rt"><button class="team-btn" type="button" data-open="${esc(fkey(cat.id, r))}" data-i="${apIndexFor(fkey(cat.id, r), cat, po._ph, po)}">${avatar(r, 'sm')}<span class="tn">${esc(pretty(r))}</span></button></th>${teams.map(c => cell(r, c)).join('')}</tr>`).join('')}</tbody></table>`;
     } else {
-      body = `<div class="pl-teams">${teams.map(t => `<button class="tchip" type="button" data-open="${esc(fkey(cat.id, t))}">${avatar(t, 'sm')}${esc(pretty(t))}</button>`).join('')}</div>`;
+      body = `<div class="pl-teams">${teams.map(t => `<button class="tchip" type="button" data-open="${esc(fkey(cat.id, t))}" data-i="${apIndexFor(fkey(cat.id, t), cat, po._ph, po)}">${avatar(t, 'sm')}${esc(pretty(t))}</button>`).join('')}</div>`;
     }
     const where = p.lieu ? `<div class="pl-where">${icon('pin')}<span>${esc(pretty(p.lieu))}${p.organisateur ? ` · reçoit : ${esc(pretty(p.organisateur))}` : ''} · <a href="${mapsUrl(p.lieu)}" target="_blank" rel="noopener">Itinéraire</a></span></div>` : '';
     return `<article class="pl ${anyFav ? 'is-fav' : ''}">
