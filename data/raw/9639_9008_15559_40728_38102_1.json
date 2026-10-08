@@ -25,33 +25,33 @@
   {
    "home": "F.C. CHATEL GUYON 2",
    "away": "VAL DE SIOULE FOOT 2",
-   "hs": null,
-   "as": null
+   "hs": 7,
+   "as": 3
   },
   {
    "home": "VAL DE SIOULE FOOT 2",
    "away": "CLERMONT FOOT 63 4",
-   "hs": null,
-   "as": null
-  },
-  {
-   "home": "F.C. CHATEL GUYON 2",
-   "away": "LEMPDES SP. 2",
-   "hs": null,
-   "as": null
+   "hs": 1,
+   "as": 4
   },
   {
    "home": "LEMPDES SP. 2",
    "away": "CLERMONT FOOT 63 4",
-   "hs": null,
-   "as": null
+   "hs": 1,
+   "as": 3
+  },
+  {
+   "home": "F.C. CHATEL GUYON 2",
+   "away": "LEMPDES SP. 2",
+   "hs": 2,
+   "as": 1
   }
  ],
  "score_illisible": false,
  "score_incoherent": false,
  "first_seen": "2026-09-20T18:03:12Z",
- "last_seen": "2026-10-05T15:30:36Z",
- "last_change": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-08T14:27:53Z",
+ "last_change": "2026-10-08T14:27:53Z",
  "history": [
   {
    "ts": "2026-09-20T18:03:12Z",
@@ -81,6 +81,37 @@
      "away": "CLERMONT FOOT 63 4",
      "hs": null,
      "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-08T14:27:53Z",
+   "start": "2026-10-03T14:00",
+   "lieu": "ST OURS - STADE MUNICIPAL",
+   "matchs": [
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "VAL DE SIOULE FOOT 2",
+     "hs": 7,
+     "as": 3
+    },
+    {
+     "home": "VAL DE SIOULE FOOT 2",
+     "away": "CLERMONT FOOT 63 4",
+     "hs": 1,
+     "as": 4
+    },
+    {
+     "home": "LEMPDES SP. 2",
+     "away": "CLERMONT FOOT 63 4",
+     "hs": 1,
+     "as": 3
+    },
+    {
+     "home": "F.C. CHATEL GUYON 2",
+     "away": "LEMPDES SP. 2",
+     "hs": 2,
+     "as": 1
     }
    ]
   }

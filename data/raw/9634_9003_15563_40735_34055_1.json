@@ -27,39 +27,39 @@
   {
    "home": "A.S. JOB 2",
    "away": "S.C. BILLOMOIS 1",
-   "hs": null,
-   "as": null
-  },
-  {
-   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
-   "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
-   "hs": null,
-   "as": null
+   "hs": 0,
+   "as": 12
   },
   {
    "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
    "away": "A.S. JOB 1",
-   "hs": null,
-   "as": null
+   "hs": 0,
+   "as": 1
+  },
+  {
+   "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+   "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+   "hs": 3,
+   "as": 1
   },
   {
    "home": "S.C. BILLOMOIS 1",
    "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
-   "hs": null,
-   "as": null
+   "hs": 2,
+   "as": 3
   },
   {
    "home": "A.S. JOB 1",
    "away": "A.S. JOB 2",
-   "hs": null,
-   "as": null
+   "hs": 5,
+   "as": 1
   }
  ],
  "score_illisible": false,
  "score_incoherent": false,
  "first_seen": "2026-09-20T18:03:12Z",
- "last_seen": "2026-10-07T10:34:28Z",
- "last_change": "2026-09-20T18:03:12Z",
+ "last_seen": "2026-10-08T14:27:53Z",
+ "last_change": "2026-10-08T14:27:53Z",
  "history": [
   {
    "ts": "2026-09-20T18:03:12Z",
@@ -95,6 +95,43 @@
      "away": "A.S. JOB 2",
      "hs": null,
      "as": null
+    }
+   ]
+  },
+  {
+   "ts": "2026-10-08T14:27:53Z",
+   "start": "2026-10-03T10:00",
+   "lieu": "BILLOM - STADE DU CHAMP DE MARS 1",
+   "matchs": [
+    {
+     "home": "A.S. JOB 2",
+     "away": "S.C. BILLOMOIS 1",
+     "hs": 0,
+     "as": 12
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "away": "A.S. JOB 1",
+     "hs": 0,
+     "as": 1
+    },
+    {
+     "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+     "hs": 3,
+     "as": 1
+    },
+    {
+     "home": "S.C. BILLOMOIS 1",
+     "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+     "hs": 2,
+     "as": 3
+    },
+    {
+     "home": "A.S. JOB 1",
+     "away": "A.S. JOB 2",
+     "hs": 5,
+     "as": 1
     }
    ]
   }
