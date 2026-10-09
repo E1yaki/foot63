@@ -252,23 +252,14 @@
     ph.poules.forEach(po => {
       const comp = compFor(rule, po);
       const rounds = comp.rounds || 1;
-      po._size = Math.max(po.teams.length, comp.size || 0);
-      po._sizeLo = Math.max(po.teams.length, comp.min_size || comp.size || 0);
-      // Nombre de matchs total attendu par équipe : si la composition est connue (ex. U13, un match
-      // aller contre chaque adversaire), c'est rounds*(taille-1). Sinon (ex. U10-U11, où une poule peut
-      // jouer PLUSIEURS matchs le même jour), on le déduit du nombre de matchs par journée déjà observé
-      // pour cette équipe (le plus grand vu jusqu'ici), multiplié par le nombre de journées connues.
-      const perJournee = {};
-      po.teams.forEach(name => {
-        const counts = {};
-        po.matches.forEach(m => { if (m.home === name || m.away === name) counts[m._j] = (counts[m._j] || 0) + 1; });
-        const seen = Object.values(counts);
-        perJournee[name] = seen.length ? Math.max(...seen) : rounds;
-      });
+      // Matchs restants : ce sont ceux que le calendrier liste et qui ne sont pas encore joués. Rien n'est
+      // déduit de la taille de la poule : certaines équipes ne se rencontrent pas, d'autres se rencontrent
+      // plusieurs fois (U10-U11). Le calendrier publié donne tous les matchs, à venir compris.
+      po._size = po.teams.length;
+      po._sizeLo = po.teams.length;
       po.standings.forEach(t => {
         t.poule = po;
-        const total = comp.size ? rounds * (po._size - 1) : (perJournee[t.name] || rounds) * po.nJ;
-        t.rem = Math.max(0, total - t.j);
+        t.rem = po.matches.filter(m => !m.played && (m.home === t.name || m.away === t.name)).length;
         t.ppm = t.j ? t.pts / t.j : 0;
         t.tier = null; t.sure = false;
         rows.push(t);
