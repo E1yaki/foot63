@@ -253,32 +253,32 @@
         {
          "home": "A.S. JOB 2",
          "away": "S.C. BILLOMOIS 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
-         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 12
         },
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
          "away": "A.S. JOB 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
+        },
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+         "hs": 3,
+         "as": 1
         },
         {
          "home": "S.C. BILLOMOIS 1",
          "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 3
         },
         {
          "home": "A.S. JOB 1",
          "away": "A.S. JOB 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
         }
        ],
        "heure_connue": true
@@ -708,7 +708,7 @@
       },
       {
        "id": "9634_9003_15563_41026_34056_1",
-       "start": "2026-10-10T09:30",
+       "start": "2026-10-17T10:00",
        "lieu": "MONTAIGUT EN COMBRAILLE - STADE SERGE LANCELOT",
        "organisateur": "F.C. NORD COMBRAILLE",
        "equipes": [
@@ -720,18 +720,6 @@
        ],
        "matchs": [
         {
-         "home": "F.C. NORD COMBRAILLE 1",
-         "away": "U.S. ST GEORGES LES ANCIZES 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U.S. ST GERVAISIENNE 1",
-         "away": "F.C. CHATEL GUYON 1",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "ENTENTE CHARBLOT 1",
          "away": "U.S. ST GEORGES LES ANCIZES 1",
          "hs": null,
@@ -739,6 +727,18 @@
         },
         {
          "home": "F.C. NORD COMBRAILLE 1",
+         "away": "F.C. CHATEL GUYON 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. NORD COMBRAILLE 1",
+         "away": "U.S. ST GEORGES LES ANCIZES 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "U.S. ST GERVAISIENNE 1",
          "away": "F.C. CHATEL GUYON 1",
          "hs": null,
          "as": null
@@ -1102,15 +1102,15 @@
       },
       {
        "id": "9634_9003_15563_41028_34056_1",
-       "start": "2026-10-10T10:00",
+       "start": "2026-10-10T09:00",
        "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 1",
        "organisateur": "THIERS SA",
        "equipes": [
+        "S.A. THIERNOIS 1",
         "C.S. PONT DE DORE 1",
         "C.S. PONT DE DORE 2",
         "DUROLLE FOOT 2",
-        "DUROLLE FOOT 1",
-        "S.A. THIERNOIS 1"
+        "DUROLLE FOOT 1"
        ],
        "matchs": [
         {
@@ -1126,13 +1126,13 @@
          "as": null
         },
         {
-         "home": "DUROLLE FOOT 1",
+         "home": "S.A. THIERNOIS 1",
          "away": "C.S. PONT DE DORE 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "S.A. THIERNOIS 1",
+         "home": "DUROLLE FOOT 1",
          "away": "C.S. PONT DE DORE 1",
          "hs": null,
          "as": null
@@ -2422,7 +2422,7 @@
       },
       {
        "id": "9634_9003_15563_41034_34056_1",
-       "start": "2026-10-10T09:15",
+       "start": "2026-10-10T10:00",
        "lieu": "VERTAIZON - STADE MUNICIPAL",
        "organisateur": "FOOTBALL CLUB PUY DE",
        "equipes": [
@@ -2435,18 +2435,6 @@
        ],
        "matchs": [
         {
-         "home": "LEMPDES SP. 1",
-         "away": "AULNAT SP. 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "AULNAT SP. 1",
-         "away": "C.S. PONT DU CHATEAU 3",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "LEMPDES SP. 2",
          "away": "AULNAT SP. 2",
          "hs": null,
@@ -2455,6 +2443,18 @@
         {
          "home": "FOOTBALL CLUB PUY DE MUR 2",
          "away": "AULNAT SP. 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "LEMPDES SP. 1",
+         "away": "AULNAT SP. 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "AULNAT SP. 1",
+         "away": "C.S. PONT DU CHATEAU 3",
          "hs": null,
          "as": null
         },
@@ -3031,40 +3031,40 @@
        ],
        "matchs": [
         {
-         "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
-         "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "ESP. CEYRATOISE 1",
          "away": "ESP. CEYRATOISE 2",
-         "hs": null,
-         "as": null
+         "hs": 8,
+         "as": 0
         },
         {
          "home": "ESP. CEYRATOISE 2",
          "away": "A.S. ROMAGNAT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
         },
         {
          "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
-         "away": "A.S. ROMAGNAT 2",
-         "hs": null,
-         "as": null
+         "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
+         "hs": 3,
+         "as": 0
         },
         {
          "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
          "away": "ESP. CEYRATOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
         },
         {
          "home": "A.S. ROMAGNAT 1",
          "away": "A.S. ROMAGNAT 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 5
+        },
+        {
+         "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
+         "away": "A.S. ROMAGNAT 2",
+         "hs": 15,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -3524,11 +3524,11 @@
       {
        "id": "9634_9003_15563_41039_34056_1",
        "start": "2026-10-10T10:00",
-       "lieu": "CLERMONT FERRAND - STADE DE TRÉMONTEIX",
+       "lieu": "CLERMONT FERRAND - STADE DU PARC DE LA FRATERNITÉ",
        "organisateur": "FC CLERMONT METROPOL",
        "equipes": [
-        "A.S. MONTFERRANDAISE 1",
         "A.S. MONTFERRANDAISE 3",
+        "A.S. MONTFERRANDAISE 1",
         "F. C. CLERMONT METROPOLE 2",
         "F. C. CLERMONT METROPOLE 1",
         "F.C. AUBIEROIS 1",
@@ -3728,12 +3728,12 @@
       {
        "id": "9634_9003_15563_41040_34056_1",
        "start": "2026-10-10T10:00",
-       "lieu": "CEBAZAT - COMPLEXE SPORTIF LA PRADE 1",
+       "lieu": "CEBAZAT - STADE JEAN MARIE BELLIME 1",
        "organisateur": "CEBAZAT SP.",
        "equipes": [
+        "CEBAZAT SP. 1",
         "ECUREUILS FRANC ROSIER 3",
         "ECUREUILS FRANC ROSIER 2",
-        "CEBAZAT SP. 1",
         "A.S. MONTFERRANDAISE 2",
         "F. C. CLERMONT METROPOLE 3"
        ],
@@ -4365,14 +4365,14 @@
       {
        "id": "9634_9003_15563_41043_34056_1",
        "start": "2026-10-10T10:00",
-       "lieu": "MOZAC - COMPLEXE SPORTIF EDMOND VACANT",
-       "organisateur": "MOZAC US",
+       "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
+       "organisateur": "RIOM FC",
        "equipes": [
-        "CEBAZAT SP. 2",
         "CEBAZAT SP. 3",
-        "U.S. MOZAC 1",
+        "CEBAZAT SP. 2",
+        "F.C. RIOMOIS 2",
         "U.S. MOZAC 2",
-        "F.C. RIOMOIS 2"
+        "U.S. MOZAC 1"
        ],
        "matchs": [
         {
@@ -4788,7 +4788,7 @@
       {
        "id": "9634_9003_15563_41045_34056_1",
        "start": "2026-10-10T10:00",
-       "lieu": "BEAUREGARD VENDON - STADE JEAN DERAGNE",
+       "lieu": "CHAMBARON SUR MORGE - STADE ANGEL RECH",
        "organisateur": "GJ SCB FOOT",
        "equipes": [
         "F.C. RIOMOIS 3",

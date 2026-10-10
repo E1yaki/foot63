@@ -2267,26 +2267,26 @@
         {
          "home": "F.C. CHATEL GUYON 2",
          "away": "VAL DE SIOULE FOOT 2",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 3
         },
         {
          "home": "VAL DE SIOULE FOOT 2",
          "away": "CLERMONT FOOT 63 4",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. CHATEL GUYON 2",
-         "away": "LEMPDES SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 4
         },
         {
          "home": "LEMPDES SP. 2",
          "away": "CLERMONT FOOT 63 4",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 3
+        },
+        {
+         "home": "F.C. CHATEL GUYON 2",
+         "away": "LEMPDES SP. 2",
+         "hs": 2,
+         "as": 1
         }
        ],
        "heure_connue": true
