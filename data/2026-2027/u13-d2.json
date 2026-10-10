@@ -356,20 +356,20 @@
         {
          "home": "F. C. CLERMONT METROPOLE 3",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 2
         },
         {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
          "away": "F. C. CLERMONT METROPOLE 3",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 0
         },
         {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 1
         }
        ],
        "heure_connue": true
