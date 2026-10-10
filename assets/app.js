@@ -748,15 +748,18 @@
   /* ============================================================
      Fiche équipe & recherche (fenêtres)
      ============================================================ */
-  function evItem(e) {
+  // Une ligne d'événement dans la fiche équipe : date, heure, adversaires, lieu, et désormais la compétition,
+  // le tour/la phase et la poule (sinon on ne sait pas dans quelle poule on joue).
+  function evItem(e, ap) {
+    const where = ap ? `<p class="ev-poule">${esc(ap.cat.label)} · ${esc(ap.ph.label)} · ${esc(ap.po.label)}</p>` : '';
     if (e.stub) {
-      return `<li class="ev"><div class="ev-date"><b>${esc(fmtDayShort(e.when))}</b></div><div><div class="ev-line"><span>${esc(e.label)}</span></div><p class="ev-where">Poule pas encore publiée</p></div></li>`;
+      return `<li class="ev"><div class="ev-date"><b>${esc(fmtDayShort(e.when))}</b></div><div><div class="ev-line"><span>${esc(e.label)}</span></div>${where}<p class="ev-where">Poule pas encore publiée</p></div></li>`;
     }
     const p = e.p;
     const lines = e.ms.length
       ? e.ms.map(m => `<div class="ev-line">${m.played ? `<span class="res ${m.res}">${m.res}</span><span class="res-sc">${m.f}–${m.c}</span>` : '<span class="res">·</span>'}<span>${esc(pretty(m.opp))}</span></div>`).join('')
       : `<div class="ev-line"><span>Avec ${e.opps.map(pretty).map(esc).join(' et ') || 'équipes à confirmer'}</span></div>`;
-    return `<li class="ev"><div class="ev-date"><b>${esc(fmtDayShort(e.when))}</b><span>${hourLabel(p)}</span></div><div>${lines}${p.lieu ? `<p class="ev-where">${esc(pretty(p.lieu))} · <a href="${mapsUrl(p.lieu)}" target="_blank" rel="noopener">Itinéraire</a></p>` : ''}</div></li>`;
+    return `<li class="ev"><div class="ev-date"><b>${esc(fmtDayShort(e.when))}</b><span>${hourLabel(p)}</span></div><div>${where}${lines}${p.lieu ? `<p class="ev-where">${esc(pretty(p.lieu))} · <a href="${mapsUrl(p.lieu)}" target="_blank" rel="noopener">Itinéraire</a></p>` : ''}</div></li>`;
   }
 
   function sheetHTML(key, i) {
@@ -780,8 +783,8 @@
     return `<header class="sh-head">${avatar(name, 'lg')}<div><h2>${esc(pretty(name))}</h2><p class="sub">${esc(ap.cat.label)} · ${esc(ap.ph.label)} · ${esc(ap.po.label)}</p></div>${starBtn(key)}<button class="star" type="button" data-action="close-sheet" aria-label="Fermer">${icon('close')}</button></header>
       ${refs}
       <div class="sh-body">${stats}
-        ${upShown.length ? `<section><h3>À venir</h3><ul class="evs">${upShown.map(evItem).join('')}</ul></section>` : ''}
-        ${past.length ? `<section><h3>Résultats</h3><ul class="evs">${past.map(evItem).join('')}</ul></section>` : ''}
+        ${upShown.length ? `<section><h3>À venir</h3><ul class="evs">${upShown.map(e => evItem(e, ap)).join('')}</ul></section>` : ''}
+        ${past.length ? `<section><h3>Résultats</h3><ul class="evs">${past.map(e => evItem(e, ap)).join('')}</ul></section>` : ''}
         <div class="sh-foot">
           ${up.length ? `<button class="btn primary" type="button" data-action="ics" data-key="${esc(key)}" data-i="${i}">${icon('cal')}Ajouter les plateaux à l’agenda</button>` : ''}
           <a class="btn" href="#/classement/${ap.cat.id}/${ap.ph.n}/${ap.po.id}">Voir la poule</a>
