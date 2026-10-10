@@ -370,7 +370,8 @@
       when, stub: true, label: rule.next_label || 'Tour suivant' };
   }
   function nextForTeam(ap, name) {
-    return teamEvents(ap.po, name).filter(isUpcoming).sort((x, y) => x.when - y.when)[0] || nextTourStub(ap, name) || null;
+    const evs = familyEvents(fkey(ap.cat.id, name), isCupAp(ap)).filter(isUpcoming).sort((x, y) => x.when - y.when);
+    return evs[0] || nextTourStub(ap, name) || null;
   }
 
   /* ============================================================
@@ -762,18 +763,31 @@
     return `<li class="ev"><div class="ev-date"><b>${esc(fmtDayShort(e.when))}</b><span>${hourLabel(p)}</span></div><div>${where}${lines}${p.lieu ? `<p class="ev-where">${esc(pretty(p.lieu))} · <a href="${mapsUrl(p.lieu)}" target="_blank" rel="noopener">Itinéraire</a></p>` : ''}</div></li>`;
   }
 
+  const isCupAp = ap => ap.cat.kind === 'cup';
+  // Tous les événements d'une équipe dans une famille de compétitions (championnat, ou festival), toutes poules
+  // et tous tours confondus : chaque événement garde la poule dont il vient (ap), pour l'afficher.
+  function familyEvents(key, cup) {
+    const name = nameOfKey(key);
+    return (D.appear.get(key) || []).filter(a => isCupAp(a) === cup)
+      .flatMap(ap => teamEvents(ap.po, name).map(e => ({ ...e, ap })));
+  }
+
   function sheetHTML(key, i) {
     const apps = D.appear.get(key) || [];
-    const ap = apps[i] || apps[0];
-    if (!ap) return `<div class="hint">Équipe introuvable.</div>`;
+    const clicked = apps[i] || apps[0];
+    if (!clicked) return `<div class="hint">Équipe introuvable.</div>`;
     const name = nameOfKey(key);
+    const cup = isCupAp(clicked);
+    const famApps = apps.filter(a => isCupAp(a) === cup);      // apps est trié : phase la plus récente d'abord
+    const ap = famApps.includes(clicked) ? clicked : famApps[0];
     const st = ap.po.standings.find(t => t.name === name);
-    const ev = teamEvents(ap.po, name);
-    const up = ev.filter(isUpcoming).sort((x, y) => x.when - y.when);
+    const all = familyEvents(key, cup);
+    const up = all.filter(isUpcoming).sort((x, y) => x.when - y.when);
+    const past = all.filter(e => !isUpcoming(e)).sort((x, y) => y.when - x.when);
     const stub = up.length ? null : nextTourStub(ap, name);
     const upShown = stub ? [stub] : up;
-    const past = ev.filter(e => !isUpcoming(e)).sort((x, y) => y.when - x.when);
-    const refs = apps.length > 1 ? `<div class="sh-refs">${apps.map((a, n) => `<button class="pill sm" type="button" data-open="${esc(key)}" data-i="${n}" ${n === i ? 'aria-current="true"' : ''}>${esc(a.cat.label)} · ${esc(a.ph.label)}</button>`).join('')}</div>` : '';
+    const tabs = [[false, 'Championnat'], [true, 'Festival U13']].filter(([c]) => apps.some(a => isCupAp(a) === c));
+    const refs = tabs.length > 1 ? `<div class="sh-refs">${tabs.map(([c, label]) => `<button class="pill sm" type="button" data-open="${esc(key)}" data-i="${apps.findIndex(a => isCupAp(a) === c)}" ${c === cup ? 'aria-current="true"' : ''}>${label}</button>`).join('')}</div>` : '';
     const stats = st && st.j ? `<section class="sh-stats">
         <div class="big-rank">${st.pos}<small>${ord(st.pos)} sur ${ap.po.standings.length}</small></div>
         <div class="kv"><span><b>${st.pts}</b> pts</span><span><b>${st.j}</b> joués</span><span><b>${st.g}-${st.n}-${st.p}</b> V-N-D</span><span><b>${st.bp}–${st.bc}</b> buts</span></div>
@@ -783,10 +797,10 @@
     return `<header class="sh-head">${avatar(name, 'lg')}<div><h2>${esc(pretty(name))}</h2><p class="sub">${esc(ap.cat.label)} · ${esc(ap.ph.label)} · ${esc(ap.po.label)}</p></div>${starBtn(key)}<button class="star" type="button" data-action="close-sheet" aria-label="Fermer">${icon('close')}</button></header>
       ${refs}
       <div class="sh-body">${stats}
-        ${upShown.length ? `<section><h3>À venir</h3><ul class="evs">${upShown.map(e => evItem(e, ap)).join('')}</ul></section>` : ''}
-        ${past.length ? `<section><h3>Résultats</h3><ul class="evs">${past.map(e => evItem(e, ap)).join('')}</ul></section>` : ''}
+        ${upShown.length ? `<section><h3>À venir</h3><ul class="evs">${upShown.map(e => evItem(e, e.stub ? null : e.ap)).join('')}</ul></section>` : ''}
+        ${past.length ? `<section><h3>Résultats</h3><ul class="evs">${past.map(e => evItem(e, e.ap)).join('')}</ul></section>` : ''}
         <div class="sh-foot">
-          ${up.length ? `<button class="btn primary" type="button" data-action="ics" data-key="${esc(key)}" data-i="${i}">${icon('cal')}Ajouter les plateaux à l’agenda</button>` : ''}
+          ${up.length ? `<button class="btn primary" type="button" data-action="ics" data-key="${esc(key)}" data-i="${apps.indexOf(ap)}">${icon('cal')}Ajouter les plateaux à l’agenda</button>` : ''}
           <a class="btn" href="#/classement/${ap.cat.id}/${ap.ph.n}/${ap.po.id}">Voir la poule</a>
         </div></div>`;
   }
@@ -875,13 +889,15 @@
   const icsDate = d => `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}T${String(d.getHours()).padStart(2, '0')}${String(d.getMinutes()).padStart(2, '0')}00`;
 
   function exportIcs(key, i = 0) {
-    const ap = (D.appear.get(key) || [])[i] || (D.appear.get(key) || [])[0];
-    if (!ap) return;
+    const apps = D.appear.get(key) || [];
+    const clicked = apps[i] || apps[0];
+    if (!clicked) return;
     const name = nameOfKey(key);
-    const evs = teamEvents(ap.po, name).filter(isUpcoming).sort((x, y) => x.when - y.when);
+    const evs = familyEvents(key, isCupAp(clicked)).filter(isUpcoming).sort((x, y) => x.when - y.when);
     if (!evs.length) { toast('Aucun plateau à venir'); return; }
     const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Foot animation 63//FR', 'CALSCALE:GREGORIAN', `X-WR-CALNAME:${icsEsc(pretty(name))}`];
     evs.forEach(e => {
+      const ap = e.ap;
       const end = new Date(e.when.getTime() + 2 * 3600e3);
       lines.push('BEGIN:VEVENT', `UID:${slug(e.p.id || e.p.start)}-${slug(name)}@foot63`, `DTSTAMP:${icsDate(new Date())}`,
         `DTSTART:${icsDate(e.when)}`, `DTEND:${icsDate(end)}`,
