@@ -414,9 +414,10 @@
     if (wantPh != null && !cat.phases.some(p => p.n === wantPh)) {
       // cette catégorie n'a pas (ou plus) cette phase : bascule vers la première qui l'a (de préférence
       // une catégorie « ligue » comme elle, jamais vers une compétition à part comme une coupe)
-      cat = D.categories.find(c => c.kind !== 'cup' && c.phases.some(p => p.n === wantPh))
-        || D.categories.find(c => c.phases.some(p => p.n === wantPh))
-        || cat;
+      // Repli uniquement parmi les compétitions de MÊME nature (championnat ou coupe) : sinon un lien
+      // « Championnat » pourrait pointer vers le Festival, et inversement.
+      const sameKind = c => (c.kind === 'cup') === (cat.kind === 'cup');
+      cat = D.categories.find(c => sameKind(c) && c.phases.some(p => p.n === wantPh)) || cat;
     }
     const sameCat = S.scope && S.scope.cat === cat.id;
     const hasData = p => p.poules.some(po => po.plateaux.length);
@@ -436,10 +437,18 @@
     // division). Les mélanger casserait la hiérarchie dès la phase 2 du championnat.
     const isCup = sc.cat.kind === 'cup';
     const cupCats = D.categories.filter(c => c.kind === 'cup');
+    // Lien « Championnat » : toujours une catégorie du championnat, à la phase en cours si elle existe
+    // (sinon la plus récente du championnat). Ne doit jamais tomber sur le Festival.
     const champDefault = () => {
+      const champCats = D.categories.filter(c => c.kind !== 'cup');
+      if (!champCats.length) return resolveScope({ cat: D.categories[0].id });
+      const phNums = [...new Set(champCats.flatMap(c => c.phases.map(p => p.n)))];
+      const want = (S.scope && phNums.includes(S.scope.ph)) ? S.scope.ph : Math.max(...phNums);
       const remembered = S.scope && D.byCat.get(S.scope.cat);
-      const cat = (remembered && remembered.kind !== 'cup') ? remembered : D.categories.find(c => c.kind !== 'cup');
-      return resolveScope({ cat: cat && cat.id });
+      const base = (remembered && remembered.kind !== 'cup') ? remembered : champCats[0];
+      const cat = champCats.find(c => c.id === base.id && c.phases.some(p => p.n === want))
+        || champCats.find(c => c.phases.some(p => p.n === want)) || base;
+      return resolveScope({ cat: cat.id, ph: want });
     };
     const families = [{ id: '__champ__', label: 'Championnat', get: champDefault }]
       .concat(cupCats.map(c => ({ id: c.id, label: c.label, get: () => resolveScope({ cat: c.id }) })));
@@ -1075,7 +1084,7 @@
   }
 
   async function init() {
-    console.info('[Foot animation 63] version app 2026-10-07 (fiche équipe : deux onglets)');
+    console.info('[Foot animation 63] version app 2026-10-08 (lien Championnat depuis le Festival)');
     applyTheme();
     $('#theme-btn').addEventListener('click', toggleTheme);
     prepare(await loadData());
