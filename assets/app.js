@@ -1075,6 +1075,7 @@
   }
 
   async function init() {
+    console.info('[Foot animation 63] version app 2026-10-07 (fiche équipe : deux onglets)');
     applyTheme();
     $('#theme-btn').addEventListener('click', toggleTheme);
     prepare(await loadData());
