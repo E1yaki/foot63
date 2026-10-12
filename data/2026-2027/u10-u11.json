@@ -1116,32 +1116,32 @@
         {
          "home": "DUROLLE FOOT 2",
          "away": "S.A. THIERNOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 5
         },
         {
          "home": "DUROLLE FOOT 2",
          "away": "C.S. PONT DE DORE 2",
-         "hs": null,
-         "as": null
+         "hs": 8,
+         "as": 0
         },
         {
          "home": "S.A. THIERNOIS 1",
          "away": "C.S. PONT DE DORE 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 1
         },
         {
          "home": "DUROLLE FOOT 1",
          "away": "C.S. PONT DE DORE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 6
         },
         {
          "home": "DUROLLE FOOT 1",
          "away": "C.S. PONT DE DORE 2",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -3310,40 +3310,40 @@
        ],
        "matchs": [
         {
-         "home": "F.C. CHAMALIERES 2",
-         "away": "A.S. ROYAT A.C. 2",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "U.S. BEAUMONTOISE 2",
          "away": "A.S. ROYAT A.C. 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
         },
         {
-         "home": "U.S. BEAUMONTOISE 1",
-         "away": "F.C. CHAMALIERES 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U.S. BEAUMONTOISE 2",
+         "home": "F.C. CHAMALIERES 2",
          "away": "A.S. ROYAT A.C. 2",
-         "hs": null,
-         "as": null
+         "hs": 10,
+         "as": 0
         },
         {
          "home": "U.S. BEAUMONTOISE 1",
          "away": "F.C. CHAMALIERES 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 6
         },
         {
          "home": "F.C. CHAMALIERES 1",
          "away": "A.S. ROYAT A.C. 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 0
+        },
+        {
+         "home": "U.S. BEAUMONTOISE 1",
+         "away": "F.C. CHAMALIERES 2",
+         "hs": 1,
+         "as": 7
+        },
+        {
+         "home": "U.S. BEAUMONTOISE 2",
+         "away": "A.S. ROYAT A.C. 2",
+         "hs": 5,
+         "as": 1
         }
        ],
        "heure_connue": true

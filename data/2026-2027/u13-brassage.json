@@ -2975,28 +2975,16 @@
        ],
        "matchs": [
         {
-         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
-         "away": "S.A. THIERNOIS 2",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "U.S. VIC LE COMTE 3",
          "away": "F.C. COURNON D AUVERGNE 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 5
         },
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
-         "away": "F.C. COURNON D AUVERGNE 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "S.A. THIERNOIS 2",
-         "away": "U.S. VIC LE COMTE 3",
-         "hs": null,
-         "as": null
+         "away": "S.A. THIERNOIS 2",
+         "hs": 1,
+         "as": 3
         }
        ],
        "heure_connue": true

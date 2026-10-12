@@ -354,16 +354,16 @@
        ],
        "matchs": [
         {
-         "home": "F. C. CLERMONT METROPOLE 3",
-         "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
-         "hs": 0,
-         "as": 3
-        },
-        {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
          "away": "F. C. CLERMONT METROPOLE 3",
          "hs": 5,
          "as": 0
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 3",
+         "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+         "hs": 0,
+         "as": 3
         },
         {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
@@ -1158,20 +1158,20 @@
         {
          "home": "HAUTE COMBRAILLE FOOT 1",
          "away": "LEMPDES SP. 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "LEMPDES SP. 1",
-         "away": "F. C. CLERMONT METROPOLE 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
         },
         {
          "home": "HAUTE COMBRAILLE FOOT 1",
          "away": "F. C. CLERMONT METROPOLE 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
+        },
+        {
+         "home": "LEMPDES SP. 1",
+         "away": "F. C. CLERMONT METROPOLE 2",
+         "hs": 3,
+         "as": 2
         }
        ],
        "heure_connue": true
