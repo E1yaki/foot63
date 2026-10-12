@@ -398,20 +398,20 @@
         {
          "home": "C.O. VEYRE MONTON 2",
          "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
         },
         {
          "home": "C.O. VEYRE MONTON 2",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 2
         },
         {
          "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 5
         }
        ],
        "heure_connue": true
@@ -451,7 +451,7 @@
       {
        "id": "9639_9008_15559_40722_38103_3",
        "start": "2026-10-10T14:00",
-       "lieu": "ST SAUVES D AUVERGNE - STADE MUNICIPAL",
+       "lieu": "LA TOUR D AUVERGNE - STADE DU LAC",
        "organisateur": "SANCY CHAVANON FOOT",
        "equipes": [
         "U.S. VAL DE COUZE CHAMBON 1",
@@ -462,20 +462,20 @@
         {
          "home": "U.S. VAL DE COUZE CHAMBON 1",
          "away": "SANCY CHAVANON FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
         },
         {
          "home": "U.S. ISSOIRE A. DU MAS 3",
          "away": "SANCY CHAVANON FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 10
         },
         {
          "home": "U.S. VAL DE COUZE CHAMBON 1",
          "away": "U.S. ISSOIRE A. DU MAS 3",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -851,20 +851,20 @@
         {
          "home": "A.S. ROYAT A.C. 2",
          "away": "F.C. CHAMALIERES 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. CHAMALIERES 2",
-         "away": "A.S. MONTFERRANDAISE 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 1
         },
         {
          "home": "A.S. ROYAT A.C. 2",
          "away": "A.S. MONTFERRANDAISE 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 0
+        },
+        {
+         "home": "F.C. CHAMALIERES 2",
+         "away": "A.S. MONTFERRANDAISE 1",
+         "hs": 2,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -1134,26 +1134,26 @@
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
          "away": "DUROLLE FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 3
         },
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
          "away": "C.S. PONT DE DORE 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 2
         },
         {
          "home": "FOOTBALL CLUB PUY DE MUR 1",
          "away": "DUROLLE FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 3
         },
         {
          "home": "C.S. PONT DE DORE 1",
          "away": "FOOTBALL CLUB PUY DE MUR 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
         }
        ],
        "heure_connue": true
@@ -1171,28 +1171,28 @@
        ],
        "matchs": [
         {
-         "home": "F.C. LEZOUX 2",
-         "away": "PERIGNAT F.C. 1",
-         "hs": null,
-         "as": null
+         "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+         "away": "F.C. LEZOUX 2",
+         "hs": 1,
+         "as": 2
         },
         {
          "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
          "away": "A.S. JOB 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
-         "away": "F.C. LEZOUX 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 1
         },
         {
          "home": "A.S. JOB 1",
          "away": "PERIGNAT F.C. 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 2
+        },
+        {
+         "home": "F.C. LEZOUX 2",
+         "away": "PERIGNAT F.C. 1",
+         "hs": 2,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -1436,13 +1436,19 @@
        ],
        "matchs": [
         {
+         "home": "ENTENTE CHARBLOT 1",
+         "away": "U. J. CLERMONTOISE 2",
+         "hs": null,
+         "as": null
+        },
+        {
          "home": "F.C. NORD LIMAGNE 1",
          "away": "CLERMONT ACADEMY 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "ENTENTE CHARBLOT 1",
+         "home": "CLERMONT ACADEMY 1",
          "away": "U. J. CLERMONTOISE 2",
          "hs": null,
          "as": null
@@ -1452,12 +1458,6 @@
          "away": "F.C. NORD LIMAGNE 1",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "CLERMONT ACADEMY 1",
-         "away": "U. J. CLERMONTOISE 2",
-         "hs": null,
-         "as": null
         }
        ],
        "heure_connue": true
@@ -1465,7 +1465,7 @@
       {
        "id": "9639_9008_15559_40725_38103_2",
        "start": "2026-10-10T14:00",
-       "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+       "lieu": "CLERMONT FERRAND - STADE CAMILLE LECLANCHE N°3",
        "organisateur": "CLERMONT FOOT 63",
        "equipes": [
         "F.C. NORD COMBRAILLE 2",
@@ -1476,27 +1476,15 @@
        "matchs": [
         {
          "home": "CLERMONT FOOT 63 5",
-         "away": "F.C. NORD COMBRAILLE 2",
-         "hs": null,
-         "as": null
+         "away": "C.S. DE VOLVIC 2",
+         "hs": 16,
+         "as": 0
         },
         {
          "home": "C.S. DE VOLVIC 2",
          "away": "GJ SCB FOOT 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "CLERMONT FOOT 63 5",
-         "away": "C.S. DE VOLVIC 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. NORD COMBRAILLE 2",
-         "away": "GJ SCB FOOT 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 6
         }
        ],
        "heure_connue": true
@@ -1726,26 +1714,26 @@
         {
          "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
          "away": "F.C. AYDAT 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. AUBIEROIS 2",
-         "away": "U.S. LES MARTRES DE VEYRE 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 0
         },
         {
          "home": "U.S. LES MARTRES DE VEYRE 2",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
+        },
+        {
+         "home": "F.C. AUBIEROIS 2",
+         "away": "U.S. LES MARTRES DE VEYRE 2",
+         "hs": 1,
+         "as": 4
         },
         {
          "home": "F.C. AUBIEROIS 2",
          "away": "F.C. AYDAT 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 3
         }
        ],
        "heure_connue": true
@@ -2017,26 +2005,26 @@
         {
          "home": "F.C. CHAMALIERES 3",
          "away": "U.S. MENETROL 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "C.S. DE VOLVIC 1",
-         "away": "U.S. MENETROL 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 2
         },
         {
          "home": "F.C. CHAMALIERES 3",
          "away": "GJ SCB FOOT 3",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 3
+        },
+        {
+         "home": "C.S. DE VOLVIC 1",
+         "away": "U.S. MENETROL 1",
+         "hs": 7,
+         "as": 1
         },
         {
          "home": "GJ SCB FOOT 3",
          "away": "C.S. DE VOLVIC 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 5
         }
        ],
        "heure_connue": true
@@ -2056,26 +2044,26 @@
         {
          "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
          "away": "F.C. NORD COMBRAILLE 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U.S. MOZAC 2",
-         "away": "F.C. NORD COMBRAILLE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 7
         },
         {
          "home": "DOMES SANCY FOOT 2",
          "away": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 0
+        },
+        {
+         "home": "U.S. MOZAC 2",
+         "away": "F.C. NORD COMBRAILLE 1",
+         "hs": 2,
+         "as": 3
         },
         {
          "home": "DOMES SANCY FOOT 2",
          "away": "U.S. MOZAC 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
         }
        ],
        "heure_connue": true
@@ -2345,26 +2333,26 @@
         {
          "home": "VAL DE SIOULE FOOT 2",
          "away": "A. OUVOIMOJA 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
         },
         {
          "home": "F.C. RIOMOIS 3",
          "away": "VAL DE SIOULE FOOT 2",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 0
         },
         {
          "home": "F.C. CHATEL GUYON 2",
          "away": "F.C. RIOMOIS 3",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 7
         },
         {
          "home": "F.C. CHATEL GUYON 2",
          "away": "A. OUVOIMOJA 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 4
         }
        ],
        "heure_connue": true
@@ -2372,7 +2360,7 @@
       {
        "id": "9639_9008_15559_40728_38103_2",
        "start": "2026-10-10T14:00",
-       "lieu": "CLERMONT FERRAND - STADE GABRIEL MONTPIED 2",
+       "lieu": "CLERMONT FERRAND - STADE CAMILLE LECLANCHÉ N°1",
        "organisateur": "CLERMONT FOOT 63",
        "equipes": [
         "CLERMONT FOOT 63 4",
@@ -2383,27 +2371,27 @@
        "matchs": [
         {
          "home": "CLERMONT FOOT 63 4",
-         "away": "FOOTBALL CLUB GERZAT 1",
-         "hs": null,
-         "as": null
+         "away": "U.S. ENNEZAT 2",
+         "hs": 0,
+         "as": 0
         },
         {
          "home": "U.S. ENNEZAT 2",
          "away": "LEMPDES SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 3
         },
         {
          "home": "CLERMONT FOOT 63 4",
-         "away": "U.S. ENNEZAT 2",
-         "hs": null,
-         "as": null
+         "away": "FOOTBALL CLUB GERZAT 1",
+         "hs": 1,
+         "as": 1
         },
         {
          "home": "FOOTBALL CLUB GERZAT 1",
          "away": "LEMPDES SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 4
         }
        ],
        "heure_connue": true
@@ -2673,26 +2661,26 @@
         {
          "home": "C.S. PONT DU CHATEAU 3",
          "away": "A.S. MONTFERRANDAISE 4",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 3
         },
         {
          "home": "AULNAT SP. 2",
          "away": "U.S. MOZAC 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U.S. MOZAC 1",
-         "away": "C.S. PONT DU CHATEAU 3",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 3
         },
         {
          "home": "AULNAT SP. 2",
          "away": "A.S. MONTFERRANDAISE 4",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 8
+        },
+        {
+         "home": "U.S. MOZAC 1",
+         "away": "C.S. PONT DU CHATEAU 3",
+         "hs": 2,
+         "as": 2
         }
        ],
        "heure_connue": true
@@ -2710,28 +2698,28 @@
        ],
        "matchs": [
         {
-         "home": "CEBAZAT SP. 2",
-         "away": "FOOTBALL CLUB GERZAT 2",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "U.S. ENNEZAT 1",
          "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 0
         },
         {
          "home": "CEBAZAT SP. 2",
-         "away": "U.S. ENNEZAT 1",
-         "hs": null,
-         "as": null
+         "away": "FOOTBALL CLUB GERZAT 2",
+         "hs": 12,
+         "as": 0
         },
         {
          "home": "FOOTBALL CLUB GERZAT 2",
          "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
+        },
+        {
+         "home": "CEBAZAT SP. 2",
+         "away": "U.S. ENNEZAT 1",
+         "hs": 0,
+         "as": 2
         }
        ],
        "heure_connue": true
@@ -2976,7 +2964,7 @@
       },
       {
        "id": "9639_9008_15559_40730_38103_1",
-       "start": "2026-10-10T14:00",
+       "start": "2026-10-10T13:30",
        "lieu": "THIERS - PARC DES SPORTS ANTONIN CHASTEL 2",
        "organisateur": "THIERS SA",
        "equipes": [
@@ -3026,28 +3014,28 @@
        ],
        "matchs": [
         {
+         "home": "F.C. PLAUZAT-CHAMPEIX 2",
+         "away": "U.S. COURPIEROISE 2",
+         "hs": 0,
+         "as": 2
+        },
+        {
          "home": "GROUPEMENT DE L'AUZON 3",
          "away": "U.S. COURPIEROISE 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U.S. COURPIEROISE 2",
-         "away": "F.C. PLAUZAT-CHAMPEIX 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "GROUPEMENT DE L'AUZON 3",
-         "away": "F.C. PLAUZAT-CHAMPEIX 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 4
         },
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 1",
          "away": "F.C. PLAUZAT-CHAMPEIX 2",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 2
+        },
+        {
+         "home": "F.C. PLAUZAT-CHAMPEIX 1",
+         "away": "GROUPEMENT DE L'AUZON 3",
+         "hs": 6,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -3281,26 +3269,26 @@
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
          "away": "S.C. BILLOMOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 10
         },
         {
          "home": "S.A. THIERNOIS 3",
          "away": "S.C. BILLOMOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 2
         },
         {
          "home": "FOOTBALL CLUB PUY DE MUR 2",
          "away": "S.A. THIERNOIS 3",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 4
         },
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
          "away": "FOOTBALL CLUB PUY DE MUR 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
         }
        ],
        "heure_connue": true
@@ -3308,38 +3296,26 @@
       {
        "id": "9639_9008_15559_40731_38103_2",
        "start": "2026-10-10T14:00",
-       "lieu": "LIMONS - STADE GINETTE TIXIER",
-       "organisateur": "RSLCV",
+       "lieu": "MARINGUES - STADE MUNICIPAL 2",
+       "organisateur": "MARINGUES U.S.",
        "equipes": [
         "AULNAT SP. 3",
-        "GROUPEMENT DORE ALLIER FOOTBALL 2",
         "U.S. MARINGUOISE 1",
+        "GROUPEMENT DORE ALLIER FOOTBALL 2",
         "R. S. LUZILLAT CHARNAT VINZELLES 1"
        ],
        "matchs": [
         {
          "home": "AULNAT SP. 3",
          "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "GROUPEMENT DORE ALLIER FOOTBALL 2",
-         "away": "U.S. MARINGUOISE 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "AULNAT SP. 3",
-         "away": "GROUPEMENT DORE ALLIER FOOTBALL 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 0
         },
         {
          "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
          "away": "U.S. MARINGUOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 3
         }
        ],
        "heure_connue": true

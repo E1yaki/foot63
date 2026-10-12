@@ -297,34 +297,34 @@
        ],
        "matchs": [
         {
-         "home": "S.C. BILLOMOIS 1",
-         "away": "A.S. JOB 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
-         "away": "A.S. JOB 1",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
          "away": "S.C. BILLOMOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
+        },
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+         "away": "A.S. JOB 1",
+         "hs": 8,
+         "as": 1
+        },
+        {
+         "home": "S.C. BILLOMOIS 1",
+         "away": "A.S. JOB 1",
+         "hs": 2,
+         "as": 2
         },
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
          "away": "A.S. JOB 2",
-         "hs": null,
-         "as": null
+         "hs": 9,
+         "as": 0
         },
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
          "away": "A.S. JOB 2",
-         "hs": null,
-         "as": null
+         "hs": 16,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -508,49 +508,49 @@
        "lieu": "ST BABEL - COMPLEXE SPORTIF DES MOULINS",
        "organisateur": "FC2SBB",
        "equipes": [
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
         "UNION SPORTIVE BASSIN MINIER 1",
         "UNION SPORTIVE BASSIN MINIER 2",
-        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
         "U.S. ISSOIRE A. DU MAS 2",
         "E.S. ST GERMINOISE 1",
         "E.S. ST GERMINOISE 2"
        ],
        "matchs": [
         {
+         "home": "UNION SPORTIVE BASSIN MINIER 2",
+         "away": "U.S. ISSOIRE A. DU MAS 2",
+         "hs": 0,
+         "as": 3
+        },
+        {
          "home": "E.S. ST GERMINOISE 1",
          "away": "U.S. ISSOIRE A. DU MAS 2",
-         "hs": null,
-         "as": null
+         "hs": 9,
+         "as": 0
         },
         {
          "home": "UNION SPORTIVE BASSIN MINIER 2",
          "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
+        },
+        {
+         "home": "UNION SPORTIVE BASSIN MINIER 1",
+         "away": "E.S. ST GERMINOISE 2",
+         "hs": 9,
+         "as": 0
         },
         {
          "home": "UNION SPORTIVE BASSIN MINIER 1",
          "away": "E.S. ST GERMINOISE 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "UNION SPORTIVE BASSIN MINIER 2",
-         "away": "E.S. ST GERMINOISE 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "UNION SPORTIVE BASSIN MINIER 1",
-         "away": "E.S. ST GERMINOISE 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 1
         },
         {
          "home": "E.S. ST GERMINOISE 2",
          "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
         }
        ],
        "heure_connue": true
@@ -1750,47 +1750,47 @@
        "equipes": [
         "F.C. LEZOUX 1",
         "F.C. LEZOUX 2",
+        "C.S. PONT DU CHATEAU 2",
         "REV.AM.S. BEAUREGARD L'EVEQUE 3",
         "REV.AM.S. BEAUREGARD L'EVEQUE 1",
-        "LEMPDES SP. 2",
-        "C.S. PONT DU CHATEAU 2"
+        "LEMPDES SP. 2"
        ],
        "matchs": [
         {
-         "home": "F.C. LEZOUX 1",
-         "away": "C.S. PONT DU CHATEAU 2",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
          "away": "F.C. LEZOUX 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 2
         },
         {
-         "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+         "home": "F.C. LEZOUX 1",
          "away": "C.S. PONT DU CHATEAU 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. LEZOUX 2",
-         "away": "LEMPDES SP. 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
-         "away": "LEMPDES SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
         },
         {
          "home": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
          "away": "F.C. LEZOUX 2",
-         "hs": null,
-         "as": null
+         "hs": 8,
+         "as": 0
+        },
+        {
+         "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+         "away": "LEMPDES SP. 2",
+         "hs": 0,
+         "as": 2
+        },
+        {
+         "home": "F.C. LEZOUX 2",
+         "away": "LEMPDES SP. 2",
+         "hs": 1,
+         "as": 2
+        },
+        {
+         "home": "REV.AM.S. BEAUREGARD L'EVEQUE 3",
+         "away": "C.S. PONT DU CHATEAU 2",
+         "hs": 0,
+         "as": 3
         }
        ],
        "heure_connue": true
@@ -2430,45 +2430,45 @@
         "LEMPDES SP. 2",
         "AULNAT SP. 1",
         "AULNAT SP. 2",
-        "C.S. PONT DU CHATEAU 3",
-        "FOOTBALL CLUB PUY DE MUR 2"
+        "FOOTBALL CLUB PUY DE MUR 2",
+        "C.S. PONT DU CHATEAU 3"
        ],
        "matchs": [
         {
          "home": "LEMPDES SP. 2",
          "away": "AULNAT SP. 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "FOOTBALL CLUB PUY DE MUR 2",
-         "away": "AULNAT SP. 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "LEMPDES SP. 1",
-         "away": "AULNAT SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
         },
         {
          "home": "AULNAT SP. 1",
          "away": "C.S. PONT DU CHATEAU 3",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 0
+        },
+        {
+         "home": "FOOTBALL CLUB PUY DE MUR 2",
+         "away": "AULNAT SP. 1",
+         "hs": 2,
+         "as": 7
+        },
+        {
+         "home": "LEMPDES SP. 1",
+         "away": "AULNAT SP. 2",
+         "hs": 6,
+         "as": 1
         },
         {
          "home": "LEMPDES SP. 1",
          "away": "C.S. PONT DU CHATEAU 3",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 1
         },
         {
          "home": "FOOTBALL CLUB PUY DE MUR 2",
          "away": "LEMPDES SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -2661,40 +2661,40 @@
        ],
        "matchs": [
         {
-         "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
-         "away": "F.C. NORD LIMAGNE 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
-         "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
-         "hs": null,
-         "as": null
+         "home": "F.C. NORD LIMAGNE 1",
+         "away": "U.S. MARINGUOISE 1",
+         "hs": 0,
+         "as": 2
         },
         {
          "home": "F.C. NORD LIMAGNE 2",
          "away": "U.S. MARINGUOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 4
         },
         {
          "home": "F.C. NORD LIMAGNE 1",
-         "away": "U.S. MARINGUOISE 1",
-         "hs": null,
-         "as": null
+         "away": "U.S. MARINGUOISE 2",
+         "hs": 3,
+         "as": 0
         },
         {
          "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
          "away": "U.S. MARINGUOISE 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 18
         },
         {
-         "home": "F.C. NORD LIMAGNE 1",
-         "away": "U.S. MARINGUOISE 2",
-         "hs": null,
-         "as": null
+         "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
+         "away": "F.C. NORD LIMAGNE 2",
+         "hs": 0,
+         "as": 3
+        },
+        {
+         "home": "U.S. ST SYLVESTRE PRAGOULIN 1",
+         "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
+         "hs": 0,
+         "as": 3
         }
        ],
        "heure_connue": true
@@ -2864,34 +2864,34 @@
        ],
        "matchs": [
         {
-         "home": "GROUPEMENT FORMATEUR LIMAGNE 2",
-         "away": "F.C. RIOMOIS 5",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
          "away": "U.S. ENNEZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 3
+        },
+        {
+         "home": "GROUPEMENT FORMATEUR LIMAGNE 2",
+         "away": "F.C. RIOMOIS 5",
+         "hs": 0,
+         "as": 3
         },
         {
          "home": "GROUPEMENT FORMATEUR LIMAGNE 2",
          "away": "F.C. RIOMOIS 4",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
-         "away": "F.C. RIOMOIS 4",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 16
         },
         {
          "home": "F.C. RIOMOIS 5",
          "away": "U.S. ENNEZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 2
+        },
+        {
+         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "away": "F.C. RIOMOIS 4",
+         "hs": 5,
+         "as": 4
         }
        ],
        "heure_connue": true
@@ -3084,40 +3084,40 @@
        ],
        "matchs": [
         {
-         "home": "ESP. CEYRATOISE 1",
-         "away": "A.S. ROMAGNAT 1",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
          "away": "A.S. ROMAGNAT 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 0
+        },
+        {
+         "home": "ESP. CEYRATOISE 1",
+         "away": "A.S. ROMAGNAT 1",
+         "hs": 8,
+         "as": 0
         },
         {
          "home": "ESP. CEYRATOISE 2",
          "away": "A.S. ROMAGNAT 2",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 0
         },
         {
          "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
          "away": "ESP. CEYRATOISE 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
-         "away": "A.S. ROMAGNAT 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 0
         },
         {
          "home": "ENT.F.C. ST AMANT ET TALLENDE 1",
          "away": "ESP. CEYRATOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
+        },
+        {
+         "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+         "away": "A.S. ROMAGNAT 2",
+         "hs": 15,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -3734,39 +3734,39 @@
         "CEBAZAT SP. 1",
         "ECUREUILS FRANC ROSIER 3",
         "ECUREUILS FRANC ROSIER 2",
-        "A.S. MONTFERRANDAISE 2",
-        "F. C. CLERMONT METROPOLE 3"
+        "F. C. CLERMONT METROPOLE 3",
+        "A.S. MONTFERRANDAISE 2"
        ],
        "matchs": [
         {
          "home": "ECUREUILS FRANC ROSIER 3",
          "away": "CEBAZAT SP. 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 4
         },
         {
          "home": "ECUREUILS FRANC ROSIER 2",
          "away": "A.S. MONTFERRANDAISE 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F. C. CLERMONT METROPOLE 3",
-         "away": "A.S. MONTFERRANDAISE 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "ECUREUILS FRANC ROSIER 3",
-         "away": "F. C. CLERMONT METROPOLE 3",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 8
         },
         {
          "home": "ECUREUILS FRANC ROSIER 2",
          "away": "CEBAZAT SP. 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 2
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 3",
+         "away": "A.S. MONTFERRANDAISE 2",
+         "hs": 0,
+         "as": 4
+        },
+        {
+         "home": "ECUREUILS FRANC ROSIER 3",
+         "away": "F. C. CLERMONT METROPOLE 3",
+         "hs": 1,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -3938,8 +3938,8 @@
        "lieu": "GERZAT - STADE DE LA LUMINERIE",
        "organisateur": "FOOTBALL CLUB GERZAT",
        "equipes": [
-        "FOOTBALL CLUB GERZAT 1",
         "FOOTBALL CLUB GERZAT 2",
+        "FOOTBALL CLUB GERZAT 1",
         "F.C. COURNON D AUVERGNE 1",
         "F.C. COURNON D AUVERGNE 3",
         "CLERMONT FOOT 63 2",
@@ -3947,40 +3947,40 @@
        ],
        "matchs": [
         {
-         "home": "ECUREUILS FRANC ROSIER 1",
-         "away": "FOOTBALL CLUB GERZAT 2",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "F.C. COURNON D AUVERGNE 1",
          "away": "CLERMONT FOOT 63 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
+        },
+        {
+         "home": "ECUREUILS FRANC ROSIER 1",
+         "away": "FOOTBALL CLUB GERZAT 2",
+         "hs": 8,
+         "as": 0
         },
         {
          "home": "F.C. COURNON D AUVERGNE 3",
          "away": "FOOTBALL CLUB GERZAT 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. COURNON D AUVERGNE 1",
-         "away": "ECUREUILS FRANC ROSIER 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. COURNON D AUVERGNE 3",
-         "away": "FOOTBALL CLUB GERZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 2
         },
         {
          "home": "CLERMONT FOOT 63 2",
          "away": "FOOTBALL CLUB GERZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 0
+        },
+        {
+         "home": "F.C. COURNON D AUVERGNE 1",
+         "away": "ECUREUILS FRANC ROSIER 1",
+         "hs": 2,
+         "as": 3
+        },
+        {
+         "home": "F.C. COURNON D AUVERGNE 3",
+         "away": "FOOTBALL CLUB GERZAT 1",
+         "hs": 0,
+         "as": 1
         }
        ],
        "heure_connue": true
@@ -4799,34 +4799,34 @@
        ],
        "matchs": [
         {
-         "home": "F.C. RIOMOIS 3",
-         "away": "GJ SCB FOOT 2",
-         "hs": null,
-         "as": null
+         "home": "GJ SCB FOOT 1",
+         "away": "F.C. RIOMOIS 1",
+         "hs": 0,
+         "as": 3
         },
         {
-         "home": "F.C. RIOMOIS 1",
-         "away": "GJ SCB FOOT 2",
-         "hs": null,
-         "as": null
+         "home": "GJ SCB FOOT 1",
+         "away": "U.S. MENETROL 1",
+         "hs": 2,
+         "as": 2
+        },
+        {
+         "home": "GJ SCB FOOT 2",
+         "away": "F.C. RIOMOIS 1",
+         "hs": 0,
+         "as": 14
         },
         {
          "home": "U.S. MENETROL 1",
-         "away": "GJ SCB FOOT 1",
-         "hs": null,
-         "as": null
+         "away": "F.C. RIOMOIS 3",
+         "hs": 2,
+         "as": 0
         },
         {
-         "home": "F.C. RIOMOIS 3",
-         "away": "U.S. MENETROL 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. RIOMOIS 1",
-         "away": "GJ SCB FOOT 1",
-         "hs": null,
-         "as": null
+         "home": "GJ SCB FOOT 2",
+         "away": "F.C. RIOMOIS 3",
+         "hs": 0,
+         "as": 11
         }
        ],
        "heure_connue": true
