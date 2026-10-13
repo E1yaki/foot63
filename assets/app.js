@@ -327,9 +327,30 @@
           Clo[q] = Clo[q - 1] + b.poules.filter(p => p._sizeLo >= q).length;
         }
         const finished = subRows.length >= n && subRows.every(t => t.rem === 0);
+        // Rang dans la division, par comparaison DE PAIRE (et non plus par compte global des poules) :
+        // - X peut passer devant T si X peut finir mieux que T, ou à égalité de place avec plus de points ;
+        // - X passe forcément devant T si X finit forcément mieux, ou à égalité avec plus de points à coup sûr.
+        // Quand X et T sont toutes deux terminées, on applique exactement l'ordre du classement de division.
+        const cross = b.cross || ['pos', 'ppm', 'diff', 'bp'];
+        const exactCmp = (x, y) => {   // < 0 : x devant y ; > 0 : y devant x ; 0 : indécis
+          for (const k of cross) {
+            if (k === 'pos') { if (x.pos !== y.pos) return x.pos - y.pos; }
+            else if (x[k] !== y[k]) return y[k] - x[k];
+          }
+          return 0;
+        };
+        const canAbove = (X, T) => {
+          if (X.rem === 0 && T.rem === 0) return exactCmp(X, T) <= 0;
+          return X.bestPos < T.worstPos || (X.bestPos === T.worstPos && X.maxF >= T.minF);
+        };
+        const mustAbove = (X, T) => {
+          if (X.rem === 0 && T.rem === 0) return exactCmp(X, T) < 0;
+          return X.worstPos < T.bestPos || (X.worstPos === T.bestPos && X.minF > T.maxF);
+        };
         subRows.forEach(t => {
-          const worstRank = Chi[t.worstPos] ?? subRows.length;
-          const bestRank = (Clo[Math.min(t.bestPos - 1, maxQ)] ?? 0) + 1;
+          const others = subRows.filter(x => x !== t);
+          const worstRank = 1 + others.filter(x => canAbove(x, t)).length;
+          const bestRank = 1 + others.filter(x => mustAbove(x, t)).length;
           const tier = tiers.find(x => t._brk >= x.from && t._brk <= x.to);
           if (!tier) return;
           t.tier = tier;
@@ -519,6 +540,7 @@
   function zoneText(t) {
     if (!t.tier) return '';
     const w = t.tier.kind === 'up' ? 'Montée' : t.tier.kind === 'down' ? 'Descente' : 'Destination';
+    if (!t.sure && t.rem === 0) return `${w} provisoire : ${t.tier.label}. Poule terminée pour elle (${nth(t.pos)} de sa poule) ; sa place dans la division dépend encore des autres poules.`;
     if (!t.sure) return `${w} provisoire : ${t.tier.label}. Il reste ${games(t.rem)} : en théorie, elle peut encore finir de ${nth(t.bestPos)} à ${nth(t.worstPos)} de sa poule (de ${t.pts} à ${t.maxF} pts).`;
     if (t.rem === 0) return `${w} assurée : ${t.tier.label}. Classement définitif.`;
     if (t.tier.kind === 'down') return `${w} assurée : ${t.tier.label}. Même en gagnant ses ${games(t.rem)} (${t.maxF} pts au maximum), elle ne peut pas finir mieux que ${nth(t.bestPos)} de sa poule.`;
@@ -1084,7 +1106,7 @@
   }
 
   async function init() {
-    console.info('[Foot animation 63] version app 2026-10-08 (lien Championnat depuis le Festival)');
+    console.info('[Foot animation 63] version app 2026-10-10 (rangs de division par comparaison de paires, festival 2 compétitions)');
     applyTheme();
     $('#theme-btn').addEventListener('click', toggleTheme);
     prepare(await loadData());
