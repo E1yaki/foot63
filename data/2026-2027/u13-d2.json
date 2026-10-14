@@ -420,20 +420,20 @@
         {
          "home": "C.O. VEYRE MONTON 1",
          "away": "U.S. ISSOIRE A. DU MAS 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "ECUREUILS FRANC ROSIER 2",
-         "away": "C.O. VEYRE MONTON 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
         },
         {
          "home": "ECUREUILS FRANC ROSIER 2",
          "away": "U.S. ISSOIRE A. DU MAS 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
+        },
+        {
+         "home": "ECUREUILS FRANC ROSIER 2",
+         "away": "C.O. VEYRE MONTON 1",
+         "hs": 1,
+         "as": 2
         }
        ],
        "heure_connue": true

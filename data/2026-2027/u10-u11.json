@@ -909,8 +909,8 @@
        "lieu": "CONDAT EN COMBRAILLE - STADE MUNICIPAL",
        "organisateur": "HTE COMBRAILLE FOOT",
        "equipes": [
-        "VAL DE SIOULE FOOT 1",
         "A.S. ORCINES 1",
+        "VAL DE SIOULE FOOT 1",
         "DOMES SANCY FOOT 1",
         "DOMES SANCY FOOT 2",
         "HAUTE COMBRAILLE FOOT 1"
@@ -918,33 +918,33 @@
        "matchs": [
         {
          "home": "HAUTE COMBRAILLE FOOT 1",
-         "away": "DOMES SANCY FOOT 1",
-         "hs": null,
-         "as": null
+         "away": "A.S. ORCINES 1",
+         "hs": 1,
+         "as": 3
         },
         {
          "home": "DOMES SANCY FOOT 2",
          "away": "A.S. ORCINES 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
         },
         {
          "home": "VAL DE SIOULE FOOT 1",
          "away": "DOMES SANCY FOOT 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 2
         },
         {
          "home": "HAUTE COMBRAILLE FOOT 1",
-         "away": "A.S. ORCINES 1",
-         "hs": null,
-         "as": null
+         "away": "DOMES SANCY FOOT 1",
+         "hs": 4,
+         "as": 2
         },
         {
          "home": "VAL DE SIOULE FOOT 1",
          "away": "DOMES SANCY FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
         }
        ],
        "heure_connue": true
@@ -1325,49 +1325,49 @@
        "lieu": "LA TOUR D AUVERGNE - STADE DU LAC",
        "organisateur": "SANCY CHAVANON FOOT",
        "equipes": [
+        "SANCY CHAVANON FOOT 1",
         "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
         "F.C. PLAUZAT-CHAMPEIX 1",
         "F.C. PLAUZAT-CHAMPEIX 2",
         "U.S. ISSOIRE A. DU MAS 1",
-        "U.S. ISSOIRE A. DU MAS 3",
-        "SANCY CHAVANON FOOT 1"
+        "U.S. ISSOIRE A. DU MAS 3"
        ],
        "matchs": [
         {
          "home": "SANCY CHAVANON FOOT 1",
          "away": "F.C. PLAUZAT-CHAMPEIX 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
+        },
+        {
+         "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+         "away": "U.S. ISSOIRE A. DU MAS 3",
+         "hs": 3,
+         "as": 5
         },
         {
          "home": "SANCY CHAVANON FOOT 1",
          "away": "F.C. PLAUZAT-CHAMPEIX 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
-         "away": "U.S. ISSOIRE A. DU MAS 3",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 2
         },
         {
          "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
          "away": "U.S. ISSOIRE A. DU MAS 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 15
         },
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 2",
          "away": "U.S. ISSOIRE A. DU MAS 3",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 6
         },
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 1",
          "away": "U.S. ISSOIRE A. DU MAS 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 5
         }
        ],
        "heure_connue": true
@@ -2211,38 +2211,38 @@
         {
          "home": "GROUPEMENT DE L'AUZON 1",
          "away": "PERIGNAT F.C. 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U.S. VIC LE COMTE 2",
-         "away": "U.S. LES MARTRES DE VEYRE 3",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U.S. VIC LE COMTE 2",
-         "away": "GROUPEMENT DE L'AUZON 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 0
         },
         {
          "home": "U.S. LES MARTRES DE VEYRE 3",
          "away": "GROUPEMENT DE L'AUZON 3",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 5
         },
         {
-         "home": "U.S. LES MARTRES DE VEYRE 1",
-         "away": "PERIGNAT F.C. 1",
-         "hs": null,
-         "as": null
+         "home": "U.S. VIC LE COMTE 2",
+         "away": "U.S. LES MARTRES DE VEYRE 3",
+         "hs": 7,
+         "as": 0
+        },
+        {
+         "home": "U.S. VIC LE COMTE 2",
+         "away": "GROUPEMENT DE L'AUZON 1",
+         "hs": 0,
+         "as": 0
         },
         {
          "home": "U.S. LES MARTRES DE VEYRE 1",
          "away": "GROUPEMENT DE L'AUZON 3",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 0
+        },
+        {
+         "home": "U.S. LES MARTRES DE VEYRE 1",
+         "away": "PERIGNAT F.C. 1",
+         "hs": 20,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -4368,8 +4368,8 @@
        "lieu": "RIOM - PARC DES SPORTS DU CEREY 1",
        "organisateur": "RIOM FC",
        "equipes": [
-        "CEBAZAT SP. 3",
         "CEBAZAT SP. 2",
+        "CEBAZAT SP. 3",
         "F.C. RIOMOIS 2",
         "U.S. MOZAC 2",
         "U.S. MOZAC 1"
@@ -4377,33 +4377,33 @@
        "matchs": [
         {
          "home": "CEBAZAT SP. 3",
-         "away": "U.S. MOZAC 2",
-         "hs": null,
-         "as": null
+         "away": "U.S. MOZAC 1",
+         "hs": 0,
+         "as": 0
         },
         {
          "home": "CEBAZAT SP. 3",
-         "away": "U.S. MOZAC 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "CEBAZAT SP. 2",
-         "away": "U.S. MOZAC 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "CEBAZAT SP. 2",
-         "away": "F.C. RIOMOIS 2",
-         "hs": null,
-         "as": null
+         "away": "U.S. MOZAC 2",
+         "hs": 3,
+         "as": 1
         },
         {
          "home": "U.S. MOZAC 2",
          "away": "F.C. RIOMOIS 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 11
+        },
+        {
+         "home": "CEBAZAT SP. 2",
+         "away": "F.C. RIOMOIS 2",
+         "hs": 0,
+         "as": 3
+        },
+        {
+         "home": "CEBAZAT SP. 2",
+         "away": "U.S. MOZAC 1",
+         "hs": 1,
+         "as": 0
         }
        ],
        "heure_connue": true

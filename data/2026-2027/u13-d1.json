@@ -747,21 +747,21 @@
        "matchs": [
         {
          "home": "A.S. ROYAT A.C. 1",
-         "away": "GJ SCB FOOT 1",
-         "hs": null,
-         "as": null
+         "away": "F.C. COURNON D AUVERGNE 1",
+         "hs": 0,
+         "as": 6
         },
         {
          "home": "A.S. ROYAT A.C. 1",
-         "away": "F.C. COURNON D AUVERGNE 1",
-         "hs": null,
-         "as": null
+         "away": "GJ SCB FOOT 1",
+         "hs": 2,
+         "as": 0
         },
         {
          "home": "GJ SCB FOOT 1",
          "away": "F.C. COURNON D AUVERGNE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
         }
        ],
        "heure_connue": true

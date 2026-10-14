@@ -423,27 +423,27 @@
        "organisateur": "USBM",
        "equipes": [
         "UNION SPORTIVE BASSIN MINIER 2",
-        "E.S. ST GERMINOISE 1",
-        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2"
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
+        "E.S. ST GERMINOISE 1"
        ],
        "matchs": [
         {
          "home": "UNION SPORTIVE BASSIN MINIER 2",
          "away": "E.S. ST GERMINOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
         },
         {
          "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
          "away": "UNION SPORTIVE BASSIN MINIER 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
         },
         {
          "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
          "away": "E.S. ST GERMINOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 4
         }
        ],
        "heure_connue": true
@@ -787,20 +787,20 @@
         {
          "home": "U.S. BEAUMONTOISE 2",
          "away": "U. J. CLERMONTOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 6
         },
         {
          "home": "C.S. DE VOLVIC 3",
          "away": "U.S. BEAUMONTOISE 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 2
         },
         {
          "home": "C.S. DE VOLVIC 3",
          "away": "U. J. CLERMONTOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 1
         }
        ],
        "heure_connue": true
@@ -1752,18 +1752,6 @@
         {
          "home": "GROUPEMENT DE L'AUZON 2",
          "away": "F.C. COURNON D AUVERGNE 3",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U.S. BEAUMONTOISE 1",
-         "away": "F.C. COURNON D AUVERGNE 3",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "GROUPEMENT DE L'AUZON 2",
-         "away": "U.S. BEAUMONTOISE 1",
          "hs": null,
          "as": null
         }

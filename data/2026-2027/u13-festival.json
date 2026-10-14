@@ -2123,38 +2123,38 @@
    "poules": [
     {
      "id": "1",
-     "label": "Poule 1",
+     "label": "POULE 1",
      "teams": [
-      "Auzon Gr. 1",
-      "Courpiere U.S. 1",
-      "FOOTBALL CLUB PUY DE MUR 2"
+      "FOOTBALL CLUB PUY DE MUR 2",
+      "GROUPEMENT DE L'AUZON 1",
+      "U.S. COURPIEROISE 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_1_1",
+       "id": "cup460117_2_1_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE ETIENNE BONHOMME à COURPIERE",
-       "organisateur": "COURPIERE U.S.",
+       "lieu": "STADE ETIENNE BONHOMME, AVENUE PIERRE DE COUBERTIN, COURPIERE",
+       "organisateur": "",
        "equipes": [
-        "Auzon Gr. 1",
-        "Courpiere U.S. 1",
-        "FOOTBALL CLUB PUY DE MUR 2"
+        "FOOTBALL CLUB PUY DE MUR 2",
+        "GROUPEMENT DE L'AUZON 1",
+        "U.S. COURPIEROISE 1"
        ],
        "matchs": [
         {
-         "home": "Auzon Gr. 1",
-         "away": "Courpiere U.S. 1",
+         "home": "GROUPEMENT DE L'AUZON 1",
+         "away": "U.S. COURPIEROISE 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "Auzon Gr. 1",
+         "home": "GROUPEMENT DE L'AUZON 1",
          "away": "FOOTBALL CLUB PUY DE MUR 2",
          "hs": null,
          "as": null
         },
         {
-         "home": "Courpiere U.S. 1",
+         "home": "U.S. COURPIEROISE 1",
          "away": "FOOTBALL CLUB PUY DE MUR 2",
          "hs": null,
          "as": null
@@ -2166,27 +2166,27 @@
     },
     {
      "id": "2",
-     "label": "Poule 2",
+     "label": "POULE 2",
      "teams": [
       "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
       "C.S. PONT DU CHATEAU 2",
-      "Cournon F.C. 3"
+      "F.C. COURNON D AUVERGNE 3"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_2_1",
+       "id": "cup460117_2_2_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE LÉON BAGET à PONT DU CHATEAU",
-       "organisateur": "C.S. PONT DU CHATEAU",
+       "lieu": "STADE LÉON BAGET, CHEMIN DES VORTILLES, PONT DU CHATEAU",
+       "organisateur": "",
        "equipes": [
         "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
         "C.S. PONT DU CHATEAU 2",
-        "Cournon F.C. 3"
+        "F.C. COURNON D AUVERGNE 3"
        ],
        "matchs": [
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
-         "away": "Cournon F.C. 3",
+         "away": "F.C. COURNON D AUVERGNE 3",
          "hs": null,
          "as": null
         },
@@ -2197,7 +2197,7 @@
          "as": null
         },
         {
-         "home": "Cournon F.C. 3",
+         "home": "F.C. COURNON D AUVERGNE 3",
          "away": "C.S. PONT DU CHATEAU 2",
          "hs": null,
          "as": null
@@ -2209,39 +2209,39 @@
     },
     {
      "id": "3",
-     "label": "Poule 3",
+     "label": "POULE 3",
      "teams": [
-      "Auzon Gr. 2",
-      "Billom S.C. 1",
-      "Thiers S.A 1"
+      "GROUPEMENT DE L'AUZON 2",
+      "S.A. THIERNOIS 1",
+      "S.C. BILLOMOIS 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_3_1",
+       "id": "cup460117_2_3_1",
        "start": "2026-10-17T14:00",
-       "lieu": "PARC DES SPORTS ANTONIN CHASTEL 1 à THIERS",
-       "organisateur": "THIERS SA",
+       "lieu": "PARC DES SPORTS ANTONIN CHASTEL 1, TERRAIN A 115, AVENUE LEO LAGRANGE, THIERS",
+       "organisateur": "",
        "equipes": [
-        "Auzon Gr. 2",
-        "Billom S.C. 1",
-        "Thiers S.A 1"
+        "GROUPEMENT DE L'AUZON 2",
+        "S.A. THIERNOIS 1",
+        "S.C. BILLOMOIS 1"
        ],
        "matchs": [
         {
-         "home": "Auzon Gr. 2",
-         "away": "Billom S.C. 1",
+         "home": "GROUPEMENT DE L'AUZON 2",
+         "away": "S.A. THIERNOIS 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "Auzon Gr. 2",
-         "away": "Thiers S.A 1",
+         "home": "GROUPEMENT DE L'AUZON 2",
+         "away": "S.C. BILLOMOIS 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "Billom S.C. 1",
-         "away": "Thiers S.A 1",
+         "home": "S.C. BILLOMOIS 1",
+         "away": "S.A. THIERNOIS 1",
          "hs": null,
          "as": null
         }
@@ -2252,22 +2252,22 @@
     },
     {
      "id": "4",
-     "label": "Poule 4",
+     "label": "POULE 4",
      "teams": [
       "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
       "F.C. LEZOUX 2",
-      "Thiers S.A 2"
+      "S.A. THIERNOIS 2"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_4_1",
+       "id": "cup460117_2_4_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE MUNICIPAL 2 à AMBERT",
-       "organisateur": "AMBERT LIVRADOIS SUD",
+       "lieu": "STADE DE LA GRAVIÈRE, CHEMIN DE LA GRAVIERE, MARSAC EN LIVRADOIS",
+       "organisateur": "",
        "equipes": [
         "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
         "F.C. LEZOUX 2",
-        "Thiers S.A 2"
+        "S.A. THIERNOIS 2"
        ],
        "matchs": [
         {
@@ -2278,13 +2278,13 @@
         },
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
-         "away": "Thiers S.A 2",
+         "away": "S.A. THIERNOIS 2",
          "hs": null,
          "as": null
         },
         {
          "home": "F.C. LEZOUX 2",
-         "away": "Thiers S.A 2",
+         "away": "S.A. THIERNOIS 2",
          "hs": null,
          "as": null
         }
@@ -2295,22 +2295,22 @@
     },
     {
      "id": "5",
-     "label": "Poule 5",
+     "label": "POULE 5",
      "teams": [
       "C.S. PONT DU CHATEAU 1",
       "F.C. LEZOUX 1",
-      "Rslcv 1"
+      "R. S. LUZILLAT CHARNAT VINZELLES 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_5_1",
+       "id": "cup460117_2_5_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE DU VERNADEL à LEZOUX",
-       "organisateur": "LEZOUX F.C.",
+       "lieu": "STADE DU VERNADEL, CHEMIN DES CHARRETIERS, LEZOUX",
+       "organisateur": "",
        "equipes": [
         "C.S. PONT DU CHATEAU 1",
         "F.C. LEZOUX 1",
-        "Rslcv 1"
+        "R. S. LUZILLAT CHARNAT VINZELLES 1"
        ],
        "matchs": [
         {
@@ -2321,13 +2321,13 @@
         },
         {
          "home": "F.C. LEZOUX 1",
-         "away": "Rslcv 1",
+         "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
          "hs": null,
          "as": null
         },
         {
          "home": "C.S. PONT DU CHATEAU 1",
-         "away": "Rslcv 1",
+         "away": "R. S. LUZILLAT CHARNAT VINZELLES 1",
          "hs": null,
          "as": null
         }
@@ -2338,32 +2338,32 @@
     },
     {
      "id": "6",
-     "label": "Poule 6",
+     "label": "POULE 6",
      "teams": [
       "C.S. PONT DE DORE 1",
-      "Clt Franc Rosier 2",
+      "ECUREUILS FRANC ROSIER 2",
       "FOOTBALL CLUB PUY DE MUR 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_6_1",
+       "id": "cup460117_2_6_1",
        "start": "2026-10-17T14:00",
        "lieu": "",
-       "organisateur": "FOOTBALL CLUB PUY DE",
+       "organisateur": "",
        "equipes": [
         "C.S. PONT DE DORE 1",
-        "Clt Franc Rosier 2",
+        "ECUREUILS FRANC ROSIER 2",
         "FOOTBALL CLUB PUY DE MUR 1"
        ],
        "matchs": [
         {
-         "home": "Clt Franc Rosier 2",
+         "home": "ECUREUILS FRANC ROSIER 2",
          "away": "FOOTBALL CLUB PUY DE MUR 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "Clt Franc Rosier 2",
+         "home": "ECUREUILS FRANC ROSIER 2",
          "away": "C.S. PONT DE DORE 1",
          "hs": null,
          "as": null
@@ -2381,7 +2381,7 @@
     },
     {
      "id": "7",
-     "label": "Poule 7",
+     "label": "POULE 7",
      "teams": [
       "C.S. DE VOLVIC 1",
       "CLERMONT FOOT 63 3",
@@ -2389,10 +2389,10 @@
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_7_1",
+       "id": "cup460117_2_7_1",
        "start": "2026-10-17T14:00",
        "lieu": "",
-       "organisateur": "GJ SCB FOOT",
+       "organisateur": "",
        "equipes": [
         "C.S. DE VOLVIC 1",
         "CLERMONT FOOT 63 3",
@@ -2424,39 +2424,39 @@
     },
     {
      "id": "8",
-     "label": "Poule 8",
+     "label": "POULE 8",
      "teams": [
-      "Clt Franc Rosier 1",
+      "ECUREUILS FRANC ROSIER 1",
       "F.C. CHAMALIERES 2",
-      "Riom F.C. 3"
+      "F.C. RIOMOIS 3"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_8_1",
+       "id": "cup460117_2_8_1",
        "start": "2026-10-17T14:00",
        "lieu": "",
-       "organisateur": "CLERM FRANC R",
+       "organisateur": "",
        "equipes": [
-        "Clt Franc Rosier 1",
+        "ECUREUILS FRANC ROSIER 1",
         "F.C. CHAMALIERES 2",
-        "Riom F.C. 3"
+        "F.C. RIOMOIS 3"
        ],
        "matchs": [
         {
          "home": "F.C. CHAMALIERES 2",
-         "away": "Clt Franc Rosier 1",
+         "away": "ECUREUILS FRANC ROSIER 1",
          "hs": null,
          "as": null
         },
         {
          "home": "F.C. CHAMALIERES 2",
-         "away": "Riom F.C. 3",
+         "away": "F.C. RIOMOIS 3",
          "hs": null,
          "as": null
         },
         {
-         "home": "Clt Franc Rosier 1",
-         "away": "Riom F.C. 3",
+         "home": "ECUREUILS FRANC ROSIER 1",
+         "away": "F.C. RIOMOIS 3",
          "hs": null,
          "as": null
         }
@@ -2467,7 +2467,7 @@
     },
     {
      "id": "9",
-     "label": "Poule 9",
+     "label": "POULE 9",
      "teams": [
       "CEBAZAT SP. 1",
       "CLERMONT FOOT 63 4",
@@ -2475,10 +2475,10 @@
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_9_1",
+       "id": "cup460117_2_9_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE JEAN MARIE BELLIME 1 à CEBAZAT",
-       "organisateur": "CEBAZAT SP.",
+       "lieu": "COMPLEXE SPORTIF LA PRADE 1, RUE DES COUTILS, CEBAZAT",
+       "organisateur": "",
        "equipes": [
         "CEBAZAT SP. 1",
         "CLERMONT FOOT 63 4",
@@ -2510,7 +2510,7 @@
     },
     {
      "id": "10",
-     "label": "Poule 10",
+     "label": "POULE 10",
      "teams": [
       "CLERMONT FOOT 63 2",
       "F.C. BLANZAT 1",
@@ -2518,10 +2518,10 @@
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_10_1",
+       "id": "cup460117_2_10_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE GABRIEL MONTPIED à CLERMONT FERRAND",
-       "organisateur": "CLERMONT FOOT 63",
+       "lieu": "STADE GABRIEL MONTPIED, 15 RUE ADRIEN MABRUT, CLERMONT FERRAND",
+       "organisateur": "",
        "equipes": [
         "CLERMONT FOOT 63 2",
         "F.C. BLANZAT 1",
@@ -2553,38 +2553,38 @@
     },
     {
      "id": "11",
-     "label": "Poule 11",
+     "label": "POULE 11",
      "teams": [
       "ENT.F.C. ST AMANT ET TALLENDE 2",
-      "Issoire U.S. 1",
-      "Saux/St Babel/Brenat 2"
+      "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
+      "U.S. ISSOIRE A. DU MAS 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_11_1",
+       "id": "cup460117_2_11_1",
        "start": "2026-10-17T14:00",
-       "lieu": "COMPLEXE SPORTIF LAVEDRINE STADE HONNEUR à ISSOIRE",
-       "organisateur": "ISSOIRE US",
+       "lieu": "Complexe Sportif Lavedrine Stade Honneur, RUE JEAN MONET, ISSOIRE",
+       "organisateur": "",
        "equipes": [
         "ENT.F.C. ST AMANT ET TALLENDE 2",
-        "Issoire U.S. 1",
-        "Saux/St Babel/Brenat 2"
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
+        "U.S. ISSOIRE A. DU MAS 1"
        ],
        "matchs": [
         {
-         "home": "Issoire U.S. 1",
-         "away": "Saux/St Babel/Brenat 2",
+         "home": "U.S. ISSOIRE A. DU MAS 1",
+         "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
          "hs": null,
          "as": null
         },
         {
-         "home": "Issoire U.S. 1",
+         "home": "U.S. ISSOIRE A. DU MAS 1",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
          "hs": null,
          "as": null
         },
         {
-         "home": "Saux/St Babel/Brenat 2",
+         "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
          "hs": null,
          "as": null
@@ -2596,7 +2596,7 @@
     },
     {
      "id": "12",
-     "label": "Poule 12",
+     "label": "POULE 12",
      "teams": [
       "A. S. CLERMONT SAINT JACQUES FOOT 2",
       "A.S. ROYAT A.C. 1",
@@ -2604,10 +2604,10 @@
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_12_1",
+       "id": "cup460117_2_12_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE DU BREUIL à ROYAT",
-       "organisateur": "A.S. ROYAT A.C.",
+       "lieu": "STADE DU BREUIL, CHEMIN DU BREUIL, ROYAT",
+       "organisateur": "",
        "equipes": [
         "A. S. CLERMONT SAINT JACQUES FOOT 2",
         "A.S. ROYAT A.C. 1",
@@ -2639,39 +2639,39 @@
     },
     {
      "id": "13",
-     "label": "Poule 13",
+     "label": "POULE 13",
      "teams": [
-      "Clt A.S.M. 3",
+      "A.S. MONTFERRANDAISE 3",
       "F.C. BLANZAT 2",
-      "Riom F.C. 1"
+      "F.C. RIOMOIS 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_13_1",
-       "start": "2026-10-17T14:00",
-       "lieu": "PARC DES SPORTS DU CEREY 1 à RIOM",
-       "organisateur": "RIOM FC",
+       "id": "cup460117_2_13_1",
+       "start": "2026-10-17T13:00",
+       "lieu": "PARC DES SPORTS DU CEREY 3, AVENUE DE L'EUROPE, RIOM",
+       "organisateur": "",
        "equipes": [
-        "Clt A.S.M. 3",
+        "A.S. MONTFERRANDAISE 3",
         "F.C. BLANZAT 2",
-        "Riom F.C. 1"
+        "F.C. RIOMOIS 1"
        ],
        "matchs": [
         {
          "home": "F.C. BLANZAT 2",
-         "away": "Clt A.S.M. 3",
+         "away": "A.S. MONTFERRANDAISE 3",
          "hs": null,
          "as": null
         },
         {
          "home": "F.C. BLANZAT 2",
-         "away": "Riom F.C. 1",
+         "away": "F.C. RIOMOIS 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "Clt A.S.M. 3",
-         "away": "Riom F.C. 1",
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "F.C. RIOMOIS 1",
          "hs": null,
          "as": null
         }
@@ -2682,32 +2682,32 @@
     },
     {
      "id": "14",
-     "label": "Poule 14",
+     "label": "POULE 14",
      "teams": [
-      "Clt A.S.M. 2",
+      "A.S. MONTFERRANDAISE 2",
       "F. C. CLERMONT METROPOLE 3",
       "U.S. ENNEZAT 2"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_14_1",
+       "id": "cup460117_2_14_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE PAUL MOSNIER à ENNEZAT",
-       "organisateur": "ENNEZAT U.S.",
+       "lieu": "STADE PAUL MOSNIER, RUE DU STADE, ENNEZAT",
+       "organisateur": "",
        "equipes": [
-        "Clt A.S.M. 2",
+        "A.S. MONTFERRANDAISE 2",
         "F. C. CLERMONT METROPOLE 3",
         "U.S. ENNEZAT 2"
        ],
        "matchs": [
         {
-         "home": "Clt A.S.M. 2",
+         "home": "A.S. MONTFERRANDAISE 2",
          "away": "F. C. CLERMONT METROPOLE 3",
          "hs": null,
          "as": null
         },
         {
-         "home": "Clt A.S.M. 2",
+         "home": "A.S. MONTFERRANDAISE 2",
          "away": "U.S. ENNEZAT 2",
          "hs": null,
          "as": null
@@ -2725,38 +2725,38 @@
     },
     {
      "id": "15",
-     "label": "Poule 15",
+     "label": "POULE 15",
      "teams": [
       "A. S. CLERMONT SAINT JACQUES FOOT 1",
-      "Beaumont U.S. 1",
-      "Clt A.S.M. F 5"
+      "A.S. MONTFERRANDAISE 5",
+      "U.S. BEAUMONTOISE 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_15_1",
+       "id": "cup460117_2_15_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE DE L' ESPÉRANCE ST JACQUES à CLERMONT FERRAND",
-       "organisateur": "AS CLERMONT ST JACQU",
+       "lieu": "STADE DE L' ESPÉRANCE ST JACQUES, AVENUE LEON BLUM, CLERMONT FERRAND",
+       "organisateur": "",
        "equipes": [
         "A. S. CLERMONT SAINT JACQUES FOOT 1",
-        "Beaumont U.S. 1",
-        "Clt A.S.M. F 5"
+        "A.S. MONTFERRANDAISE 5",
+        "U.S. BEAUMONTOISE 1"
        ],
        "matchs": [
         {
-         "home": "Beaumont U.S. 1",
-         "away": "Clt A.S.M. F 5",
+         "home": "U.S. BEAUMONTOISE 1",
+         "away": "A.S. MONTFERRANDAISE 5",
          "hs": null,
          "as": null
         },
         {
-         "home": "Beaumont U.S. 1",
+         "home": "U.S. BEAUMONTOISE 1",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "Clt A.S.M. F 5",
+         "home": "A.S. MONTFERRANDAISE 5",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
          "hs": null,
          "as": null
@@ -2768,39 +2768,39 @@
     },
     {
      "id": "16",
-     "label": "Poule 16",
+     "label": "POULE 16",
      "teams": [
-      "Auzon Gr. 3",
-      "Cournon F.C. 2",
-      "St Germain Lb. 1"
+      "E.S. ST GERMINOISE 1",
+      "F.C. COURNON D AUVERGNE 2",
+      "GROUPEMENT DE L'AUZON 3"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_16_1",
+       "id": "cup460117_2_16_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE JEAN COUSTÈS 2 à ST GERMAIN LEMBRON",
-       "organisateur": "ST GERMAIN LEMBRON",
+       "lieu": "STADE JEAN COUSTÈS 2, Route d'Ardes sur Couze, ST GERMAIN LEMBRON",
+       "organisateur": "",
        "equipes": [
-        "Auzon Gr. 3",
-        "Cournon F.C. 2",
-        "St Germain Lb. 1"
+        "E.S. ST GERMINOISE 1",
+        "F.C. COURNON D AUVERGNE 2",
+        "GROUPEMENT DE L'AUZON 3"
        ],
        "matchs": [
         {
-         "home": "Auzon Gr. 3",
-         "away": "Cournon F.C. 2",
+         "home": "GROUPEMENT DE L'AUZON 3",
+         "away": "F.C. COURNON D AUVERGNE 2",
          "hs": null,
          "as": null
         },
         {
-         "home": "Auzon Gr. 3",
-         "away": "St Germain Lb. 1",
+         "home": "GROUPEMENT DE L'AUZON 3",
+         "away": "E.S. ST GERMINOISE 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "Cournon F.C. 2",
-         "away": "St Germain Lb. 1",
+         "home": "F.C. COURNON D AUVERGNE 2",
+         "away": "E.S. ST GERMINOISE 1",
          "hs": null,
          "as": null
         }
@@ -2811,7 +2811,7 @@
     },
     {
      "id": "17",
-     "label": "Poule 17",
+     "label": "POULE 17",
      "teams": [
       "ENT.F.C. ST AMANT ET TALLENDE 1",
       "SANCY CHAVANON FOOT 1",
@@ -2819,10 +2819,10 @@
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_17_1",
+       "id": "cup460117_2_17_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE MUNICIPAL JEAN TIXIER à TALLENDE",
-       "organisateur": "ST AMANT TAL.",
+       "lieu": "STADE LOUIS JOUHET, TERRAIN HONNEUR ALLEE DES MARRONNIERS, ST SATURNIN",
+       "organisateur": "",
        "equipes": [
         "ENT.F.C. ST AMANT ET TALLENDE 1",
         "SANCY CHAVANON FOOT 1",
@@ -2854,38 +2854,38 @@
     },
     {
      "id": "18",
-     "label": "Poule 18",
+     "label": "POULE 18",
      "teams": [
-      "Cournon F.C. 1",
+      "F.C. COURNON D AUVERGNE 1",
       "GJ SCB FOOT 2",
-      "Issoire U.S. 2"
+      "U.S. ISSOIRE A. DU MAS 2"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_18_1",
+       "id": "cup460117_2_18_1",
        "start": "2026-10-17T14:00",
-       "lieu": "PLAINE DE JEUX 1 à COURNON D AUVERGNE",
-       "organisateur": "COURNON FC",
+       "lieu": "PLAINE DE JEUX 1, ALLEE PIERRE DE COUBERTIN, COURNON D AUVERGNE",
+       "organisateur": "",
        "equipes": [
-        "Cournon F.C. 1",
+        "F.C. COURNON D AUVERGNE 1",
         "GJ SCB FOOT 2",
-        "Issoire U.S. 2"
+        "U.S. ISSOIRE A. DU MAS 2"
        ],
        "matchs": [
         {
-         "home": "Cournon F.C. 1",
-         "away": "Issoire U.S. 2",
+         "home": "F.C. COURNON D AUVERGNE 1",
+         "away": "U.S. ISSOIRE A. DU MAS 2",
          "hs": null,
          "as": null
         },
         {
-         "home": "Cournon F.C. 1",
+         "home": "F.C. COURNON D AUVERGNE 1",
          "away": "GJ SCB FOOT 2",
          "hs": null,
          "as": null
         },
         {
-         "home": "Issoire U.S. 2",
+         "home": "U.S. ISSOIRE A. DU MAS 2",
          "away": "GJ SCB FOOT 2",
          "hs": null,
          "as": null
@@ -2897,38 +2897,38 @@
     },
     {
      "id": "19",
-     "label": "Poule 19",
+     "label": "POULE 19",
      "teams": [
       "C.O. VEYRE MONTON 1",
       "F.C. PLAUZAT-CHAMPEIX 1",
-      "Issoire U.S. 3"
+      "U.S. ISSOIRE A. DU MAS 3"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_19_1",
+       "id": "cup460117_2_19_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE MUNICIPAL à PLAUZAT",
-       "organisateur": "PLAUZAT CHAMP",
+       "lieu": "STADE MUNICIPAL, CHEMIN DE COUDES, PLAUZAT",
+       "organisateur": "",
        "equipes": [
         "C.O. VEYRE MONTON 1",
         "F.C. PLAUZAT-CHAMPEIX 1",
-        "Issoire U.S. 3"
+        "U.S. ISSOIRE A. DU MAS 3"
        ],
        "matchs": [
         {
-         "home": "Issoire U.S. 3",
+         "home": "U.S. ISSOIRE A. DU MAS 3",
          "away": "F.C. PLAUZAT-CHAMPEIX 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "Issoire U.S. 3",
+         "home": "F.C. PLAUZAT-CHAMPEIX 1",
          "away": "C.O. VEYRE MONTON 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "F.C. PLAUZAT-CHAMPEIX 1",
+         "home": "U.S. ISSOIRE A. DU MAS 3",
          "away": "C.O. VEYRE MONTON 1",
          "hs": null,
          "as": null
@@ -2940,39 +2940,39 @@
     },
     {
      "id": "20",
-     "label": "Poule 20",
+     "label": "POULE 20",
      "teams": [
-      "Aubiere F.C. 1",
-      "Aulnat Sportif 1",
-      "Clt Ouvoimoja 1"
+      "A. OUVOIMOJA 1",
+      "AULNAT SP. 1",
+      "F.C. AUBIEROIS 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_20_1",
+       "id": "cup460117_2_20_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE PIERRE DUCOURTIAL 1 à AULNAT",
-       "organisateur": "AULNAT SP",
+       "lieu": "STADE PIERRE DUCOURTIAL 1, AVENUE PIERRE DE COUBERTIN, AULNAT",
+       "organisateur": "",
        "equipes": [
-        "Aubiere F.C. 1",
-        "Aulnat Sportif 1",
-        "Clt Ouvoimoja 1"
+        "A. OUVOIMOJA 1",
+        "AULNAT SP. 1",
+        "F.C. AUBIEROIS 1"
        ],
        "matchs": [
         {
-         "home": "Aubiere F.C. 1",
-         "away": "Aulnat Sportif 1",
+         "home": "F.C. AUBIEROIS 1",
+         "away": "AULNAT SP. 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "Aubiere F.C. 1",
-         "away": "Clt Ouvoimoja 1",
+         "home": "F.C. AUBIEROIS 1",
+         "away": "A. OUVOIMOJA 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "Aulnat Sportif 1",
-         "away": "Clt Ouvoimoja 1",
+         "home": "AULNAT SP. 1",
+         "away": "A. OUVOIMOJA 1",
          "hs": null,
          "as": null
         }
@@ -2983,7 +2983,7 @@
     },
     {
      "id": "21",
-     "label": "Poule 21",
+     "label": "POULE 21",
      "teams": [
       "DOMES SANCY FOOT 1",
       "U.S. LES MARTRES DE VEYRE 2",
@@ -2991,10 +2991,10 @@
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_21_1",
+       "id": "cup460117_2_21_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE ÉMILE RIVE 1 à LES MARTRES DE VEYRE",
-       "organisateur": "MARTRES DE VEYRE",
+       "lieu": "STADE ÉMILE RIVE 1, RUE DE L'INDUSTRIE, LES MARTRES DE VEYRE",
+       "organisateur": "",
        "equipes": [
         "DOMES SANCY FOOT 1",
         "U.S. LES MARTRES DE VEYRE 2",
@@ -3026,7 +3026,7 @@
     },
     {
      "id": "22",
-     "label": "Poule 22",
+     "label": "POULE 22",
      "teams": [
       "F.C. CHATEL GUYON 2",
       "LEMPDES SP. 1",
@@ -3034,10 +3034,10 @@
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_22_1",
+       "id": "cup460117_2_22_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE LES BRUYERES à MONTFERMY",
-       "organisateur": "VAL DE SIOULE FOOT",
+       "lieu": "STADE MUNICIPAL, RUE DU STADE, BROMONT LAMOTHE",
+       "organisateur": "",
        "equipes": [
         "F.C. CHATEL GUYON 2",
         "LEMPDES SP. 1",
@@ -3069,22 +3069,22 @@
     },
     {
      "id": "23",
-     "label": "Poule 23",
+     "label": "POULE 23",
      "teams": [
       "FOOTBALL CLUB GERZAT 1",
-      "St Gervais 1",
-      "U.S. MOZAC 1"
+      "U.S. MOZAC 1",
+      "U.S. ST GERVAISIENNE 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_23_1",
+       "id": "cup460117_2_23_1",
        "start": "2026-10-17T14:00",
-       "lieu": "COMPLEXE SPORTIF E. VACANT 2 à MOZAC",
-       "organisateur": "MOZAC US",
+       "lieu": "COMPLEXE SPORTIF E. VACANT 2, 15 RUE LOUIS DELMAS, MOZAC",
+       "organisateur": "",
        "equipes": [
         "FOOTBALL CLUB GERZAT 1",
-        "St Gervais 1",
-        "U.S. MOZAC 1"
+        "U.S. MOZAC 1",
+        "U.S. ST GERVAISIENNE 1"
        ],
        "matchs": [
         {
@@ -3095,13 +3095,13 @@
         },
         {
          "home": "FOOTBALL CLUB GERZAT 1",
-         "away": "St Gervais 1",
+         "away": "U.S. ST GERVAISIENNE 1",
          "hs": null,
          "as": null
         },
         {
          "home": "U.S. MOZAC 1",
-         "away": "St Gervais 1",
+         "away": "U.S. ST GERVAISIENNE 1",
          "hs": null,
          "as": null
         }
@@ -3112,27 +3112,27 @@
     },
     {
      "id": "24",
-     "label": "Poule 24",
+     "label": "POULE 24",
      "teams": [
       "ENT.F.C. ST AMANT ET TALLENDE 3",
       "F.C. PLAUZAT-CHAMPEIX 2",
-      "Riom F.C. 2"
+      "F.C. RIOMOIS 2"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_24_1",
+       "id": "cup460117_2_24_1",
        "start": "2026-10-17T14:00",
-       "lieu": "PARC DES SPORTS DU CEREY 1 à RIOM",
-       "organisateur": "RIOM FC",
+       "lieu": "PARC DES SPORTS DU CEREY 1, PLACE DE L'EUROPE, RIOM",
+       "organisateur": "",
        "equipes": [
         "ENT.F.C. ST AMANT ET TALLENDE 3",
         "F.C. PLAUZAT-CHAMPEIX 2",
-        "Riom F.C. 2"
+        "F.C. RIOMOIS 2"
        ],
        "matchs": [
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 2",
-         "away": "Riom F.C. 2",
+         "away": "F.C. RIOMOIS 2",
          "hs": null,
          "as": null
         },
@@ -3143,7 +3143,7 @@
          "as": null
         },
         {
-         "home": "Riom F.C. 2",
+         "home": "F.C. RIOMOIS 2",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
          "hs": null,
          "as": null
@@ -3155,7 +3155,7 @@
     },
     {
      "id": "25",
-     "label": "Poule 25",
+     "label": "POULE 25",
      "teams": [
       "CLERMONT FOOT 63 5",
       "F. C. CLERMONT METROPOLE 1",
@@ -3163,10 +3163,10 @@
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_25_1",
+       "id": "cup460117_2_25_1",
        "start": "2026-10-17T14:00",
-       "lieu": "",
-       "organisateur": "FC CLERMONT METROPOL",
+       "lieu": "STADE DU PARC DE LA FRATERNITÉ, Rue Alphonse Daudet, CLERMONT FERRAND",
+       "organisateur": "",
        "equipes": [
         "CLERMONT FOOT 63 5",
         "F. C. CLERMONT METROPOLE 1",
@@ -3198,27 +3198,27 @@
     },
     {
      "id": "26",
-     "label": "Poule 26",
+     "label": "POULE 26",
      "teams": [
       "CLERMONT ACADEMY 1",
-      "Clt Union Jeunesse 1",
+      "U. J. CLERMONTOISE 1",
       "U.S. ENNEZAT 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_26_1",
+       "id": "cup460117_2_26_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE PAUL MOSNIER à ENNEZAT",
-       "organisateur": "ENNEZAT U.S.",
+       "lieu": "STADE PAUL MOSNIER, RUE DU STADE, ENNEZAT",
+       "organisateur": "",
        "equipes": [
         "CLERMONT ACADEMY 1",
-        "Clt Union Jeunesse 1",
+        "U. J. CLERMONTOISE 1",
         "U.S. ENNEZAT 1"
        ],
        "matchs": [
         {
          "home": "CLERMONT ACADEMY 1",
-         "away": "Clt Union Jeunesse 1",
+         "away": "U. J. CLERMONTOISE 1",
          "hs": null,
          "as": null
         },
@@ -3229,7 +3229,7 @@
          "as": null
         },
         {
-         "home": "Clt Union Jeunesse 1",
+         "home": "U. J. CLERMONTOISE 1",
          "away": "U.S. ENNEZAT 1",
          "hs": null,
          "as": null
@@ -3241,27 +3241,27 @@
     },
     {
      "id": "27",
-     "label": "Poule 27",
+     "label": "POULE 27",
      "teams": [
-      "Ent. Usbm Esl 1",
       "F. C. CLERMONT METROPOLE 2",
-      "U.S. VIC LE COMTE 1"
+      "U.S. VIC LE COMTE 1",
+      "UNION SPORTIVE BASSIN MINIER 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_27_1",
+       "id": "cup460117_2_27_1",
        "start": "2026-10-17T14:00",
-       "lieu": "STADE ANDRÉ BOSTE 1 à VIC LE COMTE",
-       "organisateur": "VIC LE COMTE U.S.",
+       "lieu": "STADE ANDRÉ BOSTE 1, 128 ROUTE D'AMBERT, VIC LE COMTE",
+       "organisateur": "",
        "equipes": [
-        "Ent. Usbm Esl 1",
         "F. C. CLERMONT METROPOLE 2",
-        "U.S. VIC LE COMTE 1"
+        "U.S. VIC LE COMTE 1",
+        "UNION SPORTIVE BASSIN MINIER 1"
        ],
        "matchs": [
         {
          "home": "F. C. CLERMONT METROPOLE 2",
-         "away": "Ent. Usbm Esl 1",
+         "away": "UNION SPORTIVE BASSIN MINIER 1",
          "hs": null,
          "as": null
         },
@@ -3272,7 +3272,7 @@
          "as": null
         },
         {
-         "home": "Ent. Usbm Esl 1",
+         "home": "UNION SPORTIVE BASSIN MINIER 1",
          "away": "U.S. VIC LE COMTE 1",
          "hs": null,
          "as": null
@@ -3284,38 +3284,38 @@
     },
     {
      "id": "28",
-     "label": "Poule 28",
+     "label": "POULE 28",
      "teams": [
-      "Ceyrat 1",
-      "Clt A.S.M. 4",
+      "A.S. MONTFERRANDAISE 4",
+      "ESP. CEYRATOISE 1",
       "U.S. LES MARTRES DE VEYRE 1"
      ],
      "plateaux": [
       {
-       "id": "cup459205_2_28_1",
+       "id": "cup460117_2_28_1",
        "start": "2026-10-17T14:00",
-       "lieu": "COMPLEXE SPORTIF GRAVANCHES N°4 à CLERMONT FERRAND",
-       "organisateur": "MONTFERRAND A.S.",
+       "lieu": "COMPLEXE SPORTIF GRAVANCHES N°4, RUE DU PRE COMTAL, CLERMONT FERRAND",
+       "organisateur": "",
        "equipes": [
-        "Ceyrat 1",
-        "Clt A.S.M. 4",
+        "A.S. MONTFERRANDAISE 4",
+        "ESP. CEYRATOISE 1",
         "U.S. LES MARTRES DE VEYRE 1"
        ],
        "matchs": [
         {
-         "home": "Ceyrat 1",
-         "away": "Clt A.S.M. 4",
+         "home": "ESP. CEYRATOISE 1",
+         "away": "A.S. MONTFERRANDAISE 4",
          "hs": null,
          "as": null
         },
         {
-         "home": "Ceyrat 1",
+         "home": "ESP. CEYRATOISE 1",
          "away": "U.S. LES MARTRES DE VEYRE 1",
          "hs": null,
          "as": null
         },
         {
-         "home": "Clt A.S.M. 4",
+         "home": "A.S. MONTFERRANDAISE 4",
          "away": "U.S. LES MARTRES DE VEYRE 1",
          "hs": null,
          "as": null
