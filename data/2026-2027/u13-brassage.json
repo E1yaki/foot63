@@ -1752,8 +1752,20 @@
         {
          "home": "GROUPEMENT DE L'AUZON 2",
          "away": "F.C. COURNON D AUVERGNE 3",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 0
+        },
+        {
+         "home": "U.S. BEAUMONTOISE 1",
+         "away": "F.C. COURNON D AUVERGNE 3",
+         "hs": 6,
+         "as": 0
+        },
+        {
+         "home": "GROUPEMENT DE L'AUZON 2",
+         "away": "U.S. BEAUMONTOISE 1",
+         "hs": 0,
+         "as": 7
         }
        ],
        "heure_connue": true
