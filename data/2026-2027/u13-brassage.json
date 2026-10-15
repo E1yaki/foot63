@@ -818,21 +818,21 @@
        "matchs": [
         {
          "home": "F.C. BLANZAT 2",
-         "away": "DOMES SANCY FOOT 1",
-         "hs": null,
-         "as": null
+         "away": "A.S. ROMAGNAT 1",
+         "hs": 2,
+         "as": 1
         },
         {
          "home": "A.S. ROMAGNAT 1",
          "away": "DOMES SANCY FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 11
         },
         {
          "home": "F.C. BLANZAT 2",
-         "away": "A.S. ROMAGNAT 1",
-         "hs": null,
-         "as": null
+         "away": "DOMES SANCY FOOT 1",
+         "hs": 0,
+         "as": 8
         }
        ],
        "heure_connue": true
@@ -1372,26 +1372,26 @@
         {
          "home": "CLERMONT ACADEMY 1",
          "away": "CLERMONT FOOT 63 5",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "ENTENTE CHARBLOT 1",
-         "away": "CLERMONT ACADEMY 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
         },
         {
          "home": "ENTENTE CHARBLOT 1",
          "away": "GJ SCB FOOT 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 2
+        },
+        {
+         "home": "ENTENTE CHARBLOT 1",
+         "away": "CLERMONT ACADEMY 1",
+         "hs": 1,
+         "as": 3
         },
         {
          "home": "GJ SCB FOOT 2",
          "away": "CLERMONT FOOT 63 5",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 1
         }
        ],
        "heure_connue": true

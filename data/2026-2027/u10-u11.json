@@ -1985,38 +1985,38 @@
         {
          "home": "U.S. VIC LE COMTE 1",
          "away": "C.O. VEYRE MONTON 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 0
         },
         {
          "home": "U.S. VAL DE COUZE CHAMBON 1",
          "away": "U.S. VIC LE COMTE 3",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U.S. LES MARTRES DE VEYRE 2",
-         "away": "GROUPEMENT DE L'AUZON 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
         },
         {
          "home": "U.S. VIC LE COMTE 1",
          "away": "GROUPEMENT DE L'AUZON 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 0
         },
         {
-         "home": "U.S. VAL DE COUZE CHAMBON 1",
-         "away": "U.S. LES MARTRES DE VEYRE 2",
-         "hs": null,
-         "as": null
+         "home": "U.S. LES MARTRES DE VEYRE 2",
+         "away": "GROUPEMENT DE L'AUZON 2",
+         "hs": 4,
+         "as": 0
         },
         {
          "home": "U.S. VIC LE COMTE 3",
          "away": "C.O. VEYRE MONTON 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
+        },
+        {
+         "home": "U.S. VAL DE COUZE CHAMBON 1",
+         "away": "U.S. LES MARTRES DE VEYRE 2",
+         "hs": 2,
+         "as": 3
         }
        ],
        "heure_connue": true
@@ -4175,38 +4175,38 @@
         {
          "home": "CLERMONT FOOT 63 3",
          "away": "CLERMONT ACADEMY 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 4
         },
         {
          "home": "CLERMONT FOOT 63 1",
          "away": "F.C. BLANZAT 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "CLERMONT FOOT 63 1",
-         "away": "F.C. BLANZAT 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. BLANZAT 1",
-         "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
-         "hs": null,
-         "as": null
+         "hs": 10,
+         "as": 0
         },
         {
          "home": "CLERMONT FOOT 63 3",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 4
+        },
+        {
+         "home": "F.C. BLANZAT 1",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+         "hs": 1,
+         "as": 2
+        },
+        {
+         "home": "CLERMONT FOOT 63 1",
+         "away": "F.C. BLANZAT 2",
+         "hs": 16,
+         "as": 0
         },
         {
          "home": "F.C. BLANZAT 2",
          "away": "CLERMONT ACADEMY 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 6
         }
        ],
        "heure_connue": true
