@@ -1529,9 +1529,9 @@
        "lieu": "COURNON D AUVERGNE - PLAINE DE JEUX 1",
        "organisateur": "COURNON FC",
        "equipes": [
-        "C.S. PONT DU CHATEAU 1",
         "FOOTBALL CLUB PUY DE MUR 3",
         "FOOTBALL CLUB PUY DE MUR 1",
+        "C.S. PONT DU CHATEAU 1",
         "REV.AM.S. BEAUREGARD L'EVEQUE 2",
         "F.C. COURNON D AUVERGNE 2"
        ],
@@ -1539,32 +1539,32 @@
         {
          "home": "FOOTBALL CLUB PUY DE MUR 1",
          "away": "C.S. PONT DU CHATEAU 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 0
         },
         {
          "home": "FOOTBALL CLUB PUY DE MUR 3",
          "away": "C.S. PONT DU CHATEAU 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 7
         },
         {
          "home": "FOOTBALL CLUB PUY DE MUR 1",
          "away": "F.C. COURNON D AUVERGNE 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 0
         },
         {
          "home": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
          "away": "F.C. COURNON D AUVERGNE 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 7
         },
         {
          "home": "FOOTBALL CLUB PUY DE MUR 3",
          "away": "REV.AM.S. BEAUREGARD L'EVEQUE 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 2
         }
        ],
        "heure_connue": true
@@ -4596,40 +4596,40 @@
        ],
        "matchs": [
         {
-         "home": "A. OUVOIMOJA 1",
-         "away": "C.S. DE VOLVIC 1",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "U. J. CLERMONTOISE 1",
          "away": "C.S. DE VOLVIC 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
-         "away": "C.S. DE VOLVIC 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 0
         },
         {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
          "away": "C.S. DE VOLVIC 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 0
+        },
+        {
+         "home": "A. OUVOIMOJA 1",
+         "away": "C.S. DE VOLVIC 1",
+         "hs": 1,
+         "as": 3
+        },
+        {
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 3",
+         "away": "C.S. DE VOLVIC 1",
+         "hs": 5,
+         "as": 0
         },
         {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
          "away": "A. OUVOIMOJA 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 0
         },
         {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
          "away": "U. J. CLERMONTOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 2
         }
        ],
        "heure_connue": true
