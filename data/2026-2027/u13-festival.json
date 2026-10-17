@@ -2617,20 +2617,20 @@
         {
          "home": "F.C. CHAMALIERES 1",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 1
         },
         {
          "home": "F.C. CHAMALIERES 1",
          "away": "A.S. ROYAT A.C. 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 1
         },
         {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
          "away": "A.S. ROYAT A.C. 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -2752,14 +2752,14 @@
         {
          "home": "U.S. BEAUMONTOISE 1",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 6
         },
         {
          "home": "A.S. MONTFERRANDAISE 5",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 8
         }
        ],
        "heure_connue": true
