@@ -2402,20 +2402,20 @@
         {
          "home": "CLERMONT FOOT 63 3",
          "away": "GJ SCB FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 1
         },
         {
          "home": "CLERMONT FOOT 63 3",
          "away": "C.S. DE VOLVIC 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
         },
         {
          "home": "GJ SCB FOOT 1",
          "away": "C.S. DE VOLVIC 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 5
         }
        ],
        "heure_connue": true
@@ -2488,20 +2488,20 @@
         {
          "home": "CEBAZAT SP. 1",
          "away": "CLERMONT FOOT 63 4",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
         },
         {
          "home": "CEBAZAT SP. 1",
          "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 0
         },
         {
          "home": "CLERMONT FOOT 63 4",
          "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 1
         }
        ],
        "heure_connue": true
@@ -2574,20 +2574,20 @@
         {
          "home": "U.S. ISSOIRE A. DU MAS 1",
          "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 0
         },
         {
          "home": "U.S. ISSOIRE A. DU MAS 1",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 0
         },
         {
          "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 3
         }
        ],
        "heure_connue": true
@@ -2660,20 +2660,20 @@
         {
          "home": "F.C. BLANZAT 2",
          "away": "A.S. MONTFERRANDAISE 3",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 6
         },
         {
          "home": "F.C. BLANZAT 2",
          "away": "F.C. RIOMOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 13
         },
         {
          "home": "A.S. MONTFERRANDAISE 3",
          "away": "F.C. RIOMOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 2
         }
        ],
        "heure_connue": true
@@ -2703,20 +2703,20 @@
         {
          "home": "A.S. MONTFERRANDAISE 2",
          "away": "F. C. CLERMONT METROPOLE 3",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 0
         },
         {
          "home": "A.S. MONTFERRANDAISE 2",
          "away": "U.S. ENNEZAT 2",
-         "hs": null,
-         "as": null
+         "hs": 23,
+         "as": 0
         },
         {
          "home": "F. C. CLERMONT METROPOLE 3",
          "away": "U.S. ENNEZAT 2",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 2
         }
        ],
        "heure_connue": true
@@ -3004,20 +3004,20 @@
         {
          "home": "DOMES SANCY FOOT 1",
          "away": "U.S. LES MARTRES DE VEYRE 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
         },
         {
          "home": "DOMES SANCY FOOT 1",
          "away": "U.S. VAL DE COUZE CHAMBON 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 2
         },
         {
          "home": "U.S. LES MARTRES DE VEYRE 2",
          "away": "U.S. VAL DE COUZE CHAMBON 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -3133,20 +3133,20 @@
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 2",
          "away": "F.C. RIOMOIS 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 7
         },
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 2",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 3
         },
         {
          "home": "F.C. RIOMOIS 2",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
-         "hs": null,
-         "as": null
+         "hs": 11,
+         "as": 1
         }
        ],
        "heure_connue": true
@@ -3219,20 +3219,20 @@
         {
          "home": "CLERMONT ACADEMY 1",
          "away": "U. J. CLERMONTOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 1
         },
         {
          "home": "CLERMONT ACADEMY 1",
          "away": "U.S. ENNEZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 0
         },
         {
          "home": "U. J. CLERMONTOISE 1",
          "away": "U.S. ENNEZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 1
         }
        ],
        "heure_connue": true
@@ -3274,8 +3274,8 @@
         {
          "home": "UNION SPORTIVE BASSIN MINIER 1",
          "away": "U.S. VIC LE COMTE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 5
         }
        ],
        "heure_connue": true

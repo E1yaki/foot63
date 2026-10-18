@@ -722,32 +722,32 @@
         {
          "home": "ENTENTE CHARBLOT 1",
          "away": "U.S. ST GEORGES LES ANCIZES 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 4
         },
         {
          "home": "F.C. NORD COMBRAILLE 1",
          "away": "F.C. CHATEL GUYON 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 7
         },
         {
          "home": "F.C. NORD COMBRAILLE 1",
          "away": "U.S. ST GEORGES LES ANCIZES 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 4
         },
         {
          "home": "U.S. ST GERVAISIENNE 1",
          "away": "F.C. CHATEL GUYON 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 7
         },
         {
          "home": "U.S. ST GERVAISIENNE 1",
          "away": "ENTENTE CHARBLOT 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 0
         }
        ],
        "heure_connue": true
