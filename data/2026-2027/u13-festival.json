@@ -2752,14 +2752,14 @@
         {
          "home": "U.S. BEAUMONTOISE 1",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "hs": 0,
-         "as": 6
+         "hs": null,
+         "as": null
         },
         {
          "home": "A.S. MONTFERRANDAISE 5",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "hs": 0,
-         "as": 8
+         "hs": null,
+         "as": null
         }
        ],
        "heure_connue": true
@@ -3090,20 +3090,20 @@
         {
          "home": "FOOTBALL CLUB GERZAT 1",
          "away": "U.S. MOZAC 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 2
         },
         {
          "home": "FOOTBALL CLUB GERZAT 1",
          "away": "U.S. ST GERVAISIENNE 1",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 1
         },
         {
          "home": "U.S. MOZAC 1",
          "away": "U.S. ST GERVAISIENNE 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -3176,20 +3176,20 @@
         {
          "home": "F.C. CHATEL GUYON 1",
          "away": "CLERMONT FOOT 63 5",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 3
         },
         {
          "home": "F.C. CHATEL GUYON 1",
          "away": "F. C. CLERMONT METROPOLE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 12
         },
         {
          "home": "CLERMONT FOOT 63 5",
          "away": "F. C. CLERMONT METROPOLE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
         }
        ],
        "heure_connue": true
@@ -3262,20 +3262,20 @@
         {
          "home": "F. C. CLERMONT METROPOLE 2",
          "away": "UNION SPORTIVE BASSIN MINIER 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 2
         },
         {
          "home": "F. C. CLERMONT METROPOLE 2",
          "away": "U.S. VIC LE COMTE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 6
         },
         {
          "home": "UNION SPORTIVE BASSIN MINIER 1",
          "away": "U.S. VIC LE COMTE 1",
          "hs": 1,
-         "as": 5
+         "as": 7
         }
        ],
        "heure_connue": true
