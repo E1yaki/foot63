@@ -940,8 +940,46 @@ def cup_raw_records(cp_no: int, cat_id: str, phase_number: int, phase_label: str
     return out
 
 
+LOG_FILE = HERE / "sync.log"
+
+
+def cat_label_of(cat_id: str | None) -> str:
+    return next((c["label"] for c in CONFIG["categories"] if c["id"] == cat_id), cat_id or "?")
+
+
+def change_text(ch: dict) -> str:
+    if ch.get("match"):
+        m = ch["match"]
+        return f"{m['home']} {m['hs']}–{m['as']} {m['away']}"
+    return ch.get("text") or ch.get("type", "modification")
+
+
+def plateau_incomplete(rec: dict, pub: set | None) -> bool:
+    if not rec["matchs"] or not all(m["hs"] is not None and m["as"] is not None for m in rec["matchs"]):
+        return not (pub and rec.get("phase") is not None and (plateau_key(rec), rec["phase"] + 1) in pub)
+    return False
+
+
+def report_plateau(rec: dict, changes: list[dict], pub: set | None = None) -> None:
+    """Affiche les seules poules utiles : celles modifiées (+) et celles encore à relire (~).
+    Chaque modification est aussi ajoutée, horodatée, à scraper/sync.log."""
+    head = f"{cat_label_of(rec.get('cat'))} | {rec.get('poule_label', '')} | {rec['start'].replace('T', ' ')}"
+    if changes:
+        stamp = paris_now().strftime("%d/%m/%Y %H:%M")
+        with LOG_FILE.open("a", encoding="utf-8") as f:
+            for ch in changes:
+                f.write(f"{stamp} | {head} | {change_text(ch)}\n")
+                print(f"  + {head} : {change_text(ch)}")
+    if plateau_incomplete(rec, pub):
+        done = sum(1 for m in rec["matchs"] if m["hs"] is not None and m["as"] is not None)
+        total = len(rec["matchs"])
+        detail = f"scores {done}/{total}" if total else "rencontres pas encore publiées"
+        print(f"  ~ restant : {head} : {detail}")
+
+
 def refresh_cup_poule(session: requests.Session, cat: dict, meta: dict, cp_no: int,
-                       phase_api: int, stage_number: int, phase_global: int, labels: dict, ts: str) -> list[dict]:
+                       phase_api: int, stage_number: int, phase_global: int, labels: dict, ts: str,
+                       pub: set | None = None) -> list[dict]:
     """Une poule d'une compétition. `phase_api` est le numéro dans la compétition (ex. 1 pour le 2e tour, qui
     est sa propre compétition sur le site) ; `phase_global` est le tour du Festival (2)."""
     ph = next((p for p in meta.get("phases", []) if p.get("number") == phase_api), None)
@@ -956,8 +994,7 @@ def refresh_cup_poule(session: requests.Session, cat: dict, meta: dict, cp_no: i
         merged, ch = merge(old, rec, ts)
         save_raw(merged)
         changes += ch
-        j = rec["id"].rsplit("_", 1)[-1]
-        print(f"  {'+' if ch else '='} {rec['id']}  {cat['label']} {poule_label} journée {j}  {rec['start']}")
+        report_plateau(merged, ch, pub)
     return changes
 
 
@@ -1104,16 +1141,13 @@ def sync_cup_category(session: requests.Session, cat: dict, ts: str) -> list[dic
             print(f"  ! {cat['id']} compétition {cp_no} : {e}", file=sys.stderr)
             continue
         poules = [(ph.get("number"), gp.get("stage_number")) for ph in meta.get("phases", []) for gp in ph.get("groups", [])]
-        print(f"  {cat['label']} compétition {cp_no} : {len(poules)} poule(s) sur {len(meta.get('phases', []))} phase(s)")
         for phase_api, stage_number in poules:
             phase_global = pmap.get(str(phase_api), phase_api)
             published_here.add(phase_global)
-            state = cup_poule_state(cat["id"], cp_no, phase_global, stage_number, pub)
-            if state:
-                print(f"  = {cat['label']} phase {phase_global} poule {stage_number} : {state}, non relue")
-                continue
+            if cup_poule_state(cat["id"], cp_no, phase_global, stage_number, pub):
+                continue   # terminée ou phase suivante publiée : pas de ligne, pas d'appel API
             try:
-                changes += refresh_cup_poule(session, cat, meta, cp_no, phase_api, stage_number, phase_global, labels, ts)
+                changes += refresh_cup_poule(session, cat, meta, cp_no, phase_api, stage_number, phase_global, labels, ts, pub)
             except Exception as e:
                 print(f"  ! {cat['id']} phase {phase_global} poule {stage_number} : {e}", file=sys.stderr)
             time.sleep(CONFIG.get("cup_delay_seconds", 0.3))
@@ -1134,13 +1168,8 @@ def sync_cup_category(session: requests.Session, cat: dict, ts: str) -> list[dic
             print(f"  ! {cat['id']} : fichier PDF introuvable : {path.name}", file=sys.stderr)
             continue
         recs = pdf_phase_records(primary, cat["id"], src["phase"], path)
-        print(f"  {cat['label']} phase {src['phase']} (source PDF) : {len(recs)} poule(s)")
         known = cup_known_names(primary)
         unresolved = align_pdf_records(recs, known, load_festival_aliases())
-        if known:
-            print(f"  noms rapprochés des tours précédents ({len(known)} équipes connues)")
-        else:
-            print("  ! aucun tour précédent archivé : les noms du PDF restent tels quels", file=sys.stderr)
         if unresolved:
             todo = HERE / "festival_a_rapprocher.json"
             todo.write_text(json.dumps({n: "" for n in unresolved}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -1230,6 +1259,7 @@ def refresh(ids: list[str], notify: bool, quiet: bool = False, include_cup: bool
     fetcher = Fetcher(CONFIG.get("fetch_mode", "auto"))
     first_run = not any(RAW.glob("*.json")) if RAW.exists() else True
     ts, all_changes = now_iso(), []
+    pub_keys = published_keys()
     if include_cup:
         for cat in CONFIG["categories"]:
             if cat.get("kind") != "cup":
@@ -1253,7 +1283,7 @@ def refresh(ids: list[str], notify: bool, quiet: bool = False, include_cup: bool
         rec, changes = merge(load_raw(sid), new, ts)
         save_raw(rec)
         all_changes += changes
-        print(f"  {'+' if changes else '='} {sid}  {new['cat_label']} {new['poule_label']}  {new['start']}")
+        report_plateau(rec, changes, pub_keys)
         if new["score_illisible"]:
             print("    chiffres non reconnus : lancer « scrape.py glyphs » (voir README)", file=sys.stderr)
         if new.get("score_incoherent"):
