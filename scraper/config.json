@@ -33,7 +33,33 @@
       "label": "Festival U13",
       "group": "u13",
       "kind": "cup",
-      "cp_no": 459205
+      "cp_no": 459205,
+      "pdf_phases": [
+        {
+          "phase": 2,
+          "file": "festival_tour2.json"
+        }
+      ],
+      "competitions": [
+        {
+          "cp_no": 459205,
+          "phase_map": {
+            "1": 1
+          }
+        },
+        {
+          "cp_no": 460117,
+          "phase_map": {
+            "1": 2
+          }
+        }
+      ],
+      "tour_labels": {
+        "1": "1ER TOUR",
+        "2": "2ÈME TOUR",
+        "3": "3ÈME TOUR",
+        "4": "FINALE DÉPARTEMENTALE"
+      }
     }
   ],
   "ntfy": {
@@ -46,6 +72,5 @@
     "clNo": 10554,
     "clCod": 525985,
     "_note": "A. S. CLERMONT SAINT JACQUES FOOT : couple relevé avec recon, sert d'entrée pour lire la liste des clubs"
-  },
-  "rescan_window_days": 14
+  }
 }

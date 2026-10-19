@@ -34,7 +34,7 @@ from urllib.parse import parse_qs, urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-VERSION = "2026-09-25"  # à comparer avec le README si un comportement semble ne pas correspondre :
+VERSION = "2026-10-06-noms"  # à comparer avec le README si un comportement semble ne pas correspondre :
                         # si le log n'affiche pas cette date, le fichier déployé n'est pas le dernier.
 
 HERE = Path(__file__).resolve().parent
@@ -941,15 +941,17 @@ def cup_raw_records(cp_no: int, cat_id: str, phase_number: int, phase_label: str
 
 
 def refresh_cup_poule(session: requests.Session, cat: dict, meta: dict, cp_no: int,
-                       phase_number: int, stage_number: int, ts: str) -> list[dict]:
-    ph = next((p for p in meta.get("phases", []) if p.get("number") == phase_number), None)
+                       phase_api: int, stage_number: int, phase_global: int, labels: dict, ts: str) -> list[dict]:
+    """Une poule d'une compétition. `phase_api` est le numéro dans la compétition (ex. 1 pour le 2e tour, qui
+    est sa propre compétition sur le site) ; `phase_global` est le tour du Festival (2)."""
+    ph = next((p for p in meta.get("phases", []) if p.get("number") == phase_api), None)
     gp = next((g for g in (ph or {}).get("groups", []) if g.get("stage_number") == stage_number), None)
-    phase_label = (ph or {}).get("name") or f"Phase {phase_number}"
+    phase_label = labels.get(str(phase_global)) or (ph or {}).get("name") or f"Phase {phase_global}"
     poule_label = (gp or {}).get("name") or f"Poule {stage_number}"
-    cal = fetch_cup_json(session, f"{CUP_API_BASE}/compets/{cp_no}/phases/{phase_number}/poules/{stage_number}/calendrier?page=1")
+    cal = fetch_cup_json(session, f"{CUP_API_BASE}/compets/{cp_no}/phases/{phase_api}/poules/{stage_number}/calendrier?page=1")
     ensure_club_names(session, cal)
     changes = []
-    for rec in cup_raw_records(cp_no, cat["id"], phase_number, phase_label, stage_number, poule_label, cal):
+    for rec in cup_raw_records(cp_no, cat["id"], phase_global, phase_label, stage_number, poule_label, cal):
         old = load_raw(rec["id"])
         merged, ch = merge(old, rec, ts)
         save_raw(merged)
@@ -959,27 +961,226 @@ def refresh_cup_poule(session: requests.Session, cat: dict, meta: dict, cp_no: i
     return changes
 
 
+# --- Rapprochement des noms : le PDF d'une phase abrège les équipes (« Clt St Jacques 2 »), alors que le
+# site utilise les noms officiels publiés pour les tours précédents (« A. S. CLERMONT SAINT JACQUES FOOT 2 »).
+# Sans ce rapprochement, une même équipe apparaît comme deux équipes distinctes (favoris, historique, logos).
+_ALIAS_TOKENS = {"clt": "clermont", "st": "saint", "stm": "saint", "tal": "tallende", "tallende": "tallende",
+                 "amant": "amant", "sp": "sports", "gr": "", "fc": "football", "f": "", "c": "", "a": "",
+                 "s": "", "us": "", "u": "", "as": "", "ac": "", "de": "", "du": "", "des": "", "la": "", "le": "",
+                 "les": "", "sc": "", "cs": "", "lb": "lembron", "asm": "montferrandaise", "esl": "", "gf": ""}
+
+
+def _name_tokens(name: str) -> tuple[set[str], str]:
+    """(mots utiles, numéro d'équipe final ou '') d'un nom d'équipe, abréviations développées."""
+    base = unicodedata.normalize("NFD", name).encode("ascii", "ignore").decode().lower()
+    base = re.sub(r"[^a-z0-9]+", " ", base).strip()
+    num = ""
+    m = re.search(r"\s(\d+)$", " " + base)
+    if m:
+        num = m.group(1)
+        base = base[: -len(num)].strip()
+    words = set()
+    for w in base.split():
+        w = _ALIAS_TOKENS.get(w, w)
+        words.update(x for x in w.split() if x)
+    return words, num
+
+
+def match_name(name: str, known: list[str], aliases: dict[str, str]) -> tuple[str, str]:
+    """(nom retenu, statut) : statut = 'identique', 'alias', 'rapproché', 'inconnu'.
+    Un rapprochement n'est retenu que s'il est net : même numéro d'équipe, mots en commun, et un seul
+    candidat réellement meilleur (sinon on ne devine pas)."""
+    if name in aliases:
+        return aliases[name], "alias"
+    if name in known:
+        return name, "identique"
+    words, num = _name_tokens(name)
+    scored = []
+    for k in known:
+        kw, kn = _name_tokens(k)
+        if kn != num or not (words and kw):
+            continue
+        inter, union = len(words & kw), len(words | kw)
+        if inter:
+            scored.append((inter / union, k))
+    scored.sort(reverse=True)
+    if scored and scored[0][0] >= 0.6 and (len(scored) == 1 or scored[0][0] - scored[1][0] >= 0.1):
+        return scored[0][1], "rapproché"
+    return name, "inconnu"
+
+
+def cup_known_names(cp_no: int) -> list[str]:
+    """Noms officiels déjà publiés pour cette compétition (tous les plateaux archivés hors PDF)."""
+    names: set[str] = set()
+    if RAW.exists():
+        for p in RAW.glob(f"cup{cp_no}_*.json"):
+            r = json.loads(p.read_text(encoding="utf-8"))
+            if r.get("source") != "pdf":
+                names.update(r.get("equipes", []))
+    return sorted(names)
+
+
+def load_festival_aliases() -> dict[str, str]:
+    p = HERE / "festival_aliases.json"
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+
+
+def align_pdf_records(recs: list[dict], known: list[str], aliases: dict[str, str]) -> list[str]:
+    """Remplace les noms abrégés par les noms officiels, in place. Renvoie la liste des noms non résolus."""
+    unresolved: set[str] = set()
+    cache: dict[str, str] = {}
+    def fix(n: str) -> str:
+        if n not in cache:
+            new, status = match_name(n, known, aliases)
+            cache[n] = new
+            if status == "inconnu":
+                unresolved.add(n)
+        return cache[n]
+    for r in recs:
+        r["equipes"] = sorted({fix(t) for t in r["equipes"]})
+        for m in r["matchs"]:
+            m["home"], m["away"] = fix(m["home"]), fix(m["away"])
+    return sorted(unresolved)
+
+
+def pdf_phase_records(cp_no: int, cat_id: str, phase_number: int, path: Path) -> list[dict]:
+    """Poules d'une phase publiées en PDF avant que le site ne les affiche (ex. 2e tour du Festival U13).
+    Mêmes identifiants que ceux du site (cup{cp}_{phase}_{poule}_1) : quand le site publiera la phase, ses
+    données remplaceront celles-ci sans doublon, et l'historique de merge() est conservé."""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    hd = data["date"]
+    hh = data["heure"]
+    out = []
+    for q in data["poules"]:
+        n = q["poule"]
+        matchs = [{"home": h, "away": a, "hs": None, "as": None} for h, a in zip(q["home"], q["away"])]
+        equipes = sorted({t for m in matchs for t in (m["home"], m["away"])})
+        out.append({
+            "id": f"cup{cp_no}_{phase_number}_{n}_1",
+            "cat": cat_id, "cat_label": None, "phase": phase_number, "phase_label": data["phase_label"],
+            "poule": str(n), "poule_label": f"Poule {n}",
+            "start": f"{hd}T{hh}", "heure_connue": True,
+            "lieu": q.get("lieu", ""), "organisateur": q.get("org", ""),
+            "equipes": equipes, "logos": {},
+            "matchs": matchs,
+            "score_illisible": False, "score_incoherent": False, "glyph_fps": [], "mini": {},
+            "source": "pdf",
+        })
+    return out
+
+
+def cup_competitions(cat: dict) -> list[dict]:
+    """Compétitions d'une catégorie « cup ». Une catégorie peut regrouper plusieurs compétitions du site
+    (ex. le Festival U13 : le 1er tour et le 2e tour sont deux compétitions distinctes sur le site).
+    `phase_map` convertit le numéro de phase de la compétition en tour de la catégorie."""
+    return cat.get("competitions") or [{"cp_no": cat["cp_no"], "phase_map": {}}]
+
+
+def cup_poule_state(cat_id: str, cp_no: int, phase_global: int, stage: int, pub: set) -> str | None:
+    """Raison de NE PAS relire une poule du Festival, ou None. Une poule est arrêtée quand :
+    - toutes ses rencontres ont leur score (100 %), ou
+    - la phase suivante est publiée sur le site."""
+    if (("cup", cat_id), phase_global + 1) in pub:
+        return "phase suivante publiée"
+    recs = [json.loads(f.read_text(encoding="utf-8")) for f in (RAW.glob(f"cup{cp_no}_{phase_global}_{stage}_*.json") if RAW.exists() else [])]
+    if recs and all(r["matchs"] and all(m["hs"] is not None and m["as"] is not None for m in r["matchs"]) for r in recs):
+        return "100 % des scores publiés"
+    return None
+
+
 def sync_cup_category(session: requests.Session, cat: dict, ts: str) -> list[dict]:
-    """Un passage complet sur une compétition du module Compétitions : liste ses poules puis relit le
-    calendrier de chacune. Des appels JSON légers (pas de Chromium) : on les relit à chaque synchronisation
-    plutôt que d'essayer de deviner lesquels ont changé."""
-    cp_no = cat["cp_no"]
-    meta = fetch_cup_json(session, f"{CUP_API_BASE}/compets/{cp_no}")
-    poules = [(ph.get("number"), gp.get("stage_number")) for ph in meta.get("phases", []) for gp in ph.get("groups", [])]
-    print(f"  {cat['label']} : {len(poules)} poule(s) sur {len(meta.get('phases', []))} phase(s)")
-    changes = []
-    for phase_number, stage_number in poules:
+    """Un passage complet sur une catégorie « cup » : relit chaque poule de chaque compétition (appels JSON
+    légers, sans Chromium). Les phases annoncées en PDF servent tant que le site ne les publie pas."""
+    labels = cat.get("tour_labels", {})
+    changes: list[dict] = []
+    published_here: set[int] = set()
+    pub = published_keys()
+    for comp in cup_competitions(cat):
+        cp_no = comp["cp_no"]
+        pmap = comp.get("phase_map", {})
         try:
-            changes += refresh_cup_poule(session, cat, meta, cp_no, phase_number, stage_number, ts)
+            meta = fetch_cup_json(session, f"{CUP_API_BASE}/compets/{cp_no}")
         except Exception as e:
-            print(f"  ! {cat['id']} phase {phase_number} poule {stage_number} : {e}", file=sys.stderr)
-        time.sleep(CONFIG.get("cup_delay_seconds", 0.3))
+            print(f"  ! {cat['id']} compétition {cp_no} : {e}", file=sys.stderr)
+            continue
+        poules = [(ph.get("number"), gp.get("stage_number")) for ph in meta.get("phases", []) for gp in ph.get("groups", [])]
+        print(f"  {cat['label']} compétition {cp_no} : {len(poules)} poule(s) sur {len(meta.get('phases', []))} phase(s)")
+        for phase_api, stage_number in poules:
+            phase_global = pmap.get(str(phase_api), phase_api)
+            published_here.add(phase_global)
+            state = cup_poule_state(cat["id"], cp_no, phase_global, stage_number, pub)
+            if state:
+                print(f"  = {cat['label']} phase {phase_global} poule {stage_number} : {state}, non relue")
+                continue
+            try:
+                changes += refresh_cup_poule(session, cat, meta, cp_no, phase_api, stage_number, phase_global, labels, ts)
+            except Exception as e:
+                print(f"  ! {cat['id']} phase {phase_global} poule {stage_number} : {e}", file=sys.stderr)
+            time.sleep(CONFIG.get("cup_delay_seconds", 0.3))
+    primary = cup_competitions(cat)[0]["cp_no"]
+    for src in cat.get("pdf_phases", []):
+        if src["phase"] in published_here:
+            # le site publie désormais cette phase : on retire les poules tirées du PDF (évite les doublons)
+            removed = 0
+            for f in (RAW.glob(f"cup*_{src['phase']}_*.json") if RAW.exists() else []):
+                if json.loads(f.read_text(encoding="utf-8")).get("source") == "pdf":
+                    f.unlink()
+                    removed += 1
+            if removed:
+                print(f"  {cat['label']} phase {src['phase']} : publiée sur le site, {removed} poule(s) du PDF retirée(s)")
+            continue
+        path = HERE / src["file"]
+        if not path.exists():
+            print(f"  ! {cat['id']} : fichier PDF introuvable : {path.name}", file=sys.stderr)
+            continue
+        recs = pdf_phase_records(primary, cat["id"], src["phase"], path)
+        print(f"  {cat['label']} phase {src['phase']} (source PDF) : {len(recs)} poule(s)")
+        known = cup_known_names(primary)
+        unresolved = align_pdf_records(recs, known, load_festival_aliases())
+        if known:
+            print(f"  noms rapprochés des tours précédents ({len(known)} équipes connues)")
+        else:
+            print("  ! aucun tour précédent archivé : les noms du PDF restent tels quels", file=sys.stderr)
+        if unresolved:
+            todo = HERE / "festival_a_rapprocher.json"
+            todo.write_text(json.dumps({n: "" for n in unresolved}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            print(f"  ! {len(unresolved)} équipe(s) non rapprochée(s) : voir scraper/festival_a_rapprocher.json", file=sys.stderr)
+        for rec in recs:
+            old = load_raw(rec["id"])
+            merged, ch = merge(old, rec, ts)
+            save_raw(merged)
+            changes += ch
     return changes
 
 
-def refresh_reason(rec: dict | None, upcoming: bool = False, now: datetime | None = None) -> str | None:
-    """Pourquoi relire ce plateau ? None = inutile. On ne relit ni les plateaux dont tous les scores sont connus,
-    ni ceux qui ne sont pas encore joués (sauf `upcoming`, pour repérer un changement d'horaire)."""
+def plateau_key(r: dict) -> tuple:
+    """À quelle « suite de phases » appartient un plateau : le championnat par groupe d'âge (Élite, U13…),
+    chaque compétition à part (Festival U13) pour elle-même."""
+    if r["id"].startswith("cup"):
+        return ("cup", r["cat"])
+    group = next((c.get("group") for c in CONFIG["categories"] if c["id"] == r.get("cat")), None)
+    return ("ligue", group)
+
+
+def published_keys() -> set:
+    """(suite de phases, numéro de phase) déjà publiés : sur le site OU annoncés par un PDF de publication
+    (les poules tirées d'un PDF comptent comme publiées)."""
+    keys: set = set()
+    if RAW.exists():
+        for p in RAW.glob("*.json"):
+            r = json.loads(p.read_text(encoding="utf-8"))
+            if r.get("phase") is None:
+                continue
+            keys.add((plateau_key(r), r["phase"]))
+    return keys
+
+
+def refresh_reason(rec: dict | None, upcoming: bool = False, now: datetime | None = None,
+                   published: set | None = None) -> str | None:
+    """Pourquoi relire ce plateau ? None = inutile. Un plateau est relu tant que :
+      - il n'a pas 100 % de ses scores, ET
+      - la phase suivante n'est pas publiée sur le site.
+    Pas de limite d'âge : un plateau jamais complété reste surveillé."""
     if rec is None:
         return "nouveau"
     now = now or paris_now()
@@ -989,9 +1190,9 @@ def refresh_reason(rec: dict | None, upcoming: bool = False, now: datetime | Non
     if rec.get("glyph_fps"):
         return None   # chiffres à apprendre : relire la page ne changerait rien, c'est le travail de « glyphs »
     if rec["matchs"] and all(m["hs"] is not None and m["as"] is not None for m in rec["matchs"]):
-        return None   # scores complets
-    if (now - start).days > CONFIG.get("rescan_window_days", 14):
-        return None   # plateau abandonné (annulé, forfait…) : on n'insiste plus, sauf avec --all
+        return None   # 100 % des scores publiés
+    if published and rec.get("phase") is not None and (plateau_key(rec), rec["phase"] + 1) in published:
+        return None   # phase suivante publiée : on arrête de relire celle-ci
     return "joué, scores incomplets" if rec["matchs"] else "joué, pas encore de scores"
 
 
@@ -1414,10 +1615,11 @@ def cmd_sync(args) -> None:
     ids = [sid for sid in ids if not cup_poule_key(sid)]  # module Compétitions : compté et relu à part, ci-dessous
     cup_cats = [c for c in CONFIG["categories"] if c.get("kind") == "cup"]
     now = paris_now()
+    published = published_keys()
     todo, skipped = [], {"scores complets": 0, "à venir": 0, "autre": 0}
     for sid in ids:
         rec = load_raw(sid)
-        why = "tout relire (--all)" if args.all else refresh_reason(rec, args.upcoming, now)
+        why = "tout relire (--all)" if args.all else refresh_reason(rec, args.upcoming, now, published)
         if why:
             todo.append((sid, why, rec))
         elif rec and datetime.strptime(rec["start"], "%Y-%m-%dT%H:%M") > now:
