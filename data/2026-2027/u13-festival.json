@@ -2230,20 +2230,20 @@
         {
          "home": "GROUPEMENT DE L'AUZON 2",
          "away": "S.A. THIERNOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 13
         },
         {
          "home": "GROUPEMENT DE L'AUZON 2",
          "away": "S.C. BILLOMOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 7
         },
         {
          "home": "S.C. BILLOMOIS 1",
          "away": "S.A. THIERNOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 11
         }
        ],
        "heure_connue": true
@@ -2918,20 +2918,20 @@
         {
          "home": "U.S. ISSOIRE A. DU MAS 3",
          "away": "F.C. PLAUZAT-CHAMPEIX 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 9
         },
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 1",
          "away": "C.O. VEYRE MONTON 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 1
         },
         {
          "home": "U.S. ISSOIRE A. DU MAS 3",
          "away": "C.O. VEYRE MONTON 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 7
         }
        ],
        "heure_connue": true
