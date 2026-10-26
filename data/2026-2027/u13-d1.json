@@ -103,7 +103,7 @@
         {
          "home": "ESP. CEYRATOISE 1",
          "away": "U.S. ISSOIRE A. DU MAS 1",
-         "hs": 5,
+         "hs": 3,
          "as": 0
         }
        ],
@@ -461,7 +461,7 @@
          "home": "F.C. RIOMOIS 1",
          "away": "A.S. MONTFERRANDAISE 2",
          "hs": 0,
-         "as": 5
+         "as": 3
         },
         {
          "home": "A.S. MONTFERRANDAISE 2",
@@ -554,10 +554,10 @@
        ],
        "matchs": [
         {
-         "home": "A.S. ROYAT A.C. 1",
+         "home": "A.S. MONTFERRANDAISE 2",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "hs": 1,
-         "as": 4
+         "hs": 4,
+         "as": 0
         },
         {
          "home": "A.S. ROYAT A.C. 1",
@@ -566,10 +566,10 @@
          "as": 4
         },
         {
-         "home": "A.S. MONTFERRANDAISE 2",
+         "home": "A.S. ROYAT A.C. 1",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "hs": 4,
-         "as": 0
+         "hs": 5,
+         "as": 3
         }
        ],
        "heure_connue": true
@@ -626,8 +626,8 @@
         {
          "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
          "away": "CLERMONT FOOT 63 2",
-         "hs": 4,
-         "as": 0
+         "hs": 0,
+         "as": 6
         },
         {
          "home": "CLERMONT FOOT 63 2",
