@@ -489,7 +489,7 @@ def logo_near(node, name: str) -> str | None:
 def category_for(site_id: str, label: str) -> str | None:
     fal = site_id.split("_")[0]
     for c in CONFIG["categories"]:
-        if str(c["fal_id"]) == fal:
+        if c.get("fal_id") and str(c["fal_id"]) == fal:
             return c["id"]
     for c in CONFIG["categories"]:
         if norm(c["label"]) == norm(label):
@@ -902,6 +902,12 @@ def parse_cup_match(m: dict, names: dict[int, str] | None = None) -> dict:
     }
 
 
+def phase_date_table() -> dict:
+    """Dates des journées aller publiées en PDF (dates_phase2.json), utilisées seulement quand l'API n'en donne pas."""
+    p = HERE / "dates_phase2.json"
+    return json.loads(p.read_text(encoding="utf-8")).get("journees", {}) if p.exists() else {}
+
+
 def cup_raw_records(cp_no: int, cat_id: str, phase_number: int, phase_label: str,
                      stage_number: int, poule_label: str, calendrier: dict,
                      names: dict[int, str] | None = None) -> list[dict]:
@@ -912,6 +918,7 @@ def cup_raw_records(cp_no: int, cat_id: str, phase_number: int, phase_label: str
         j = (m.get("poule_journee") or {}).get("number") or 0
         by_j.setdefault(j, []).append(m)
     out = []
+    sans_date: list[int] = []
     for j, ms in sorted(by_j.items()):
         parsed = [parse_cup_match(m, names) for m in ms]
         equipes = sorted({p["home"] for p in parsed} | {p["away"] for p in parsed})
@@ -926,21 +933,34 @@ def cup_raw_records(cp_no: int, cat_id: str, phase_number: int, phase_label: str
         dates = sorted(d for d in ((m.get("date") or "")[:10] for m in ms) if re.fullmatch(r"\d{4}-\d{2}-\d{2}", d))
         heures = sorted(h for h in (parse_cup_time(m.get("time")) for m in ms) if h)
         date = dates[0] if dates else ""
+        if not date and phase_number >= 2:   # date publiée en PDF pour cette journée (phase 2 des divisions)
+            date = phase_date_table().get(cat_id, {}).get(str(j), "")
+            if date:
+                heures = heures or ["14:00"]
+        if not date:   # journée sans date : on ne la fabrique pas (une fausse date la cacherait)
+            sans_date.append(j)
+            continue
         out.append({
             "id": f"cup{cp_no}_{phase_number}_{stage_number}_{j}",
             "cat": cat_id, "cat_label": None, "phase": phase_number, "phase_label": phase_label,
             "poule": str(stage_number), "poule_label": poule_label,
-            "start": f"{date}T{heures[0] if heures else '00:00'}" if date else "1970-01-01T00:00",
+            "start": f"{date}T{heures[0] if heures else '00:00'}",
             "heure_connue": bool(heures) and bool(date),
             "lieu": lieu, "organisateur": "",
             "equipes": equipes, "logos": logos,
             "matchs": [{"home": p["home"], "away": p["away"], "hs": p["hs"], "as": p["as"]} for p in parsed],
             "score_illisible": False, "score_incoherent": False, "glyph_fps": [], "mini": {},
         })
+    if sans_date:
+        print(f"  ! {len(sans_date)} journée(s) sans date publiée dans la poule {poule_label} (journées {sans_date}) : non affichées", file=sys.stderr)
     return out
 
 
 LOG_FILE = HERE / "sync.log"
+
+
+def cat_label_kind(cat_id: str | None) -> str:
+    return next((c.get("kind", "") for c in CONFIG["categories"] if c["id"] == cat_id), "")
 
 
 def cat_label_of(cat_id: str | None) -> str:
@@ -956,7 +976,7 @@ def change_text(ch: dict) -> str:
 
 def plateau_incomplete(rec: dict, pub: set | None) -> bool:
     if not rec["matchs"] or not all(m["hs"] is not None and m["as"] is not None for m in rec["matchs"]):
-        return not (pub and rec.get("phase") is not None and (plateau_key(rec), rec["phase"] + 1) in pub)
+        return not (rec.get("phase") is not None and successor_published(plateau_key(rec), rec["phase"], rec.get("equipes", []), pub))
     return False
 
 
@@ -977,6 +997,63 @@ def report_plateau(rec: dict, changes: list[dict], pub: set | None = None) -> No
         print(f"  ~ restant : {head} : {detail}")
 
 
+UNRESOLVED_NUMBERS: set[str] = set()   # équipes de phase 2 sans équivalent identifié en phase 1 (rapport groupé)
+
+
+def relabel_league_records(recs: list[dict], cat_id: str) -> tuple[list[dict], list[str]]:
+    """Corrige le NUMÉRO des équipes d'une phase 2 (renumérotées par division sur le site) à partir de leur
+    destination réelle depuis la phase 1 : l'équipe qui est montée de D2 en D1 reçoit le numéro qu'elle avait
+    en D2 (et inversement). Un club qui a plusieurs équipes dans la même destination n'est pas corrigé."""
+    dest = phase1_destinations()
+    cands = [n for n, (d, _ok) in dest.items() if d == cat_id]
+    if not cands:
+        return recs, []
+    bases = sorted({_split_team(c)[0] for c in cands})
+    cache: dict[str, str] = {}
+    unresolved: set[str] = set()
+
+    def fix(t: str) -> str:
+        if t in cache:
+            return cache[t]
+        if t in cands:
+            cache[t] = t
+            return t
+        base, _ = _split_team(t)
+        club, _ = match_club(base, bases, {})
+        same = [c for c in cands if club is not None and _split_team(c)[0] == club]
+        if len(same) == 1:
+            cache[t] = same[0]
+        else:
+            cache[t] = t
+            unresolved.add(t)
+        return cache[t]
+
+    for r in recs:
+        r["equipes"] = sorted({fix(t) for t in r["equipes"]})
+        for m in r["matchs"]:
+            m["home"], m["away"] = fix(m["home"]), fix(m["away"])
+    return recs, sorted(unresolved)
+
+
+def fetch_cup_calendar(session: requests.Session, cp_no: int, phase_api: int, stage: int) -> dict:
+    """Calendrier COMPLET d'une poule : l'API le sert par pages et indique le total (hydra:totalItems).
+    Ne lire que la page 1 faisait disparaître les dernières journées."""
+    members: list[dict] = []
+    total = None
+    for page in range(1, 51):
+        d = fetch_cup_json(session, f"{CUP_API_BASE}/compets/{cp_no}/phases/{phase_api}/poules/{stage}/calendrier?page={page}")
+        batch = d.get("hydra:member", [])
+        total = d.get("hydra:totalItems", total)
+        if not batch:
+            break
+        members += batch
+        if total is not None and len(members) >= int(total):
+            break
+        if total is None and not (d.get("hydra:view") or {}).get("hydra:next"):
+            break
+    return {"hydra:member": members, "hydra:totalItems": total}
+
+
 def refresh_cup_poule(session: requests.Session, cat: dict, meta: dict, cp_no: int,
                        phase_api: int, stage_number: int, phase_global: int, labels: dict, ts: str,
                        pub: set | None = None) -> list[dict]:
@@ -986,10 +1063,14 @@ def refresh_cup_poule(session: requests.Session, cat: dict, meta: dict, cp_no: i
     gp = next((g for g in (ph or {}).get("groups", []) if g.get("stage_number") == stage_number), None)
     phase_label = labels.get(str(phase_global)) or (ph or {}).get("name") or f"Phase {phase_global}"
     poule_label = (gp or {}).get("name") or f"Poule {stage_number}"
-    cal = fetch_cup_json(session, f"{CUP_API_BASE}/compets/{cp_no}/phases/{phase_api}/poules/{stage_number}/calendrier?page=1")
+    cal = fetch_cup_calendar(session, cp_no, phase_api, stage_number)
     ensure_club_names(session, cal)
     changes = []
-    for rec in cup_raw_records(cp_no, cat["id"], phase_global, phase_label, stage_number, poule_label, cal):
+    recs = cup_raw_records(cp_no, cat["id"], phase_global, phase_label, stage_number, poule_label, cal)
+    if cat.get("source") == "api" and phase_global > 1:
+        recs, unresolved = relabel_league_records(recs, cat["id"])
+        UNRESOLVED_NUMBERS.update(f"{cat['label']} | {t}" for t in unresolved)
+    for rec in recs:
         old = load_raw(rec["id"])
         merged, ch = merge(old, rec, ts)
         save_raw(merged)
@@ -1004,7 +1085,7 @@ def refresh_cup_poule(session: requests.Session, cat: dict, meta: dict, cp_no: i
 _ALIAS_TOKENS = {"clt": "clermont", "st": "saint", "stm": "saint", "tal": "tallende", "tallende": "tallende",
                  "amant": "amant", "sp": "sports", "gr": "", "fc": "football", "f": "", "c": "", "a": "",
                  "s": "", "us": "", "u": "", "as": "", "ac": "", "de": "", "du": "", "des": "", "la": "", "le": "",
-                 "les": "", "sc": "", "cs": "", "lb": "lembron", "asm": "montferrandaise", "esl": "", "gf": ""}
+                 "les": "", "sc": "", "cs": "", "lb": "lembron", "asm": "montferrandaise", "esl": "", "gf": "", "hte": "haute", "ent": "", "foot": "football"}
 
 
 def _name_tokens(name: str) -> tuple[set[str], str]:
@@ -1117,15 +1198,29 @@ def cup_poule_state(cat_id: str, cp_no: int, phase_global: int, stage: int, pub:
     """Raison de NE PAS relire une poule du Festival, ou None. Une poule est arrêtée quand :
     - toutes ses rencontres ont leur score (100 %), ou
     - la phase suivante est publiée sur le site."""
-    if (("cup", cat_id), phase_global + 1) in pub:
-        return "phase suivante publiée"
     recs = [json.loads(f.read_text(encoding="utf-8")) for f in (RAW.glob(f"cup{cp_no}_{phase_global}_{stage}_*.json") if RAW.exists() else [])]
-    if recs and all(r["matchs"] and all(m["hs"] is not None and m["as"] is not None for m in r["matchs"]) for r in recs):
+    if not recs:
+        return None
+    if all(r["matchs"] and all(m["hs"] is not None and m["as"] is not None for m in r["matchs"]) for r in recs):
         return "100 % des scores publiés"
+    teams = sorted({t for r in recs for t in r.get("equipes", [])})
+    if successor_published(("cup", cat_id), phase_global, teams, pub):
+        return "phase suivante publiée pour ses équipes"
     return None
 
 
-def sync_cup_category(session: requests.Session, cat: dict, ts: str) -> list[dict]:
+def write_unresolved_numbers() -> None:
+    """Un seul rapport, en fin de synchronisation, au lieu d'une ligne par équipe."""
+    f = HERE / "numeros_a_verifier.txt"
+    if UNRESOLVED_NUMBERS:
+        f.write_text("\n".join(sorted(UNRESOLVED_NUMBERS)) + "\n", encoding="utf-8")
+        print(f"  {len(UNRESOLVED_NUMBERS)} équipe(s) de phase 2 sans équivalent identifié en phase 1 : scraper/numeros_a_verifier.txt")
+        UNRESOLVED_NUMBERS.clear()
+    elif f.exists():
+        f.unlink()
+
+
+def sync_cup_category(session: requests.Session, cat: dict, ts: str, force: bool = False) -> list[dict]:
     """Un passage complet sur une catégorie « cup » : relit chaque poule de chaque compétition (appels JSON
     légers, sans Chromium). Les phases annoncées en PDF servent tant que le site ne les publie pas."""
     labels = cat.get("tour_labels", {})
@@ -1144,7 +1239,7 @@ def sync_cup_category(session: requests.Session, cat: dict, ts: str) -> list[dic
         for phase_api, stage_number in poules:
             phase_global = pmap.get(str(phase_api), phase_api)
             published_here.add(phase_global)
-            if cup_poule_state(cat["id"], cp_no, phase_global, stage_number, pub):
+            if not force and cup_poule_state(cat["id"], cp_no, phase_global, stage_number, pub):
                 continue   # terminée ou phase suivante publiée : pas de ligne, pas d'appel API
             try:
                 changes += refresh_cup_poule(session, cat, meta, cp_no, phase_api, stage_number, phase_global, labels, ts, pub)
@@ -1152,6 +1247,10 @@ def sync_cup_category(session: requests.Session, cat: dict, ts: str) -> list[dic
                 print(f"  ! {cat['id']} phase {phase_global} poule {stage_number} : {e}", file=sys.stderr)
             time.sleep(CONFIG.get("cup_delay_seconds", 0.3))
     primary = cup_competitions(cat)[0]["cp_no"]
+    # une phase publiée par l'API remplace les anciens plateaux PDF de cette catégorie
+    for f in (RAW.glob(f"pdfl_{cat['id']}_*.json") if RAW.exists() else []):
+        if published_here:
+            f.unlink()
     for src in cat.get("pdf_phases", []):
         if src["phase"] in published_here:
             # le site publie désormais cette phase : on retire les poules tirées du PDF (évite les doublons)
@@ -1192,16 +1291,23 @@ def plateau_key(r: dict) -> tuple:
 
 
 def published_keys() -> set:
-    """(suite de phases, numéro de phase) déjà publiés : sur le site OU annoncés par un PDF de publication
-    (les poules tirées d'un PDF comptent comme publiées)."""
+    """Triplets (suite de phases, phase, équipe) publiés : sur le site OU annoncés par un PDF de publication.
+    Une poule de phase p est « suivie » par la phase p+1 dès qu'une de ses équipes figure dans la phase p+1 :
+    on ne relit donc plus toutes les poules d'un groupe parce qu'une seule poule de la phase suivante existe."""
     keys: set = set()
     if RAW.exists():
         for p in RAW.glob("*.json"):
             r = json.loads(p.read_text(encoding="utf-8"))
             if r.get("phase") is None:
                 continue
-            keys.add((plateau_key(r), r["phase"]))
+            for t in r.get("equipes", []):
+                keys.add((plateau_key(r), r["phase"], t))
     return keys
+
+
+def successor_published(key: tuple, phase: int, teams: list[str], pub: set | None) -> bool:
+    """La phase suivante est-elle publiée pour cette poule (au moins une de ses équipes y figure) ?"""
+    return bool(pub) and any((key, phase + 1, t) in pub for t in teams)
 
 
 def refresh_reason(rec: dict | None, upcoming: bool = False, now: datetime | None = None,
@@ -1220,8 +1326,8 @@ def refresh_reason(rec: dict | None, upcoming: bool = False, now: datetime | Non
         return None   # chiffres à apprendre : relire la page ne changerait rien, c'est le travail de « glyphs »
     if rec["matchs"] and all(m["hs"] is not None and m["as"] is not None for m in rec["matchs"]):
         return None   # 100 % des scores publiés
-    if published and rec.get("phase") is not None and (plateau_key(rec), rec["phase"] + 1) in published:
-        return None   # phase suivante publiée : on arrête de relire celle-ci
+    if rec.get("phase") is not None and successor_published(plateau_key(rec), rec["phase"], rec.get("equipes", []), published):
+        return None   # phase suivante publiée pour cette poule : on arrête de relire celle-ci
     return "joué, scores incomplets" if rec["matchs"] else "joué, pas encore de scores"
 
 
@@ -1254,7 +1360,7 @@ def with_club_logos(equipes: list[str], logos: dict[str, str]) -> dict[str, str]
     return out
 
 
-def refresh(ids: list[str], notify: bool, quiet: bool = False, include_cup: bool = False) -> list[dict]:
+def refresh(ids: list[str], notify: bool, quiet: bool = False, include_cup: bool = False, force: bool = False) -> list[dict]:
     glyphs = Glyphs(HERE / "glyphs.json")
     fetcher = Fetcher(CONFIG.get("fetch_mode", "auto"))
     first_run = not any(RAW.glob("*.json")) if RAW.exists() else True
@@ -1262,12 +1368,13 @@ def refresh(ids: list[str], notify: bool, quiet: bool = False, include_cup: bool
     pub_keys = published_keys()
     if include_cup:
         for cat in CONFIG["categories"]:
-            if cat.get("kind") != "cup":
+            if cat.get("kind") != "cup" and cat.get("source") != "api":
                 continue
             try:
-                all_changes += sync_cup_category(fetcher.session, cat, ts)
+                all_changes += sync_cup_category(fetcher.session, cat, ts, force)
             except Exception as e:
                 print(f"  ! {cat['id']} : {e}", file=sys.stderr)
+        write_unresolved_numbers()
     for n, sid in enumerate(ids):
         if cup_poule_key(sid):
             continue  # module Compétitions : déjà traité ci-dessus, poule entière à la fois
@@ -1356,8 +1463,275 @@ def natural_key(s: str) -> list:
     return [int(t) if t.isdigit() else t.lower() for t in re.split(r"(\d+)", s)]
 
 
+# ----------------------------------------------------------------------------- Phase du championnat publiée en PDF
+# Le PDF d'une phase (ex. phase 2 U13) paraît avant les pages du site. Ses équipes sont renumérotées PAR DIVISION
+# (le club dont l'équipe 2 monte en D1 y apparaît comme « … 1 »), donc le numéro ne suffit pas à les relier à la
+# phase 1 : on s'appuie sur les qualifications réelles, recalculées ici à partir des scores archivés.
+PDF_LEAGUE_PREFIX = "pdfl_"
+
+
+def is_pdf_id(sid: str) -> bool:
+    return sid.startswith(PDF_LEAGUE_PREFIX)
+
+
+def _split_team(name: str) -> tuple[str, int]:
+    m = re.match(r"^(.*?)\s+(\d+)$", name.strip())
+    return (m.group(1), int(m.group(2))) if m else (name.strip(), 0)
+
+
+def phase1_destinations() -> dict[str, tuple[str, bool]]:
+    """{équipe de phase 1: (catégorie de destination, certain)} d'après les classements réels de la phase 1
+    et les zones de rules.json (mêmes règles que le site : rang de poule, puis moyenne de points, différence
+    de buts, buts marqués). « certain » : tous les matchs de la division sont joués."""
+    rp = DATA / "rules.json"
+    rules = json.loads(rp.read_text(encoding="utf-8")) if rp.exists() else {}
+    pts = {"win": 3, "draw": 1, "loss": 0, **(rules.get("points") or {})}
+    tb = rules.get("tiebreak") or ["pts", "diff", "bp"]
+    by_cat: dict[str, dict[str, list[dict]]] = {}
+    if RAW.exists():
+        for p in RAW.glob("*.json"):
+            r = json.loads(p.read_text(encoding="utf-8"))
+            if r.get("source") == "pdf" or r.get("phase") != 1 or r.get("cat") not in rules:
+                continue
+            if cat_label_kind(r["cat"]) == "cup":   # Festival : ses tours ne sont pas une phase du championnat
+                continue
+            if not ((rules[r["cat"]].get("1") or {}).get("tiers")):
+                continue
+            by_cat.setdefault(r["cat"], {}).setdefault(str(r["poule"]), []).append(r)
+    dest: dict[str, tuple[str, bool]] = {}
+    for cat, poules in by_cat.items():
+        rule = rules[cat]["1"]
+        rows, unplayed = [], 0
+        for recs in poules.values():
+            T: dict[str, dict] = {}
+            for r in recs:
+                for t in r.get("equipes", []):
+                    T.setdefault(t, {"pts": 0, "bp": 0, "bc": 0, "j": 0})
+                for m in r["matchs"]:
+                    for t in (m["home"], m["away"]):
+                        T.setdefault(t, {"pts": 0, "bp": 0, "bc": 0, "j": 0})
+                    if m["hs"] is None or m["as"] is None:
+                        unplayed += 1
+                        continue
+                    for t, f, c in ((m["home"], m["hs"], m["as"]), (m["away"], m["as"], m["hs"])):
+                        T[t]["bp"] += f
+                        T[t]["bc"] += c
+                        T[t]["j"] += 1
+                        T[t]["pts"] += pts["win"] if f > c else pts["draw"] if f == c else pts["loss"]
+            for s_ in T.values():
+                s_["diff"] = s_["bp"] - s_["bc"]
+            order = sorted(T, key=lambda t: tuple(-T[t][k] for k in tb) + (t,))
+            prev, pos = None, 0
+            for i, t in enumerate(order):
+                key = tuple(T[t][k] for k in tb)
+                if key != prev:
+                    pos = i + 1
+                prev = key
+                s_ = T[t]
+                rows.append((pos, -(s_["pts"] / s_["j"] if s_["j"] else 0), -s_["diff"], -s_["bp"], t))
+        rows.sort()
+        n = (rule.get("composition") or {}).get("teams") or len(rows)
+        certain = unplayed == 0 and len(rows) == n
+        for rank, row in enumerate(rows, 1):
+            d = cat
+            for x in rule["tiers"]:
+                if "last" in x:
+                    lo, hi = n - int(x["last"]) + 1, n
+                else:
+                    lo = int(x.get("from") or 1)
+                    hi = n if x.get("to") in (None, "end") else int(x["to"])
+                if lo <= rank <= hi and x.get("dest"):
+                    d = x["dest"]
+                    break
+            dest[row[4]] = (d, certain)
+    return dest
+
+
+def match_club(base: str, known: list[str], alias: dict[str, str]) -> tuple[str | None, list[str]]:
+    """Club officiel correspondant à un nom de club abrégé du PDF (sans numéro). Prudent : un seul candidat net."""
+    if base in alias:
+        return alias[base], []
+    if base in known:
+        return base, []
+    words, _ = _name_tokens(base + " 1")
+    scored = []
+    for k in known:
+        kw, _ = _name_tokens(k + " 1")
+        if words and kw and words & kw:
+            scored.append((len(words & kw) / len(words | kw), k))
+    scored.sort(reverse=True)
+    if scored and scored[0][0] >= 0.6 and (len(scored) == 1 or scored[0][0] - scored[1][0] >= 0.1):
+        return scored[0][1], []
+    return None, [k for _, k in scored[:3]]
+
+
+def align_league_pdf(data: dict, dest: dict[str, tuple[str, bool]], aliases: dict) -> tuple[dict, list[dict], int]:
+    """({(division, nom PDF): nom officiel de phase 1}, cas à traiter, nombre d'incertains)."""
+    bases: dict[str, list[tuple[int, str, str, bool]]] = {}
+    for name, (d, ok) in dest.items():
+        b, n = _split_team(name)
+        bases.setdefault(b, []).append((n, name, d, ok))
+    known = list(bases)
+    mapping: dict[tuple[str, str], str] = {}
+    todo: list[dict] = []
+    uncertain = 0
+    for div, dv in data["divisions"].items():
+        pdf_teams = sorted({t for p in dv["poules"].values() for t in p["teams"]})
+        by_club: dict[str, list[tuple[int, str]]] = {}
+        for t in pdf_teams:
+            b, n = _split_team(t)
+            by_club.setdefault(b, []).append((n, t))
+        for base, lst in by_club.items():
+            lst.sort()
+            forced = {t: aliases["equipes"][f"{div}|{t}"] for _, t in lst if f"{div}|{t}" in aliases["equipes"]}
+            for t, name in forced.items():
+                mapping[(div, t)] = name
+            lst = [(n, t) for n, t in lst if t not in forced]
+            if not lst:
+                continue
+            club, sugg = match_club(base, known, aliases["clubs"])
+            if club is None:
+                if div != "u13-criterium":   # le critérium accueille des clubs d'autres districts : normal
+                    todo.append({"division": div, "club": base, "raison": "club non reconnu", "suggestions": sugg})
+                continue
+            cands = sorted(x for x in bases.get(club, []) if x[2] == div)
+            if len(cands) == len(lst):
+                for (n, t), (cn, name, _d, ok) in zip(lst, cands):
+                    mapping[(div, t)] = name
+                    uncertain += 0 if ok else 1
+            else:
+                todo.append({"division": div, "club": base, "equipes_pdf": [t for _, t in lst],
+                             "raison": f"{len(lst)} équipe(s) dans le PDF mais {len(cands)} qualifiée(s) de « {club} » vers cette division d'après les classements de phase 1",
+                             "qualifiees": [c[1] for c in cands]})
+    return mapping, todo, uncertain
+
+
+def league_pdf_records(data: dict, only: set[str] | None = None) -> list[dict]:
+    out = []
+    ph, ph_label = data["phase"], data["phase_label"]
+    for div, dv in data["divisions"].items():
+        if only is not None and div not in only:
+            continue
+        for letter, p in dv["poules"].items():
+            for j in sorted({m[0] for m in p["matches"]}):
+                ms = [m for m in p["matches"] if m[0] == j]
+                heures = sorted(m[3] for m in ms if m[3])
+                date = p["dates"][j - 1]
+                out.append({
+                    "id": f"{PDF_LEAGUE_PREFIX}{div}_{letter}_{j}", "cat": div, "cat_label": None, "phase": ph, "phase_label": ph_label,
+                    "poule": letter, "poule_label": p["label"], "start": f"{date}T{heures[0] if heures else '00:00'}",
+                    "heure_connue": bool(heures), "lieu": "", "organisateur": "",
+                    "equipes": sorted({t for m in ms for t in (m[1], m[2])}), "logos": {},
+                    "matchs": [{"home": m[1], "away": m[2], "hs": None, "as": None, "heure": m[3]} for m in ms],
+                    "score_illisible": False, "score_incoherent": False, "glyph_fps": [], "mini": {}, "source": "pdf",
+                })
+    return out
+
+
+def import_league_pdfs() -> None:
+    """Importe les phases du championnat publiées en PDF tant que le site ne les publie pas, et retire
+    les données du PDF dès que le site publie la même phase pour la même catégorie."""
+    srcs = CONFIG.get("league_pdfs", [])
+    if not srcs or not RAW.exists():
+        return
+    real = set()
+    pdf_files = {}
+    for p in RAW.glob("*.json"):
+        r = json.loads(p.read_text(encoding="utf-8"))
+        if r.get("source") == "pdf":
+            if p.stem.startswith(PDF_LEAGUE_PREFIX):
+                pdf_files[p.stem] = p
+        elif r.get("phase") is not None:
+            real.add((r["cat"], r["phase"]))
+    logos: dict[str, str] = {}
+    for p in RAW.glob("*.json"):
+        r = json.loads(p.read_text(encoding="utf-8"))
+        if r.get("source") != "pdf":
+            logos.update(r.get("logos", {}))
+    for src in srcs:
+        path = HERE / src["file"]
+        if not path.exists():
+            print(f"  ! fichier PDF introuvable : {path.name}", file=sys.stderr)
+            continue
+        data = json.loads(path.read_text(encoding="utf-8"))
+        live = {d for d in data["divisions"] if (d, data["phase"]) not in real}
+        removed = 0
+        for stem, f in list(pdf_files.items()):
+            if stem.startswith(f"{PDF_LEAGUE_PREFIX}") and any(stem.startswith(f"{PDF_LEAGUE_PREFIX}{d}_") for d in data["divisions"] if d not in live):
+                f.unlink()
+                pdf_files.pop(stem)
+                removed += 1
+        if removed:
+            print(f"  phase {data['phase']} publiée sur le site pour certaines catégories : {removed} plateau(x) du PDF retiré(s)")
+        if not live:
+            continue
+        aliases = load_phase2_aliases()
+        mapping, todo, uncertain = align_league_pdf(data, phase1_destinations(), aliases)
+        recs = league_pdf_records(data, live)
+        for r in recs:
+            ren = lambda t: mapping.get((r["cat"], t), t)
+            r["equipes"] = sorted({ren(t) for t in r["equipes"]})
+            for m in r["matchs"]:
+                m["home"], m["away"] = ren(m["home"]), ren(m["away"])
+            r["logos"] = {t: logos[t] for t in r["equipes"] if t in logos}
+        ts = now_iso()
+        changed = 0
+        keep = set()
+        for r in recs:
+            keep.add(r["id"])
+            old = load_raw(r["id"])
+            fields = ("equipes", "matchs", "start", "heure_connue", "lieu", "logos")
+            if old and all(old.get(k) == r.get(k) for k in fields):
+                continue
+            merged, _ = merge(old, r, ts)
+            save_raw(merged)
+            changed += 1
+        for stem, f in list(pdf_files.items()):
+            if stem not in keep and any(stem.startswith(f"{PDF_LEAGUE_PREFIX}{d}_") for d in live):
+                f.unlink()
+        tp = HERE / "phase2_a_rapprocher.json"
+        if todo:
+            tp.write_text(json.dumps({"_mode_d_emploi": "Complète phase2_aliases.json : \"clubs\": {\"nom du club dans le PDF\": \"nom officiel du club\"} ou \"equipes\": {\"u13-d1|nom PDF\": \"nom officiel complet avec numéro\"}", "a_traiter": todo}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        elif tp.exists():
+            tp.unlink()
+        n_poules = len({(r["cat"], r["poule"]) for r in recs})
+        print(f"  Phase {data['phase']} (PDF) : {n_poules} poule(s), {len(mapping)} équipe(s) rapprochée(s) de la phase 1"
+              f"{f', dont {uncertain} à vérifier (classement de phase 1 incomplet)' if uncertain else ''}"
+              f"{f', {len(todo)} cas à traiter : voir scraper/phase2_a_rapprocher.json' if todo else ''}")
+        if changed:
+            with LOG_FILE.open("a", encoding="utf-8") as f:
+                f.write(f"{paris_now().strftime('%d/%m/%Y %H:%M')} | Phase {data['phase']} U13 (PDF) | {changed} plateau(x) importé(s) ou mis à jour\n")
+
+
+def load_phase2_aliases() -> dict:
+    p = HERE / "phase2_aliases.json"
+    d = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+    return {"clubs": d.get("clubs", {}), "equipes": d.get("equipes", {})}
+
+
+def dept_map(depts: dict, site_names) -> dict:
+    """{nom du site: département} à partir de la liste donnée dans config.json (noms proches, numéro identique).
+    Un nom de la liste n'est associé qu'à un seul nom du site, le meilleur ; en cas d'égalité, rien n'est associé."""
+    out: dict[str, str] = {}
+    names = sorted(site_names)
+    for dept, entries in depts.items():
+        for e in entries:
+            we, ne = _name_tokens(e)
+            best = []
+            for n in names:
+                wn, nn = _name_tokens(n)
+                if nn != ne or not (we & wn):
+                    continue
+                best.append((len(we & wn) / len(we | wn), n))
+            best.sort(reverse=True)
+            if best and best[0][0] >= 0.5 and (len(best) == 1 or best[0][0] > best[1][0]):
+                out[best[0][1]] = dept
+    return out
+
+
 def cmd_build(_args=None) -> None:
     reresolve_all(Glyphs(HERE / "glyphs.json"))   # prend en compte les chiffres appris depuis la dernière fois
+    import_league_pdfs()                          # phases publiées en PDF avant le site
     recs = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(RAW.glob("*.json"))] if RAW.exists() else []
     by_cat = defaultdict(list)
     for r in recs:
@@ -1394,6 +1768,8 @@ def cmd_build(_args=None) -> None:
                 po["plateaux"].sort(key=lambda p: p["start"])
                 poules.append(po)
             doc["phases"].append({"n": n, "label": ph["label"], "poules": poules})
+        if c.get("depts"):
+            doc["depts"] = dept_map(c["depts"], {t for ph_ in doc["phases"] for q in ph_["poules"] for t in q["teams"]})
         file = f"{season}/{c['id']}.json"
         if write_if_changed(DATA / file, doc):
             any_changed = True
@@ -1552,7 +1928,7 @@ def cmd_discover(args) -> None:
     global _CLUBS
     _CLUBS = None
     fetcher = Fetcher(CONFIG.get("fetch_mode", "auto"))
-    fals = [int(args.fal_id)] if args.fal_id else [c["fal_id"] for c in CONFIG["categories"] if c.get("kind") != "cup"]
+    fals = [int(args.fal_id)] if args.fal_id else [c["fal_id"] for c in CONFIG["categories"] if c.get("kind") != "cup" and c.get("source") != "api" and c.get("fal_id")]
     report: list[str] = []
     for fal in fals:
         if str(fal) in teams and not args.refresh_teams and all("name" in t for t in teams[str(fal)]):
@@ -1642,7 +2018,7 @@ def cmd_sync(args) -> None:
         f.close()
         print(f"{len(found)} plateau(x) vu(s) dans les calendriers d'équipes")
     ids = sorted(found | set(read_seeds()) | ({p.stem for p in RAW.glob("*.json")} if RAW.exists() else set()))
-    ids = [sid for sid in ids if not cup_poule_key(sid)]  # module Compétitions : compté et relu à part, ci-dessous
+    ids = [sid for sid in ids if not cup_poule_key(sid) and not is_pdf_id(sid)]  # Compétitions et PDF : traités à part
     cup_cats = [c for c in CONFIG["categories"] if c.get("kind") == "cup"]
     now = paris_now()
     published = published_keys()
@@ -1666,8 +2042,24 @@ def cmd_sync(args) -> None:
     if args.dry_run:
         for sid, why, rec in todo:
             print(f"  - {sid}  {rec['cat_label'] + ' ' + rec['poule_label'] + ' ' + rec['start'] if rec else '(inconnu)'}  [{why}]")
+        # diagnostic : plateaux incomplets NON relus, et pourquoi
+        for sid in ids:
+            rec = load_raw(sid)
+            if not rec or sid in {t[0] for t in todo} or not rec["matchs"]:
+                continue
+            if all(m["hs"] is not None and m["as"] is not None for m in rec["matchs"]):
+                continue
+            if datetime.strptime(rec["start"], "%Y-%m-%dT%H:%M") > now:
+                raison = "pas encore joué"
+            elif rec.get("glyph_fps"):
+                raison = "chiffres en attente de « glyphs »"
+            elif successor_published(plateau_key(rec), rec.get("phase") or 0, rec.get("equipes", []), published):
+                raison = f"phase {rec['phase'] + 1} publiée pour une de ses équipes : arrêtée"
+            else:
+                raison = "autre"
+            print(f"  (non relu) {sid}  {rec['cat_label']} {rec['poule_label']} {rec['start'].replace('T', ' ')} : {raison}")
         return
-    refresh([sid for sid, _, _ in todo], notify=os.environ.get("NTFY_ENABLED") == "1", include_cup=True)
+    refresh([sid for sid, _, _ in todo], notify=os.environ.get("NTFY_ENABLED") == "1", include_cup=True, force=args.all)
     cmd_build()
 
 

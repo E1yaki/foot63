@@ -17,16 +17,124 @@
       "fal_id": 9639
     },
     {
-      "id": "u13-d2",
-      "label": "U13 D2",
+      "id": "u13-criterium",
+      "label": "U13 Critérium interdistrict",
       "group": "u13",
-      "fal_id": 9638
+      "source": "api",
+      "competitions": [
+        {
+          "cp_no": 460829,
+          "phase_map": {
+            "1": 2
+          }
+        }
+      ],
+      "tour_labels": {
+        "2": "Phase 2"
+      },
+      "depts": {
+        "63": [
+          "Clermont Foot 63 2",
+          "Clt A.S.M. 3",
+          "Thiers S.A 1"
+        ],
+        "03": [
+          "Ac. S. Moulins Foot 1",
+          "M Y F 03 Auvergne 1",
+          "Montlucon Football 1"
+        ],
+        "15": [
+          "Arpajon C.S. 1",
+          "Nord Lozere Ent. 1"
+        ]
+      }
     },
     {
       "id": "u13-d1",
       "label": "U13 D1",
       "group": "u13",
-      "fal_id": 9637
+      "fal_id": 9637,
+      "source": "api",
+      "competitions": [
+        {
+          "cp_no": 460673,
+          "phase_map": {
+            "1": 2
+          }
+        }
+      ],
+      "tour_labels": {
+        "2": "Phase 2"
+      }
+    },
+    {
+      "id": "u13-d2",
+      "label": "U13 D2",
+      "group": "u13",
+      "fal_id": 9638,
+      "source": "api",
+      "competitions": [
+        {
+          "cp_no": 460674,
+          "phase_map": {
+            "1": 2
+          }
+        }
+      ],
+      "tour_labels": {
+        "2": "Phase 2"
+      }
+    },
+    {
+      "id": "u13-d3",
+      "label": "U13 D3",
+      "group": "u13",
+      "source": "api",
+      "competitions": [
+        {
+          "cp_no": 460675,
+          "phase_map": {
+            "1": 2
+          }
+        }
+      ],
+      "tour_labels": {
+        "2": "Phase 2"
+      }
+    },
+    {
+      "id": "u13-d4",
+      "label": "U13 D4",
+      "group": "u13",
+      "source": "api",
+      "competitions": [
+        {
+          "cp_no": 460676,
+          "phase_map": {
+            "1": 2
+          }
+        }
+      ],
+      "tour_labels": {
+        "2": "Phase 2"
+      }
+    },
+    {
+      "id": "u13-d5",
+      "label": "U13 D5",
+      "group": "u13",
+      "source": "api",
+      "competitions": [
+        {
+          "cp_no": 460677,
+          "phase_map": {
+            "1": 2
+          }
+        }
+      ],
+      "tour_labels": {
+        "2": "Phase 2"
+      }
     },
     {
       "id": "u13-festival",
@@ -67,7 +175,7 @@
     "prefix": "foot63"
   },
   "fetch_mode": "browser",
-  "browser_headless": false,
+  "browser_headless": true,
   "bootstrap_club": {
     "clNo": 10554,
     "clCod": 525985,

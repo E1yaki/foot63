@@ -1,0 +1,568 @@
+{
+ "source": "calendrier.pdf (FFF, généré le 05/10/2026) : Festival U13, 2ème tour, poules 1 à 28, journée unique (aller) le 17/10/2026 à 14h",
+ "date": "2026-10-17",
+ "heure": "14:00",
+ "phase_label": "2ÈME TOUR",
+ "poules": [
+  {
+   "poule": 1,
+   "home": [
+    "Auzon Gr. 1",
+    "Auzon Gr. 1",
+    "Courpiere U.S. 1"
+   ],
+   "away": [
+    "Courpiere U.S. 1",
+    "Football Club Puy De 2",
+    "Football Club Puy De 2"
+   ],
+   "match_ids": [
+    79903442,
+    79903443,
+    79903444
+   ],
+   "lieu": "STADE ETIENNE BONHOMME à COURPIERE",
+   "org": "COURPIERE U.S."
+  },
+  {
+   "poule": 2,
+   "home": [
+    "Ambert Livradois Sud 3",
+    "Ambert Livradois Sud 3",
+    "Cournon F.C. 3"
+   ],
+   "away": [
+    "Cournon F.C. 3",
+    "Pont Du Chateau 2",
+    "Pont Du Chateau 2"
+   ],
+   "match_ids": [
+    79903521,
+    79903523,
+    79903524
+   ],
+   "lieu": "STADE LÉON BAGET à PONT DU CHATEAU",
+   "org": "C.S. PONT DU CHATEAU"
+  },
+  {
+   "poule": 3,
+   "home": [
+    "Auzon Gr. 2",
+    "Auzon Gr. 2",
+    "Billom S.C. 1"
+   ],
+   "away": [
+    "Billom S.C. 1",
+    "Thiers S.A 1",
+    "Thiers S.A 1"
+   ],
+   "match_ids": [
+    79904928,
+    79904929,
+    79904944
+   ],
+   "lieu": "PARC DES SPORTS ANTONIN CHASTEL 1 à THIERS",
+   "org": "THIERS SA"
+  },
+  {
+   "poule": 4,
+   "home": [
+    "Ambert Livradois Sud 1",
+    "Ambert Livradois Sud 1",
+    "Lezoux F.C. 2"
+   ],
+   "away": [
+    "Lezoux F.C. 2",
+    "Thiers S.A 2",
+    "Thiers S.A 2"
+   ],
+   "match_ids": [
+    79904946,
+    79904947,
+    79904963
+   ],
+   "lieu": "STADE MUNICIPAL 2 à AMBERT",
+   "org": "AMBERT LIVRADOIS SUD"
+  },
+  {
+   "poule": 5,
+   "home": [
+    "Lezoux F.C. 1",
+    "Lezoux F.C. 1",
+    "Pont Du Chateau 1"
+   ],
+   "away": [
+    "Pont Du Chateau 1",
+    "Rslcv 1",
+    "Rslcv 1"
+   ],
+   "match_ids": [
+    79906135,
+    79906136,
+    79906137
+   ],
+   "lieu": "STADE DU VERNADEL à LEZOUX",
+   "org": "LEZOUX F.C."
+  },
+  {
+   "poule": 6,
+   "home": [
+    "Clt Franc Rosier 2",
+    "Clt Franc Rosier 2",
+    "Football Club Puy De 1"
+   ],
+   "away": [
+    "Football Club Puy De 1",
+    "Pont De Dore 1",
+    "Pont De Dore 1"
+   ],
+   "match_ids": [
+    79906270,
+    79906321,
+    79906322
+   ],
+   "lieu": "",
+   "org": "FOOTBALL CLUB PUY DE"
+  },
+  {
+   "poule": 7,
+   "home": [
+    "Clt Foot 63 3",
+    "Clt Foot 63 3",
+    "Scb Foot Gr. 1"
+   ],
+   "away": [
+    "Scb Foot Gr. 1",
+    "Volvic Cs 1",
+    "Volvic Cs 1"
+   ],
+   "match_ids": [
+    79906323,
+    79906324,
+    79906325
+   ],
+   "lieu": "",
+   "org": "GJ SCB FOOT"
+  },
+  {
+   "poule": 8,
+   "home": [
+    "Chamalieres F.C. 2",
+    "Chamalieres F.C. 2",
+    "Clt Franc Rosier 1"
+   ],
+   "away": [
+    "Clt Franc Rosier 1",
+    "Riom F.C. 3",
+    "Riom F.C. 3"
+   ],
+   "match_ids": [
+    79906337,
+    79906338,
+    79906339
+   ],
+   "lieu": "",
+   "org": "CLERM FRANC R"
+  },
+  {
+   "poule": 9,
+   "home": [
+    "Cebazat Sports 1",
+    "Cebazat Sports 1",
+    "Clt Foot 63 4"
+   ],
+   "away": [
+    "Clt Foot 63 4",
+    "Formateur Limagne Gr 1",
+    "Formateur Limagne Gr 1"
+   ],
+   "match_ids": [
+    79906340,
+    79906341,
+    79906342
+   ],
+   "lieu": "STADE JEAN MARIE BELLIME 1 à CEBAZAT",
+   "org": "CEBAZAT SP."
+  },
+  {
+   "poule": 10,
+   "home": [
+    "Blanzat F.C. 1",
+    "Blanzat F.C. 1",
+    "Clt Foot 63 2"
+   ],
+   "away": [
+    "Clt Foot 63 2",
+    "Nord Combraille 1",
+    "Nord Combraille 1"
+   ],
+   "match_ids": [
+    79901152,
+    79901153,
+    79901155
+   ],
+   "lieu": "STADE GABRIEL MONTPIED à CLERMONT FERRAND",
+   "org": "CLERMONT FOOT 63"
+  },
+  {
+   "poule": 11,
+   "home": [
+    "Issoire U.S. 1",
+    "Issoire U.S. 1",
+    "Saux/St Babel/Brenat 2"
+   ],
+   "away": [
+    "Saux/St Babel/Brenat 2",
+    "St Amant&Tal 2",
+    "St Amant&Tal 2"
+   ],
+   "match_ids": [
+    79901481,
+    79901484,
+    79901485
+   ],
+   "lieu": "COMPLEXE SPORTIF LAVEDRINE STADE HONNEUR à ISSOIRE",
+   "org": "ISSOIRE US"
+  },
+  {
+   "poule": 12,
+   "home": [
+    "Chamalieres F.C. 1",
+    "Chamalieres F.C. 1",
+    "Clt St Jacques 2"
+   ],
+   "away": [
+    "Clt St Jacques 2",
+    "Royat A.S. 1",
+    "Royat A.S. 1"
+   ],
+   "match_ids": [
+    79901486,
+    79901545,
+    79901604
+   ],
+   "lieu": "STADE DU BREUIL à ROYAT",
+   "org": "A.S. ROYAT A.C."
+  },
+  {
+   "poule": 13,
+   "home": [
+    "Blanzat F.C. 2",
+    "Blanzat F.C. 2",
+    "Clt A.S.M. 3"
+   ],
+   "away": [
+    "Clt A.S.M. 3",
+    "Riom F.C. 1",
+    "Riom F.C. 1"
+   ],
+   "match_ids": [
+    79901795,
+    79901796,
+    79901797
+   ],
+   "lieu": "PARC DES SPORTS DU CEREY 1 à RIOM",
+   "org": "RIOM FC"
+  },
+  {
+   "poule": 14,
+   "home": [
+    "Clt A.S.M. 2",
+    "Clt A.S.M. 2",
+    "Clt Metropole F.C. 3"
+   ],
+   "away": [
+    "Clt Metropole F.C. 3",
+    "Ennezat U.S. 2",
+    "Ennezat U.S. 2"
+   ],
+   "match_ids": [
+    79901828,
+    79901829,
+    79901830
+   ],
+   "lieu": "STADE PAUL MOSNIER à ENNEZAT",
+   "org": "ENNEZAT U.S."
+  },
+  {
+   "poule": 15,
+   "home": [
+    "Beaumont U.S. 1",
+    "Beaumont U.S. 1",
+    "Clt A.S.M. F 5"
+   ],
+   "away": [
+    "Clt A.S.M. F 5",
+    "Clt St Jacques 1",
+    "Clt St Jacques 1"
+   ],
+   "match_ids": [
+    79901831,
+    79901832,
+    79901833
+   ],
+   "lieu": "STADE DE L' ESPÉRANCE ST JACQUES à CLERMONT FERRAND",
+   "org": "AS CLERMONT ST JACQU"
+  },
+  {
+   "poule": 16,
+   "home": [
+    "Auzon Gr. 3",
+    "Auzon Gr. 3",
+    "Cournon F.C. 2"
+   ],
+   "away": [
+    "Cournon F.C. 2",
+    "St Germain Lb. 1",
+    "St Germain Lb. 1"
+   ],
+   "match_ids": [
+    79902157,
+    79902158,
+    79902159
+   ],
+   "lieu": "STADE JEAN COUSTÈS 2 à ST GERMAIN LEMBRON",
+   "org": "ST GERMAIN LEMBRON"
+  },
+  {
+   "poule": 17,
+   "home": [
+    "Sancy Chavanon 1",
+    "Sancy Chavanon 1",
+    "St Amant&Tallende 1"
+   ],
+   "away": [
+    "St Amant&Tallende 1",
+    "Vic Le Comte U.S. 2",
+    "Vic Le Comte U.S. 2"
+   ],
+   "match_ids": [
+    79903361,
+    79903362,
+    79903363
+   ],
+   "lieu": "STADE MUNICIPAL JEAN TIXIER à TALLENDE",
+   "org": "ST AMANT TAL."
+  },
+  {
+   "poule": 18,
+   "home": [
+    "Cournon F.C. 1",
+    "Cournon F.C. 1",
+    "Issoire U.S. 2"
+   ],
+   "away": [
+    "Issoire U.S. 2",
+    "Scb Foot Gr. 2",
+    "Scb Foot Gr. 2"
+   ],
+   "match_ids": [
+    79903439,
+    79903440,
+    79903441
+   ],
+   "lieu": "PLAINE DE JEUX 1 à COURNON D AUVERGNE",
+   "org": "COURNON FC"
+  },
+  {
+   "poule": 19,
+   "home": [
+    "Issoire U.S. 3",
+    "Issoire U.S. 3",
+    "Plauzat Champeix 1"
+   ],
+   "away": [
+    "Plauzat Champeix 1",
+    "Veyre Monton C.O. 1",
+    "Veyre Monton C.O. 1"
+   ],
+   "match_ids": [
+    79903509,
+    79903510,
+    79903511
+   ],
+   "lieu": "STADE MUNICIPAL à PLAUZAT",
+   "org": "PLAUZAT CHAMP"
+  },
+  {
+   "poule": 20,
+   "home": [
+    "Aubiere F.C. 1",
+    "Aubiere F.C. 1",
+    "Aulnat Sportif 1"
+   ],
+   "away": [
+    "Aulnat Sportif 1",
+    "Clt Ouvoimoja 1",
+    "Clt Ouvoimoja 1"
+   ],
+   "match_ids": [
+    79903525,
+    79903526,
+    79903527
+   ],
+   "lieu": "STADE PIERRE DUCOURTIAL 1 à AULNAT",
+   "org": "AULNAT SP"
+  },
+  {
+   "poule": 21,
+   "home": [
+    "Dômes Sancy Foot 1",
+    "Dômes Sancy Foot 1",
+    "Martres De Veyre 2"
+   ],
+   "away": [
+    "Martres De Veyre 2",
+    "Val De Couze U.S 1",
+    "Val De Couze U.S 1"
+   ],
+   "match_ids": [
+    79903547,
+    79903548,
+    79903549
+   ],
+   "lieu": "STADE ÉMILE RIVE 1 à LES MARTRES DE VEYRE",
+   "org": "MARTRES DE VEYRE"
+  },
+  {
+   "poule": 22,
+   "home": [
+    "Chatel Guyon 2",
+    "Chatel Guyon 2",
+    "Lempdes Sports 1"
+   ],
+   "away": [
+    "Lempdes Sports 1",
+    "Val De Sioule Foot 1",
+    "Val De Sioule Foot 1"
+   ],
+   "match_ids": [
+    79903609,
+    79903610,
+    79903611
+   ],
+   "lieu": "STADE LES BRUYERES à MONTFERMY",
+   "org": "VAL DE SIOULE FOOT"
+  },
+  {
+   "poule": 23,
+   "home": [
+    "Gerzat Football Club 1",
+    "Gerzat Football Club 1",
+    "Mozac U.S. 1"
+   ],
+   "away": [
+    "Mozac U.S. 1",
+    "St Gervais 1",
+    "St Gervais 1"
+   ],
+   "match_ids": [
+    79903612,
+    79903613,
+    79903614
+   ],
+   "lieu": "COMPLEXE SPORTIF E. VACANT 2 à MOZAC",
+   "org": "MOZAC US"
+  },
+  {
+   "poule": 24,
+   "home": [
+    "Plauzat Champeix 2",
+    "Plauzat Champeix 2",
+    "Riom F.C. 2"
+   ],
+   "away": [
+    "Riom F.C. 2",
+    "St Amant Tal. 3",
+    "St Amant Tal. 3"
+   ],
+   "match_ids": [
+    79903636,
+    79903637,
+    79903683
+   ],
+   "lieu": "PARC DES SPORTS DU CEREY 1 à RIOM",
+   "org": "RIOM FC"
+  },
+  {
+   "poule": 25,
+   "home": [
+    "Chatel Guyon 1",
+    "Chatel Guyon 1",
+    "Clermont Foot 63 5"
+   ],
+   "away": [
+    "Clermont Foot 63 5",
+    "Clt Metropole F.C. 1",
+    "Clt Metropole F.C. 1"
+   ],
+   "match_ids": [
+    79903702,
+    79903703,
+    79903704
+   ],
+   "lieu": "",
+   "org": "FC CLERMONT METROPOL"
+  },
+  {
+   "poule": 26,
+   "home": [
+    "Clermont Academy 1",
+    "Clermont Academy 1",
+    "Clt Union Jeunesse 1"
+   ],
+   "away": [
+    "Clt Union Jeunesse 1",
+    "Ennezat U.S. 1",
+    "Ennezat U.S. 1"
+   ],
+   "match_ids": [
+    79903922,
+    79904055,
+    79904056
+   ],
+   "lieu": "STADE PAUL MOSNIER à ENNEZAT",
+   "org": "ENNEZAT U.S."
+  },
+  {
+   "poule": 27,
+   "home": [
+    "Clt Metropole F.C. 2",
+    "Clt Metropole F.C. 2",
+    "Ent. Usbm Esl 1"
+   ],
+   "away": [
+    "Ent. Usbm Esl 1",
+    "Vic Le Comte U.S. 1",
+    "Vic Le Comte U.S. 1"
+   ],
+   "match_ids": [
+    79904560,
+    79904629,
+    79904630
+   ],
+   "lieu": "STADE ANDRÉ BOSTE 1 à VIC LE COMTE",
+   "org": "VIC LE COMTE U.S."
+  },
+  {
+   "poule": 28,
+   "home": [
+    "Ceyrat 1",
+    "Ceyrat 1",
+    "Clt A.S.M. 4"
+   ],
+   "away": [
+    "Clt A.S.M. 4",
+    "Martres De Veyre 1",
+    "Martres De Veyre 1"
+   ],
+   "match_ids": [
+    79904791,
+    79904792,
+    79904793
+   ],
+   "lieu": "COMPLEXE SPORTIF GRAVANCHES N°4 à CLERMONT FERRAND",
+   "org": "MONTFERRAND A.S."
+  }
+ ]
+}
