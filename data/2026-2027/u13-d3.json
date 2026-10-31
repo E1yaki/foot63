@@ -1,0 +1,238 @@
+{
+ "id": "u13-d3",
+ "label": "U13 D3",
+ "group": "u13",
+ "fal_id": null,
+ "kind": null,
+ "season": "2026-2027",
+ "logos": {
+  "A.S. MONTFERRANDAISE 4": "https://cdn-transverse.azureedge.net/phlogos/BC508763.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2": "https://cdn-transverse.azureedge.net/phlogos/BC564515.jpg",
+  "C.S. DE VOLVIC 3": "https://cdn-transverse.azureedge.net/phlogos/BC506562.jpg",
+  "C.S. PONT DU CHATEAU 2": "https://cdn-transverse.azureedge.net/phlogos/BC520152.jpg",
+  "CLERMONT FOOT 63 4": "https://cdn-transverse.azureedge.net/phlogos/BC535789.jpg",
+  "CLERMONT FOOT 63 5": "https://cdn-transverse.azureedge.net/phlogos/BC535789.jpg",
+  "E.S. ST GERMINOISE 1": "https://cdn-transverse.azureedge.net/phlogos/BC516806.jpg",
+  "ECUREUILS FRANC ROSIER 2": "https://cdn-transverse.azureedge.net/phlogos/BC526932.jpg",
+  "ENT.F.C. ST AMANT ET TALLENDE 3": "https://cdn-transverse.azureedge.net/phlogos/BC546413.jpg",
+  "ESP. CEYRATOISE 2": "https://cdn-transverse.azureedge.net/phlogos/BC529030.jpg",
+  "F. C. CLERMONT METROPOLE 3": "https://cdn-transverse.azureedge.net/phlogos/BC582731.jpg",
+  "F.C. AUBIEROIS 1": "https://cdn-transverse.azureedge.net/phlogos/BC533145.jpg",
+  "F.C. BLANZAT 1": "https://cdn-transverse.azureedge.net/phlogos/BC533382.jpg",
+  "F.C. NORD COMBRAILLE 1": "https://cdn-transverse.azureedge.net/phlogos/BC547675.jpg",
+  "F.C. NORD LIMAGNE 1": "https://cdn-transverse.azureedge.net/phlogos/BC563628.jpg",
+  "FOOTBALL CLUB GERZAT 1": "https://cdn-transverse.azureedge.net/phlogos/BC564880.jpg",
+  "FOOTBALL CLUB PUY DE MUR 1": "https://cdn-transverse.azureedge.net/phlogos/BC564682.jpg",
+  "SANCY CHAVANON FOOT 1": "https://cdn-transverse.azureedge.net/phlogos/BC561027.jpg",
+  "U. J. CLERMONTOISE 1": "https://cdn-transverse.azureedge.net/phlogos/BC590198.jpg",
+  "U.S. LES MARTRES DE VEYRE 1": "https://cdn-transverse.azureedge.net/phlogos/BC506520.jpg",
+  "U.S. MARINGUOISE 1": "https://cdn-transverse.azureedge.net/phlogos/BC506518.jpg",
+  "U.S. ST GERVAISIENNE 1": "https://cdn-transverse.azureedge.net/phlogos/BC514515.jpg",
+  "U.S. VIC LE COMTE 2": "https://cdn-transverse.azureedge.net/phlogos/BC506559.jpg",
+  "UNION SPORTIVE BASSIN MINIER 1": "https://cdn-transverse.azureedge.net/phlogos/BC560477.jpg"
+ },
+ "phases": [
+  {
+   "n": 2,
+   "label": "Phase 2",
+   "poules": [
+    {
+     "id": "1",
+     "label": "POULE A",
+     "teams": [
+      "A.S. MONTFERRANDAISE 4",
+      "CLERMONT FOOT 63 5",
+      "F. C. CLERMONT METROPOLE 3",
+      "SANCY CHAVANON FOOT 1",
+      "U. J. CLERMONTOISE 1",
+      "U.S. LES MARTRES DE VEYRE 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460675_2_1_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°1, 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 4",
+        "CLERMONT FOOT 63 5",
+        "F. C. CLERMONT METROPOLE 3",
+        "SANCY CHAVANON FOOT 1",
+        "U. J. CLERMONTOISE 1",
+        "U.S. LES MARTRES DE VEYRE 1"
+       ],
+       "matchs": [
+        {
+         "home": "CLERMONT FOOT 63 5",
+         "away": "U. J. CLERMONTOISE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 3",
+         "away": "A.S. MONTFERRANDAISE 4",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "U.S. LES MARTRES DE VEYRE 1",
+         "away": "SANCY CHAVANON FOOT 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "label": "POULE B",
+     "teams": [
+      "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+      "E.S. ST GERMINOISE 1",
+      "ENT.F.C. ST AMANT ET TALLENDE 3",
+      "ESP. CEYRATOISE 2",
+      "U.S. VIC LE COMTE 2",
+      "UNION SPORTIVE BASSIN MINIER 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460675_2_2_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+        "E.S. ST GERMINOISE 1",
+        "ENT.F.C. ST AMANT ET TALLENDE 3",
+        "ESP. CEYRATOISE 2",
+        "U.S. VIC LE COMTE 2",
+        "UNION SPORTIVE BASSIN MINIER 1"
+       ],
+       "matchs": [
+        {
+         "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
+         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "ESP. CEYRATOISE 2",
+         "away": "U.S. VIC LE COMTE 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "E.S. ST GERMINOISE 1",
+         "away": "UNION SPORTIVE BASSIN MINIER 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "label": "POULE C",
+     "teams": [
+      "C.S. DE VOLVIC 3",
+      "CLERMONT FOOT 63 4",
+      "F.C. AUBIEROIS 1",
+      "F.C. BLANZAT 1",
+      "FOOTBALL CLUB PUY DE MUR 1",
+      "U.S. MARINGUOISE 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460675_2_3_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "C.S. DE VOLVIC 3",
+        "CLERMONT FOOT 63 4",
+        "F.C. AUBIEROIS 1",
+        "F.C. BLANZAT 1",
+        "FOOTBALL CLUB PUY DE MUR 1",
+        "U.S. MARINGUOISE 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. BLANZAT 1",
+         "away": "CLERMONT FOOT 63 4",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "C.S. DE VOLVIC 3",
+         "away": "F.C. AUBIEROIS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "U.S. MARINGUOISE 1",
+         "away": "FOOTBALL CLUB PUY DE MUR 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "label": "POULE D",
+     "teams": [
+      "C.S. PONT DU CHATEAU 2",
+      "ECUREUILS FRANC ROSIER 2",
+      "F.C. NORD COMBRAILLE 1",
+      "F.C. NORD LIMAGNE 1",
+      "FOOTBALL CLUB GERZAT 1",
+      "U.S. ST GERVAISIENNE 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460675_2_4_1",
+       "start": "2026-11-07T13:15",
+       "lieu": "STADE ROGER ROUSSEAU, RUE DU KSP LAVAL, YOUX",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 2",
+        "ECUREUILS FRANC ROSIER 2",
+        "F.C. NORD COMBRAILLE 1",
+        "F.C. NORD LIMAGNE 1",
+        "FOOTBALL CLUB GERZAT 1",
+        "U.S. ST GERVAISIENNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "ECUREUILS FRANC ROSIER 2",
+         "away": "C.S. PONT DU CHATEAU 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "U.S. ST GERVAISIENNE 1",
+         "away": "FOOTBALL CLUB GERZAT 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. NORD COMBRAILLE 1",
+         "away": "F.C. NORD LIMAGNE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

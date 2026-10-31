@@ -6,24 +6,30 @@
  "kind": null,
  "season": "2026-2027",
  "logos": {
-  "A. S. CLERMONT SAINT JACQUES FOOT 1": "logos/BC525985.jpg",
-  "A.S. MONTFERRANDAISE 2": "logos/BC508763.jpg",
+  "A. S. CLERMONT SAINT JACQUES FOOT 1": "https://cdn-transverse.azureedge.net/phlogos/BC525985.jpg",
+  "A.S. MONTFERRANDAISE 2": "https://cdn-transverse.azureedge.net/phlogos/BC508763.jpg",
   "A.S. MONTFERRANDAISE 3": "logos/BC508763.jpg",
-  "A.S. ROYAT A.C. 1": "logos/BC524117.jpg",
-  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1": "logos/BC564515.jpg",
-  "C.S. PONT DU CHATEAU 1": "logos/BC520152.jpg",
+  "A.S. ROYAT A.C. 1": "https://cdn-transverse.azureedge.net/phlogos/BC524117.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1": "https://cdn-transverse.azureedge.net/phlogos/BC564515.jpg",
+  "AULNAT SP. 1": "https://cdn-transverse.azureedge.net/phlogos/BC521920.jpg",
+  "C.S. PONT DU CHATEAU 1": "https://cdn-transverse.azureedge.net/phlogos/BC520152.jpg",
   "CEBAZAT SP. 1": "logos/BC510828.jpg",
   "CLERMONT FOOT 63 2": "logos/BC535789.jpg",
-  "ECUREUILS FRANC ROSIER 1": "logos/BC526932.jpg",
-  "ESP. CEYRATOISE 1": "logos/BC529030.jpg",
-  "F.C. COURNON D AUVERGNE 1": "logos/BC547699.jpg",
-  "F.C. RIOMOIS 1": "logos/BC508772.jpg",
+  "ECUREUILS FRANC ROSIER 1": "https://cdn-transverse.azureedge.net/phlogos/BC526932.jpg",
+  "ENT.F.C. ST AMANT ET TALLENDE 1": "https://cdn-transverse.azureedge.net/phlogos/BC546413.jpg",
+  "ESP. CEYRATOISE 1": "https://cdn-transverse.azureedge.net/phlogos/BC529030.jpg",
+  "F. C. CLERMONT METROPOLE 1": "https://cdn-transverse.azureedge.net/phlogos/BC582731.jpg",
+  "F.C. COURNON D AUVERGNE 1": "https://cdn-transverse.azureedge.net/phlogos/BC547699.jpg",
+  "F.C. RIOMOIS 1": "https://cdn-transverse.azureedge.net/phlogos/BC508772.jpg",
+  "F.C. RIOMOIS 2": "https://cdn-transverse.azureedge.net/phlogos/BC508772.jpg",
   "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1": "logos/BC560797.jpg",
-  "GJ SCB FOOT 1": "logos/BC560516.jpg",
-  "GROUPEMENT DE L'AUZON 1": "logos/BC581946.jpg",
+  "GJ SCB FOOT 1": "https://cdn-transverse.azureedge.net/phlogos/BC560516.jpg",
+  "GROUPEMENT DE L'AUZON 1": "https://cdn-transverse.azureedge.net/phlogos/BC581946.jpg",
   "GROUPEMENT FORMATEUR LIMAGNE 1": "logos/BC554404.jpg",
+  "LEMPDES SP. 1": "https://cdn-transverse.azureedge.net/phlogos/BC518527.jpg",
   "S.A. THIERNOIS 1": "logos/BC508776.jpg",
-  "U.S. ISSOIRE A. DU MAS 1": "logos/BC506507.jpg"
+  "U.S. ISSOIRE A. DU MAS 1": "https://cdn-transverse.azureedge.net/phlogos/BC506507.jpg",
+  "U.S. VIC LE COMTE 1": "https://cdn-transverse.azureedge.net/phlogos/BC506559.jpg"
  },
  "phases": [
   {
@@ -826,6 +832,159 @@
          "away": "CLERMONT FOOT 63 2",
          "hs": 1,
          "as": 1
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "label": "Phase 2",
+   "poules": [
+    {
+     "id": "1",
+     "label": "POULE A",
+     "teams": [
+      "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+      "ENT.F.C. ST AMANT ET TALLENDE 1",
+      "F.C. COURNON D AUVERGNE 1",
+      "LEMPDES SP. 1",
+      "U.S. ISSOIRE A. DU MAS 1",
+      "U.S. VIC LE COMTE 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460673_2_1_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "PLAINE DE JEUX DU MARAIS 1, RUE DU MARAIS, LEMPDES",
+       "organisateur": "",
+       "equipes": [
+        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+        "ENT.F.C. ST AMANT ET TALLENDE 1",
+        "F.C. COURNON D AUVERGNE 1",
+        "LEMPDES SP. 1",
+        "U.S. ISSOIRE A. DU MAS 1",
+        "U.S. VIC LE COMTE 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. COURNON D AUVERGNE 1",
+         "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "LEMPDES SP. 1",
+         "away": "U.S. ISSOIRE A. DU MAS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "U.S. VIC LE COMTE 1",
+         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "label": "POULE B",
+     "teams": [
+      "A.S. MONTFERRANDAISE 2",
+      "A.S. ROYAT A.C. 1",
+      "ESP. CEYRATOISE 1",
+      "F. C. CLERMONT METROPOLE 1",
+      "F.C. RIOMOIS 2",
+      "GROUPEMENT DE L'AUZON 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460673_2_2_1",
+       "start": "2026-11-07T13:00",
+       "lieu": "PARC DES SPORTS DU CEREY 3, AVENUE DE L'EUROPE, RIOM",
+       "organisateur": "",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 2",
+        "A.S. ROYAT A.C. 1",
+        "ESP. CEYRATOISE 1",
+        "F. C. CLERMONT METROPOLE 1",
+        "F.C. RIOMOIS 2",
+        "GROUPEMENT DE L'AUZON 1"
+       ],
+       "matchs": [
+        {
+         "home": "ESP. CEYRATOISE 1",
+         "away": "GROUPEMENT DE L'AUZON 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 1",
+         "away": "A.S. MONTFERRANDAISE 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. RIOMOIS 2",
+         "away": "A.S. ROYAT A.C. 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "label": "POULE C",
+     "teams": [
+      "A. S. CLERMONT SAINT JACQUES FOOT 2",
+      "AULNAT SP. 1",
+      "C.S. PONT DU CHATEAU 1",
+      "ECUREUILS FRANC ROSIER 1",
+      "F.C. RIOMOIS 1",
+      "GJ SCB FOOT 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460673_2_3_1",
+       "start": "2026-11-07T13:00",
+       "lieu": "PARC DES SPORTS DU CEREY 3, AVENUE DE L'EUROPE, RIOM",
+       "organisateur": "",
+       "equipes": [
+        "A. S. CLERMONT SAINT JACQUES FOOT 2",
+        "AULNAT SP. 1",
+        "C.S. PONT DU CHATEAU 1",
+        "ECUREUILS FRANC ROSIER 1",
+        "F.C. RIOMOIS 1",
+        "GJ SCB FOOT 1"
+       ],
+       "matchs": [
+        {
+         "home": "ECUREUILS FRANC ROSIER 1",
+         "away": "C.S. PONT DU CHATEAU 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. RIOMOIS 1",
+         "away": "AULNAT SP. 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "GJ SCB FOOT 1",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
+         "hs": null,
+         "as": null
         }
        ],
        "heure_connue": true

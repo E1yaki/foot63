@@ -6,33 +6,48 @@
  "kind": null,
  "season": "2026-2027",
  "logos": {
+  "A. S. CLERMONT SAINT JACQUES FOOT 1": "https://cdn-transverse.azureedge.net/phlogos/BC525985.jpg",
   "A. S. CLERMONT SAINT JACQUES FOOT 2": "logos/BC525985.jpg",
+  "A.S. ROYAT A.C. 2": "https://cdn-transverse.azureedge.net/phlogos/BC524117.jpg",
   "AULNAT SP. 1": "logos/BC521920.jpg",
-  "C.O. VEYRE MONTON 1": "logos/BC532169.jpg",
+  "C.O. VEYRE MONTON 1": "https://cdn-transverse.azureedge.net/phlogos/BC532169.jpg",
+  "C.S. DE VOLVIC 1": "https://cdn-transverse.azureedge.net/phlogos/BC506562.jpg",
+  "C.S. PONT DE DORE 1": "https://cdn-transverse.azureedge.net/phlogos/BC526934.jpg",
   "C.S. PONT DU CHATEAU 2": "logos/BC520152.jpg",
-  "CLERMONT FOOT 63 3": "logos/BC535789.jpg",
+  "CEBAZAT SP. 1": "https://cdn-transverse.azureedge.net/phlogos/BC510828.jpg",
+  "CLERMONT FOOT 63 3": "https://cdn-transverse.azureedge.net/phlogos/BC535789.jpg",
   "ECUREUILS FRANC ROSIER 2": "logos/BC526932.jpg",
   "ENT.F.C. ST AMANT ET TALLENDE 1": "logos/BC546413.jpg",
+  "ENT.F.C. ST AMANT ET TALLENDE 2": "https://cdn-transverse.azureedge.net/phlogos/BC546413.jpg",
   "ESP. CEYRATOISE 2": "logos/BC529030.jpg",
   "F. C. CLERMONT METROPOLE 1": "logos/BC582731.jpg",
-  "F. C. CLERMONT METROPOLE 2": "logos/BC582731.jpg",
+  "F. C. CLERMONT METROPOLE 2": "https://cdn-transverse.azureedge.net/phlogos/BC582731.jpg",
   "F. C. CLERMONT METROPOLE 3": "logos/BC582731.jpg",
   "F.C. AUBIEROIS 1": "logos/BC533145.jpg",
   "F.C. BLANZAT 1": "logos/BC533382.jpg",
+  "F.C. CHAMALIERES 1": "https://cdn-transverse.azureedge.net/phlogos/BC520923.jpg",
   "F.C. CHAMALIERES 3": "logos/BC520923.jpg",
-  "F.C. CHATEL GUYON 1": "logos/BC520289.jpg",
-  "F.C. LEZOUX 1": "logos/BC517723.jpg",
+  "F.C. CHATEL GUYON 1": "https://cdn-transverse.azureedge.net/phlogos/BC520289.jpg",
+  "F.C. LEZOUX 1": "https://cdn-transverse.azureedge.net/phlogos/BC517723.jpg",
   "F.C. RIOMOIS 2": "logos/BC508772.jpg",
-  "HAUTE COMBRAILLE FOOT 1": "logos/BC580473.jpg",
+  "F.C. RIOMOIS 3": "https://cdn-transverse.azureedge.net/phlogos/BC508772.jpg",
+  "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1": "https://cdn-transverse.azureedge.net/phlogos/BC560797.jpg",
+  "GJ SCB FOOT 2": "https://cdn-transverse.azureedge.net/phlogos/BC560516.jpg",
+  "GROUPEMENT FORMATEUR LIMAGNE 1": "https://cdn-transverse.azureedge.net/phlogos/BC554404.jpg",
+  "HAUTE COMBRAILLE FOOT 1": "https://cdn-transverse.azureedge.net/phlogos/BC580473.jpg",
   "LEMPDES SP. 1": "logos/BC518527.jpg",
-  "U.S. COURPIEROISE 1": "logos/BC506497.jpg",
-  "U.S. ISSOIRE A. DU MAS 2": "logos/BC506507.jpg",
+  "S.A. THIERNOIS 2": "https://cdn-transverse.azureedge.net/phlogos/BC508776.jpg",
+  "S.A. THIERNOIS 3": "https://cdn-transverse.azureedge.net/phlogos/BC508776.jpg",
+  "U.S. BEAUMONTOISE 1": "https://cdn-transverse.azureedge.net/phlogos/BC508949.jpg",
+  "U.S. COURPIEROISE 1": "https://cdn-transverse.azureedge.net/phlogos/BC506497.jpg",
+  "U.S. ENNEZAT 1": "https://cdn-transverse.azureedge.net/phlogos/BC506501.jpg",
+  "U.S. ISSOIRE A. DU MAS 2": "https://cdn-transverse.azureedge.net/phlogos/BC506507.jpg",
   "U.S. LES MARTRES DE VEYRE 1": "logos/BC506520.jpg",
   "U.S. ST GERVAISIENNE 1": "logos/BC514515.jpg",
   "U.S. VIC LE COMTE 1": "logos/BC506559.jpg",
   "U.S. VIC LE COMTE 2": "logos/BC506559.jpg",
   "UNION SPORTIVE BASSIN MINIER 1": "logos/BC560477.jpg",
-  "VAL DE SIOULE FOOT 1": "logos/BC582409.jpg"
+  "VAL DE SIOULE FOOT 1": "https://cdn-transverse.azureedge.net/phlogos/BC582409.jpg"
  },
  "phases": [
   {
@@ -1236,6 +1251,208 @@
          "away": "F.C. RIOMOIS 2",
          "hs": 0,
          "as": 1
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "label": "Phase 2",
+   "poules": [
+    {
+     "id": "1",
+     "label": "POULE A",
+     "teams": [
+      "C.O. VEYRE MONTON 1",
+      "ENT.F.C. ST AMANT ET TALLENDE 2",
+      "F.C. CHAMALIERES 3",
+      "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+      "U.S. BEAUMONTOISE 1",
+      "VAL DE SIOULE FOOT 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460674_2_1_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "STADE MUNICIPAL, RUE DU STADE, BROMONT LAMOTHE",
+       "organisateur": "",
+       "equipes": [
+        "C.O. VEYRE MONTON 1",
+        "ENT.F.C. ST AMANT ET TALLENDE 2",
+        "F.C. CHAMALIERES 3",
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+        "U.S. BEAUMONTOISE 1",
+        "VAL DE SIOULE FOOT 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. CHAMALIERES 3",
+         "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "VAL DE SIOULE FOOT 1",
+         "away": "C.O. VEYRE MONTON 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+         "away": "U.S. BEAUMONTOISE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "label": "POULE B",
+     "teams": [
+      "C.S. PONT DE DORE 1",
+      "GJ SCB FOOT 2",
+      "GROUPEMENT FORMATEUR LIMAGNE 1",
+      "S.A. THIERNOIS 2",
+      "U.S. COURPIEROISE 1",
+      "U.S. ISSOIRE A. DU MAS 2"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460674_2_2_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "STADE LES POINTILLOUX 1, RUE DU STADE LES POINTILLOUX, CHAPPES",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DE DORE 1",
+        "GJ SCB FOOT 2",
+        "GROUPEMENT FORMATEUR LIMAGNE 1",
+        "S.A. THIERNOIS 2",
+        "U.S. COURPIEROISE 1",
+        "U.S. ISSOIRE A. DU MAS 2"
+       ],
+       "matchs": [
+        {
+         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "away": "C.S. PONT DE DORE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "S.A. THIERNOIS 2",
+         "away": "U.S. COURPIEROISE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "GJ SCB FOOT 2",
+         "away": "U.S. ISSOIRE A. DU MAS 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "label": "POULE C",
+     "teams": [
+      "A. S. CLERMONT SAINT JACQUES FOOT 1",
+      "A.S. ROYAT A.C. 2",
+      "CLERMONT FOOT 63 3",
+      "F. C. CLERMONT METROPOLE 2",
+      "F.C. LEZOUX 1",
+      "S.A. THIERNOIS 3"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460674_2_3_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°1, 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "A. S. CLERMONT SAINT JACQUES FOOT 1",
+        "A.S. ROYAT A.C. 2",
+        "CLERMONT FOOT 63 3",
+        "F. C. CLERMONT METROPOLE 2",
+        "F.C. LEZOUX 1",
+        "S.A. THIERNOIS 3"
+       ],
+       "matchs": [
+        {
+         "home": "S.A. THIERNOIS 3",
+         "away": "A.S. ROYAT A.C. 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F. C. CLERMONT METROPOLE 2",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "CLERMONT FOOT 63 3",
+         "away": "F.C. LEZOUX 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "label": "POULE D",
+     "teams": [
+      "C.S. DE VOLVIC 1",
+      "CEBAZAT SP. 1",
+      "F.C. CHATEL GUYON 1",
+      "F.C. RIOMOIS 3",
+      "HAUTE COMBRAILLE FOOT 1",
+      "U.S. ENNEZAT 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460674_2_4_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "COMPLEXE SPORTIF LA PRADE 1, RUE DES COUTILS, CEBAZAT",
+       "organisateur": "",
+       "equipes": [
+        "C.S. DE VOLVIC 1",
+        "CEBAZAT SP. 1",
+        "F.C. CHATEL GUYON 1",
+        "F.C. RIOMOIS 3",
+        "HAUTE COMBRAILLE FOOT 1",
+        "U.S. ENNEZAT 1"
+       ],
+       "matchs": [
+        {
+         "home": "CEBAZAT SP. 1",
+         "away": "F.C. RIOMOIS 3",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "U.S. ENNEZAT 1",
+         "away": "F.C. CHATEL GUYON 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "C.S. DE VOLVIC 1",
+         "away": "HAUTE COMBRAILLE FOOT 1",
+         "hs": null,
+         "as": null
         }
        ],
        "heure_connue": true

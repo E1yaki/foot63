@@ -1,0 +1,238 @@
+{
+ "id": "u13-d4",
+ "label": "U13 D4",
+ "group": "u13",
+ "fal_id": null,
+ "kind": null,
+ "season": "2026-2027",
+ "logos": {
+  "AM. LAIQ. S. DE BESSE EGLISENEUVE 1": "https://cdn-transverse.azureedge.net/phlogos/BC529900.jpg",
+  "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3": "https://cdn-transverse.azureedge.net/phlogos/BC564515.jpg",
+  "AULNAT SP. 2": "https://cdn-transverse.azureedge.net/phlogos/BC521920.jpg",
+  "C.S. PONT DU CHATEAU 3": "https://cdn-transverse.azureedge.net/phlogos/BC520152.jpg",
+  "CLERMONT ACADEMY 1": "https://cdn-transverse.azureedge.net/phlogos/BC565247.jpg",
+  "DOMES SANCY FOOT 1": "https://cdn-transverse.azureedge.net/phlogos/BC563697.jpg",
+  "DOMES SANCY FOOT 2": "https://cdn-transverse.azureedge.net/phlogos/BC563697.jpg",
+  "F.C. CHAMALIERES 2": "https://cdn-transverse.azureedge.net/phlogos/BC520923.jpg",
+  "F.C. CHATEL GUYON 2": "https://cdn-transverse.azureedge.net/phlogos/BC520289.jpg",
+  "F.C. COURNON D AUVERGNE 2": "https://cdn-transverse.azureedge.net/phlogos/BC547699.jpg",
+  "F.C. COURNON D AUVERGNE 3": "https://cdn-transverse.azureedge.net/phlogos/BC547699.jpg",
+  "F.C. LEZOUX 2": "https://cdn-transverse.azureedge.net/phlogos/BC517723.jpg",
+  "F.C. PLAUZAT-CHAMPEIX 1": "https://cdn-transverse.azureedge.net/phlogos/BC529886.jpg",
+  "FOOTBALL CLUB PUY DE MUR 2": "https://cdn-transverse.azureedge.net/phlogos/BC564682.jpg",
+  "GJ SCB FOOT 3": "https://cdn-transverse.azureedge.net/phlogos/BC560516.jpg",
+  "GROUPEMENT DE L'AUZON 2": "https://cdn-transverse.azureedge.net/phlogos/BC581946.jpg",
+  "LEMPDES SP. 2": "https://cdn-transverse.azureedge.net/phlogos/BC518527.jpg",
+  "PERIGNAT F.C. 1": "https://cdn-transverse.azureedge.net/phlogos/BC546837.jpg",
+  "S.C. BILLOMOIS 1": "https://cdn-transverse.azureedge.net/phlogos/BC506469.jpg",
+  "U. J. CLERMONTOISE 2": "https://cdn-transverse.azureedge.net/phlogos/BC590198.jpg",
+  "U.S. LES MARTRES DE VEYRE 2": "https://cdn-transverse.azureedge.net/phlogos/BC506520.jpg",
+  "U.S. MOZAC 1": "https://cdn-transverse.azureedge.net/phlogos/BC521724.jpg",
+  "U.S. MOZAC 2": "https://cdn-transverse.azureedge.net/phlogos/BC521724.jpg",
+  "U.S. VAL DE COUZE CHAMBON 1": "https://cdn-transverse.azureedge.net/phlogos/BC542828.jpg"
+ },
+ "phases": [
+  {
+   "n": 2,
+   "label": "Phase 2",
+   "poules": [
+    {
+     "id": "1",
+     "label": "POULE A",
+     "teams": [
+      "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+      "DOMES SANCY FOOT 1",
+      "F.C. PLAUZAT-CHAMPEIX 1",
+      "FOOTBALL CLUB PUY DE MUR 2",
+      "S.C. BILLOMOIS 1",
+      "U.S. LES MARTRES DE VEYRE 2"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460676_2_1_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "STADE MARCEL BLONDELLE 1, LE BOURG, VERTOLAYE",
+       "organisateur": "",
+       "equipes": [
+        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+        "DOMES SANCY FOOT 1",
+        "F.C. PLAUZAT-CHAMPEIX 1",
+        "FOOTBALL CLUB PUY DE MUR 2",
+        "S.C. BILLOMOIS 1",
+        "U.S. LES MARTRES DE VEYRE 2"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. LES MARTRES DE VEYRE 2",
+         "away": "FOOTBALL CLUB PUY DE MUR 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+         "away": "F.C. PLAUZAT-CHAMPEIX 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "DOMES SANCY FOOT 1",
+         "away": "S.C. BILLOMOIS 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "label": "POULE B",
+     "teams": [
+      "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+      "C.S. PONT DU CHATEAU 3",
+      "F.C. CHAMALIERES 2",
+      "GROUPEMENT DE L'AUZON 2",
+      "PERIGNAT F.C. 1",
+      "U.S. VAL DE COUZE CHAMBON 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460676_2_2_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+        "C.S. PONT DU CHATEAU 3",
+        "F.C. CHAMALIERES 2",
+        "GROUPEMENT DE L'AUZON 2",
+        "PERIGNAT F.C. 1",
+        "U.S. VAL DE COUZE CHAMBON 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. VAL DE COUZE CHAMBON 1",
+         "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "PERIGNAT F.C. 1",
+         "away": "C.S. PONT DU CHATEAU 3",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. CHAMALIERES 2",
+         "away": "GROUPEMENT DE L'AUZON 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "3",
+     "label": "POULE C",
+     "teams": [
+      "AULNAT SP. 2",
+      "DOMES SANCY FOOT 2",
+      "F.C. CHATEL GUYON 2",
+      "F.C. COURNON D AUVERGNE 2",
+      "U. J. CLERMONTOISE 2",
+      "U.S. MOZAC 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460676_2_3_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "AULNAT SP. 2",
+        "DOMES SANCY FOOT 2",
+        "F.C. CHATEL GUYON 2",
+        "F.C. COURNON D AUVERGNE 2",
+        "U. J. CLERMONTOISE 2",
+        "U.S. MOZAC 1"
+       ],
+       "matchs": [
+        {
+         "home": "DOMES SANCY FOOT 2",
+         "away": "F.C. CHATEL GUYON 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "F.C. COURNON D AUVERGNE 2",
+         "away": "U. J. CLERMONTOISE 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "U.S. MOZAC 1",
+         "away": "AULNAT SP. 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    },
+    {
+     "id": "4",
+     "label": "POULE D",
+     "teams": [
+      "CLERMONT ACADEMY 1",
+      "F.C. COURNON D AUVERGNE 3",
+      "F.C. LEZOUX 2",
+      "GJ SCB FOOT 3",
+      "LEMPDES SP. 2",
+      "U.S. MOZAC 2"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460676_2_4_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "Plaine De Jeux Du Marais 2, RUE DU MARAIS, LEMPDES",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT ACADEMY 1",
+        "F.C. COURNON D AUVERGNE 3",
+        "F.C. LEZOUX 2",
+        "GJ SCB FOOT 3",
+        "LEMPDES SP. 2",
+        "U.S. MOZAC 2"
+       ],
+       "matchs": [
+        {
+         "home": "LEMPDES SP. 2",
+         "away": "GJ SCB FOOT 3",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "CLERMONT ACADEMY 1",
+         "away": "F.C. LEZOUX 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "U.S. MOZAC 2",
+         "away": "F.C. COURNON D AUVERGNE 3",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

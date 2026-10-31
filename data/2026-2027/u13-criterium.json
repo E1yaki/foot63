@@ -1,0 +1,85 @@
+{
+ "id": "u13-criterium",
+ "label": "U13 Critérium interdistrict",
+ "group": "u13",
+ "fal_id": null,
+ "kind": null,
+ "season": "2026-2027",
+ "logos": {
+  "A.S. MONTFERRANDAISE 1": "https://cdn-transverse.azureedge.net/phlogos/BC508763.jpg",
+  "AC. S.  MOULINS FOOTBALL 1": "https://cdn-transverse.azureedge.net/phlogos/BC581843.jpg",
+  "CERC.S. ARPAJONNAIS 1": "https://cdn-transverse.azureedge.net/phlogos/BC508747.jpg",
+  "CLERMONT FOOT 63 1": "https://cdn-transverse.azureedge.net/phlogos/BC535789.jpg",
+  "ENT. NORD LOZERE F. 1": "https://cdn-transverse.azureedge.net/phlogos/BC520389.jpg",
+  "MONTLUCON FOOTBALL 1": "https://cdn-transverse.azureedge.net/phlogos/BC550852.jpg",
+  "MOULINS YZEURE FOOT 03 AUVERGNE 1": "https://cdn-transverse.azureedge.net/phlogos/BC508740.jpg",
+  "S.A. THIERNOIS 1": "https://cdn-transverse.azureedge.net/phlogos/BC508776.jpg"
+ },
+ "phases": [
+  {
+   "n": 2,
+   "label": "Phase 2",
+   "poules": [
+    {
+     "id": "1",
+     "label": "POULE UNIQUE",
+     "teams": [
+      "A.S. MONTFERRANDAISE 3",
+      "AC. S.  MOULINS FOOTBALL 1",
+      "CERC.S. ARPAJONNAIS 1",
+      "CLERMONT FOOT 63 2",
+      "ENT. NORD LOZERE F. 1",
+      "MONTLUCON FOOTBALL 1",
+      "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+      "S.A. THIERNOIS 1"
+     ],
+     "plateaux": [
+      {
+       "id": "cup460829_2_1_1",
+       "start": "2026-11-07T12:00",
+       "lieu": "COMPLEXE SPORTIF GRAVANCHES N°1, RUE DU PRECOMTAL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 3",
+        "AC. S.  MOULINS FOOTBALL 1",
+        "CERC.S. ARPAJONNAIS 1",
+        "CLERMONT FOOT 63 2",
+        "ENT. NORD LOZERE F. 1",
+        "MONTLUCON FOOTBALL 1",
+        "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+        "S.A. THIERNOIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "MONTLUCON FOOTBALL 1",
+         "away": "CLERMONT FOOT 63 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "S.A. THIERNOIS 1",
+         "away": "AC. S.  MOULINS FOOTBALL 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "CERC.S. ARPAJONNAIS 1",
+         "away": "ENT. NORD LOZERE F. 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
