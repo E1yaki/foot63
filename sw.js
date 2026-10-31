@@ -1,7 +1,7 @@
 /* Service worker : fonctionne hors connexion et affiche les notifications.
    Les fichiers du site sont servis depuis le cache puis rafraîchis en arrière-plan ;
    les données (dossier data/) passent d'abord par le réseau. */
-const CACHE = 'f63-v1';
+const CACHE = 'f63-v7';
 const ASSETS = ['./', 'index.html', 'assets/style.css', 'assets/app.js', 'assets/demo.js', 'assets/icon.svg', 'manifest.webmanifest'];
 
 self.addEventListener('install', e => {
