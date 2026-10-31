@@ -81,5 +81,11 @@
     }
    ]
   }
- ]
+ ],
+ "depts": {
+  "CLERMONT FOOT 63 2": "63",
+  "AC. S.  MOULINS FOOTBALL 1": "03",
+  "MONTLUCON FOOTBALL 1": "03",
+  "ENT. NORD LOZERE F. 1": "15"
+ }
 }
