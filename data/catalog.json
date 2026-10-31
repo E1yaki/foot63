@@ -1,7 +1,7 @@
 {
  "season": "2026-2027",
- "checked_at": "2026-10-10T09:38:29Z",
- "updated_at": "2026-10-10T09:38:29Z",
+ "checked_at": "2026-10-31T15:37:02Z",
+ "updated_at": "2026-10-31T15:00:20Z",
  "ntfy": {
   "server": "https://ntfy.sh",
   "prefix": "foot63"
@@ -20,16 +20,40 @@
    "file": "2026-2027/u13-brassage.json"
   },
   {
-   "id": "u13-d2",
-   "label": "U13 D2",
+   "id": "u13-criterium",
+   "label": "U13 Critérium interdistrict",
    "group": "u13",
-   "file": "2026-2027/u13-d2.json"
+   "file": "2026-2027/u13-criterium.json"
   },
   {
    "id": "u13-d1",
    "label": "U13 D1",
    "group": "u13",
    "file": "2026-2027/u13-d1.json"
+  },
+  {
+   "id": "u13-d2",
+   "label": "U13 D2",
+   "group": "u13",
+   "file": "2026-2027/u13-d2.json"
+  },
+  {
+   "id": "u13-d3",
+   "label": "U13 D3",
+   "group": "u13",
+   "file": "2026-2027/u13-d3.json"
+  },
+  {
+   "id": "u13-d4",
+   "label": "U13 D4",
+   "group": "u13",
+   "file": "2026-2027/u13-d4.json"
+  },
+  {
+   "id": "u13-d5",
+   "label": "U13 D5",
+   "group": "u13",
+   "file": "2026-2027/u13-d5.json"
   },
   {
    "id": "u13-festival",
