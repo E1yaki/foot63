@@ -260,7 +260,40 @@
      "n": 1
     }
    ],
-   "note": "Parmi les 3 équipes du 63 : 1 monte en P3 Ligue niveau C (foot à 10), 1 monte en P3 Ligue niveau C (foot à 8), 1 se maintient."
+   "note": "Parmi les 3 équipes du 63 : 1 monte en P3 Ligue niveau C (foot à 10), 1 monte en P3 Ligue niveau C (foot à 8), 1 se maintient.",
+   "dept_tiers": {
+    "63": [
+     {
+      "rank": 1,
+      "kind": "up",
+      "label": "Monte en U13 Ligue Niveau B"
+     },
+     {
+      "rank": 2,
+      "kind": "up",
+      "label": "Monte en U13 Ligue Niveau C"
+     }
+    ],
+    "03": [
+     {
+      "rank": 1,
+      "kind": "up",
+      "label": "Monte en U13 Ligue Niveau B"
+     },
+     {
+      "rank": 2,
+      "kind": "up",
+      "label": "Monte en U13 Ligue Niveau C"
+     }
+    ],
+    "15": [
+     {
+      "rank": 1,
+      "kind": "up",
+      "label": "Monte en U13 Ligue Niveau B"
+     }
+    ]
+   }
   },
   "3": {
    "composition": {
