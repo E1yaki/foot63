@@ -260,6 +260,9 @@
       po.standings.forEach(t => {
         t.poule = po;
         t.rem = po.matches.filter(m => !m.played && (m.home === t.name || m.away === t.name)).length;
+        // Calendrier partiel (ex. phase 2 : seul l'aller est publié) : le règlement donne le total de matchs
+        // par équipe ; on ne déclare jamais une poule « terminée » tant que ce total n'est pas atteint.
+        if (comp.matches_per_team) t.rem = Math.max(t.rem, comp.matches_per_team - t.j);
         t.ppm = t.j ? t.pts / t.j : 0;
         t.tier = null; t.sure = false;
         rows.push(t);
@@ -273,6 +276,21 @@
     ph.overall = rows;
     ph.expected = flatComp.teams || rows.length;
     ph.missing = rule && !rule.groups ? Math.max(0, (flatComp.teams || 0) - rows.length) : 0;
+
+    // Rang de DIVISION après chaque journée (pour la courbe et les traits de repère des zones de division)
+    const divHist = {};
+    {
+      const cr = (rule && !rule.groups && rule.cross) || ['pos', 'ppm', 'diff', 'bp'];
+      const tbk = (rule && rule.tiebreak) || (D.rules && D.rules.tiebreak) || ['pts', 'diff', 'bp'];
+      const js = [...new Set(ph.poules.flatMap(p => p.matches.filter(m => m.played).map(m => m._j)))].sort((a, b) => a - b);
+      js.forEach(j => {
+        const objs = ph.poules.flatMap(po => standings(po.teams, po.matches, tbk, j, po._pts).map(r => ({
+          name: r.name, pos: r.pos, ppm: r.j ? r.pts / r.j : 0, diff: r.diff, bp: r.bp })));
+        sortRows(objs, cr);
+        objs.forEach((o, i) => { (divHist[o.name] = divHist[o.name] || []).push(i + 1); });
+      });
+    }
+    rows.forEach(t => { t.divHist = divHist[t.name] || []; });
 
     // Meilleure / pire place possible DANS SA PROPRE POULE : sert aux deux portées de zone, et au texte
     // d'explication (survol / fiche équipe), qui ne dépend jamais de la portée choisie.
@@ -358,6 +376,21 @@
         });
       }
     });
+
+    // Sorties par DÉPARTEMENT (Critérium interdistrict phase 2) : rang dans les équipes d'un même département,
+    // d'après le classement de division. Provisoire tant que toutes les équipes du département n'ont pas fini.
+    if (rule && rule.dept_tiers && cat.depts) {
+      Object.entries(rule.dept_tiers).forEach(([dept, specs]) => {
+        const grp = ph.overall.filter(t => cat.depts[t.name] === dept).sort((a, b) => a.rank - b.rank);
+        const done = grp.length > 0 && grp.every(t => t.rem === 0);
+        grp.forEach((t, i) => {
+          const spec = specs.find(x => x.rank === i + 1);
+          if (!spec) return;
+          t.tier = { kind: spec.kind, label: spec.label, from: spec.rank, to: spec.rank, dept };
+          t.sure = done;
+        });
+      });
+    }
   }
 
   function teamEvents(po, name) {
@@ -416,21 +449,25 @@
     return rule && rule.zones ? rule.zones.find(z => pos >= z.from && pos <= z.to) : null;
   }
 
-  function spark(ranks, n) {
+  function spark(ranks, n, marks = []) {
     if (ranks.length < 2) return '';
     const w = 150, h = 40, pad = 5;
     const x = i => pad + i * (w - 2 * pad) / (ranks.length - 1);
     const y = r => (n <= 1 ? h / 2 : pad + (r - 1) * (h - 2 * pad) / (n - 1));
     const pts = ranks.map((r, i) => `${x(i).toFixed(1)},${y(r).toFixed(1)}`).join(' ');
     const last = ranks.length - 1;
-    return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Évolution de la place : ${ranks.join(', ')}"><polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${x(last).toFixed(1)}" cy="${y(ranks[last]).toFixed(1)}" r="4" fill="var(--accent)"/></svg>`;
+    // traits de repère : frontière entre deux zones (ex. après le 3e rang = montée)
+    const lines = marks.map(m => `<line x1="0" x2="${w}" y1="${y(m.pos + 0.5).toFixed(1)}" y2="${y(m.pos + 0.5).toFixed(1)}" stroke="${m.color}" stroke-width="1" stroke-dasharray="3 3"/>`).join('');
+    return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Évolution de la place : ${ranks.join(', ')}">${lines}<polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${x(last).toFixed(1)}" cy="${y(ranks[last]).toFixed(1)}" r="4" fill="var(--accent)"/></svg>`;
   }
 
   /* ============================================================
      Navigation (barre de catégories / phases / poules)
      ============================================================ */
   function resolveScope(a = {}) {
-    const wantPh = a.ph != null ? Number(a.ph) : (S.scope && S.scope.ph);
+    // Sans phase demandée explicitement, on ouvre TOUJOURS la dernière phase disponible (tour 2 avant tour 1,
+    // phase 2 avant phase 1), et non la phase mémorisée.
+    const wantPh = a.ph != null ? Number(a.ph) : null;
     let cat = D.byCat.get(a.cat) || D.byCat.get(S.scope && S.scope.cat) || D.categories[0];
     if (wantPh != null && !cat.phases.some(p => p.n === wantPh)) {
       // cette catégorie n'a pas (ou plus) cette phase : bascule vers la première qui l'a (de préférence
@@ -443,8 +480,7 @@
     const sameCat = S.scope && S.scope.cat === cat.id;
     const hasData = p => p.poules.some(po => po.plateaux.length);
     const ph = cat.phases.find(p => p.n === wantPh)
-      || (sameCat && cat.phases.find(p => p.n === S.scope.ph))
-      || [...cat.phases].reverse().find(hasData) || cat.phases[0];
+      || [...cat.phases].reverse().find(hasData) || cat.phases[cat.phases.length - 1];
     const po = ph.poules.find(p => p.id === a.po)
       || (sameCat && S.scope.ph === ph.n && ph.poules.find(p => p.id === S.scope.po))
       || ph.poules.find(p => p.teams.some(t => S.favs.has(fkey(cat.id, t))))
@@ -464,7 +500,7 @@
       const champCats = D.categories.filter(c => c.kind !== 'cup');
       if (!champCats.length) return resolveScope({ cat: D.categories[0].id });
       const phNums = [...new Set(champCats.flatMap(c => c.phases.map(p => p.n)))];
-      const want = (S.scope && phNums.includes(S.scope.ph)) ? S.scope.ph : Math.max(...phNums);
+      const want = Math.max(...phNums);   // dernière phase du championnat, toujours
       const remembered = S.scope && D.byCat.get(S.scope.cat);
       const base = (remembered && remembered.kind !== 'cup') ? remembered : champCats[0];
       const cat = champCats.find(c => c.id === base.id && c.phases.some(p => p.n === want))
@@ -803,6 +839,71 @@
       .flatMap(ap => teamEvents(ap.po, name).map(e => ({ ...e, ap })));
   }
 
+  // Résumé de saison : forme, V-N-D, buts sur TOUS les matchs joués du championnat
+  function seasonSummary(key) {
+    const played = familyEvents(key, false)
+      .flatMap(e => e.ms.filter(m => m.played).map(m => ({ ...m, when: e.when })))
+      .sort((x, y) => x.when - y.when);
+    const r = { j: played.length, v: 0, n: 0, d: 0, f: 0, c: 0, form: played.slice(-5).map(m => m.res) };
+    played.forEach(m => {
+      r.f += m.f; r.c += m.c;
+      if (m.res === 'V') r.v++; else if (m.res === 'N') r.n++; else r.d++;
+    });
+    return r;
+  }
+
+  // Tampon d'angle : montée (vert), descente (rouge), maintien (blanc), ou libellé de la destination
+  function stampHTML(st) {
+    if (!st) return '';
+    const t = st.tier;
+    // Hors zone : « Maintien » est acquis dès que l'équipe n'a plus de match à jouer dans sa poule
+    // (le classement final dépend alors des autres poules, mais une équipe sans zone reste en place).
+    const prov = t ? st.sure === false : st.rem > 0;
+    let cls = 'keep', txt = 'Maintien';
+    if (t) {
+      if (t.kind === 'up') { cls = 'up'; txt = t.label || 'Montée'; }
+      else if (t.kind === 'down') { cls = 'down'; txt = t.label || 'Descente'; }
+      else { cls = 'keep'; txt = t.label || 'Destination'; }
+    }
+    return `<span class="stamp ${cls}${prov ? ' prov' : ''}">${esc(txt)}${prov ? ' · provisoire' : ''}</span>`;
+  }
+
+  // Un bloc par phase du championnat : cadre (classement, courbe avec repères), matchs, boutons propres à la phase
+  function phaseBlockHTML(key, ap, name, evs) {
+    const st = ap.po.standings.find(t => t.name === name);
+    const up = evs.filter(isUpcoming).sort((x, y) => x.when - y.when);
+    const past = evs.filter(e => !isUpcoming(e)).sort((x, y) => y.when - x.when);
+    const n = ap.po.standings.length;
+    // repères : seulement les zones exprimées en rang de poule (les zones de division ne se lisent pas sur la courbe de poule)
+    const colorOf = t => t.kind === 'up' ? 'var(--k-up)' : t.kind === 'down' ? 'var(--k-down)' : 'var(--ink-2)';
+    const ov = ap.ph.overall.find(t => t.name === name);
+    const divScope = (ap.ph.tiers || []).some(t => t.scope !== 'poule');
+    const useDiv = divScope && ov && ov.divHist && ov.divHist.length > 1;
+    const ranks = useDiv ? ov.divHist : (ap.po.rankHist[name] || []);
+    const nRanks = useDiv ? ap.ph.overall.length : n;
+    const marks = useDiv
+      ? (ap.ph.tiers || []).filter(t => t.scope !== 'poule' && Number.isFinite(t.from) && Number.isFinite(t.to))
+          .map(t => ({ pos: t.kind === 'down' ? t.from - 1 : t.to, color: colorOf(t) }))
+      : (ap.ph.tiers || []).filter(t => t.scope === 'poule' && Number.isInteger(t.to))
+          .map(t => ({ pos: t.to, color: colorOf(t) }));
+    const cadre = st && st.j ? `<div class="sh-stats">
+        <div class="big-rank">${st.pos}<small>${ord(st.pos)} sur ${n}</small></div>
+        <div class="kv"><span><b>${st.pts}</b> pts</span><span><b>${st.j}</b> joués</span><span><b>${st.g}-${st.n}-${st.p}</b> V-N-D</span><span><b>${st.bp}–${st.bc}</b> buts</span></div>
+        ${stampHTML(st)}
+        ${st.rem > 0 || st.tier ? `<p class="why">${st.rem > 0 ? `Il reste ${games(st.rem)} : de ${st.pts} à ${st.maxF} points possibles, place finale possible : ${nth(st.bestPos)}${st.bestPos === st.worstPos ? '' : ' à ' + nth(st.worstPos)}.` : 'Poule terminée pour cette équipe.'}${st.tier ? ' ' + esc(zoneText(st)) : ''}</p>` : ''}
+        <div class="spark">${ranks.length > 1 ? `<figure>${spark(ranks, nRanks, marks)}<figcaption>${useDiv ? 'Rang de division' : 'Place'} après chaque journée</figcaption></figure>` : ''}<figure>${dots(st.form)}<figcaption>Derniers matchs</figcaption></figure></div></div>`
+      : `<div class="sh-stats"><div class="kv">Aucun match joué pour l’instant.</div></div>`;
+    return `<section class="ph-block">
+      <h3 class="ph-title">${esc(ap.ph.label)} · ${esc(ap.cat.label)} · ${esc(ap.po.label)}</h3>
+      ${cadre}
+      ${up.length ? `<h4>À venir</h4><ul class="evs">${up.map(e => evItem(e, e.ap)).join('')}</ul>` : ''}
+      ${past.length ? `<h4>Résultats</h4><ul class="evs">${past.map(e => evItem(e, e.ap)).join('')}</ul>` : ''}
+      <div class="sh-foot">
+        ${up.length ? `<button class="btn primary" type="button" data-action="ics" data-key="${esc(key)}" data-i="${D.appear.get(key).indexOf(ap)}" data-ph="${ap.ph.n}">${icon('cal')}Ajouter les plateaux à l’agenda</button>` : ''}
+        <a class="btn" href="#/classement/${ap.cat.id}/${ap.ph.n}/${ap.po.id}">Voir la poule</a>
+      </div></section>`;
+  }
+
   function sheetHTML(key, i) {
     const apps = D.appear.get(key) || [];
     const clicked = apps[i] || apps[0];
@@ -810,23 +911,42 @@
     const name = nameOfKey(key);
     const cup = isCupAp(clicked);
     const famApps = apps.filter(a => isCupAp(a) === cup);      // apps est trié : phase la plus récente d'abord
+    const tabs = [[false, 'Championnat'], [true, 'Festival U13']].filter(([c]) => apps.some(a => isCupAp(a) === c));
+    const refs = tabs.length > 1 ? `<div class="sh-refs">${tabs.map(([c, label]) => `<button class="pill sm" type="button" data-open="${esc(key)}" data-i="${apps.findIndex(a => isCupAp(a) === c)}" ${c === cup ? 'aria-current="true"' : ''}>${label}</button>`).join('')}</div>` : '';
+    const head = (ap) => `<header class="sh-head">${avatar(name, 'lg')}<div><h2>${esc(pretty(name))}</h2><p class="sub">${esc(ap.cat.label)} · ${esc(ap.ph.label)} · ${esc(ap.po.label)}</p></div>${starBtn(key)}<button class="star" type="button" data-action="close-sheet" aria-label="Fermer">${icon('close')}</button></header>`;
+
+    if (!cup) {
+      // ---- Championnat : résumé de saison, puis un bloc par phase (la plus récente en premier)
+      const sum = seasonSummary(key);
+      const summary = `<section class="season-card">
+          ${dots(sum.form)}
+          <span><b>${sum.v}-${sum.n}-${sum.d}</b> V-N-D</span>
+          <span><b>${sum.f}-${sum.c}</b> buts</span>
+          <span>${sum.j} matchs joués</span></section>`;
+      const champApps = famApps.slice().sort((x, y) => y.ph.n - x.ph.n);
+      const seen = new Set();
+      const blocks = champApps.filter(a => (seen.has(a.ph.n) ? false : (seen.add(a.ph.n), true)))
+        .map(ap => phaseBlockHTML(key, ap, name, familyEvents(key, false).filter(e => e.ap.ph.n === ap.ph.n)))
+        .join('');
+      const first = champApps[0];
+      return `${head(first)}${refs}<div class="sh-body">${summary}${blocks}</div>`;
+    }
+
+    // ---- Festival : tous les tours et toutes les poules de la compétition
     const ap = famApps.includes(clicked) ? clicked : famApps[0];
     const st = ap.po.standings.find(t => t.name === name);
-    const all = familyEvents(key, cup);
+    const all = familyEvents(key, true);
     const up = all.filter(isUpcoming).sort((x, y) => x.when - y.when);
     const past = all.filter(e => !isUpcoming(e)).sort((x, y) => y.when - x.when);
     const stub = up.length ? null : nextTourStub(ap, name);
     const upShown = stub ? [stub] : up;
-    const tabs = [[false, 'Championnat'], [true, 'Festival U13']].filter(([c]) => apps.some(a => isCupAp(a) === c));
-    const refs = tabs.length > 1 ? `<div class="sh-refs">${tabs.map(([c, label]) => `<button class="pill sm" type="button" data-open="${esc(key)}" data-i="${apps.findIndex(a => isCupAp(a) === c)}" ${c === cup ? 'aria-current="true"' : ''}>${label}</button>`).join('')}</div>` : '';
     const stats = st && st.j ? `<section class="sh-stats">
         <div class="big-rank">${st.pos}<small>${ord(st.pos)} sur ${ap.po.standings.length}</small></div>
         <div class="kv"><span><b>${st.pts}</b> pts</span><span><b>${st.j}</b> joués</span><span><b>${st.g}-${st.n}-${st.p}</b> V-N-D</span><span><b>${st.bp}–${st.bc}</b> buts</span></div>
         ${st.rem > 0 || st.tier ? `<p class="why">${st.rem > 0 ? `Il reste ${games(st.rem)} : de ${st.pts} à ${st.maxF} points possibles, place finale possible dans la poule : ${nth(st.bestPos)}${st.bestPos === st.worstPos ? '' : ' à ' + nth(st.worstPos)}.` : 'Poule terminée pour cette équipe.'}${st.tier ? ' ' + esc(zoneText(st)) : ''}</p>` : ''}
         <div class="spark">${(ap.po.rankHist[name] || []).length > 1 ? `<figure>${spark(ap.po.rankHist[name], ap.po.standings.length)}<figcaption>Place après chaque journée</figcaption></figure>` : ''}<figure>${dots(st.form)}<figcaption>Derniers matchs</figcaption></figure></div></section>`
       : `<section class="sh-stats"><div class="kv">Aucun match joué pour l’instant.</div></section>`;
-    return `<header class="sh-head">${avatar(name, 'lg')}<div><h2>${esc(pretty(name))}</h2><p class="sub">${esc(ap.cat.label)} · ${esc(ap.ph.label)} · ${esc(ap.po.label)}</p></div>${starBtn(key)}<button class="star" type="button" data-action="close-sheet" aria-label="Fermer">${icon('close')}</button></header>
-      ${refs}
+    return `${head(ap)}${refs}
       <div class="sh-body">${stats}
         ${upShown.length ? `<section><h3>À venir</h3><ul class="evs">${upShown.map(e => evItem(e, e.stub ? null : e.ap)).join('')}</ul></section>` : ''}
         ${past.length ? `<section><h3>Résultats</h3><ul class="evs">${past.map(e => evItem(e, e.ap)).join('')}</ul></section>` : ''}
@@ -836,9 +956,6 @@
         </div></div>`;
   }
 
-  /* Fenêtres modales (fiche équipe, recherche) et bouton « précédent » : voir bind() pour l'écouteur
-     popstate qui referme la fenêtre quand ce point d'arrêt est dépassé. */
-  let modalNav = false;
   function openModal(dlg) {
     if (dlg.open) return;
     dlg.showModal();
@@ -919,12 +1036,12 @@
   }
   const icsDate = d => `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}T${String(d.getHours()).padStart(2, '0')}${String(d.getMinutes()).padStart(2, '0')}00`;
 
-  function exportIcs(key, i = 0) {
+  function exportIcs(key, i = 0, ph = null) {
     const apps = D.appear.get(key) || [];
     const clicked = apps[i] || apps[0];
     if (!clicked) return;
     const name = nameOfKey(key);
-    const evs = familyEvents(key, isCupAp(clicked)).filter(isUpcoming).sort((x, y) => x.when - y.when);
+    const evs = familyEvents(key, isCupAp(clicked)).filter(e => isUpcoming(e) && (ph == null || e.ap.ph.n === ph)).sort((x, y) => x.when - y.when);
     if (!evs.length) { toast('Aucun plateau à venir'); return; }
     const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Foot animation 63//FR', 'CALSCALE:GREGORIAN', `X-WR-CALNAME:${icsEsc(pretty(name))}`];
     evs.forEach(e => {
@@ -955,7 +1072,7 @@
     'close-sheet': () => requestClose($('#sheet')),
     'close-search': () => requestClose($('#search')),
     search: openSearch,
-    ics: el => exportIcs(el.dataset.key, Number(el.dataset.i || 0)),
+    ics: el => exportIcs(el.dataset.key, Number(el.dataset.i || 0), el.dataset.ph != null ? Number(el.dataset.ph) : null),
     'notif-on': async () => {
       if (!('Notification' in window)) return;
       const r = await Notification.requestPermission();
@@ -1106,7 +1223,7 @@
   }
 
   async function init() {
-    console.info('[Foot animation 63] version app 2026-10-10 (rangs de division par comparaison de paires, festival 2 compétitions)');
+    console.info('[Foot animation 63] version app 2026-10-16 (critérium : sorties par département)');
     applyTheme();
     $('#theme-btn').addEventListener('click', toggleTheme);
     prepare(await loadData());
