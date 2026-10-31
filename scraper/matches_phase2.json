@@ -1,0 +1,2533 @@
+{
+ "source": "Calendrier-U13.pdf (FFF, phase 2 U13, aller seulement ; retours non publiés)",
+ "phase": 2,
+ "phase_label": "Phase 2",
+ "divisions": {
+  "u13-criterium": {
+   "poules": {
+    "U": {
+     "label": "Poule unique",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05",
+      "2026-12-12",
+      "2027-01-23"
+     ],
+     "teams": [
+      "Ac. S. Moulins Foot 1",
+      "Arpajon C.S. 1",
+      "Clermont Foot 63 1",
+      "Clt A.S.M. 1",
+      "M Y F 03 Auvergne 1",
+      "Montlucon Football 1",
+      "Nord Lozere Ent. 1",
+      "Thiers S.A 1"
+     ],
+     "matches": [
+      [
+       1,
+       "Arpajon C.S. 1",
+       "Nord Lozere Ent. 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Clt A.S.M. 1",
+       "M Y F 03 Auvergne 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Montlucon Football 1",
+       "Clermont Foot 63 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Thiers S.A 1",
+       "Ac. S. Moulins Foot 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Clermont Foot 63 1",
+       "Ac. S. Moulins Foot 1",
+       "14:00"
+      ],
+      [
+       2,
+       "M Y F 03 Auvergne 1",
+       "Montlucon Football 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Arpajon C.S. 1",
+       "Thiers S.A 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Nord Lozere Ent. 1",
+       "Clt A.S.M. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Clt A.S.M. 1",
+       "Arpajon C.S. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Ac. S. Moulins Foot 1",
+       "M Y F 03 Auvergne 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Montlucon Football 1",
+       "Nord Lozere Ent. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Thiers S.A 1",
+       "Clermont Foot 63 1",
+       "14:00"
+      ],
+      [
+       4,
+       "M Y F 03 Auvergne 1",
+       "Clermont Foot 63 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Nord Lozere Ent. 1",
+       "Ac. S. Moulins Foot 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Clt A.S.M. 1",
+       "Thiers S.A 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Arpajon C.S. 1",
+       "Montlucon Football 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Montlucon Football 1",
+       "Clt A.S.M. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Ac. S. Moulins Foot 1",
+       "Arpajon C.S. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Clermont Foot 63 1",
+       "Nord Lozere Ent. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Thiers S.A 1",
+       "M Y F 03 Auvergne 1",
+       "14:00"
+      ],
+      [
+       6,
+       "Nord Lozere Ent. 1",
+       "M Y F 03 Auvergne 1",
+       "14:00"
+      ],
+      [
+       6,
+       "Arpajon C.S. 1",
+       "Clermont Foot 63 1",
+       "14:00"
+      ],
+      [
+       6,
+       "Montlucon Football 1",
+       "Thiers S.A 1",
+       "14:00"
+      ],
+      [
+       6,
+       "Clt A.S.M. 1",
+       "Ac. S. Moulins Foot 1",
+       "14:00"
+      ],
+      [
+       7,
+       "Ac. S. Moulins Foot 1",
+       "Montlucon Football 1",
+       "14:00"
+      ],
+      [
+       7,
+       "Clermont Foot 63 1",
+       "Clt A.S.M. 1",
+       "14:00"
+      ],
+      [
+       7,
+       "M Y F 03 Auvergne 1",
+       "Arpajon C.S. 1",
+       "14:00"
+      ],
+      [
+       7,
+       "Nord Lozere Ent. 1",
+       "Thiers S.A 1",
+       "14:00"
+      ]
+     ]
+    }
+   }
+  },
+  "u13-d1": {
+   "poules": {
+    "A": {
+     "label": "Poule A",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Ambert Livradois Sud 1",
+      "Cournon F.C. 1",
+      "Issoire U.S. 1",
+      "Lempdes Sports 1",
+      "St Amant&Tallende 1",
+      "Vic Le Comte U.S. 1"
+     ],
+     "matches": [
+      [
+       1,
+       "Cournon F.C. 1",
+       "St Amant&Tallende 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Lempdes Sports 1",
+       "Issoire U.S. 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Vic Le Comte U.S. 1",
+       "Ambert Livradois Sud 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Issoire U.S. 1",
+       "Ambert Livradois Sud 1",
+       "14:00"
+      ],
+      [
+       2,
+       "St Amant&Tallende 1",
+       "Lempdes Sports 1",
+       "16:00"
+      ],
+      [
+       2,
+       "Cournon F.C. 1",
+       "Vic Le Comte U.S. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Lempdes Sports 1",
+       "Cournon F.C. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Ambert Livradois Sud 1",
+       "St Amant&Tallende 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Vic Le Comte U.S. 1",
+       "Issoire U.S. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "St Amant&Tallende 1",
+       "Issoire U.S. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Cournon F.C. 1",
+       "Ambert Livradois Sud 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Lempdes Sports 1",
+       "Vic Le Comte U.S. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Ambert Livradois Sud 1",
+       "Lempdes Sports 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Issoire U.S. 1",
+       "Cournon F.C. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "St Amant&Tallende 1",
+       "Vic Le Comte U.S. 1",
+       "16:00"
+      ]
+     ]
+    },
+    "B": {
+     "label": "Poule B",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Auzon Gr. 1",
+      "Ceyrat 1",
+      "Clt A.S.M. 2",
+      "Clt Metropole F.C. 1",
+      "Riom F.C. 2",
+      "Royat A.S. 1"
+     ],
+     "matches": [
+      [
+       1,
+       "Ceyrat 1",
+       "Auzon Gr. 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Clt Metropole F.C. 1",
+       "Clt A.S.M. 2",
+       "14:00"
+      ],
+      [
+       1,
+       "Riom F.C. 2",
+       "Royat A.S. 1",
+       "13:00"
+      ],
+      [
+       2,
+       "Clt A.S.M. 2",
+       "Royat A.S. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Auzon Gr. 1",
+       "Clt Metropole F.C. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Ceyrat 1",
+       "Riom F.C. 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Clt Metropole F.C. 1",
+       "Ceyrat 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Royat A.S. 1",
+       "Auzon Gr. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Riom F.C. 2",
+       "Clt A.S.M. 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Auzon Gr. 1",
+       "Clt A.S.M. 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Ceyrat 1",
+       "Royat A.S. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Clt Metropole F.C. 1",
+       "Riom F.C. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Royat A.S. 1",
+       "Clt Metropole F.C. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Clt A.S.M. 2",
+       "Ceyrat 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Auzon Gr. 1",
+       "Riom F.C. 2",
+       "14:00"
+      ]
+     ]
+    },
+    "C": {
+     "label": "Poule C",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Aulnat Sportif 1",
+      "Clt Franc Rosier 1",
+      "Clt St Jacques 1",
+      "Pont Du Chateau 1",
+      "Riom F.C. 1",
+      "Scb Foot Gr. 1"
+     ],
+     "matches": [
+      [
+       1,
+       "Clt Franc Rosier 1",
+       "Pont Du Chateau 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Scb Foot Gr. 1",
+       "Clt St Jacques 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Riom F.C. 1",
+       "Aulnat Sportif 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Clt St Jacques 1",
+       "Aulnat Sportif 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Pont Du Chateau 1",
+       "Scb Foot Gr. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Clt Franc Rosier 1",
+       "Riom F.C. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Scb Foot Gr. 1",
+       "Clt Franc Rosier 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Aulnat Sportif 1",
+       "Pont Du Chateau 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Riom F.C. 1",
+       "Clt St Jacques 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Pont Du Chateau 1",
+       "Clt St Jacques 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Clt Franc Rosier 1",
+       "Aulnat Sportif 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Scb Foot Gr. 1",
+       "Riom F.C. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Aulnat Sportif 1",
+       "Scb Foot Gr. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Clt St Jacques 1",
+       "Clt Franc Rosier 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Pont Du Chateau 1",
+       "Riom F.C. 1",
+       "14:00"
+      ]
+     ]
+    }
+   }
+  },
+  "u13-d2": {
+   "poules": {
+    "A": {
+     "label": "Poule A",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Beaumont U.S. 1",
+      "Chamalieres F.C. 1",
+      "Saux St Babelbrenat 1",
+      "St Amant&Tal 2",
+      "Val De Sioule Foot 1",
+      "Veyre Monton C.O. 1"
+     ],
+     "matches": [
+      [
+       1,
+       "Chamalieres F.C. 1",
+       "St Amant&Tal 2",
+       "14:00"
+      ],
+      [
+       1,
+       "Val De Sioule Foot 1",
+       "Veyre Monton C.O. 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Saux St Babelbrenat 1",
+       "Beaumont U.S. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "St Amant&Tal 2",
+       "Val De Sioule Foot 1",
+       "16:00"
+      ],
+      [
+       2,
+       "Veyre Monton C.O. 1",
+       "Beaumont U.S. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Chamalieres F.C. 1",
+       "Saux St Babelbrenat 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Val De Sioule Foot 1",
+       "Chamalieres F.C. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Beaumont U.S. 1",
+       "St Amant&Tal 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Saux St Babelbrenat 1",
+       "Veyre Monton C.O. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Chamalieres F.C. 1",
+       "Beaumont U.S. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "St Amant&Tal 2",
+       "Veyre Monton C.O. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Val De Sioule Foot 1",
+       "Saux St Babelbrenat 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Beaumont U.S. 1",
+       "Val De Sioule Foot 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Veyre Monton C.O. 1",
+       "Chamalieres F.C. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "St Amant&Tal 2",
+       "Saux St Babelbrenat 1",
+       "16:00"
+      ]
+     ]
+    },
+    "B": {
+     "label": "Poule B",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Courpiere U.S. 1",
+      "Formateur Limagne Gr 1",
+      "Issoire U.S. 2",
+      "Pont De Dore 1",
+      "Scb Foot Gr. 2",
+      "Thiers S.A 2"
+     ],
+     "matches": [
+      [
+       1,
+       "Formateur Limagne Gr 1",
+       "Pont De Dore 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Thiers S.A 2",
+       "Courpiere U.S. 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Scb Foot Gr. 2",
+       "Issoire U.S. 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Formateur Limagne Gr 1",
+       "Thiers S.A 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Issoire U.S. 2",
+       "Courpiere U.S. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Pont De Dore 1",
+       "Scb Foot Gr. 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Courpiere U.S. 1",
+       "Pont De Dore 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Scb Foot Gr. 2",
+       "Formateur Limagne Gr 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Thiers S.A 2",
+       "Issoire U.S. 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Formateur Limagne Gr 1",
+       "Courpiere U.S. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Pont De Dore 1",
+       "Issoire U.S. 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Scb Foot Gr. 2",
+       "Thiers S.A 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Pont De Dore 1",
+       "Thiers S.A 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Courpiere U.S. 1",
+       "Scb Foot Gr. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Issoire U.S. 2",
+       "Formateur Limagne Gr 1",
+       "14:00"
+      ]
+     ]
+    },
+    "C": {
+     "label": "Poule C",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Clt Foot 63 3",
+      "Clt Metropole F.C. 2",
+      "Clt St Jacques 1",
+      "Lezoux F.C. 1",
+      "Royat A.S. 2",
+      "Thiers Sa 3"
+     ],
+     "matches": [
+      [
+       1,
+       "Thiers Sa 3",
+       "Royat A.S. 2",
+       "14:00"
+      ],
+      [
+       1,
+       "Clt Metropole F.C. 2",
+       "Clt St Jacques 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Clt Foot 63 3",
+       "Lezoux F.C. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Clt St Jacques 1",
+       "Royat A.S. 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Lezoux F.C. 1",
+       "Clt Metropole F.C. 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Clt Foot 63 3",
+       "Thiers Sa 3",
+       "14:00"
+      ],
+      [
+       3,
+       "Thiers Sa 3",
+       "Clt St Jacques 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Clt Metropole F.C. 2",
+       "Clt Foot 63 3",
+       "14:00"
+      ],
+      [
+       3,
+       "Royat A.S. 2",
+       "Lezoux F.C. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Clt Metropole F.C. 2",
+       "Thiers Sa 3",
+       "14:00"
+      ],
+      [
+       4,
+       "Lezoux F.C. 1",
+       "Clt St Jacques 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Clt Foot 63 3",
+       "Royat A.S. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Royat A.S. 2",
+       "Clt Metropole F.C. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Clt St Jacques 1",
+       "Clt Foot 63 3",
+       "14:00"
+      ],
+      [
+       5,
+       "Lezoux F.C. 1",
+       "Thiers Sa 3",
+       "14:00"
+      ]
+     ]
+    },
+    "D": {
+     "label": "Poule D",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Cebazat Sports 1",
+      "Chatel Guyon 1",
+      "Ennezat U.S. 1",
+      "Hte Combraille Foot 1",
+      "Riom F.C. 3",
+      "Volvic Cs 1"
+     ],
+     "matches": [
+      [
+       1,
+       "Cebazat Sports 1",
+       "Riom F.C. 3",
+       "14:00"
+      ],
+      [
+       1,
+       "Ennezat U.S. 1",
+       "Chatel Guyon 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Volvic Cs 1",
+       "Hte Combraille Foot 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Cebazat Sports 1",
+       "Volvic Cs 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Chatel Guyon 1",
+       "Hte Combraille Foot 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Riom F.C. 3",
+       "Ennezat U.S. 1",
+       "13:00"
+      ],
+      [
+       3,
+       "Volvic Cs 1",
+       "Chatel Guyon 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Ennezat U.S. 1",
+       "Cebazat Sports 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Hte Combraille Foot 1",
+       "Riom F.C. 3",
+       "14:00"
+      ],
+      [
+       4,
+       "Riom F.C. 3",
+       "Chatel Guyon 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Cebazat Sports 1",
+       "Hte Combraille Foot 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Ennezat U.S. 1",
+       "Volvic Cs 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Riom F.C. 3",
+       "Volvic Cs 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Chatel Guyon 1",
+       "Cebazat Sports 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Hte Combraille Foot 1",
+       "Ennezat U.S. 1",
+       "14:00"
+      ]
+     ]
+    }
+   }
+  },
+  "u13-d3": {
+   "poules": {
+    "A": {
+     "label": "Poule A",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Clermont Foot 63 5",
+      "Clt A.S.M. 4",
+      "Clt Metropole F.C. 3",
+      "Clt Union Jeunesse 1",
+      "Martres De Veyre 1",
+      "Sancy Chavanon 1"
+     ],
+     "matches": [
+      [
+       1,
+       "Clermont Foot 63 5",
+       "Clt Union Jeunesse 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Clt Metropole F.C. 3",
+       "Clt A.S.M. 4",
+       "14:00"
+      ],
+      [
+       1,
+       "Martres De Veyre 1",
+       "Sancy Chavanon 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Clt A.S.M. 4",
+       "Sancy Chavanon 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Clt Union Jeunesse 1",
+       "Clt Metropole F.C. 3",
+       "14:00"
+      ],
+      [
+       2,
+       "Clermont Foot 63 5",
+       "Martres De Veyre 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Clt Metropole F.C. 3",
+       "Clermont Foot 63 5",
+       "14:00"
+      ],
+      [
+       3,
+       "Sancy Chavanon 1",
+       "Clt Union Jeunesse 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Martres De Veyre 1",
+       "Clt A.S.M. 4",
+       "14:00"
+      ],
+      [
+       4,
+       "Clt Union Jeunesse 1",
+       "Clt A.S.M. 4",
+       "14:00"
+      ],
+      [
+       4,
+       "Clermont Foot 63 5",
+       "Sancy Chavanon 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Clt Metropole F.C. 3",
+       "Martres De Veyre 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Sancy Chavanon 1",
+       "Clt Metropole F.C. 3",
+       "14:00"
+      ],
+      [
+       5,
+       "Clt A.S.M. 4",
+       "Clermont Foot 63 5",
+       "14:00"
+      ],
+      [
+       5,
+       "Clt Union Jeunesse 1",
+       "Martres De Veyre 1",
+       "14:00"
+      ]
+     ]
+    },
+    "B": {
+     "label": "Poule B",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Ambert Livradois Sud 2",
+      "Bassin M Lemp A Ent. 1",
+      "Ceyrat 2",
+      "St Amant Tal. 3",
+      "St Germain Lb. 1",
+      "Vic Le Comte U.S. 2"
+     ],
+     "matches": [
+      [
+       1,
+       "St Amant Tal. 3",
+       "Ambert Livradois Sud 2",
+       "14:00"
+      ],
+      [
+       1,
+       "Ceyrat 2",
+       "Vic Le Comte U.S. 2",
+       "14:00"
+      ],
+      [
+       1,
+       "St Germain Lb. 1",
+       "Bassin M Lemp A Ent. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Vic Le Comte U.S. 2",
+       "St Germain Lb. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Bassin M Lemp A Ent. 1",
+       "Ambert Livradois Sud 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Ceyrat 2",
+       "St Amant Tal. 3",
+       "14:00"
+      ],
+      [
+       3,
+       "Ambert Livradois Sud 2",
+       "Vic Le Comte U.S. 2",
+       "14:00"
+      ],
+      [
+       3,
+       "St Germain Lb. 1",
+       "Ceyrat 2",
+       "14:00"
+      ],
+      [
+       3,
+       "St Amant Tal. 3",
+       "Bassin M Lemp A Ent. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "St Germain Lb. 1",
+       "St Amant Tal. 3",
+       "14:00"
+      ],
+      [
+       4,
+       "Vic Le Comte U.S. 2",
+       "Bassin M Lemp A Ent. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Ceyrat 2",
+       "Ambert Livradois Sud 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Ambert Livradois Sud 2",
+       "St Germain Lb. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Vic Le Comte U.S. 2",
+       "St Amant Tal. 3",
+       "14:00"
+      ],
+      [
+       5,
+       "Bassin M Lemp A Ent. 1",
+       "Ceyrat 2",
+       "14:00"
+      ]
+     ]
+    },
+    "C": {
+     "label": "Poule C",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Aubiere F.C. 1",
+      "Blanzat F.C. 1",
+      "Clt Foot 63 4",
+      "Maringues U.S. 1",
+      "Puy De Mur F.C. 1",
+      "Volvic Cs 3"
+     ],
+     "matches": [
+      [
+       1,
+       "Blanzat F.C. 1",
+       "Clt Foot 63 4",
+       "14:00"
+      ],
+      [
+       1,
+       "Volvic Cs 3",
+       "Aubiere F.C. 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Maringues U.S. 1",
+       "Puy De Mur F.C. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Aubiere F.C. 1",
+       "Blanzat F.C. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Clt Foot 63 4",
+       "Puy De Mur F.C. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Volvic Cs 3",
+       "Maringues U.S. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Blanzat F.C. 1",
+       "Volvic Cs 3",
+       "14:00"
+      ],
+      [
+       3,
+       "Puy De Mur F.C. 1",
+       "Aubiere F.C. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Maringues U.S. 1",
+       "Clt Foot 63 4",
+       "14:00"
+      ],
+      [
+       4,
+       "Aubiere F.C. 1",
+       "Clt Foot 63 4",
+       "14:00"
+      ],
+      [
+       4,
+       "Volvic Cs 3",
+       "Puy De Mur F.C. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Blanzat F.C. 1",
+       "Maringues U.S. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Clt Foot 63 4",
+       "Volvic Cs 3",
+       "14:00"
+      ],
+      [
+       5,
+       "Puy De Mur F.C. 1",
+       "Blanzat F.C. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Aubiere F.C. 1",
+       "Maringues U.S. 1",
+       "14:00"
+      ]
+     ]
+    },
+    "D": {
+     "label": "Poule D",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Clt Franc Rosier 2",
+      "Gerzat Football Club 1",
+      "Nord Combraille 1",
+      "Nord Limagne F.C. 1",
+      "Pont Du Chateau 2",
+      "St Gervais 1"
+     ],
+     "matches": [
+      [
+       1,
+       "Clt Franc Rosier 2",
+       "Pont Du Chateau 2",
+       "14:00"
+      ],
+      [
+       1,
+       "St Gervais 1",
+       "Gerzat Football Club 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Nord Combraille 1",
+       "Nord Limagne F.C. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Clt Franc Rosier 2",
+       "St Gervais 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Nord Limagne F.C. 1",
+       "Gerzat Football Club 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Pont Du Chateau 2",
+       "Nord Combraille 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Gerzat Football Club 1",
+       "Pont Du Chateau 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Nord Combraille 1",
+       "Clt Franc Rosier 2",
+       "14:00"
+      ],
+      [
+       3,
+       "St Gervais 1",
+       "Nord Limagne F.C. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Clt Franc Rosier 2",
+       "Gerzat Football Club 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Pont Du Chateau 2",
+       "Nord Limagne F.C. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Nord Combraille 1",
+       "St Gervais 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Pont Du Chateau 2",
+       "St Gervais 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Gerzat Football Club 1",
+       "Nord Combraille 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Nord Limagne F.C. 1",
+       "Clt Franc Rosier 2",
+       "14:00"
+      ]
+     ]
+    }
+   }
+  },
+  "u13-d4": {
+   "poules": {
+    "A": {
+     "label": "Poule A",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Ambert Livradois Sud 3",
+      "Billom S.C. 1",
+      "Dômes Sancy Foot 1",
+      "Martres De Veyre 2",
+      "Plauzat Champeix 1",
+      "Puy De Mur F.C. 2"
+     ],
+     "matches": [
+      [
+       1,
+       "Martres De Veyre 2",
+       "Puy De Mur F.C. 2",
+       "14:00"
+      ],
+      [
+       1,
+       "Ambert Livradois Sud 3",
+       "Plauzat Champeix 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Dômes Sancy Foot 1",
+       "Billom S.C. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Ambert Livradois Sud 3",
+       "Martres De Veyre 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Billom S.C. 1",
+       "Puy De Mur F.C. 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Plauzat Champeix 1",
+       "Dômes Sancy Foot 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Martres De Veyre 2",
+       "Billom S.C. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Dômes Sancy Foot 1",
+       "Ambert Livradois Sud 3",
+       "14:00"
+      ],
+      [
+       3,
+       "Puy De Mur F.C. 2",
+       "Plauzat Champeix 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Ambert Livradois Sud 3",
+       "Puy De Mur F.C. 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Plauzat Champeix 1",
+       "Billom S.C. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Dômes Sancy Foot 1",
+       "Martres De Veyre 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Billom S.C. 1",
+       "Ambert Livradois Sud 3",
+       "14:00"
+      ],
+      [
+       5,
+       "Puy De Mur F.C. 2",
+       "Dômes Sancy Foot 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Plauzat Champeix 1",
+       "Martres De Veyre 2",
+       "14:00"
+      ]
+     ]
+    },
+    "B": {
+     "label": "Poule B",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Auzon Gr. 2",
+      "Besse Egliseneuve 1",
+      "Chamalieres F.C. 2",
+      "Perignat Sarlieve 1",
+      "Pont Du Chateau 3",
+      "Val De Couze U.S 1"
+     ],
+     "matches": [
+      [
+       1,
+       "Val De Couze U.S 1",
+       "Besse Egliseneuve 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Chamalieres F.C. 2",
+       "Auzon Gr. 2",
+       "14:00"
+      ],
+      [
+       1,
+       "Perignat Sarlieve 1",
+       "Pont Du Chateau 3",
+       "14:00"
+      ],
+      [
+       2,
+       "Chamalieres F.C. 2",
+       "Val De Couze U.S 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Pont Du Chateau 3",
+       "Besse Egliseneuve 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Auzon Gr. 2",
+       "Perignat Sarlieve 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Perignat Sarlieve 1",
+       "Chamalieres F.C. 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Besse Egliseneuve 1",
+       "Auzon Gr. 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Val De Couze U.S 1",
+       "Pont Du Chateau 3",
+       "14:00"
+      ],
+      [
+       4,
+       "Chamalieres F.C. 2",
+       "Besse Egliseneuve 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Perignat Sarlieve 1",
+       "Val De Couze U.S 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Auzon Gr. 2",
+       "Pont Du Chateau 3",
+       "14:00"
+      ],
+      [
+       5,
+       "Besse Egliseneuve 1",
+       "Perignat Sarlieve 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Pont Du Chateau 3",
+       "Chamalieres F.C. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Auzon Gr. 2",
+       "Val De Couze U.S 1",
+       "14:00"
+      ]
+     ]
+    },
+    "C": {
+     "label": "Poule C",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Aulnat Sportif 2",
+      "Chatel Guyon 2",
+      "Clt Union Jeunesse 2",
+      "Cournon F.C. 2",
+      "Dômes Sancy Foot 2",
+      "Mozac U.S. 1"
+     ],
+     "matches": [
+      [
+       1,
+       "Dômes Sancy Foot 2",
+       "Chatel Guyon 2",
+       "14:00"
+      ],
+      [
+       1,
+       "Cournon F.C. 2",
+       "Clt Union Jeunesse 2",
+       "14:00"
+      ],
+      [
+       1,
+       "Mozac U.S. 1",
+       "Aulnat Sportif 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Chatel Guyon 2",
+       "Aulnat Sportif 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Clt Union Jeunesse 2",
+       "Dômes Sancy Foot 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Cournon F.C. 2",
+       "Mozac U.S. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Aulnat Sportif 2",
+       "Clt Union Jeunesse 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Dômes Sancy Foot 2",
+       "Cournon F.C. 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Mozac U.S. 1",
+       "Chatel Guyon 2",
+       "15:15"
+      ],
+      [
+       4,
+       "Clt Union Jeunesse 2",
+       "Chatel Guyon 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Cournon F.C. 2",
+       "Aulnat Sportif 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Dômes Sancy Foot 2",
+       "Mozac U.S. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Aulnat Sportif 2",
+       "Dômes Sancy Foot 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Chatel Guyon 2",
+       "Cournon F.C. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Clt Union Jeunesse 2",
+       "Mozac U.S. 1",
+       "14:00"
+      ]
+     ]
+    },
+    "D": {
+     "label": "Poule D",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Clermont Academy 1",
+      "Cournon F.C. 3",
+      "Lempdes Sports 2",
+      "Lezoux F.C. 2",
+      "Mozac U.S. 2",
+      "Scb Foot Gr. 3"
+     ],
+     "matches": [
+      [
+       1,
+       "Lempdes Sports 2",
+       "Scb Foot Gr. 3",
+       "14:00"
+      ],
+      [
+       1,
+       "Clermont Academy 1",
+       "Lezoux F.C. 2",
+       "14:00"
+      ],
+      [
+       1,
+       "Mozac U.S. 2",
+       "Cournon F.C. 3",
+       "14:00"
+      ],
+      [
+       2,
+       "Lezoux F.C. 2",
+       "Lempdes Sports 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Scb Foot Gr. 3",
+       "Cournon F.C. 3",
+       "14:00"
+      ],
+      [
+       2,
+       "Clermont Academy 1",
+       "Mozac U.S. 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Mozac U.S. 2",
+       "Scb Foot Gr. 3",
+       "14:00"
+      ],
+      [
+       3,
+       "Lempdes Sports 2",
+       "Clermont Academy 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Cournon F.C. 3",
+       "Lezoux F.C. 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Lezoux F.C. 2",
+       "Scb Foot Gr. 3",
+       "14:00"
+      ],
+      [
+       4,
+       "Lempdes Sports 2",
+       "Mozac U.S. 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Clermont Academy 1",
+       "Cournon F.C. 3",
+       "14:00"
+      ],
+      [
+       5,
+       "Lezoux F.C. 2",
+       "Mozac U.S. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Cournon F.C. 3",
+       "Lempdes Sports 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Scb Foot Gr. 3",
+       "Clermont Academy 1",
+       "14:00"
+      ]
+     ]
+    }
+   }
+  },
+  "u13-d5": {
+   "poules": {
+    "A": {
+     "label": "Poule A",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Aubiere F.C. 2",
+      "Beaumont U.S. 2",
+      "Beaur Mois Bou Ent 1",
+      "Ennezat U.S. 2",
+      "Plauzat Champeix 2",
+      "Saux/St Babel/Brenat 2"
+     ],
+     "matches": [
+      [
+       1,
+       "Ennezat U.S. 2",
+       "Beaur Mois Bou Ent 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Saux/St Babel/Brenat 2",
+       "Beaumont U.S. 2",
+       "14:00"
+      ],
+      [
+       1,
+       "Plauzat Champeix 2",
+       "Aubiere F.C. 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Beaur Mois Bou Ent 1",
+       "Beaumont U.S. 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Aubiere F.C. 2",
+       "Ennezat U.S. 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Plauzat Champeix 2",
+       "Saux/St Babel/Brenat 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Saux/St Babel/Brenat 2",
+       "Beaur Mois Bou Ent 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Ennezat U.S. 2",
+       "Plauzat Champeix 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Beaumont U.S. 2",
+       "Aubiere F.C. 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Ennezat U.S. 2",
+       "Saux/St Babel/Brenat 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Aubiere F.C. 2",
+       "Beaur Mois Bou Ent 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Plauzat Champeix 2",
+       "Beaumont U.S. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Beaumont U.S. 2",
+       "Ennezat U.S. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Beaur Mois Bou Ent 1",
+       "Plauzat Champeix 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Aubiere F.C. 2",
+       "Saux/St Babel/Brenat 2",
+       "14:00"
+      ]
+     ]
+    },
+    "B": {
+     "label": "Poule B",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Aydat Fr 1",
+      "Non affecté 2",
+      "Romagnat A.S. 1",
+      "Val De Sioule Foot 2",
+      "Veyre Monton C.O. 2",
+      "Vic Le Comte U.S. 3"
+     ],
+     "matches": [
+      [
+       1,
+       "Vic Le Comte U.S. 3",
+       "Aydat Fr 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Non affecté 2",
+       "Romagnat A.S. 1",
+       null
+      ],
+      [
+       1,
+       "Val De Sioule Foot 2",
+       "Veyre Monton C.O. 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Non affecté 2",
+       "Vic Le Comte U.S. 3",
+       null
+      ],
+      [
+       2,
+       "Veyre Monton C.O. 2",
+       "Aydat Fr 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Romagnat A.S. 1",
+       "Val De Sioule Foot 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Val De Sioule Foot 2",
+       "Non affecté 2",
+       null
+      ],
+      [
+       3,
+       "Aydat Fr 1",
+       "Romagnat A.S. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Vic Le Comte U.S. 3",
+       "Veyre Monton C.O. 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Non affecté 2",
+       "Aydat Fr 1",
+       null
+      ],
+      [
+       4,
+       "Val De Sioule Foot 2",
+       "Vic Le Comte U.S. 3",
+       "14:00"
+      ],
+      [
+       4,
+       "Romagnat A.S. 1",
+       "Veyre Monton C.O. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Aydat Fr 1",
+       "Val De Sioule Foot 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Veyre Monton C.O. 2",
+       "Non affecté 2",
+       null
+      ],
+      [
+       5,
+       "Romagnat A.S. 1",
+       "Vic Le Comte U.S. 3",
+       "14:00"
+      ]
+     ]
+    },
+    "C": {
+     "label": "Poule C",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Chamalieres F.C. 3",
+      "Clt A.S.M. F 5",
+      "Gerzat Football Club 2",
+      "Issoire U.S. 3",
+      "Nord Combraille 2",
+      "Royat A.S. 3"
+     ],
+     "matches": [
+      [
+       1,
+       "Nord Combraille 2",
+       "Issoire U.S. 3",
+       "14:00"
+      ],
+      [
+       1,
+       "Clt A.S.M. F 5",
+       "Royat A.S. 3",
+       "14:00"
+      ],
+      [
+       1,
+       "Chamalieres F.C. 3",
+       "Gerzat Football Club 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Issoire U.S. 3",
+       "Gerzat Football Club 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Royat A.S. 3",
+       "Nord Combraille 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Clt A.S.M. F 5",
+       "Chamalieres F.C. 3",
+       "14:00"
+      ],
+      [
+       3,
+       "Nord Combraille 2",
+       "Clt A.S.M. F 5",
+       "14:00"
+      ],
+      [
+       3,
+       "Gerzat Football Club 2",
+       "Royat A.S. 3",
+       "14:00"
+      ],
+      [
+       3,
+       "Chamalieres F.C. 3",
+       "Issoire U.S. 3",
+       "14:00"
+      ],
+      [
+       4,
+       "Clt A.S.M. F 5",
+       "Gerzat Football Club 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Royat A.S. 3",
+       "Issoire U.S. 3",
+       "14:00"
+      ],
+      [
+       4,
+       "Nord Combraille 2",
+       "Chamalieres F.C. 3",
+       "14:00"
+      ],
+      [
+       5,
+       "Issoire U.S. 3",
+       "Clt A.S.M. F 5",
+       "14:00"
+      ],
+      [
+       5,
+       "Gerzat Football Club 2",
+       "Nord Combraille 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Royat A.S. 3",
+       "Chamalieres F.C. 3",
+       "14:00"
+      ]
+     ]
+    },
+    "D": {
+     "label": "Poule D",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Aulnat Sportif 3",
+      "Bassin M Lemp A Ent. 2",
+      "Charblot Ent. 1",
+      "Courpiere U.S. 2",
+      "Formateur Limagne Gr 2",
+      "Menetrol U.S. 1"
+     ],
+     "matches": [
+      [
+       1,
+       "Menetrol U.S. 1",
+       "Courpiere U.S. 2",
+       "14:00"
+      ],
+      [
+       1,
+       "Formateur Limagne Gr 2",
+       "Charblot Ent. 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Aulnat Sportif 3",
+       "Bassin M Lemp A Ent. 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Formateur Limagne Gr 2",
+       "Menetrol U.S. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Bassin M Lemp A Ent. 2",
+       "Courpiere U.S. 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Charblot Ent. 1",
+       "Aulnat Sportif 3",
+       "14:00"
+      ],
+      [
+       3,
+       "Aulnat Sportif 3",
+       "Formateur Limagne Gr 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Courpiere U.S. 2",
+       "Charblot Ent. 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Menetrol U.S. 1",
+       "Bassin M Lemp A Ent. 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Aulnat Sportif 3",
+       "Menetrol U.S. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Formateur Limagne Gr 2",
+       "Courpiere U.S. 2",
+       "14:00"
+      ],
+      [
+       4,
+       "Charblot Ent. 1",
+       "Bassin M Lemp A Ent. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Courpiere U.S. 2",
+       "Aulnat Sportif 3",
+       "14:00"
+      ],
+      [
+       5,
+       "Bassin M Lemp A Ent. 2",
+       "Formateur Limagne Gr 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Charblot Ent. 1",
+       "Menetrol U.S. 1",
+       "14:00"
+      ]
+     ]
+    },
+    "E": {
+     "label": "Poule E",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Blanzat F.C. 2",
+      "Cebazat Sports 2",
+      "Clt Ouvoimoja 1",
+      "Dore Allier Gr. 1",
+      "Luzillat Charnat V. 1",
+      "Volvic Cs 2"
+     ],
+     "matches": [
+      [
+       1,
+       "Volvic Cs 2",
+       "Luzillat Charnat V. 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Cebazat Sports 2",
+       "Dore Allier Gr. 1",
+       "14:00"
+      ],
+      [
+       1,
+       "Blanzat F.C. 2",
+       "Clt Ouvoimoja 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Cebazat Sports 2",
+       "Volvic Cs 2",
+       "14:00"
+      ],
+      [
+       2,
+       "Clt Ouvoimoja 1",
+       "Luzillat Charnat V. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Dore Allier Gr. 1",
+       "Blanzat F.C. 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Volvic Cs 2",
+       "Clt Ouvoimoja 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Blanzat F.C. 2",
+       "Cebazat Sports 2",
+       "14:00"
+      ],
+      [
+       3,
+       "Luzillat Charnat V. 1",
+       "Dore Allier Gr. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Cebazat Sports 2",
+       "Luzillat Charnat V. 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Dore Allier Gr. 1",
+       "Clt Ouvoimoja 1",
+       "14:00"
+      ],
+      [
+       4,
+       "Blanzat F.C. 2",
+       "Volvic Cs 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Clt Ouvoimoja 1",
+       "Cebazat Sports 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Luzillat Charnat V. 1",
+       "Blanzat F.C. 2",
+       "14:00"
+      ],
+      [
+       5,
+       "Dore Allier Gr. 1",
+       "Volvic Cs 2",
+       "14:00"
+      ]
+     ]
+    },
+    "F": {
+     "label": "Poule F",
+     "dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05"
+     ],
+     "teams": [
+      "Ambert Livradois Sud 4",
+      "Auzon Gr. 3",
+      "Durolle Foot 1",
+      "Job As 1",
+      "St Germain Lb. 1",
+      "Thiers Sa 4"
+     ],
+     "matches": [
+      [
+       1,
+       "Ambert Livradois Sud 4",
+       "Durolle Foot 1",
+       "14:00"
+      ],
+      [
+       1,
+       "St Germain Lb. 1",
+       "Auzon Gr. 3",
+       "14:00"
+      ],
+      [
+       1,
+       "Thiers Sa 4",
+       "Job As 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Durolle Foot 1",
+       "St Germain Lb. 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Auzon Gr. 3",
+       "Job As 1",
+       "14:00"
+      ],
+      [
+       2,
+       "Ambert Livradois Sud 4",
+       "Thiers Sa 4",
+       "14:00"
+      ],
+      [
+       3,
+       "St Germain Lb. 1",
+       "Ambert Livradois Sud 4",
+       "14:00"
+      ],
+      [
+       3,
+       "Job As 1",
+       "Durolle Foot 1",
+       "14:00"
+      ],
+      [
+       3,
+       "Thiers Sa 4",
+       "Auzon Gr. 3",
+       "14:00"
+      ],
+      [
+       4,
+       "Durolle Foot 1",
+       "Auzon Gr. 3",
+       "14:00"
+      ],
+      [
+       4,
+       "Ambert Livradois Sud 4",
+       "Job As 1",
+       "14:00"
+      ],
+      [
+       4,
+       "St Germain Lb. 1",
+       "Thiers Sa 4",
+       "14:00"
+      ],
+      [
+       5,
+       "Auzon Gr. 3",
+       "Ambert Livradois Sud 4",
+       "14:00"
+      ],
+      [
+       5,
+       "Job As 1",
+       "St Germain Lb. 1",
+       "14:00"
+      ],
+      [
+       5,
+       "Durolle Foot 1",
+       "Thiers Sa 4",
+       "14:00"
+      ]
+     ]
+    }
+   }
+  }
+ }
+}

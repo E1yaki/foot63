@@ -1220,6 +1220,48 @@ def write_unresolved_numbers() -> None:
         f.unlink()
 
 
+def pdf_matches_fill(cat_id: str, session_ts: str) -> None:
+    """Journées de phase 2 PRÉSENTES dans le PDF (matches_phase2.json) mais ABSENTES de l'API : on les crée
+    à partir du PDF (date, heure, équipes). Dès que l'API publie la journée, la version PDF est retirée."""
+    p = HERE / "matches_phase2.json"
+    if not p.exists() or not RAW.exists():
+        return
+    data = json.loads(p.read_text(encoding="utf-8"))["divisions"].get(cat_id)
+    api_keys: set[tuple[str, int]] = set()
+    for f in RAW.glob(f"cup*_2_*_*.json"):
+        r = json.loads(f.read_text(encoding="utf-8"))
+        if r.get("source") == "pdf" or r.get("cat") != cat_id:
+            continue
+        lab = (r.get("poule_label") or "").replace("POULE", "").strip()
+        api_keys.add(("U" if lab.upper() == "UNIQUE" else lab, int(r["id"].rsplit("_", 1)[-1])))
+    for f in RAW.glob(f"pdfm_{cat_id}_*.json"):
+        f.unlink()
+    if not data:
+        return
+    recs = []
+    for letter, poule in data["poules"].items():
+        for j in sorted({m[0] for m in poule["matches"]}):
+            if (letter, j) in api_keys or j > len(poule["dates"]):
+                continue
+            ms = [m for m in poule["matches"] if m[0] == j]
+            heures = sorted(m[3] for m in ms if m[3])
+            recs.append({
+                "id": f"pdfm_{cat_id}_{letter}_{j}", "cat": cat_id, "cat_label": None, "phase": 2, "phase_label": "Phase 2",
+                "poule": letter, "poule_label": poule["label"], "start": f"{poule['dates'][j - 1]}T{heures[0] if heures else '14:00'}",
+                "heure_connue": True, "lieu": "", "organisateur": "",
+                "equipes": sorted({t for m in ms for t in (m[1], m[2])}), "logos": {},
+                "matchs": [{"home": m[1], "away": m[2], "hs": None, "as": None} for m in ms],
+                "score_illisible": False, "score_incoherent": False, "glyph_fps": [], "mini": {}, "source": "pdf",
+            })
+    if recs:
+        recs, _ = relabel_league_records(recs, cat_id)
+        ts = session_ts
+        for r in recs:
+            merged, _ = merge(None, r, ts)
+            save_raw(merged)
+        print(f"  {cat_id} : {len(recs)} journée(s) de phase 2 complétée(s) depuis le PDF (absentes de l'API)")
+
+
 def sync_cup_category(session: requests.Session, cat: dict, ts: str, force: bool = False) -> list[dict]:
     """Un passage complet sur une catégorie « cup » : relit chaque poule de chaque compétition (appels JSON
     légers, sans Chromium). Les phases annoncées en PDF servent tant que le site ne les publie pas."""
@@ -1247,6 +1289,8 @@ def sync_cup_category(session: requests.Session, cat: dict, ts: str, force: bool
                 print(f"  ! {cat['id']} phase {phase_global} poule {stage_number} : {e}", file=sys.stderr)
             time.sleep(CONFIG.get("cup_delay_seconds", 0.3))
     primary = cup_competitions(cat)[0]["cp_no"]
+    if cat.get("source") == "api" and any(c.get("phase_map") for c in cup_competitions(cat)):
+        pdf_matches_fill(cat["id"], ts)
     # une phase publiée par l'API remplace les anciens plateaux PDF de cette catégorie
     for f in (RAW.glob(f"pdfl_{cat['id']}_*.json") if RAW.exists() else []):
         if published_here:
@@ -1468,10 +1512,11 @@ def natural_key(s: str) -> list:
 # (le club dont l'équipe 2 monte en D1 y apparaît comme « … 1 »), donc le numéro ne suffit pas à les relier à la
 # phase 1 : on s'appuie sur les qualifications réelles, recalculées ici à partir des scores archivés.
 PDF_LEAGUE_PREFIX = "pdfl_"
+PDF_MATCH_PREFIX = "pdfm_"
 
 
 def is_pdf_id(sid: str) -> bool:
-    return sid.startswith(PDF_LEAGUE_PREFIX)
+    return sid.startswith((PDF_LEAGUE_PREFIX, PDF_MATCH_PREFIX))
 
 
 def _split_team(name: str) -> tuple[str, int]:
