@@ -37,7 +37,7 @@
       {
        "id": "cup460829_2_1_1",
        "start": "2026-11-07T12:00",
-       "lieu": "COMPLEXE SPORTIF GRAVANCHES N°1, RUE DU PRECOMTAL, CLERMONT FERRAND",
+       "lieu": "Stade Dunlop 3, SANS  CHEMIN DE MAUPERTUIS, MONTLUCON",
        "organisateur": "",
        "equipes": [
         "A.S. MONTFERRANDAISE 3",
@@ -50,12 +50,6 @@
         "S.A. THIERNOIS 1"
        ],
        "matchs": [
-        {
-         "home": "A.S. MONTFERRANDAISE 3",
-         "away": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
-         "hs": null,
-         "as": null
-        },
         {
          "home": "MONTLUCON FOOTBALL 1",
          "away": "CLERMONT FOOT 63 2",
@@ -71,6 +65,270 @@
         {
          "home": "CERC.S. ARPAJONNAIS 1",
          "away": "ENT. NORD LOZERE F. 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "cup460829_2_1_2",
+       "start": "2026-11-14T10:30",
+       "lieu": "STADE GABRIEL MONTPIED 5, 19 RUE ADRIEN MABRUT, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 3",
+        "AC. S.  MOULINS FOOTBALL 1",
+        "CERC.S. ARPAJONNAIS 1",
+        "CLERMONT FOOT 63 2",
+        "ENT. NORD LOZERE F. 1",
+        "MONTLUCON FOOTBALL 1",
+        "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+        "S.A. THIERNOIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "CLERMONT FOOT 63 2",
+         "away": "AC. S.  MOULINS FOOTBALL 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+         "away": "MONTLUCON FOOTBALL 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "CERC.S. ARPAJONNAIS 1",
+         "away": "S.A. THIERNOIS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "ENT. NORD LOZERE F. 1",
+         "away": "A.S. MONTFERRANDAISE 3",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "cup460829_2_1_3",
+       "start": "2026-11-21T10:30",
+       "lieu": "STADE HECTOR ROLLAND 3, TERRAIN ANNEXE ALLEE DES SOUPIRS, MOULINS",
+       "organisateur": "",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 3",
+        "AC. S.  MOULINS FOOTBALL 1",
+        "CERC.S. ARPAJONNAIS 1",
+        "CLERMONT FOOT 63 2",
+        "ENT. NORD LOZERE F. 1",
+        "MONTLUCON FOOTBALL 1",
+        "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+        "S.A. THIERNOIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "AC. S.  MOULINS FOOTBALL 1",
+         "away": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "S.A. THIERNOIS 1",
+         "away": "CLERMONT FOOT 63 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "MONTLUCON FOOTBALL 1",
+         "away": "ENT. NORD LOZERE F. 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "CERC.S. ARPAJONNAIS 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "cup460829_2_1_4",
+       "start": "2026-11-28T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 3",
+        "AC. S.  MOULINS FOOTBALL 1",
+        "CERC.S. ARPAJONNAIS 1",
+        "CLERMONT FOOT 63 2",
+        "ENT. NORD LOZERE F. 1",
+        "MONTLUCON FOOTBALL 1",
+        "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+        "S.A. THIERNOIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "CERC.S. ARPAJONNAIS 1",
+         "away": "MONTLUCON FOOTBALL 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+         "away": "CLERMONT FOOT 63 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "ENT. NORD LOZERE F. 1",
+         "away": "AC. S.  MOULINS FOOTBALL 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "S.A. THIERNOIS 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "cup460829_2_1_5",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE DES ÎLETS, RUE DES FAUCHEROUX, MONTLUCON",
+       "organisateur": "",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 3",
+        "AC. S.  MOULINS FOOTBALL 1",
+        "CERC.S. ARPAJONNAIS 1",
+        "CLERMONT FOOT 63 2",
+        "ENT. NORD LOZERE F. 1",
+        "MONTLUCON FOOTBALL 1",
+        "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+        "S.A. THIERNOIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "AC. S.  MOULINS FOOTBALL 1",
+         "away": "CERC.S. ARPAJONNAIS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "MONTLUCON FOOTBALL 1",
+         "away": "A.S. MONTFERRANDAISE 3",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "S.A. THIERNOIS 1",
+         "away": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "CLERMONT FOOT 63 2",
+         "away": "ENT. NORD LOZERE F. 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "cup460829_2_1_6",
+       "start": "2026-12-12T14:00",
+       "lieu": "Stade Dunlop 3, SANS  CHEMIN DE MAUPERTUIS, MONTLUCON",
+       "organisateur": "",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 3",
+        "AC. S.  MOULINS FOOTBALL 1",
+        "CERC.S. ARPAJONNAIS 1",
+        "CLERMONT FOOT 63 2",
+        "ENT. NORD LOZERE F. 1",
+        "MONTLUCON FOOTBALL 1",
+        "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+        "S.A. THIERNOIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "ENT. NORD LOZERE F. 1",
+         "away": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "CERC.S. ARPAJONNAIS 1",
+         "away": "CLERMONT FOOT 63 2",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "MONTLUCON FOOTBALL 1",
+         "away": "S.A. THIERNOIS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "AC. S.  MOULINS FOOTBALL 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true
+      },
+      {
+       "id": "cup460829_2_1_7",
+       "start": "2027-01-23T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 3",
+        "AC. S.  MOULINS FOOTBALL 1",
+        "CERC.S. ARPAJONNAIS 1",
+        "CLERMONT FOOT 63 2",
+        "ENT. NORD LOZERE F. 1",
+        "MONTLUCON FOOTBALL 1",
+        "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+        "S.A. THIERNOIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "ENT. NORD LOZERE F. 1",
+         "away": "S.A. THIERNOIS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+         "away": "CERC.S. ARPAJONNAIS 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "AC. S.  MOULINS FOOTBALL 1",
+         "away": "MONTLUCON FOOTBALL 1",
+         "hs": null,
+         "as": null
+        },
+        {
+         "home": "CLERMONT FOOT 63 2",
+         "away": "A.S. MONTFERRANDAISE 3",
          "hs": null,
          "as": null
         }
