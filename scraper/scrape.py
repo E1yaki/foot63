@@ -908,18 +908,56 @@ def phase_date_table() -> dict:
     return json.loads(p.read_text(encoding="utf-8")).get("journees", {}) if p.exists() else {}
 
 
+def manual_journees(cat_id: str, poule_label: str) -> dict[int, dict]:
+    """Données saisies à la main (scraper/donnees_manuelles.json) pour une poule : {journée: {...}}.
+    Elles ne servent QU'À COMBLER ce que l'API ne donne pas (date, heure, lieu, ou journée entière)."""
+    p = HERE / "donnees_manuelles.json"
+    if not CONFIG.get("donnees_manuelles") or not p.exists():
+        return {}
+    d = json.loads(p.read_text(encoding="utf-8")).get(cat_id, {})
+    lab = (poule_label or "").replace("POULE", "").strip()
+    letter = "U" if lab.upper() == "UNIQUE" else lab
+    return {int(k): v for k, v in (d.get(letter) or {}).items() if str(k).isdigit()}
+
+
 def cup_raw_records(cp_no: int, cat_id: str, phase_number: int, phase_label: str,
                      stage_number: int, poule_label: str, calendrier: dict,
                      names: dict[int, str] | None = None) -> list[dict]:
-    """Le calendrier d'une poule (module Compétitions) -> nos plateaux habituels, un par journée (les
-    matchs d'une même journée y partagent en général le même terrain, comme un plateau)."""
+    """Le calendrier d'une poule (module Compétitions) -> nos plateaux, un par journée.
+    Priorité à l'API ; les données manuelles ne comblent que les champs vides, ou créent une journée absente de l'API."""
+    man = manual_journees(cat_id, poule_label)
     by_j: dict[int, list[dict]] = {}
     for m in calendrier.get("hydra:member", []):
         j = (m.get("poule_journee") or {}).get("number") or 0
         by_j.setdefault(j, []).append(m)
     out = []
     sans_date: list[int] = []
-    for j, ms in sorted(by_j.items()):
+    # journées archivées qui ne sont plus produites par l'API (ex. saisie manuelle désactivée) : on les retire.
+    # Garde-fou : seulement si l'API a bien renvoyé des rencontres pour cette poule.
+    if RAW.exists() and by_j:
+        produced = set(by_j) | {k for k, v in man.items() if v.get("matchs")}
+        for f in RAW.glob(f"cup{cp_no}_{phase_number}_{stage_number}_*.json"):
+            if int(f.stem.rsplit("_", 1)[-1]) not in produced:
+                f.unlink()
+    for j in sorted(set(by_j) | {k for k, v in man.items() if v.get("matchs")}):
+        mm = man.get(j, {})
+        ms = by_j.get(j, [])
+        if not ms:   # journée absente de l'API : créée depuis les données manuelles (noms à reprendre du site)
+            matchs = [{"home": x[0], "away": x[1], "hs": None, "as": None} for x in mm.get("matchs", [])]
+            heures = sorted({x[2] for x in mm.get("matchs", []) if len(x) > 2 and x[2]})
+            date = mm.get("date", "")
+            if not date:
+                sans_date.append(j)
+                continue
+            out.append({
+                "id": f"cup{cp_no}_{phase_number}_{stage_number}_{j}", "cat": cat_id, "cat_label": None,
+                "phase": phase_number, "phase_label": phase_label, "poule": str(stage_number), "poule_label": poule_label,
+                "start": f"{date}T{heures[0] if heures else mm.get('heure', '00:00')}", "heure_connue": bool(heures or mm.get("heure")),
+                "lieu": mm.get("lieu", ""), "organisateur": "", "source": "manuel",
+                "equipes": sorted({t for x in matchs for t in (x["home"], x["away"])}), "logos": {},
+                "matchs": matchs, "score_illisible": False, "score_incoherent": False, "glyph_fps": [], "mini": {},
+            })
+            continue
         parsed = [parse_cup_match(m, names) for m in ms]
         equipes = sorted({p["home"] for p in parsed} | {p["away"] for p in parsed})
         logos = {}
@@ -932,12 +970,11 @@ def cup_raw_records(cp_no: int, cat_id: str, phase_number: int, phase_label: str
         lieu = ", ".join(x for x in [terrain.get("name"), terrain.get("address"), terrain.get("city")] if x)
         dates = sorted(d for d in ((m.get("date") or "")[:10] for m in ms) if re.fullmatch(r"\d{4}-\d{2}-\d{2}", d))
         heures = sorted(h for h in (parse_cup_time(m.get("time")) for m in ms) if h)
-        date = dates[0] if dates else ""
-        if not date and phase_number >= 2:   # date publiée en PDF pour cette journée (phase 2 des divisions)
-            date = phase_date_table().get(cat_id, {}).get(str(j), "")
-            if date:
-                heures = heures or ["14:00"]
-        if not date:   # journée sans date : on ne la fabrique pas (une fausse date la cacherait)
+        date = dates[0] if dates else mm.get("date", "")          # API d'abord, sinon saisie manuelle
+        if not heures and mm.get("heure"):
+            heures = [mm["heure"]]
+        lieu = lieu or mm.get("lieu", "")                          # API d'abord, sinon saisie manuelle
+        if not date:
             sans_date.append(j)
             continue
         out.append({
@@ -952,9 +989,8 @@ def cup_raw_records(cp_no: int, cat_id: str, phase_number: int, phase_label: str
             "score_illisible": False, "score_incoherent": False, "glyph_fps": [], "mini": {},
         })
     if sans_date:
-        print(f"  ! {len(sans_date)} journée(s) sans date publiée dans la poule {poule_label} (journées {sans_date}) : non affichées", file=sys.stderr)
+        print(f"  ! {len(sans_date)} journée(s) sans date dans la poule {poule_label} (journées {sans_date}) : non affichées", file=sys.stderr)
     return out
-
 
 LOG_FILE = HERE / "sync.log"
 
@@ -997,6 +1033,7 @@ def report_plateau(rec: dict, changes: list[dict], pub: set | None = None) -> No
         print(f"  ~ restant : {head} : {detail}")
 
 
+SITE_POULES: dict[tuple[str, str], tuple[str, str]] = {}   # (catégorie, lettre) -> (identifiant de poule du site, libellé)
 UNRESOLVED_NUMBERS: set[str] = set()   # équipes de phase 2 sans équivalent identifié en phase 1 (rapport groupé)
 
 
@@ -1085,7 +1122,7 @@ def refresh_cup_poule(session: requests.Session, cat: dict, meta: dict, cp_no: i
 _ALIAS_TOKENS = {"clt": "clermont", "st": "saint", "stm": "saint", "tal": "tallende", "tallende": "tallende",
                  "amant": "amant", "sp": "sports", "gr": "", "fc": "football", "f": "", "c": "", "a": "",
                  "s": "", "us": "", "u": "", "as": "", "ac": "", "de": "", "du": "", "des": "", "la": "", "le": "",
-                 "les": "", "sc": "", "cs": "", "lb": "lembron", "asm": "montferrandaise", "esl": "", "gf": "", "hte": "haute", "ent": "", "foot": "football"}
+                 "les": "", "sc": "", "cs": "", "lb": "lembron", "asm": "montferrandaise", "esl": "", "gf": "", "hte": "haute", "ent": "", "foot": "football", "sportif": "sports"}
 
 
 def _name_tokens(name: str) -> tuple[set[str], str]:
@@ -1220,6 +1257,41 @@ def write_unresolved_numbers() -> None:
         f.unlink()
 
 
+def equivalence_map(api_names: set[str]) -> dict[str, str]:
+    """Nom du PDF -> nom retenu : celui de la phase 1 s'il existe, sinon celui de l'API, sinon le premier de la paire."""
+    p = HERE / "noms_equivalents.json"
+    if not p.exists():
+        return {}
+    phase1 = set(phase1_destinations())
+    out: dict[str, str] = {}
+    for pair in json.loads(p.read_text(encoding="utf-8")).get("pairs", []):
+        cls = list(dict.fromkeys(pair))
+        keep = next((n for n in cls if n in phase1), None) or next((n for n in cls if n in api_names), None) or cls[0]
+        for n in cls:
+            out[n] = keep
+    return out
+
+
+def align_to_known(names: list[str], known: set[str]) -> dict[str, str]:
+    """Nom du PDF -> nom déjà utilisé par le site (même numéro d'équipe, mots en commun, un seul candidat net)."""
+    out: dict[str, str] = {}
+    for n in names:
+        if n in known:
+            out[n] = n
+            continue
+        wn, nn = _name_tokens(n)
+        best = []
+        for k in known:
+            wk, nk = _name_tokens(k)
+            if nk != nn or not (wn & wk):
+                continue
+            best.append((len(wn & wk) / len(wn | wk), k))
+        best.sort(reverse=True)
+        if best and best[0][0] >= 0.5 and (len(best) == 1 or best[0][0] > best[1][0]):
+            out[n] = best[0][1]
+    return out
+
+
 def pdf_matches_fill(cat_id: str, session_ts: str) -> None:
     """Journées de phase 2 PRÉSENTES dans le PDF (matches_phase2.json) mais ABSENTES de l'API : on les crée
     à partir du PDF (date, heure, équipes). Dès que l'API publie la journée, la version PDF est retirée."""
@@ -1228,16 +1300,31 @@ def pdf_matches_fill(cat_id: str, session_ts: str) -> None:
         return
     data = json.loads(p.read_text(encoding="utf-8"))["divisions"].get(cat_id)
     api_keys: set[tuple[str, int]] = set()
-    for f in RAW.glob(f"cup*_2_*_*.json"):
+    api_poule: dict[str, tuple[str, str]] = {}   # lettre -> (identifiant de poule du site, libellé du site)
+    logos: dict[str, str] = {}
+    for f in RAW.glob("*.json"):
         r = json.loads(f.read_text(encoding="utf-8"))
-        if r.get("source") == "pdf" or r.get("cat") != cat_id:
+        if r.get("source") != "pdf":
+            logos.update(r.get("logos", {}))
+        if r.get("source") == "pdf" or r.get("cat") != cat_id or not r["id"].startswith("cup"):
             continue
         lab = (r.get("poule_label") or "").replace("POULE", "").strip()
-        api_keys.add(("U" if lab.upper() == "UNIQUE" else lab, int(r["id"].rsplit("_", 1)[-1])))
-    for f in RAW.glob(f"pdfm_{cat_id}_*.json"):
+        letter = "U" if lab.upper() == "UNIQUE" else lab
+        api_keys.add((letter, int(r["id"].rsplit("_", 1)[-1])))
+        api_poule.setdefault(letter, (str(r["poule"]), r.get("poule_label") or f"Poule {letter}"))
+    # anciens plateaux PDF (ancienne méthode) et plateaux PDF de cette méthode : on repart de zéro
+    for f in list(RAW.glob(f"pdfm_{cat_id}_*.json")) + list(RAW.glob(f"pdfl_{cat_id}_*.json")):
         f.unlink()
     if not data:
         return
+    names_by_letter: dict[str, set[str]] = {}
+    for f in RAW.glob(f"cup*_2_*_*.json"):
+        r0 = json.loads(f.read_text(encoding="utf-8"))
+        if r0.get("source") == "pdf" or r0.get("cat") != cat_id:
+            continue
+        lab0 = (r0.get("poule_label") or "").replace("POULE", "").strip()
+        names_by_letter.setdefault("U" if lab0.upper() == "UNIQUE" else lab0, set()).update(r0.get("equipes", []))
+    all_names = set().union(*names_by_letter.values()) if names_by_letter else set()
     recs = []
     for letter, poule in data["poules"].items():
         for j in sorted({m[0] for m in poule["matches"]}):
@@ -1245,16 +1332,39 @@ def pdf_matches_fill(cat_id: str, session_ts: str) -> None:
                 continue
             ms = [m for m in poule["matches"] if m[0] == j]
             heures = sorted(m[3] for m in ms if m[3])
+            pid, plabel = SITE_POULES.get((cat_id, letter)) or api_poule.get(letter, (letter, poule["label"]))   # même identifiant que le site : pas de doublon
+            eq = sorted({t for m in ms for t in (m[1], m[2])})
             recs.append({
                 "id": f"pdfm_{cat_id}_{letter}_{j}", "cat": cat_id, "cat_label": None, "phase": 2, "phase_label": "Phase 2",
-                "poule": letter, "poule_label": poule["label"], "start": f"{poule['dates'][j - 1]}T{heures[0] if heures else '14:00'}",
+                "poule": pid, "poule_label": plabel, "start": f"{poule['dates'][j - 1]}T{heures[0] if heures else '14:00'}",
                 "heure_connue": True, "lieu": "", "organisateur": "",
-                "equipes": sorted({t for m in ms for t in (m[1], m[2])}), "logos": {},
+                "equipes": eq, "logos": {t: logos[t] for t in eq if t in logos},
                 "matchs": [{"home": m[1], "away": m[2], "hs": None, "as": None} for m in ms],
                 "score_illisible": False, "score_incoherent": False, "glyph_fps": [], "mini": {}, "source": "pdf",
             })
     if recs:
         recs, _ = relabel_league_records(recs, cat_id)
+        # équivalences explicites (noms_equivalents.json) appliquées en premier
+        eqm = equivalence_map(all_names)
+        if eqm:
+            for r in recs:
+                r["equipes"] = sorted({eqm.get(t, t) for t in r["equipes"]})
+                for m in r["matchs"]:
+                    m["home"], m["away"] = eqm.get(m["home"], m["home"]), eqm.get(m["away"], m["away"])
+        # même équipe, même nom que dans les journées déjà publiées par le site (pas de doublon dans une poule)
+        for r in recs:
+            letter_r = r["id"].split("_")[-2]
+            known_here = names_by_letter.get(letter_r, set())
+            m1 = align_to_known(r["equipes"], known_here)
+            rest = [t for t in r["equipes"] if t not in m1]
+            m2 = align_to_known(rest, all_names)
+            fix = {**m1, **m2}
+            if not fix:
+                continue
+            r["equipes"] = sorted({fix.get(t, t) for t in r["equipes"]})
+            for m in r["matchs"]:
+                m["home"], m["away"] = fix.get(m["home"], m["home"]), fix.get(m["away"], m["away"])
+            r["logos"] = {t: logos[t] for t in r["equipes"] if t in logos}
         ts = session_ts
         for r in recs:
             merged, _ = merge(None, r, ts)
@@ -1278,6 +1388,11 @@ def sync_cup_category(session: requests.Session, cat: dict, ts: str, force: bool
             print(f"  ! {cat['id']} compétition {cp_no} : {e}", file=sys.stderr)
             continue
         poules = [(ph.get("number"), gp.get("stage_number")) for ph in meta.get("phases", []) for gp in ph.get("groups", [])]
+        for ph in meta.get("phases", []):
+            for gp in ph.get("groups", []):
+                lab = (gp.get("name") or "").replace("POULE", "").strip()
+                letter = "U" if lab.upper() == "UNIQUE" else lab
+                SITE_POULES[(cat["id"], letter)] = (str(gp.get("stage_number")), gp.get("name") or f"Poule {letter}")
         for phase_api, stage_number in poules:
             phase_global = pmap.get(str(phase_api), phase_api)
             published_here.add(phase_global)
@@ -1289,8 +1404,9 @@ def sync_cup_category(session: requests.Session, cat: dict, ts: str, force: bool
                 print(f"  ! {cat['id']} phase {phase_global} poule {stage_number} : {e}", file=sys.stderr)
             time.sleep(CONFIG.get("cup_delay_seconds", 0.3))
     primary = cup_competitions(cat)[0]["cp_no"]
-    if cat.get("source") == "api" and any(c.get("phase_map") for c in cup_competitions(cat)):
-        pdf_matches_fill(cat["id"], ts)
+    # strict API : les plateaux issus de PDF sont retirés
+    for f in (list(RAW.glob(f"pdfm_{cat['id']}_*.json")) + list(RAW.glob(f"pdfl_{cat['id']}_*.json"))) if RAW.exists() else []:
+        f.unlink()
     # une phase publiée par l'API remplace les anciens plateaux PDF de cette catégorie
     for f in (RAW.glob(f"pdfl_{cat['id']}_*.json") if RAW.exists() else []):
         if published_here:

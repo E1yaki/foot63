@@ -175,10 +175,11 @@
     "prefix": "foot63"
   },
   "fetch_mode": "browser",
-  "browser_headless": true,
+  "browser_headless": false,
   "bootstrap_club": {
     "clNo": 10554,
     "clCod": 525985,
     "_note": "A. S. CLERMONT SAINT JACQUES FOOT : couple relevé avec recon, sert d'entrée pour lire la liste des clubs"
-  }
+  },
+  "donnees_manuelles": false
 }
