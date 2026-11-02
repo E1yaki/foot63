@@ -951,7 +951,6 @@
       "C.S. PONT DU CHATEAU 1",
       "ECUREUILS FRANC ROSIER 1",
       "F.C. RIOMOIS 1",
-      "F.C. Riomois 1",
       "GJ SCB FOOT 1"
      ],
      "plateaux": [
@@ -984,82 +983,6 @@
         {
          "home": "GJ SCB FOOT 1",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
-         "hs": null,
-         "as": null
-        }
-       ],
-       "heure_connue": true
-      },
-      {
-       "id": "cup460673_2_3_2",
-       "start": "2026-11-14T14:00",
-       "lieu": "Franc Rosier",
-       "organisateur": "",
-       "equipes": [
-        "ECUREUILS FRANC ROSIER 1",
-        "F.C. Riomois 1"
-       ],
-       "matchs": [
-        {
-         "home": "ECUREUILS FRANC ROSIER 1",
-         "away": "F.C. Riomois 1",
-         "hs": null,
-         "as": null
-        }
-       ],
-       "heure_connue": true
-      },
-      {
-       "id": "cup460673_2_3_3",
-       "start": "2026-11-21T14:00",
-       "lieu": "Riom",
-       "organisateur": "",
-       "equipes": [
-        "A. S. CLERMONT SAINT JACQUES FOOT 2",
-        "F.C. Riomois 1"
-       ],
-       "matchs": [
-        {
-         "home": "F.C. Riomois 1",
-         "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
-         "hs": null,
-         "as": null
-        }
-       ],
-       "heure_connue": true
-      },
-      {
-       "id": "cup460673_2_3_4",
-       "start": "2026-11-28T14:00",
-       "lieu": "Pont Du Chateau",
-       "organisateur": "",
-       "equipes": [
-        "A. S. CLERMONT SAINT JACQUES FOOT 2",
-        "C.S. PONT DU CHATEAU 1"
-       ],
-       "matchs": [
-        {
-         "home": "C.S. PONT DU CHATEAU 1",
-         "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
-         "hs": null,
-         "as": null
-        }
-       ],
-       "heure_connue": true
-      },
-      {
-       "id": "cup460673_2_3_5",
-       "start": "2026-12-5T14:00",
-       "lieu": "Stade de l'Espérance, Clermont-Ferrand",
-       "organisateur": "",
-       "equipes": [
-        "A. S. CLERMONT SAINT JACQUES FOOT 2",
-        "ECUREUILS FRANC ROSIER 1"
-       ],
-       "matchs": [
-        {
-         "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
-         "away": "ECUREUILS FRANC ROSIER 1",
          "hs": null,
          "as": null
         }
