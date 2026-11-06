@@ -251,7 +251,7 @@
       {
        "id": "cup460677_2_2_1",
        "start": "2026-11-07T14:00",
-       "lieu": "STADE MUNICIPAL, RUE DU STADE, BROMONT LAMOTHE",
+       "lieu": "Stade Les BruyereS, LES BRUYERES Lieu Dit Montfermy, MONTFERMY",
        "organisateur": "",
        "equipes": [
         "?",
@@ -454,8 +454,8 @@
         {
          "home": "F.C. NORD COMBRAILLE 2",
          "away": "U.S. ISSOIRE A. DU MAS 3",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 0
         },
         {
          "home": "A.S. MONTFERRANDAISE 5",
@@ -474,7 +474,7 @@
       },
       {
        "id": "cup460677_2_3_2",
-       "start": "2026-11-14T14:00",
+       "start": "2026-11-14T12:00",
        "lieu": "",
        "organisateur": "",
        "equipes": [
@@ -1006,7 +1006,7 @@
      "plateaux": [
       {
        "id": "cup460677_2_6_1",
-       "start": "2026-11-07T14:00",
+       "start": "2026-11-07T10:30",
        "lieu": "STADE MARCEL BLONDELLE 1, LE BOURG, VERTOLAYE",
        "organisateur": "",
        "equipes": [
