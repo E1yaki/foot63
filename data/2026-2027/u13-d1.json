@@ -1074,8 +1074,8 @@
         {
          "home": "F.C. RIOMOIS 2",
          "away": "A.S. ROYAT A.C. 1",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 4
         }
        ],
        "heure_connue": true
@@ -1251,14 +1251,14 @@
         {
          "home": "ECUREUILS FRANC ROSIER 1",
          "away": "C.S. PONT DU CHATEAU 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 1
         },
         {
          "home": "F.C. RIOMOIS 1",
          "away": "AULNAT SP. 1",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 0
         },
         {
          "home": "GJ SCB FOOT 1",

@@ -266,8 +266,8 @@
         {
          "home": "F.C. CHAMALIERES 2",
          "away": "GROUPEMENT DE L'AUZON 2",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 1
         }
        ],
        "heure_connue": true

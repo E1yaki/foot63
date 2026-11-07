@@ -71,8 +71,8 @@
         {
          "home": "A.S. MONTFERRANDAISE 3",
          "away": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 7
         }
        ],
        "heure_connue": true
