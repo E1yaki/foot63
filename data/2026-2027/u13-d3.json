@@ -65,20 +65,20 @@
         {
          "home": "CLERMONT FOOT 63 5",
          "away": "U. J. CLERMONTOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 6
         },
         {
          "home": "F. C. CLERMONT METROPOLE 3",
          "away": "A.S. MONTFERRANDAISE 4",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 1
         },
         {
          "home": "U.S. LES MARTRES DE VEYRE 1",
          "away": "SANCY CHAVANON FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 6
         }
        ],
        "heure_connue": true
@@ -254,20 +254,20 @@
         {
          "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
          "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 4
         },
         {
          "home": "ESP. CEYRATOISE 2",
          "away": "U.S. VIC LE COMTE 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 6
         },
         {
          "home": "E.S. ST GERMINOISE 1",
          "away": "UNION SPORTIVE BASSIN MINIER 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 1
         }
        ],
        "heure_connue": true
@@ -455,8 +455,8 @@
         {
          "home": "U.S. MARINGUOISE 1",
          "away": "FOOTBALL CLUB PUY DE MUR 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -632,20 +632,20 @@
         {
          "home": "ECUREUILS FRANC ROSIER 2",
          "away": "C.S. PONT DU CHATEAU 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
         },
         {
          "home": "U.S. ST GERVAISIENNE 1",
          "away": "FOOTBALL CLUB GERZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 4
         },
         {
          "home": "F.C. NORD COMBRAILLE 1",
          "away": "F.C. NORD LIMAGNE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 7
         }
        ],
        "heure_connue": true

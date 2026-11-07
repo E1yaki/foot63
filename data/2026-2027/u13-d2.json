@@ -1298,14 +1298,14 @@
         {
          "home": "VAL DE SIOULE FOOT 1",
          "away": "C.O. VEYRE MONTON 1",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 5
         },
         {
          "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
          "away": "U.S. BEAUMONTOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 2
         }
        ],
        "heure_connue": true
@@ -1493,8 +1493,8 @@
         {
          "home": "GJ SCB FOOT 2",
          "away": "U.S. ISSOIRE A. DU MAS 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 7
         }
        ],
        "heure_connue": true
@@ -1676,14 +1676,14 @@
         {
          "home": "F. C. CLERMONT METROPOLE 2",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 7
         },
         {
          "home": "CLERMONT FOOT 63 3",
          "away": "F.C. LEZOUX 1",
-         "hs": null,
-         "as": null
+         "hs": 12,
+         "as": 0
         }
        ],
        "heure_connue": true
@@ -1859,8 +1859,8 @@
         {
          "home": "CEBAZAT SP. 1",
          "away": "F.C. RIOMOIS 3",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 1
         },
         {
          "home": "U.S. ENNEZAT 1",
@@ -1871,8 +1871,8 @@
         {
          "home": "C.S. DE VOLVIC 1",
          "away": "HAUTE COMBRAILLE FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 0
         }
        ],
        "heure_connue": true

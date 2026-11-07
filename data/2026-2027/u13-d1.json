@@ -873,20 +873,20 @@
         {
          "home": "F.C. COURNON D AUVERGNE 1",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 4
         },
         {
          "home": "LEMPDES SP. 1",
          "away": "U.S. ISSOIRE A. DU MAS 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 1
         },
         {
          "home": "U.S. VIC LE COMTE 1",
          "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 4
         }
        ],
        "heure_connue": true
@@ -1062,14 +1062,14 @@
         {
          "home": "ESP. CEYRATOISE 1",
          "away": "GROUPEMENT DE L'AUZON 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 0
         },
         {
          "home": "F. C. CLERMONT METROPOLE 1",
          "away": "A.S. MONTFERRANDAISE 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 3
         },
         {
          "home": "F.C. RIOMOIS 2",
