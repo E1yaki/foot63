@@ -1033,8 +1033,8 @@
         {
          "home": "S.A. THIERNOIS 4",
          "away": "A.S. JOB 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 2
         }
        ],
        "heure_connue": true

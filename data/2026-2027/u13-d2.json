@@ -1481,8 +1481,8 @@
         {
          "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
          "away": "C.S. PONT DE DORE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 2
         },
         {
          "home": "S.A. THIERNOIS 2",

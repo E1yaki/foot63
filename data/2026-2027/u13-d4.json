@@ -455,8 +455,8 @@
         {
          "home": "U.S. MOZAC 1",
          "away": "AULNAT SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 2
         }
        ],
        "heure_connue": true
