@@ -1263,8 +1263,8 @@
         {
          "home": "GJ SCB FOOT 1",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 3
         }
        ],
        "heure_connue": true
