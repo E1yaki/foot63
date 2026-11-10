@@ -76,8 +76,8 @@
         {
          "home": "U.S. ENNEZAT 2",
          "away": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
-         "hs": null,
-         "as": null
+         "hs": 10,
+         "as": 1
         },
         {
          "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
@@ -132,7 +132,7 @@
       {
        "id": "cup460677_2_1_3",
        "start": "2026-11-21T14:00",
-       "lieu": "",
+       "lieu": "COMPLEXE SPORTIF DES MOULINS, LE BOURG, ST BABEL",
        "organisateur": "",
        "equipes": [
         "F.C. AUBIEROIS 2",
@@ -167,7 +167,7 @@
       {
        "id": "cup460677_2_1_4",
        "start": "2026-11-28T14:00",
-       "lieu": "",
+       "lieu": "STADE PAUL MOSNIER, RUE DU STADE, ENNEZAT",
        "organisateur": "",
        "equipes": [
         "F.C. AUBIEROIS 2",
@@ -202,7 +202,7 @@
       {
        "id": "cup460677_2_1_5",
        "start": "2026-12-05T14:00",
-       "lieu": "STADE COMMUNAL, ROUTE DE BILLOM, MOISSAT",
+       "lieu": "COMPLEXE SPORTIF DE L' ARTIÈRE, AVENUE DU STADE, BEAUMONT",
        "organisateur": "",
        "equipes": [
         "F.C. AUBIEROIS 2",
@@ -265,8 +265,8 @@
         {
          "home": "U.S. VIC LE COMTE 3",
          "away": "F.C. AYDAT 1",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 3
         },
         {
          "home": "?",
@@ -286,7 +286,7 @@
       {
        "id": "cup460677_2_2_2",
        "start": "2026-11-14T14:00",
-       "lieu": "",
+       "lieu": "STADE MUNICIPAL 1, 43 AVENUE DE LA MONNE, VEYRE MONTON",
        "organisateur": "",
        "equipes": [
         "?",
@@ -321,7 +321,7 @@
       {
        "id": "cup460677_2_2_3",
        "start": "2026-11-21T14:00",
-       "lieu": "",
+       "lieu": "STADE MUNICIPAL, LE PUY MAURY, CONDAT EN COMBRAILLE",
        "organisateur": "",
        "equipes": [
         "?",
@@ -391,7 +391,7 @@
       {
        "id": "cup460677_2_2_5",
        "start": "2026-12-05T14:00",
-       "lieu": "",
+       "lieu": "STADE SERGE AMEILBONNE, RUE DU STADE, AYDAT",
        "organisateur": "",
        "equipes": [
         "?",
@@ -466,16 +466,16 @@
         {
          "home": "F.C. CHAMALIERES 3",
          "away": "FOOTBALL CLUB GERZAT 2",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 1
         }
        ],
        "heure_connue": true
       },
       {
        "id": "cup460677_2_3_2",
-       "start": "2026-11-14T12:00",
-       "lieu": "",
+       "start": "2026-11-14T14:00",
+       "lieu": "COMPLEXE SPORTIF GRAVANCHES N°6, RUE DU PRECOMTAL, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
         "A.S. MONTFERRANDAISE 5",
@@ -699,7 +699,7 @@
       {
        "id": "cup460677_2_4_3",
        "start": "2026-11-21T14:00",
-       "lieu": "STADE FÉLIX HEBRARD, ROUTE DE RIOM, MARSAT",
+       "lieu": "STADE PIERRE DUCOURTIAL 1, AVENUE PIERRE DE COUBERTIN, AULNAT",
        "organisateur": "",
        "equipes": [
         "AULNAT SP. 3",
@@ -734,7 +734,7 @@
       {
        "id": "cup460677_2_4_4",
        "start": "2026-11-28T14:00",
-       "lieu": "STADE LES POINTILLOUX 1, RUE DU STADE LES POINTILLOUX, CHAPPES",
+       "lieu": "STADE PIERRE DUCOURTIAL 1, AVENUE PIERRE DE COUBERTIN, AULNAT",
        "organisateur": "",
        "equipes": [
         "AULNAT SP. 3",
@@ -769,7 +769,7 @@
       {
        "id": "cup460677_2_4_5",
        "start": "2026-12-05T14:00",
-       "lieu": "STADE DE BASSE COMBELLE 1, ROUTE D'ISSOIRE La Combelle, AUZAT LA COMBELLE",
+       "lieu": "STADE JOSEPH GARDETTE, AVENUE PIERRE ET MARIE CURIE, COURPIERE",
        "organisateur": "",
        "equipes": [
         "AULNAT SP. 3",
@@ -888,7 +888,7 @@
       {
        "id": "cup460677_2_5_3",
        "start": "2026-11-21T14:00",
-       "lieu": "",
+       "lieu": "STADE MICHEL CHAMPLEBOUX 1, 1 RUE DU STADE, VOLVIC",
        "organisateur": "",
        "equipes": [
         "A. OUVOIMOJA 1",
@@ -958,7 +958,7 @@
       {
        "id": "cup460677_2_5_5",
        "start": "2026-12-05T14:00",
-       "lieu": "Stade Ginette Tixier, ROUTE DE PUY GUILLAUME, LIMONS",
+       "lieu": "STADE DU PARC DE LA FRATERNITÉ, Rue Alphonse Daudet, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
         "A. OUVOIMOJA 1",
@@ -1041,8 +1041,8 @@
       },
       {
        "id": "cup460677_2_6_2",
-       "start": "2026-11-14T14:00",
-       "lieu": "STADE MARCEL BLONDELLE 1, LE BOURG, VERTOLAYE",
+       "start": "2026-11-14T13:00",
+       "lieu": "STADE MUNICIPAL, LE BOURG, CELLES SUR DUROLLE",
        "organisateur": "",
        "equipes": [
         "A.S. JOB 1",
@@ -1077,7 +1077,7 @@
       {
        "id": "cup460677_2_6_3",
        "start": "2026-11-21T14:00",
-       "lieu": "",
+       "lieu": "STADE JEAN COUSTÈS 1, ROUTE D'ARDES SUR COUZE, ST GERMAIN LEMBRON",
        "organisateur": "",
        "equipes": [
         "A.S. JOB 1",
@@ -1112,7 +1112,7 @@
       {
        "id": "cup460677_2_6_4",
        "start": "2026-11-28T14:00",
-       "lieu": "",
+       "lieu": "STADE MUNICIPAL, LE BOURG, CELLES SUR DUROLLE",
        "organisateur": "",
        "equipes": [
         "A.S. JOB 1",
