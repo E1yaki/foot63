@@ -81,7 +81,8 @@
          "as": 1
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-07T15:12:20Z"
       },
       {
        "id": "cup460676_2_1_2",
@@ -100,14 +101,14 @@
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
          "away": "U.S. LES MARTRES DE VEYRE 2",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 0
         },
         {
          "home": "S.C. BILLOMOIS 1",
          "away": "FOOTBALL CLUB PUY DE MUR 2",
-         "hs": null,
-         "as": null
+         "hs": 10,
+         "as": 0
         },
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 1",
@@ -116,7 +117,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-14T14:56:40Z"
       },
       {
        "id": "cup460676_2_1_3",
@@ -151,7 +153,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460676_2_1_4",
@@ -186,7 +189,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460676_2_1_5",
@@ -221,7 +225,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       }
      ]
     },
@@ -270,7 +275,8 @@
          "as": 1
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-14T14:14:10Z"
       },
       {
        "id": "cup460676_2_2_2",
@@ -305,7 +311,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-14T14:14:10Z"
       },
       {
        "id": "cup460676_2_2_3",
@@ -340,7 +347,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460676_2_2_4",
@@ -375,7 +383,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-05T10:40:16Z"
       },
       {
        "id": "cup460676_2_2_5",
@@ -410,7 +419,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       }
      ]
     },
@@ -459,7 +469,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-07T17:57:06Z"
       },
       {
        "id": "cup460676_2_3_2",
@@ -478,8 +489,8 @@
         {
          "home": "F.C. CHATEL GUYON 2",
          "away": "AULNAT SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 9,
+         "as": 5
         },
         {
          "home": "U. J. CLERMONTOISE 2",
@@ -494,7 +505,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-14T14:40:26Z"
       },
       {
        "id": "cup460676_2_3_3",
@@ -529,7 +541,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460676_2_3_4",
@@ -564,7 +577,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460676_2_3_5",
@@ -599,7 +613,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       }
      ]
     },
@@ -648,7 +663,8 @@
          "as": 10
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-07T19:34:32Z"
       },
       {
        "id": "cup460676_2_4_2",
@@ -667,23 +683,24 @@
         {
          "home": "F.C. LEZOUX 2",
          "away": "LEMPDES SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 0
         },
         {
          "home": "CLERMONT ACADEMY 1",
          "away": "U.S. MOZAC 2",
-         "hs": null,
-         "as": null
+         "hs": 12,
+         "as": 3
         },
         {
          "home": "GJ SCB FOOT 3",
          "away": "F.C. COURNON D AUVERGNE 3",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-14T14:56:40Z"
       },
       {
        "id": "cup460676_2_4_3",
@@ -718,7 +735,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460676_2_4_4",
@@ -753,7 +771,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460676_2_4_5",
@@ -788,11 +807,13 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       }
      ]
     }
    ]
   }
- ]
+ ],
+ "updated_at": "2026-11-14T14:56:40Z"
 }

@@ -75,7 +75,8 @@
          "as": 7
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-07T17:57:06Z"
       },
       {
        "id": "cup460829_2_1_2",
@@ -118,7 +119,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-14T14:14:10Z"
       },
       {
        "id": "cup460829_2_1_3",
@@ -161,7 +163,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-02T22:49:10Z"
       },
       {
        "id": "cup460829_2_1_4",
@@ -204,7 +207,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-11T08:07:07Z"
       },
       {
        "id": "cup460829_2_1_5",
@@ -247,7 +251,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-14T14:14:10Z"
       },
       {
        "id": "cup460829_2_1_6",
@@ -290,7 +295,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-05T10:40:16Z"
       },
       {
        "id": "cup460829_2_1_7",
@@ -333,15 +339,19 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-10T12:42:05Z"
       }
      ]
     }
    ]
   }
  ],
+ "updated_at": "2026-11-14T14:14:10Z",
  "depts": {
   "CLERMONT FOOT 63 2": "63",
+  "A.S. MONTFERRANDAISE 3": "63",
+  "S.A. THIERNOIS 1": "63",
   "AC. S.  MOULINS FOOTBALL 1": "03",
   "MONTLUCON FOOTBALL 1": "03",
   "ENT. NORD LOZERE F. 1": "15"
