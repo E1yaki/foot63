@@ -1073,12 +1073,12 @@ def relabel_league_records(recs: list[dict], cat_id: str) -> tuple[list[dict], l
 
 
 def fetch_cup_calendar(session: requests.Session, cp_no: int, phase_api: int, stage: int) -> dict:
-    """Calendrier COMPLET d'une poule : l'API le sert par pages et indique le total (hydra:totalItems).
-    Ne lire que la page 1 faisait disparaître les dernières journées."""
+    """Calendrier COMPLET d'une poule, comme la page du site : endpoint « matchs » (utilisé par le calendrier
+    du site), par pages, avec le total (hydra:totalItems)."""
     members: list[dict] = []
     total = None
     for page in range(1, 51):
-        d = fetch_cup_json(session, f"{CUP_API_BASE}/compets/{cp_no}/phases/{phase_api}/poules/{stage}/calendrier?page={page}")
+        d = fetch_cup_json(session, f"{CUP_API_BASE}/compets/{cp_no}/phases/{phase_api}/poules/{stage}/matchs?page={page}")
         batch = d.get("hydra:member", [])
         total = d.get("hydra:totalItems", total)
         if not batch:
@@ -1917,6 +1917,7 @@ def cmd_build(_args=None) -> None:
             po["plateaux"].append({
                 **{k: r[k] for k in ("id", "start", "lieu", "organisateur", "equipes", "matchs")},
                 "heure_connue": r.get("heure_connue", True),
+                "last_change": r.get("last_change") or "",
             })
         doc = {"id": c["id"], "label": c["label"], "group": c["group"], "fal_id": c.get("fal_id"), "kind": c.get("kind"), "season": season,
                "logos": dict(sorted(logos.items())), "phases": []}
@@ -1929,6 +1930,8 @@ def cmd_build(_args=None) -> None:
                 po["plateaux"].sort(key=lambda p: p["start"])
                 poules.append(po)
             doc["phases"].append({"n": n, "label": ph["label"], "poules": poules})
+        # date de la dernière modification d'un plateau de cette division (sert de « mise à jour » sur le site)
+        doc["updated_at"] = max((p.get("last_change") or "" for ph_ in doc["phases"] for q in ph_["poules"] for p in q["plateaux"]), default="") or None
         if c.get("depts"):
             doc["depts"] = dept_map(c["depts"], {t for ph_ in doc["phases"] for q in ph_["poules"] for t in q["teams"]})
         file = f"{season}/{c['id']}.json"
