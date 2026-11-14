@@ -265,31 +265,31 @@
     "63": [
      {
       "rank": 1,
-      "kind": "up",
+      "kind": "upb",
       "label": "Monte en U13 Ligue Niveau B"
      },
      {
       "rank": 2,
-      "kind": "up",
+      "kind": "upc",
       "label": "Monte en U13 Ligue Niveau C"
      }
     ],
     "03": [
      {
       "rank": 1,
-      "kind": "up",
+      "kind": "upb",
       "label": "Monte en U13 Ligue Niveau B"
      },
      {
       "rank": 2,
-      "kind": "up",
+      "kind": "upc",
       "label": "Monte en U13 Ligue Niveau C"
      }
     ],
     "15": [
      {
       "rank": 1,
-      "kind": "up",
+      "kind": "upb",
       "label": "Monte en U13 Ligue Niveau B"
      }
     ]
