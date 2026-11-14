@@ -99,7 +99,8 @@
          "as": 3
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-26T10:38:44Z"
       },
       {
        "id": "9638_9007_15130_39905_34063_2",
@@ -131,7 +132,8 @@
          "as": 3
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-26T10:38:44Z"
       },
       {
        "id": "9638_9007_15130_39905_34063_3",
@@ -163,7 +165,8 @@
          "as": 5
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-09-20T18:03:12Z"
       },
       {
        "id": "9638_9007_15130_39905_38098_1",
@@ -195,7 +198,8 @@
          "as": 1
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-26T10:38:44Z"
       },
       {
        "id": "9638_9007_15130_39905_38098_2",
@@ -227,7 +231,8 @@
          "as": 0
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-09-20T18:38:24Z"
       },
       {
        "id": "9638_9007_15130_39905_38098_3",
@@ -259,7 +264,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-09-20T18:03:12Z"
       },
       {
        "id": "9638_9007_15130_39905_38099_1",
@@ -291,7 +297,8 @@
          "as": 3
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-26T10:38:44Z"
       },
       {
        "id": "9638_9007_15130_39905_38099_2",
@@ -323,7 +330,8 @@
          "as": 0
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-06T11:38:55Z"
       },
       {
        "id": "9638_9007_15130_39905_38099_3",
@@ -355,7 +363,8 @@
          "as": 0
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-04T16:40:42Z"
       },
       {
        "id": "9638_9007_15130_39905_38100_1",
@@ -387,7 +396,8 @@
          "as": 1
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-12T15:50:10Z"
       },
       {
        "id": "9638_9007_15130_39905_38100_2",
@@ -419,7 +429,8 @@
          "as": 1
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-12T11:41:37Z"
       },
       {
        "id": "9638_9007_15130_39905_38100_3",
@@ -451,7 +462,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-14T05:48:08Z"
       }
      ]
     },
@@ -500,7 +512,8 @@
          "as": 0
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-26T10:38:44Z"
       },
       {
        "id": "9638_9007_15130_39906_34063_2",
@@ -532,7 +545,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-26T10:38:44Z"
       },
       {
        "id": "9638_9007_15130_39906_34063_3",
@@ -564,7 +578,8 @@
          "as": 1
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-09-20T18:03:12Z"
       },
       {
        "id": "9638_9007_15130_39906_38098_2",
@@ -596,7 +611,8 @@
          "as": 4
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-09-20T18:03:12Z"
       },
       {
        "id": "9638_9007_15130_39906_38098_3",
@@ -628,7 +644,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-09-22T07:11:01Z"
       },
       {
        "id": "9638_9007_15130_39906_38098_1",
@@ -660,7 +677,8 @@
          "as": 0
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-09-21T09:26:59Z"
       },
       {
        "id": "9638_9007_15130_39906_38099_1",
@@ -692,7 +710,8 @@
          "as": 3
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-05T17:31:38Z"
       },
       {
        "id": "9638_9007_15130_39906_38099_2",
@@ -724,7 +743,8 @@
          "as": 1
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-03T18:53:57Z"
       },
       {
        "id": "9638_9007_15130_39906_38099_3",
@@ -756,7 +776,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-05T12:24:56Z"
       },
       {
        "id": "9638_9007_15130_39906_38100_1",
@@ -788,7 +809,8 @@
          "as": 4
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-12T07:11:03Z"
       },
       {
        "id": "9638_9007_15130_39906_38100_2",
@@ -820,7 +842,8 @@
          "as": 3
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-12T07:11:03Z"
       },
       {
        "id": "9638_9007_15130_39906_38100_3",
@@ -852,7 +875,8 @@
          "as": 1
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-12T07:11:03Z"
       }
      ]
     },
@@ -901,7 +925,8 @@
          "as": 3
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-26T10:38:44Z"
       },
       {
        "id": "9638_9007_15130_39907_34063_2",
@@ -933,7 +958,8 @@
          "as": 1
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-26T10:38:44Z"
       },
       {
        "id": "9638_9007_15130_39907_34063_3",
@@ -965,7 +991,8 @@
          "as": 5
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-26T10:38:44Z"
       },
       {
        "id": "9638_9007_15130_39907_38098_1",
@@ -997,7 +1024,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-09-20T18:03:12Z"
       },
       {
        "id": "9638_9007_15130_39907_38098_2",
@@ -1029,7 +1057,8 @@
          "as": 5
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-09-21T21:24:51Z"
       },
       {
        "id": "9638_9007_15130_39907_38098_3",
@@ -1061,7 +1090,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-09-21T09:26:59Z"
       },
       {
        "id": "9638_9007_15130_39907_38099_1",
@@ -1093,7 +1123,8 @@
          "as": 0
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-06T13:42:58Z"
       },
       {
        "id": "9638_9007_15130_39907_38099_2",
@@ -1125,7 +1156,8 @@
          "as": 4
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-03T18:53:57Z"
       },
       {
        "id": "9638_9007_15130_39907_38099_3",
@@ -1157,7 +1189,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-06T13:42:58Z"
       },
       {
        "id": "9638_9007_15130_39907_38100_1",
@@ -1189,7 +1222,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-12T15:50:10Z"
       },
       {
        "id": "9638_9007_15130_39907_38100_2",
@@ -1221,7 +1255,8 @@
          "as": 3
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-12T11:41:37Z"
       },
       {
        "id": "9638_9007_15130_39907_38100_3",
@@ -1253,7 +1288,8 @@
          "as": 1
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-10-12T07:11:03Z"
       }
      ]
     }
@@ -1308,7 +1344,8 @@
          "as": 2
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-07T15:12:20Z"
       },
       {
        "id": "cup460674_2_1_2",
@@ -1333,8 +1370,8 @@
         {
          "home": "F.C. CHAMALIERES 3",
          "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
-         "hs": null,
-         "as": null
+         "hs": 9,
+         "as": 0
         },
         {
          "home": "C.O. VEYRE MONTON 1",
@@ -1343,12 +1380,13 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-14T14:14:10Z"
       },
       {
        "id": "cup460674_2_1_3",
-       "start": "2026-11-21T14:00",
-       "lieu": "STADE HENRI LONGCHAMBON, Rue du Muscadet, CHAPDES BEAUFORT",
+       "start": "2026-11-21T13:00",
+       "lieu": "COMPLEXE SPORTIF DE L' ARTIÈRE, AVENUE DU STADE, BEAUMONT",
        "organisateur": "",
        "equipes": [
         "C.O. VEYRE MONTON 1",
@@ -1378,7 +1416,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-11T08:07:07Z"
       },
       {
        "id": "cup460674_2_1_4",
@@ -1413,12 +1452,13 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-05T10:40:16Z"
       },
       {
        "id": "cup460674_2_1_5",
        "start": "2026-12-05T14:00",
-       "lieu": "STADE LOUIS JOUHET, TERRAIN HONNEUR ALLEE DES MARRONNIERS, ST SATURNIN",
+       "lieu": "COMPLEXE SPORTIF DE L' ARTIÈRE, AVENUE DU STADE, BEAUMONT",
        "organisateur": "",
        "equipes": [
         "C.O. VEYRE MONTON 1",
@@ -1448,7 +1488,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       }
      ]
     },
@@ -1497,7 +1538,8 @@
          "as": 7
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-08T18:24:12Z"
       },
       {
        "id": "cup460674_2_2_2",
@@ -1516,8 +1558,8 @@
         {
          "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
          "away": "S.A. THIERNOIS 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 4
         },
         {
          "home": "C.S. PONT DE DORE 1",
@@ -1532,12 +1574,13 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-14T14:56:40Z"
       },
       {
        "id": "cup460674_2_2_3",
        "start": "2026-11-21T14:00",
-       "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
+       "lieu": "STADE ETIENNE BONHOMME, AVENUE PIERRE DE COUBERTIN, COURPIERE",
        "organisateur": "",
        "equipes": [
         "C.S. PONT DE DORE 1",
@@ -1567,7 +1610,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460674_2_2_4",
@@ -1602,12 +1646,13 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-02T22:49:10Z"
       },
       {
        "id": "cup460674_2_2_5",
        "start": "2026-12-05T14:00",
-       "lieu": "",
+       "lieu": "STADE GUSTAVE LIGNE, CHEMIN DES TORRENTS, PESCHADOIRES",
        "organisateur": "",
        "equipes": [
         "C.S. PONT DE DORE 1",
@@ -1637,7 +1682,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       }
      ]
     },
@@ -1686,12 +1732,13 @@
          "as": 0
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-08T18:24:12Z"
       },
       {
        "id": "cup460674_2_3_2",
        "start": "2026-11-14T14:00",
-       "lieu": "STADE CAMILLE LECLANCHÉ N°2, TERRAIN ANNEXE FOOT / RUGBY 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "lieu": "STADE DE L' ESPÉRANCE ST JACQUES, AVENUE LEON BLUM, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
         "A. S. CLERMONT SAINT JACQUES FOOT 1",
@@ -1705,28 +1752,29 @@
         {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
          "away": "A.S. ROYAT A.C. 2",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 2
         },
         {
          "home": "F.C. LEZOUX 1",
          "away": "F. C. CLERMONT METROPOLE 2",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 0
         },
         {
          "home": "CLERMONT FOOT 63 3",
          "away": "S.A. THIERNOIS 3",
-         "hs": null,
-         "as": null
+         "hs": 8,
+         "as": 0
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-14T14:40:26Z"
       },
       {
        "id": "cup460674_2_3_3",
        "start": "2026-11-21T14:00",
-       "lieu": "",
+       "lieu": "PARC DES SPORTS ANTONIN CHASTEL 1, TERRAIN A 115, AVENUE LEO LAGRANGE, THIERS",
        "organisateur": "",
        "equipes": [
         "A. S. CLERMONT SAINT JACQUES FOOT 1",
@@ -1756,12 +1804,13 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460674_2_3_4",
        "start": "2026-11-28T14:00",
-       "lieu": "",
+       "lieu": "STADE DU PARC DE LA FRATERNITÉ, Rue Alphonse Daudet, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
         "A. S. CLERMONT SAINT JACQUES FOOT 1",
@@ -1791,12 +1840,13 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460674_2_3_5",
        "start": "2026-12-05T14:00",
-       "lieu": "",
+       "lieu": "STADE DU BREUIL, CHEMIN DU BREUIL, ROYAT",
        "organisateur": "",
        "equipes": [
         "A. S. CLERMONT SAINT JACQUES FOOT 1",
@@ -1826,7 +1876,8 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       }
      ]
     },
@@ -1865,8 +1916,8 @@
         {
          "home": "U.S. ENNEZAT 1",
          "away": "F.C. CHATEL GUYON 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 2
         },
         {
          "home": "C.S. DE VOLVIC 1",
@@ -1875,7 +1926,8 @@
          "as": 0
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T12:42:55Z"
       },
       {
        "id": "cup460674_2_4_2",
@@ -1894,28 +1946,29 @@
         {
          "home": "CEBAZAT SP. 1",
          "away": "C.S. DE VOLVIC 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 1
         },
         {
          "home": "F.C. CHATEL GUYON 1",
          "away": "HAUTE COMBRAILLE FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 3
         },
         {
          "home": "F.C. RIOMOIS 3",
          "away": "U.S. ENNEZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 0
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-14T14:56:40Z"
       },
       {
        "id": "cup460674_2_4_3",
        "start": "2026-11-21T14:00",
-       "lieu": "",
+       "lieu": "STADE MICHEL CHAMPLEBOUX 1, 1 RUE DU STADE, VOLVIC",
        "organisateur": "",
        "equipes": [
         "C.S. DE VOLVIC 1",
@@ -1945,12 +1998,13 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460674_2_4_4",
        "start": "2026-11-28T14:00",
-       "lieu": "COMPLEXE SPORTIF LA PRADE 1, RUE DES COUTILS, CEBAZAT",
+       "lieu": "PARC DES SPORTS DU CEREY 1, PLACE DE L'EUROPE, RIOM",
        "organisateur": "",
        "equipes": [
         "C.S. DE VOLVIC 1",
@@ -1980,12 +2034,13 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       },
       {
        "id": "cup460674_2_4_5",
        "start": "2026-12-05T13:30",
-       "lieu": "",
+       "lieu": "PARC DES SPORTS DU CEREY 1, PLACE DE L'EUROPE, RIOM",
        "organisateur": "",
        "equipes": [
         "C.S. DE VOLVIC 1",
@@ -2015,11 +2070,13 @@
          "as": null
         }
        ],
-       "heure_connue": true
+       "heure_connue": true,
+       "last_change": "2026-11-09T16:28:42Z"
       }
      ]
     }
    ]
   }
- ]
+ ],
+ "updated_at": "2026-11-14T14:56:40Z"
 }
