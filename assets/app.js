@@ -95,7 +95,8 @@
       let changes = [], rules = {};
       try { changes = await fetchJSON('data/changes.json'); } catch { /* facultatif */ }
       try { rules = await fetchJSON('data/rules.json'); } catch { /* facultatif */ }
-      return { demo: false, season: cat.season, updated_at: cat.updated_at, checked_at: cat.checked_at, ntfy: cat.ntfy, categories, changes, rules };
+      const lastDiv = categories.map(c => c.updated_at || '').filter(Boolean).sort().pop() || cat.updated_at;
+      return { demo: false, season: cat.season, updated_at: lastDiv, checked_at: cat.checked_at, ntfy: cat.ntfy, categories, changes, rules };
     } catch (e) {
       return window.buildDemo();
     }
@@ -380,6 +381,12 @@
     // Sorties par DÉPARTEMENT (Critérium interdistrict phase 2) : rang dans les équipes d'un même département,
     // d'après le classement de division. Provisoire tant que toutes les équipes du département n'ont pas fini.
     if (rule && rule.dept_tiers && cat.depts) {
+      const seenLeg = new Set();
+      Object.values(rule.dept_tiers).flat().forEach(sp => {
+        if (seenLeg.has(sp.kind)) return;
+        seenLeg.add(sp.kind);
+        ph.tiers.push({ kind: sp.kind, label: sp.label, scope: 'dept', rank: sp.rank, from: sp.rank, to: sp.rank });
+      });
       Object.entries(rule.dept_tiers).forEach(([dept, specs]) => {
         const grp = ph.overall.filter(t => cat.depts[t.name] === dept).sort((a, b) => a.rank - b.rank);
         const done = grp.length > 0 && grp.every(t => t.rem === 0);
@@ -575,12 +582,13 @@
   /* Pourquoi une zone est « assurée » ou « provisoire » : affiché au survol et dans la fiche équipe. */
   function zoneText(t) {
     if (!t.tier) return '';
-    const w = t.tier.kind === 'up' ? 'Montée' : t.tier.kind === 'down' ? 'Descente' : 'Destination';
+    const isUp = k => k === 'up' || k === 'upb' || k === 'upc';
+    const w = isUp(t.tier.kind) ? 'Montée' : t.tier.kind === 'down' ? 'Descente' : 'Destination';
     if (!t.sure && t.rem === 0) return `${w} provisoire : ${t.tier.label}. Poule terminée pour elle (${nth(t.pos)} de sa poule) ; sa place dans la division dépend encore des autres poules.`;
     if (!t.sure) return `${w} provisoire : ${t.tier.label}. Il reste ${games(t.rem)} : en théorie, elle peut encore finir de ${nth(t.bestPos)} à ${nth(t.worstPos)} de sa poule (de ${t.pts} à ${t.maxF} pts).`;
     if (t.rem === 0) return `${w} assurée : ${t.tier.label}. Classement définitif.`;
     if (t.tier.kind === 'down') return `${w} assurée : ${t.tier.label}. Même en gagnant ses ${games(t.rem)} (${t.maxF} pts au maximum), elle ne peut pas finir mieux que ${nth(t.bestPos)} de sa poule.`;
-    if (t.tier.kind === 'up') return `${w} assurée : ${t.tier.label}. Même en perdant ses ${games(t.rem)} (${t.pts} pts), elle finit au moins ${nth(t.worstPos)} de sa poule.`;
+    if (isUp(t.tier.kind)) return `${w} assurée : ${t.tier.label}. Même en perdant ses ${games(t.rem)} (${t.pts} pts), elle finit au moins ${nth(t.worstPos)} de sa poule.`;
     return `${w} assurée : ${t.tier.label}. Quels que soient les résultats à venir, elle reste dans cette zone.`;
   }
 
@@ -622,7 +630,7 @@
   function legendHTML(ph) {
     if (!ph.tiers.length) return '';
     const sw = k => `<i class="sw" style="--c:var(--k-${k}-l)"></i><i class="sw" style="--c:var(--k-${k})"></i>`;
-    const range = x => x.openEnd ? `à partir du rang ${x.from}` : `rang${x.to > x.from ? 's' : ''} ${x.from}${x.to > x.from ? '–' + x.to : ''}`;
+    const range = x => x.scope === 'dept' ? `${x.rank === 1 ? '1er' : x.rank + 'e'} de son département` : x.openEnd ? `à partir du rang ${x.from}` : `rang${x.to > x.from ? 's' : ''} ${x.from}${x.to > x.from ? '–' + x.to : ''}`;
     return `<div class="legend">${ph.tiers.map(x => `<span>${sw(x.kind)}${esc(x.label)} <em>(${range(x)})</em></span>`).join('')}</div>
       <p class="note">Barre claire : place provisoire, d’après le classement actuel. Barre foncée : place assurée, quel que soit le résultat des matchs restants.</p>`;
   }
@@ -856,16 +864,14 @@
   function stampHTML(st) {
     if (!st) return '';
     const t = st.tier;
-    // Hors zone : « Maintien » est acquis dès que l'équipe n'a plus de match à jouer dans sa poule
-    // (le classement final dépend alors des autres poules, mais une équipe sans zone reste en place).
-    const prov = t ? st.sure === false : st.rem > 0;
+    // Affiché seulement quand c'est acquis : une zone sûre, ou un maintien (hors zone) dont les matchs sont tous joués.
+    if (t ? st.sure !== true : st.rem !== 0) return '';
     let cls = 'keep', txt = 'Maintien';
     if (t) {
-      if (t.kind === 'up') { cls = 'up'; txt = t.label || 'Montée'; }
-      else if (t.kind === 'down') { cls = 'down'; txt = t.label || 'Descente'; }
-      else { cls = 'keep'; txt = t.label || 'Destination'; }
+      cls = t.kind === 'up' || t.kind === 'upb' || t.kind === 'upc' ? t.kind : t.kind === 'down' ? 'down' : 'keep';
+      txt = t.label || (t.kind === 'down' ? 'Descente' : 'Montée');
     }
-    return `<span class="stamp ${cls}${prov ? ' prov' : ''}">${esc(txt)}${prov ? ' · provisoire' : ''}</span>`;
+    return `<span class="stamp ${cls}">${esc(txt)}</span>`;
   }
 
   // Un bloc par phase du championnat : cadre (classement, courbe avec repères), matchs, boutons propres à la phase
@@ -875,14 +881,14 @@
     const past = evs.filter(e => !isUpcoming(e)).sort((x, y) => y.when - x.when);
     const n = ap.po.standings.length;
     // repères : seulement les zones exprimées en rang de poule (les zones de division ne se lisent pas sur la courbe de poule)
-    const colorOf = t => t.kind === 'up' ? 'var(--k-up)' : t.kind === 'down' ? 'var(--k-down)' : 'var(--ink-2)';
+    const colorOf = t => (t.kind === 'up' || t.kind === 'upb' || t.kind === 'upc' || t.kind === 'down') ? `var(--k-${t.kind})` : 'var(--ink-2)';
     const ov = ap.ph.overall.find(t => t.name === name);
-    const divScope = (ap.ph.tiers || []).some(t => t.scope !== 'poule');
+    const divScope = (ap.ph.tiers || []).some(t => t.scope !== 'poule' && t.scope !== 'dept');
     const useDiv = divScope && ov && ov.divHist && ov.divHist.length > 1;
     const ranks = useDiv ? ov.divHist : (ap.po.rankHist[name] || []);
     const nRanks = useDiv ? ap.ph.overall.length : n;
     const marks = useDiv
-      ? (ap.ph.tiers || []).filter(t => t.scope !== 'poule' && Number.isFinite(t.from) && Number.isFinite(t.to))
+      ? (ap.ph.tiers || []).filter(t => t.scope !== 'poule' && t.scope !== 'dept' && Number.isFinite(t.from) && Number.isFinite(t.to))
           .map(t => ({ pos: t.kind === 'down' ? t.from - 1 : t.to, color: colorOf(t) }))
       : (ap.ph.tiers || []).filter(t => t.scope === 'poule' && Number.isInteger(t.to))
           .map(t => ({ pos: t.to, color: colorOf(t) }));
@@ -1223,7 +1229,7 @@
   }
 
   async function init() {
-    console.info('[Foot animation 63] version app 2026-10-16 (critérium : sorties par département)');
+    console.info('[Foot animation 63] version app 2026-10-17 (tampon acquis seulement, date par division, B et C distincts)');
     applyTheme();
     $('#theme-btn').addEventListener('click', toggleTheme);
     prepare(await loadData());
@@ -1233,9 +1239,8 @@
     if (!D.demo && (D.checked_at || D.updated_at)) {
       const checkedStamp = D.checked_at && fmtStamp(new Date(D.checked_at));
       const updatedStamp = D.updated_at && fmtStamp(new Date(D.updated_at));
-      const checked = checkedStamp ? `Vérifié le ${checkedStamp}` : '';
-      $('#updated').textContent = checked || `Données du ${updatedStamp}`;
-      if (checked && updatedStamp && updatedStamp !== checkedStamp) $('#updated').title = `${checked} (dernière mise à jour le ${updatedStamp})`;
+      $('#updated').textContent = updatedStamp ? `Mis à jour le ${updatedStamp}` : `Vérifié le ${checkedStamp}`;
+      if (checkedStamp) $('#updated').title = `Dernière vérification : ${checkedStamp}`;
     }
     bind();
     render();

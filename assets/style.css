@@ -18,7 +18,8 @@
   --accent-soft: color-mix(in srgb, var(--accent) 10%, var(--card));
   --fav: #D99A00;
   /* zones de montée / descente : version foncée = place assurée, version claire (-l) = provisoire */
-  --k-up: #137A4C; --k-down: #C53434;
+  --k-up: #137A4C; --k-down: #C53434; --k-upb: #137A4C; --k-upc: #2D6FB5;
+  --k-upb-l: color-mix(in srgb, var(--k-upb) 38%, var(--card)); --k-upc-l: color-mix(in srgb, var(--k-upc) 38%, var(--card));
   --k-t1: #137A4C; --k-t2: #C97A00; --k-t3: #2D6FB5; --k-t4: #7A5FA8;
   --k-up-l: color-mix(in srgb, var(--k-up) 38%, var(--card));
   --k-down-l: color-mix(in srgb, var(--k-down) 38%, var(--card));
@@ -43,7 +44,7 @@
     --paper: #08201A; --card: #0E2B23; --ink: #EAF3EC; --ink-2: #9FB8AB;
     --line: #1E4437; --line-2: #153429; --grass-1: #0D4A35; --grass-2: #0A3F2D;
     --chalk: #EAF3EC; --accent: #F2C94C; --on-accent: #1B1500; --fav: #F2C94C;
-    --k-up: #35C486; --k-down: #FF7A7A;
+    --k-up: #35C486; --k-down: #FF7A7A; --k-upb: #35C486; --k-upc: #6FA8FF; --k-upb: #35C486; --k-upc: #6FA8FF;
     --k-t1: #35C486; --k-t2: #F2A93C; --k-t3: #6FA8FF; --k-t4: #C79EFF;
     --win: #35C486; --draw: #7F9A8C; --loss: #FF7A7A;
   }
@@ -391,9 +392,10 @@ dialog[open] { animation: rise .22s ease-out; }
 .season-card b { font-weight:800; }
 .ph-block { margin: 0 0 22px; padding-top: 4px; border-top: 1px solid var(--line); }
 .ph-title { font-size: 16px; margin: 12px 0 8px; }
-.stamp { position: absolute; top: 10px; right: 12px; font-size: 11px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; padding: 4px 9px; border: 2px solid currentColor; border-radius: 8px; transform: rotate(3deg); background: var(--card); max-width: 60%; text-align:center; }
-.stamp.up { color: var(--k-up); }
+.stamp { position: absolute; top: -13px; right: 10px; font-size: 10px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; padding: 2px 8px; border: 2px solid currentColor; border-radius: 7px; transform: rotate(2deg); background: var(--card); max-width: 70%; text-align:center; line-height: 1.2; z-index: 1; }
+.stamp.up, .stamp.upb { color: var(--k-up); }
+.stamp.upc { color: var(--k-upc); }
 .stamp.down { color: var(--k-down); }
 .stamp.keep { color: var(--ink-2); }
 .stamp.prov { opacity: .65; border-style: dashed; }
-.ph-block .sh-stats { position: relative; }
+.ph-block .sh-stats { position: relative; margin-top: 16px; }
