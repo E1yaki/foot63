@@ -97,8 +97,8 @@
         {
          "home": "CLERMONT FOOT 63 2",
          "away": "AC. S.  MOULINS FOOTBALL 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 3
         },
         {
          "home": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
@@ -115,12 +115,12 @@
         {
          "home": "ENT. NORD LOZERE F. 1",
          "away": "A.S. MONTFERRANDAISE 3",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 1
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:14:10Z"
+       "last_change": "2026-11-14T15:14:05Z"
       },
       {
        "id": "cup460829_2_1_3",
@@ -347,13 +347,15 @@
    ]
   }
  ],
- "updated_at": "2026-11-14T14:14:10Z",
+ "updated_at": "2026-11-14T15:14:05Z",
  "depts": {
   "CLERMONT FOOT 63 2": "63",
   "A.S. MONTFERRANDAISE 3": "63",
   "S.A. THIERNOIS 1": "63",
   "AC. S.  MOULINS FOOTBALL 1": "03",
+  "MOULINS YZEURE FOOT 03 AUVERGNE 1": "03",
   "MONTLUCON FOOTBALL 1": "03",
+  "CERC.S. ARPAJONNAIS 1": "15",
   "ENT. NORD LOZERE F. 1": "15"
  }
 }

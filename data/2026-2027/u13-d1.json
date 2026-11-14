@@ -1327,8 +1327,8 @@
         {
          "home": "C.S. PONT DU CHATEAU 1",
          "away": "GJ SCB FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 0
         },
         {
          "home": "ECUREUILS FRANC ROSIER 1",
@@ -1338,7 +1338,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:14:10Z"
+       "last_change": "2026-11-14T15:14:05Z"
       },
       {
        "id": "cup460673_2_3_3",
@@ -1453,5 +1453,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-14T14:56:40Z"
+ "updated_at": "2026-11-14T15:14:05Z"
 }
