@@ -112,8 +112,8 @@
         {
          "home": "F.C. AUBIEROIS 2",
          "away": "U.S. ENNEZAT 2",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 5
         },
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 2",
@@ -129,7 +129,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:14:10Z"
+       "last_change": "2026-11-14T15:34:11Z"
       },
       {
        "id": "cup460677_2_1_3",
@@ -312,8 +312,8 @@
         {
          "home": "C.O. VEYRE MONTON 2",
          "away": "F.C. AYDAT 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 1
         },
         {
          "home": "A.S. ROMAGNAT 1",
@@ -323,7 +323,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:56:40Z"
+       "last_change": "2026-11-14T15:34:11Z"
       },
       {
        "id": "cup460677_2_2_3",
@@ -1214,5 +1214,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-14T14:56:40Z"
+ "updated_at": "2026-11-14T15:34:11Z"
 }

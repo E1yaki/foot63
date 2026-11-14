@@ -1376,12 +1376,12 @@
         {
          "home": "C.O. VEYRE MONTON 1",
          "away": "U.S. BEAUMONTOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 0
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:14:10Z"
+       "last_change": "2026-11-14T16:12:57Z"
       },
       {
        "id": "cup460674_2_1_3",
@@ -2078,5 +2078,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-14T14:56:40Z"
+ "updated_at": "2026-11-14T16:12:57Z"
 }

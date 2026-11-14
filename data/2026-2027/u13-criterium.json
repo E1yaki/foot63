@@ -109,8 +109,8 @@
         {
          "home": "CERC.S. ARPAJONNAIS 1",
          "away": "S.A. THIERNOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 0
         },
         {
          "home": "ENT. NORD LOZERE F. 1",
@@ -120,7 +120,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T15:14:05Z"
+       "last_change": "2026-11-14T15:34:11Z"
       },
       {
        "id": "cup460829_2_1_3",
@@ -347,7 +347,7 @@
    ]
   }
  ],
- "updated_at": "2026-11-14T15:14:05Z",
+ "updated_at": "2026-11-14T15:34:11Z",
  "depts": {
   "CLERMONT FOOT 63 2": "63",
   "A.S. MONTFERRANDAISE 3": "63",

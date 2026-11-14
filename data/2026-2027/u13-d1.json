@@ -1333,12 +1333,12 @@
         {
          "home": "ECUREUILS FRANC ROSIER 1",
          "away": "F.C. RIOMOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 3
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T15:14:05Z"
+       "last_change": "2026-11-14T16:12:57Z"
       },
       {
        "id": "cup460673_2_3_3",
@@ -1453,5 +1453,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-14T15:14:05Z"
+ "updated_at": "2026-11-14T16:12:57Z"
 }
