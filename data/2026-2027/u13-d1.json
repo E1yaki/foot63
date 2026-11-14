@@ -1271,7 +1271,7 @@
       },
       {
        "id": "cup460673_2_3_2",
-       "start": "2026-11-14T14:00",
+       "start": "2026-11-14T13:00",
        "lieu": "STADE DE L' ESPÉRANCE ST JACQUES, AVENUE LEON BLUM, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
@@ -1286,8 +1286,8 @@
         {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 2",
          "away": "AULNAT SP. 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 4
         },
         {
          "home": "C.S. PONT DU CHATEAU 1",

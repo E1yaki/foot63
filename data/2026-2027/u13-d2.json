@@ -1333,8 +1333,8 @@
         {
          "home": "F.C. CHAMALIERES 3",
          "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
-         "hs": null,
-         "as": null
+         "hs": 9,
+         "as": 0
         },
         {
          "home": "C.O. VEYRE MONTON 1",
@@ -1347,7 +1347,7 @@
       },
       {
        "id": "cup460674_2_1_3",
-       "start": "2026-11-21T14:00",
+       "start": "2026-11-21T13:00",
        "lieu": "COMPLEXE SPORTIF DE L' ARTIÈRE, AVENUE DU STADE, BEAUMONT",
        "organisateur": "",
        "equipes": [
@@ -1705,8 +1705,8 @@
         {
          "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
          "away": "A.S. ROYAT A.C. 2",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 2
         },
         {
          "home": "F.C. LEZOUX 1",
@@ -1906,8 +1906,8 @@
         {
          "home": "F.C. RIOMOIS 3",
          "away": "U.S. ENNEZAT 1",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 0
         }
        ],
        "heure_connue": true

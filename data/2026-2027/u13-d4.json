@@ -112,8 +112,8 @@
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 1",
          "away": "DOMES SANCY FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 2
         }
        ],
        "heure_connue": true
@@ -260,8 +260,8 @@
         {
          "home": "PERIGNAT F.C. 1",
          "away": "C.S. PONT DU CHATEAU 3",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
         },
         {
          "home": "F.C. CHAMALIERES 2",
@@ -289,8 +289,8 @@
         {
          "home": "F.C. CHAMALIERES 2",
          "away": "U.S. VAL DE COUZE CHAMBON 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 1
         },
         {
          "home": "GROUPEMENT DE L'AUZON 2",

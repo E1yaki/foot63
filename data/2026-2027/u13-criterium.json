@@ -102,8 +102,8 @@
         {
          "home": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
          "away": "MONTLUCON FOOTBALL 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 6
         },
         {
          "home": "CERC.S. ARPAJONNAIS 1",
@@ -165,8 +165,8 @@
       },
       {
        "id": "cup460829_2_1_4",
-       "start": "2026-11-28T14:00",
-       "lieu": "STADE DE LA BAÏSSE 1, route de st chely d' apcher, ST ALBAN SUR LIMAGNOLE",
+       "start": "2026-11-25T14:00",
+       "lieu": "COMPLEXE SPORTIF GRAVANCHES N°6, RUE DU PRECOMTAL, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
         "A.S. MONTFERRANDAISE 3",
@@ -179,6 +179,12 @@
         "S.A. THIERNOIS 1"
        ],
        "matchs": [
+        {
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "S.A. THIERNOIS 1",
+         "hs": null,
+         "as": null
+        },
         {
          "home": "CERC.S. ARPAJONNAIS 1",
          "away": "MONTLUCON FOOTBALL 1",
@@ -196,12 +202,6 @@
          "away": "AC. S.  MOULINS FOOTBALL 1",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "A.S. MONTFERRANDAISE 3",
-         "away": "S.A. THIERNOIS 1",
-         "hs": null,
-         "as": null
         }
        ],
        "heure_connue": true
@@ -209,7 +209,7 @@
       {
        "id": "cup460829_2_1_5",
        "start": "2026-12-05T14:00",
-       "lieu": "STADE DES ÎLETS, RUE DES FAUCHEROUX, MONTLUCON",
+       "lieu": "STADE HECTOR ROLLAND 3, TERRAIN ANNEXE ALLEE DES SOUPIRS, MOULINS",
        "organisateur": "",
        "equipes": [
         "A.S. MONTFERRANDAISE 3",
