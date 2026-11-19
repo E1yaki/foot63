@@ -18,7 +18,7 @@
   --accent-soft: color-mix(in srgb, var(--accent) 10%, var(--card));
   --fav: #D99A00;
   /* zones de montée / descente : version foncée = place assurée, version claire (-l) = provisoire */
-  --k-up: #137A4C; --k-down: #C53434; --k-upb: #137A4C; --k-upc: #2D6FB5;
+  --k-up: #137A4C; --k-down: #C53434; --k-upb: #137A4C; --k-upc: #7A5FA8;
   --k-upb-l: color-mix(in srgb, var(--k-upb) 38%, var(--card)); --k-upc-l: color-mix(in srgb, var(--k-upc) 38%, var(--card));
   --k-t1: #137A4C; --k-t2: #C97A00; --k-t3: #2D6FB5; --k-t4: #7A5FA8;
   --k-up-l: color-mix(in srgb, var(--k-up) 38%, var(--card));
@@ -44,7 +44,7 @@
     --paper: #08201A; --card: #0E2B23; --ink: #EAF3EC; --ink-2: #9FB8AB;
     --line: #1E4437; --line-2: #153429; --grass-1: #0D4A35; --grass-2: #0A3F2D;
     --chalk: #EAF3EC; --accent: #F2C94C; --on-accent: #1B1500; --fav: #F2C94C;
-    --k-up: #35C486; --k-down: #FF7A7A; --k-upb: #35C486; --k-upc: #6FA8FF; --k-upb: #35C486; --k-upc: #6FA8FF;
+    --k-up: #35C486; --k-down: #FF7A7A; --k-upb: #35C486; --k-upc: #B79CFF; --k-upb: #35C486; --k-upc: #B79CFF;
     --k-t1: #35C486; --k-t2: #F2A93C; --k-t3: #6FA8FF; --k-t4: #C79EFF;
     --win: #35C486; --draw: #7F9A8C; --loss: #FF7A7A;
   }
@@ -103,7 +103,7 @@ main { padding: 0 16px calc(var(--tabbar-h) + 40px + env(safe-area-inset-bottom)
 /* ---------- barre d'onglets ---------- */
 .tabbar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(5, 1fr);
   height: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
   padding-bottom: env(safe-area-inset-bottom);
   background: var(--card); border-top: 1px solid var(--line);
@@ -399,3 +399,40 @@ dialog[open] { animation: rise .22s ease-out; }
 .stamp.keep { color: var(--ink-2); }
 .stamp.prov { opacity: .65; border-style: dashed; }
 .ph-block .sh-stats { position: relative; margin-top: 16px; }
+
+/* bouton vidéo de la fiche */
+.vid-btn { display:inline-flex; align-items:center; gap:6px; margin-top:6px; padding:5px 10px; border-radius:999px; border:1px solid var(--line); color:var(--accent); font-size:13px; font-weight:700; text-decoration:none; background:var(--card); }
+.vid-btn .i { width:18px; height:18px; }
+/* page statistiques */
+.stats-grid { display:grid; gap:16px; grid-template-columns: 1fr; }
+@media (min-width: 900px) { .stats-grid { grid-template-columns: 1fr 1fr; } }
+.stat-card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:14px 16px; }
+.stat-card h3 { margin:0 0 10px; font-size:15px; display:flex; align-items:center; gap:8px; }
+.stat-card h3 .i { width:18px; height:18px; color:var(--accent); }
+.stat-table { width:100%; border-collapse:collapse; font-size:14px; }
+.stat-table th, .stat-table td { padding:7px 4px; text-align:right; border-bottom:1px solid var(--line-2); }
+.stat-table th:first-child, .stat-table td:first-child { text-align:left; width:34px; }
+.stat-table td.nm { text-align:left; font-weight:600; }
+.stat-table tr.top1 td { color:var(--accent); }
+.stat-table td.avg { font-weight:800; font-family: var(--font-display); }
+.stat-note { font-size:12px; color:var(--ink-2); margin-top:8px; }
+
+/* info-bulles (survol, ou tap sur mobile via le focus) */
+.tip { position: relative; }
+.tip:hover::after, .tip:focus::after { content: attr(data-tip); position: absolute; left: 50%; transform: translateX(-50%); bottom: calc(100% + 8px); background: #1b2a24; color: #fff; font-size: 12px; font-weight: 600; line-height: 1.35; padding: 7px 10px; border-radius: 9px; width: max-content; max-width: 230px; white-space: normal; text-align: center; z-index: 30; pointer-events: none; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+.tip:focus { outline: none; }
+/* trophées */
+.tr { display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:7px; margin-left:6px; vertical-align:middle; cursor: help; }
+.tr .i { width:14px; height:14px; }
+.tr-att { color:#B7791F; background: color-mix(in srgb, #F2C94C 25%, var(--card)); }
+.tr-def { color:#0E7C86; background: color-mix(in srgb, #3FB8C4 22%, var(--card)); }
+/* navigation des statistiques */
+.stat-crumbs { display:flex; flex-wrap:wrap; gap:6px; align-items:center; font-size:13px; color:var(--ink-2); margin:0 0 12px; }
+.stat-crumbs a { color: var(--accent); text-decoration:none; font-weight:700; }
+.stat-grid-cards { display:grid; gap:12px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+.div-card { display:block; background:var(--card); border:1px solid var(--line); border-radius:16px; padding:14px; text-decoration:none; color:inherit; }
+.div-card b { font-size:16px; display:block; margin-bottom:6px; }
+.div-card small { color:var(--ink-2); font-size:12px; display:block; line-height:1.5; }
+.poule-chips { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 0; }
+.poule-chips a { padding:8px 14px; border-radius:999px; border:1px solid var(--line); background:var(--card); color:var(--ink); text-decoration:none; font-weight:800; }
+.tr.prov { opacity: .55; border: 1px dashed currentColor; }

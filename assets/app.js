@@ -600,7 +600,7 @@
     const ai = apIndexFor(t.key, po._cat, po._ph, po);
     return `<tr class="${S.favs.has(t.key) ? 'is-fav' : ''}" data-team="${esc(t.name)}" data-cat="${esc(po._cat.id)}" data-ph="${po._ph.n}" data-poule="${esc(po.id)}"${zt ? ` title="${esc(zt)}"` : ''}>
       <td class="pos" ${zoneStyle(t)}>${division ? t.rank : t.pos}${zt ? `<span class="sr">${esc(zt)}</span>` : ''}</td>
-      <td class="tm"><button class="team-btn" type="button" data-open="${esc(t.key)}" data-i="${ai}">${avatar(t.name)}<span class="tw"><span class="tn">${esc(pretty(t.name))}</span>${sub}</span></button></td>
+      <td class="tm"><button class="team-btn" type="button" data-open="${esc(t.key)}" data-i="${ai}">${avatar(t.name)}<span class="tw"><span class="tn">${esc(pretty(t.name))}${trophyHTML(t.name)}</span>${sub}</span></button></td>
       <td class="wide">${dots(t.form)}</td>
       <td class="wide">${t.j}</td>
       ${division ? `<td class="wide">${t.j ? t.ppm.toFixed(2).replace('.', ',') : '–'}</td>` : `<td class="wide">${t.g}</td><td class="wide">${t.n}</td><td class="wide">${t.p}</td>`}
@@ -789,6 +789,154 @@
     b.hidden = n === 0; b.textContent = n > 9 ? '9+' : String(n);
   }
 
+  /* ============================================================
+     Statistiques : niveaux (saison > phase > division > poule) et trophées de meilleure attaque / défense
+     ============================================================ */
+  const isU13 = c => c.kind !== 'cup' && c.group === 'u13';            // U10-U11 n'a pas de statistiques
+  const u13Cats = () => D.categories.filter(isU13);
+  const u13Phases = () => [...new Set(u13Cats().flatMap(c => c.phases.map(p => p.n)))].sort((x, y) => x - y);
+
+  // poules d'un périmètre : saison (toutes), phase n, division d'une phase, ou une poule
+  function scopePoules(level) {
+    const out = [];
+    u13Cats().forEach(c => c.phases.forEach(p => {
+      if (level.phase != null && p.n !== level.phase) return;
+      if (level.cat && c.id !== level.cat) return;
+      p.poules.forEach(po => { if (!level.poule || po.id === level.poule) out.push({ cat: c, ph: p, po }); });
+    }));
+    return out;
+  }
+
+  // classement de statistiques d'un périmètre (matchs joués seulement : compte dès la 1re journée)
+  function scopeRows(items) {
+    const T = new Map();
+    items.forEach(({ po }) => (po.standings || []).forEach(t => {
+      if (!t.j) return;
+      const r = T.get(t.name) || { name: t.name, j: 0, bp: 0, bc: 0 };
+      r.j += t.j; r.bp += t.bp; r.bc += t.bc;
+      T.set(t.name, r);
+    }));
+    return [...T.values()].map(r => ({ ...r, avgBp: r.bp / r.j, avgBc: r.bc / r.j }));
+  }
+  const sortAtt = rows => rows.slice().sort((x, y) => y.avgBp - x.avgBp || y.bp - x.bp);
+  const sortDef = rows => rows.slice().sort((x, y) => x.avgBc - y.avgBc || x.bc - y.bc);
+
+  // Trophées : par phase, la meilleure attaque et la meilleure défense (du niveau le plus haut : phase > division > poule).
+  // Une phase terminée donne un trophée définitif ; une phase en cours, un trophée provisoire. Le trophée de saison
+  // n'apparaît que lorsque toute la saison est terminée, et remplace alors les trophées de phase.
+  const LEVEL_RANK = { phase: 3, division: 2, poule: 1 };
+  const phaseDone = n => { const pls = scopePoules({ phase: n }); return pls.length > 0 && pls.every(({ po }) => po.matches.length > 0 && po.matches.every(m => m.played)); };
+  function trophyIndex() {
+    if (D._trophies) return D._trophies;
+    const cand = {};   // phase -> nom -> type -> meilleur candidat (niveau le plus haut)
+    const addCand = (n, items, level, label) => {
+      const rows = scopeRows(items);
+      if (rows.length < 2) return;   // pas de « meilleure » sur une équipe seule
+      [[sortAtt(rows)[0], 'att'], [sortDef(rows)[0], 'def']].forEach(([r, type]) => {
+        if (!r) return;
+        const slot = ((cand[n] = cand[n] || {})[r.name] = cand[n][r.name] || {});
+        const cur = slot[type];
+        if (!cur || LEVEL_RANK[level] > LEVEL_RANK[cur.level]) slot[type] = { level, label };
+      });
+    };
+    const phases = u13Phases();
+    phases.forEach(n => {
+      addCand(n, scopePoules({ phase: n }), 'phase', `de la phase ${n} (U13)`);
+      u13Cats().forEach(c => {
+        if (!c.phases.some(p => p.n === n)) return;
+        const pls = scopePoules({ phase: n, cat: c.id });
+        addCand(n, pls, 'division', `de la ${c.label} phase ${n}`);
+        if (pls.length > 1) pls.forEach(it => addCand(n, [it], 'poule', `de la ${it.po.label} · ${c.label} phase ${n}`));
+      });
+    });
+    const idx = {};
+    const seasonDone = phases.length > 0 && phases.every(phaseDone);
+    const push = (name, t) => { (idx[name] = idx[name] || []).push(t); };
+    if (seasonDone) {
+      const rows = scopeRows(scopePoules({}));
+      [[sortAtt(rows)[0], 'att'], [sortDef(rows)[0], 'def']].forEach(([r, type]) => {
+        if (r && rows.length > 1) push(r.name, { type, label: `Meilleure ${type === 'att' ? 'attaque' : 'défense'} de la saison U13`, final: true, phase: 0 });
+      });
+    } else {
+      phases.forEach(n => Object.entries(cand[n] || {}).forEach(([name, types]) => Object.entries(types).forEach(([type, c]) => {
+        push(name, { type, label: `Meilleure ${type === 'att' ? 'attaque' : 'défense'} ${c.label}`, final: phaseDone(n), phase: n });
+      })));
+    }
+    Object.values(idx).forEach(l => l.sort((x, y) => (x.phase - y.phase) || (x.type === 'att' ? -1 : 1)));
+    D._trophies = idx;
+    return idx;
+  }
+
+  function trophyHTML(name) {
+    return (trophyIndex()[name] || []).map(t => {
+      const tip = `${t.label}${t.final ? '' : ' · provisoire'}`;
+      return `<span class="tr tr-${t.type}${t.final ? '' : ' prov'} tip" tabindex="0" data-tip="${esc(tip)}" aria-label="${esc(tip)}">${icon('trophy')}</span>`;
+    }).join('');
+  }
+
+  function statTable(rows, kind) {
+    if (!rows.length) return `<div class="hint">Aucun match joué pour l’instant.</div>`;
+    return `<table class="stat-table"><thead><tr><th>#</th><th style="text-align:left">Équipe</th><th>Matchs</th><th>${kind === 'att' ? 'Buts' : 'Pris'}</th><th>Moy.</th></tr></thead><tbody>
+      ${rows.slice(0, 10).map((r, i) => `<tr class="${i === 0 ? 'top1' : ''}"><td>${i + 1}</td><td class="nm">${esc(pretty(r.name))}${trophyHTML(r.name)}</td><td>${r.j}</td><td>${kind === 'att' ? r.bp : r.bc}</td><td class="avg">${(kind === 'att' ? r.avgBp : r.avgBc).toFixed(2).replace('.', ',')}</td></tr>`).join('')}
+      </tbody></table>`;
+  }
+
+  function statCards(items) {
+    const rows = scopeRows(items);
+    return `<div class="stats-grid">
+      <section class="stat-card"><h3>${icon('trophy')}Meilleures attaques</h3>${statTable(sortAtt(rows), 'att')}</section>
+      <section class="stat-card"><h3>${icon('trophy')}Meilleures défenses</h3>${statTable(sortDef(rows), 'def')}</section>
+    </div>`;
+  }
+
+  // Route : #/stats/<saison | pN>/<division>/<poule>
+  function viewStats(a) {
+    const phases = u13Phases();
+    const lvl = a.level && a.level !== 'saison' ? Number(String(a.level).replace('p', '')) : null;
+    const cat = a.cat && D.byCat.get(a.cat) && isU13(D.byCat.get(a.cat)) ? a.cat : null;
+    const catObj = cat ? D.byCat.get(cat) : null;
+    const poule = cat ? a.po : null;
+    const levelId = lvl == null ? 'saison' : `p${lvl}`;
+    const levelPills = [`<a class="pill sm" href="#/stats/saison" ${lvl == null ? 'aria-current="true"' : ''}>Saison</a>`]
+      .concat(phases.map(n => `<a class="pill sm" href="#/stats/p${n}" ${lvl === n ? 'aria-current="true"' : ''}>Phase ${n}</a>`)).join('');
+    const crumbs = [`<a href="#/stats/${levelId}">${lvl == null ? 'U13 · saison' : 'U13 · phase ' + lvl}</a>`];
+    if (catObj) crumbs.push(`<a href="#/stats/${levelId}/${cat}">${esc(catObj.label)}</a>`);
+    if (poule) {
+      const it = scopePoules({ phase: lvl, cat, poule })[0];
+      crumbs.push(`<span>${esc(it ? it.po.label : 'Poule ' + poule)}</span>`);
+    }
+    let body = '';
+    if (lvl == null) {
+      body = statCards(scopePoules({}));
+    } else if (!cat) {
+      const divs = u13Cats().filter(c => c.phases.some(p => p.n === lvl));
+      body = `<div class="stat-grid-cards">${divs.map(c => {
+        const pls = scopePoules({ phase: lvl, cat: c.id });
+        const rows = scopeRows(pls);
+        const a1 = sortAtt(rows)[0], d1 = sortDef(rows)[0];
+        return `<a class="div-card" href="#/stats/${levelId}/${c.id}">
+          <b>${esc(c.label)}</b>
+          <small>${pls.length > 1 ? pls.length + ' poules' : 'poule unique'}</small>
+          <small>Attaque : ${a1 ? esc(pretty(a1.name)) : '—'}</small>
+          <small>Défense : ${d1 ? esc(pretty(d1.name)) : '—'}</small></a>`;
+      }).join('')}</div>`;
+    } else if (!poule) {
+      const pls = scopePoules({ phase: lvl, cat });
+      const chips = pls.length > 1 ? `<div class="poule-chips" aria-label="Poules">${pls.map(it => `<a href="#/stats/${levelId}/${cat}/${it.po.id}">${esc(it.po.label)}</a>`).join('')}</div>` : '';
+      body = statCards(pls) + chips;
+    } else {
+      body = statCards(scopePoules({ phase: lvl, cat, poule }));
+    }
+    const title = lvl == null ? 'Saison U13' : `Phase ${lvl}`;
+    return `<div class="stack">
+      <header class="page-head"><h2>Statistiques</h2><p class="sub">${esc(title)}</p></header>
+      <div class="scope" style="position:static;margin:0 0 12px;background:none;border:0;padding:0"><div class="scroller" aria-label="Période">${levelPills}</div></div>
+      <nav class="stat-crumbs" aria-label="Où je suis">${crumbs.join(' › ')}</nav>
+      ${body}
+      <p class="stat-note">Moyenne par match, sur les matchs joués (dès la 1re journée). Trophée : meilleure attaque ou défense, au niveau le plus haut où l'équipe la détient.</p>
+    </div>`;
+  }
+
   function viewAlertes(a) {
     const all = a.filter === 'tout';
     const seen = store.get('seen', '');
@@ -919,7 +1067,9 @@
     const famApps = apps.filter(a => isCupAp(a) === cup);      // apps est trié : phase la plus récente d'abord
     const tabs = [[false, 'Championnat'], [true, 'Festival U13']].filter(([c]) => apps.some(a => isCupAp(a) === c));
     const refs = tabs.length > 1 ? `<div class="sh-refs">${tabs.map(([c, label]) => `<button class="pill sm" type="button" data-open="${esc(key)}" data-i="${apps.findIndex(a => isCupAp(a) === c)}" ${c === cup ? 'aria-current="true"' : ''}>${label}</button>`).join('')}</div>` : '';
-    const head = (ap) => `<header class="sh-head">${avatar(name, 'lg')}<div><h2>${esc(pretty(name))}</h2><p class="sub">${esc(ap.cat.label)} · ${esc(ap.ph.label)} · ${esc(ap.po.label)}</p></div>${starBtn(key)}<button class="star" type="button" data-action="close-sheet" aria-label="Fermer">${icon('close')}</button></header>`;
+    const isCSJ2 = (ap) => ap.cat.group === 'u13' && /(SAINT|ST)\s*JACQUES/i.test(name) && /\s2$/.test(name);
+    const videoBtn = (ap) => isCSJ2(ap) ? `<a class="vid-btn tip" tabindex="0" data-tip="Cette équipe dispose d’une vidéothèque consultable ici" href="https://e1yaki.github.io/clermont-saint-jacques-2015/?access=app-foot63" target="_blank" rel="noopener">${icon('video')}Vidéo</a>` : '';
+    const head = (ap) => `<header class="sh-head">${avatar(name, 'lg')}<div><h2>${esc(pretty(name))}${trophyHTML(name)}</h2><p class="sub">${esc(ap.cat.label)} · ${esc(ap.ph.label)} · ${esc(ap.po.label)}</p>${videoBtn(ap)}</div>${starBtn(key)}<button class="star" type="button" data-action="close-sheet" aria-label="Fermer">${icon('close')}</button></header>`;
 
     if (!cup) {
       // ---- Championnat : résumé de saison, puis un bloc par phase (la plus récente en premier)
@@ -1126,6 +1276,7 @@
       else if (view === 'division') html = viewDivision({ cat: parts[1], ph: parts[2], po: parts[3] });
       else if (view === 'plateaux') html = viewPlateaux({ cat: parts[1], ph: parts[2], po: parts[3], j: parts[4] });
       else if (view === 'alertes') html = viewAlertes({ filter: parts[1] });
+      else if (view === 'stats') html = viewStats({ level: parts[1], cat: parts[2], po: parts[3] });
       else { view = 'classement'; html = viewClassement({ cat: parts[1], ph: parts[2], po: parts[3] }); }
     } catch (err) {
       console.error(err);
@@ -1229,7 +1380,7 @@
   }
 
   async function init() {
-    console.info('[Foot animation 63] version app 2026-10-17 (tampon acquis seulement, date par division, B et C distincts)');
+    console.info('[Foot animation 63] version app 2026-10-21');
     applyTheme();
     $('#theme-btn').addEventListener('click', toggleTheme);
     prepare(await loadData());
