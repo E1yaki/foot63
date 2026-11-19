@@ -1312,17 +1312,13 @@
      ],
      "plateaux": [
       {
-       "id": "cup460674_2_1_1",
+       "id": "cup460674_2_1_1_2",
        "start": "2026-11-07T13:00",
        "lieu": "COMPLEXE SPORTIF CLAUDE WOLFF, VOIE ROMAINE LE COLOMBIER, CHAMALIERES",
        "organisateur": "",
        "equipes": [
-        "C.O. VEYRE MONTON 1",
         "ENT.F.C. ST AMANT ET TALLENDE 2",
-        "F.C. CHAMALIERES 3",
-        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
-        "U.S. BEAUMONTOISE 1",
-        "VAL DE SIOULE FOOT 1"
+        "F.C. CHAMALIERES 3"
        ],
        "matchs": [
         {
@@ -1330,13 +1326,21 @@
          "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
          "hs": 4,
          "as": 1
-        },
-        {
-         "home": "VAL DE SIOULE FOOT 1",
-         "away": "C.O. VEYRE MONTON 1",
-         "hs": 6,
-         "as": 5
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_1_1_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+        "U.S. BEAUMONTOISE 1"
+       ],
+       "matchs": [
         {
          "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
          "away": "U.S. BEAUMONTOISE 1",
@@ -1345,34 +1349,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-07T15:12:20Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_1_2",
-       "start": "2026-11-14T13:00",
-       "lieu": "STADE LOUIS JOUHET, TERRAIN HONNEUR ALLEE DES MARRONNIERS, ST SATURNIN",
+       "id": "cup460674_2_1_1_3",
+       "start": "2026-11-07T14:00",
+       "lieu": "Stade Les BruyereS, LES BRUYERES Lieu Dit Montfermy, MONTFERMY",
        "organisateur": "",
        "equipes": [
         "C.O. VEYRE MONTON 1",
-        "ENT.F.C. ST AMANT ET TALLENDE 2",
-        "F.C. CHAMALIERES 3",
-        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
-        "U.S. BEAUMONTOISE 1",
         "VAL DE SIOULE FOOT 1"
        ],
        "matchs": [
         {
-         "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
-         "away": "VAL DE SIOULE FOOT 1",
-         "hs": null,
-         "as": null
-        },
+         "home": "VAL DE SIOULE FOOT 1",
+         "away": "C.O. VEYRE MONTON 1",
+         "hs": 6,
+         "as": 5
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_1_2_2",
+       "start": "2026-11-14T13:00",
+       "lieu": "COMPLEXE SPORTIF CLAUDE WOLFF, VOIE ROMAINE LE COLOMBIER, CHAMALIERES",
+       "organisateur": "",
+       "equipes": [
+        "F.C. CHAMALIERES 3",
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1"
+       ],
+       "matchs": [
         {
          "home": "F.C. CHAMALIERES 3",
          "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
          "hs": 9,
          "as": 0
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_1_2_1",
+       "start": "2026-11-14T15:30",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "C.O. VEYRE MONTON 1",
+        "U.S. BEAUMONTOISE 1"
+       ],
+       "matchs": [
         {
          "home": "C.O. VEYRE MONTON 1",
          "away": "U.S. BEAUMONTOISE 1",
@@ -1381,20 +1409,36 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T16:12:57Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_1_3",
+       "id": "cup460674_2_1_2_3",
+       "start": "2026-11-14T16:00",
+       "lieu": "STADE LOUIS JOUHET, TERRAIN HONNEUR ALLEE DES MARRONNIERS, ST SATURNIN",
+       "organisateur": "",
+       "equipes": [
+        "ENT.F.C. ST AMANT ET TALLENDE 2",
+        "VAL DE SIOULE FOOT 1"
+       ],
+       "matchs": [
+        {
+         "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
+         "away": "VAL DE SIOULE FOOT 1",
+         "hs": 7,
+         "as": 2
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_1_3_1",
        "start": "2026-11-21T13:00",
        "lieu": "COMPLEXE SPORTIF DE L' ARTIÈRE, AVENUE DU STADE, BEAUMONT",
        "organisateur": "",
        "equipes": [
-        "C.O. VEYRE MONTON 1",
         "ENT.F.C. ST AMANT ET TALLENDE 2",
-        "F.C. CHAMALIERES 3",
-        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
-        "U.S. BEAUMONTOISE 1",
-        "VAL DE SIOULE FOOT 1"
+        "U.S. BEAUMONTOISE 1"
        ],
        "matchs": [
         {
@@ -1402,13 +1446,21 @@
          "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "VAL DE SIOULE FOOT 1",
-         "away": "F.C. CHAMALIERES 3",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_1_3_2",
+       "start": "2026-11-21T14:00",
+       "lieu": "COMPLEXE SPORTIF DES MOULINS, LE BOURG, ST BABEL",
+       "organisateur": "",
+       "equipes": [
+        "C.O. VEYRE MONTON 1",
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1"
+       ],
+       "matchs": [
         {
          "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
          "away": "C.O. VEYRE MONTON 1",
@@ -1417,34 +1469,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-11T08:07:07Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_1_4",
-       "start": "2026-11-28T13:30",
-       "lieu": "STADE MUNICIPAL, ROUTE DE LIMOGES, ORCINES",
+       "id": "cup460674_2_1_3_3",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE HENRI LONGCHAMBON, Rue du Muscadet, CHAPDES BEAUFORT",
        "organisateur": "",
        "equipes": [
-        "C.O. VEYRE MONTON 1",
-        "ENT.F.C. ST AMANT ET TALLENDE 2",
         "F.C. CHAMALIERES 3",
-        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
-        "U.S. BEAUMONTOISE 1",
         "VAL DE SIOULE FOOT 1"
        ],
        "matchs": [
         {
-         "home": "F.C. CHAMALIERES 3",
-         "away": "U.S. BEAUMONTOISE 1",
+         "home": "VAL DE SIOULE FOOT 1",
+         "away": "F.C. CHAMALIERES 3",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_1_4_1",
+       "start": "2026-11-28T13:30",
+       "lieu": "STADE LOUIS JOUHET, TERRAIN HONNEUR ALLEE DES MARRONNIERS, ST SATURNIN",
+       "organisateur": "",
+       "equipes": [
+        "C.O. VEYRE MONTON 1",
+        "ENT.F.C. ST AMANT ET TALLENDE 2"
+       ],
+       "matchs": [
         {
          "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
          "away": "C.O. VEYRE MONTON 1",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_1_4_2",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE MUNICIPAL, ALLEE DU STADE, ST OURS",
+       "organisateur": "",
+       "equipes": [
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
+        "VAL DE SIOULE FOOT 1"
+       ],
+       "matchs": [
         {
          "home": "VAL DE SIOULE FOOT 1",
          "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
@@ -1453,18 +1529,34 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-05T10:40:16Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_1_5",
+       "id": "cup460674_2_1_4_3",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE MUNICIPAL, ROUTE DE LIMOGES, ORCINES",
+       "organisateur": "",
+       "equipes": [
+        "F.C. CHAMALIERES 3",
+        "U.S. BEAUMONTOISE 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. CHAMALIERES 3",
+         "away": "U.S. BEAUMONTOISE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_1_5_1",
        "start": "2026-12-05T14:00",
        "lieu": "COMPLEXE SPORTIF DE L' ARTIÈRE, AVENUE DU STADE, BEAUMONT",
        "organisateur": "",
        "equipes": [
-        "C.O. VEYRE MONTON 1",
-        "ENT.F.C. ST AMANT ET TALLENDE 2",
-        "F.C. CHAMALIERES 3",
-        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
         "U.S. BEAUMONTOISE 1",
         "VAL DE SIOULE FOOT 1"
        ],
@@ -1474,13 +1566,41 @@
          "away": "VAL DE SIOULE FOOT 1",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_1_5_3",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE MUNICIPAL 1, 43 AVENUE DE LA MONNE, VEYRE MONTON",
+       "organisateur": "",
+       "equipes": [
+        "C.O. VEYRE MONTON 1",
+        "F.C. CHAMALIERES 3"
+       ],
+       "matchs": [
         {
          "home": "C.O. VEYRE MONTON 1",
          "away": "F.C. CHAMALIERES 3",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_1_5_2",
+       "start": "2026-12-05T16:00",
+       "lieu": "STADE LOUIS JOUHET, TERRAIN HONNEUR ALLEE DES MARRONNIERS, ST SATURNIN",
+       "organisateur": "",
+       "equipes": [
+        "ENT.F.C. ST AMANT ET TALLENDE 2",
+        "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1"
+       ],
+       "matchs": [
         {
          "home": "ENT.F.C. ST AMANT ET TALLENDE 2",
          "away": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
@@ -1489,7 +1609,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       }
      ]
     },
@@ -1506,31 +1626,35 @@
      ],
      "plateaux": [
       {
-       "id": "cup460674_2_2_1",
+       "id": "cup460674_2_2_1_1",
        "start": "2026-11-07T10:30",
-       "lieu": "STADE LES POINTILLOUX 1, RUE DU STADE LES POINTILLOUX, CHAPPES",
+       "lieu": "PARC DES SPORTS ANTONIN CHASTEL 2, TERRAIN B 115 AVENUE LEO LAGRANGE, THIERS",
        "organisateur": "",
        "equipes": [
-        "C.S. PONT DE DORE 1",
-        "GJ SCB FOOT 2",
-        "GROUPEMENT FORMATEUR LIMAGNE 1",
         "S.A. THIERNOIS 2",
-        "U.S. COURPIEROISE 1",
-        "U.S. ISSOIRE A. DU MAS 2"
+        "U.S. COURPIEROISE 1"
        ],
        "matchs": [
-        {
-         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
-         "away": "C.S. PONT DE DORE 1",
-         "hs": 1,
-         "as": 2
-        },
         {
          "home": "S.A. THIERNOIS 2",
          "away": "U.S. COURPIEROISE 1",
          "hs": 7,
          "as": 4
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_2_1_2",
+       "start": "2026-11-07T14:00",
+       "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
+       "organisateur": "",
+       "equipes": [
+        "GJ SCB FOOT 2",
+        "U.S. ISSOIRE A. DU MAS 2"
+       ],
+       "matchs": [
         {
          "home": "GJ SCB FOOT 2",
          "away": "U.S. ISSOIRE A. DU MAS 2",
@@ -1539,20 +1663,56 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-08T18:24:12Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_2_2",
-       "start": "2026-11-14T14:00",
+       "id": "cup460674_2_2_1_3",
+       "start": "2026-11-07T15:30",
        "lieu": "STADE LES POINTILLOUX 1, RUE DU STADE LES POINTILLOUX, CHAPPES",
        "organisateur": "",
        "equipes": [
         "C.S. PONT DE DORE 1",
-        "GJ SCB FOOT 2",
+        "GROUPEMENT FORMATEUR LIMAGNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "away": "C.S. PONT DE DORE 1",
+         "hs": 1,
+         "as": 2
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_2_2_2",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE GUSTAVE LIGNE, CHEMIN DES TORRENTS, PESCHADOIRES",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DE DORE 1",
+        "GJ SCB FOOT 2"
+       ],
+       "matchs": [
+        {
+         "home": "C.S. PONT DE DORE 1",
+         "away": "GJ SCB FOOT 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_2_2_3",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE LES POINTILLOUX 1, RUE DU STADE LES POINTILLOUX, CHAPPES",
+       "organisateur": "",
+       "equipes": [
         "GROUPEMENT FORMATEUR LIMAGNE 1",
-        "S.A. THIERNOIS 2",
-        "U.S. COURPIEROISE 1",
-        "U.S. ISSOIRE A. DU MAS 2"
+        "S.A. THIERNOIS 2"
        ],
        "matchs": [
         {
@@ -1560,49 +1720,21 @@
          "away": "S.A. THIERNOIS 2",
          "hs": 2,
          "as": 4
-        },
-        {
-         "home": "C.S. PONT DE DORE 1",
-         "away": "GJ SCB FOOT 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U.S. ISSOIRE A. DU MAS 2",
-         "away": "U.S. COURPIEROISE 1",
-         "hs": null,
-         "as": null
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:56:40Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_2_3",
-       "start": "2026-11-21T14:00",
-       "lieu": "STADE ETIENNE BONHOMME, AVENUE PIERRE DE COUBERTIN, COURPIERE",
+       "id": "cup460674_2_2_3_1",
+       "start": "2026-11-21T11:00",
+       "lieu": "PARC DES SPORTS ANTONIN CHASTEL 1, TERRAIN A 115, AVENUE LEO LAGRANGE, THIERS",
        "organisateur": "",
        "equipes": [
-        "C.S. PONT DE DORE 1",
-        "GJ SCB FOOT 2",
-        "GROUPEMENT FORMATEUR LIMAGNE 1",
         "S.A. THIERNOIS 2",
-        "U.S. COURPIEROISE 1",
         "U.S. ISSOIRE A. DU MAS 2"
        ],
        "matchs": [
-        {
-         "home": "U.S. COURPIEROISE 1",
-         "away": "C.S. PONT DE DORE 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "GJ SCB FOOT 2",
-         "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
-         "hs": null,
-         "as": null
-        },
         {
          "home": "S.A. THIERNOIS 2",
          "away": "U.S. ISSOIRE A. DU MAS 2",
@@ -1611,34 +1743,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_2_4",
-       "start": "2026-11-28T14:00",
-       "lieu": "STADE LES POINTILLOUX 1, RUE DU STADE LES POINTILLOUX, CHAPPES",
+       "id": "cup460674_2_2_3_2",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
        "organisateur": "",
        "equipes": [
-        "C.S. PONT DE DORE 1",
         "GJ SCB FOOT 2",
-        "GROUPEMENT FORMATEUR LIMAGNE 1",
-        "S.A. THIERNOIS 2",
-        "U.S. COURPIEROISE 1",
-        "U.S. ISSOIRE A. DU MAS 2"
+        "GROUPEMENT FORMATEUR LIMAGNE 1"
        ],
        "matchs": [
         {
-         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
-         "away": "U.S. COURPIEROISE 1",
+         "home": "GJ SCB FOOT 2",
+         "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_2_3_3",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE ETIENNE BONHOMME, AVENUE PIERRE DE COUBERTIN, COURPIERE",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DE DORE 1",
+        "U.S. COURPIEROISE 1"
+       ],
+       "matchs": [
         {
-         "home": "C.S. PONT DE DORE 1",
-         "away": "U.S. ISSOIRE A. DU MAS 2",
+         "home": "U.S. COURPIEROISE 1",
+         "away": "C.S. PONT DE DORE 1",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_2_4_1",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
+       "organisateur": "",
+       "equipes": [
+        "GJ SCB FOOT 2",
+        "S.A. THIERNOIS 2"
+       ],
+       "matchs": [
         {
          "home": "GJ SCB FOOT 2",
          "away": "S.A. THIERNOIS 2",
@@ -1647,34 +1803,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-02T22:49:10Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_2_5",
-       "start": "2026-12-05T14:00",
+       "id": "cup460674_2_2_4_2",
+       "start": "2026-11-28T14:00",
        "lieu": "STADE GUSTAVE LIGNE, CHEMIN DES TORRENTS, PESCHADOIRES",
        "organisateur": "",
        "equipes": [
         "C.S. PONT DE DORE 1",
-        "GJ SCB FOOT 2",
-        "GROUPEMENT FORMATEUR LIMAGNE 1",
-        "S.A. THIERNOIS 2",
-        "U.S. COURPIEROISE 1",
         "U.S. ISSOIRE A. DU MAS 2"
        ],
        "matchs": [
         {
          "home": "C.S. PONT DE DORE 1",
-         "away": "S.A. THIERNOIS 2",
+         "away": "U.S. ISSOIRE A. DU MAS 2",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_2_4_3",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE LES POINTILLOUX 1, RUE DU STADE LES POINTILLOUX, CHAPPES",
+       "organisateur": "",
+       "equipes": [
+        "GROUPEMENT FORMATEUR LIMAGNE 1",
+        "U.S. COURPIEROISE 1"
+       ],
+       "matchs": [
         {
-         "home": "U.S. COURPIEROISE 1",
-         "away": "GJ SCB FOOT 2",
+         "home": "GROUPEMENT FORMATEUR LIMAGNE 1",
+         "away": "U.S. COURPIEROISE 1",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_2_5_1",
+       "start": "2026-12-05T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "GROUPEMENT FORMATEUR LIMAGNE 1",
+        "U.S. ISSOIRE A. DU MAS 2"
+       ],
+       "matchs": [
         {
          "home": "U.S. ISSOIRE A. DU MAS 2",
          "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
@@ -1683,7 +1863,67 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_2_5_2",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE ETIENNE BONHOMME, AVENUE PIERRE DE COUBERTIN, COURPIERE",
+       "organisateur": "",
+       "equipes": [
+        "GJ SCB FOOT 2",
+        "U.S. COURPIEROISE 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. COURPIEROISE 1",
+         "away": "GJ SCB FOOT 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_2_5_3",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE GUSTAVE LIGNE, CHEMIN DES TORRENTS, PESCHADOIRES",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DE DORE 1",
+        "S.A. THIERNOIS 2"
+       ],
+       "matchs": [
+        {
+         "home": "C.S. PONT DE DORE 1",
+         "away": "S.A. THIERNOIS 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_2_2_1",
+       "start": "2026-12-12T14:00",
+       "lieu": "Complexe Sportif Lavedrine Stade Honneur, RUE JEAN MONET, ISSOIRE",
+       "organisateur": "",
+       "equipes": [
+        "U.S. COURPIEROISE 1",
+        "U.S. ISSOIRE A. DU MAS 2"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. ISSOIRE A. DU MAS 2",
+         "away": "U.S. COURPIEROISE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
       }
      ]
     },
@@ -1714,6 +1954,12 @@
        ],
        "matchs": [
         {
+         "home": "CLERMONT FOOT 63 3",
+         "away": "F.C. LEZOUX 1",
+         "hs": 12,
+         "as": 0
+        },
+        {
          "home": "S.A. THIERNOIS 3",
          "away": "A.S. ROYAT A.C. 2",
          "hs": 4,
@@ -1724,43 +1970,21 @@
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
          "hs": 0,
          "as": 7
-        },
-        {
-         "home": "CLERMONT FOOT 63 3",
-         "away": "F.C. LEZOUX 1",
-         "hs": 12,
-         "as": 0
         }
        ],
        "heure_connue": true,
        "last_change": "2026-11-08T18:24:12Z"
       },
       {
-       "id": "cup460674_2_3_2",
+       "id": "cup460674_2_3_2_1",
        "start": "2026-11-14T14:00",
-       "lieu": "STADE DE L' ESPÉRANCE ST JACQUES, AVENUE LEON BLUM, CLERMONT FERRAND",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°2, TERRAIN ANNEXE FOOT / RUGBY 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
-        "A. S. CLERMONT SAINT JACQUES FOOT 1",
-        "A.S. ROYAT A.C. 2",
         "CLERMONT FOOT 63 3",
-        "F. C. CLERMONT METROPOLE 2",
-        "F.C. LEZOUX 1",
         "S.A. THIERNOIS 3"
        ],
        "matchs": [
-        {
-         "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "away": "A.S. ROYAT A.C. 2",
-         "hs": 3,
-         "as": 2
-        },
-        {
-         "home": "F.C. LEZOUX 1",
-         "away": "F. C. CLERMONT METROPOLE 2",
-         "hs": 4,
-         "as": 0
-        },
         {
          "home": "CLERMONT FOOT 63 3",
          "away": "S.A. THIERNOIS 3",
@@ -1769,19 +1993,55 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:40:26Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_3_3",
-       "start": "2026-11-21T14:00",
+       "id": "cup460674_2_3_2_2",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE DE L' ESPÉRANCE ST JACQUES, AVENUE LEON BLUM, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "A. S. CLERMONT SAINT JACQUES FOOT 1",
+        "A.S. ROYAT A.C. 2"
+       ],
+       "matchs": [
+        {
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "away": "A.S. ROYAT A.C. 2",
+         "hs": 3,
+         "as": 2
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_3_2_3",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE DU VERNADEL, CHEMIN DES CHARRETIERS, LEZOUX",
+       "organisateur": "",
+       "equipes": [
+        "F. C. CLERMONT METROPOLE 2",
+        "F.C. LEZOUX 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. LEZOUX 1",
+         "away": "F. C. CLERMONT METROPOLE 2",
+         "hs": 4,
+         "as": 0
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_3_3_1",
+       "start": "2026-11-21T11:00",
        "lieu": "PARC DES SPORTS ANTONIN CHASTEL 1, TERRAIN A 115, AVENUE LEO LAGRANGE, THIERS",
        "organisateur": "",
        "equipes": [
         "A. S. CLERMONT SAINT JACQUES FOOT 1",
-        "A.S. ROYAT A.C. 2",
-        "CLERMONT FOOT 63 3",
-        "F. C. CLERMONT METROPOLE 2",
-        "F.C. LEZOUX 1",
         "S.A. THIERNOIS 3"
        ],
        "matchs": [
@@ -1790,13 +2050,21 @@
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "F. C. CLERMONT METROPOLE 2",
-         "away": "CLERMONT FOOT 63 3",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_3_3_2",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE DU BREUIL, CHEMIN DU BREUIL, ROYAT",
+       "organisateur": "",
+       "equipes": [
+        "A.S. ROYAT A.C. 2",
+        "F.C. LEZOUX 1"
+       ],
+       "matchs": [
         {
          "home": "A.S. ROYAT A.C. 2",
          "away": "F.C. LEZOUX 1",
@@ -1805,34 +2073,38 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_3_4",
-       "start": "2026-11-28T14:00",
+       "id": "cup460674_2_3_3_3",
+       "start": "2026-11-21T14:00",
        "lieu": "STADE DU PARC DE LA FRATERNITÉ, Rue Alphonse Daudet, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
-        "A. S. CLERMONT SAINT JACQUES FOOT 1",
-        "A.S. ROYAT A.C. 2",
         "CLERMONT FOOT 63 3",
-        "F. C. CLERMONT METROPOLE 2",
-        "F.C. LEZOUX 1",
-        "S.A. THIERNOIS 3"
+        "F. C. CLERMONT METROPOLE 2"
        ],
        "matchs": [
         {
          "home": "F. C. CLERMONT METROPOLE 2",
-         "away": "S.A. THIERNOIS 3",
+         "away": "CLERMONT FOOT 63 3",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "F.C. LEZOUX 1",
-         "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_3_4_1",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°4, TERRAIN ANNEXE 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "A.S. ROYAT A.C. 2",
+        "CLERMONT FOOT 63 3"
+       ],
+       "matchs": [
         {
          "home": "CLERMONT FOOT 63 3",
          "away": "A.S. ROYAT A.C. 2",
@@ -1841,20 +2113,76 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_3_5",
+       "id": "cup460674_2_3_4_2",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE DU PARC DE LA FRATERNITÉ, Rue Alphonse Daudet, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "F. C. CLERMONT METROPOLE 2",
+        "S.A. THIERNOIS 3"
+       ],
+       "matchs": [
+        {
+         "home": "F. C. CLERMONT METROPOLE 2",
+         "away": "S.A. THIERNOIS 3",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_3_4_3",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE DU VERNADEL, CHEMIN DES CHARRETIERS, LEZOUX",
+       "organisateur": "",
+       "equipes": [
+        "A. S. CLERMONT SAINT JACQUES FOOT 1",
+        "F.C. LEZOUX 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. LEZOUX 1",
+         "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_3_5_1",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE DE L' ESPÉRANCE ST JACQUES, AVENUE LEON BLUM, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "A. S. CLERMONT SAINT JACQUES FOOT 1",
+        "CLERMONT FOOT 63 3"
+       ],
+       "matchs": [
+        {
+         "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
+         "away": "CLERMONT FOOT 63 3",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_3_5_2",
        "start": "2026-12-05T14:00",
        "lieu": "STADE DU BREUIL, CHEMIN DU BREUIL, ROYAT",
        "organisateur": "",
        "equipes": [
-        "A. S. CLERMONT SAINT JACQUES FOOT 1",
         "A.S. ROYAT A.C. 2",
-        "CLERMONT FOOT 63 3",
-        "F. C. CLERMONT METROPOLE 2",
-        "F.C. LEZOUX 1",
-        "S.A. THIERNOIS 3"
+        "F. C. CLERMONT METROPOLE 2"
        ],
        "matchs": [
         {
@@ -1862,13 +2190,21 @@
          "away": "F. C. CLERMONT METROPOLE 2",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "away": "CLERMONT FOOT 63 3",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_3_5_3",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE DU VERNADEL, CHEMIN DES CHARRETIERS, LEZOUX",
+       "organisateur": "",
+       "equipes": [
+        "F.C. LEZOUX 1",
+        "S.A. THIERNOIS 3"
+       ],
+       "matchs": [
         {
          "home": "F.C. LEZOUX 1",
          "away": "S.A. THIERNOIS 3",
@@ -1877,7 +2213,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       }
      ]
     },
@@ -1930,31 +2266,15 @@
        "last_change": "2026-11-09T12:42:55Z"
       },
       {
-       "id": "cup460674_2_4_2",
+       "id": "cup460674_2_4_2_2",
        "start": "2026-11-14T13:00",
-       "lieu": "COMPLEXE SPORTIF LA PRADE 1, RUE DES COUTILS, CEBAZAT",
+       "lieu": "PARC DES SPORTS DU CEREY 1, PLACE DE L'EUROPE, RIOM",
        "organisateur": "",
        "equipes": [
-        "C.S. DE VOLVIC 1",
-        "CEBAZAT SP. 1",
-        "F.C. CHATEL GUYON 1",
         "F.C. RIOMOIS 3",
-        "HAUTE COMBRAILLE FOOT 1",
         "U.S. ENNEZAT 1"
        ],
        "matchs": [
-        {
-         "home": "CEBAZAT SP. 1",
-         "away": "C.S. DE VOLVIC 1",
-         "hs": 3,
-         "as": 1
-        },
-        {
-         "home": "F.C. CHATEL GUYON 1",
-         "away": "HAUTE COMBRAILLE FOOT 1",
-         "hs": 1,
-         "as": 3
-        },
         {
          "home": "F.C. RIOMOIS 3",
          "away": "U.S. ENNEZAT 1",
@@ -1963,34 +2283,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:56:40Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_4_3",
-       "start": "2026-11-21T14:00",
-       "lieu": "STADE MICHEL CHAMPLEBOUX 1, 1 RUE DU STADE, VOLVIC",
+       "id": "cup460674_2_4_2_1",
+       "start": "2026-11-14T14:00",
+       "lieu": "COMPLEXE SPORTIF LA PRADE 1, RUE DES COUTILS, CEBAZAT",
        "organisateur": "",
        "equipes": [
         "C.S. DE VOLVIC 1",
-        "CEBAZAT SP. 1",
-        "F.C. CHATEL GUYON 1",
-        "F.C. RIOMOIS 3",
-        "HAUTE COMBRAILLE FOOT 1",
-        "U.S. ENNEZAT 1"
+        "CEBAZAT SP. 1"
        ],
        "matchs": [
         {
-         "home": "C.S. DE VOLVIC 1",
-         "away": "F.C. CHATEL GUYON 1",
-         "hs": null,
-         "as": null
-        },
+         "home": "CEBAZAT SP. 1",
+         "away": "C.S. DE VOLVIC 1",
+         "hs": 3,
+         "as": 1
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_4_2_3",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE DE LA VOUÉE 1, BOULEVARD DESAIX, CHATEL GUYON",
+       "organisateur": "",
+       "equipes": [
+        "F.C. CHATEL GUYON 1",
+        "HAUTE COMBRAILLE FOOT 1"
+       ],
+       "matchs": [
         {
-         "home": "U.S. ENNEZAT 1",
-         "away": "CEBAZAT SP. 1",
-         "hs": null,
-         "as": null
-        },
+         "home": "F.C. CHATEL GUYON 1",
+         "away": "HAUTE COMBRAILLE FOOT 1",
+         "hs": 1,
+         "as": 3
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_4_3_2",
+       "start": "2026-11-21T13:30",
+       "lieu": "STADE MUNICIPAL, LE PUY MAURY, CONDAT EN COMBRAILLE",
+       "organisateur": "",
+       "equipes": [
+        "F.C. RIOMOIS 3",
+        "HAUTE COMBRAILLE FOOT 1"
+       ],
+       "matchs": [
         {
          "home": "HAUTE COMBRAILLE FOOT 1",
          "away": "F.C. RIOMOIS 3",
@@ -1999,34 +2343,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_4_4",
-       "start": "2026-11-28T14:00",
-       "lieu": "PARC DES SPORTS DU CEREY 1, PLACE DE L'EUROPE, RIOM",
+       "id": "cup460674_2_4_3_1",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE MICHEL CHAMPLEBOUX 1, 1 RUE DU STADE, VOLVIC",
        "organisateur": "",
        "equipes": [
         "C.S. DE VOLVIC 1",
+        "F.C. CHATEL GUYON 1"
+       ],
+       "matchs": [
+        {
+         "home": "C.S. DE VOLVIC 1",
+         "away": "F.C. CHATEL GUYON 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_4_3_3",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE PAUL MOSNIER, RUE DU STADE, ENNEZAT",
+       "organisateur": "",
+       "equipes": [
         "CEBAZAT SP. 1",
-        "F.C. CHATEL GUYON 1",
-        "F.C. RIOMOIS 3",
-        "HAUTE COMBRAILLE FOOT 1",
         "U.S. ENNEZAT 1"
        ],
        "matchs": [
         {
-         "home": "F.C. RIOMOIS 3",
-         "away": "F.C. CHATEL GUYON 1",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "U.S. ENNEZAT 1",
-         "away": "C.S. DE VOLVIC 1",
+         "away": "CEBAZAT SP. 1",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_4_4_1",
+       "start": "2026-11-28T14:00",
+       "lieu": "COMPLEXE SPORTIF LA PRADE 1, RUE DES COUTILS, CEBAZAT",
+       "organisateur": "",
+       "equipes": [
+        "CEBAZAT SP. 1",
+        "HAUTE COMBRAILLE FOOT 1"
+       ],
+       "matchs": [
         {
          "home": "CEBAZAT SP. 1",
          "away": "HAUTE COMBRAILLE FOOT 1",
@@ -2035,34 +2403,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_4_5",
-       "start": "2026-12-05T13:30",
+       "id": "cup460674_2_4_4_2",
+       "start": "2026-11-28T14:00",
        "lieu": "PARC DES SPORTS DU CEREY 1, PLACE DE L'EUROPE, RIOM",
        "organisateur": "",
        "equipes": [
-        "C.S. DE VOLVIC 1",
-        "CEBAZAT SP. 1",
         "F.C. CHATEL GUYON 1",
-        "F.C. RIOMOIS 3",
-        "HAUTE COMBRAILLE FOOT 1",
-        "U.S. ENNEZAT 1"
+        "F.C. RIOMOIS 3"
        ],
        "matchs": [
         {
          "home": "F.C. RIOMOIS 3",
+         "away": "F.C. CHATEL GUYON 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_4_4_3",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE PAUL MOSNIER, RUE DU STADE, ENNEZAT",
+       "organisateur": "",
+       "equipes": [
+        "C.S. DE VOLVIC 1",
+        "U.S. ENNEZAT 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. ENNEZAT 1",
          "away": "C.S. DE VOLVIC 1",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "F.C. CHATEL GUYON 1",
-         "away": "CEBAZAT SP. 1",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_4_5_1",
+       "start": "2026-12-05T13:30",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "HAUTE COMBRAILLE FOOT 1",
+        "U.S. ENNEZAT 1"
+       ],
+       "matchs": [
         {
          "home": "HAUTE COMBRAILLE FOOT 1",
          "away": "U.S. ENNEZAT 1",
@@ -2071,12 +2463,52 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_4_5_2",
+       "start": "2026-12-05T14:00",
+       "lieu": "PARC DES SPORTS DU CEREY 1, PLACE DE L'EUROPE, RIOM",
+       "organisateur": "",
+       "equipes": [
+        "C.S. DE VOLVIC 1",
+        "F.C. RIOMOIS 3"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. RIOMOIS 3",
+         "away": "C.S. DE VOLVIC 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_4_5_3",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE DE LA VOUÉE 1, BOULEVARD DESAIX, CHATEL GUYON",
+       "organisateur": "",
+       "equipes": [
+        "CEBAZAT SP. 1",
+        "F.C. CHATEL GUYON 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. CHATEL GUYON 1",
+         "away": "CEBAZAT SP. 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
       }
      ]
     }
    ]
   }
  ],
- "updated_at": "2026-11-14T16:12:57Z"
+ "updated_at": "2026-11-19T16:22:06Z"
 }

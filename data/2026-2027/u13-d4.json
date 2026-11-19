@@ -63,16 +63,16 @@
        ],
        "matchs": [
         {
-         "home": "U.S. LES MARTRES DE VEYRE 2",
-         "away": "FOOTBALL CLUB PUY DE MUR 2",
-         "hs": 6,
-         "as": 1
-        },
-        {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
          "away": "F.C. PLAUZAT-CHAMPEIX 1",
          "hs": 1,
          "as": 4
+        },
+        {
+         "home": "U.S. LES MARTRES DE VEYRE 2",
+         "away": "FOOTBALL CLUB PUY DE MUR 2",
+         "hs": 6,
+         "as": 1
         },
         {
          "home": "DOMES SANCY FOOT 1",
@@ -85,31 +85,15 @@
        "last_change": "2026-11-07T15:12:20Z"
       },
       {
-       "id": "cup460676_2_1_2",
+       "id": "cup460676_2_1_2_3",
        "start": "2026-11-14T13:00",
-       "lieu": "STADE MARCEL BLONDELLE 1, LE BOURG, VERTOLAYE",
+       "lieu": "STADE MUNICIPAL, CHEMIN DE COUDES, PLAUZAT",
        "organisateur": "",
        "equipes": [
-        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
         "DOMES SANCY FOOT 1",
-        "F.C. PLAUZAT-CHAMPEIX 1",
-        "FOOTBALL CLUB PUY DE MUR 2",
-        "S.C. BILLOMOIS 1",
-        "U.S. LES MARTRES DE VEYRE 2"
+        "F.C. PLAUZAT-CHAMPEIX 1"
        ],
        "matchs": [
-        {
-         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
-         "away": "U.S. LES MARTRES DE VEYRE 2",
-         "hs": 7,
-         "as": 0
-        },
-        {
-         "home": "S.C. BILLOMOIS 1",
-         "away": "FOOTBALL CLUB PUY DE MUR 2",
-         "hs": 10,
-         "as": 0
-        },
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 1",
          "away": "DOMES SANCY FOOT 1",
@@ -118,18 +102,94 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:56:40Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_1_3",
+       "id": "cup460676_2_1_2_1",
+       "start": "2026-11-14T13:30",
+       "lieu": "STADE DU CHAMP DE MARS 1, AVENUE VICTOR COHALION, BILLOM",
+       "organisateur": "",
+       "equipes": [
+        "FOOTBALL CLUB PUY DE MUR 2",
+        "S.C. BILLOMOIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "S.C. BILLOMOIS 1",
+         "away": "FOOTBALL CLUB PUY DE MUR 2",
+         "hs": 10,
+         "as": 0
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_1_2_2",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE MARCEL BLONDELLE 1, LE BOURG, VERTOLAYE",
+       "organisateur": "",
+       "equipes": [
+        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+        "U.S. LES MARTRES DE VEYRE 2"
+       ],
+       "matchs": [
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+         "away": "U.S. LES MARTRES DE VEYRE 2",
+         "hs": 7,
+         "as": 0
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_1_3_1",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE MUNICIPAL, AVENUE DES ACACIAS, VERTAIZON",
+       "organisateur": "",
+       "equipes": [
+        "F.C. PLAUZAT-CHAMPEIX 1",
+        "FOOTBALL CLUB PUY DE MUR 2"
+       ],
+       "matchs": [
+        {
+         "home": "FOOTBALL CLUB PUY DE MUR 2",
+         "away": "F.C. PLAUZAT-CHAMPEIX 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_1_3_2",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE MUNICIPAL, RUE DE LA GANNE, OLBY",
+       "organisateur": "",
+       "equipes": [
+        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+        "DOMES SANCY FOOT 1"
+       ],
+       "matchs": [
+        {
+         "home": "DOMES SANCY FOOT 1",
+         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_1_3_3",
        "start": "2026-11-21T14:00",
        "lieu": "STADE ÉMILE RIVE 1, RUE DE L'INDUSTRIE, LES MARTRES DE VEYRE",
        "organisateur": "",
        "equipes": [
-        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
-        "DOMES SANCY FOOT 1",
-        "F.C. PLAUZAT-CHAMPEIX 1",
-        "FOOTBALL CLUB PUY DE MUR 2",
         "S.C. BILLOMOIS 1",
         "U.S. LES MARTRES DE VEYRE 2"
        ],
@@ -139,35 +199,19 @@
          "away": "S.C. BILLOMOIS 1",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "DOMES SANCY FOOT 1",
-         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "FOOTBALL CLUB PUY DE MUR 2",
-         "away": "F.C. PLAUZAT-CHAMPEIX 1",
-         "hs": null,
-         "as": null
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_1_4",
+       "id": "cup460676_2_1_4_1",
        "start": "2026-11-28T14:00",
        "lieu": "STADE MUNICIPAL 1, 88 AV DU DOCTEUR EUGENE CHASSAING, AMBERT",
        "organisateur": "",
        "equipes": [
         "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
-        "DOMES SANCY FOOT 1",
-        "F.C. PLAUZAT-CHAMPEIX 1",
-        "FOOTBALL CLUB PUY DE MUR 2",
-        "S.C. BILLOMOIS 1",
-        "U.S. LES MARTRES DE VEYRE 2"
+        "FOOTBALL CLUB PUY DE MUR 2"
        ],
        "matchs": [
         {
@@ -175,13 +219,41 @@
          "away": "FOOTBALL CLUB PUY DE MUR 2",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_1_4_2",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE MUNICIPAL, CHEMIN DE COUDES, PLAUZAT",
+       "organisateur": "",
+       "equipes": [
+        "F.C. PLAUZAT-CHAMPEIX 1",
+        "S.C. BILLOMOIS 1"
+       ],
+       "matchs": [
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 1",
          "away": "S.C. BILLOMOIS 1",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_1_4_3",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE MUNICIPAL, RUE DE LA GANNE, OLBY",
+       "organisateur": "",
+       "equipes": [
+        "DOMES SANCY FOOT 1",
+        "U.S. LES MARTRES DE VEYRE 2"
+       ],
+       "matchs": [
         {
          "home": "DOMES SANCY FOOT 1",
          "away": "U.S. LES MARTRES DE VEYRE 2",
@@ -190,20 +262,16 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_1_5",
+       "id": "cup460676_2_1_5_1",
        "start": "2026-12-05T14:00",
        "lieu": "STADE DU CHAMP DE MARS 1, AVENUE VICTOR COHALION, BILLOM",
        "organisateur": "",
        "equipes": [
         "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
-        "DOMES SANCY FOOT 1",
-        "F.C. PLAUZAT-CHAMPEIX 1",
-        "FOOTBALL CLUB PUY DE MUR 2",
-        "S.C. BILLOMOIS 1",
-        "U.S. LES MARTRES DE VEYRE 2"
+        "S.C. BILLOMOIS 1"
        ],
        "matchs": [
         {
@@ -211,13 +279,41 @@
          "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_1_5_2",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE MUNICIPAL, AVENUE DES ACACIAS, VERTAIZON",
+       "organisateur": "",
+       "equipes": [
+        "DOMES SANCY FOOT 1",
+        "FOOTBALL CLUB PUY DE MUR 2"
+       ],
+       "matchs": [
         {
          "home": "FOOTBALL CLUB PUY DE MUR 2",
          "away": "DOMES SANCY FOOT 1",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_1_5_3",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE MUNICIPAL, CHEMIN DE COUDES, PLAUZAT",
+       "organisateur": "",
+       "equipes": [
+        "F.C. PLAUZAT-CHAMPEIX 1",
+        "U.S. LES MARTRES DE VEYRE 2"
+       ],
+       "matchs": [
         {
          "home": "F.C. PLAUZAT-CHAMPEIX 1",
          "away": "U.S. LES MARTRES DE VEYRE 2",
@@ -226,7 +322,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       }
      ]
     },
@@ -243,16 +339,32 @@
      ],
      "plateaux": [
       {
-       "id": "cup460676_2_2_1",
+       "id": "cup460676_2_2_1_2",
        "start": "2026-11-07T13:00",
-       "lieu": "STADE MUNICIPAL, D978 AVENUE DE LA REPUBLIQUE, PERIGNAT LES SARLIEVE",
+       "lieu": "COMPLEXE SPORTIF CLAUDE WOLFF, VOIE ROMAINE LE COLOMBIER, CHAMALIERES",
+       "organisateur": "",
+       "equipes": [
+        "F.C. CHAMALIERES 2",
+        "GROUPEMENT DE L'AUZON 2"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. CHAMALIERES 2",
+         "away": "GROUPEMENT DE L'AUZON 2",
+         "hs": 4,
+         "as": 1
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_2_1_1",
+       "start": "2026-11-07T14:00",
+       "lieu": "",
        "organisateur": "",
        "equipes": [
         "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
-        "C.S. PONT DU CHATEAU 3",
-        "F.C. CHAMALIERES 2",
-        "GROUPEMENT DE L'AUZON 2",
-        "PERIGNAT F.C. 1",
         "U.S. VAL DE COUZE CHAMBON 1"
        ],
        "matchs": [
@@ -261,34 +373,38 @@
          "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
          "hs": 1,
          "as": 3
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_2_1_3",
+       "start": "2026-11-07T14:00",
+       "lieu": "STADE MUNICIPAL, D978 AVENUE DE LA REPUBLIQUE, PERIGNAT LES SARLIEVE",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 3",
+        "PERIGNAT F.C. 1"
+       ],
+       "matchs": [
         {
          "home": "PERIGNAT F.C. 1",
          "away": "C.S. PONT DU CHATEAU 3",
          "hs": 0,
          "as": 3
-        },
-        {
-         "home": "F.C. CHAMALIERES 2",
-         "away": "GROUPEMENT DE L'AUZON 2",
-         "hs": 4,
-         "as": 1
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:14:10Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_2_2",
+       "id": "cup460676_2_2_2_2",
        "start": "2026-11-14T13:00",
        "lieu": "COMPLEXE SPORTIF CLAUDE WOLFF, VOIE ROMAINE LE COLOMBIER, CHAMALIERES",
        "organisateur": "",
        "equipes": [
-        "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
-        "C.S. PONT DU CHATEAU 3",
         "F.C. CHAMALIERES 2",
-        "GROUPEMENT DE L'AUZON 2",
-        "PERIGNAT F.C. 1",
         "U.S. VAL DE COUZE CHAMBON 1"
        ],
        "matchs": [
@@ -297,35 +413,59 @@
          "away": "U.S. VAL DE COUZE CHAMBON 1",
          "hs": 4,
          "as": 1
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_2_2_3",
+       "start": "2026-11-14T15:00",
+       "lieu": "STADE JEAN JAURÈS 2, 99 avenue de l'Auzon, LE CENDRE",
+       "organisateur": "",
+       "equipes": [
+        "GROUPEMENT DE L'AUZON 2",
+        "PERIGNAT F.C. 1"
+       ],
+       "matchs": [
         {
          "home": "GROUPEMENT DE L'AUZON 2",
          "away": "PERIGNAT F.C. 1",
          "hs": 2,
          "as": 5
-        },
-        {
-         "home": "C.S. PONT DU CHATEAU 3",
-         "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
-         "hs": null,
-         "as": null
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T15:34:11Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_2_3",
-       "start": "2026-11-21T13:15",
-       "lieu": "STADE DENIS SUGERES, LE GRAND MEZE, BESSE ET ST ANASTAISE",
+       "id": "cup460676_2_2_2_1",
+       "start": "2026-11-14T16:00",
+       "lieu": "",
        "organisateur": "",
        "equipes": [
         "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
-        "C.S. PONT DU CHATEAU 3",
+        "C.S. PONT DU CHATEAU 3"
+       ],
+       "matchs": [
+        {
+         "home": "C.S. PONT DU CHATEAU 3",
+         "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+         "hs": 5,
+         "as": 3
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_2_3_1",
+       "start": "2026-11-21T13:15",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
         "F.C. CHAMALIERES 2",
-        "GROUPEMENT DE L'AUZON 2",
-        "PERIGNAT F.C. 1",
-        "U.S. VAL DE COUZE CHAMBON 1"
+        "PERIGNAT F.C. 1"
        ],
        "matchs": [
         {
@@ -333,13 +473,41 @@
          "away": "F.C. CHAMALIERES 2",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_2_3_2",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE DENIS SUGERES, LE GRAND MEZE, BESSE ET ST ANASTAISE",
+       "organisateur": "",
+       "equipes": [
+        "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+        "GROUPEMENT DE L'AUZON 2"
+       ],
+       "matchs": [
         {
          "home": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
          "away": "GROUPEMENT DE L'AUZON 2",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_2_3_3",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE ROGER FOURNIER, ROUTE DE CHAMPEIX, COUDES",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 3",
+        "U.S. VAL DE COUZE CHAMBON 1"
+       ],
+       "matchs": [
         {
          "home": "U.S. VAL DE COUZE CHAMBON 1",
          "away": "C.S. PONT DU CHATEAU 3",
@@ -348,34 +516,18 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_2_4",
+       "id": "cup460676_2_2_4_1",
        "start": "2026-11-28T14:00",
-       "lieu": "STADE MUNICIPAL, ROUTE DE LIMOGES, ORCINES",
+       "lieu": "STADE JEAN JAURÈS 2, 99 avenue de l'Auzon, LE CENDRE",
        "organisateur": "",
        "equipes": [
-        "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
         "C.S. PONT DU CHATEAU 3",
-        "F.C. CHAMALIERES 2",
-        "GROUPEMENT DE L'AUZON 2",
-        "PERIGNAT F.C. 1",
-        "U.S. VAL DE COUZE CHAMBON 1"
+        "GROUPEMENT DE L'AUZON 2"
        ],
        "matchs": [
-        {
-         "home": "F.C. CHAMALIERES 2",
-         "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "PERIGNAT F.C. 1",
-         "away": "U.S. VAL DE COUZE CHAMBON 1",
-         "hs": null,
-         "as": null
-        },
         {
          "home": "GROUPEMENT DE L'AUZON 2",
          "away": "C.S. PONT DU CHATEAU 3",
@@ -384,20 +536,56 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-05T10:40:16Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_2_5",
+       "id": "cup460676_2_2_4_2",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE MUNICIPAL, D978 AVENUE DE LA REPUBLIQUE, PERIGNAT LES SARLIEVE",
+       "organisateur": "",
+       "equipes": [
+        "PERIGNAT F.C. 1",
+        "U.S. VAL DE COUZE CHAMBON 1"
+       ],
+       "matchs": [
+        {
+         "home": "PERIGNAT F.C. 1",
+         "away": "U.S. VAL DE COUZE CHAMBON 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_2_4_3",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE MUNICIPAL, ROUTE DE LIMOGES, ORCINES",
+       "organisateur": "",
+       "equipes": [
+        "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+        "F.C. CHAMALIERES 2"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. CHAMALIERES 2",
+         "away": "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_2_5_2",
        "start": "2026-12-05T14:00",
        "lieu": "STADE DENIS SUGERES, LE GRAND MEZE, BESSE ET ST ANASTAISE",
        "organisateur": "",
        "equipes": [
         "AM. LAIQ. S. DE BESSE EGLISENEUVE 1",
-        "C.S. PONT DU CHATEAU 3",
-        "F.C. CHAMALIERES 2",
-        "GROUPEMENT DE L'AUZON 2",
-        "PERIGNAT F.C. 1",
-        "U.S. VAL DE COUZE CHAMBON 1"
+        "PERIGNAT F.C. 1"
        ],
        "matchs": [
         {
@@ -405,13 +593,21 @@
          "away": "PERIGNAT F.C. 1",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "C.S. PONT DU CHATEAU 3",
-         "away": "F.C. CHAMALIERES 2",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_2_5_3",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE MAURICE FOURNIER 2, D52  RUE DES VERGERS, ORCET",
+       "organisateur": "",
+       "equipes": [
+        "GROUPEMENT DE L'AUZON 2",
+        "U.S. VAL DE COUZE CHAMBON 1"
+       ],
+       "matchs": [
         {
          "home": "GROUPEMENT DE L'AUZON 2",
          "away": "U.S. VAL DE COUZE CHAMBON 1",
@@ -420,7 +616,27 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_2_5_1",
+       "start": "2026-12-05T16:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 3",
+        "F.C. CHAMALIERES 2"
+       ],
+       "matchs": [
+        {
+         "home": "C.S. PONT DU CHATEAU 3",
+         "away": "F.C. CHAMALIERES 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
       }
      ]
     },
@@ -473,17 +689,33 @@
        "last_change": "2026-11-07T17:57:06Z"
       },
       {
-       "id": "cup460676_2_3_2",
+       "id": "cup460676_2_3_2_2",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°2, TERRAIN ANNEXE FOOT / RUGBY 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "DOMES SANCY FOOT 2",
+        "U. J. CLERMONTOISE 2"
+       ],
+       "matchs": [
+        {
+         "home": "U. J. CLERMONTOISE 2",
+         "away": "DOMES SANCY FOOT 2",
+         "hs": 1,
+         "as": 7
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_3_2_3",
        "start": "2026-11-14T14:00",
        "lieu": "STADE DE LA VOUÉE 1, BOULEVARD DESAIX, CHATEL GUYON",
        "organisateur": "",
        "equipes": [
         "AULNAT SP. 2",
-        "DOMES SANCY FOOT 2",
-        "F.C. CHATEL GUYON 2",
-        "F.C. COURNON D AUVERGNE 2",
-        "U. J. CLERMONTOISE 2",
-        "U.S. MOZAC 1"
+        "F.C. CHATEL GUYON 2"
        ],
        "matchs": [
         {
@@ -491,35 +723,39 @@
          "away": "AULNAT SP. 2",
          "hs": 9,
          "as": 5
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_3_3_2",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE MUNICIPAL, RUE DE LA GANNE, OLBY",
+       "organisateur": "",
+       "equipes": [
+        "DOMES SANCY FOOT 2",
+        "F.C. COURNON D AUVERGNE 2"
+       ],
+       "matchs": [
         {
-         "home": "U. J. CLERMONTOISE 2",
-         "away": "DOMES SANCY FOOT 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. COURNON D AUVERGNE 2",
-         "away": "U.S. MOZAC 1",
+         "home": "DOMES SANCY FOOT 2",
+         "away": "F.C. COURNON D AUVERGNE 2",
          "hs": null,
          "as": null
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:40:26Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_3_3",
+       "id": "cup460676_2_3_3_3",
        "start": "2026-11-21T14:00",
        "lieu": "STADE PIERRE DUCOURTIAL 1, AVENUE PIERRE DE COUBERTIN, AULNAT",
        "organisateur": "",
        "equipes": [
         "AULNAT SP. 2",
-        "DOMES SANCY FOOT 2",
-        "F.C. CHATEL GUYON 2",
-        "F.C. COURNON D AUVERGNE 2",
-        "U. J. CLERMONTOISE 2",
-        "U.S. MOZAC 1"
+        "U. J. CLERMONTOISE 2"
        ],
        "matchs": [
         {
@@ -527,13 +763,21 @@
          "away": "U. J. CLERMONTOISE 2",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "DOMES SANCY FOOT 2",
-         "away": "F.C. COURNON D AUVERGNE 2",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_3_3_1",
+       "start": "2026-11-21T15:15",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "F.C. CHATEL GUYON 2",
+        "U.S. MOZAC 1"
+       ],
+       "matchs": [
         {
          "home": "U.S. MOZAC 1",
          "away": "F.C. CHATEL GUYON 2",
@@ -542,34 +786,18 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_3_4",
+       "id": "cup460676_2_3_4_1",
        "start": "2026-11-28T14:00",
-       "lieu": "STADE CAMILLE LECLANCHÉ N°2, TERRAIN ANNEXE FOOT / RUGBY 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "lieu": "Plaine De Jeux 2, ALLEE PIERRE DE COUBERTIN, COURNON D AUVERGNE",
        "organisateur": "",
        "equipes": [
         "AULNAT SP. 2",
-        "DOMES SANCY FOOT 2",
-        "F.C. CHATEL GUYON 2",
-        "F.C. COURNON D AUVERGNE 2",
-        "U. J. CLERMONTOISE 2",
-        "U.S. MOZAC 1"
+        "F.C. COURNON D AUVERGNE 2"
        ],
        "matchs": [
-        {
-         "home": "U. J. CLERMONTOISE 2",
-         "away": "F.C. CHATEL GUYON 2",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "DOMES SANCY FOOT 2",
-         "away": "U.S. MOZAC 1",
-         "hs": null,
-         "as": null
-        },
         {
          "home": "F.C. COURNON D AUVERGNE 2",
          "away": "AULNAT SP. 2",
@@ -578,34 +806,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_3_5",
-       "start": "2026-12-05T14:00",
-       "lieu": "STADE PIERRE DUCOURTIAL 1, AVENUE PIERRE DE COUBERTIN, AULNAT",
+       "id": "cup460676_2_3_4_2",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°2, TERRAIN ANNEXE FOOT / RUGBY 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
-        "AULNAT SP. 2",
-        "DOMES SANCY FOOT 2",
         "F.C. CHATEL GUYON 2",
-        "F.C. COURNON D AUVERGNE 2",
-        "U. J. CLERMONTOISE 2",
+        "U. J. CLERMONTOISE 2"
+       ],
+       "matchs": [
+        {
+         "home": "U. J. CLERMONTOISE 2",
+         "away": "F.C. CHATEL GUYON 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_3_4_3",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE MUNICIPAL, RUE DE LA GANNE, OLBY",
+       "organisateur": "",
+       "equipes": [
+        "DOMES SANCY FOOT 2",
         "U.S. MOZAC 1"
        ],
        "matchs": [
         {
-         "home": "AULNAT SP. 2",
-         "away": "DOMES SANCY FOOT 2",
+         "home": "DOMES SANCY FOOT 2",
+         "away": "U.S. MOZAC 1",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "F.C. CHATEL GUYON 2",
-         "away": "F.C. COURNON D AUVERGNE 2",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_3_5_1",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°2, TERRAIN ANNEXE FOOT / RUGBY 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "U. J. CLERMONTOISE 2",
+        "U.S. MOZAC 1"
+       ],
+       "matchs": [
         {
          "home": "U. J. CLERMONTOISE 2",
          "away": "U.S. MOZAC 1",
@@ -614,7 +866,67 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_3_5_2",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE DE LA VOUÉE 1, BOULEVARD DESAIX, CHATEL GUYON",
+       "organisateur": "",
+       "equipes": [
+        "F.C. CHATEL GUYON 2",
+        "F.C. COURNON D AUVERGNE 2"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. CHATEL GUYON 2",
+         "away": "F.C. COURNON D AUVERGNE 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_3_5_3",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE PIERRE DUCOURTIAL 1, AVENUE PIERRE DE COUBERTIN, AULNAT",
+       "organisateur": "",
+       "equipes": [
+        "AULNAT SP. 2",
+        "DOMES SANCY FOOT 2"
+       ],
+       "matchs": [
+        {
+         "home": "AULNAT SP. 2",
+         "away": "DOMES SANCY FOOT 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_3_2_1",
+       "start": "2026-12-12T14:00",
+       "lieu": "PLAINE DE JEUX 1, ALLEE PIERRE DE COUBERTIN, COURNON D AUVERGNE",
+       "organisateur": "",
+       "equipes": [
+        "F.C. COURNON D AUVERGNE 2",
+        "U.S. MOZAC 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. COURNON D AUVERGNE 2",
+         "away": "U.S. MOZAC 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
       }
      ]
     },
@@ -631,31 +943,15 @@
      ],
      "plateaux": [
       {
-       "id": "cup460676_2_4_1",
+       "id": "cup460676_2_4_1_1",
        "start": "2026-11-07T14:00",
-       "lieu": "Plaine De Jeux Du Marais 2, RUE DU MARAIS, LEMPDES",
+       "lieu": "",
        "organisateur": "",
        "equipes": [
-        "CLERMONT ACADEMY 1",
         "F.C. COURNON D AUVERGNE 3",
-        "F.C. LEZOUX 2",
-        "GJ SCB FOOT 3",
-        "LEMPDES SP. 2",
         "U.S. MOZAC 2"
        ],
        "matchs": [
-        {
-         "home": "LEMPDES SP. 2",
-         "away": "GJ SCB FOOT 3",
-         "hs": 5,
-         "as": 3
-        },
-        {
-         "home": "CLERMONT ACADEMY 1",
-         "away": "F.C. LEZOUX 2",
-         "hs": 2,
-         "as": 3
-        },
         {
          "home": "U.S. MOZAC 2",
          "away": "F.C. COURNON D AUVERGNE 3",
@@ -664,34 +960,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-07T19:34:32Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_4_2",
-       "start": "2026-11-14T14:00",
-       "lieu": "STADE DU VERNADEL, CHEMIN DES CHARRETIERS, LEZOUX",
+       "id": "cup460676_2_4_1_2",
+       "start": "2026-11-07T14:00",
+       "lieu": "Plaine De Jeux Du Marais 2, RUE DU MARAIS, LEMPDES",
        "organisateur": "",
        "equipes": [
-        "CLERMONT ACADEMY 1",
-        "F.C. COURNON D AUVERGNE 3",
-        "F.C. LEZOUX 2",
         "GJ SCB FOOT 3",
-        "LEMPDES SP. 2",
-        "U.S. MOZAC 2"
+        "LEMPDES SP. 2"
        ],
        "matchs": [
         {
-         "home": "F.C. LEZOUX 2",
-         "away": "LEMPDES SP. 2",
-         "hs": 2,
-         "as": 0
-        },
+         "home": "LEMPDES SP. 2",
+         "away": "GJ SCB FOOT 3",
+         "hs": 5,
+         "as": 3
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_4_1_3",
+       "start": "2026-11-07T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°1, 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT ACADEMY 1",
+        "F.C. LEZOUX 2"
+       ],
+       "matchs": [
         {
          "home": "CLERMONT ACADEMY 1",
-         "away": "U.S. MOZAC 2",
-         "hs": 12,
+         "away": "F.C. LEZOUX 2",
+         "hs": 2,
          "as": 3
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_4_2_1",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
+       "organisateur": "",
+       "equipes": [
+        "F.C. COURNON D AUVERGNE 3",
+        "GJ SCB FOOT 3"
+       ],
+       "matchs": [
         {
          "home": "GJ SCB FOOT 3",
          "away": "F.C. COURNON D AUVERGNE 3",
@@ -700,19 +1020,55 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:56:40Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_4_3",
+       "id": "cup460676_2_4_2_2",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°4, TERRAIN ANNEXE 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT ACADEMY 1",
+        "U.S. MOZAC 2"
+       ],
+       "matchs": [
+        {
+         "home": "CLERMONT ACADEMY 1",
+         "away": "U.S. MOZAC 2",
+         "hs": 12,
+         "as": 3
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_4_2_3",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE DU VERNADEL, CHEMIN DES CHARRETIERS, LEZOUX",
+       "organisateur": "",
+       "equipes": [
+        "F.C. LEZOUX 2",
+        "LEMPDES SP. 2"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. LEZOUX 2",
+         "away": "LEMPDES SP. 2",
+         "hs": 2,
+         "as": 0
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_4_3_1",
        "start": "2026-11-21T14:00",
        "lieu": "COMPLEXE SPORTIF EDMOND VACANT, 15 RUE LOUIS DELMAS, MOZAC",
        "organisateur": "",
        "equipes": [
-        "CLERMONT ACADEMY 1",
-        "F.C. COURNON D AUVERGNE 3",
-        "F.C. LEZOUX 2",
         "GJ SCB FOOT 3",
-        "LEMPDES SP. 2",
         "U.S. MOZAC 2"
        ],
        "matchs": [
@@ -721,13 +1077,21 @@
          "away": "GJ SCB FOOT 3",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "LEMPDES SP. 2",
-         "away": "CLERMONT ACADEMY 1",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_4_3_2",
+       "start": "2026-11-21T14:00",
+       "lieu": "PLAINE DE JEUX 1, ALLEE PIERRE DE COUBERTIN, COURNON D AUVERGNE",
+       "organisateur": "",
+       "equipes": [
+        "F.C. COURNON D AUVERGNE 3",
+        "F.C. LEZOUX 2"
+       ],
+       "matchs": [
         {
          "home": "F.C. COURNON D AUVERGNE 3",
          "away": "F.C. LEZOUX 2",
@@ -736,34 +1100,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_4_4",
-       "start": "2026-11-28T14:00",
-       "lieu": "STADE DU VERNADEL, CHEMIN DES CHARRETIERS, LEZOUX",
+       "id": "cup460676_2_4_3_3",
+       "start": "2026-11-21T14:00",
+       "lieu": "Plaine De Jeux Du Marais 2, RUE DU MARAIS, LEMPDES",
        "organisateur": "",
        "equipes": [
         "CLERMONT ACADEMY 1",
-        "F.C. COURNON D AUVERGNE 3",
-        "F.C. LEZOUX 2",
-        "GJ SCB FOOT 3",
+        "LEMPDES SP. 2"
+       ],
+       "matchs": [
+        {
+         "home": "LEMPDES SP. 2",
+         "away": "CLERMONT ACADEMY 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_4_4_1",
+       "start": "2026-11-28T14:00",
+       "lieu": "Plaine De Jeux Du Marais 2, RUE DU MARAIS, LEMPDES",
+       "organisateur": "",
+       "equipes": [
         "LEMPDES SP. 2",
         "U.S. MOZAC 2"
        ],
        "matchs": [
         {
-         "home": "F.C. LEZOUX 2",
-         "away": "GJ SCB FOOT 3",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "LEMPDES SP. 2",
          "away": "U.S. MOZAC 2",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_4_4_2",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°4, TERRAIN ANNEXE 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT ACADEMY 1",
+        "F.C. COURNON D AUVERGNE 3"
+       ],
+       "matchs": [
         {
          "home": "CLERMONT ACADEMY 1",
          "away": "F.C. COURNON D AUVERGNE 3",
@@ -772,34 +1160,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460676_2_4_5",
-       "start": "2026-12-05T14:00",
+       "id": "cup460676_2_4_4_3",
+       "start": "2026-11-28T14:00",
        "lieu": "STADE DU VERNADEL, CHEMIN DES CHARRETIERS, LEZOUX",
        "organisateur": "",
        "equipes": [
-        "CLERMONT ACADEMY 1",
-        "F.C. COURNON D AUVERGNE 3",
         "F.C. LEZOUX 2",
-        "GJ SCB FOOT 3",
-        "LEMPDES SP. 2",
-        "U.S. MOZAC 2"
+        "GJ SCB FOOT 3"
        ],
        "matchs": [
         {
          "home": "F.C. LEZOUX 2",
-         "away": "U.S. MOZAC 2",
+         "away": "GJ SCB FOOT 3",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_4_5_1",
+       "start": "2026-12-05T11:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "F.C. COURNON D AUVERGNE 3",
+        "LEMPDES SP. 2"
+       ],
+       "matchs": [
         {
          "home": "F.C. COURNON D AUVERGNE 3",
          "away": "LEMPDES SP. 2",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_4_5_2",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT ACADEMY 1",
+        "GJ SCB FOOT 3"
+       ],
+       "matchs": [
         {
          "home": "GJ SCB FOOT 3",
          "away": "CLERMONT ACADEMY 1",
@@ -808,12 +1220,32 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_4_5_3",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE DU VERNADEL, CHEMIN DES CHARRETIERS, LEZOUX",
+       "organisateur": "",
+       "equipes": [
+        "F.C. LEZOUX 2",
+        "U.S. MOZAC 2"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. LEZOUX 2",
+         "away": "U.S. MOZAC 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
       }
      ]
     }
    ]
   }
  ],
- "updated_at": "2026-11-14T15:34:11Z"
+ "updated_at": "2026-11-19T16:22:06Z"
 }

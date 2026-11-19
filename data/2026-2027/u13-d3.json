@@ -85,17 +85,13 @@
        "last_change": "2026-11-07T15:12:20Z"
       },
       {
-       "id": "cup460675_2_1_2",
+       "id": "cup460675_2_1_2_1",
        "start": "2026-11-14T14:00",
        "lieu": "COMPLEXE SPORTIF GRAVANCHES N°6, RUE DU PRECOMTAL, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
         "A.S. MONTFERRANDAISE 4",
-        "CLERMONT FOOT 63 5",
-        "F. C. CLERMONT METROPOLE 3",
-        "SANCY CHAVANON FOOT 1",
-        "U. J. CLERMONTOISE 1",
-        "U.S. LES MARTRES DE VEYRE 1"
+        "SANCY CHAVANON FOOT 1"
        ],
        "matchs": [
         {
@@ -103,49 +99,49 @@
          "away": "SANCY CHAVANON FOOT 1",
          "hs": 11,
          "as": 2
-        },
-        {
-         "home": "U. J. CLERMONTOISE 1",
-         "away": "F. C. CLERMONT METROPOLE 3",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "CLERMONT FOOT 63 5",
-         "away": "U.S. LES MARTRES DE VEYRE 1",
-         "hs": null,
-         "as": null
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T15:14:05Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460675_2_1_3",
-       "start": "2026-11-21T14:00",
-       "lieu": "STADE ÉMILE RIVE 1, RUE DE L'INDUSTRIE, LES MARTRES DE VEYRE",
+       "id": "cup460675_2_1_2_2",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°2, TERRAIN ANNEXE FOOT / RUGBY 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
-        "A.S. MONTFERRANDAISE 4",
         "CLERMONT FOOT 63 5",
         "F. C. CLERMONT METROPOLE 3",
-        "SANCY CHAVANON FOOT 1",
         "U. J. CLERMONTOISE 1",
         "U.S. LES MARTRES DE VEYRE 1"
        ],
        "matchs": [
         {
-         "home": "U.S. LES MARTRES DE VEYRE 1",
-         "away": "A.S. MONTFERRANDAISE 4",
-         "hs": null,
-         "as": null
+         "home": "U. J. CLERMONTOISE 1",
+         "away": "F. C. CLERMONT METROPOLE 3",
+         "hs": 9,
+         "as": 3
         },
         {
-         "home": "SANCY CHAVANON FOOT 1",
-         "away": "U. J. CLERMONTOISE 1",
-         "hs": null,
-         "as": null
-        },
+         "home": "CLERMONT FOOT 63 5",
+         "away": "U.S. LES MARTRES DE VEYRE 1",
+         "hs": 2,
+         "as": 4
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_1_3_1",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE DANIEL PAPILLAUD, RUE DE LA GANTIERE, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT FOOT 63 5",
+        "F. C. CLERMONT METROPOLE 3"
+       ],
+       "matchs": [
         {
          "home": "F. C. CLERMONT METROPOLE 3",
          "away": "CLERMONT FOOT 63 5",
@@ -154,34 +150,58 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460675_2_1_4",
-       "start": "2026-11-28T14:00",
-       "lieu": "STADE CAMILLE LECLANCHÉ N°2, TERRAIN ANNEXE FOOT / RUGBY 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "id": "cup460675_2_1_3_2",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE DU LAC, Plan d'Eau, LA TOUR D AUVERGNE",
+       "organisateur": "",
+       "equipes": [
+        "SANCY CHAVANON FOOT 1",
+        "U. J. CLERMONTOISE 1"
+       ],
+       "matchs": [
+        {
+         "home": "SANCY CHAVANON FOOT 1",
+         "away": "U. J. CLERMONTOISE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_1_3_3",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE ÉMILE RIVE 1, RUE DE L'INDUSTRIE, LES MARTRES DE VEYRE",
        "organisateur": "",
        "equipes": [
         "A.S. MONTFERRANDAISE 4",
-        "CLERMONT FOOT 63 5",
-        "F. C. CLERMONT METROPOLE 3",
-        "SANCY CHAVANON FOOT 1",
-        "U. J. CLERMONTOISE 1",
         "U.S. LES MARTRES DE VEYRE 1"
        ],
        "matchs": [
         {
-         "home": "U. J. CLERMONTOISE 1",
+         "home": "U.S. LES MARTRES DE VEYRE 1",
          "away": "A.S. MONTFERRANDAISE 4",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "CLERMONT FOOT 63 5",
-         "away": "SANCY CHAVANON FOOT 1",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_1_4_1",
+       "start": "2026-11-28T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "F. C. CLERMONT METROPOLE 3",
+        "U.S. LES MARTRES DE VEYRE 1"
+       ],
+       "matchs": [
         {
          "home": "F. C. CLERMONT METROPOLE 3",
          "away": "U.S. LES MARTRES DE VEYRE 1",
@@ -190,7 +210,47 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_1_4_2",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°2, TERRAIN ANNEXE FOOT / RUGBY 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 4",
+        "U. J. CLERMONTOISE 1"
+       ],
+       "matchs": [
+        {
+         "home": "U. J. CLERMONTOISE 1",
+         "away": "A.S. MONTFERRANDAISE 4",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_1_4_3",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°4, TERRAIN ANNEXE 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT FOOT 63 5",
+        "SANCY CHAVANON FOOT 1"
+       ],
+       "matchs": [
+        {
+         "home": "CLERMONT FOOT 63 5",
+         "away": "SANCY CHAVANON FOOT 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
        "id": "cup460675_2_1_5",
@@ -207,6 +267,12 @@
        ],
        "matchs": [
         {
+         "home": "U. J. CLERMONTOISE 1",
+         "away": "U.S. LES MARTRES DE VEYRE 1",
+         "hs": null,
+         "as": null
+        },
+        {
          "home": "SANCY CHAVANON FOOT 1",
          "away": "F. C. CLERMONT METROPOLE 3",
          "hs": null,
@@ -215,12 +281,6 @@
         {
          "home": "A.S. MONTFERRANDAISE 4",
          "away": "CLERMONT FOOT 63 5",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "U. J. CLERMONTOISE 1",
-         "away": "U.S. LES MARTRES DE VEYRE 1",
          "hs": null,
          "as": null
         }
@@ -279,17 +339,33 @@
        "last_change": "2026-11-07T15:58:22Z"
       },
       {
-       "id": "cup460675_2_2_2",
+       "id": "cup460675_2_2_2_2",
        "start": "2026-11-14T13:30",
        "lieu": "STADE CHARLES SOULIGOUX, RUE MARTIN BONJEAN, BRASSAC LES MINES",
        "organisateur": "",
        "equipes": [
         "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
-        "E.S. ST GERMINOISE 1",
-        "ENT.F.C. ST AMANT ET TALLENDE 3",
-        "ESP. CEYRATOISE 2",
-        "U.S. VIC LE COMTE 2",
         "UNION SPORTIVE BASSIN MINIER 1"
+       ],
+       "matchs": [
+        {
+         "home": "UNION SPORTIVE BASSIN MINIER 1",
+         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+         "hs": 2,
+         "as": 1
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_2_2_1",
+       "start": "2026-11-14T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "E.S. ST GERMINOISE 1",
+        "U.S. VIC LE COMTE 2"
        ],
        "matchs": [
         {
@@ -297,13 +373,21 @@
          "away": "E.S. ST GERMINOISE 1",
          "hs": 2,
          "as": 5
-        },
-        {
-         "home": "UNION SPORTIVE BASSIN MINIER 1",
-         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
-         "hs": 2,
-         "as": 1
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_2_2_3",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE OLIVIER VERNADAL, Rue de la Paix Chemin Bartin, CEYRAT",
+       "organisateur": "",
+       "equipes": [
+        "ENT.F.C. ST AMANT ET TALLENDE 3",
+        "ESP. CEYRATOISE 2"
+       ],
+       "matchs": [
         {
          "home": "ESP. CEYRATOISE 2",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
@@ -312,7 +396,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:56:40Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
        "id": "cup460675_2_2_3",
@@ -365,6 +449,12 @@
        ],
        "matchs": [
         {
+         "home": "ESP. CEYRATOISE 2",
+         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+         "hs": null,
+         "as": null
+        },
+        {
          "home": "E.S. ST GERMINOISE 1",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
          "hs": null,
@@ -375,43 +465,41 @@
          "away": "UNION SPORTIVE BASSIN MINIER 1",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "ESP. CEYRATOISE 2",
-         "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
-         "hs": null,
-         "as": null
         }
        ],
        "heure_connue": true,
        "last_change": "2026-11-09T16:28:42Z"
       },
       {
-       "id": "cup460675_2_2_5",
+       "id": "cup460675_2_2_5_1",
        "start": "2026-12-05T14:00",
-       "lieu": "STADE MUNICIPAL 1, 88 AV DU DOCTEUR EUGENE CHASSAING, AMBERT",
+       "lieu": "",
        "organisateur": "",
        "equipes": [
-        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
-        "E.S. ST GERMINOISE 1",
         "ENT.F.C. ST AMANT ET TALLENDE 3",
-        "ESP. CEYRATOISE 2",
-        "U.S. VIC LE COMTE 2",
-        "UNION SPORTIVE BASSIN MINIER 1"
+        "U.S. VIC LE COMTE 2"
        ],
        "matchs": [
-        {
-         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
-         "away": "E.S. ST GERMINOISE 1",
-         "hs": null,
-         "as": null
-        },
         {
          "home": "U.S. VIC LE COMTE 2",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 3",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_2_5_2",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE DE BASSE COMBELLE 1, ROUTE D'ISSOIRE La Combelle, AUZAT LA COMBELLE",
+       "organisateur": "",
+       "equipes": [
+        "ESP. CEYRATOISE 2",
+        "UNION SPORTIVE BASSIN MINIER 1"
+       ],
+       "matchs": [
         {
          "home": "UNION SPORTIVE BASSIN MINIER 1",
          "away": "ESP. CEYRATOISE 2",
@@ -420,7 +508,27 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_2_5_3",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE MUNICIPAL 1, 88 AV DU DOCTEUR EUGENE CHASSAING, AMBERT",
+       "organisateur": "",
+       "equipes": [
+        "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+        "E.S. ST GERMINOISE 1"
+       ],
+       "matchs": [
+        {
+         "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
+         "away": "E.S. ST GERMINOISE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
       }
      ]
     },
@@ -473,31 +581,15 @@
        "last_change": "2026-11-08T19:54:57Z"
       },
       {
-       "id": "cup460675_2_3_2",
+       "id": "cup460675_2_3_2_1",
        "start": "2026-11-14T14:00",
-       "lieu": "STADE LUCIEN BONHOMME, AVENUE ROGER MAERTE, AUBIERE",
+       "lieu": "",
        "organisateur": "",
        "equipes": [
         "C.S. DE VOLVIC 3",
-        "CLERMONT FOOT 63 4",
-        "F.C. AUBIEROIS 1",
-        "F.C. BLANZAT 1",
-        "FOOTBALL CLUB PUY DE MUR 1",
         "U.S. MARINGUOISE 1"
        ],
        "matchs": [
-        {
-         "home": "F.C. AUBIEROIS 1",
-         "away": "F.C. BLANZAT 1",
-         "hs": 4,
-         "as": 8
-        },
-        {
-         "home": "CLERMONT FOOT 63 4",
-         "away": "FOOTBALL CLUB PUY DE MUR 1",
-         "hs": 3,
-         "as": 0
-        },
         {
          "home": "C.S. DE VOLVIC 3",
          "away": "U.S. MARINGUOISE 1",
@@ -506,20 +598,56 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T15:14:05Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460675_2_3_3",
+       "id": "cup460675_2_3_2_2",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°2, TERRAIN ANNEXE FOOT / RUGBY 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT FOOT 63 4",
+        "FOOTBALL CLUB PUY DE MUR 1"
+       ],
+       "matchs": [
+        {
+         "home": "CLERMONT FOOT 63 4",
+         "away": "FOOTBALL CLUB PUY DE MUR 1",
+         "hs": 3,
+         "as": 0
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_3_2_3",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE LUCIEN BONHOMME, AVENUE ROGER MAERTE, AUBIERE",
+       "organisateur": "",
+       "equipes": [
+        "F.C. AUBIEROIS 1",
+        "F.C. BLANZAT 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. AUBIEROIS 1",
+         "away": "F.C. BLANZAT 1",
+         "hs": 4,
+         "as": 8
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_3_3_1",
        "start": "2026-11-21T14:00",
        "lieu": "STADE CROIX SAINT GÉRAUD 1, RUE DE CLERMONT, BLANZAT",
        "organisateur": "",
        "equipes": [
         "C.S. DE VOLVIC 3",
-        "CLERMONT FOOT 63 4",
-        "F.C. AUBIEROIS 1",
-        "F.C. BLANZAT 1",
-        "FOOTBALL CLUB PUY DE MUR 1",
-        "U.S. MARINGUOISE 1"
+        "F.C. BLANZAT 1"
        ],
        "matchs": [
         {
@@ -527,13 +655,21 @@
          "away": "C.S. DE VOLVIC 3",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "FOOTBALL CLUB PUY DE MUR 1",
-         "away": "F.C. AUBIEROIS 1",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_3_3_2",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE MUNICIPAL 1, ROUTE DE VICHY, MARINGUES",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT FOOT 63 4",
+        "U.S. MARINGUOISE 1"
+       ],
+       "matchs": [
         {
          "home": "U.S. MARINGUOISE 1",
          "away": "CLERMONT FOOT 63 4",
@@ -542,34 +678,38 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460675_2_3_4",
-       "start": "2026-11-28T14:00",
-       "lieu": "STADE LUCIEN BONHOMME, AVENUE ROGER MAERTE, AUBIERE",
+       "id": "cup460675_2_3_3_3",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE MUNICIPAL, AVENUE DES ACACIAS, VERTAIZON",
        "organisateur": "",
        "equipes": [
-        "C.S. DE VOLVIC 3",
-        "CLERMONT FOOT 63 4",
         "F.C. AUBIEROIS 1",
-        "F.C. BLANZAT 1",
-        "FOOTBALL CLUB PUY DE MUR 1",
-        "U.S. MARINGUOISE 1"
+        "FOOTBALL CLUB PUY DE MUR 1"
        ],
        "matchs": [
         {
-         "home": "F.C. AUBIEROIS 1",
-         "away": "CLERMONT FOOT 63 4",
+         "home": "FOOTBALL CLUB PUY DE MUR 1",
+         "away": "F.C. AUBIEROIS 1",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "F.C. BLANZAT 1",
-         "away": "U.S. MARINGUOISE 1",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_3_4_1",
+       "start": "2026-11-28T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "C.S. DE VOLVIC 3",
+        "FOOTBALL CLUB PUY DE MUR 1"
+       ],
+       "matchs": [
         {
          "home": "C.S. DE VOLVIC 3",
          "away": "FOOTBALL CLUB PUY DE MUR 1",
@@ -578,20 +718,56 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460675_2_3_5",
+       "id": "cup460675_2_3_4_2",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE CROIX SAINT GÉRAUD 1, RUE DE CLERMONT, BLANZAT",
+       "organisateur": "",
+       "equipes": [
+        "F.C. BLANZAT 1",
+        "U.S. MARINGUOISE 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. BLANZAT 1",
+         "away": "U.S. MARINGUOISE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_3_4_3",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE LUCIEN BONHOMME, AVENUE ROGER MAERTE, AUBIERE",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT FOOT 63 4",
+        "F.C. AUBIEROIS 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. AUBIEROIS 1",
+         "away": "CLERMONT FOOT 63 4",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_3_5_1",
        "start": "2026-12-05T14:00",
-       "lieu": "STADE MUNICIPAL, AVENUE DES ACACIAS, VERTAIZON",
+       "lieu": "",
        "organisateur": "",
        "equipes": [
         "C.S. DE VOLVIC 3",
-        "CLERMONT FOOT 63 4",
-        "F.C. AUBIEROIS 1",
-        "F.C. BLANZAT 1",
-        "FOOTBALL CLUB PUY DE MUR 1",
-        "U.S. MARINGUOISE 1"
+        "CLERMONT FOOT 63 4"
        ],
        "matchs": [
         {
@@ -599,13 +775,21 @@
          "away": "C.S. DE VOLVIC 3",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "FOOTBALL CLUB PUY DE MUR 1",
-         "away": "F.C. BLANZAT 1",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_3_5_2",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE LUCIEN BONHOMME, AVENUE ROGER MAERTE, AUBIERE",
+       "organisateur": "",
+       "equipes": [
+        "F.C. AUBIEROIS 1",
+        "U.S. MARINGUOISE 1"
+       ],
+       "matchs": [
         {
          "home": "F.C. AUBIEROIS 1",
          "away": "U.S. MARINGUOISE 1",
@@ -614,7 +798,27 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_3_5_3",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE MUNICIPAL, AVENUE DES ACACIAS, VERTAIZON",
+       "organisateur": "",
+       "equipes": [
+        "F.C. BLANZAT 1",
+        "FOOTBALL CLUB PUY DE MUR 1"
+       ],
+       "matchs": [
+        {
+         "home": "FOOTBALL CLUB PUY DE MUR 1",
+         "away": "F.C. BLANZAT 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
       }
      ]
     },
@@ -645,6 +849,12 @@
        ],
        "matchs": [
         {
+         "home": "F.C. NORD COMBRAILLE 1",
+         "away": "F.C. NORD LIMAGNE 1",
+         "hs": 1,
+         "as": 7
+        },
+        {
          "home": "ECUREUILS FRANC ROSIER 2",
          "away": "C.S. PONT DU CHATEAU 2",
          "hs": 0,
@@ -655,28 +865,18 @@
          "away": "FOOTBALL CLUB GERZAT 1",
          "hs": 4,
          "as": 4
-        },
-        {
-         "home": "F.C. NORD COMBRAILLE 1",
-         "away": "F.C. NORD LIMAGNE 1",
-         "hs": 1,
-         "as": 7
         }
        ],
        "heure_connue": true,
        "last_change": "2026-11-07T15:12:20Z"
       },
       {
-       "id": "cup460675_2_4_2",
+       "id": "cup460675_2_4_2_1",
        "start": "2026-11-14T14:00",
        "lieu": "STADE COLONEL BOUTET, TERRAIN ECUREUILS FRANC ROSIER 59 RUE DU RESSORT, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
-        "C.S. PONT DU CHATEAU 2",
         "ECUREUILS FRANC ROSIER 2",
-        "F.C. NORD COMBRAILLE 1",
-        "F.C. NORD LIMAGNE 1",
-        "FOOTBALL CLUB GERZAT 1",
         "U.S. ST GERVAISIENNE 1"
        ],
        "matchs": [
@@ -685,35 +885,79 @@
          "away": "U.S. ST GERVAISIENNE 1",
          "hs": 10,
          "as": 1
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_4_2_2",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE GÉRARD BOCHE 1, ROUTE DE MONTPENSIER, AIGUEPERSE",
+       "organisateur": "",
+       "equipes": [
+        "F.C. NORD LIMAGNE 1",
+        "FOOTBALL CLUB GERZAT 1"
+       ],
+       "matchs": [
         {
          "home": "F.C. NORD LIMAGNE 1",
          "away": "FOOTBALL CLUB GERZAT 1",
          "hs": 2,
          "as": 2
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_4_2_3",
+       "start": "2026-11-14T14:00",
+       "lieu": "STADE LÉON BAGET, CHEMIN DES VORTILLES, PONT DU CHATEAU",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 2",
+        "F.C. NORD COMBRAILLE 1"
+       ],
+       "matchs": [
         {
          "home": "C.S. PONT DU CHATEAU 2",
          "away": "F.C. NORD COMBRAILLE 1",
+         "hs": 9,
+         "as": 0
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_4_3_1",
+       "start": "2026-11-21T14:00",
+       "lieu": "",
+       "organisateur": "",
+       "equipes": [
+        "F.C. NORD LIMAGNE 1",
+        "U.S. ST GERVAISIENNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. ST GERVAISIENNE 1",
+         "away": "F.C. NORD LIMAGNE 1",
          "hs": null,
          "as": null
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-14T14:56:40Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460675_2_4_3",
+       "id": "cup460675_2_4_3_2",
        "start": "2026-11-21T14:00",
        "lieu": "STADE DE LA LUMINERIE, RUE JULES GUESDE, GERZAT",
        "organisateur": "",
        "equipes": [
         "C.S. PONT DU CHATEAU 2",
-        "ECUREUILS FRANC ROSIER 2",
-        "F.C. NORD COMBRAILLE 1",
-        "F.C. NORD LIMAGNE 1",
-        "FOOTBALL CLUB GERZAT 1",
-        "U.S. ST GERVAISIENNE 1"
+        "FOOTBALL CLUB GERZAT 1"
        ],
        "matchs": [
         {
@@ -721,13 +965,21 @@
          "away": "C.S. PONT DU CHATEAU 2",
          "hs": null,
          "as": null
-        },
-        {
-         "home": "U.S. ST GERVAISIENNE 1",
-         "away": "F.C. NORD LIMAGNE 1",
-         "hs": null,
-         "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_4_3_3",
+       "start": "2026-11-21T14:00",
+       "lieu": "STADE SERGE LANCELOT, LA PRADE, MONTAIGUT EN COMBRAILLE",
+       "organisateur": "",
+       "equipes": [
+        "ECUREUILS FRANC ROSIER 2",
+        "F.C. NORD COMBRAILLE 1"
+       ],
+       "matchs": [
         {
          "home": "F.C. NORD COMBRAILLE 1",
          "away": "ECUREUILS FRANC ROSIER 2",
@@ -736,20 +988,16 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460675_2_4_4",
+       "id": "cup460675_2_4_4_1",
        "start": "2026-11-28T14:00",
        "lieu": "STADE COLONEL BOUTET, TERRAIN ECUREUILS FRANC ROSIER 59 RUE DU RESSORT, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
-        "C.S. PONT DU CHATEAU 2",
         "ECUREUILS FRANC ROSIER 2",
-        "F.C. NORD COMBRAILLE 1",
-        "F.C. NORD LIMAGNE 1",
-        "FOOTBALL CLUB GERZAT 1",
-        "U.S. ST GERVAISIENNE 1"
+        "FOOTBALL CLUB GERZAT 1"
        ],
        "matchs": [
         {
@@ -757,13 +1005,41 @@
          "away": "FOOTBALL CLUB GERZAT 1",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_4_4_2",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE LÉON BAGET, CHEMIN DES VORTILLES, PONT DU CHATEAU",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 2",
+        "F.C. NORD LIMAGNE 1"
+       ],
+       "matchs": [
         {
          "home": "C.S. PONT DU CHATEAU 2",
          "away": "F.C. NORD LIMAGNE 1",
          "hs": null,
          "as": null
-        },
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_4_4_3",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE RÉMY DURIN, RUE JULES GUESDE, ST ELOY LES MINES",
+       "organisateur": "",
+       "equipes": [
+        "F.C. NORD COMBRAILLE 1",
+        "U.S. ST GERVAISIENNE 1"
+       ],
+       "matchs": [
         {
          "home": "F.C. NORD COMBRAILLE 1",
          "away": "U.S. ST GERVAISIENNE 1",
@@ -772,34 +1048,18 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460675_2_4_5",
+       "id": "cup460675_2_4_5_1",
        "start": "2026-12-05T14:00",
-       "lieu": "STADE LÉON BAGET, CHEMIN DES VORTILLES, PONT DU CHATEAU",
+       "lieu": "STADE DE LA LUMINERIE, RUE JULES GUESDE, GERZAT",
        "organisateur": "",
        "equipes": [
-        "C.S. PONT DU CHATEAU 2",
-        "ECUREUILS FRANC ROSIER 2",
         "F.C. NORD COMBRAILLE 1",
-        "F.C. NORD LIMAGNE 1",
-        "FOOTBALL CLUB GERZAT 1",
-        "U.S. ST GERVAISIENNE 1"
+        "FOOTBALL CLUB GERZAT 1"
        ],
        "matchs": [
-        {
-         "home": "C.S. PONT DU CHATEAU 2",
-         "away": "U.S. ST GERVAISIENNE 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "F.C. NORD LIMAGNE 1",
-         "away": "ECUREUILS FRANC ROSIER 2",
-         "hs": null,
-         "as": null
-        },
         {
          "home": "FOOTBALL CLUB GERZAT 1",
          "away": "F.C. NORD COMBRAILLE 1",
@@ -808,12 +1068,52 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-09T16:28:42Z"
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_4_5_2",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE GÉRARD BOCHE 1, ROUTE DE MONTPENSIER, AIGUEPERSE",
+       "organisateur": "",
+       "equipes": [
+        "ECUREUILS FRANC ROSIER 2",
+        "F.C. NORD LIMAGNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "F.C. NORD LIMAGNE 1",
+         "away": "ECUREUILS FRANC ROSIER 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460675_2_4_5_3",
+       "start": "2026-12-05T14:00",
+       "lieu": "STADE LÉON BAGET, CHEMIN DES VORTILLES, PONT DU CHATEAU",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 2",
+        "U.S. ST GERVAISIENNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "C.S. PONT DU CHATEAU 2",
+         "away": "U.S. ST GERVAISIENNE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-19T16:22:06Z"
       }
      ]
     }
    ]
   }
  ],
- "updated_at": "2026-11-14T15:14:05Z"
+ "updated_at": "2026-11-19T16:22:06Z"
 }
