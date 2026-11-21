@@ -647,7 +647,7 @@
       "AULNAT SP. 2",
       "DOMES SANCY FOOT 2",
       "F.C. CHATEL GUYON 2",
-      "F.C. COURNON D AUVERGNE 2",
+      "F.C. COURNON D AUVERGNE 3",
       "U. J. CLERMONTOISE 2",
       "U.S. MOZAC 1"
      ],
@@ -661,7 +661,7 @@
         "AULNAT SP. 2",
         "DOMES SANCY FOOT 2",
         "F.C. CHATEL GUYON 2",
-        "F.C. COURNON D AUVERGNE 2",
+        "F.C. COURNON D AUVERGNE 3",
         "U. J. CLERMONTOISE 2",
         "U.S. MOZAC 1"
        ],
@@ -673,7 +673,7 @@
          "as": 4
         },
         {
-         "home": "F.C. COURNON D AUVERGNE 2",
+         "home": "F.C. COURNON D AUVERGNE 3",
          "away": "U. J. CLERMONTOISE 2",
          "hs": 5,
          "as": 2
@@ -686,7 +686,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-07T17:57:06Z"
+       "last_change": "2026-11-21T15:14:51Z"
       },
       {
        "id": "cup460676_2_3_2_2",
@@ -735,18 +735,18 @@
        "organisateur": "",
        "equipes": [
         "DOMES SANCY FOOT 2",
-        "F.C. COURNON D AUVERGNE 2"
+        "F.C. COURNON D AUVERGNE 3"
        ],
        "matchs": [
         {
          "home": "DOMES SANCY FOOT 2",
-         "away": "F.C. COURNON D AUVERGNE 2",
+         "away": "F.C. COURNON D AUVERGNE 3",
          "hs": 1,
          "as": 8
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-21T15:01:49Z"
+       "last_change": "2026-11-21T15:14:51Z"
       },
       {
        "id": "cup460676_2_3_3_3",
@@ -781,12 +781,12 @@
         {
          "home": "U.S. MOZAC 1",
          "away": "F.C. CHATEL GUYON 2",
-         "hs": null,
-         "as": null
+         "hs": 8,
+         "as": 4
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T16:18:52Z"
       },
       {
        "id": "cup460676_2_3_4_1",
@@ -795,11 +795,11 @@
        "organisateur": "",
        "equipes": [
         "AULNAT SP. 2",
-        "F.C. COURNON D AUVERGNE 2"
+        "F.C. COURNON D AUVERGNE 3"
        ],
        "matchs": [
         {
-         "home": "F.C. COURNON D AUVERGNE 2",
+         "home": "F.C. COURNON D AUVERGNE 3",
          "away": "AULNAT SP. 2",
          "hs": null,
          "as": null
@@ -875,12 +875,12 @@
        "organisateur": "",
        "equipes": [
         "F.C. CHATEL GUYON 2",
-        "F.C. COURNON D AUVERGNE 2"
+        "F.C. COURNON D AUVERGNE 3"
        ],
        "matchs": [
         {
          "home": "F.C. CHATEL GUYON 2",
-         "away": "F.C. COURNON D AUVERGNE 2",
+         "away": "F.C. COURNON D AUVERGNE 3",
          "hs": null,
          "as": null
         }
@@ -914,12 +914,12 @@
        "lieu": "PLAINE DE JEUX 1, ALLEE PIERRE DE COUBERTIN, COURNON D AUVERGNE",
        "organisateur": "",
        "equipes": [
-        "F.C. COURNON D AUVERGNE 2",
+        "F.C. COURNON D AUVERGNE 3",
         "U.S. MOZAC 1"
        ],
        "matchs": [
         {
-         "home": "F.C. COURNON D AUVERGNE 2",
+         "home": "F.C. COURNON D AUVERGNE 3",
          "away": "U.S. MOZAC 1",
          "hs": null,
          "as": null
@@ -1075,12 +1075,12 @@
         {
          "home": "F.C. COURNON D AUVERGNE 3",
          "away": "F.C. LEZOUX 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-21T15:01:49Z"
+       "last_change": "2026-11-21T16:18:52Z"
       },
       {
        "id": "cup460676_2_4_3_2",
@@ -1115,12 +1115,12 @@
         {
          "home": "GJ SCB FOOT 3",
          "away": "U.S. MOZAC 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 3
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-21T15:01:49Z"
+       "last_change": "2026-11-21T16:18:52Z"
       },
       {
        "id": "cup460676_2_4_4_1",
@@ -1247,5 +1247,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-21T15:01:49Z"
+ "updated_at": "2026-11-21T16:18:52Z"
 }

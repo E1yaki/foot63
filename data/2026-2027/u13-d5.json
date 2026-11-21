@@ -1191,7 +1191,7 @@
       "C.S. DE VOLVIC 2",
       "CEBAZAT SP. 2",
       "F.C. BLANZAT 2",
-      "GROUPEMENT DORE ALLIER FOOTBALL 2",
+      "GROUPEMENT DORE ALLIER FOOTBALL 1",
       "R. S. LUZILLAT CHARNAT VINZELLES 1"
      ],
      "plateaux": [
@@ -1205,7 +1205,7 @@
         "C.S. DE VOLVIC 2",
         "CEBAZAT SP. 2",
         "F.C. BLANZAT 2",
-        "GROUPEMENT DORE ALLIER FOOTBALL 2",
+        "GROUPEMENT DORE ALLIER FOOTBALL 1",
         "R. S. LUZILLAT CHARNAT VINZELLES 1"
        ],
        "matchs": [
@@ -1217,7 +1217,7 @@
         },
         {
          "home": "CEBAZAT SP. 2",
-         "away": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+         "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
          "hs": 2,
          "as": 1
         },
@@ -1229,7 +1229,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-07T15:12:20Z"
+       "last_change": "2026-11-21T15:14:51Z"
       },
       {
        "id": "cup460677_2_5_2_2",
@@ -1238,18 +1238,18 @@
        "organisateur": "",
        "equipes": [
         "F.C. BLANZAT 2",
-        "GROUPEMENT DORE ALLIER FOOTBALL 2"
+        "GROUPEMENT DORE ALLIER FOOTBALL 1"
        ],
        "matchs": [
         {
-         "home": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+         "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
          "away": "F.C. BLANZAT 2",
          "hs": 5,
          "as": 2
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:14:51Z"
       },
       {
        "id": "cup460677_2_5_2_1",
@@ -1304,12 +1304,12 @@
         {
          "home": "F.C. BLANZAT 2",
          "away": "CEBAZAT SP. 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 6
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T16:18:52Z"
       },
       {
        "id": "cup460677_2_5_3_2",
@@ -1337,19 +1337,19 @@
        "lieu": "STADE MUNICIPAL, ROUTE DE VIALLE, LUZILLAT",
        "organisateur": "",
        "equipes": [
-        "GROUPEMENT DORE ALLIER FOOTBALL 2",
+        "GROUPEMENT DORE ALLIER FOOTBALL 1",
         "R. S. LUZILLAT CHARNAT VINZELLES 1"
        ],
        "matchs": [
         {
          "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
-         "away": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+         "away": "GROUPEMENT DORE ALLIER FOOTBALL 1",
          "hs": 2,
          "as": 6
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-21T15:01:49Z"
+       "last_change": "2026-11-21T15:14:51Z"
       },
       {
        "id": "cup460677_2_5_4_1",
@@ -1398,11 +1398,11 @@
        "organisateur": "",
        "equipes": [
         "A. OUVOIMOJA 1",
-        "GROUPEMENT DORE ALLIER FOOTBALL 2"
+        "GROUPEMENT DORE ALLIER FOOTBALL 1"
        ],
        "matchs": [
         {
-         "home": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+         "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
          "away": "A. OUVOIMOJA 1",
          "hs": null,
          "as": null
@@ -1458,11 +1458,11 @@
        "organisateur": "",
        "equipes": [
         "C.S. DE VOLVIC 2",
-        "GROUPEMENT DORE ALLIER FOOTBALL 2"
+        "GROUPEMENT DORE ALLIER FOOTBALL 1"
        ],
        "matchs": [
         {
-         "home": "GROUPEMENT DORE ALLIER FOOTBALL 2",
+         "home": "GROUPEMENT DORE ALLIER FOOTBALL 1",
          "away": "C.S. DE VOLVIC 2",
          "hs": null,
          "as": null
@@ -1790,5 +1790,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-21T15:01:49Z"
+ "updated_at": "2026-11-21T16:18:52Z"
 }

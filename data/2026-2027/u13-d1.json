@@ -989,12 +989,12 @@
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 1",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T16:28:02Z"
       },
       {
        "id": "cup460673_2_1_4_3",
@@ -1765,5 +1765,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-21T15:01:49Z"
+ "updated_at": "2026-11-21T16:28:02Z"
 }

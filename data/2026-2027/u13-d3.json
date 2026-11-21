@@ -415,8 +415,8 @@
         {
          "home": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 2",
          "away": "U.S. VIC LE COMTE 2",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 2
         },
         {
          "home": "E.S. ST GERMINOISE 1",
@@ -432,7 +432,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-21T15:01:49Z"
+       "last_change": "2026-11-21T16:18:52Z"
       },
       {
        "id": "cup460675_2_2_4",
@@ -1115,5 +1115,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-21T15:01:49Z"
+ "updated_at": "2026-11-21T16:18:52Z"
 }
