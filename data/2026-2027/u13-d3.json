@@ -145,12 +145,12 @@
         {
          "home": "F. C. CLERMONT METROPOLE 3",
          "away": "CLERMONT FOOT 63 5",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 4
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460675_2_1_3_2",
@@ -185,12 +185,12 @@
         {
          "home": "U.S. LES MARTRES DE VEYRE 1",
          "away": "A.S. MONTFERRANDAISE 4",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 1
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460675_2_1_4_1",
@@ -427,12 +427,12 @@
         {
          "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
          "away": "UNION SPORTIVE BASSIN MINIER 1",
-         "hs": null,
-         "as": null
+         "hs": 6,
+         "as": 0
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-02T22:49:10Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460675_2_2_4",
@@ -653,12 +653,12 @@
         {
          "home": "F.C. BLANZAT 1",
          "away": "C.S. DE VOLVIC 3",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 2
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460675_2_3_3_2",
@@ -673,12 +673,12 @@
         {
          "home": "U.S. MARINGUOISE 1",
          "away": "CLERMONT FOOT 63 4",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 0
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460675_2_3_3_3",
@@ -693,12 +693,12 @@
         {
          "home": "FOOTBALL CLUB PUY DE MUR 1",
          "away": "F.C. AUBIEROIS 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460675_2_3_4_1",
@@ -943,12 +943,12 @@
         {
          "home": "U.S. ST GERVAISIENNE 1",
          "away": "F.C. NORD LIMAGNE 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 9
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460675_2_4_3_2",
@@ -963,12 +963,12 @@
         {
          "home": "FOOTBALL CLUB GERZAT 1",
          "away": "C.S. PONT DU CHATEAU 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 5
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460675_2_4_3_3",
@@ -983,12 +983,12 @@
         {
          "home": "F.C. NORD COMBRAILLE 1",
          "away": "ECUREUILS FRANC ROSIER 2",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 3
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460675_2_4_4_1",
@@ -1115,5 +1115,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-19T16:22:06Z"
+ "updated_at": "2026-11-21T15:01:49Z"
 }

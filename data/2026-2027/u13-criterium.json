@@ -195,12 +195,12 @@
         {
          "home": "AC. S.  MOULINS FOOTBALL 1",
          "away": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 2
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460829_2_1_3_2",
@@ -255,12 +255,12 @@
         {
          "home": "MONTLUCON FOOTBALL 1",
          "away": "ENT. NORD LOZERE F. 1",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 1
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460829_2_1_4_2",
@@ -284,7 +284,7 @@
       },
       {
        "id": "cup460829_2_1_4_1",
-       "start": "2026-11-28T14:00",
+       "start": "2026-11-28T12:00",
        "lieu": "",
        "organisateur": "",
        "equipes": [
@@ -308,7 +308,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460829_2_1_4_3",
@@ -539,7 +539,7 @@
    ]
   }
  ],
- "updated_at": "2026-11-19T16:22:06Z",
+ "updated_at": "2026-11-21T15:01:49Z",
  "depts": {
   "CLERMONT FOOT 63 2": "63",
   "A.S. MONTFERRANDAISE 3": "63",

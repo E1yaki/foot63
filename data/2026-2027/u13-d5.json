@@ -148,12 +148,12 @@
         {
          "home": "U.S. BEAUMONTOISE 2",
          "away": "F.C. AUBIEROIS 2",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 4
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_1_3_2",
@@ -168,12 +168,12 @@
         {
          "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 2",
          "away": "REV.AM.S. BEAUREGARD L'EVEQUE 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 2
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_1_3_3",
@@ -188,12 +188,12 @@
         {
          "home": "U.S. ENNEZAT 2",
          "away": "F.C. PLAUZAT-CHAMPEIX 2",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 2
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_1_4_1",
@@ -631,7 +631,7 @@
      "id": "3",
      "label": "POULE C",
      "teams": [
-      "A.S. MONTFERRANDAISE 5",
+      "A.S. MONTFERRANDAISE 1",
       "A.S. ROYAT A.C. 3",
       "F.C. CHAMALIERES 3",
       "F.C. NORD COMBRAILLE 2",
@@ -645,19 +645,19 @@
        "lieu": "",
        "organisateur": "",
        "equipes": [
-        "A.S. MONTFERRANDAISE 5",
+        "A.S. MONTFERRANDAISE 1",
         "A.S. ROYAT A.C. 3"
        ],
        "matchs": [
         {
-         "home": "A.S. MONTFERRANDAISE 5",
+         "home": "A.S. MONTFERRANDAISE 1",
          "away": "A.S. ROYAT A.C. 3",
          "hs": 13,
          "as": 2
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-20T08:51:29Z"
       },
       {
        "id": "cup460677_2_3_1_2",
@@ -685,7 +685,7 @@
        "lieu": "COMPLEXE SPORTIF GRAVANCHES N°6, RUE DU PRECOMTAL, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
-        "A.S. MONTFERRANDAISE 5",
+        "A.S. MONTFERRANDAISE 1",
         "A.S. ROYAT A.C. 3",
         "F.C. CHAMALIERES 3",
         "F.C. NORD COMBRAILLE 2",
@@ -694,7 +694,7 @@
        ],
        "matchs": [
         {
-         "home": "A.S. MONTFERRANDAISE 5",
+         "home": "A.S. MONTFERRANDAISE 1",
          "away": "F.C. CHAMALIERES 3",
          "hs": 11,
          "as": 0
@@ -713,7 +713,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-16T15:40:17Z"
+       "last_change": "2026-11-20T08:51:29Z"
       },
       {
        "id": "cup460677_2_3_1_3",
@@ -748,12 +748,12 @@
         {
          "home": "FOOTBALL CLUB GERZAT 2",
          "away": "A.S. ROYAT A.C. 3",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 7
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_3_3_2",
@@ -768,12 +768,12 @@
         {
          "home": "F.C. CHAMALIERES 3",
          "away": "U.S. ISSOIRE A. DU MAS 3",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 4
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_3_3_3",
@@ -781,19 +781,19 @@
        "lieu": "STADE SERGE LANCELOT, LA PRADE, MONTAIGUT EN COMBRAILLE",
        "organisateur": "",
        "equipes": [
-        "A.S. MONTFERRANDAISE 5",
+        "A.S. MONTFERRANDAISE 1",
         "F.C. NORD COMBRAILLE 2"
        ],
        "matchs": [
         {
          "home": "F.C. NORD COMBRAILLE 2",
-         "away": "A.S. MONTFERRANDAISE 5",
-         "hs": null,
-         "as": null
+         "away": "A.S. MONTFERRANDAISE 1",
+         "hs": 0,
+         "as": 7
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_3_4",
@@ -801,7 +801,7 @@
        "lieu": "STADE DU BREUIL, CHEMIN DU BREUIL, ROYAT",
        "organisateur": "",
        "equipes": [
-        "A.S. MONTFERRANDAISE 5",
+        "A.S. MONTFERRANDAISE 1",
         "A.S. ROYAT A.C. 3",
         "F.C. CHAMALIERES 3",
         "F.C. NORD COMBRAILLE 2",
@@ -816,7 +816,7 @@
          "as": null
         },
         {
-         "home": "A.S. MONTFERRANDAISE 5",
+         "home": "A.S. MONTFERRANDAISE 1",
          "away": "FOOTBALL CLUB GERZAT 2",
          "hs": null,
          "as": null
@@ -837,7 +837,7 @@
        "lieu": "Complexe Sportif Lavedrine Stade Escuit, RUE JEAN MONNET, ISSOIRE",
        "organisateur": "",
        "equipes": [
-        "A.S. MONTFERRANDAISE 5",
+        "A.S. MONTFERRANDAISE 1",
         "A.S. ROYAT A.C. 3",
         "F.C. CHAMALIERES 3",
         "F.C. NORD COMBRAILLE 2",
@@ -847,7 +847,7 @@
        "matchs": [
         {
          "home": "U.S. ISSOIRE A. DU MAS 3",
-         "away": "A.S. MONTFERRANDAISE 5",
+         "away": "A.S. MONTFERRANDAISE 1",
          "hs": null,
          "as": null
         },
@@ -1034,12 +1034,12 @@
         {
          "home": "U.S. COURPIEROISE 2",
          "away": "ENTENTE CHARBLOT 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 3
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_4_3_3",
@@ -1054,12 +1054,12 @@
         {
          "home": "AULNAT SP. 3",
          "away": "GROUPEMENT FORMATEUR LIMAGNE 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 6
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_4_4_1",
@@ -1324,12 +1324,12 @@
         {
          "home": "C.S. DE VOLVIC 2",
          "away": "A. OUVOIMOJA 1",
-         "hs": null,
-         "as": null
+         "hs": 4,
+         "as": 6
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_5_3_3",
@@ -1344,12 +1344,12 @@
         {
          "home": "R. S. LUZILLAT CHARNAT VINZELLES 1",
          "away": "GROUPEMENT DORE ALLIER FOOTBALL 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 6
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_5_4_1",
@@ -1618,12 +1618,12 @@
         {
          "home": "S.A. THIERNOIS 4",
          "away": "GROUPEMENT DE L'AUZON 3",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 8
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_6_3_2",
@@ -1638,12 +1638,12 @@
         {
          "home": "E.S. ST GERMINOISE 1",
          "away": "AMBERT LIVRADOIS SUD FOOTBALL CLUB 4",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 5
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_6_3_3",
@@ -1658,12 +1658,12 @@
         {
          "home": "A.S. JOB 1",
          "away": "DUROLLE FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 9
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460677_2_6_4_1",
@@ -1790,5 +1790,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-19T16:22:06Z"
+ "updated_at": "2026-11-21T15:01:49Z"
 }

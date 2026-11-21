@@ -1444,12 +1444,12 @@
         {
          "home": "U.S. BEAUMONTOISE 1",
          "away": "ENT.F.C. ST AMANT ET TALLENDE 2",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 0
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460674_2_1_3_2",
@@ -1464,12 +1464,12 @@
         {
          "home": "FOOTBALL CLUB SAUXILLANGES ST BABEL BRENAT 1",
          "away": "C.O. VEYRE MONTON 1",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 9
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460674_2_1_3_3",
@@ -1484,12 +1484,12 @@
         {
          "home": "VAL DE SIOULE FOOT 1",
          "away": "F.C. CHAMALIERES 3",
-         "hs": null,
-         "as": null
+         "hs": 7,
+         "as": 4
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460674_2_1_4_1",
@@ -1698,12 +1698,12 @@
         {
          "home": "C.S. PONT DE DORE 1",
          "away": "GJ SCB FOOT 2",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 3
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-20T12:27:59Z"
       },
       {
        "id": "cup460674_2_2_2_3",
@@ -1738,12 +1738,12 @@
         {
          "home": "S.A. THIERNOIS 2",
          "away": "U.S. ISSOIRE A. DU MAS 2",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 1
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460674_2_2_3_2",
@@ -1758,12 +1758,12 @@
         {
          "home": "GJ SCB FOOT 2",
          "away": "GROUPEMENT FORMATEUR LIMAGNE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 9
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460674_2_2_3_3",
@@ -2048,12 +2048,12 @@
         {
          "home": "S.A. THIERNOIS 3",
          "away": "A. S. CLERMONT SAINT JACQUES FOOT 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 10
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460674_2_3_3_2",
@@ -2068,12 +2068,12 @@
         {
          "home": "A.S. ROYAT A.C. 2",
          "away": "F.C. LEZOUX 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 2
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460674_2_3_3_3",
@@ -2338,12 +2338,12 @@
         {
          "home": "HAUTE COMBRAILLE FOOT 1",
          "away": "F.C. RIOMOIS 3",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 4
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460674_2_4_3_1",
@@ -2358,12 +2358,12 @@
         {
          "home": "C.S. DE VOLVIC 1",
          "away": "F.C. CHATEL GUYON 1",
-         "hs": null,
-         "as": null
+         "hs": 5,
+         "as": 2
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460674_2_4_3_3",
@@ -2378,12 +2378,12 @@
         {
          "home": "U.S. ENNEZAT 1",
          "away": "CEBAZAT SP. 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 6
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-21T15:01:49Z"
       },
       {
        "id": "cup460674_2_4_4_1",
@@ -2510,5 +2510,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-19T16:22:06Z"
+ "updated_at": "2026-11-21T15:01:49Z"
 }
