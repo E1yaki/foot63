@@ -2088,12 +2088,12 @@
         {
          "home": "F. C. CLERMONT METROPOLE 2",
          "away": "CLERMONT FOOT 63 3",
-         "hs": null,
-         "as": null
+         "hs": 3,
+         "as": 8
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-23T08:02:26Z"
       },
       {
        "id": "cup460674_2_3_4_1",
@@ -2510,5 +2510,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-21T15:01:49Z"
+ "updated_at": "2026-11-23T08:02:26Z"
 }

@@ -1642,8 +1642,8 @@
       },
       {
        "id": "cup460673_2_3_4_1",
-       "start": "2026-11-28T14:00",
-       "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
+       "start": "2026-11-28T10:30",
+       "lieu": "PARC DES SPORTS DU CEREY 3, AVENUE DE L'EUROPE, RIOM",
        "organisateur": "",
        "equipes": [
         "F.C. RIOMOIS 1",
@@ -1651,14 +1651,14 @@
        ],
        "matchs": [
         {
-         "home": "GJ SCB FOOT 1",
-         "away": "F.C. RIOMOIS 1",
+         "home": "F.C. RIOMOIS 1",
+         "away": "GJ SCB FOOT 1",
          "hs": null,
          "as": null
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-23T10:06:34Z"
       },
       {
        "id": "cup460673_2_3_4_2",
@@ -1765,5 +1765,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-21T16:28:02Z"
+ "updated_at": "2026-11-23T10:06:34Z"
 }
