@@ -153,26 +153,6 @@
        "last_change": "2026-11-21T15:01:49Z"
       },
       {
-       "id": "cup460675_2_1_3_2",
-       "start": "2026-11-21T14:00",
-       "lieu": "STADE DU LAC, Plan d'Eau, LA TOUR D AUVERGNE",
-       "organisateur": "",
-       "equipes": [
-        "SANCY CHAVANON FOOT 1",
-        "U. J. CLERMONTOISE 1"
-       ],
-       "matchs": [
-        {
-         "home": "SANCY CHAVANON FOOT 1",
-         "away": "U. J. CLERMONTOISE 1",
-         "hs": null,
-         "as": null
-        }
-       ],
-       "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
-      },
-      {
        "id": "cup460675_2_1_3_3",
        "start": "2026-11-21T14:00",
        "lieu": "STADE ÉMILE RIVE 1, RUE DE L'INDUSTRIE, LES MARTRES DE VEYRE",
@@ -287,6 +267,26 @@
        ],
        "heure_connue": true,
        "last_change": "2026-11-09T16:28:42Z"
+      },
+      {
+       "id": "cup460675_2_1_3_2",
+       "start": "2026-12-12T14:00",
+       "lieu": "STADE DU LAC, Plan d'Eau, LA TOUR D AUVERGNE",
+       "organisateur": "",
+       "equipes": [
+        "SANCY CHAVANON FOOT 1",
+        "U. J. CLERMONTOISE 1"
+       ],
+       "matchs": [
+        {
+         "home": "SANCY CHAVANON FOOT 1",
+         "away": "U. J. CLERMONTOISE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-23T15:42:16Z"
       }
      ]
     },
@@ -419,16 +419,16 @@
          "as": 2
         },
         {
-         "home": "E.S. ST GERMINOISE 1",
-         "away": "ESP. CEYRATOISE 2",
-         "hs": null,
-         "as": null
-        },
-        {
          "home": "ENT.F.C. ST AMANT ET TALLENDE 3",
          "away": "UNION SPORTIVE BASSIN MINIER 1",
          "hs": 6,
          "as": 0
+        },
+        {
+         "home": "E.S. ST GERMINOISE 1",
+         "away": "ESP. CEYRATOISE 2",
+         "hs": null,
+         "as": null
         }
        ],
        "heure_connue": true,
@@ -493,7 +493,7 @@
       {
        "id": "cup460675_2_2_5_2",
        "start": "2026-12-05T14:00",
-       "lieu": "STADE DE BASSE COMBELLE 1, ROUTE D'ISSOIRE La Combelle, AUZAT LA COMBELLE",
+       "lieu": "STADE DE BASSE COMBELLE 1, STADE EMILIO ANTONIO ROUTE D'ISSOIRE La Combelle, AUZAT LA COMBELLE",
        "organisateur": "",
        "equipes": [
         "ESP. CEYRATOISE 2",
@@ -508,7 +508,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-24T08:53:28Z"
       },
       {
        "id": "cup460675_2_2_5_3",
@@ -763,7 +763,7 @@
       {
        "id": "cup460675_2_3_5_1",
        "start": "2026-12-05T14:00",
-       "lieu": "",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°1, 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
        "organisateur": "",
        "equipes": [
         "C.S. DE VOLVIC 3",
@@ -778,7 +778,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-25T11:15:00Z"
       },
       {
        "id": "cup460675_2_3_5_2",
@@ -1115,5 +1115,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-21T16:18:52Z"
+ "updated_at": "2026-11-25T11:15:00Z"
 }

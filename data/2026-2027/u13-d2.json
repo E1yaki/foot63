@@ -1766,26 +1766,6 @@
        "last_change": "2026-11-21T15:01:49Z"
       },
       {
-       "id": "cup460674_2_2_3_3",
-       "start": "2026-11-21T14:00",
-       "lieu": "STADE ETIENNE BONHOMME, AVENUE PIERRE DE COUBERTIN, COURPIERE",
-       "organisateur": "",
-       "equipes": [
-        "C.S. PONT DE DORE 1",
-        "U.S. COURPIEROISE 1"
-       ],
-       "matchs": [
-        {
-         "home": "U.S. COURPIEROISE 1",
-         "away": "C.S. PONT DE DORE 1",
-         "hs": null,
-         "as": null
-        }
-       ],
-       "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
-      },
-      {
        "id": "cup460674_2_2_4_1",
        "start": "2026-11-28T14:00",
        "lieu": "STADE ANGEL RECH, ALLEE DES SPORTS, CHAMBARON SUR MORGE",
@@ -1848,7 +1828,7 @@
       {
        "id": "cup460674_2_2_5_1",
        "start": "2026-12-05T14:00",
-       "lieu": "",
+       "lieu": "Complexe Sportif Lavedrine Stade Vaury, COMPLEXE SPORTIF JACQUES LAVEDRI RUE JEAN MONET, ISSOIRE",
        "organisateur": "",
        "equipes": [
         "GROUPEMENT FORMATEUR LIMAGNE 1",
@@ -1863,7 +1843,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-25T11:15:00Z"
       },
       {
        "id": "cup460674_2_2_5_2",
@@ -1924,6 +1904,26 @@
        ],
        "heure_connue": true,
        "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_2_3_3",
+       "start": "2026-12-19T14:00",
+       "lieu": "STADE ETIENNE BONHOMME, AVENUE PIERRE DE COUBERTIN, COURPIERE",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DE DORE 1",
+        "U.S. COURPIEROISE 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. COURPIEROISE 1",
+         "away": "C.S. PONT DE DORE 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-23T15:42:16Z"
       }
      ]
     },
@@ -2176,26 +2176,6 @@
        "last_change": "2026-11-19T16:22:06Z"
       },
       {
-       "id": "cup460674_2_3_5_2",
-       "start": "2026-12-05T14:00",
-       "lieu": "STADE DU BREUIL, CHEMIN DU BREUIL, ROYAT",
-       "organisateur": "",
-       "equipes": [
-        "A.S. ROYAT A.C. 2",
-        "F. C. CLERMONT METROPOLE 2"
-       ],
-       "matchs": [
-        {
-         "home": "A.S. ROYAT A.C. 2",
-         "away": "F. C. CLERMONT METROPOLE 2",
-         "hs": null,
-         "as": null
-        }
-       ],
-       "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
-      },
-      {
        "id": "cup460674_2_3_5_3",
        "start": "2026-12-05T14:00",
        "lieu": "STADE DU VERNADEL, CHEMIN DES CHARRETIERS, LEZOUX",
@@ -2214,6 +2194,26 @@
        ],
        "heure_connue": true,
        "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460674_2_3_5_2",
+       "start": "2026-12-05T14:30",
+       "lieu": "STADE DU BREUIL, CHEMIN DU BREUIL, ROYAT",
+       "organisateur": "",
+       "equipes": [
+        "A.S. ROYAT A.C. 2",
+        "F. C. CLERMONT METROPOLE 2"
+       ],
+       "matchs": [
+        {
+         "home": "A.S. ROYAT A.C. 2",
+         "away": "F. C. CLERMONT METROPOLE 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-23T15:42:16Z"
       }
      ]
     },
@@ -2510,5 +2510,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-23T08:02:26Z"
+ "updated_at": "2026-11-25T11:15:00Z"
 }

@@ -957,26 +957,6 @@
        "last_change": "2026-11-21T15:01:49Z"
       },
       {
-       "id": "cup460673_2_1_3_2",
-       "start": "2026-11-21T14:00",
-       "lieu": "STADE ANDRÉ BOSTE 1, 128 ROUTE D'AMBERT, VIC LE COMTE",
-       "organisateur": "",
-       "equipes": [
-        "U.S. ISSOIRE A. DU MAS 1",
-        "U.S. VIC LE COMTE 1"
-       ],
-       "matchs": [
-        {
-         "home": "U.S. VIC LE COMTE 1",
-         "away": "U.S. ISSOIRE A. DU MAS 1",
-         "hs": null,
-         "as": null
-        }
-       ],
-       "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
-      },
-      {
        "id": "cup460673_2_1_3_3",
        "start": "2026-11-21T14:00",
        "lieu": "STADE MARCEL BLONDELLE 1, LE BOURG, VERTOLAYE",
@@ -1155,6 +1135,26 @@
        ],
        "heure_connue": true,
        "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460673_2_1_3_2",
+       "start": "2026-12-19T14:00",
+       "lieu": "STADE ANDRÉ BOSTE 1, 128 ROUTE D'AMBERT, VIC LE COMTE",
+       "organisateur": "",
+       "equipes": [
+        "U.S. ISSOIRE A. DU MAS 1",
+        "U.S. VIC LE COMTE 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. VIC LE COMTE 1",
+         "away": "U.S. ISSOIRE A. DU MAS 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-23T15:42:16Z"
       }
      ]
     },
@@ -1299,12 +1299,12 @@
         {
          "home": "F. C. CLERMONT METROPOLE 1",
          "away": "ESP. CEYRATOISE 1",
-         "hs": null,
-         "as": null
+         "hs": 0,
+         "as": 6
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-23T15:42:16Z"
       },
       {
        "id": "cup460673_2_2_3_3",
@@ -1765,5 +1765,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-23T10:06:34Z"
+ "updated_at": "2026-11-23T15:42:16Z"
 }

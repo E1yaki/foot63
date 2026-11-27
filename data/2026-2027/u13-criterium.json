@@ -215,12 +215,12 @@
         {
          "home": "S.A. THIERNOIS 1",
          "away": "CLERMONT FOOT 63 2",
-         "hs": null,
-         "as": null
+         "hs": 2,
+         "as": 3
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-26T09:10:17Z"
       },
       {
        "id": "cup460829_2_1_3_1",
@@ -275,12 +275,12 @@
         {
          "home": "A.S. MONTFERRANDAISE 3",
          "away": "S.A. THIERNOIS 1",
-         "hs": null,
-         "as": null
+         "hs": 1,
+         "as": 5
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-26T09:10:17Z"
       },
       {
        "id": "cup460829_2_1_4_1",
@@ -289,20 +289,12 @@
        "organisateur": "",
        "equipes": [
         "CERC.S. ARPAJONNAIS 1",
-        "CLERMONT FOOT 63 2",
-        "MONTLUCON FOOTBALL 1",
-        "MOULINS YZEURE FOOT 03 AUVERGNE 1"
+        "MONTLUCON FOOTBALL 1"
        ],
        "matchs": [
         {
          "home": "CERC.S. ARPAJONNAIS 1",
          "away": "MONTLUCON FOOTBALL 1",
-         "hs": null,
-         "as": null
-        },
-        {
-         "home": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
-         "away": "CLERMONT FOOT 63 2",
          "hs": null,
          "as": null
         }
@@ -312,6 +304,26 @@
       },
       {
        "id": "cup460829_2_1_4_3",
+       "start": "2026-11-28T14:00",
+       "lieu": "STADE DE CHAMP DAILLANT, BOULEVARD LOUIS GUILLOT, YZEURE",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT FOOT 63 2",
+        "MOULINS YZEURE FOOT 03 AUVERGNE 1"
+       ],
+       "matchs": [
+        {
+         "home": "MOULINS YZEURE FOOT 03 AUVERGNE 1",
+         "away": "CLERMONT FOOT 63 2",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-25T07:07:29Z"
+      },
+      {
+       "id": "cup460829_2_1_4_4",
        "start": "2026-11-28T14:00",
        "lieu": "STADE DE LA BAÏSSE 1, route de st chely d' apcher, ST ALBAN SUR LIMAGNOLE",
        "organisateur": "",
@@ -328,7 +340,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-25T07:07:29Z"
       },
       {
        "id": "cup460829_2_1_5_1",
@@ -353,6 +365,26 @@
       {
        "id": "cup460829_2_1_5_2",
        "start": "2026-12-05T14:00",
+       "lieu": "STADE CAMILLE LECLANCHÉ N°1, 9 RUE LOUISE MICHEL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "CLERMONT FOOT 63 2",
+        "ENT. NORD LOZERE F. 1"
+       ],
+       "matchs": [
+        {
+         "home": "CLERMONT FOOT 63 2",
+         "away": "ENT. NORD LOZERE F. 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-27T07:17:27Z"
+      },
+      {
+       "id": "cup460829_2_1_5_3",
+       "start": "2026-12-05T14:00",
        "lieu": "STADE DES ÎLETS, RUE DES FAUCHEROUX, MONTLUCON",
        "organisateur": "",
        "equipes": [
@@ -368,27 +400,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
-      },
-      {
-       "id": "cup460829_2_1_5_3",
-       "start": "2026-12-05T14:00",
-       "lieu": "STADE GABRIEL MONTPIED 2, TERRAIN 2 ANNEXE RUE ROBERT LEMOY, CLERMONT FERRAND",
-       "organisateur": "",
-       "equipes": [
-        "CLERMONT FOOT 63 2",
-        "ENT. NORD LOZERE F. 1"
-       ],
-       "matchs": [
-        {
-         "home": "CLERMONT FOOT 63 2",
-         "away": "ENT. NORD LOZERE F. 1",
-         "hs": null,
-         "as": null
-        }
-       ],
-       "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-27T07:17:27Z"
       },
       {
        "id": "cup460829_2_1_5_4",
@@ -411,6 +423,26 @@
        "last_change": "2026-11-19T16:22:06Z"
       },
       {
+       "id": "cup460829_2_1_6_2",
+       "start": "2026-12-12T12:00",
+       "lieu": "COMPLEXE SPORTIF GRAVANCHES N°1, RUE DU PRECOMTAL, CLERMONT FERRAND",
+       "organisateur": "",
+       "equipes": [
+        "A.S. MONTFERRANDAISE 3",
+        "AC. S.  MOULINS FOOTBALL 1"
+       ],
+       "matchs": [
+        {
+         "home": "A.S. MONTFERRANDAISE 3",
+         "away": "AC. S.  MOULINS FOOTBALL 1",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-27T07:17:27Z"
+      },
+      {
        "id": "cup460829_2_1_6_1",
        "start": "2026-12-12T14:00",
        "lieu": "",
@@ -423,26 +455,6 @@
         {
          "home": "CERC.S. ARPAJONNAIS 1",
          "away": "CLERMONT FOOT 63 2",
-         "hs": null,
-         "as": null
-        }
-       ],
-       "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
-      },
-      {
-       "id": "cup460829_2_1_6_2",
-       "start": "2026-12-12T14:00",
-       "lieu": "COMPLEXE SPORTIF GRAVANCHES N°1, RUE DU PRECOMTAL, CLERMONT FERRAND",
-       "organisateur": "",
-       "equipes": [
-        "A.S. MONTFERRANDAISE 3",
-        "AC. S.  MOULINS FOOTBALL 1"
-       ],
-       "matchs": [
-        {
-         "home": "A.S. MONTFERRANDAISE 3",
-         "away": "AC. S.  MOULINS FOOTBALL 1",
          "hs": null,
          "as": null
         }
@@ -539,7 +551,7 @@
    ]
   }
  ],
- "updated_at": "2026-11-21T16:28:02Z",
+ "updated_at": "2026-11-27T07:17:27Z",
  "depts": {
   "CLERMONT FOOT 63 2": "63",
   "A.S. MONTFERRANDAISE 3": "63",

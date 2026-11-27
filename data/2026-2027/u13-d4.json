@@ -206,8 +206,8 @@
       },
       {
        "id": "cup460676_2_1_4_1",
-       "start": "2026-11-28T14:00",
-       "lieu": "STADE MUNICIPAL 1, 88 AV DU DOCTEUR EUGENE CHASSAING, AMBERT",
+       "start": "2026-11-28T13:30",
+       "lieu": "STADE DE LA GRAVIÈRE, CHEMIN DE LA GRAVIERE, MARSAC EN LIVRADOIS",
        "organisateur": "",
        "equipes": [
         "AMBERT LIVRADOIS SUD FOOTBALL CLUB 3",
@@ -222,7 +222,7 @@
         }
        ],
        "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
+       "last_change": "2026-11-24T12:38:15Z"
       },
       {
        "id": "cup460676_2_1_4_2",
@@ -479,26 +479,6 @@
        "last_change": "2026-11-21T15:01:49Z"
       },
       {
-       "id": "cup460676_2_2_3_3",
-       "start": "2026-11-21T14:00",
-       "lieu": "STADE ROGER FOURNIER, ROUTE DE CHAMPEIX, COUDES",
-       "organisateur": "",
-       "equipes": [
-        "C.S. PONT DU CHATEAU 3",
-        "U.S. VAL DE COUZE CHAMBON 1"
-       ],
-       "matchs": [
-        {
-         "home": "U.S. VAL DE COUZE CHAMBON 1",
-         "away": "C.S. PONT DU CHATEAU 3",
-         "hs": null,
-         "as": null
-        }
-       ],
-       "heure_connue": true,
-       "last_change": "2026-11-19T16:22:06Z"
-      },
-      {
        "id": "cup460676_2_2_3_2",
        "start": "2026-11-21T14:30",
        "lieu": "STADE MAURICE FOURNIER 1, D52  RUE DES VERGERS, ORCET",
@@ -637,6 +617,26 @@
        ],
        "heure_connue": true,
        "last_change": "2026-11-19T16:22:06Z"
+      },
+      {
+       "id": "cup460676_2_2_3_3",
+       "start": "2026-12-12T14:00",
+       "lieu": "STADE ROGER FOURNIER, ROUTE DE CHAMPEIX, COUDES",
+       "organisateur": "",
+       "equipes": [
+        "C.S. PONT DU CHATEAU 3",
+        "U.S. VAL DE COUZE CHAMBON 1"
+       ],
+       "matchs": [
+        {
+         "home": "U.S. VAL DE COUZE CHAMBON 1",
+         "away": "C.S. PONT DU CHATEAU 3",
+         "hs": null,
+         "as": null
+        }
+       ],
+       "heure_connue": true,
+       "last_change": "2026-11-23T15:42:16Z"
       }
      ]
     },
@@ -1247,5 +1247,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-21T16:18:52Z"
+ "updated_at": "2026-11-24T12:38:15Z"
 }
